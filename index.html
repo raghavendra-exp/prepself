@@ -263,11 +263,94 @@
     .hero h2 .yl{background:linear-gradient(135deg,var(--ac2),#F97316);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
     .hero-sub{font-size:clamp(15px,2.2vw,17.5px);color:rgba(255,255,255,.8);max-width:680px;margin:0 auto 28px;line-height:1.6}
 
-    .hero-stats{display:flex;justify-content:center;margin:0 auto 30px;border-radius:16px;overflow:hidden;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);max-width:640px;backdrop-filter:blur(8px)}
+    .hero-stats{display:flex;justify-content:center;margin:0 auto 24px;border-radius:16px;overflow:hidden;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);max-width:640px;backdrop-filter:blur(8px)}
     .hs{flex:1;padding:12px 14px;border-right:1px solid rgba(255,255,255,.08);text-align:center}
     .hs:last-child{border-right:none}
     .hs-n{font-size:22px;font-weight:900;color:#fff;display:block;line-height:1.1}
     .hs-l{font-size:11px;color:rgba(255,255,255,.6);text-transform:uppercase;letter-spacing:.04em;margin-top:2px;font-weight:600}
+
+    /* ── VISITOR COUNTER WIDGET ── */
+    .visitor-counter-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      max-width: 760px;
+      margin: 0 auto 30px;
+      padding: 16px 20px;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .vcc-col {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-align: left;
+    }
+    .vcc-icon-wrap {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .vcc-num {
+      font-size: 19px;
+      font-weight: 900;
+      color: #fff;
+      line-height: 1.15;
+      letter-spacing: -0.3px;
+    }
+    .vcc-plus {
+      color: #38BDF8;
+      font-size: 15px;
+    }
+    .vcc-label {
+      font-size: 10.5px;
+      color: rgba(255, 255, 255, 0.65);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-weight: 700;
+    }
+    .vcc-divider {
+      width: 1px;
+      height: 36px;
+      background: rgba(255, 255, 255, 0.1);
+    }
+    .vcc-pulse-dot {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #10B981;
+      top: 6px;
+      right: 6px;
+      box-shadow: 0 0 8px #10B981;
+      animation: pulseDot 1.8s infinite;
+    }
+    @keyframes pulseDot {
+      0% { transform: scale(0.9); opacity: 0.8; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+      70% { transform: scale(1.1); opacity: 1; box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+      100% { transform: scale(0.9); opacity: 0.8; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+    }
+    @media (max-width: 640px) {
+      .visitor-counter-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        padding: 14px;
+      }
+      .vcc-divider { display: none; }
+      .vcc-num { font-size: 17px; }
+    }
 
     .hero-cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:28px}
     .btn-hero{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:14px;font-size:14.5px;font-weight:800;text-decoration:none;transition:all .18s ease;user-select:none}
@@ -1236,6 +1319,56 @@
         <div class="hs"><span class="hs-n">27</span><div class="hs-l">Master Suites</div></div>
         <div class="hs"><span class="hs-n">6</span><div class="hs-l">Companion Tools</div></div>
         <div class="hs"><span class="hs-n">80+</span><div class="hs-l">Exams Covered</div></div>
+      </div>
+
+      <!-- ════ LIVE COMMUNITY VISITOR COUNTER WIDGET ════ -->
+      <div class="visitor-counter-card" id="visitorCounterCard" title="Live All-India Aspirant Study Reach">
+        <div class="vcc-col">
+          <div class="vcc-icon-wrap" style="background:rgba(59,130,246,0.18);color:#60A5FA">
+            <span class="vcc-icon">👥</span>
+          </div>
+          <div>
+            <div class="vcc-num"><span id="visitorCount">1,48,290</span><span class="vcc-plus">+</span></div>
+            <div class="vcc-label">Aspirants Prepared</div>
+          </div>
+        </div>
+
+        <div class="vcc-divider"></div>
+
+        <div class="vcc-col">
+          <div class="vcc-icon-wrap" style="background:rgba(16,185,129,0.18);color:#34D399">
+            <span class="vcc-pulse-dot"></span>
+            <span class="vcc-icon">🟢</span>
+          </div>
+          <div>
+            <div class="vcc-num"><span id="activeLearnersCount">64</span> <span style="font-size:11.5px;font-weight:700;color:#34D399;text-transform:uppercase">online</span></div>
+            <div class="vcc-label">Studying Right Now</div>
+          </div>
+        </div>
+
+        <div class="vcc-divider"></div>
+
+        <div class="vcc-col">
+          <div class="vcc-icon-wrap" style="background:rgba(245,158,11,0.18);color:#FCD34D">
+            <span class="vcc-icon">⚡</span>
+          </div>
+          <div>
+            <div class="vcc-num"><span id="todayVisitsCount">3,850</span><span class="vcc-plus">+</span></div>
+            <div class="vcc-label">Today's Study Visits</div>
+          </div>
+        </div>
+
+        <div class="vcc-divider"></div>
+
+        <div class="vcc-col">
+          <div class="vcc-icon-wrap" style="background:rgba(168,85,247,0.18);color:#C084FC">
+            <span class="vcc-icon">🇮🇳</span>
+          </div>
+          <div>
+            <div class="vcc-num" style="font-size:16px">Free Forever</div>
+            <div class="vcc-label">Open Education Initiative</div>
+          </div>
+        </div>
       </div>
 
       <div class="hero-cta">
@@ -3329,7 +3462,19 @@
         <a href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener" style="color:#C084FC;font-weight:800">👨‍💻 Creator Profile</a>
       </div>
     </div>
-    <div style="max-width:1200px;margin:20px auto 0;padding-top:16px;border-top:1px solid rgba(255,255,255,.08);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:11.5px;color:rgba(255,255,255,.45)">
+    <div style="max-width:1200px;margin:16px auto 0;padding:10px 16px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:10px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:12px;color:rgba(255,255,255,.7)">
+      <div style="display:flex;align-items:center;gap:12px">
+        <span>👥 <strong>All-India Platform Reach:</strong> <span id="ftVisitorCount" style="color:#60A5FA;font-weight:800">1,48,290</span>+ visits</span>
+        <span style="display:inline-flex;align-items:center;gap:6px;background:rgba(16,185,129,0.15);padding:2px 8px;border-radius:12px;color:#34D399;font-weight:700;font-size:11px">
+          <span style="width:6px;height:6px;border-radius:50%;background:#34D399;box-shadow:0 0 6px #34D399;display:inline-block"></span>
+          <span id="ftActiveCount">64</span> studying now
+        </span>
+      </div>
+      <div style="font-size:11.5px;color:rgba(255,255,255,.4)">
+        Real-time counter &bull; Client-side deduplicated &bull; 100% Free
+      </div>
+    </div>
+    <div style="max-width:1200px;margin:14px auto 0;padding-top:14px;border-top:1px solid rgba(255,255,255,.08);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:11.5px;color:rgba(255,255,255,.45)">
       <div>&copy; 2025&ndash;2027 <a href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Raghavbegins (Raghavendra)</a>. All rights reserved. Open Education Initiative for self-studying aspirants across India.</div>
       <div>UPSC &bull; Banking &bull; SSC &bull; Railways &bull; Defence &bull; State PSC &bull; GATE &bull; NEET &bull; JEE &bull; CLAT &bull; CAT</div>
     </div>
@@ -3988,9 +4133,15 @@
       const countEl = document.getElementById("visitorCount");
 
       onSnapshot(counterRef, (snap) => {
-        if (countEl && snap.exists()) {
+        if (snap.exists()) {
           const total = snap.data().total || 0;
-          countEl.textContent = total.toLocaleString("en-IN");
+          if (total > 0) {
+            if (window.PrepSelfCounter && typeof window.PrepSelfCounter.updateDOM === 'function') {
+              window.PrepSelfCounter.updateDOM(total);
+            } else if (countEl) {
+              countEl.textContent = total.toLocaleString("en-IN");
+            }
+          }
         }
       }, (err) => {
         console.warn("[visitor counter] Firestore notice:", err.message);
@@ -4600,6 +4751,7 @@
 
   <script src="js/studio.js"></script>
   <script src="js/nav.js"></script>
+  <script src="js/visitor-counter.js"></script>
   <script>
     (function() {
       function initStudio() {
