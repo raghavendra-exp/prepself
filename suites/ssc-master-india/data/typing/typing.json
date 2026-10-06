@@ -1,0 +1,22 @@
+[
+  {
+    "id": "typing-en-01",
+    "language": "en",
+    "title": "SSC CHSL & CGL Real Exam Standard English Passage 1",
+    "level": "exam-standard",
+    "targetWPM": 35,
+    "timeSeconds": 600,
+    "notes": "Official standard passage reflecting administrative and economic vocabulary. Aim for < 5% error for UR category.",
+    "text": "Good governance and efficient administration are the cornerstones of modern economic progress. In recent decades, government agencies across India have increasingly embraced digital technological solutions to expedite service delivery and streamline public distribution mechanisms. Transparency in public financial management guarantees that welfare funds reach the intended beneficiaries without leakages. The introduction of unified portal architectures and digital document verification has fundamentally transformed public recruitment procedures, ensuring parity of esteem and equal opportunity for every aspirant across rural and urban landscapes."
+  },
+  {
+    "id": "typing-hi-01",
+    "language": "hi",
+    "title": "एसएससी परीक्षा मानक हिंदी टाइपिंग अभ्यास (मंगल/रेमिंगटन गेल)",
+    "level": "exam-standard",
+    "targetWPM": 30,
+    "timeSeconds": 600,
+    "notes": "आधिकारिक परीक्षा मानक गद्यांश। 30 शब्द प्रति मिनट (9000 की-डिप्रेशन प्रति घंटा) की गति अनिवार्य है।",
+    "text": "सुशासन और पारदर्शी प्रशासन किसी भी लोकतांत्रिक राष्ट्र के सर्वांगीण विकास की आधारशिला होते हैं। आधुनिक युग में डिजिटल प्रौद्योगिकी के प्रयोग ने सरकारी सेवाओं को आम नागरिकों तक अत्यंत सुलभ और तीव्र बना दिया है। प्रत्यक्ष लाभ अंतरण योजना के माध्यम से कल्याणकारी योजनाओं का धन सीधे लाभार्थियों के बैंक खातों में पहुंच रहा है। इससे न केवल प्रशासनिक दक्षता में वृद्धि हुई है बल्कि बिचौलियों की भूमिका भी समाप्त हुई है। कर्मचारी चयन आयोग द्वारा आयोजित की जाने वाली विभिन्न प्रतियोगी परीक्षाओं में लाखों युवा अपनी योग्यता और निष्ठा के बल पर राष्ट्र निर्माण में योगदान देने का संकल्प लेते हैं।"
+  }
+]

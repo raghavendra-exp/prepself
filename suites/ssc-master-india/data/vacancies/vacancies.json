@@ -1,0 +1,142 @@
+[
+  {
+    "id": "vac-cgl-2026",
+    "exam": "cgl",
+    "year": 2026,
+    "post": "Combined Graduate Level Posts (Group B & C)",
+    "department": "Various Ministries / Departments / Organisations",
+    "category": {
+      "ur": 7225,
+      "obc": 4612,
+      "sc": 2680,
+      "st": 1410,
+      "ews": 1800,
+      "esm": 1650,
+      "total": 17727
+    },
+    "isTentative": true,
+    "source": "SSC Official Notice Tentative Vacancies for CGL 2026",
+    "sourceUrl": "https://ssc.gov.in",
+    "lastVerified": "2026-09-28"
+  },
+  {
+    "id": "vac-chsl-2026",
+    "exam": "chsl",
+    "year": 2026,
+    "post": "LDC / JSA / DEO Grade A",
+    "department": "Central Government Ministries and Departments",
+    "category": {
+      "ur": 1542,
+      "obc": 980,
+      "sc": 556,
+      "st": 284,
+      "ews": 350,
+      "esm": 320,
+      "total": 3712
+    },
+    "isTentative": true,
+    "source": "SSC CHSL 2026 Notification",
+    "sourceUrl": "https://ssc.gov.in",
+    "lastVerified": "2026-09-28"
+  },
+  {
+    "id": "vac-mts-2026",
+    "exam": "mts",
+    "year": 2026,
+    "post": "MTS & Havaldar in CBIC/CBN",
+    "department": "Various Ministries & CBIC/CBN",
+    "category": {
+      "ur": 4120,
+      "obc": 2450,
+      "sc": 1420,
+      "st": 710,
+      "ews": 883,
+      "esm": 910,
+      "total": 9583
+    },
+    "isTentative": true,
+    "source": "SSC MTS & Havaldar Notice",
+    "sourceUrl": "https://ssc.gov.in",
+    "lastVerified": "2026-09-28"
+  },
+  {
+    "id": "vac-gd-2026",
+    "exam": "gd",
+    "year": 2026,
+    "post": "Constable (GD) in BSF, CISF, CRPF, SSB, ITBP, AR, SSF",
+    "department": "Central Armed Police Forces (MHA)",
+    "category": {
+      "ur": 16210,
+      "obc": 10450,
+      "sc": 5820,
+      "st": 3201,
+      "ews": 3800,
+      "esm": 3948,
+      "total": 39481
+    },
+    "isTentative": true,
+    "source": "CAPFs / MHA Requisition via SSC",
+    "sourceUrl": "https://ssc.gov.in",
+    "lastVerified": "2026-09-28"
+  },
+  {
+    "id": "vac-cpo-2026",
+    "exam": "cpo",
+    "year": 2026,
+    "post": "Sub-Inspector in Delhi Police & CAPFs",
+    "department": "Delhi Police & Central Armed Police Forces",
+    "category": {
+      "ur": 1720,
+      "obc": 1120,
+      "sc": 630,
+      "st": 317,
+      "ews": 400,
+      "esm": 418,
+      "total": 4187
+    },
+    "isTentative": true,
+    "source": "SSC CPO Notification",
+    "sourceUrl": "https://ssc.gov.in",
+    "lastVerified": "2026-09-28"
+  },
+  {
+    "id": "vac-je-2026",
+    "exam": "je",
+    "year": 2026,
+    "post": "Junior Engineer (Civil, Mechanical, Electrical)",
+    "department": "CPWD, MES, BRO, CWC, Farakka, NTRO",
+    "category": {
+      "ur": 730,
+      "obc": 465,
+      "sc": 260,
+      "st": 135,
+      "ews": 175,
+      "esm": 120,
+      "total": 1765
+    },
+    "isTentative": true,
+    "source": "SSC JE Official Notice",
+    "sourceUrl": "https://ssc.gov.in",
+    "lastVerified": "2026-09-28"
+  },
+  {
+    "id": "vac-steno-2026",
+    "exam": "stenographer",
+    "year": 2026,
+    "post": "Stenographer Grade C & D",
+    "department": "Central Ministries & Attached Offices",
+    "category": {
+      "ur": 840,
+      "obc": 530,
+      "sc": 300,
+      "st": 140,
+      "ews": 196,
+      "esm": 180,
+      "total": 2006
+    },
+    "isTentative": true,
+    "source": "SSC Stenographer Notification",
+    "sourceUrl": "https://ssc.gov.in",
+    "lastVerified": "2026-09-28"
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "module": "Emerging Technologies & Future Trends",
+  "version": "2026.1",
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "Artificial Intelligence, Machine Learning & Generative AI",
+      "hindiTitle": "आर्टिफिशियल इंटेलिजेंस, मशीन लर्निंग और जेनरेटिव AI",
+      "taxonomy": [
+        {
+          "branch": "Artificial Intelligence (AI)",
+          "definition": "Broad discipline of creating machines capable of simulating human intelligence and reasoning."
+        },
+        {
+          "branch": "Machine Learning (ML)",
+          "definition": "Subset of AI that gives systems ability to learn and improve from experience without being explicitly programmed."
+        },
+        {
+          "branch": "Deep Learning (DL)",
+          "definition": "Subset of ML using Multi-layered Artificial Neural Networks (ANNs) inspired by the human brain."
+        },
+        {
+          "branch": "Generative AI",
+          "definition": "Deep learning models (e.g. Large Language Models - LLMs, Diffusion models) capable of generating novel text, code, audio, and images."
+        }
+      ],
+      "learningParadigms": [
+        {
+          "type": "Supervised Learning",
+          "desc": "Trained on labeled datasets (input paired with correct output). Used in bank credit scoring, fraud detection."
+        },
+        {
+          "type": "Unsupervised Learning",
+          "desc": "Trained on unlabeled data to discover hidden patterns, groupings, and clusters (e.g. customer segmentation, anomaly detection)."
+        },
+        {
+          "type": "Reinforcement Learning",
+          "desc": "Agent learns by trial and error through reward and penalty system in dynamic environments."
+        }
+      ]
+    },
+    {
+      "id": "blockchain-cbdc",
+      "title": "Blockchain, Distributed Ledger & CBDC (e-Rupee)",
+      "hindiTitle": "ब्लॉकचेन, डिस्ट्रीब्यूटेड लेजर और CBDC (डिजिटल रुपया)",
+      "blockchainBasics": {
+        "definition": "A decentralized, distributed, and cryptographically immutable digital ledger of transactions replicated across peer-to-peer nodes.",
+        "keyElements": [
+          {
+            "name": "Blocks",
+            "desc": "Containers of transactional data, timestamp, and cryptographic hash of the previous block."
+          },
+          {
+            "name": "Genesis Block",
+            "desc": "Block 0, the very first initial block in a blockchain hierarchy."
+          },
+          {
+            "name": "Immutability",
+            "desc": "Once recorded, data in any block cannot be altered retroactively without alteration of all subsequent blocks."
+          },
+          {
+            "name": "Consensus Mechanisms",
+            "desc": "Proof of Work (PoW - energy intensive, Bitcoin), Proof of Stake (PoS - validator staking, Ethereum 2.0)."
+          },
+          {
+            "name": "Smart Contracts",
+            "desc": "Self-executing digital contracts with terms of agreement written directly into code lines (pioneered by Ethereum)."
+          }
+        ]
+      },
+      "cbdc": {
+        "name": "Central Bank Digital Currency (CBDC) - Digital Rupee (e₹)",
+        "issuer": "Reserve Bank of India (RBI)",
+        "nature": "Legal tender issued in digital form by sovereign central bank. Represents direct liability of RBI on currency balance sheet (unlike commercial bank deposits).",
+        "twoVariants": [
+          {
+            "variant": "CBDC-Wholesale (e₹-W)",
+            "launched": "November 1, 2022",
+            "useCase": "Settlement of secondary market transactions in government securities."
+          },
+          {
+            "variant": "CBDC-Retail (e₹-R)",
+            "launched": "December 1, 2022",
+            "useCase": "Public retail transactions via digital wallets distributed through commercial banks."
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantum-iot-5g",
+      "title": "Quantum Computing, IoT & 5G Telecommunications",
+      "hindiTitle": "क्वांटम कंप्यूटिंग, IoT और 5G दूरसंचार",
+      "topics": [
+        {
+          "name": "Quantum Computing",
+          "basicUnit": "Qubit (Quantum Bit) - unlike classical bits (0 or 1), qubits can exist simultaneously in states 0 and 1.",
+          "principles": [
+            {
+              "principle": "Superposition",
+              "desc": "Ability of quantum system to be in multiple states at once until measured."
+            },
+            {
+              "principle": "Entanglement",
+              "desc": "Quantum phenomenon where pairs of qubits become linked such that state of one instantly dictates state of other regardless of distance."
+            }
+          ],
+          "impactOnBanking": "Threatens classical public-key cryptography (RSA/ECC broken by Shor's Algorithm); drives migration to Post-Quantum Cryptography (PQC)."
+        },
+        {
+          "name": "Internet of Things (IoT)",
+          "definition": "Network of physical devices embedded with sensors, software, and connectivity that collect and exchange data over internet.",
+          "protocols": "MQTT (Message Queuing Telemetry Transport - lightweight publish/subscribe), CoAP, Bluetooth Low Energy (BLE)."
+        },
+        {
+          "name": "5G & 6G Networks",
+          "improvements": "Ultra-low latency (<1 ms), high throughput (up to 10-20 Gbps), massive device density (1 million devices/km²), Network Slicing."
+        },
+        {
+          "name": "Big Data 5 Vs",
+          "dimensions": [
+            {
+              "v": "Volume",
+              "desc": "Vast scale of generated data (Terabytes to Zettabytes)."
+            },
+            {
+              "v": "Velocity",
+              "desc": "Unprecedented speed at which new data is generated and processed in real time."
+            },
+            {
+              "v": "Variety",
+              "desc": "Different formats of data (Structured SQL, Semi-structured JSON/XML, Unstructured video/logs)."
+            },
+            {
+              "v": "Veracity",
+              "desc": "Trustworthiness, accuracy, and quality of incoming data."
+            },
+            {
+              "v": "Value",
+              "desc": "Actionable business insights extracted from raw data."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

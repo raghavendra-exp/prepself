@@ -1,0 +1,2791 @@
+[
+  {
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "संधि एवं समास",
+    "topic": "संधि विच्छेद",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Identify the correct sandhi-viched of the word \"यद्यपि\" and name the type of Sandhi.",
+      "hi": "\"यद्यपि\" शब्द का सही संधि विच्छेद एवं संधि का प्रकार क्या है?"
+    },
+    "options": [
+      {
+        "en": "यदि + अपि (यण् स्वर संधि)",
+        "hi": "यदि + अपि (यण् स्वर संधि)"
+      },
+      {
+        "en": "यत् + अपि (व्यंजन संधि)",
+        "hi": "यत् + अपि (व्यंजन संधि)"
+      },
+      {
+        "en": "यदा + अपि (दीर्घ स्वर संधि)",
+        "hi": "यदा + अपि (दीर्घ स्वर संधि)"
+      },
+      {
+        "en": "यदि + आपि (गुण स्वर संधि)",
+        "hi": "यदि + आपि (गुण स्वर संधि)"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Rule: इ/ई + भिन्न स्वर = य्। यहाँ यदि (इ) + अपि (अ) = यद्यपि (यण् स्वर संधि)।",
+      "hi": "नियम: इ/ई के बाद कोई असमान स्वर आने पर इ/ई का 'य्' हो जाता है। यदि + अपि = यद्यपि (यण् संधि)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT Paper-I 2024",
+    "tags": [
+      "Hindi",
+      "Sandhi",
+      "JHT"
+    ],
+    "id": "Q-00027"
+  },
+  {
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "पर्यायवाची एवं विलोम",
+    "topic": "पर्यायवाची शब्द",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which of the following is NOT a synonym of the word \"अरविंद\" (Arvind)?",
+      "hi": "निम्नलिखित में से कौन सा शब्द \"अरविंद\" का पर्यायवाची नहीं है?"
+    },
+    "options": [
+      {
+        "en": "मिलिंद (Milind)",
+        "hi": "मिलिंद"
+      },
+      {
+        "en": "पंकज (Pankaj)",
+        "hi": "पंकज"
+      },
+      {
+        "en": "जलज (Jalaj)",
+        "hi": "जलज"
+      },
+      {
+        "en": "राजीव (Rajiv)",
+        "hi": "राजीव"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "\"अरविंद\" का अर्थ कमल होता है। पंकज, जलज, राजीव, शतदल, पुंडरीक कमल के पर्यायवाची हैं। \"मिलिंद\" भौंरे (भ्रमर) का पर्यायवाची है।",
+      "hi": "'अरविंद' का अर्थ कमल है। मिलिंद का अर्थ भौंरा (भ्रमर/मधुप) होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT Paper-I 2024",
+    "tags": [
+      "Hindi",
+      "Synonyms"
+    ],
+    "id": "Q-00028"
+  },
+  {
+    "id": "Q-01069",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01070",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01071",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01072",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01073",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01074",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01075",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01076",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01077",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01078",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01079",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01080",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01081",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01082",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01083",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01084",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01085",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01086",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01087",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01088",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01089",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01090",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01091",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01092",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01093",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01094",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01095",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01096",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01097",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01098",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01099",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01100",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01101",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01102",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01103",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01104",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01105",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01106",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01107",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01108",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01109",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01110",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01111",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01112",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01113",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01114",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01115",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01116",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01117",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01118",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01119",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01120",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01121",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01122",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01123",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01124",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01125",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01126",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "विलोम शब्द",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01127",
+    "exam": "gd",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "मुहावरे एवं लोकोक्तियां",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the most appropriate antonym of the Hindi word \"सृष्टि\" (Srishti):",
+      "hi": "\"सृष्टि\" शब्द का उपयुक्त विलोम शब्द क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "प्रलय (Pralay)",
+        "hi": "प्रलय"
+      },
+      {
+        "en": "विनाश",
+        "hi": "विनाश"
+      },
+      {
+        "en": "निर्माण",
+        "hi": "निर्माण"
+      },
+      {
+        "en": "ध्वंस",
+        "hi": "ध्वंस"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The antonym of creation (सृष्टि) is deluge/dissolution (प्रलय).",
+      "hi": "'सृष्टि' का विलोम 'प्रलय' होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  },
+  {
+    "id": "Q-01128",
+    "exam": "jht",
+    "stage": "Paper-I",
+    "section": "General Hindi",
+    "subject": "General Hindi",
+    "chapter": "वर्तनी शुद्धि",
+    "topic": "हिंदी व्याकरण",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Select the option with the correct spelling (शुद्ध वर्तनी):",
+      "hi": "निम्नलिखित में से किस विकल्प में शुद्ध वर्तनी वाला शब्द है?"
+    },
+    "options": [
+      {
+        "en": "उज्ज्वल (Ujjwal)",
+        "hi": "उज्ज्वल"
+      },
+      {
+        "en": "उज्वल",
+        "hi": "उज्वल"
+      },
+      {
+        "en": "उज्वल्ल",
+        "hi": "उज्वल्ल"
+      },
+      {
+        "en": "ऊज्ज्वल",
+        "hi": "ऊज्ज्वल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In \"उज्ज्वल\", both \"ज\" are half-consonants (उत् + ज्वल = उज्ज्वल व्यंजन संधि).",
+      "hi": "'उज्ज्वल' में दोनों 'ज' आधे होते हैं (उत् + ज्वल = उज्ज्वल)।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JHT / GD Hindi Official Questions",
+    "tags": [
+      "Hindi",
+      "Grammar",
+      "JHT"
+    ]
+  }
+]

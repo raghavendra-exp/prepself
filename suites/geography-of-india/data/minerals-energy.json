@@ -1,0 +1,148 @@
+{
+  "metallic": [
+    {
+      "mineral": "Iron Ore",
+      "hindi": "लौह अयस्क",
+      "types": "Hematite (Fe 60–70%, red ore, 85% of Indian reserves) & Magnetite (Fe 72%, black magnetic ore, 15%)",
+      "rank": "India is the 4th largest producer in the world (after Australia, Brazil, China)",
+      "leadingState": "Odisha (produces >50% of national total), followed by Chhattisgarh, Karnataka, Jharkhand",
+      "majorBelts": [
+        {
+          "name": "Odisha-Jharkhand Belt",
+          "mines": "Badampahar, Gorumahisani, Sulaipat (Mayurbhanj); Joda, Barbil, Thakurani (Kendujhar); Noamundi and Gua (Singhbhum, Jharkhand)",
+          "feeds": "Steel plants at Jamshedpur (Tata), Bokaro, Rourkela, Durgapur, Burnpur"
+        },
+        {
+          "name": "Durg-Bastar-Chandrapur Belt",
+          "mines": "Bailadila Range (Bastar, Chhattisgarh — super high-grade hematite deposits); Dalli-Rajhara (Durg)",
+          "feeds": "Bhilai Steel Plant; exported as high-grade lumps to Japan and South Korea via Visakhapatnam Port"
+        },
+        {
+          "name": "Ballari-Chitradurga-Chikkamagaluru-Tumakuru Belt",
+          "mines": "Sandur, Hospet (Ballari); Kudremukh (100% export-oriented magnetite, ore transported as liquid slurry via 67 km pipeline to Panambur/Mangaluru port); Bababudan Hills",
+          "feeds": "Vijayanagar Steel Plant (Toranagallu) and export"
+        },
+        {
+          "name": "Maharashtra-Goa Belt",
+          "mines": "Ratnagiri (Maharashtra); Bicholim, Sanquelim (Goa — low-grade ore exported via Marmagao Port)"
+        }
+      ]
+    },
+    {
+      "mineral": "Manganese",
+      "hindi": "मैंगनीज",
+      "types": "Pyrolusite and Psilomelane ores; essential ferro-alloy input (approx. 10 kg manganese required to manufacture 1 tonne of steel)",
+      "rank": "India holds significant reserves, mostly in ancient Dharwar rock systems",
+      "leadingState": "Odisha (Bonai, Kendujhar, Sundargarh), followed by Madhya Pradesh (Balaghat, Chhindwara), Maharashtra (Nagpur, Bhandara), Karnataka",
+      "majorBelts": [
+        "Nagpur-Bhandara-Balaghat belt holds the highest quality metallurgical grade ore in India (MOIL headquarters at Nagpur)"
+      ]
+    },
+    {
+      "mineral": "Bauxite (Aluminium Ore)",
+      "hindi": "बॉक्साइट",
+      "types": "Hydrated aluminium oxide formed by intense weathering of laterite rocks on plateau summits",
+      "rank": "India is self-sufficient and exports alumina; smelting requires huge electricity (~14,000 kWh per tonne), so smelters site near cheap hydro/thermal power",
+      "leadingState": "Odisha (produces >50% of national output)",
+      "majorBelts": [
+        {
+          "name": "Panchpatmali & Baphlimali Deposits (Koraput & Rayagada, Odisha)",
+          "desc": "Largest bauxite reserve in India; feeds NALCO refinery at Damanjodi and smelter at Angul; Vedanta at Lanjigarh"
+        },
+        {
+          "name": "Amarkantak Plateau & Maikal Hills (MP/Chhattisgarh)",
+          "desc": "Feeds HINDALCO smelter at Renukoot (UP) powered by Rihand Dam"
+        }
+      ]
+    },
+    {
+      "mineral": "Copper",
+      "hindi": "तांबा",
+      "types": "Chalcopyrite ore; India is critically deficient in copper, importing over 85% of copper concentrates",
+      "rank": "Deficient producer",
+      "leadingState": "Madhya Pradesh (Balaghat - Malanjkhand copper deposit produces ~50% of Indian ore), followed by Rajasthan (Khetri-Singhana belt, Jhunjhunu), Jharkhand (Singhbhum - Mosabani/Rakha)",
+      "majorBelts": [
+        "Hindustan Copper Limited (HCL, PSU) operates Malanjkhand and Khetri mines"
+      ]
+    }
+  ],
+  "nonMetallic": [
+    {
+      "mineral": "Mica",
+      "hindi": "अभ्रक",
+      "properties": "Exceptional dielectric strength, low power-loss factor, insulating, high heat resistance; critical for electrical and electronic equipment",
+      "leadingState": "Jharkhand (Koderma belt — historically 'Mica Capital of the World'), followed by Andhra Pradesh (Nellore belt) and Rajasthan (Bhilwara-Ajmer belt)",
+      "status": "India was historically the world's top exporter of sheet mica; synthetic substitutes and glass fibre have reduced global demand."
+    },
+    {
+      "mineral": "Limestone",
+      "hindi": "चूना पत्थर",
+      "properties": "Calcium carbonate sedimentary rock; primary raw material for the cement industry and flux material in blast furnaces",
+      "leadingState": "Rajasthan (Chittorgarh, Nagaur), Madhya Pradesh, Andhra Pradesh, Gujarat",
+      "status": "Cement plants cluster along limestone belts (e.g., Satna-Katni belt in MP, Chittorgarh in Rajasthan)."
+    }
+  ],
+  "fossilFuels": [
+    {
+      "fuel": "Coal",
+      "hindi": "कोयला",
+      "types": "Anthracite (hard, >85% C, found only in J&K/Kalakot); Bituminous (commercial, 60–80% C, non-coking & coking); Lignite (brown coal, 40–55% C); Peat (<40% C)",
+      "geology": "Two distinct geological ages: (1) Gondwana Coal Fields (~250 Ma, Permian, accounts for 98% of reserves and production, low sulphur, high ash content 20–40%); (2) Tertiary Coal Fields (~55 Ma, Eocene, accounts for 2%, high sulphur content, found in Assam, Meghalaya, Arunachal, Nagaland).",
+      "leadingState": "Jharkhand ranks 1st in reserves (Jharia, Bokaro, Dhanbad, Karanpura), followed by Odisha (Talcher, Ib Valley), Chhattisgarh (Korba, Hasdeo Arand), West Bengal (Raniganj — oldest coalfield in India, 1774).",
+      "ligniteReserves": "Neyveli in Tamil Nadu holds over 70% of India's lignite reserves, mined by NLC India for pithead thermal power generation; also in Palana (Rajasthan) and Gujarat."
+    },
+    {
+      "fuel": "Petroleum & Natural Gas",
+      "hindi": "पेट्रोलियम एवं प्राकृतिक गैस",
+      "basins": [
+        {
+          "name": "Offshore Western Basin (Bombay High & Bassein)",
+          "share": "~60% of domestic crude oil production",
+          "desc": "Discovered 1974 by ONGC drilling ship 'Sagar Samrat', located 160 km west of Mumbai in the Arabian Sea continental shelf."
+        },
+        {
+          "name": "Assam / Brahmaputra Shelf Basin",
+          "share": "Oldest producing basin in India",
+          "desc": "Digboi (oldest operational refinery in Asia, 1901), Naharkatiya, Moran-Hugrijan, Sibsagar; oil piped to Barauni and Guwahati refineries."
+        },
+        {
+          "name": "Gujarat / Cambay Basin",
+          "share": "~18% of domestic production",
+          "desc": "Ankleshwar, Kalol, Mehsana, Gandhar, Nawagam, and offshore Aliabet island."
+        },
+        {
+          "name": "Rajasthan / Barmer-Sanchore Basin",
+          "share": "Largest onshore oil discovery in recent decades",
+          "desc": "Mangala, Bhagyam, and Aishwarya fields operated by Cairn/Vedanta, producing ~20% of domestic crude."
+        },
+        {
+          "name": "Krishna-Godavari (KG) Offshore Deepwater Basin",
+          "share": "Major domestic natural gas source",
+          "desc": "Deepwater blocks KG-D6 (Reliance-BP) and KG-DWN-98/2 (ONGC) producing natural gas from deep sea wells."
+        }
+      ]
+    }
+  ],
+  "criticalMinerals": {
+    "overview": "In 2023, the Ministry of Mines identified 30 critical minerals essential for economic development and national security, focusing on electric vehicles, batteries, semiconductors, and defence.",
+    "ncmaMission": "National Critical Minerals Mission (NCMM) approved in January 2025 with an outlay of ₹34,300 crore to secure supply chains, boost GSI exploration (1,200 projects), and establish domestic refining/recycling.",
+    "keyFinds": [
+      "Lithium: Inferred resources of 5.9 million tonnes identified in Salal-Haimana area, Reasi district, Jammu & Kashmir (2023); lithium pegmatite reserves in Mandya, Karnataka.",
+      "Rare Earth Elements (REEs): Monazite beach sand deposits in Kerala, Tamil Nadu, Andhra, and Odisha containing cerium, neodymium, lanthanum managed by IREL (India) Ltd.",
+      "Overseas Acquisition: Khanij Bidesh India Ltd. (KABIL — JV of NALCO, HCL, MECL) acquired 5 lithium brine blocks in Catamarca Province, Argentina (2024)."
+    ]
+  },
+  "nuclearMinerals": [
+    {
+      "mineral": "Uranium",
+      "hindi": "यूरेनियम",
+      "mines": "Jaduguda, Bhatin, Narwapahar, Turamdih (Singhbhum copper belt, Jharkhand operated by UCIL); Tummalapalle (Kadapa district, Andhra Pradesh — world-class low-grade uranium deposit in Cuddapah basin); Domiasiat/Kylleng-Pyndengsohiong (Meghalaya)."
+    },
+    {
+      "mineral": "Thorium",
+      "hindi": "थोरियम",
+      "reserves": "India holds the world's largest known reserves of Thorium, contained in the mineral Monazite in coastal placer beach sands of Kerala (Chavara), Tamil Nadu (Manavalakurichi), Andhra Pradesh, and Odisha.",
+      "strategy": "Foundation of Stage 3 of India's Three-Stage Nuclear Power Programme (Dr. Homi Bhabha) using Advanced Heavy Water Reactors (AHWR) and Fast Breeder Reactors (PFBR at Kalpakkam)."
+    }
+  ]
+}

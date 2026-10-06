@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IBPS & SBI Clerk — Syllabus Preparation Roadmap</title>
+<meta name="description" content="A complete 12-week, subject-by-subject preparation roadmap for IBPS and SBI Clerk exams — free study plan from day one to selection.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://raghavendra-exp.github.io/prepself/IBPS_SBI_Clerk_Roadmap.html">
+<meta property="og:title" content="IBPS & SBI Clerk — Syllabus Preparation Roadmap">
+<meta property="og:description" content="A complete 12-week, subject-by-subject preparation roadmap for IBPS and SBI Clerk exams — free study plan from day one to selection.">
+<meta property="og:url" content="https://raghavendra-exp.github.io/prepself/IBPS_SBI_Clerk_Roadmap.html">
+<meta property="og:type" content="article">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy:   #0A1628;
+    --navy2:  #0F2044;
+    --blue:   #1E5CE6;
+    --cyan:   #00C9FF;
+    --gold:   #F5A623;
+    --green:  #00E676;
+    --pink:   #FF6B9D;
+    --purple: #A855F7;
+    --red:    #FF4757;
+    --white:  #F0F4FF;
+    --dim:    rgba(240,244,255,0.55);
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--navy);
+    font-family: 'Outfit', sans-serif;
+    color: var(--white);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── STARFIELD ── */
+  .stars {
+    position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    background:
+      radial-gradient(1px 1px at 10% 15%, rgba(255,255,255,.6) 0%, transparent 100%),
+      radial-gradient(1px 1px at 25% 40%, rgba(255,255,255,.4) 0%, transparent 100%),
+      radial-gradient(1.5px 1.5px at 60% 20%, rgba(255,255,255,.5) 0%, transparent 100%),
+      radial-gradient(1px 1px at 80% 50%, rgba(255,255,255,.3) 0%, transparent 100%),
+      radial-gradient(1px 1px at 45% 70%, rgba(255,255,255,.5) 0%, transparent 100%),
+      radial-gradient(1px 1px at 90% 80%, rgba(255,255,255,.4) 0%, transparent 100%),
+      radial-gradient(1px 1px at 15% 85%, rgba(255,255,255,.3) 0%, transparent 100%),
+      radial-gradient(2px 2px at 70% 90%, rgba(0,201,255,.5) 0%, transparent 100%);
+  }
+
+  /* ── WRAPPER ── */
+  .page {
+    position: relative; z-index: 1;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* ══════════════════ HEADER ══════════════════ */
+  .hero {
+    text-align: center;
+    padding: 56px 0 40px;
+    animation: fadeDown .9s ease both;
+  }
+  .hero-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--blue), var(--cyan));
+    color: #fff; font-family: 'Space Mono', monospace; font-size: 11px;
+    letter-spacing: 3px; padding: 6px 18px; border-radius: 50px;
+    margin-bottom: 20px; animation: pulse-badge 3s infinite;
+  }
+  @keyframes pulse-badge {
+    0%,100% { box-shadow: 0 0 0 0 rgba(0,201,255,.5); }
+    50%      { box-shadow: 0 0 0 12px rgba(0,201,255,0); }
+  }
+  .hero h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(46px, 10vw, 72px);
+    letter-spacing: 3px; line-height: 1;
+    background: linear-gradient(135deg, #fff 0%, var(--cyan) 50%, var(--gold) 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: shimmer 4s linear infinite;
+    background-size: 200% 200%;
+  }
+  @keyframes shimmer { 0%{background-position:0% 50%} 100%{background-position:200% 50%} }
+  .hero-sub {
+    font-size: 15px; color: var(--dim); margin-top: 10px; font-weight: 300;
+    letter-spacing: 1.5px;
+  }
+  .hero-stats {
+    display: flex; justify-content: center; gap: 36px; margin-top: 32px; flex-wrap: wrap;
+  }
+  .stat-pill {
+    background: rgba(30,92,230,.2); border: 1px solid rgba(0,201,255,.3);
+    padding: 10px 22px; border-radius: 50px; text-align: center;
+    animation: fadeUp .8s ease both;
+  }
+  .stat-pill:nth-child(2) { animation-delay: .1s; }
+  .stat-pill:nth-child(3) { animation-delay: .2s; }
+  .stat-num { font-family:'Bebas Neue',sans-serif; font-size:28px; color:var(--cyan); display:block; }
+  .stat-lbl { font-size:11px; color:var(--dim); letter-spacing:1px; }
+
+  /* ══════════════════ PHASE DIVIDER ══════════════════ */
+  .phase-label {
+    display: flex; align-items: center; gap: 14px; margin: 50px 0 24px;
+    animation: fadeLeft .7s ease both;
+  }
+  .phase-label .num {
+    font-family:'Bebas Neue',sans-serif; font-size:42px; line-height:1;
+    background: linear-gradient(135deg, var(--gold), #ff9500);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+  .phase-label .info h2 { font-size:22px; font-weight:700; letter-spacing:1px; }
+  .phase-label .info p  { font-size:12px; color:var(--dim); margin-top:2px; }
+  .phase-label .line { flex:1; height:1px; background:linear-gradient(90deg,rgba(245,166,35,.4),transparent); }
+
+  /* ══════════════════ SUBJECT CARDS ══════════════════ */
+  .subject-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px;
+  }
+  .subject-card {
+    background: rgba(255,255,255,.04);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 18px; padding: 22px 20px;
+    position: relative; overflow: hidden;
+    transition: transform .3s ease, box-shadow .3s ease;
+    animation: fadeUp .7s ease both;
+    cursor: default;
+  }
+  .subject-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 20px 50px rgba(0,0,0,.4);
+  }
+  .subject-card::before {
+    content:''; position:absolute; inset:0;
+    background: var(--card-glow);
+    opacity: 0; transition: opacity .3s;
+    border-radius: 18px;
+  }
+  .subject-card:hover::before { opacity: 1; }
+  .subject-card .card-icon {
+    font-size: 32px; margin-bottom: 12px; display: block;
+    animation: float 4s ease-in-out infinite;
+  }
+  .subject-card h3 { font-size: 14px; font-weight: 700; letter-spacing: .5px; margin-bottom: 8px; }
+  .subject-card .topics { font-size: 11.5px; color: var(--dim); line-height: 1.7; }
+  .subject-card .tag {
+    display: inline-block; font-size: 10px; font-weight: 600;
+    padding: 3px 10px; border-radius: 50px; margin-top: 10px;
+    letter-spacing: .5px;
+  }
+  .subject-card .bar-bg {
+    height: 4px; background: rgba(255,255,255,.1); border-radius: 4px; margin-top: 12px;
+  }
+  .subject-card .bar-fill {
+    height: 4px; border-radius: 4px;
+    background: var(--bar-color);
+    animation: growBar 1.5s ease both;
+    animation-delay: var(--bar-delay, 0.3s);
+  }
+  @keyframes growBar { from{width:0} to{width:var(--bar-w)} }
+
+  /* Card color variants */
+  .card-quant   { --card-glow: linear-gradient(135deg,rgba(0,201,255,.08),transparent); border-color:rgba(0,201,255,.2)!important; }
+  .card-reason  { --card-glow: linear-gradient(135deg,rgba(168,85,247,.08),transparent); border-color:rgba(168,85,247,.2)!important; }
+  .card-english { --card-glow: linear-gradient(135deg,rgba(0,230,118,.08),transparent); border-color:rgba(0,230,118,.2)!important; }
+  .card-gk      { --card-glow: linear-gradient(135deg,rgba(245,166,35,.08),transparent); border-color:rgba(245,166,35,.2)!important; }
+  .card-comp    { --card-glow: linear-gradient(135deg,rgba(255,107,157,.08),transparent); border-color:rgba(255,107,157,.2)!important; }
+
+  /* ══════════════════ TIMELINE ROAD ══════════════════ */
+  .road-section {
+    position: relative; padding-left: 40px; margin: 40px 0;
+  }
+  .road-line {
+    position: absolute; left: 12px; top: 0; bottom: 0; width: 3px;
+    background: linear-gradient(180deg, var(--cyan), var(--purple), var(--gold), var(--green));
+    border-radius: 4px;
+    animation: drawLine 2s ease both;
+    transform-origin: top;
+  }
+  @keyframes drawLine { from{transform:scaleY(0)} to{transform:scaleY(1)} }
+
+  .road-stop {
+    position: relative; margin-bottom: 30px;
+    animation: fadeLeft .7s ease both;
+  }
+  .road-stop::before {
+    content:''; position:absolute; left:-34px; top:12px;
+    width:16px; height:16px; border-radius:50%;
+    background: var(--stop-color);
+    border: 3px solid var(--navy);
+    box-shadow: 0 0 0 4px var(--stop-color-dim), 0 0 20px var(--stop-color);
+    animation: pulseStop 2.5s ease infinite;
+  }
+  @keyframes pulseStop {
+    0%,100% { box-shadow: 0 0 0 4px var(--stop-color-dim), 0 0 20px var(--stop-color); }
+    50%      { box-shadow: 0 0 0 8px transparent, 0 0 30px var(--stop-color); }
+  }
+  .stop-week {
+    font-family:'Space Mono',monospace; font-size:10px; color:var(--dim); margin-bottom:4px;
+  }
+  .stop-title { font-size:15px; font-weight:700; margin-bottom:6px; }
+  .stop-desc  { font-size:12px; color:var(--dim); line-height:1.6; }
+  .stop-chips { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+  .chip {
+    font-size:10px; font-weight:600; padding:3px 10px; border-radius:50px;
+    background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.12);
+    letter-spacing:.3px;
+  }
+
+  /* ══════════════════ WEEKLY TABLE ══════════════════ */
+  .week-table {
+    background: rgba(255,255,255,.03);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 18px; overflow: hidden; margin: 20px 0;
+    animation: fadeUp .7s ease both;
+  }
+  .week-table table { width:100%; border-collapse:collapse; }
+  .week-table th {
+    background: linear-gradient(135deg, rgba(30,92,230,.4), rgba(0,201,255,.2));
+    padding: 12px 14px; font-size: 11px; font-weight:700;
+    letter-spacing: 1px; text-align:left; border-bottom:1px solid rgba(255,255,255,.08);
+  }
+  .week-table td {
+    padding: 10px 14px; font-size:12px; color:var(--dim);
+    border-bottom:1px solid rgba(255,255,255,.04); vertical-align:top; line-height:1.5;
+  }
+  .week-table tr:last-child td { border-bottom:none; }
+  .week-table tr:hover td { background:rgba(255,255,255,.03); color:var(--white); }
+  .week-num {
+    font-family:'Space Mono',monospace; font-size:11px;
+    color:var(--cyan); font-weight:700; white-space:nowrap;
+  }
+
+  /* ══════════════════ MAINS SECTION ══════════════════ */
+  .mains-grid {
+    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin: 20px 0;
+  }
+  .mains-card {
+    background: rgba(255,255,255,.04);
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 16px; padding: 18px 16px; text-align:center;
+    animation: fadeUp .7s ease both;
+    transition: all .3s ease;
+  }
+  .mains-card:hover { transform:translateY(-4px); background:rgba(255,255,255,.07); }
+  .mains-card .micon { font-size:28px; margin-bottom:10px; display:block; }
+  .mains-card h4 { font-size:12px; font-weight:700; margin-bottom:6px; letter-spacing:.5px; }
+  .mains-card p  { font-size:10.5px; color:var(--dim); line-height:1.6; }
+  .mains-card .score {
+    display:inline-block; margin-top:10px;
+    font-family:'Bebas Neue',sans-serif; font-size:22px;
+    color: var(--card-accent);
+  }
+
+  /* ══════════════════ STRATEGY CARDS ══════════════════ */
+  .strategy-row {
+    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin: 20px 0;
+  }
+  .strat-card {
+    background: rgba(255,255,255,.04);
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 14px; padding: 16px 14px;
+    animation: fadeUp .6s ease both;
+    border-left: 3px solid var(--accent);
+    transition: all .3s ease;
+  }
+  .strat-card:hover { background:rgba(255,255,255,.07); transform:translateX(4px); }
+  .strat-card h4 { font-size:12px; font-weight:700; margin-bottom:6px; color:var(--accent); }
+  .strat-card p  { font-size:11px; color:var(--dim); line-height:1.6; }
+
+  /* ══════════════════ RESOURCE PILLS ══════════════════ */
+  .resource-section { margin: 24px 0; }
+  .resource-title { font-size:13px; font-weight:700; color:var(--gold); margin-bottom:12px; letter-spacing:.5px; }
+  .resource-pills { display:flex; flex-wrap:wrap; gap:8px; }
+  .res-pill {
+    font-size:11px; font-weight:600; padding:6px 14px; border-radius:50px;
+    background:rgba(245,166,35,.1); border:1px solid rgba(245,166,35,.3);
+    color:var(--gold); animation:fadeUp .6s ease both;
+    transition: all .3s ease; cursor:default;
+  }
+  .res-pill:hover { background:rgba(245,166,35,.2); transform:scale(1.05); }
+  .res-pill.blue  { background:rgba(0,201,255,.1); border-color:rgba(0,201,255,.3); color:var(--cyan); }
+  .res-pill.green { background:rgba(0,230,118,.1); border-color:rgba(0,230,118,.3); color:var(--green); }
+  .res-pill.pink  { background:rgba(255,107,157,.1); border-color:rgba(255,107,157,.3); color:var(--pink); }
+
+  /* ══════════════════ CUTOFF VISUAL ══════════════════ */
+  .cutoff-wrap { margin: 20px 0; }
+  .cutoff-bar-row {
+    display:flex; align-items:center; gap:14px; margin-bottom:12px;
+    animation: fadeLeft .7s ease both;
+  }
+  .cutoff-label { font-size:12px; font-weight:600; width:90px; flex-shrink:0; }
+  .cutoff-track { flex:1; height:10px; background:rgba(255,255,255,.1); border-radius:10px; overflow:hidden; }
+  .cutoff-fill {
+    height:100%; border-radius:10px; background:var(--fill-c);
+    animation: growBar 1.5s ease both; animation-delay:var(--d,0.2s);
+    --bar-w: var(--fill-w);
+  }
+  .cutoff-val { font-family:'Space Mono',monospace; font-size:11px; color:var(--dim); width:60px; }
+
+  /* ══════════════════ FORMULA BOX ══════════════════ */
+  .formula-grid {
+    display: grid; grid-template-columns:1fr 1fr; gap:10px; margin:16px 0;
+  }
+  .formula-card {
+    background:rgba(0,201,255,.05); border:1px solid rgba(0,201,255,.15);
+    border-radius:12px; padding:14px 16px;
+    animation:fadeUp .6s ease both;
+    transition:all .3s ease;
+  }
+  .formula-card:hover { background:rgba(0,201,255,.1); }
+  .formula-card .f-label { font-size:10px; color:var(--cyan); font-weight:700; margin-bottom:6px; letter-spacing:.5px; }
+  .formula-card .f-val {
+    font-family:'Space Mono',monospace; font-size:12px; color:var(--white); line-height:1.6;
+  }
+
+  /* ══════════════════ DO/DONT ══════════════════ */
+  .dodont-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:16px 0; }
+  .do-box, .dont-box {
+    border-radius:16px; padding:18px 16px;
+    animation:fadeUp .7s ease both;
+  }
+  .do-box   { background:rgba(0,230,118,.07); border:1px solid rgba(0,230,118,.2); }
+  .dont-box { background:rgba(255,71,87,.07);  border:1px solid rgba(255,71,87,.2); }
+  .do-box h4   { color:var(--green); font-size:13px; font-weight:700; margin-bottom:10px; }
+  .dont-box h4 { color:var(--red);   font-size:13px; font-weight:700; margin-bottom:10px; }
+  .do-box li, .dont-box li {
+    font-size:11.5px; color:var(--dim); list-style:none; padding:4px 0; line-height:1.5;
+  }
+  .do-box li::before   { content:"✓  "; color:var(--green); font-weight:700; }
+  .dont-box li::before { content:"✗  "; color:var(--red);   font-weight:700; }
+
+  /* ══════════════════ MILESTONE BANNER ══════════════════ */
+  .milestone {
+    background: linear-gradient(135deg, rgba(245,166,35,.15), rgba(30,92,230,.15));
+    border: 1px solid rgba(245,166,35,.3);
+    border-radius: 18px; padding: 28px 28px; margin: 32px 0;
+    text-align:center; position:relative; overflow:hidden;
+    animation: fadeUp .8s ease both;
+  }
+  .milestone::before {
+    content:''; position:absolute; inset:0;
+    background: linear-gradient(45deg, transparent 40%, rgba(245,166,35,.05) 100%);
+    animation: slideBg 4s linear infinite;
+  }
+  @keyframes slideBg { from{transform:translateX(-100%)} to{transform:translateX(100%)} }
+  .milestone h3 { font-family:'Bebas Neue',sans-serif; font-size:28px; letter-spacing:2px; color:var(--gold); margin-bottom:8px; }
+  .milestone p  { font-size:13px; color:var(--dim); line-height:1.7; }
+
+  /* ══════════════════ FOOTER ══════════════════ */
+  .footer {
+    text-align:center; padding:48px 0 20px;
+    animation: fadeUp .8s ease both;
+  }
+  .footer-big { font-family:'Bebas Neue',sans-serif; font-size:48px; letter-spacing:3px;
+    background:linear-gradient(135deg,var(--gold),var(--cyan));
+    -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+  .footer-sub { font-size:13px; color:var(--dim); margin-top:8px; letter-spacing:2px; }
+
+  /* ══════════════════ SECTION SEPARATOR ══════════════════ */
+  .sep {
+    height:1px;
+    background:linear-gradient(90deg, transparent, rgba(0,201,255,.3), transparent);
+    margin: 40px 0;
+  }
+
+  /* ══════════════════ ANIMATIONS ══════════════════ */
+  @keyframes fadeDown  { from{opacity:0;transform:translateY(-30px)} to{opacity:1;transform:translateY(0)} }
+  @keyframes fadeUp    { from{opacity:0;transform:translateY(20px)}  to{opacity:1;transform:translateY(0)} }
+  @keyframes fadeLeft  { from{opacity:0;transform:translateX(-20px)} to{opacity:1;transform:translateX(0)} }
+  @keyframes float     { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+
+  /* stagger delays for grids */
+  .subject-card:nth-child(1){animation-delay:.1s} .subject-card:nth-child(2){animation-delay:.2s}
+  .subject-card:nth-child(3){animation-delay:.3s} .subject-card:nth-child(4){animation-delay:.4s}
+  .subject-card:nth-child(5){animation-delay:.5s}
+  .mains-card:nth-child(1){animation-delay:.1s} .mains-card:nth-child(2){animation-delay:.2s}
+  .mains-card:nth-child(3){animation-delay:.3s} .mains-card:nth-child(4){animation-delay:.4s}
+  .mains-card:nth-child(5){animation-delay:.5s}
+  .road-stop:nth-child(1){animation-delay:.1s} .road-stop:nth-child(2){animation-delay:.25s}
+  .road-stop:nth-child(3){animation-delay:.4s} .road-stop:nth-child(4){animation-delay:.55s}
+  .road-stop:nth-child(5){animation-delay:.7s} .road-stop:nth-child(6){animation-delay:.85s}
+  .strat-card:nth-child(1){animation-delay:.1s} .strat-card:nth-child(2){animation-delay:.2s}
+  .strat-card:nth-child(3){animation-delay:.3s}
+  .formula-card:nth-child(1){animation-delay:.1s} .formula-card:nth-child(2){animation-delay:.15s}
+  .formula-card:nth-child(3){animation-delay:.2s} .formula-card:nth-child(4){animation-delay:.25s}
+  .formula-card:nth-child(5){animation-delay:.3s} .formula-card:nth-child(6){animation-delay:.35s}
+
+  /* ══════════════════ SCROLL REVEAL ══════════════════ */
+  .reveal { opacity:0; transform:translateY(30px); transition: opacity .8s ease, transform .8s ease; }
+  .reveal.visible { opacity:1; transform:translateY(0); }
+  .reveal-left  { opacity:0; transform:translateX(-30px); transition: opacity .8s ease, transform .8s ease; }
+  .reveal-left.visible { opacity:1; transform:translateX(0); }
+
+  /* ══════════════════ GLOWING SECTION HEADER ══════════════════ */
+  .glow-header {
+    text-align:center; padding: 28px 0 8px;
+    animation: fadeUp .7s ease both;
+  }
+  .glow-header h2 {
+    font-family:'Bebas Neue',sans-serif; font-size:34px; letter-spacing:3px;
+    color:var(--cyan); text-shadow:0 0 30px rgba(0,201,255,.4);
+  }
+  .glow-header p { font-size:12px; color:var(--dim); margin-top:6px; letter-spacing:1px; }
+
+  /* ══════════════════ PROGRESS CIRCLE ══════════════════ */
+  .progress-row {
+    display:flex; justify-content:center; gap:28px; flex-wrap:wrap; margin:24px 0;
+  }
+  .prog-item { text-align:center; animation:fadeUp .7s ease both; }
+  .prog-item:nth-child(2){animation-delay:.1s}
+  .prog-item:nth-child(3){animation-delay:.2s}
+  .prog-item:nth-child(4){animation-delay:.3s}
+  .prog-item:nth-child(5){animation-delay:.4s}
+  .prog-ring { position:relative; width:80px; height:80px; }
+  .prog-ring svg { transform:rotate(-90deg); }
+  .prog-ring circle { fill:none; stroke-width:6; }
+  .prog-bg    { stroke: rgba(255,255,255,.1); }
+  .prog-fill  { stroke-dasharray:220; stroke-dashoffset:220; stroke-linecap:round;
+                animation: fillCircle 1.5s ease forwards; }
+  @keyframes fillCircle { to { stroke-dashoffset: var(--offset); } }
+  .prog-val {
+    position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+    font-family:'Bebas Neue',sans-serif; font-size:18px;
+  }
+  .prog-lbl { font-size:10px; color:var(--dim); margin-top:6px; letter-spacing:.5px; text-align:center; }
+
+  /* ══════════════════ HIGHLIGHT BOX ══════════════════ */
+  .hl-box {
+    background:rgba(0,201,255,.06); border:1px solid rgba(0,201,255,.2);
+    border-radius:14px; padding:16px 20px; margin:14px 0; font-size:13px;
+    line-height:1.7; animation:fadeLeft .7s ease both;
+    border-left:4px solid var(--cyan);
+  }
+  .hl-box.gold   { background:rgba(245,166,35,.06); border-color:rgba(245,166,35,.2); border-left-color:var(--gold); }
+  .hl-box.green  { background:rgba(0,230,118,.06); border-color:rgba(0,230,118,.2);  border-left-color:var(--green); }
+  .hl-box.purple { background:rgba(168,85,247,.06); border-color:rgba(168,85,247,.2); border-left-color:var(--purple); }
+
+  /* ══════════════════ TICKER ══════════════════ */
+  .ticker-wrap {
+    background: rgba(30,92,230,.2); border:1px solid rgba(0,201,255,.25);
+    border-radius:8px; padding:10px 18px; overflow:hidden; margin:20px 0;
+  }
+  .ticker-inner {
+    display:flex; gap:40px; white-space:nowrap;
+    animation:tickerScroll 18s linear infinite;
+  }
+  .ticker-item { font-size:12px; color:var(--cyan); font-weight:600; }
+  .ticker-item span { color:var(--dim); font-weight:400; }
+  @keyframes tickerScroll { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js',new Date());
+  gtag('config','G-B0Z2G21W4F');
+</script>
+  <link rel="stylesheet" href="css/modern.css">
+</head>
+<body>
+
+<div class="stars"></div>
+
+<div class="page">
+
+  <div style="padding:12px 20px 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+    <a href="./" style="color:inherit;text-decoration:none;opacity:.7;font-size:14px">&#8592; All Exam Tools</a> &nbsp;|&nbsp;
+    <a href="study-modules.html" style="color:#3B82F6;text-decoration:none;font-weight:700;font-size:14px">&#x1F4DA; Ready-Made Study Modules</a> &nbsp;|&nbsp;
+    <a href="bank_exam_prompt_generator.html" style="color:inherit;text-decoration:none;opacity:.7;font-size:14px">Banking Prompt Generator</a>
+  </div>
+
+  <!-- ══════════════  HERO  ══════════════ -->
+  <div class="hero">
+    <div class="hero-badge">★ COMPLETE SYLLABUS ROADMAP 2025–26 ★</div>
+    <h1>IBPS &amp; SBI CLERK</h1>
+    <h1 style="font-size:clamp(28px,6vw,44px);margin-top:-4px;">PREPARATION ROADMAP</h1>
+    <p class="hero-sub">From Day 1 to Selection — Every Step, Every Subject, Every Strategy</p>
+    <div class="hero-stats">
+      <div class="stat-pill"><span class="stat-num">5</span><span class="stat-lbl">SUBJECTS</span></div>
+      <div class="stat-pill"><span class="stat-num">12</span><span class="stat-lbl">WEEKS PLAN</span></div>
+      <div class="stat-pill"><span class="stat-num">200</span><span class="stat-lbl">MARKS MAINS</span></div>
+      <div class="stat-pill"><span class="stat-num">100+</span><span class="stat-lbl">MOCK TESTS</span></div>
+    </div>
+    <div style="margin-top:20px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
+      <a href="study-modules.html?module=bank-quant" style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;padding:6px 14px;border-radius:20px;font-size:12.5px;font-weight:700;text-decoration:none">&#x1F4D0; Quant Master</a>
+      <a href="study-modules.html?module=bank-reasoning" style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;padding:6px 14px;border-radius:20px;font-size:12.5px;font-weight:700;text-decoration:none">&#x1F9E9; Reasoning Master</a>
+      <a href="study-modules.html?module=bank-english" style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;padding:6px 14px;border-radius:20px;font-size:12.5px;font-weight:700;text-decoration:none">&#x1F4D6; English Master</a>
+      <a href="study-modules.html?module=banking-awareness" style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;padding:6px 14px;border-radius:20px;font-size:12.5px;font-weight:700;text-decoration:none">&#x1F3E6; Banking Awareness</a>
+      <a href="study-modules.html?module=editorial-hub" style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;padding:6px 14px;border-radius:20px;font-size:12.5px;font-weight:700;text-decoration:none">&#x1F4F0; Editorial Hub</a>
+    </div>
+  </div>
+
+  <!-- LIVE TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker-inner">
+      <span class="ticker-item">📌 Prelims: 100Q / 60min</span>
+      <span class="ticker-item">📌 Mains: 190Q / 200 Marks / 160min</span>
+      <span class="ticker-item">📌 Negative Marking: -0.25 per wrong answer</span>
+      <span class="ticker-item">📌 Sectional Cut-Offs are MANDATORY</span>
+      <span class="ticker-item">📌 No Interview Round — Only Written Exam</span>
+      <span class="ticker-item">📌 Prelims: 100Q / 60min</span>
+      <span class="ticker-item">📌 Mains: 190Q / 200 Marks / 160min</span>
+      <span class="ticker-item">📌 Negative Marking: -0.25 per wrong answer</span>
+      <span class="ticker-item">📌 Sectional Cut-Offs are MANDATORY</span>
+      <span class="ticker-item">📌 No Interview Round — Only Written Exam</span>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ══════════════  PHASE 1 — PRELIMS SUBJECTS  ══════════════ -->
+  <div class="phase-label reveal-left">
+    <span class="num">01</span>
+    <div class="info">
+      <h2>PRELIMS SYLLABUS</h2>
+      <p>3 Sections · 100 Questions · 60 Minutes · Sectional Time Limits</p>
+    </div>
+    <div class="line"></div>
+  </div>
+
+  <div class="subject-grid reveal">
+    <!-- Quantitative Aptitude -->
+    <div class="subject-card card-quant">
+      <span class="card-icon">🔢</span>
+      <h3 style="color:#00C9FF">QUANTITATIVE APTITUDE</h3>
+      <div class="topics">
+        · Number Series<br>
+        · Simplification / Approx.<br>
+        · Quadratic Equations<br>
+        · Data Interpretation<br>
+        · Arithmetic: %, Ratio, SI/CI<br>
+        · Profit &amp; Loss, Averages
+      </div>
+      <span class="tag" style="background:rgba(0,201,255,.15);color:#00C9FF;">35 Questions</span>
+      <div class="bar-bg"><div class="bar-fill" style="--bar-color:linear-gradient(90deg,#00C9FF,#0066ff);--bar-w:85%;--bar-delay:0.4s;width:85%"></div></div>
+    </div>
+
+    <!-- Reasoning -->
+    <div class="subject-card card-reason">
+      <span class="card-icon">🧩</span>
+      <h3 style="color:#A855F7">REASONING ABILITY</h3>
+      <div class="topics">
+        · Puzzles (Linear/Circular/Floor)<br>
+        · Seating Arrangement<br>
+        · Syllogism<br>
+        · Coding-Decoding<br>
+        · Inequalities<br>
+        · Blood Relations
+      </div>
+      <span class="tag" style="background:rgba(168,85,247,.15);color:#A855F7;">35 Questions</span>
+      <div class="bar-bg"><div class="bar-fill" style="--bar-color:linear-gradient(90deg,#A855F7,#6600ff);--bar-w:85%;--bar-delay:0.5s;width:85%"></div></div>
+    </div>
+
+    <!-- English -->
+    <div class="subject-card card-english" style="grid-column:1/-1">
+      <span class="card-icon">📖</span>
+      <h3 style="color:#00E676">ENGLISH LANGUAGE</h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px">
+        <div class="topics">
+          · Reading Comprehension (10–15 Q)<br>
+          · Cloze Test (5–10 Q)<br>
+          · Error Detection (3–5 Q)
+        </div>
+        <div class="topics">
+          · Para Jumbles (5 Q)<br>
+          · Fill in the Blanks (5 Q)<br>
+          · Vocabulary / Synonyms
+        </div>
+      </div>
+      <span class="tag" style="background:rgba(0,230,118,.15);color:#00E676;">30 Questions</span>
+      <div class="bar-bg"><div class="bar-fill" style="--bar-color:linear-gradient(90deg,#00E676,#00a854);--bar-w:75%;--bar-delay:0.6s;width:75%"></div></div>
+    </div>
+  </div>
+
+  <!-- Subject Weightage Circles -->
+  <div class="glow-header reveal">
+    <h2>PRELIMS SECTION WEIGHTAGE</h2>
+    <p>Know exactly how much to prepare for each section</p>
+  </div>
+  <div class="progress-row reveal">
+    <div class="prog-item">
+      <div class="prog-ring">
+        <svg width="80" height="80" viewBox="0 0 80 80">
+          <circle class="prog-bg" cx="40" cy="40" r="35"/>
+          <circle class="prog-fill" cx="40" cy="40" r="35" stroke="#00C9FF" style="--offset:33"/>
+        </svg>
+        <span class="prog-val" style="color:#00C9FF">35%</span>
+      </div>
+      <p class="prog-lbl">QUANT</p>
+    </div>
+    <div class="prog-item">
+      <div class="prog-ring">
+        <svg width="80" height="80" viewBox="0 0 80 80">
+          <circle class="prog-bg" cx="40" cy="40" r="35"/>
+          <circle class="prog-fill" cx="40" cy="40" r="35" stroke="#A855F7" style="--offset:33"/>
+        </svg>
+        <span class="prog-val" style="color:#A855F7">35%</span>
+      </div>
+      <p class="prog-lbl">REASONING</p>
+    </div>
+    <div class="prog-item">
+      <div class="prog-ring">
+        <svg width="80" height="80" viewBox="0 0 80 80">
+          <circle class="prog-bg" cx="40" cy="40" r="35"/>
+          <circle class="prog-fill" cx="40" cy="40" r="35" stroke="#00E676" style="--offset:55"/>
+        </svg>
+        <span class="prog-val" style="color:#00E676">30%</span>
+      </div>
+      <p class="prog-lbl">ENGLISH</p>
+    </div>
+  </div>
+
+  <div class="hl-box gold reveal">
+    ⏱ <strong>Time Strategy:</strong> Each section has a strict 20-minute limit. You CANNOT move time between sections. Practise with a stopwatch from Day 1.
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ══════════════  PHASE 2 — MAINS SUBJECTS  ══════════════ -->
+  <div class="phase-label reveal-left">
+    <span class="num">02</span>
+    <div class="info">
+      <h2>MAINS SYLLABUS</h2>
+      <p>4 Sections · 190 Questions · 200 Marks · 160 Minutes</p>
+    </div>
+    <div class="line"></div>
+  </div>
+
+  <div class="mains-grid reveal">
+    <div class="mains-card" style="--card-accent:#00C9FF">
+      <span class="micon">📊</span>
+      <h4 style="color:#00C9FF">QUANTITATIVE<br>APTITUDE</h4>
+      <p>Advanced DI · Caselet · Mixed DI · Qty. Comparison · All Arithmetic</p>
+      <span class="score">50 Q</span>
+    </div>
+    <div class="mains-card" style="--card-accent:#A855F7">
+      <span class="micon">🔍</span>
+      <h4 style="color:#A855F7">REASONING &amp;<br>COMPUTER</h4>
+      <p>Advanced Puzzles · Input-Output · Alphanumeric · Computer Basics · MS Office</p>
+      <span class="score">50 Q</span>
+    </div>
+    <div class="mains-card" style="--card-accent:#00E676">
+      <span class="micon">✍️</span>
+      <h4 style="color:#00E676">ENGLISH<br>LANGUAGE</h4>
+      <p>Advanced RC · Sentence Improvement · Word Usage · Paragraph Completion</p>
+      <span class="score">40 Q</span>
+    </div>
+    <div class="mains-card" style="--card-accent:#F5A623; grid-column:span 3;">
+      <span class="micon">🏦</span>
+      <h4 style="color:#F5A623">GENERAL &amp; FINANCIAL AWARENESS — 50 Questions / 50 Marks</h4>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;text-align:left;margin-top:8px">
+        <p style="font-size:11px;color:rgba(240,244,255,.5)">📌 RBI, SEBI, NABARD, IRDAI<br>📌 Banking Acts 1934/1949<br>📌 Repo, Reverse Repo, CRR, SLR</p>
+        <p style="font-size:11px;color:rgba(240,244,255,.5)">📌 Govt. Schemes (PMJDY, MUDRA)<br>📌 Types of Banks & RRBs<br>📌 NEFT, RTGS, IMPS, UPI</p>
+        <p style="font-size:11px;color:rgba(240,244,255,.5)">📌 Current Affairs (6 months)<br>📌 Budget Highlights<br>📌 Awards, Sports, Summits</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="progress-row reveal">
+    <div class="prog-item">
+      <div class="prog-ring">
+        <svg width="80" height="80" viewBox="0 0 80 80">
+          <circle class="prog-bg" cx="40" cy="40" r="35"/>
+          <circle class="prog-fill" cx="40" cy="40" r="35" stroke="#00C9FF" style="--offset:44"/>
+        </svg>
+        <span class="prog-val" style="color:#00C9FF">25%</span>
+      </div>
+      <p class="prog-lbl">QUANT</p>
+    </div>
+    <div class="prog-item">
+      <div class="prog-ring">
+        <svg width="80" height="80" viewBox="0 0 80 80">
+          <circle class="prog-bg" cx="40" cy="40" r="35"/>
+          <circle class="prog-fill" cx="40" cy="40" r="35" stroke="#A855F7" style="--offset:33"/>
+        </svg>
+        <span class="prog-val" style="color:#A855F7">30%</span>
+      </div>
+      <p class="prog-lbl">REASONING</p>
+    </div>
+    <div class="prog-item">
+      <div class="prog-ring">
+        <svg width="80" height="80" viewBox="0 0 80 80">
+          <circle class="prog-bg" cx="40" cy="40" r="35"/>
+          <circle class="prog-fill" cx="40" cy="40" r="35" stroke="#F5A623" style="--offset:44"/>
+        </svg>
+        <span class="prog-val" style="color:#F5A623">25%</span>
+      </div>
+      <p class="prog-lbl">GK/FA</p>
+    </div>
+    <div class="prog-item">
+      <div class="prog-ring">
+        <svg width="80" height="80" viewBox="0 0 80 80">
+          <circle class="prog-bg" cx="40" cy="40" r="35"/>
+          <circle class="prog-fill" cx="40" cy="40" r="35" stroke="#00E676" style="--offset:66"/>
+        </svg>
+        <span class="prog-val" style="color:#00E676">20%</span>
+      </div>
+      <p class="prog-lbl">ENGLISH</p>
+    </div>
+    <div class="prog-item">
+      <div class="prog-ring">
+        <svg width="80" height="80" viewBox="0 0 80 80">
+          <circle class="prog-bg" cx="40" cy="40" r="35"/>
+          <circle class="prog-fill" cx="40" cy="40" r="35" stroke="#FF6B9D" style="--offset:198"/>
+        </svg>
+        <span class="prog-val" style="color:#FF6B9D">~5%</span>
+      </div>
+      <p class="prog-lbl">COMPUTER</p>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ══════════════  PHASE 3 — 12-WEEK PLAN  ══════════════ -->
+  <div class="phase-label reveal-left">
+    <span class="num">03</span>
+    <div class="info">
+      <h2>12-WEEK STUDY ROADMAP</h2>
+      <p>Foundation → Intensive → Test Strategy — 3 Clear Phases</p>
+    </div>
+    <div class="line"></div>
+  </div>
+
+  <!-- ROAD TIMELINE -->
+  <div class="road-section reveal">
+    <div class="road-line"></div>
+
+    <div class="road-stop" style="--stop-color:#00C9FF;--stop-color-dim:rgba(0,201,255,.2)">
+      <div class="stop-week">WEEK 1–2</div>
+      <div class="stop-title" style="color:#00C9FF">🚀 Day 1 — Self-Assessment &amp; Setup</div>
+      <div class="stop-desc">Take a baseline mock test unprepared. Identify your starting score and weakest subject. Set up study tools, register for test series.</div>
+      <div class="stop-chips">
+        <span class="chip">Free Mock Test</span>
+        <span class="chip">Gap Analysis</span>
+        <span class="chip">Buy Books</span>
+        <span class="chip">Set Schedule</span>
+      </div>
+    </div>
+
+    <div class="road-stop" style="--stop-color:#A855F7;--stop-color-dim:rgba(168,85,247,.2)">
+      <div class="stop-week">WEEK 1–4 · PHASE 1: FOUNDATION</div>
+      <div class="stop-title" style="color:#A855F7">📐 Build the Base</div>
+      <div class="stop-desc">Master Number Series, Simplification, Puzzles basics, Syllogism, Grammar rules, RC fundamentals. No mocks yet — concept first.</div>
+      <div class="stop-chips">
+        <span class="chip" style="color:#A855F7;border-color:rgba(168,85,247,.3)">Quant Basics</span>
+        <span class="chip" style="color:#A855F7;border-color:rgba(168,85,247,.3)">Puzzle Sets 1–30</span>
+        <span class="chip" style="color:#A855F7;border-color:rgba(168,85,247,.3)">Grammar Rules</span>
+        <span class="chip" style="color:#A855F7;border-color:rgba(168,85,247,.3)">Vocab 10/day</span>
+      </div>
+    </div>
+
+    <div class="road-stop" style="--stop-color:#F5A623;--stop-color-dim:rgba(245,166,35,.2)">
+      <div class="stop-week">WEEK 5–8 · PHASE 2: INTENSIVE PRACTICE</div>
+      <div class="stop-title" style="color:#F5A623">⚡ Apply Under Pressure</div>
+      <div class="stop-desc">DI practice daily, advanced puzzles, Banking GK begins. First full Prelims mocks. Analyse every error. Begin Computer Aptitude topics.</div>
+      <div class="stop-chips">
+        <span class="chip" style="color:#F5A623;border-color:rgba(245,166,35,.3)">10 DI sets/week</span>
+        <span class="chip" style="color:#F5A623;border-color:rgba(245,166,35,.3)">Sectional Mocks</span>
+        <span class="chip" style="color:#F5A623;border-color:rgba(245,166,35,.3)">GK Capsule</span>
+        <span class="chip" style="color:#F5A623;border-color:rgba(245,166,35,.3)">Error Log</span>
+      </div>
+    </div>
+
+    <div class="road-stop" style="--stop-color:#00E676;--stop-color-dim:rgba(0,230,118,.2)">
+      <div class="stop-week">WEEK 9–12 · PHASE 3: TEST STRATEGY</div>
+      <div class="stop-title" style="color:#00E676">🎯 Mock → Analyse → Repeat</div>
+      <div class="stop-desc">1 full mock per day. Analyse all errors. Revise weak topics. Daily current affairs. No new topics in final week. Rest &amp; prepare mentally.</div>
+      <div class="stop-chips">
+        <span class="chip" style="color:#00E676;border-color:rgba(0,230,118,.3)">1 Mock/day</span>
+        <span class="chip" style="color:#00E676;border-color:rgba(0,230,118,.3)">CA Revision</span>
+        <span class="chip" style="color:#00E676;border-color:rgba(0,230,118,.3)">Formula Sheet</span>
+        <span class="chip" style="color:#00E676;border-color:rgba(0,230,118,.3)">GK One-liners</span>
+      </div>
+    </div>
+
+    <div class="road-stop" style="--stop-color:#FF6B9D;--stop-color-dim:rgba(255,107,157,.2)">
+      <div class="stop-week">EXAM DAY</div>
+      <div class="stop-title" style="color:#FF6B9D">🏆 The Day You Worked For</div>
+      <div class="stop-desc">Arrive 45 min early. Start with strongest section. Skip time-consuming questions on first pass. Aim for 80%+ accuracy. Stay calm.</div>
+      <div class="stop-chips">
+        <span class="chip" style="color:#FF6B9D;border-color:rgba(255,107,157,.3)">Admit Card</span>
+        <span class="chip" style="color:#FF6B9D;border-color:rgba(255,107,157,.3)">Original ID</span>
+        <span class="chip" style="color:#FF6B9D;border-color:rgba(255,107,157,.3)">Photos</span>
+        <span class="chip" style="color:#FF6B9D;border-color:rgba(255,107,157,.3)">Calm Mind</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Week-by-Week Table -->
+  <div class="week-table reveal">
+    <table>
+      <thead>
+        <tr>
+          <th>WEEK</th>
+          <th>MON – TUE</th>
+          <th>WED – THU</th>
+          <th>FRI – SAT</th>
+          <th>SUNDAY</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="week-num">W1</span></td>
+          <td>Number Series + Simplification</td>
+          <td>Puzzles (Linear) + Seating</td>
+          <td>Grammar Basics + RC Intro</td>
+          <td style="color:#00E676">Revision + Mini Test</td>
+        </tr>
+        <tr>
+          <td><span class="week-num">W2</span></td>
+          <td>Quadratic Eq. + Approx.</td>
+          <td>Syllogism + Inequalities</td>
+          <td>Cloze Test + Fill in Blanks</td>
+          <td style="color:#00E676">Revision + Mini Test</td>
+        </tr>
+        <tr>
+          <td><span class="week-num">W3</span></td>
+          <td>Arithmetic: %, Ratio, P&amp;L</td>
+          <td>Coding-Decoding + Blood Rel.</td>
+          <td>Error Detection + Para Jumbles</td>
+          <td style="color:#00E676">Revision + Mini Test</td>
+        </tr>
+        <tr>
+          <td><span class="week-num">W4</span></td>
+          <td>DI — Tables + Bar Graph</td>
+          <td>Directions + Misc. Reasoning</td>
+          <td>Vocab + RC Practice</td>
+          <td style="color:#F5A623">Full Prelims Mock #1</td>
+        </tr>
+        <tr>
+          <td><span class="week-num">W5</span></td>
+          <td>Adv. DI — Line + Pie</td>
+          <td>Adv. Puzzles (Floor/Box)</td>
+          <td>Speed RC (10 min/passage)</td>
+          <td style="color:#F5A623">Sectional Mocks (2)</td>
+        </tr>
+        <tr>
+          <td><span class="week-num">W6</span></td>
+          <td>Banking Awareness Start</td>
+          <td>Static GK + Govt. Schemes</td>
+          <td>Sentence Improvement + Usage</td>
+          <td style="color:#F5A623">Prelims Mock + Analysis</td>
+        </tr>
+        <tr>
+          <td><span class="week-num">W7</span></td>
+          <td>Computer Aptitude Basics</td>
+          <td>Input-Output + Alphanumeric</td>
+          <td>Adv. English — Mains Level</td>
+          <td style="color:#A855F7">Full Mains Mock #1</td>
+        </tr>
+        <tr>
+          <td><span class="week-num">W8</span></td>
+          <td>Mixed Revision — Quant</td>
+          <td>Mixed Revision — Reasoning</td>
+          <td>Mixed Revision — English</td>
+          <td style="color:#A855F7">Speed Test (Prelims)</td>
+        </tr>
+        <tr>
+          <td><span class="week-num">W9</span></td>
+          <td>Weak Topics from Mock Log</td>
+          <td>Caselet DI + Missing DI</td>
+          <td>Current Affairs — Month 1–3</td>
+          <td style="color:#FF6B9D">3 Mocks This Weekend</td>
+        </tr>
+        <tr>
+          <td><span class="week-num">W10</span></td>
+          <td>Current Affairs — Month 4–6</td>
+          <td>Banking GK Revision</td>
+          <td>One-Liner GK Diary Build</td>
+          <td style="color:#FF6B9D">Mains Mock + Analysis</td>
+        </tr>
+        <tr>
+          <td><span class="week-num">W11</span></td>
+          <td>Full Revision — All Subjects</td>
+          <td>Previous Year Papers (2)</td>
+          <td>Formula Sheet Revision</td>
+          <td style="color:#FF6B9D">1 Prelims + 1 Mains</td>
+        </tr>
+        <tr>
+          <td><span class="week-num">W12</span></td>
+          <td colspan="3" style="color:rgba(240,244,255,.7);text-align:center">⚠️ NO NEW TOPICS — Light Revision Only · Sleep 8 hrs · Eat Well</td>
+          <td style="color:#00E676">Exam Ready ✓</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ══════════════  PHASE 4 — DAILY SCHEDULE  ══════════════ -->
+  <div class="phase-label reveal-left">
+    <span class="num">04</span>
+    <div class="info">
+      <h2>DAILY STUDY SCHEDULE</h2>
+      <p>6-Hour Structure · Balanced Across All Subjects</p>
+    </div>
+    <div class="line"></div>
+  </div>
+
+  <div class="strategy-row reveal">
+    <div class="strat-card" style="--accent:#00C9FF">
+      <h4>⏰ 6:00–6:30 AM</h4>
+      <p>Revise previous day's notes. Recall formulas. Quick vocab review.</p>
+    </div>
+    <div class="strat-card" style="--accent:#A855F7">
+      <h4>📐 7:00–9:00 AM</h4>
+      <p>Quantitative Aptitude — DI sets + topic practice. Most alert time of day.</p>
+    </div>
+    <div class="strat-card" style="--accent:#F5A623">
+      <h4>🧩 10:00–11:30 AM</h4>
+      <p>Reasoning Ability — Puzzles, seating, syllogism. Timer on always.</p>
+    </div>
+    <div class="strat-card" style="--accent:#00E676">
+      <h4>📖 12:00–1:30 PM</h4>
+      <p>English Language — RC comprehension. Cloze test. Error detection.</p>
+    </div>
+    <div class="strat-card" style="--accent:#FF6B9D">
+      <h4>🏦 3:00–4:00 PM</h4>
+      <p>Current Affairs + Banking GK. Read newspaper headlines. One-liners.</p>
+    </div>
+    <div class="strat-card" style="--accent:#00C9FF">
+      <h4>🎯 5:00–6:30 PM</h4>
+      <p>Full Mock / Sectional Test. Strict exam conditions. Stopwatch timing.</p>
+    </div>
+    <div class="strat-card" style="--accent:#A855F7">
+      <h4>📝 7:00–8:00 PM</h4>
+      <p>Mock Analysis — Go through EVERY wrong answer. Categorize errors.</p>
+    </div>
+    <div class="strat-card" style="--accent:#F5A623">
+      <h4>🌙 9:00–9:30 PM</h4>
+      <p>Note-making — Write 3 key learnings of the day. Shut books by 10 PM.</p>
+    </div>
+    <div class="strat-card" style="--accent:#00E676">
+      <h4>😴 10:30 PM</h4>
+      <p>Sleep! Memory consolidation happens during sleep — protect it fiercely.</p>
+    </div>
+  </div>
+
+  <!-- Time Allocation -->
+  <div class="glow-header reveal">
+    <h2>WEEKLY HOURS PER SUBJECT</h2>
+    <p>Allocate your time based on weightage — not preference</p>
+  </div>
+  <div class="cutoff-wrap reveal">
+    <div class="cutoff-bar-row"><span class="cutoff-label" style="color:#00C9FF">⚡ Quant</span><div class="cutoff-track"><div class="cutoff-fill" style="--fill-c:linear-gradient(90deg,#00C9FF,#0066ff);--fill-w:90%;width:90%;--d:0.1s"></div></div><span class="cutoff-val">8–10 hrs</span></div>
+    <div class="cutoff-bar-row"><span class="cutoff-label" style="color:#A855F7">🧩 Reasoning</span><div class="cutoff-track"><div class="cutoff-fill" style="--fill-c:linear-gradient(90deg,#A855F7,#6600ff);--fill-w:90%;width:90%;--d:0.2s"></div></div><span class="cutoff-val">8–10 hrs</span></div>
+    <div class="cutoff-bar-row"><span class="cutoff-label" style="color:#00E676">📖 English</span><div class="cutoff-track"><div class="cutoff-fill" style="--fill-c:linear-gradient(90deg,#00E676,#00a854);--fill-w:65%;width:65%;--d:0.3s"></div></div><span class="cutoff-val">5–7 hrs</span></div>
+    <div class="cutoff-bar-row"><span class="cutoff-label" style="color:#F5A623">🏦 GK/FA</span><div class="cutoff-track"><div class="cutoff-fill" style="--fill-c:linear-gradient(90deg,#F5A623,#cc8800);--fill-w:50%;width:50%;--d:0.4s"></div></div><span class="cutoff-val">4–5 hrs</span></div>
+    <div class="cutoff-bar-row"><span class="cutoff-label" style="color:#FF6B9D">💻 Computer</span><div class="cutoff-track"><div class="cutoff-fill" style="--fill-c:linear-gradient(90deg,#FF6B9D,#cc2255);--fill-w:20%;width:20%;--d:0.5s"></div></div><span class="cutoff-val">1–2 hrs</span></div>
+    <div class="cutoff-bar-row"><span class="cutoff-label" style="color:#fff">🎯 Mocks</span><div class="cutoff-track"><div class="cutoff-fill" style="--fill-c:linear-gradient(90deg,#fff,#aaa);--fill-w:50%;width:50%;--d:0.6s"></div></div><span class="cutoff-val">4–5 hrs</span></div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ══════════════  PHASE 5 — FORMULA SHEET  ══════════════ -->
+  <div class="phase-label reveal-left">
+    <span class="num">05</span>
+    <div class="info">
+      <h2>QUICK FORMULA REFERENCE</h2>
+      <p>Bookmark These — They Cover 70% of the Quant Section</p>
+    </div>
+    <div class="line"></div>
+  </div>
+
+  <div class="formula-grid reveal">
+    <div class="formula-card">
+      <div class="f-label">SIMPLE INTEREST</div>
+      <div class="f-val">SI = (P × R × T) / 100</div>
+    </div>
+    <div class="formula-card">
+      <div class="f-label">COMPOUND INTEREST</div>
+      <div class="f-val">CI = P(1 + R/100)ᵀ − P</div>
+    </div>
+    <div class="formula-card">
+      <div class="f-label">PROFIT %</div>
+      <div class="f-val">= (Profit / CP) × 100</div>
+    </div>
+    <div class="formula-card">
+      <div class="f-label">SPEED = DIST / TIME</div>
+      <div class="f-val">km/h → m/s: × 5/18</div>
+    </div>
+    <div class="formula-card">
+      <div class="f-label">WORK (COMBINED)</div>
+      <div class="f-val">Time = AB / (A + B)</div>
+    </div>
+    <div class="formula-card">
+      <div class="f-label">AVERAGE SPEED</div>
+      <div class="f-val">= 2xy / (x + y)</div>
+    </div>
+    <div class="formula-card">
+      <div class="f-label">CI − SI (2 YRS)</div>
+      <div class="f-val">= P × (R/100)²</div>
+    </div>
+    <div class="formula-card">
+      <div class="f-label">ALLIGATION RULE</div>
+      <div class="f-val">Ratio = (x–m) : (m–y)</div>
+    </div>
+  </div>
+
+  <div class="hl-box purple reveal">
+    🔢 <strong>% Shortcuts:</strong> 12.5% = 1/8 &nbsp;|&nbsp; 33.33% = 1/3 &nbsp;|&nbsp; 16.67% = 1/6 &nbsp;|&nbsp; 6.25% = 1/16 &nbsp;|&nbsp; 8.33% = 1/12
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ══════════════  PHASE 6 — TOP RESOURCES  ══════════════ -->
+  <div class="phase-label reveal-left">
+    <span class="num">06</span>
+    <div class="info">
+      <h2>TOP RESOURCES</h2>
+      <p>Best Books · Online Platforms · YouTube Channels · Apps</p>
+    </div>
+    <div class="line"></div>
+  </div>
+
+  <div class="resource-section reveal">
+    <p class="resource-title">📚 STANDARD BOOKS</p>
+    <div class="resource-pills">
+      <span class="res-pill blue">R.S. Aggarwal — Quant</span>
+      <span class="res-pill blue">M. Tyra — Quicker Maths</span>
+      <span class="res-pill blue">Rajesh Verma — Fast Arithmetic</span>
+      <span class="res-pill blue">M.K. Pandey — Reasoning</span>
+      <span class="res-pill blue">S.P. Bakshi — English</span>
+      <span class="res-pill blue">Norman Lewis — Word Power</span>
+      <span class="res-pill blue">Wren &amp; Martin — Grammar</span>
+      <span class="res-pill blue">Arihant — Banking Awareness</span>
+      <span class="res-pill blue">Arihant — Computer Knowledge</span>
+    </div>
+  </div>
+
+  <div class="resource-section reveal">
+    <p class="resource-title">🌐 ONLINE TEST PLATFORMS</p>
+    <div class="resource-pills">
+      <span class="res-pill green">Oliveboard — oliveboard.in</span>
+      <span class="res-pill green">Adda247 — adda247.com</span>
+      <span class="res-pill green">Testbook — testbook.com</span>
+      <span class="res-pill green">Smartkeeda — smartkeeda.com</span>
+      <span class="res-pill green">Cracku — cracku.in</span>
+      <span class="res-pill green">BYJU's Exam Prep — byjusexamprep.com</span>
+    </div>
+  </div>
+
+  <div class="resource-section reveal">
+    <p class="resource-title">▶️ YOUTUBE CHANNELS</p>
+    <div class="resource-pills">
+      <span class="res-pill pink">Study IQ Education</span>
+      <span class="res-pill pink">Adda247 Official</span>
+      <span class="res-pill pink">Wifistudy (Testbook)</span>
+      <span class="res-pill pink">Unacademy Banking</span>
+      <span class="res-pill pink">BankersAdda</span>
+      <span class="res-pill pink">The Hindu Official</span>
+    </div>
+  </div>
+
+  <div class="resource-section reveal">
+    <p class="resource-title">📱 MOBILE APPS</p>
+    <div class="resource-pills">
+      <span class="res-pill">Testbook App</span>
+      <span class="res-pill">Adda247 App</span>
+      <span class="res-pill">Oliveboard EDGE</span>
+      <span class="res-pill">GKToday App</span>
+      <span class="res-pill">Inshorts / Newsonair</span>
+      <span class="res-pill">Vocabulary.com</span>
+    </div>
+  </div>
+
+  <div class="resource-section reveal">
+    <p class="resource-title">🌍 DAILY READING (MANDATORY)</p>
+    <div class="resource-pills">
+      <span class="res-pill blue">thehindu.com/opinion/editorial</span>
+      <span class="res-pill blue">pib.gov.in (Govt. News)</span>
+      <span class="res-pill blue">affairscloud.com (Monthly PDF)</span>
+      <span class="res-pill blue">gktoday.in (Daily Quiz)</span>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ══════════════  PHASE 7 — CUT-OFFS  ══════════════ -->
+  <div class="phase-label reveal-left">
+    <span class="num">07</span>
+    <div class="info">
+      <h2>CUT-OFF TARGETS</h2>
+      <p>Know Your Minimum Targets — Sectional + Overall</p>
+    </div>
+    <div class="line"></div>
+  </div>
+
+  <div class="glow-header reveal">
+    <h2>PRELIMS SECTION CUT-OFFS (GENERAL)</h2>
+  </div>
+  <div class="cutoff-wrap reveal">
+    <div class="cutoff-bar-row"><span class="cutoff-label">📖 English</span><div class="cutoff-track"><div class="cutoff-fill" style="--fill-c:linear-gradient(90deg,#00E676,#00a854);--fill-w:33%;width:33%;--d:0.1s"></div></div><span class="cutoff-val" style="color:#00E676">7–10 / 30</span></div>
+    <div class="cutoff-bar-row"><span class="cutoff-label">🔢 Quant</span><div class="cutoff-track"><div class="cutoff-fill" style="--fill-c:linear-gradient(90deg,#00C9FF,#0066ff);--fill-w:32%;width:32%;--d:0.2s"></div></div><span class="cutoff-val" style="color:#00C9FF">8–12 / 35</span></div>
+    <div class="cutoff-bar-row"><span class="cutoff-label">🧩 Reasoning</span><div class="cutoff-track"><div class="cutoff-fill" style="--fill-c:linear-gradient(90deg,#A855F7,#6600ff);--fill-w:32%;width:32%;--d:0.3s"></div></div><span class="cutoff-val" style="color:#A855F7">8–12 / 35</span></div>
+    <div class="cutoff-bar-row"><span class="cutoff-label" style="font-weight:800">🎯 Overall</span><div class="cutoff-track"><div class="cutoff-fill" style="--fill-c:linear-gradient(90deg,#F5A623,#cc8800);--fill-w:65%;width:65%;--d:0.4s"></div></div><span class="cutoff-val" style="color:#F5A623">55–70 / 100</span></div>
+  </div>
+
+  <div class="hl-box gold reveal">
+    ⚠️ <strong>CRITICAL:</strong> Sectional cut-offs are MANDATORY. Even if you score 80/100 overall but miss the English cut-off of 7, you are ELIMINATED. All sections matter equally.
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ══════════════  PHASE 8 — DO'S & DON'TS  ══════════════ -->
+  <div class="phase-label reveal-left">
+    <span class="num">08</span>
+    <div class="info">
+      <h2>DO'S &amp; DON'TS</h2>
+      <p>Avoid These Mistakes — Learn from Others' Failures</p>
+    </div>
+    <div class="line"></div>
+  </div>
+
+  <div class="dodont-grid reveal">
+    <div class="do-box">
+      <h4>✅ ALWAYS DO</h4>
+      <ul>
+        <li>Analyse every mock test error</li>
+        <li>Read newspaper daily (10 min)</li>
+        <li>Practice puzzles every day</li>
+        <li>Maintain an error log notebook</li>
+        <li>Use the 3-day revision rule</li>
+        <li>Sleep 7–8 hours every night</li>
+        <li>Start with strongest section first</li>
+        <li>Track your mock test scores</li>
+        <li>Practise with timer always on</li>
+      </ul>
+    </div>
+    <div class="dont-box">
+      <h4>❌ NEVER DO</h4>
+      <ul>
+        <li>Skip any single subject entirely</li>
+        <li>Guess randomly — -0.25 per wrong</li>
+        <li>Start new topics in final week</li>
+        <li>Compare scores with others</li>
+        <li>Cram the night before exam</li>
+        <li>Ignore GK/Current Affairs</li>
+        <li>Attempt mocks without analysis</li>
+        <li>Spend 3+ min on one question</li>
+        <li>Study 12 hrs in one day, then rest</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ══════════════  CAREER PATH  ══════════════ -->
+  <div class="phase-label reveal-left">
+    <span class="num">09</span>
+    <div class="info">
+      <h2>CAREER GROWTH PATH</h2>
+      <p>Where This Exam Takes You — Your Entire Future Journey</p>
+    </div>
+    <div class="line"></div>
+  </div>
+
+  <div class="road-section reveal" style="padding-left:44px">
+    <div class="road-line" style="background:linear-gradient(180deg,#00E676,#F5A623,#00C9FF,#A855F7)"></div>
+
+    <div class="road-stop" style="--stop-color:#00E676;--stop-color-dim:rgba(0,230,118,.2)">
+      <div class="stop-week">YEAR 0 · JOINING</div>
+      <div class="stop-title" style="color:#00E676">🏦 Clerk / Junior Associate</div>
+      <div class="stop-desc">Starting salary Rs. 26,000–31,000/month. Branch posting, induction training. Begin JAIIB preparation.</div>
+    </div>
+
+    <div class="road-stop" style="--stop-color:#00C9FF;--stop-color-dim:rgba(0,201,255,.2)">
+      <div class="stop-week">YEAR 2–4</div>
+      <div class="stop-title" style="color:#00C9FF">📜 Clear JAIIB + CAIIB</div>
+      <div class="stop-desc">+2 salary increments per exam. Mandatory for promotion. Highly recommended to clear within first 2–3 years.</div>
+    </div>
+
+    <div class="road-stop" style="--stop-color:#F5A623;--stop-color-dim:rgba(245,166,35,.2)">
+      <div class="stop-week">YEAR 4–8</div>
+      <div class="stop-title" style="color:#F5A623">⭐ Special Assistant / Scale-I Officer</div>
+      <div class="stop-desc">Internal promotion exam OR clear IBPS/SBI PO exam. Salary crosses Rs. 45,000–55,000/month at officer level.</div>
+    </div>
+
+    <div class="road-stop" style="--stop-color:#A855F7;--stop-color-dim:rgba(168,85,247,.2)">
+      <div class="stop-week">YEAR 10–20</div>
+      <div class="stop-title" style="color:#A855F7">🏅 Manager → Senior Manager</div>
+      <div class="stop-desc">Scale II and Scale III through performance + seniority. Salary Rs. 70,000–1,20,000/month + perks.</div>
+    </div>
+
+    <div class="road-stop" style="--stop-color:#FF6B9D;--stop-color-dim:rgba(255,107,157,.2)">
+      <div class="stop-week">YEAR 25+</div>
+      <div class="stop-title" style="color:#FF6B9D">🏆 General Manager / Top Management</div>
+      <div class="stop-desc">Possible to reach AGM / GM level through dedication. Full pension, medical, housing benefits for life.</div>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ══════════════  COMMITMENT BLOCK  ══════════════ -->
+  <div class="milestone reveal">
+    <h3>⚡ YOUR 10 DAILY COMMITMENTS ⚡</h3>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:16px;text-align:left">
+      <p style="font-size:12px;color:rgba(240,244,255,.8);padding:6px 0">✦ Study minimum 4 focused hours/day</p>
+      <p style="font-size:12px;color:rgba(240,244,255,.8);padding:6px 0">✦ Never miss Sunday revision session</p>
+      <p style="font-size:12px;color:rgba(240,244,255,.8);padding:6px 0">✦ 3 mock tests per week (final month)</p>
+      <p style="font-size:12px;color:rgba(240,244,255,.8);padding:6px 0">✦ Analyse every mock before next one</p>
+      <p style="font-size:12px;color:rgba(240,244,255,.8);padding:6px 0">✦ Read 10 news headlines every day</p>
+      <p style="font-size:12px;color:rgba(240,244,255,.8);padding:6px 0">✦ Compare only with your own past score</p>
+      <p style="font-size:12px;color:rgba(240,244,255,.8);padding:6px 0">✦ Make notes — never just passively read</p>
+      <p style="font-size:12px;color:rgba(240,244,255,.8);padding:6px 0">✦ Practice DI and Puzzles daily</p>
+      <p style="font-size:12px;color:rgba(240,244,255,.8);padding:6px 0">✦ Maintain health — sleep, eat, exercise</p>
+      <p style="font-size:12px;color:rgba(240,244,255,.8);padding:6px 0">✦ Enter exam calm — you prepared well</p>
+    </div>
+  </div>
+
+  <!-- ══════════════  FOOTER  ══════════════ -->
+  <div class="footer">
+    <p class="footer-big">CLEAR IT! 🏆</p>
+    <p class="footer-sub">Stay Consistent · Stay Hungry · The Bank Job Is Yours</p>
+    <div style="margin-top:14px;display:flex;justify-content:center;gap:16px;flex-wrap:wrap;font-size:13px">
+      <a href="./" style="color:var(--dim);text-decoration:none">Home</a>
+      <a href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener" style="color:#C084FC;font-weight:700;text-decoration:none">&#x1F468;&#x200D;&#x1F4BB; Creator Profile</a>
+      <a href="study-modules.html" style="color:var(--dim);text-decoration:none">Study Modules</a>
+      <a href="quiz-simulator.html" style="color:var(--dim);text-decoration:none">Mock Lab</a>
+      <a href="all-exam-roadmaps.html" style="color:var(--dim);text-decoration:none">All Roadmaps</a>
+      <a href="contact.html" style="color:var(--dim);text-decoration:none">Contact</a>
+    </div>
+    <p style="font-size:11px;color:rgba(240,244,255,.3);margin-top:14px;letter-spacing:1px;">
+      &copy; 2026 <a href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Raghavbegins (Raghavendra)</a> &bull; IBPS &amp; SBI CLERK PREPARATION ROADMAP &bull; Free Guide
+    </p>
+  </div>
+
+</div><!-- /page -->
+
+<script>
+// ── Scroll Reveal ───────────────────────────────────────────────
+const revealEls = document.querySelectorAll('.reveal, .reveal-left');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      observer.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+revealEls.forEach(el => observer.observe(el));
+
+// ── Animate progress circles ─────────────────────────────────────
+const fills = document.querySelectorAll('.prog-fill');
+const circleObs = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.style.animation = `fillCircle 1.8s ease forwards`;
+      circleObs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.5 });
+fills.forEach(f => circleObs.observe(f));
+
+// ── Hover glow on cards ──────────────────────────────────────────
+document.querySelectorAll('.subject-card, .mains-card, .strat-card, .formula-card').forEach(card => {
+  card.addEventListener('mousemove', (e) => {
+    const rect = card.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    const y = ((e.clientY - rect.top) / rect.height) * 100;
+    card.style.setProperty('--mx', x + '%');
+    card.style.setProperty('--my', y + '%');
+  });
+});
+
+// ── Counter animation for stat-nums ──────────────────────────────
+function animateCounter(el, target, suffix = '') {
+  let start = 0;
+  const duration = 1500;
+  const step = target / (duration / 16);
+  const timer = setInterval(() => {
+    start += step;
+    if (start >= target) { start = target; clearInterval(timer); }
+    el.textContent = Math.floor(start) + suffix;
+  }, 16);
+}
+const statObs = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const nums = e.target.querySelectorAll('.stat-num');
+      nums.forEach(n => {
+        const raw = n.textContent.replace(/[^0-9]/g,'');
+        const suffix = n.textContent.replace(/[0-9]/g,'');
+        if(raw) animateCounter(n, parseInt(raw), suffix);
+      });
+      statObs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.5 });
+document.querySelectorAll('.hero-stats').forEach(el => statObs.observe(el));
+</script>
+
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-analytics.js";
+    const firebaseConfig = {
+      apiKey: "AIzaSyCumDxKiDMd72dRmY6igXXxOypJe1JvD0g",
+      authDomain: "bharatexam-d477c.firebaseapp.com",
+      projectId: "bharatexam-d477c",
+      storageBucket: "bharatexam-d477c.firebasestorage.app",
+      messagingSenderId: "977099665337",
+      appId: "1:977099665337:web:6c9fc3e3abd15e67929068",
+      measurementId: "G-B0Z2G21W4F"
+    };
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+<script src="js/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+{
+  "demography": {
+    "title": "Demography of India — Population Dynamics & Demographic Transition",
+    "keyMetrics": {
+      "totalPopulation": "1,210,854,977 (Census 2011: 1.21 billion; surpassed 1.43 billion in 2023, making India the most populous nation)",
+      "growthRateDecadal": "17.7% (2001–2011), down from 21.5% in 1991–2001",
+      "populationDensity": "382 persons per sq km (Bihar highest among states at 1,106; Arunachal Pradesh lowest at 17; Delhi highest among UTs at 11,320)",
+      "overallSexRatio": "943 females per 1,000 males (Kerala highest at 1,084; Puducherry 1,037; Haryana lowest among states at 879; Daman & Diu lowest UT at 618)",
+      "childSexRatio06": "919 females per 1,000 males (alarming drop from 927 in 2001; Mizoram highest at 970; Haryana lowest at 834)",
+      "literacyRate": "73.0% (Males: 80.9%, Females: 64.6%; Kerala highest at 94.0%, Bihar lowest at 61.8%)",
+      "urbanRuralSplit": "Rural: 68.84% (833.5 million), Urban: 31.16% (377.1 million)",
+      "totalFertilityRate": "2.0 (NFHS-5, 2019-21: below replacement level of 2.1; only Bihar, Meghalaya, and UP remain slightly above replacement level)"
+    },
+    "demographicTransition": {
+      "theory": "Warren Thompson & Frank Notestein Demographic Transition Model (DTM) tracing birth and death rate transitions across industrialization.",
+      "stage1": "High Stationary: High birth rate and high fluctuating death rate (epidemics, famines); population growth slow. India was in Stage 1 before 1921.",
+      "greatDivide": "1921 — 'The Year of the Great Divide': Only census where India recorded NEGATIVE population growth (-0.31%) due to 1918 Spanish Flu pandemic and famine. Post-1921, mortality declined steadily while fertility stayed high.",
+      "stage2": "Early Expanding: High birth rate, steeply declining death rate; rapid population explosion (India during 1951–1981).",
+      "stage3": "Late Expanding: Rapidly falling birth rate, low death rate; population growth decelerates (India's current stage post-1991, with TFR reaching 2.0).",
+      "stage4": "Low Stationary: Low birth rate and low death rate; stable population (Kerala and Tamil Nadu approaching Stage 4)."
+    },
+    "demographicDividend": {
+      "definition": "Economic growth potential when the share of working-age population (15–64 years) is higher than the dependent population (<15 and >65 years).",
+      "medianAge": "India's median age is ~28.7 years (compared to 38 in China and US, 48 in Japan), providing a demographic window of opportunity until ~2045–2055.",
+      "prerequisites": "Requires substantial investments in human capital: healthcare, high-quality skilling (Skill India), vocational training, and formal job creation to avert a 'demographic disaster'."
+    }
+  },
+  "urbanization": {
+    "title": "Urbanization in India — Trends, Metropolises & Smart Infrastructure",
+    "censusDefinition": "Urban Area in Census of India: (1) Statutory Towns: Municipal corporation, municipality, cantonment board, or notified town area; (2) Census Towns: Population ≥ 5,000; at least 75% of male main working population engaged in non-agricultural pursuits; density ≥ 400 persons per sq km.",
+    "urbanTrends": {
+      "urbanPopulation": "377.1 million in 2011 (31.16% of total); projected to cross 600 million (>40%) by 2036.",
+      "highestUrbanState": "Goa (62.2% urban), followed by Mizoram (52.1%) and Tamil Nadu (48.4%). Among large states, Tamil Nadu, Maharashtra (45.2%), and Gujarat (42.6%) are most urbanized.",
+      "lowestUrbanState": "Himachal Pradesh (only 10.0% urban), followed by Bihar (11.3%) and Assam (14.1%).",
+      "millionPlusCities": "53 cities in Census 2011 (had only 35 in 2001).",
+      "megacities": "Greater Mumbai (18.4 million), Delhi (16.3 million), Kolkata (14.1 million) — Census 2011."
+    },
+    "urbanChallenges": {
+      "issues": "Proliferation of informal settlements / slums (e.g. Dharavi in Mumbai); severe shortage of affordable housing; urban heat islands (UHI); loss of blue-green infrastructure (encroachment of urban wetlands in Chennai, Bengaluru, Delhi causing severe urban deluges); inadequate municipal sewage and solid waste processing; traffic gridlock.",
+      "schemes": "Smart Cities Mission (100 smart cities with integrated command and control centers / ICCC); AMRUT (Atal Mission for Rejuvenation and Urban Transformation — universal water tap and sewerage coverage); Pradhan Mantri Awas Yojana - Urban (PMAY-U); Swachh Bharat Mission - Urban (SBM-U 2.0); PM e-Bus Sewa."
+    }
+  },
+  "census": {
+    "title": "History & Framework of the Indian Census",
+    "history": [
+      { "year": "1872", "event": "First non-synchronous Census of India conducted under British Viceroy Lord Mayo." },
+      { "year": "1881", "event": "First complete, synchronous decennial Census conducted under Viceroy Lord Ripon (Census Commissioner W.C. Plowden). Decennial census conducted uninterrupted every 10 years until 2011." },
+      { "year": "1948", "event": "Census Act 1948 enacted, establishing permanent statutory authority." },
+      { "year": "1961", "event": "Office of Registrar General and Census Commissioner of India (RG&CCI) created under the Ministry of Home Affairs (MHA)." },
+      { "year": "2011", "event": "15th National Census (7th post-independence), conducted in two phases: House listing & Housing Census, followed by Population Enumeration." },
+      { "year": "Upcoming", "event": "First fully Digital Census of India featuring self-enumeration mobile portals, geo-referenced digital mapping, and seamless demographic analytics." }
+    ],
+    "secc": "Socio-Economic and Caste Census (SECC 2011): Conducted by Ministry of Rural Development, Ministry of Housing & Urban Poverty Alleviation, and MHA to identify beneficiary households based on deprivation indicators for social welfare schemes (Ayushman Bharat, PMAY, Ujjwala)."
+  },
+  "industrialRegions": [
+    {
+      "region": "Mumbai-Pune Industrial Region",
+      "states": "Maharashtra",
+      "drivers": "Cotton textile origin, cheap hydel power from Western Ghats (Tata Hydro), Bombay High oil & petrochemicals, financial capital access, engineering, IT (Pune), and automobile hub."
+    },
+    {
+      "region": "Hugli Industrial Region",
+      "states": "West Bengal",
+      "drivers": "Jute textile belt along Hooghly river, early British capital, proximity to Raniganj coal and Damodar mineral hinterland, cheap labour from Bihar/Odisha, Kolkata port."
+    },
+    {
+      "region": "Bengaluru-Tamil Nadu Industrial Region",
+      "states": "Karnataka & Tamil Nadu",
+      "drivers": "Heavy public sector investment (HAL, BHEL, ISRO), Pykara & Mettur hydel power, cotton textiles (Coimbatore Manchester of South India), IT & electronics (Bengaluru), automobile and hardware cluster (Chennai)."
+    },
+    {
+      "region": "Gujarat Industrial Region",
+      "states": "Gujarat (Ahmedabad, Vadodara, Bharuch, Surat, Ankleshwar)",
+      "drivers": "Black soil cotton belt, petrochemicals and refineries (Kandla, Jamnagar, Dahej), chemical and pharmaceutical corridors, diamond cutting (Surat), port-led industrial growth."
+    },
+    {
+      "region": "Chota Nagpur Industrial Region",
+      "states": "Jharkhand, Odisha, West Bengal",
+      "drivers": "The Ruhr of India — co-location of Gondwana coal (Jharia, Bokaro), high-grade hematite iron ore (Singhbhum, Kendujhar), manganese, limestone, and water from DVC; heavy engineering and steel plants."
+    },
+    {
+      "region": "Vishakhapatnam-Guntur Industrial Region",
+      "states": "Andhra Pradesh",
+      "drivers": "Port-based Visakhapatnam steel plant, Hindustan Shipyard, petroleum refinery, fertilizers, Krishnapatnam port corridor, pharmaceuticals."
+    },
+    {
+      "region": "Gurgaon-Delhi-Meerut Industrial Region",
+      "states": "Delhi, Haryana, Uttar Pradesh",
+      "drivers": "National capital consumer market, automobiles (Maruti Suzuki Gurugram-Manesar), IT & electronics (Noida, Gurugram), light engineering, apparel."
+    },
+    {
+      "region": "Kollam-Thiruvananthapuram Industrial Region",
+      "states": "Kerala",
+      "drivers": "Agricultural processing (coir, cashew nut processing), fish canning, titanium dioxide, titanium sponge, IT (Technopark Thiruvananthapuram)."
+    }
+  ],
+  "transportAndInfrastructure": {
+    "roads": {
+      "totalLength": "~63.7 lakh km (second largest road network in the world after USA)",
+      "nationalHighways": "Over 146,000 km (~2% of road length, carrying >40% of total road traffic)",
+      "goldenQuadrilateral": "5,846 km 4/6-lane highway connecting Delhi, Mumbai, Chennai, and Kolkata",
+      "northSouthEastWest": "NS: Srinagar to Kanyakumari (NH-44, 4,000 km); EW: Silchar to Porbandar (NH-27, 3,300 km); crossing at Jhansi (UP)",
+      "bharatmala": "Umbrella highway development program developing 34,800 km of economic corridors, border/coastal connectivity, and greenfield expressways (Delhi-Mumbai, Delhi-Amritsar-Katra, Bengaluru-Chennai)"
+    },
+    "railways": {
+      "network": "Fourth largest national railway system under single management (~68,000 route km; >90% broad gauge electrified)",
+      "dfc": "Dedicated Freight Corridors: Western DFC (1,506 km: Dadri, UP to JNPT, Mumbai) and Eastern DFC (1,875 km: Ludhiana to Dankuni, WB) built to separate heavy freight from passenger lines",
+      "modernization": "Vande Bharat semi-high speed trains; Mumbai-Ahmedabad High Speed Rail (bullet train, 508 km using Japanese Shinkansen E5 technology)"
+    },
+    "waterwaysAndPorts": {
+      "inlandWaterways": "111 National Waterways declared under National Waterways Act 2016. Major: NW-1 (Ganga-Bhagirathi-Hooghly: Prayagraj to Haldia, 1,620 km with multi-modal terminals at Varanasi, Sahibganj, Haldia); NW-2 (Brahmaputra: Sadiya to Dhubri, 891 km); NW-3 (West Coast Canal, Kerala: Kottapuram to Kollam, 205 km with 24-hr navigation)",
+      "majorPorts": "12 Major Ports (6 West Coast: Deendayal/Kandla, Mumbai, JNPT, Mormugao, New Mangalore, Cochin; 6 East Coast: VO Chidambaranar/Tuticorin, Chennai, Kamarajar/Ennore, Visakhapatnam, Paradip, Syama Prasad Mookerjee/Kolkata-Haldia). Largest container port: JNPT; Deepest natural harbour: Visakhapatnam; Riverine port: Kolkata; Corporatized major port: Kamarajar/Ennore",
+      "sagarmala": "Port-led development program modernizing ports, port-linked industrialization (Coastal Economic Zones / CEZs), and coastal community development"
+    },
+    "civilAviation": {
+      "udan": "Ude Desh ka Aam Naagrik: Regional connectivity scheme providing capped airfares and Viability Gap Funding (VGF) to revive unserved and underserved airstrips across Tier-2/Tier-3 cities."
+    },
+    "pipelines": {
+      "networks": "Cross-country energy pipelines: HVJ Pipeline (Hazira-Vijaipur-Jagdishpur, 1,750 km first cross-country gas pipeline); Urja Ganga Gas Pipeline (Jagdishpur-Haldia & Bokaro-Dhamra, 2,655 km connecting Eastern India); Salaya-Mathura crude pipeline; Barauni-Kanpur products pipeline."
+    }
+  }
+}

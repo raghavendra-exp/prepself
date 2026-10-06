@@ -1,0 +1,47 @@
+{
+  "exam": "CUET-UG",
+  "year": 2026,
+  "duration": "45 minutes for general domain subjects & languages; 60 minutes for Accountancy, Economics, Physics, Computer Science / Informatics Practices, Chemistry, Mathematics / Applied Mathematics and General Test.",
+  "subjects": [
+    "English", "Hindi", "Assamese", "Bengali", "Gujarati", "Kannada", "Malayalam", "Marathi", "Odia", "Punjabi", "Tamil", "Telugu", "Urdu",
+    "Arabic", "Bodo", "Chinese", "Dogri", "French", "German", "Italian", "Japanese", "Kashmiri", "Konkani", "Maithili", "Manipuri", "Nepali", "Persian", "Russian", "Santhali", "Sindhi", "Spanish", "Tibetan", "Sanskrit",
+    "Accountancy", "Agriculture", "Anthropology", "Biology / Biological Studies / Biotechnology / Biochemistry", "Business Studies", "Chemistry", "Computer Science / Informatics Practices", "Economics / Business Economics", "Engineering Graphics", "Entrepreneurship", "Environmental Studies", "Fine Arts / Visual Arts / Commercial Arts", "Geography / Geology", "History", "Home Science", "Knowledge Tradition and Practices of India", "Legal Studies", "Mass Media / Mass Communication", "Mathematics / Applied Mathematics", "Performing Arts", "Physical Education / National Cadet Corps (NCC) / Yoga", "Physics", "Political Science", "Psychology", "Sanskrit", "Sociology", "Teaching Aptitude",
+    "General Test (General Knowledge, Current Affairs, Mental Ability, Numerical Ability, Reasoning)"
+  ],
+  "questionCount": "Section IA & IB: 40 questions to be attempted out of 50. Section II (Domain): 40 questions to be attempted out of 50. Section III (General Test): 50 questions to be attempted out of 60.",
+  "markingScheme": "+5 for each correct response, -1 for each incorrect response, 0 for unattempted/unanswered questions.",
+  "mode": "Hybrid Mode (Pen & Paper / OMR for high-registration subjects, Computer Based Test (CBT) for others).",
+  "eligibility": "For appearing in CUET (UG), there is no age limit for candidates. Candidates who have passed 10+2 / equivalent examination or are appearing in 2026 irrespective of age can appear. Note: Participating Universities, Institutions, and Autonomous Colleges may have their own minimum age and percentage requirements.",
+  "maxSubjectLimit": 6,
+  "officialSource": "https://exams.nta.ac.in/CUET-UG/",
+  "lastVerified": "2026-03-15",
+  "sections": [
+    {
+      "name": "Section IA & IB - Languages",
+      "description": "Language proficiency tested through Reading Comprehension (factual, narrative, literary), Literary Aptitude and Vocabulary.",
+      "questionsTotal": 50,
+      "questionsToAttempt": 40,
+      "durationMinutes": 45,
+      "marksPerQuestion": 5,
+      "negativeMarking": 1
+    },
+    {
+      "name": "Section II - Domain Subjects",
+      "description": "As per Class 12 syllabus of the respective subject as specified on NTA portal.",
+      "questionsTotal": 50,
+      "questionsToAttempt": 40,
+      "durationMinutes": 45,
+      "marksPerQuestion": 5,
+      "negativeMarking": 1
+    },
+    {
+      "name": "Section III - General Test",
+      "description": "General Knowledge, Current Affairs, General Mental Ability, Numerical Ability, Quantitative Reasoning, Logical and Analytical Reasoning.",
+      "questionsTotal": 60,
+      "questionsToAttempt": 50,
+      "durationMinutes": 60,
+      "marksPerQuestion": 5,
+      "negativeMarking": 1
+    }
+  ]
+}

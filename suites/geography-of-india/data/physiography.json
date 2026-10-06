@@ -1,0 +1,220 @@
+[
+  {
+    "id": "himalayas",
+    "tag": "01 · Northern Mountain Wall",
+    "name": "The Himalayan Mountains & Purvanchal",
+    "hindi": "हिमालय पर्वतमाला एवं पूर्वांचल",
+    "span": "2,400 km long, 150–400 km wide",
+    "area": "~500,000 sq km",
+    "highestPoint": "K2 (Godwin-Austen, 8,611 m in PoK) / Kanchenjunga (8,598 m in Sikkim)",
+    "formation": "Formed by continent-continent collision between the northward-drifting Indian Plate and Eurasian Plate (~50–65 Ma), folding the geosynclinal sediments of the Tethys Sea. The process is active today with India indenting Eurasia at ~4–5 cm/year.",
+    "reliefFeatures": [
+      {
+        "zone": "Trans-Himalayas (Tibetan Himalaya)",
+        "ranges": "Karakoram, Ladakh, Zaskar, Kailash ranges",
+        "elevation": "Average ~6,000 m",
+        "characteristics": "Arid, barren, rain-shadow plateau environment; hosts major glaciers: Siachen (76 km), Baltoro, Biafo."
+      },
+      {
+        "zone": "Greater Himalayas (Himadri)",
+        "ranges": "Continuous crystalline core (Archaean granite/gneisses)",
+        "elevation": "Average 6,100 m",
+        "characteristics": "Highest peaks on Earth (Everest 8,848.86 m in Nepal, Kanchenjunga 8,598 m, Nanda Devi 7,817 m, Kamet 7,756 m, Namcha Barwa 7,782 m); perennial snowfields feed major river systems."
+      },
+      {
+        "zone": "Lesser Himalayas (Himachal)",
+        "ranges": "Pir Panjal (longest), Dhauladhar, Mussoorie, Nag Tibba, Mahabharat",
+        "elevation": "3,700–4,500 m",
+        "characteristics": "Famous hill resorts (Shimla, Mussoorie, Nainital, Darjeeling); contains scenic structural valleys like Kashmir Valley and Kangra Valley; dissected by antecedent river gorges."
+      },
+      {
+        "zone": "Outer Himalayas (Shiwalik Range)",
+        "ranges": "Outermost foothills of loose unconsolidated tertiary deposits",
+        "elevation": "900–1,100 m",
+        "characteristics": "Prone to landslides; contains flat-bottomed longitudinal structural valleys called 'Duns' (e.g., Dehradun, Kotli Dun, Patli Dun) and 'Duars' in the east."
+      },
+      {
+        "zone": "Eastern Hills (Purvanchal)",
+        "ranges": "Patkai Bum, Naga Hills, Manipur Hills, Mizo (Lushai) Hills",
+        "elevation": "1,500–3,000 m (Highest: Saramati, 3,826 m in Nagaland)",
+        "characteristics": "Convex southward bend forming the India-Myanmar border; covered in dense subtropical/temperate forests; Loktak lake with floating phumdis (Keibul Lamjao NP)."
+      }
+    ],
+    "drainage": "Origin of Indus, Ganga, and Brahmaputra networks. Show antecedent drainage patterns cutting through rising ranges.",
+    "climate": "Altitudinal zonation ranging from subtropical foot-slopes to alpine tundras and permafrost.",
+    "soils": "Mountain/forest soils, podzolic soils in coniferous belts, skeletally thin on steep slopes.",
+    "agri": "Terrace cultivation (rice, maize), apple orchards (Himachal, Kashmir), off-season temperate vegetables, tea plantations in Darjeeling and Assam foothills.",
+    "hazards": "Severe seismicity (Zone IV & V), landslides, cloudbursts, and Glacial Lake Outburst Floods (GLOFs)."
+  },
+  {
+    "id": "plains",
+    "tag": "02 · Great Alluvial Trough",
+    "name": "The Great Northern Plains",
+    "hindi": "उत्तर का विशाल मैदान",
+    "span": "~3,200 km east-west, 150–300 km north-south",
+    "area": "~780,000 sq km",
+    "highestPoint": "Ambala divide (~291 m above sea level separating Indus and Ganga basins)",
+    "formation": "Formed by aggradational filling of the deep foredeep trough created between the rising Himalayas and the ancient Peninsular shield with river-borne alluvial sediments over the Pleistocene and Holocene epochs.",
+    "reliefFeatures": [
+      {
+        "zone": "Bhabar Belt",
+        "characteristics": "Pebbly, unassorted coarse gravel belt along the Shiwalik foot-slopes (8–16 km wide). Extremely high porosity causes mountain streams to sink underground and disappear."
+      },
+      {
+        "zone": "Terai Belt",
+        "characteristics": "Marshy, swampy, highly moist lowland strip (15–30 km wide) south of Bhabar where underground streams re-emerge at the surface. Historically dense malarial jungle; cleared for agriculture (sugarcane, rice, wheat) in UP/Uttarakhand."
+      },
+      {
+        "zone": "Bhangar Belt",
+        "characteristics": "Older alluvium lying above the annual flood levels of rivers, forming terrace-like features. Contains calcareous nodules called 'Kankar'. Clayey and dark-colored."
+      },
+      {
+        "zone": "Khadar Belt",
+        "characteristics": "Newer, fine-grained, light-colored flood-plain alluvium deposited by annual river inundations. Highly fertile, self-renewing, ideal for intensive double/triple cropping."
+      },
+      {
+        "zone": "Reh / Kallar",
+        "characteristics": "Saline and alkaline efflorescences appearing on over-irrigated Bhangar soils in arid tracts of Punjab, Haryana, and Western UP."
+      },
+      {
+        "zone": "Bhur",
+        "characteristics": "Elevated pieces of land along the banks of Ganga-Yamuna formed by accumulation of wind-blown sands during hot dry summer months."
+      }
+    ],
+    "drainage": "Dense network: Indus system (west), Ganga-Yamuna-Ghaghara-Gandak-Kosi (central), Brahmaputra (east). Extensive doabs (Bari, Rechna, Chaj, Sind Sagar, Ganga-Yamuna Doab).",
+    "climate": "Continental subtropical monsoon; extreme seasonal temperature variation (hot 'Loo' winds in summer, frost/cold waves in winter).",
+    "soils": "Deep, productive alluvial soils rich in potash and lime, deficient in nitrogen and organic matter.",
+    "agri": "The 'Granary of India' — primary rice and wheat producing belt, sugarcane, mustard, jute (Bengal).",
+    "hazards": "Catastrophic monsoon floods (Kosi 'Sorrow of Bihar', Brahmaputra in Assam), waterlogging, canal-induced soil salinity."
+  },
+  {
+    "id": "plateau",
+    "tag": "03 · Ancient Cratonic Block",
+    "name": "The Peninsular Plateau",
+    "hindi": "प्रायद्वीपीय पठार",
+    "span": "Triangular plateau covering ~1.6 million sq km",
+    "area": "Largest and oldest physiographic unit (~50% of India)",
+    "highestPoint": "Anamudi (2,695 m, Anamalai Hills, Kerala)",
+    "formation": "Part of the ancient Gondwanaland shield that broke away during the Mesozoic era. Composed of Precambrian crystalline gneisses, granites, schists, with basaltic lava flows (Deccan Trap) poured out in the Late Cretaceous (~66 Ma).",
+    "reliefFeatures": [
+      {
+        "zone": "Central Highlands",
+        "components": "Malwa Plateau, Bundelkhand, Baghelkhand, Vindhyan Range, Satpura Range",
+        "characteristics": "Bounded by Aravallis in the northwest. Malwa is drained northward by Chambal, Sind, Betwa, Ken into the Yamuna. Chambal is famous for badland ravine topography (Khad)."
+      },
+      {
+        "zone": "Deccan Plateau",
+        "components": "Maharashtra Plateau, Karnataka Plateau (Malnad & Maidan), Telangana Plateau",
+        "characteristics": "Slopes gently from west to east; Deccan Trap basalt in Maharashtra, crystalline Mysore plateau in Karnataka. Drained eastwards by Godavari, Krishna, and Kaveri."
+      },
+      {
+        "zone": "Chota Nagpur Plateau",
+        "components": "Ranchi, Hazaribagh, Koderma plateaus, Rajmahal Hills",
+        "characteristics": "The 'Mineral Heartland of India'; drained by Damodar (rift valley coalfields), Subarnarekha, and Barakar; radial drainage pattern from Ranchi plateau."
+      },
+      {
+        "zone": "Meghalaya (Shillong) Plateau & Karbi Anglong",
+        "components": "Garo, Khasi, Jaintia hills, Mikir hills",
+        "characteristics": "An eastward detached extension of the Peninsular block separated by the Malda Gap (Ganga-Brahmaputra alluvial gap); receives highest rainfall on Earth."
+      },
+      {
+        "zone": "Western Ghats (Sahyadri)",
+        "components": "Northern, Central, and Southern Sahyadri; Nilgiri, Anamalai, Cardamom hills",
+        "characteristics": "Continuous steep escarpment (average elevation 1,200 m); biodiversity hotspot; pierced by four major passes: Thal Ghat, Bhor Ghat, Palghat Gap, Shencottah Gap."
+      },
+      {
+        "zone": "Eastern Ghats",
+        "components": "Discontinuous hill ranges: Mahendragiri, Nallamala, Palkonda, Javadi, Shevaroy",
+        "characteristics": "Lower elevation (average 600 m), ancient relict hills severely eroded and dissected by Godavari, Krishna, Mahanadi, and Kaveri deltas. Highest peak: Jindhagada / Arma Konda (1,690 m)."
+      }
+    ],
+    "drainage": "East-flowing (Godavari, Krishna, Mahanadi, Kaveri) into Bay of Bengal; West-flowing rift rivers (Narmada, Tapi) and short torrential coastal streams (Sharavathi, Mandovi, Periyar) into Arabian Sea.",
+    "climate": "Tropical savanna (Aw) and semi-arid steppe (BShw) in the central rain-shadow tract.",
+    "soils": "Black cotton soil (Regur) on Deccan Traps; Red and Yellow soils on crystalline shields; Laterite soils on high plateaus.",
+    "agri": "Cotton, sugarcane, groundnut, soybean, pulses, coarse cereals (Jowar, Bajra, Ragi); coffee and tea on Western Ghats.",
+    "hazards": "Recurrent drought in rain-shadow districts (Marathwada, Rayalaseema, North Karnataka), landslides along Western Ghats escarpment."
+  },
+  {
+    "id": "desert",
+    "tag": "04 · Arid Zone",
+    "name": "The Indian (Thar) Desert",
+    "hindi": "भारतीय मरुस्थल (थार)",
+    "span": "Extends over ~200,000 sq km in Rajasthan, Gujarat, Punjab, Haryana",
+    "area": "World's 9th largest subtropical desert",
+    "highestPoint": "Aravalli contact fringe (~300–400 m; Guru Shikhar peak 1,722 m overlooks it)",
+    "formation": "Underlying geology is an extension of the Peninsular craton (marine fossils at Akal Wood Fossil Park near Jaisalmer prove it was submerged under the sea in the Jurassic era), covered by wind-blown aeolian sands during the Quaternary arid phase.",
+    "reliefFeatures": [
+      {
+        "zone": "Marusthali (Desert Proper)",
+        "characteristics": "Shifting sand dunes (Dhrians), longitudinal dunes, transverse dunes, and crescent-shaped Barchans. Annual rainfall <150 mm."
+      },
+      {
+        "zone": "Rajasthan Bagar (Semi-arid transitional tract)",
+        "characteristics": "Grassland steppe east of Marusthali up to the Aravalli range. Drained by small seasonal streams into inland depressions."
+      },
+      {
+        "zone": "Playa Lakes & Dhads",
+        "characteristics": "Ephemeral salt lakes in enclosed basins (e.g., Sambhar Lake — India's largest inland salt lake, Didwana, Pachpadra) where commercial salt is extracted from brine."
+      },
+      {
+        "zone": "Rohi & Chos",
+        "characteristics": "Fertile alluvial tracts created by seasonal hill torrents near the Aravalli piedmont."
+      }
+    ],
+    "drainage": "Inland and ephemeral drainage; Luni is the only significant integrated river, originating near Pushkar and terminating in the marshy Rann of Kutch.",
+    "climate": "Arid desert (BWhw); extreme diurnal range of temperature (>15°C difference between day and night); intense evapotranspiration.",
+    "soils": "Desert/Arid soils: coarse texture, sandy, low nitrogen, high phosphate and soluble salts, alkaline pH.",
+    "agri": "Traditionally pastoralism and drought-hardy coarse grains (Bajra, Guar, Moth). Transformed by the Indira Gandhi Canal (Harike Barrage, 650 km) enabling wheat, cotton, and mustard in Ganganagar and Bikaner.",
+    "hazards": "Severe meteorological and hydrological drought, dust storms (Andhi), desertification, and wind erosion."
+  },
+  {
+    "id": "coasts",
+    "tag": "05 · Maritime Margins",
+    "name": "The Coastal Plains",
+    "hindi": "तटीय मैदान",
+    "span": "Mainland coastline: ~6,100 km (total 7,516.6 km)",
+    "area": "West Coast (narrow, submergent) vs East Coast (broad, emergent)",
+    "highestPoint": "Piedmont transitions from Ghats escarpments",
+    "formation": "Formed through coastal marine transgressions, regressions, wave deposition, and deltaic alluvium sedimentation flanking the Peninsular plateau.",
+    "reliefFeatures": [
+      {
+        "zone": "Western Coastal Plain",
+        "characteristics": "Narrow strip (average 50–65 km wide) squeezed between the Western Ghats and the Arabian Sea. Submergent coastline (except Malabar which has emergent features). Divided into: Kutch & Kathiawar coast; Konkan coast (Maharashtra/Goa); Kannad/Karavali coast (Karnataka); Malabar coast (Kerala) with lagoons and backwaters called 'Kayals' (e.g., Vembanad Lake — India's longest lake, Ashtamudi)."
+      },
+      {
+        "zone": "Eastern Coastal Plain",
+        "characteristics": "Broad and emergent alluvial plain (average 100–130 km wide) with extensive fertile deltas formed by Mahanadi, Godavari, Krishna, and Kaveri. Divided into: Utkal coast (Odisha, with Chilika Lake — India's largest brackish lagoon); Northern Circars (between Mahanadi and Krishna); Coromandel coast (between Krishna and Kanyakumari, Tamil Nadu)."
+      }
+    ],
+    "drainage": "West-flowing: short, swift, non-deltaic rivers (Mandovi, Zuari, Sharavathi, Periyar, Bharathapuzha) forming estuaries. East-flowing: large deltaic rivers with wide distributary networks.",
+    "climate": "Humid tropical maritime; equable temperatures; East Coast is severely cyclone-exposed from October to December.",
+    "soils": "Coastal alluvium, deltaic alluvium, saline littoral soils, and lateritic patches on elevated coastal terraces.",
+    "agri": "Paddy in deltas ('Rice bowl of South India' in Krishna-Godavari and Thanjavur Kaveri deltas), coconut palms, arecanut, spices (black pepper, cardamom), cashews.",
+    "hazards": "Tropical cyclones, storm surges, coastal erosion, saltwater intrusion into coastal aquifers, and tsunami vulnerability."
+  },
+  {
+    "id": "islands",
+    "tag": "06 · Insular Territories",
+    "name": "The Island Groups",
+    "hindi": "द्वीपीय समूह (अंडमान-निकोबार एवं लक्षद्वीप)",
+    "span": "Two distinct archipelagos in Bay of Bengal & Arabian Sea",
+    "area": "Andaman & Nicobar: ~8,249 sq km (572 islands); Lakshadweep: ~32 sq km (36 islands)",
+    "highestPoint": "Saddle Peak (732 m, North Andaman)",
+    "formation": "Andaman & Nicobar are an elevated, subaerial continuation of the Arakan Yoma Tertiary fold mountain belt (tectonic origin). Lakshadweep islands are coral atolls resting on the submarine Chagos-Laccadive volcanic ridge.",
+    "reliefFeatures": [
+      {
+        "zone": "Andaman & Nicobar Archipelago",
+        "characteristics": "Separated by the 10° Channel (10°N latitude separates Little Andaman from Car Nicobar). Duncan Passage separates South Andaman and Little Andaman. Contains India's only active volcano on Barren Island (last erupted 2017) and dormant volcano on Narcondam Island. Great Nicobar hosts the southernmost point: Indira Point (6°45'N)."
+      },
+      {
+        "zone": "Lakshadweep Archipelago",
+        "characteristics": "Low coral atolls (none exceeding 5 m above sea level). Ringed by coral reefs and calm lagoons. 9° Channel separates Minicoy (southernmost island) from the main Lakshadweep group; 8° Channel separates Minicoy from the Maldives."
+      }
+    ],
+    "drainage": "No major integrated river systems; Kalpong River in North Andaman is the only river in the archipelago with a hydroelectric project.",
+    "climate": "Equatorial / maritime; heavy rainfall from both SW and NE monsoons; high humidity year-round.",
+    "soils": "Forest soils in Andaman & Nicobar; thin calcareous coral sand soils in Lakshadweep.",
+    "agri": "Coconut, arecanut, tropical fruits, fisheries, seaweed cultivation, and burgeoning eco-tourism.",
+    "hazards": "High seismic and tsunami risk in Andaman & Nicobar (Subduction zone where Indo-Australian plate subducts under Burma microplate, 2004 tsunami epicenter nearby); coral bleaching from marine heatwaves."
+  }
+]

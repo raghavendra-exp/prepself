@@ -1,0 +1,289 @@
+{
+  "title": "Master Guide to Indian Geography for Banking & Competitive Exams",
+  "version": "2026.09",
+  "river_systems": [
+    {
+      "system": "The Indus River System",
+      "origin": "Bokhar Chu glacier near Lake Manasarovar in Tibet (known as Singi Khamban / Lion's Mouth)",
+      "length": "Total: 2,880 km; In India: 1,114 km",
+      "tributaries": [
+        {
+          "name": "Jhelum (Vitasta)",
+          "origin": "Verinag spring in Jammu & Kashmir; flows into Wular Lake"
+        },
+        {
+          "name": "Chenab (Asikni)",
+          "origin": "Chandra and Bhaga streams near Bara Lacha La pass in Himachal Pradesh (Largest tributary of Indus)"
+        },
+        {
+          "name": "Ravi (Purushni)",
+          "origin": "Kullu hills near Rohtang Pass in Himachal Pradesh"
+        },
+        {
+          "name": "Beas (Vipasa)",
+          "origin": "Beas Kund near Rohtang Pass (entirely within India, joins Sutlej at Harike)"
+        },
+        {
+          "name": "Sutlej (Shutudri)",
+          "origin": "Rakas Lake near Manasarovar in Tibet (known as Langqen Zangbo; enters India via Shipki La pass)"
+        }
+      ],
+      "treaty": "Indus Waters Treaty (IWT) 1960 signed in Karachi by PM Jawaharlal Nehru and President Ayub Khan, brokered by World Bank. India controls Eastern rivers (Ravi, Beas, Sutlej), Pakistan controls Western rivers (Indus, Jhelum, Chenab)."
+    },
+    {
+      "system": "The Ganga River System",
+      "origin": "Originates as Bhagirathi from Gangotri Glacier (Gaumukh) in Uttarkashi, Uttarakhand. Confluence of Bhagirathi and Alaknanda at Devprayag forms the Ganga.",
+      "panch_prayag": [
+        {
+          "confluence": "Vishnuprayag",
+          "rivers": "Alaknanda + Dhauliganga"
+        },
+        {
+          "confluence": "Nandaprayag",
+          "rivers": "Alaknanda + Nandakini"
+        },
+        {
+          "confluence": "Karnaprayag",
+          "rivers": "Alaknanda + Pindar"
+        },
+        {
+          "confluence": "Rudraprayag",
+          "rivers": "Alaknanda + Mandakini"
+        },
+        {
+          "confluence": "Devprayag",
+          "rivers": "Alaknanda + Bhagirathi (Forms the GANGA)"
+        }
+      ],
+      "total_length": "2,525 km (Longest river within India)",
+      "tributaries": [
+        {
+          "name": "Yamuna",
+          "type": "Right-bank tributary (Longest tributary of Ganga)",
+          "origin": "Yamunotri Glacier on Bandarpoonch peak. Merges at Prayagraj (Triveni Sangam). Major tributaries: Chambal, Betwa, Ken, Tons"
+        },
+        {
+          "name": "Son",
+          "type": "Right-bank tributary",
+          "origin": "Amarkantak Plateau in Madhya Pradesh"
+        },
+        {
+          "name": "Ramganga",
+          "type": "Left-bank tributary",
+          "origin": "Garhwal hills; flows through Jim Corbett National Park"
+        },
+        {
+          "name": "Gomti",
+          "type": "Left-bank tributary",
+          "origin": "Gomat Taal (Fulhar Jheel) in Pilibhit, UP (only major Ganga tributary originating in plains)"
+        },
+        {
+          "name": "Ghaghara (Karnali)",
+          "type": "Left-bank tributary (Largest tributary by volume of water)",
+          "origin": "Mapchachungo Glacier in Tibet"
+        },
+        {
+          "name": "Gandak",
+          "type": "Left-bank tributary",
+          "origin": "Nepal Himalayas near Dhaulagiri and Mt Everest"
+        },
+        {
+          "name": "Kosi",
+          "type": "Left-bank tributary ('Sorrow of Bihar' due to frequent course shifts)",
+          "origin": "Tibet (Saptakoshi)"
+        }
+      ]
+    },
+    {
+      "system": "The Brahmaputra River System",
+      "origin": "Chemayungdung Glacier near Lake Manasarovar in Tibet (known as Tsangpo)",
+      "entry_into_india": "Enters Arunachal Pradesh through Great Bend near Namcha Barwa as 'Siang' or 'Dihang'",
+      "tributaries": "Subansiri (largest), Dibang, Lohit (Dhola-Sadiya / Bhupen Hazarika Bridge over Lohit is 9.15 km long), Manas, Sankosh, Teesta",
+      "key_features": "Forms Majuli Island (Assam) - world's largest inhabited freshwater river island. In Bangladesh, joined by Teesta and called Jamuna; merges with Padma (Ganga) and Meghna to form Sundarbans Delta into Bay of Bengal."
+    },
+    {
+      "system": "Peninsular River Systems",
+      "east_flowing": [
+        {
+          "river": "Godavari (Dakshin Ganga / Vridha Ganga)",
+          "length": "1,465 km (Second longest river in India and longest in Peninsular India)",
+          "origin": "Trimbakeshwar near Nashik, Maharashtra. Tributaries: Penganga, Wainganga, Wardha, Pranhita, Indravati, Manjira"
+        },
+        {
+          "river": "Krishna",
+          "length": "1,400 km",
+          "origin": "Mahabaleshwar in Western Ghats (Maharashtra). Tributaries: Tungabhadra, Koyna, Bhima, Ghataprabha, Malaprabha, Musi (Hyderabad located on Musi)"
+        },
+        {
+          "river": "Mahanadi",
+          "length": "851 km",
+          "origin": "Dhamtari district in Dandakaranya, Chhattisgarh. Flows through Odisha; Hirakud Dam built across it. Tributaries: Seonath, Hasdeo, Mand, Ib, Tel"
+        },
+        {
+          "river": "Cauvery (Kaveri)",
+          "length": "800 km",
+          "origin": "Talakaveri in Brahmagiri range, Kodagu (Coorg), Karnataka. Known as 'Ganga of the South'. Shivasamudram Falls (first hydro-electric station in India, 1902). Tributaries: Harangi, Hemavati, Arkavathi, Kabini, Bhavani, Amaravati"
+        }
+      ],
+      "west_flowing_rift_valley": [
+        {
+          "river": "Narmada",
+          "length": "1,312 km (Longest west-flowing river)",
+          "origin": "Amarkantak Plateau, Anuppur, Madhya Pradesh. Flows in a rift valley between Vindhya range (north) and Satpura range (south). Dhuandhar Falls (Marble Rocks, Jabalpur). Sardar Sarovar Dam."
+        },
+        {
+          "river": "Tapti (Tapi)",
+          "length": "724 km (Twin/Handmaid of Narmada)",
+          "origin": "Multai in Betul district, Madhya Pradesh. Flows through rift valley south of Satpura range into Gulf of Khambhat (Arabian Sea). Ukai Dam built on it."
+        },
+        {
+          "river": "Mahi",
+          "significance": "Only river in India that cuts the Tropic of Cancer twice (in MP and Gujarat)."
+        },
+        {
+          "river": "Luni",
+          "significance": "Inland drainage river originating near Pushkar (Aravalli range), disappears into the Rann of Kutch."
+        }
+      ]
+    }
+  ],
+  "major_dams_and_projects": [
+    {
+      "dam": "Tehri Dam",
+      "river": "Bhagirathi",
+      "state": "Uttarakhand",
+      "facts": "Highest dam in India (height: 260.5 meters). World's 4th tallest rock and earth-fill embankment dam."
+    },
+    {
+      "dam": "Hirakud Dam",
+      "river": "Mahanadi",
+      "state": "Odisha",
+      "facts": "Longest earthen dam in India and the world (total length: 25.8 km; main dam: 4.8 km). Built in 1957."
+    },
+    {
+      "dam": "Bhakra Nangal Project",
+      "river": "Sutlej",
+      "state": "Himachal Pradesh & Punjab",
+      "facts": "Second tallest gravity dam in India (height: 226 meters). Creates the Gobind Sagar reservoir."
+    },
+    {
+      "dam": "Sardar Sarovar Dam",
+      "river": "Narmada",
+      "state": "Gujarat",
+      "facts": "Terminal dam on Narmada; Statue of Unity (world's tallest statue, 182 m, dedicated to Sardar Patel) located 3.2 km downstream on Sadhu Bet island."
+    },
+    {
+      "dam": "Nagarjuna Sagar Dam",
+      "river": "Krishna",
+      "state": "Andhra Pradesh & Telangana",
+      "facts": "World's largest masonry dam built with stone masonry instead of concrete."
+    },
+    {
+      "dam": "Idukki Arch Dam",
+      "river": "Periyar",
+      "state": "Kerala",
+      "facts": "One of the highest arch dams in Asia, constructed between two granite hills (Kuravan and Kurathi)."
+    },
+    {
+      "dam": "Mettur Dam (Stanley Reservoir)",
+      "river": "Cauvery",
+      "state": "Tamil Nadu",
+      "facts": "One of the oldest multipurpose dams in India (completed 1934)."
+    },
+    {
+      "dam": "Rihand Dam (Govind Ballabh Pant Sagar)",
+      "river": "Rihand (tributary of Son)",
+      "state": "Uttar Pradesh (Sonbhadra)",
+      "facts": "Govind Ballabh Pant Sagar is the largest artificial man-made reservoir in India by surface area."
+    }
+  ],
+  "peaks_and_passes": {
+    "mountain_peaks": [
+      {
+        "peak": "Kanchenjunga",
+        "elevation": "8,586 m",
+        "location": "Sikkim (India-Nepal border)",
+        "facts": "Highest mountain peak in India (under undisputed Indian territory). World's third highest peak. UNESCO Mixed World Heritage Site."
+      },
+      {
+        "peak": "K2 (Godwin-Austen)",
+        "elevation": "8,611 m",
+        "location": "Karakoram Range (Gilgit-Baltistan, PoK)",
+        "facts": "Second highest peak in the world."
+      },
+      {
+        "peak": "Nanda Devi",
+        "elevation": "7,816 m",
+        "location": "Chamoli, Uttarakhand",
+        "facts": "Second highest peak in India located entirely within Indian territory. Biosphere Reserve."
+      },
+      {
+        "peak": "Anamudi",
+        "elevation": "2,695 m",
+        "location": "Anamalai Hills, Kerala",
+        "facts": "Highest mountain peak in South India, Western Ghats, and Peninsular India. Known as 'Everest of South India'."
+      },
+      {
+        "peak": "Doddabetta",
+        "elevation": "2,637 m",
+        "location": "Nilgiri Hills, Tamil Nadu",
+        "facts": "Second highest peak in South India; highest point in Nilgiris at the junction of Western and Eastern Ghats."
+      },
+      {
+        "peak": "Guru Shikhar",
+        "elevation": "1,722 m",
+        "location": "Aravalli Range (Mount Abu), Rajasthan",
+        "facts": "Highest peak of the Aravalli Range (the oldest fold mountain system in India)."
+      },
+      {
+        "peak": "Dhupgarh",
+        "elevation": "1,350 m",
+        "location": "Satpura Range (Pachmarhi), Madhya Pradesh",
+        "facts": "Highest point in Madhya Pradesh and the Satpura Range."
+      },
+      {
+        "peak": "Jindhagada Peak / Arma Konda",
+        "elevation": "1,690 m",
+        "location": "Eastern Ghats (Andhra Pradesh)",
+        "facts": "Highest peak of the Eastern Ghats."
+      }
+    ],
+    "mountain_passes": [
+      {
+        "pass": "Zoji La",
+        "connects": "Srinagar with Leh / Ladakh",
+        "range": "Great Himalayas"
+      },
+      {
+        "pass": "Rohtang Pass",
+        "connects": "Kullu Valley with Lahaul and Spiti, Himachal Pradesh",
+        "facts": "Atal Tunnel (9.02 km, world's longest highway tunnel above 10,000 feet) built under Rohtang Pass"
+      },
+      {
+        "pass": "Shipki La",
+        "connects": "Himachal Pradesh with Tibet",
+        "facts": "Sutlej River enters India through this pass"
+      },
+      {
+        "pass": "Nathu La & Jelep La",
+        "connects": "Sikkim with Lhasa (Tibet / Chumbi Valley)",
+        "facts": "Ancient Silk Route trade pass reopened in 2006"
+      },
+      {
+        "pass": "Lipulekh",
+        "connects": "Pithoragarh, Uttarakhand with Tibet",
+        "facts": "Crucial route for Kailash Mansarovar Yatra"
+      },
+      {
+        "pass": "Bomdi La",
+        "connects": "Arunachal Pradesh with Lhasa (Tibet)",
+        "facts": "Gateway to Tawang Monastery"
+      },
+      {
+        "pass": "Palghat Gap (Palakkad)",
+        "connects": "Coimbatore (Tamil Nadu) with Palakkad (Kerala)",
+        "facts": "Major low mountain pass in Western Ghats breaking Nilgiri and Anamalai hills"
+      }
+    ]
+  }
+}

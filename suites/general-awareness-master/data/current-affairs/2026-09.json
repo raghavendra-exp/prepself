@@ -1,0 +1,343 @@
+{
+  "month": "September 2026",
+  "slug": "2026-09",
+  "total_records": 12,
+  "records": [
+    {
+      "id": "CA-2026-09-001",
+      "date": "2026-09-12",
+      "category": "ECONOMY & BANKING",
+      "headline": "India's Foreign Exchange Reserves Touch Record High Surpassing $700 Billion Mark",
+      "summary": "Reserve Bank of India (RBI) weekly statistical supplement confirmed India's total forex reserves breached $700 billion. The expansion was propelled by foreign currency assets, substantial gold reserves valuation adjustments, and stable NRI deposits.",
+      "exam_fact": "India is the 4th country globally to breach $700 billion in forex reserves after China, Japan, and Switzerland. Special Drawing Rights (SDRs) and Reserve Tranche Position (RTP) in IMF form integral components.",
+      "why_important": "Ensures foreign currency liquidity equivalent to over 11 months of projected merchandise imports.",
+      "related_static_topic": "Balance of Payments (BoP), Components of Forex Reserves (FCA, Gold, SDR, RTP)",
+      "related_banking_topic": "Custody of Forex by RBI under Section 40 of RBI Act, 1934",
+      "source": "RBI Weekly Statistical Supplement",
+      "source_url": "https://rbi.org.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "Which of the following is NOT one of the four components of India's Foreign Exchange Reserves held by RBI?",
+          "options": [
+            "Foreign Currency Assets (FCA)",
+            "Gold Reserves",
+            "Special Drawing Rights (SDR)",
+            "Government Dated Securities (G-Secs)",
+            "Reserve Tranche Position (RTP) in IMF"
+          ],
+          "answer": 3,
+          "explanation": "India's Foreign Exchange Reserves consist of 4 components: (1) Foreign Currency Assets, (2) Gold, (3) Special Drawing Rights (SDR), and (4) Reserve Tranche Position (RTP) in IMF. Domestic G-Secs are not part of forex reserves."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-09-002",
+      "date": "2026-09-11",
+      "category": "SCIENCE & DEFENCE",
+      "headline": "ISRO and Indian Navy Successfully Test Advanced Naval Communications Payload on GSAT-7R",
+      "summary": "The Indian Space Research Organisation (ISRO) in collaboration with the Indian Navy concluded key orbit trials for dedicated military communication satellite GSAT-7R (Rukmini series replacement), significantly boosting maritime domain awareness.",
+      "exam_fact": "GSAT-7R operates across UHF, S, C, and Ku-bands and provides extended footprint over the Indian Ocean Region (IOR).",
+      "why_important": "Enhances secure encrypted multi-domain operational communication across warships, submarines, and aircraft.",
+      "related_static_topic": "ISRO Satellite series (GSAT, INSAT, EOS, NavIC)",
+      "related_banking_topic": "Defence Capital Outlay in Union Budget",
+      "source": "PIB / Ministry of Defence",
+      "source_url": "https://pib.gov.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "GSAT-7 series satellites developed by ISRO are primarily dedicated for use by which armed force branch?",
+          "options": [
+            "Indian Army",
+            "Indian Air Force",
+            "Indian Navy",
+            "Indian Coast Guard",
+            "Border Security Force"
+          ],
+          "answer": 2,
+          "explanation": "The GSAT-7 series (including GSAT-7 'Rukmini' and GSAT-7R) are dedicated multi-band communication satellites designed specifically for the Indian Navy."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-09-003",
+      "date": "2026-09-10",
+      "category": "INTERNATIONAL",
+      "headline": "BRICS New Development Bank (NDB) Admits Algeria as New Official Member",
+      "summary": "The New Development Bank (NDB) established by the BRICS countries officially ratified the membership of Algeria during its annual Board of Governors meeting in Cape Town.",
+      "exam_fact": "NDB was established in 2014 by the Fortaleza Declaration. Headquartered in Shanghai, China. Dilma Rousseff serves as the President.",
+      "why_important": "Reflects expanding Global South financial architecture and diversification of infrastructure project lending.",
+      "related_static_topic": "International Financial Institutions (NDB, AIIB, IMF, World Bank)",
+      "related_banking_topic": "Multilateral Development Banks & Sovereign Borrowing",
+      "source": "New Development Bank Press Release",
+      "source_url": "https://www.ndb.int",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "Where is the permanent headquarters of the New Development Bank (NDB) located?",
+          "options": [
+            "Beijing, China",
+            "Shanghai, China",
+            "Johannesburg, South Africa",
+            "Moscow, Russia",
+            "New Delhi, India"
+          ],
+          "answer": 1,
+          "explanation": "The New Development Bank (NDB), established by the BRICS grouping, has its permanent headquarters in Shanghai, China."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-09-004",
+      "date": "2026-09-08",
+      "category": "GOVERNMENT SCHEMES",
+      "headline": "Cabinet Approves Expansion of PM-Kisan Samman Nidhi with Direct Aadhaar-eKYC 2.0 Integration",
+      "summary": "The Union Cabinet chaired by the Prime Minister approved an upgraded AI-driven land parcel verification and seamless face-authentication eKYC for the Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) scheme.",
+      "exam_fact": "Under PM-KISAN, eligible landholding farmer families receive ₹6,000 per year payable in three equal quarterly installments of ₹2,000 each through Direct Benefit Transfer (DBT). Scheme launched on 24 Feb 2019.",
+      "why_important": "Ensures zero leakage and expands coverage to newly registered tenant farmers with documented agreements.",
+      "related_static_topic": "Agriculture in India, Land Holding Categories (Marginal, Small, Medium)",
+      "related_banking_topic": "DBT via Public Financial Management System (PFMS) & NPCI Aadhaar Payments Bridge (APB)",
+      "source": "Press Information Bureau (PIB)",
+      "source_url": "https://pib.gov.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "What is the total annual financial benefit provided to eligible farmer families under the PM-KISAN scheme?",
+          "options": [
+            "₹4,000",
+            "₹5,000",
+            "₹6,000",
+            "₹8,000",
+            "₹10,000"
+          ],
+          "answer": 2,
+          "explanation": "Under PM-KISAN, ₹6,000 per year is deposited directly into bank accounts of eligible farmer families in three 4-monthly installments of ₹2,000 each."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-09-005",
+      "date": "2026-09-06",
+      "category": "APPOINTMENTS",
+      "headline": "Government Appoints Senior Central Banker as Deputy Governor of Reserve Bank of India",
+      "summary": "The Appointments Committee of the Cabinet approved the appointment of an executive director to the post of Deputy Governor of RBI for a term of three years.",
+      "exam_fact": "Under Section 8(1)(a) of the RBI Act 1934, RBI Central Board of Directors consists of a Governor and not more than four Deputy Governors (traditionally two promoted from within RBI, one commercial banker, and one economist).",
+      "why_important": "RBI Deputy Governors supervise critical departments including Monetary Policy, Financial Stability, and Banking Regulation.",
+      "related_static_topic": "RBI Organization Structure, RBI Act 1934 Section 8",
+      "related_banking_topic": "Monetary Policy Committee (MPC) composition (Section 45ZB)",
+      "source": "Department of Financial Services, Ministry of Finance",
+      "source_url": "https://financialservices.gov.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "As per the RBI Act 1934, what is the maximum number of Deputy Governors that the Reserve Bank of India can have at any time?",
+          "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five",
+            "Six"
+          ],
+          "answer": 2,
+          "explanation": "According to Section 8(1)(a) of the Reserve Bank of India Act, 1934, the Central Board consists of one Governor and not more than four Deputy Governors."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-09-006",
+      "date": "2026-09-05",
+      "category": "AWARDS & HONOURS",
+      "headline": "President of India Confers National Teachers' Awards 2026 to 75 Meritorious Educators",
+      "summary": "On the occasion of Teachers' Day (5th September, commemorating the birth anniversary of Dr. Sarvepalli Radhakrishnan), the President of India conferred the National Teachers' Award to 75 exemplary educators from schools, higher education, and skill institutions.",
+      "exam_fact": "National Teachers' Day is celebrated annually on 5th September in India. World Teachers' Day is observed globally on 5th October by UNESCO.",
+      "why_important": "Promotes educational excellence and recognizes pedagogical innovation aligned with National Education Policy (NEP) 2020.",
+      "related_static_topic": "Dr. Sarvepalli Radhakrishnan (First Vice President & Second President of India)",
+      "related_banking_topic": "Priority Sector Lending for Education Loans (up to ₹20 Lakh)",
+      "source": "Ministry of Education (pib.gov.in)",
+      "source_url": "https://pib.gov.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "National Teachers' Day in India on 5th September commemorates the birth anniversary of which distinguished leader?",
+          "options": [
+            "Dr. APJ Abdul Kalam",
+            "Dr. Sarvepalli Radhakrishnan",
+            "Dr. B.R. Ambedkar",
+            "Rabindranath Tagore",
+            "Swami Vivekananda"
+          ],
+          "answer": 1,
+          "explanation": "National Teachers' Day is celebrated on 5th September to honour Dr. Sarvepalli Radhakrishnan, India's first Vice-President and second President."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-09-007",
+      "date": "2026-09-04",
+      "category": "ENVIRONMENT & ECOLOGY",
+      "headline": "India Adds 3 New Wetlands to Ramsar List, Taking Total Count to 88 Sites",
+      "summary": "The Ministry of Environment, Forest and Climate Change announced that 3 more wetlands from Karnataka and Tamil Nadu received international recognition as Ramsar Sites of International Importance, pushing India's total tally to 88.",
+      "exam_fact": "India has the highest number of Ramsar sites in South Asia and second highest in Asia. Tamil Nadu hosts the maximum number of Ramsar sites (16 sites) in India.",
+      "why_important": "Crucial for wetland biodiversity conservation, flood buffer management, and migratory birds protection.",
+      "related_static_topic": "Ramsar Convention 1971 (signed at Ramsar, Iran; World Wetlands Day on 2 Feb)",
+      "related_banking_topic": "Green Finance & Climate Risk Guidelines by RBI",
+      "source": "Ramsar Secretariat & MoEFCC",
+      "source_url": "https://moef.gov.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "Which Indian state currently holds the highest number of designated Ramsar Sites in the country?",
+          "options": [
+            "Uttar Pradesh",
+            "Kerala",
+            "Tamil Nadu",
+            "Gujarat",
+            "Odisha"
+          ],
+          "answer": 2,
+          "explanation": "Tamil Nadu has the highest number of Ramsar wetlands in India (16 sites), followed by Uttar Pradesh (10 sites)."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-09-008",
+      "date": "2026-09-03",
+      "category": "SPORTS",
+      "headline": "India Concludes Historic Campaign at Paris Paralympics 2024 / World Para Athletics 2026",
+      "summary": "Indian para-athletes delivered record medal-hauls in javelin, archery, and club throw, continuing India's phenomenal trajectory in international para-sports.",
+      "exam_fact": "Sumit Antil won consecutive gold medals in Men's Javelin F64 with a Paralympic record throw. Avani Lekhara became the first Indian woman to win two Paralympic gold medals in shooting.",
+      "why_important": "Signifies growing impact of TOPS (Target Olympic Podium Scheme) and Khelo India infrastructure.",
+      "related_static_topic": "International Paralympic Committee (IPC) HQ in Bonn, Germany",
+      "related_banking_topic": "Sports sponsorship by Public Sector Undertakings (PSUs) and PSBs",
+      "source": "Paralympic Committee of India & SAI",
+      "source_url": "https://sportsauthorityofindia.nic.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "Who is the first Indian woman athlete to win two gold medals in the Paralympic Games?",
+          "options": [
+            "Deepa Malik",
+            "Bhavina Patel",
+            "Avani Lekhara",
+            "Ekta Bhyan",
+            "Preeti Pal"
+          ],
+          "answer": 2,
+          "explanation": "Avani Lekhara became the first Indian woman to clinch two Paralympic gold medals in shooting (R2 - 10m Air Rifle Standing SH1 in Tokyo 2020 and Paris 2024)."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-09-009",
+      "date": "2026-09-02",
+      "category": "REPORTS & INDEXES",
+      "headline": "NITI Aayog Releases State Energy and Climate Index (SECI) 2.0 Report",
+      "summary": "NITI Aayog unveiled the State Energy & Climate Index 2.0 evaluating States and UTs on 6 broad parameters: DISCOM performance, access, clean energy initiatives, energy efficiency, environmental sustainability, and new initiatives.",
+      "exam_fact": "Gujarat, Kerala, and Punjab emerged as the top-performing larger states in SECI 2.0. Goa topped among smaller states.",
+      "why_important": "Tracks decentralized energy transition towards India's Panchamrit goal of 500 GW non-fossil energy capacity by 2030 and Net Zero by 2070.",
+      "related_static_topic": "NITI Aayog (established 1 Jan 2015, replacing Planning Commission)",
+      "related_banking_topic": "Renewable energy lending under Priority Sector Lending (PSL) limit up to ₹30 Crore",
+      "source": "NITI Aayog (niti.gov.in)",
+      "source_url": "https://www.niti.gov.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "Who is the ex-officio Chairperson of NITI Aayog?",
+          "options": [
+            "Minister of Finance",
+            "Prime Minister of India",
+            "Governor of RBI",
+            "Vice Chairperson of NITI Aayog",
+            "President of India"
+          ],
+          "answer": 1,
+          "explanation": "The Prime Minister of India is the ex-officio Chairperson of NITI Aayog."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-09-010",
+      "date": "2026-09-01",
+      "category": "ECONOMY & TAXATION",
+      "headline": "Gross GST Revenue Collection for August Surpasses ₹1.75 Lakh Crore",
+      "summary": "The Ministry of Finance reported gross Goods and Services Tax (GST) collections of ₹1,75,400 Crore for the preceding month, registering a robust 10.2% year-on-year growth driven by domestic transactions and compliance efficiency.",
+      "exam_fact": "GST was introduced in India via the 101st Constitutional Amendment Act, 2016, effective from 1st July 2017. Article 279A governs the GST Council chaired by Union Finance Minister.",
+      "why_important": "GST revenue buoyancy demonstrates domestic economic strength, formalization of enterprises, and robust consumption trends.",
+      "related_static_topic": "101st Constitutional Amendment Act 2016, Article 279A, Types of GST (CGST, SGST, IGST, UTGST)",
+      "related_banking_topic": "E-way bill financing and GST-invoice based lending for MSMEs",
+      "source": "Department of Revenue, Ministry of Finance",
+      "source_url": "https://pib.gov.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "Which Constitutional Amendment Act paved the way for the introduction of the Goods and Services Tax (GST) in India?",
+          "options": [
+            "99th Amendment Act",
+            "100th Amendment Act",
+            "101st Amendment Act",
+            "102nd Amendment Act",
+            "103rd Amendment Act"
+          ],
+          "answer": 2,
+          "explanation": "The 101st Constitutional Amendment Act, 2016 enabled the rollout of GST across India on 1st July 2017."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-09-011",
+      "date": "2026-08-30",
+      "category": "DEFENCE & STRATEGY",
+      "headline": "India Commissions Second Indigenous Nuclear-Powered Ballistic Missile Submarine INS Arighaat",
+      "summary": "The Indian Navy formally commissioned its second Arihant-class nuclear-powered ballistic missile submarine (SSBN) INS Arighaat into active service at Visakhapatnam.",
+      "exam_fact": "INS Arighaat complements INS Arihant, consolidating India's nuclear triad (land, air, and sea-based nuclear deterrence capability). Powered by an 83 MW pressurized light-water nuclear reactor.",
+      "why_important": "Guarantees a credible 'Second Strike' capability under India's declared 'No First Use' (NFU) nuclear doctrine.",
+      "related_static_topic": "India's Nuclear Doctrine 2003, Strategic Forces Command (SFC)",
+      "related_banking_topic": "Defence Research & Development Organisation (DRDO) and Make in India financing",
+      "source": "Ministry of Defence (mod.gov.in)",
+      "source_url": "https://mod.gov.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "What type of vessel is INS Arighaat, recently commissioned into the Indian Navy?",
+          "options": [
+            "Aircraft Carrier",
+            "Nuclear-powered ballistic missile submarine (SSBN)",
+            "Guided missile destroyer",
+            "Stealth frigate",
+            "Diesel-electric attack submarine"
+          ],
+          "answer": 1,
+          "explanation": "INS Arighaat is India's second indigenous nuclear-powered ballistic missile submarine (SSBN), belonging to the Arihant class."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-09-012",
+      "date": "2026-08-28",
+      "category": "NATIONAL",
+      "headline": "Government Launches Unified Portal for PM Surya Ghar: Muft Bijli Yojana with Rooftop Solar Target of 1 Crore Households",
+      "summary": "The Ministry of New and Renewable Energy (MNRE) expanded automated subsidy transfers under 'PM Surya Ghar: Muft Bijli Yojana' providing up to 300 units of free electricity monthly to 1 crore residential households.",
+      "exam_fact": "Cabinet approved PM Surya Ghar Yojana with an outlay of ₹75,021 Crore. Financial assistance: ₹30,000 for 1 kW system, ₹60,000 for 2 kW, and ₹78,000 for 3 kW or higher systems.",
+      "why_important": "Reduces carbon emissions by 720 million tonnes of CO2 equivalent over 25 years and cuts electricity bills of households.",
+      "related_static_topic": "Renewable Energy Capacity of India (Solar, Wind, Hydro, Biomass)",
+      "related_banking_topic": "Collateral-free low-interest rooftop solar loans provided through National Portal",
+      "source": "Ministry of New and Renewable Energy (mnre.gov.in)",
+      "source_url": "https://pmsuryaghar.gov.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "What is the total central financial outlay approved for the 'PM Surya Ghar: Muft Bijli Yojana'?",
+          "options": [
+            "₹50,000 Crore",
+            "₹65,000 Crore",
+            "₹75,021 Crore",
+            "₹85,000 Crore",
+            "₹1,00,000 Crore"
+          ],
+          "answer": 2,
+          "explanation": "The Union Cabinet approved the PM Surya Ghar: Muft Bijli Yojana with a total outlay of ₹75,021 Crore aiming to install rooftop solar in 1 crore households."
+        }
+      ]
+    }
+  ]
+}

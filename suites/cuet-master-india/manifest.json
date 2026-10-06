@@ -1,0 +1,16 @@
+{
+  "name": "CUET UNIVERSITY MASTER INDIA",
+  "short_name": "CUET Master",
+  "description": "Complete preparation, syllabus, PYQs, practice, mock tests, universities, eligibility, and counselling platform for CUET-UG and CUET-PG.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1d4ed8",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

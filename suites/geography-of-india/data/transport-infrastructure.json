@@ -1,0 +1,167 @@
+{
+  "highways": {
+    "goldenQuadrilateral": {
+      "totalLengthKm": 5846,
+      "connectivity": "Connects Delhi, Mumbai, Chennai, and Kolkata",
+      "arms": [
+        {
+          "section": "Delhi - Mumbai (NH-48)",
+          "lengthKm": 1419
+        },
+        {
+          "section": "Mumbai - Chennai (NH-48)",
+          "lengthKm": 1290
+        },
+        {
+          "section": "Chennai - Kolkata (NH-16)",
+          "lengthKm": 1684
+        },
+        {
+          "section": "Kolkata - Delhi (NH-19 / NH-44)",
+          "lengthKm": 1453
+        }
+      ]
+    },
+    "northSouthEastWestCorridors": {
+      "nsCorridorKm": 4000,
+      "nsRoute": "Srinagar (J&K) to Kanyakumari (Tamil Nadu) via NH-44",
+      "ewCorridorKm": 3300,
+      "ewRoute": "Silchar (Assam) to Porbandar (Gujarat) via NH-27",
+      "crossingPoint": "Jhansi (Uttar Pradesh) where the NS and EW corridors intersect."
+    },
+    "bharatmalaPariyojana": "Umbrella program focusing on optimizing efficiency of freight and passenger movement across the country by bridging critical infrastructure gaps (economic corridors, border and international connectivity roads, coastal and port connectivity roads, and greenfield expressways like Delhi-Mumbai Expressway)."
+  },
+  "dedicatedFreightCorridors": [
+    {
+      "corridor": "Western DFC (WDFC)",
+      "lengthKm": 1506,
+      "route": "Dadri (UP) to Jawaharlal Nehru Port Trust / JNPT (Mumbai, Maharashtra)",
+      "states": [
+        "Uttar Pradesh",
+        "Haryana",
+        "Rajasthan",
+        "Gujarat",
+        "Maharashtra"
+      ],
+      "purpose": "Connects the manufacturing hinterland of North India to the container ports of Gujarat and Mumbai; electrified heavy-haul double-stack container trains."
+    },
+    {
+      "corridor": "Eastern DFC (EDFC)",
+      "lengthKm": 1875,
+      "route": "Sahnewal near Ludhiana (Punjab) to Dankuni (West Bengal)",
+      "states": [
+        "Punjab",
+        "Haryana",
+        "Uttar Pradesh",
+        "Bihar",
+        "Jharkhand",
+        "West Bengal"
+      ],
+      "purpose": "Connects Northern agricultural/industrial demand centers with Eastern coalfields (Jharia, Raniganj) and steel plants; dedicated bulk commodity corridor."
+    }
+  ],
+  "ports": {
+    "totalMajorPorts": 12,
+    "westCoastPorts": [
+      {
+        "name": "Deendayal Port (Kandla)",
+        "state": "Gujarat",
+        "type": "Tidal port / Free Trade Zone; handles massive crude imports and dry cargo"
+      },
+      {
+        "name": "Mumbai Port",
+        "state": "Maharashtra",
+        "type": "Natural deepwater harbour; historically India's premier general cargo gateway"
+      },
+      {
+        "name": "Jawaharlal Nehru Port (JNPT / Nhava Sheva)",
+        "state": "Maharashtra",
+        "type": "Premier container port of India, handling ~50% of container cargo"
+      },
+      {
+        "name": "Mormugao Port",
+        "state": "Goa",
+        "type": "Natural harbour at Zuari estuary, leading iron-ore export port"
+      },
+      {
+        "name": "New Mangalore Port",
+        "state": "Karnataka",
+        "type": "Handles Kudremukh iron ore slurry and petroleum products"
+      },
+      {
+        "name": "Cochin Port",
+        "state": "Kerala",
+        "type": "Natural harbour in Vembanad Lake; hosts Vallarpadam ICTT"
+      }
+    ],
+    "eastCoastPorts": [
+      {
+        "name": "V.O. Chidambaranar Port (Tuticorin)",
+        "state": "Tamil Nadu",
+        "type": "Artificial deep-sea port; handles coal, salt, and trade with Sri Lanka"
+      },
+      {
+        "name": "Chennai Port",
+        "state": "Tamil Nadu",
+        "type": "Oldest artificial harbour on East Coast (1881); major automobile export hub"
+      },
+      {
+        "name": "Kamarajar Port (Ennore)",
+        "state": "Tamil Nadu",
+        "type": "First corporatized major port in India; primary thermal coal import port"
+      },
+      {
+        "name": "Visakhapatnam Port",
+        "state": "Andhra Pradesh",
+        "type": "Landlocked natural harbour sheltered by Dolphin's Nose hill; premier iron-ore and petroleum port"
+      },
+      {
+        "name": "Paradip Port",
+        "state": "Odisha",
+        "type": "Deepwater artificial port handling bulk iron ore and coking coal for eastern steel belt"
+      },
+      {
+        "name": "Syama Prasad Mookerjee Port (Kolkata / Haldia)",
+        "state": "West Bengal",
+        "type": "Only riverine major port in India (on Hooghly river); Haldia dock complex handles deep-draft bulk tankers"
+      }
+    ]
+  },
+  "waterways": [
+    {
+      "nw": "National Waterway-1 (NW-1)",
+      "river": "Ganga-Bhagirathi-Hooghly",
+      "stretch": "Prayagraj to Haldia",
+      "lengthKm": 1620,
+      "states": "UP, Bihar, Jharkhand, West Bengal"
+    },
+    {
+      "nw": "National Waterway-2 (NW-2)",
+      "river": "Brahmaputra",
+      "stretch": "Sadiya to Dhubri",
+      "lengthKm": 891,
+      "states": "Assam"
+    },
+    {
+      "nw": "National Waterway-3 (NW-3)",
+      "river": "West Coast Canal, Champakara & Udyogmandal canals",
+      "stretch": "Kottapuram to Kollam",
+      "lengthKm": 205,
+      "states": "Kerala"
+    },
+    {
+      "nw": "National Waterway-4 (NW-4)",
+      "river": "Krishna & Godavari rivers + canals",
+      "stretch": "Kakinada to Puducherry via canals + Bhadrachalam-Rajahmundry & Wazirabad-Vijayawada",
+      "lengthKm": 1078,
+      "states": "AP, Telangana, Tamil Nadu, Puducherry"
+    },
+    {
+      "nw": "National Waterway-5 (NW-5)",
+      "river": "Brahmani, Matai, delta canals & East Coast Canal",
+      "stretch": "Talcher to Dhamra / Geonkhali",
+      "lengthKm": 623,
+      "states": "Odisha, West Bengal"
+    }
+  ]
+}

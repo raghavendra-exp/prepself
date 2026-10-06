@@ -1,0 +1,326 @@
+[
+  {
+    "id": "location",
+    "station": 1,
+    "title": "Geographical Location & Frontiers",
+    "hindi": "भौगोलिक स्थिति एवं सीमाएँ",
+    "coords": "8°4'N–37°6'N, 68°7'E–97°25'E",
+    "def": "India lies in the northern and eastern hemispheres, between 8°4'N and 37°6'N latitudes and 68°7'E and 97°25'E longitudes. The Tropic of Cancer (23°30'N) divides the nation into almost equal tropical and subtropical halves. Total land frontier is ~15,200 km; coastline including islands is 7,516.6 km (mainland 6,100 km).",
+    "why": "Location dictates macro-climate (tropical monsoon), biological diversity, strategic Indian Ocean dominance across sea lines of communication (SLOCs), and agricultural calendar.",
+    "connects": [
+      "geology",
+      "climate",
+      "ocean"
+    ],
+    "facts": [
+      "Standard Meridian is 82°30'E passing through Mirzapur (UP), determining Indian Standard Time (IST = UTC+5:30).",
+      "Tropic of Cancer cuts across 8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram.",
+      "Extreme points: North = Indira Col (Siachen, 35.6°N), South = Indira Point (Great Nicobar, 6.75°N; Cape Comorin on mainland, 8.4°N), East = Kibithu (Arunachal, 97.03°E), West = Guhar Moti/Sir Creek (Gujarat, 68.13°E).",
+      "Longitudinal span of ~30° results in a 2-hour local solar time difference between Arunachal Pradesh and Gujarat."
+    ],
+    "upscTip": "UPSC Prelims frequently asks the north-to-south or east-to-west arrangement of frontier passes, state borders crossing the 82°30'E meridian (UP, MP, Chhattisgarh, Odisha, AP), and Tropic of Cancer cities."
+  },
+  {
+    "id": "geology",
+    "station": 2,
+    "title": "Geological Structure & Rock Systems",
+    "hindi": "भूगर्भीय संरचना एवं शैल तंत्र",
+    "coords": "Precambrian to Quaternary",
+    "def": "India's geology is divided into three primary morphological blocks: (1) The rigid Archaean/Precambrian Peninsular Shield; (2) The young, ductile Cenozoic Fold Mountains of the Himalayas; (3) The Quaternary Indo-Gangetic Alluvial Trough filled with aggradational river sediments.",
+    "why": "Rock systems determine mineral distribution (Dharwar for metals, Gondwana for coal, Cuddapah/Vindhyan for non-metals/limestone), groundwater reservoirs, and earthquake vulnerability.",
+    "connects": [
+      "physiography",
+      "minerals"
+    ],
+    "facts": [
+      "Archaean System (gneisses and schists) contains some of the oldest continental crust (Dharwar craton ~3.4 billion years).",
+      "Dharwar System is the most economically vital metalliferous rock system in India (Iron ore, gold, manganese, copper).",
+      "Gondwana System (Permian-Carboniferous) formed in down-faulted rift valleys (Damodar, Mahanadi, Godavari) holding 98% of India's coal reserves.",
+      "Deccan Traps: Flood basalt vulcanism (~66 Ma, Cretaceous-Palaeogene boundary) covering ~500,000 km², weathering into fertile black cotton soil (Regur)."
+    ],
+    "upscTip": "Chronological sequence: Archaean -> Dharwar -> Cuddapah -> Vindhyan -> Gondwana -> Deccan Trap -> Tertiary -> Quaternary."
+  },
+  {
+    "id": "physiography",
+    "station": 3,
+    "title": "Physiographic Divisions",
+    "hindi": "भू-आकृतिक विभाजन",
+    "coords": "6 Major Macro-Units",
+    "def": "The six primary physiographic divisions are: 1. The Northern Mountains (Himalayas & Purvanchal); 2. The Great Northern Plains; 3. The Peninsular Plateau; 4. The Indian Desert (Thar); 5. The Coastal Plains; 6. The Islands.",
+    "why": "Forms the physical relief grid controlling surface runoff, climatic barriers, soil development, biodiversity niches, and human settlement density.",
+    "connects": [
+      "drainage",
+      "climate",
+      "soils"
+    ],
+    "facts": [
+      "Himalayas run for 2,400 km in an arc from the Indus gorge in the west to the Brahmaputra gorge (Namcha Barwa) in the east.",
+      "Peninsular Plateau is bounded by Aravallis in the northwest, Rajmahal hills in the northeast, and Western/Eastern Ghats along coasts.",
+      "The Northern Plains extend ~3,200 km east-west with an average width of 150-300 km, formed by alluvium deposition up to 2,000 m deep.",
+      "Thar Desert lies in the rain-shadow of the Aravalli Range, which aligns parallel to the incoming Southwest Monsoon Arabian Sea branch."
+    ],
+    "upscTip": "Understand the syntaxis bends of the Himalayas at Nanga Parbat (West) and Namcha Barwa (East) where structural trend sharply shifts southwards."
+  },
+  {
+    "id": "climate",
+    "station": 4,
+    "title": "Climate & Monsoon Dynamics",
+    "hindi": "जलवायु एवं मानसून तंत्र",
+    "coords": "Köppen: Amw, Aw, BShw, Cwg",
+    "def": "India experiences a Tropical Monsoon climate characterized by the seasonal reversal of wind direction. Driven by differential heating of land and sea, Tibetan plateau thermal low, shift of the ITCZ, the Somali Low-Level Jet, and Subtropical Westerly/Tropical Easterly Jet Streams.",
+    "why": "The monsoon delivers 75–80% of India's annual rainfall between June and September. Governs Kharif sowing, hydroelectric generation, and rural purchasing power.",
+    "connects": [
+      "drainage",
+      "soils",
+      "agriculture"
+    ],
+    "facts": [
+      "Onset over Kerala occurs normally by June 1; withdraws completely from the northwest by mid-October.",
+      "Mawsynram and Cherrapunji in the Khasi Hills receive world-record precipitation (>11,000 mm) due to the funnel-shaped orography forcing the Bay of Bengal branch.",
+      "Coromandel Coast (Tamil Nadu) receives its primary rainfall from the retreating Northeast Monsoon (Oct–Dec) picking moisture over the Bay of Bengal.",
+      "Western Disturbances (temperate shallow depressions from the Mediterranean) supply vital winter precipitation for northern wheat crops."
+    ],
+    "upscTip": "Master the impacts of ENSO (El Niño = generally deficit rainfall; La Niña = surplus/normal) and Positive IOD (warmer western Indian Ocean = enhances monsoon)."
+  },
+  {
+    "id": "drainage",
+    "station": 5,
+    "title": "Drainage Systems & River Networks",
+    "hindi": "अपवाह तंत्र एवं नदी प्रणालियाँ",
+    "coords": "Himalayan vs Peninsular",
+    "def": "India's drainage network comprises two major systems: Himalayan Rivers (Indus, Ganga, Brahmaputra) that are antecedent, perennial, fed by glaciers and monsoons; and Peninsular Rivers (Godavari, Krishna, Mahanadi, Kaveri, Narmada, Tapi) that are consequent, superimposed, and largely seasonal.",
+    "why": "Controls freshwater distribution, deltaic agriculture, inland navigation, hydroelectric potential, and interstate river dispute politics.",
+    "connects": [
+      "agriculture",
+      "resources",
+      "disasters"
+    ],
+    "facts": [
+      "77% of India's drainage flow discharges into the Bay of Bengal; only 23% drains into the Arabian Sea.",
+      "Narmada and Tapi flow west into the Arabian Sea via tectonic rift valleys (graben) between the Vindhyan and Satpura ranges, forming estuaries rather than deltas.",
+      "Ganga-Brahmaputra-Meghna basin is the world's 3rd largest by discharge and forms the largest mangrove delta (Sundarbans).",
+      "Antecedent rivers like Indus, Satluj, and Brahmaputra cut deep gorges through rising Himalayan ranges before entering India."
+    ],
+    "upscTip": "Memorize left-bank vs right-bank tributaries for Ganga, Godavari, Krishna, and Kaveri, as well as headwater confluences (Panch Prayag: Vishnu, Nand, Karn, Rudra, Devprayag)."
+  },
+  {
+    "id": "soils",
+    "station": 6,
+    "title": "Soils of India & Soil Health",
+    "hindi": "भारत की मृदा एवं मृदा स्वास्थ्य",
+    "coords": "ICAR 8-Group Classification",
+    "def": "India has 8 major soil classes recognized by the Indian Council of Agricultural Research (ICAR): Alluvial (40%), Black/Regur (15%), Red & Yellow (18.5%), Laterite (4.3%), Arid/Desert, Saline/Alkaline, Peaty/Organic, and Forest/Mountain soils.",
+    "why": "Soil characteristics determine agricultural productivity, cropping zones, fertilizer subsidy needs, and vulnerability to desertification and erosion.",
+    "connects": [
+      "agriculture",
+      "vegetation"
+    ],
+    "facts": [
+      "Alluvial soils are rich in potash and lime, but deficient in nitrogen, phosphorus, and organic matter (humus).",
+      "Black soil has high montmorillonite clay content, showing swell-shrink properties ('self-ploughing' through deep summer cracks).",
+      "Laterite soils form under conditions of high temperature and alternating wet and dry seasons; intense leaching removes silica, leaving iron and aluminium sesquioxides.",
+      "Over-irrigation in Punjab, Haryana, and western UP has created waterlogging and canal-induced salinity (Kallar/Reh)."
+    ],
+    "upscTip": "UPSC tests differences between Bhangar (older, lime nodules/Kankar, above flood levels) and Khadar (newer, highly fertile flood-plain alluvium)."
+  },
+  {
+    "id": "vegetation",
+    "station": 7,
+    "title": "Natural Vegetation & Forest Wealth",
+    "hindi": "प्राकृतिक वनस्पति एवं वन संपदा",
+    "coords": "Champion & Seth Classification",
+    "def": "Forest types in India follow rainfall, temperature, and altitudinal gradients: Tropical Wet Evergreen (>200 cm rain), Tropical Moist Deciduous (100–200 cm), Tropical Dry Deciduous (70–100 cm), Tropical Thorn (<70 cm), Montane Forests, and Littoral/Mangroves.",
+    "why": "Forests sequester carbon, preserve watershed headwaters, sustain tribal livelihoods, and provide habitat for endangered megafauna.",
+    "connects": [
+      "biodiversity",
+      "soils",
+      "climate"
+    ],
+    "facts": [
+      "Tropical Deciduous (Monsoon) forests are the most widespread forest type in India, dominated by Sal, Teak, Shisham, and Mahua.",
+      "Per India State of Forest Report (ISFR), total forest and tree cover accounts for ~24.62% of geographical area (Target is 33% under National Forest Policy 1988).",
+      "Madhya Pradesh has the largest forest cover by area; Mizoram has the highest percentage of forest cover relative to total area (~84.5%).",
+      "Mangroves cover ~4,992 sq km, with West Bengal (Sundarbans) holding ~42% of the national total, followed by Gujarat."
+    ],
+    "upscTip": "UPSC Prelims tests indicator tree species: Rosewood, Mahogany, Ebony = Evergreen; Teak, Sal, Sandalwood = Deciduous; Babool, Kikar, Khair = Thorn."
+  },
+  {
+    "id": "resources",
+    "station": 8,
+    "title": "Minerals & Energy Resources",
+    "hindi": "खनिज एवं ऊर्जा संसाधन",
+    "coords": "Peninsular Belts & Offshore Basins",
+    "def": "India is richly endowed with ferrous metallic minerals and bauxite, but deficient in non-ferrous base metals (copper, lead, zinc, gold) and critical energy minerals (lithium, cobalt, nickel). Primary mineral belts lie in the Chota Nagpur Plateau, Odisha-Jharkhand, Central, and Southern belts.",
+    "why": "Determines industrial location, import dependency (crude oil, lithium), manufacturing competitiveness, and energy transition.",
+    "connects": [
+      "industry",
+      "transport"
+    ],
+    "facts": [
+      "Odisha is the top producer of Iron Ore, Bauxite, Manganese, and Chromite in India.",
+      "Jharia (Jharkhand) is India's premier metallurgical coking coalfield, located in the Damodar river valley.",
+      "Offshore Bombay High produces ~60% of domestic crude oil, supplemented by Assam (Digboi, Naharkatiya) and Rajasthan (Mangala, Barmer).",
+      "Beach sands of Kerala (Chavara) and Odisha hold world-class deposits of Monazite (thorium source) and Ilmenite (titanium source)."
+    ],
+    "upscTip": "Stay updated on the 2023 MMDR Amendment Act and the 2025 National Critical Mineral Mission (NCMM) targeting domestic extraction of 24 critical minerals."
+  },
+  {
+    "id": "agriculture",
+    "station": 9,
+    "title": "Agricultural Patterns & Food Security",
+    "hindi": "कृषि प्रतिरूप एवं खाद्य सुरक्षा",
+    "coords": "Kharif, Rabi, Zaid Seasons",
+    "def": "Indian agriculture spans three cropping seasons: Kharif (monsoon sowings: Rice, Maize, Cotton, Jowar), Rabi (winter crops: Wheat, Gram, Mustard, Barley), and Zaid (summer intercrops: Watermelon, Cucumber, Fodder). Over 50% of the workforce is directly dependent on agriculture.",
+    "why": "Anchors food self-sufficiency, inflation dynamics, rural prosperity, and export earnings (basmati rice, spices, marine products).",
+    "connects": [
+      "industry",
+      "population"
+    ],
+    "facts": [
+      "India is the world's largest producer of milk, pulses, and spices; 2nd largest in rice, wheat, sugarcane, cotton, and groundnut.",
+      "Green Revolution (1960s) focused on HYV dwarf varieties (semi-dwarf wheat Lerma Rojo/Sonora 64), tubewell irrigation, and chemical fertilizers in Punjab, Haryana, and Western UP.",
+      "Net irrigated area in India is ~49%; groundwater (tubewells/wells) accounts for over 62% of total net irrigated area.",
+      "Millets (Shree Anna: Jowar, Bajra, Ragi) are climate-resilient C4 crops celebrated under the International Year of Millets (2023)."
+    ],
+    "upscTip": "UPSC Prelims tests climatic requirements: Wheat = 10-15°C sowing, 50-75 cm rain; Rice = >25°C, >100 cm rain; Cotton = 210 frost-free days; Tea = well-drained acidic soil."
+  },
+  {
+    "id": "industry",
+    "station": 10,
+    "title": "Industrial Geography & Manufacturing Hubs",
+    "hindi": "औद्योगिक भूगोल एवं विनिर्माण केंद्र",
+    "coords": "Weber Locational Principles",
+    "def": "Industrial concentration in India follows raw material proximity (Iron & Steel in Chota Nagpur), port connectivity (Petrochemicals in Jamnagar/Visakhapatnam), labour & market agglomeration (Textiles in Mumbai-Ahmedabad-Coimbatore), and knowledge clusters (IT in Bengaluru-Hyderabad-Pune-NCR).",
+    "why": "Manufacturing expansion is essential to absorb surplus agricultural labour, drive exports, and achieve GDP value-addition targets.",
+    "connects": [
+      "transport",
+      "economic"
+    ],
+    "facts": [
+      "The Chota Nagpur region is known as the 'Ruhr of India' due to co-location of iron ore, coking coal, limestone, and water.",
+      "Textile industry shifted from Mumbai/Ahmedabad towards decentralized powerloom centers (Surat, Bhiwandi, Tirupur, Salem).",
+      "Jamnagar Refinery (Reliance) in Gujarat is the world's largest single-site integrated refining complex (1.24 million bpd capacity).",
+      "11 National Industrial Corridors (NIC) including DMIC (Delhi-Mumbai) and CBIC (Chennai-Bengaluru) are being developed along freight spines."
+    ],
+    "upscTip": "Weberian locational triangle questions in GS-I: Why did the sugar industry shift from Northern India (UP/Bihar) to Peninsular India (Maharashtra/TN)? Longer crushing season, higher sucrose content."
+  },
+  {
+    "id": "transport",
+    "station": 11,
+    "title": "Transport Infrastructure & Logistics",
+    "hindi": "परिवहन अवसंरचना एवं संभार-तंत्र",
+    "coords": "Roads, Rails, Ports, Air, Pipelines",
+    "def": "National logistics network encompasses: Roadways (Golden Quadrilateral, North-South and East-West Corridors, Bharatmala Pariyojana); Railways (Dedicated Freight Corridors EDFC & WDFC, Vande Bharat); Ports (12 Major Ports under Sagarmala); Inland Waterways (NW-1 to NW-5); and Cross-country Pipelines (HVJ).",
+    "why": "Logistics cost currently stands at ~13-14% of GDP; modern multimodal freight corridors aim to reduce this to <9% for global manufacturing competitiveness.",
+    "connects": [
+      "industry",
+      "economic"
+    ],
+    "facts": [
+      "Golden Quadrilateral connects Delhi, Mumbai, Chennai, and Kolkata, spanning 5,846 km.",
+      "Eastern DFC (Ludhiana to Dankuni, 1,875 km) and Western DFC (Dadri to JNPT, 1,506 km) relieve passenger tracks and enable 100 km/h heavy freight.",
+      "National Waterway-1 (Ganga-Bhagirathi-Hooghly from Prayagraj to Haldia, 1,620 km) is India's most important inland cargo artery.",
+      "JNPT (Nhava Sheva) in Maharashtra and Mundra in Gujarat handle the vast majority of India's container traffic."
+    ],
+    "upscTip": "UPSC tests locations of major ports from North to South along both coasts, and the alignment of DFC corridors."
+  },
+  {
+    "id": "population",
+    "station": 12,
+    "title": "Demographic Structure & Migration",
+    "hindi": "जनसांख्यिकी संरचना एवं प्रवास",
+    "coords": "Census 2011 & UN Projections",
+    "def": "India crossed 1.43 billion people in 2023, surpassing China to become the world's most populous nation. Population distribution is highly skewed: densely populated northern plains (Bihar density 1,106/km²) vs sparse Himalayan terrain (Arunachal density 17/km²).",
+    "why": "India is traversing its demographic dividend with a median age of ~28 years, creating an economic window of opportunity that will close by ~2045.",
+    "connects": [
+      "urbanisation",
+      "economic"
+    ],
+    "facts": [
+      "National sex ratio was 943 females per 1,000 males (Census 2011); NFHS-5 showed an improved adult ratio but persistent child sex ratio challenges in northern states.",
+      "Total Fertility Rate (TFR) has fallen to 2.0 nationally (below replacement level of 2.1), with southern states at ~1.6–1.8.",
+      "Interstate labour migration flows prominently from Uttar Pradesh, Bihar, Odisha, and Rajasthan towards Maharashtra, Gujarat, Delhi-NCR, Karnataka, and Kerala.",
+      "Scheduled Tribes (STs) constitute 8.6% of population (Census 2011), concentrated in the Central Tribal Belt (MP, Odisha, Jharkhand, Chhattisgarh) and Northeast."
+    ],
+    "upscTip": "Analyze demographic divergence between Northern and Southern states and its implications for fiscal transfers (15th/16th Finance Commission) and parliamentary delimitation."
+  },
+  {
+    "id": "urbanisation",
+    "station": 13,
+    "title": "Urbanisation & Megacity Dynamics",
+    "hindi": "शहरीकरण एवं महानगर प्रतिरूप",
+    "coords": "Census: 31.16% -> Projected 40%+",
+    "def": "India's urban population stood at 31.16% in Census 2011 (~377 million) and is projected to surpass 40% (600+ million) by 2035. Characterized by 'top-heavy' growth concentrated in 53 million-plus urban agglomerations (Mumbai, Delhi, Kolkata, Chennai, Bengaluru, Hyderabad).",
+    "why": "Cities generate over 63% of national GDP, but suffer from infrastructure deficits, water crisis (Day Zero threats), urban floods, and slum growth.",
+    "connects": [
+      "environment",
+      "disasters"
+    ],
+    "facts": [
+      "Urban Heat Island (UHI) effect elevates central city temperatures by 2–6°C compared to peripheral rural areas.",
+      "The Smart Cities Mission covered 100 cities with integrated command and control centers (ICCCs) to optimize municipal services.",
+      "Pradhan Mantri Awas Yojana - Urban (PMAY-U) addresses the urban affordable housing backlog.",
+      "Census definition of Census Town: population >= 5,000; at least 75% male working population in non-agriculture; density >= 400 persons/sq km."
+    ],
+    "upscTip": "UPSC Mains GS-I consistently asks about peri-urban sprawl, rurban development, and the vulnerability of Indian cities to localized cloudburst flooding."
+  },
+  {
+    "id": "disasters",
+    "station": 14,
+    "title": "Disaster Geography & Hazard Zoning",
+    "hindi": "आपदा भूगोल एवं जोखिम क्षेत्रीकरण",
+    "coords": "Seismic, Flood, Cyclone, Landslide",
+    "def": "Over 58% of India's landmass is prone to moderate to very severe earthquakes (Zones III to V); 12% to riverine flooding; 75% of coastline to cyclones; 68% of cultivable land to drought; and 15% of landmass to landslides.",
+    "why": "Disasters wipe out developmental gains. Modern frameworks emphasize Sendai Framework targets: Disaster Risk Reduction (DRR) over post-disaster relief.",
+    "connects": [
+      "climatechange",
+      "physiography"
+    ],
+    "facts": [
+      "Bureau of Indian Standards (IS 1893) classifies India into 4 seismic zones: Zone II (Low), Zone III (Moderate), Zone IV (Severe: Delhi, parts of Himalayas, Gujarat), Zone V (Very Severe: Kashmir, HP, Uttarakhand, Northeast, Kutch).",
+      "Bay of Bengal generates 4 times more cyclones than the Arabian Sea due to higher SST (>28°C), higher humidity, and upper-level divergence.",
+      "Glacial Lake Outburst Floods (GLOFs) are accelerating in the Himalayas (e.g., South Lhonak lake outburst in Sikkim, October 2023; Chamoli flash flood 2021).",
+      "National Disaster Management Authority (NDMA) chaired by the Prime Minister spearheads preparedness under the Disaster Management Act, 2005."
+    ],
+    "upscTip": "Mains GS-III requires linking physiography with mitigation: Early warning radar (DWR), cyclone shelters under NCRMP, slope bio-engineering, and urban sponge cities."
+  },
+  {
+    "id": "climatechange",
+    "station": 15,
+    "title": "Climate Change & Ecological Resilience",
+    "hindi": "जलवायु परिवर्तन एवं पारिस्थितिक अनुकूलन",
+    "coords": "IPCC AR6 South Asia Assessment",
+    "def": "India faces compounding climate risks: Himalayan cryosphere retreat, changing frequency and intensity of monsoon depressions, sea level rise threatening coastal megacities and Sundarban mangroves, and recurring wet-bulb temperature heat waves exceeding human survival limits (35°C).",
+    "why": "Shapes India's commitments under the Paris Agreement (Panchamrit goals: 500 GW non-fossil capacity by 2030, 50% renewable share, Net Zero by 2070).",
+    "connects": [
+      "disasters",
+      "upsc"
+    ],
+    "facts": [
+      "India's updated Nationally Determined Contributions (NDCs) commit to reduce emissions intensity of GDP by 45% by 2030 from 2005 level.",
+      "Over 7,000 Himalayan glaciers are retreating at average rates of 10–30 meters per year, threatening long-term lean season flows of the Indus and Ganga.",
+      "Sundarbans delta is submerging four times faster than the global sea level rise average due to subsidence and sediment starvation.",
+      "National Action Plan on Climate Change (NAPCC) encompasses 8 missions including Solar, Enhanced Energy Efficiency, Sustainable Habitat, and Sustaining Himalayan Ecosystem."
+    ],
+    "upscTip": "Connect static physical geography with Mission LiFE (Lifestyle for Environment) and the International Solar Alliance (headquartered in Gurugram, India)."
+  },
+  {
+    "id": "upsc",
+    "station": 16,
+    "title": "UPSC Synthesis & Exam Application",
+    "hindi": "यूपीएससी संश्लेषण एवं परीक्षा अनुप्रयोग",
+    "coords": "Prelims GS-I, Mains GS-I & GS-III",
+    "def": "Indian Geography forms the core foundation for competitive exams: Prelims tests precise factual cartography, river drainage sequences, pass locations, and protected area coordinates; Mains GS-I tests physical processes and resource distribution; Mains GS-III tests agriculture, disasters, and environment.",
+    "why": "Geography provides the highest scoring leverage when studied as a single interconnected causal network rather than memorized as disjointed facts.",
+    "connects": [
+      "location"
+    ],
+    "facts": [
+      "Prelims allocates 12–18 direct questions each year to Indian Geography, Environment, and Ecology.",
+      "Map pointing accounts for 3–5 elimination-critical questions annually in UPSC Prelims.",
+      "Mains GS-I contains 100+ marks of Geography questions requiring diagrams, sketch maps, and Weber/Christaller locational rationale.",
+      "Interdisciplinary questions frequently bridge Geography with Geopolitics (IMEC corridor, Chabahar port, border infrastructure)."
+    ],
+    "upscTip": "In every Mains geography answer, always draw an outline sketch map of India with labeled features to secure top-tier marks."
+  }
+]

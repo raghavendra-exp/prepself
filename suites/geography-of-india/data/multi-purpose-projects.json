@@ -1,0 +1,209 @@
+[
+  {
+    "id": "bhakra",
+    "name": "Bhakra Nangal Project",
+    "hindi": "भाखड़ा नांगल परियोजना",
+    "river": "Satluj (Sutlej)",
+    "states": [
+      "Himachal Pradesh",
+      "Punjab",
+      "Haryana",
+      "Rajasthan"
+    ],
+    "type": "Concrete Gravity Dam",
+    "heightM": 226,
+    "lengthM": 518,
+    "reservoir": "Gobind Sagar (HP, 166 sq km)",
+    "installedCapacityMW": 1325,
+    "irrigationAreaHa": "4.0 million hectares (Bhakra Canal System & Sirhind Canal)",
+    "features": "Built between 1948–1963; described by Jawaharlal Nehru as a Temple of Modern India; one of the highest gravity dams in the world; vital backbone of Green Revolution agriculture in Punjab, Haryana, and Rajasthan."
+  },
+  {
+    "id": "tehri",
+    "name": "Tehri Dam Hydroelectric Project",
+    "hindi": "टिहरी बांध परियोजना",
+    "river": "Bhagirathi (Ganga headstream)",
+    "states": [
+      "Uttarakhand",
+      "Uttar Pradesh",
+      "Delhi"
+    ],
+    "type": "Earth and Rock-fill Embankment Dam",
+    "heightM": 260.5,
+    "lengthM": 575,
+    "reservoir": "Swami Ramtirth Sagar (42 sq km)",
+    "installedCapacityMW": 2400,
+    "irrigationAreaHa": "2.7 lakh hectares; supplies 300 cusecs drinking water to Delhi-NCR and UP",
+    "features": "Highest dam in India (5th highest in the world); located in the seismically active Central Himalayan Seismic Gap (Zone V), which prompted extensive environmental campaigns led by Sunderlal Bahuguna (Chipko Movement)."
+  },
+  {
+    "id": "sardarsarovar",
+    "name": "Sardar Sarovar Project",
+    "hindi": "सरदार सरोवर परियोजना",
+    "river": "Narmada",
+    "states": [
+      "Gujarat",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Rajasthan"
+    ],
+    "type": "Concrete Gravity Dam",
+    "heightM": 138.68,
+    "lengthM": 1210,
+    "reservoir": "Sardar Sarovar (375 sq km, 214 km long)",
+    "installedCapacityMW": 1450,
+    "irrigationAreaHa": "1.85 million hectares via 458 km Narmada Main Canal",
+    "features": "Key lifeline providing drinking water to drought-prone Saurashtra, Kutch, and southern Rajasthan (Barmer/Jalore); power shared between MP (57%), Maharashtra (27%), and Gujarat (16%); Statue of Unity is located 3.2 km downstream on Sadhu Bet island."
+  },
+  {
+    "id": "hirakud",
+    "name": "Hirakud Dam",
+    "hindi": "हीराकुड बांध",
+    "river": "Mahanadi",
+    "states": [
+      "Odisha"
+    ],
+    "type": "Composite Earthen, Concrete, and Masonry Dam",
+    "heightM": 60.96,
+    "lengthM": "25.8 km (total dam including dykes; main dam 4.8 km)",
+    "reservoir": "Hirakud Reservoir (743 sq km — one of Asia's largest artificial lakes)",
+    "installedCapacityMW": 347.5,
+    "irrigationAreaHa": "2.35 lakh hectares of Kharif and Rabi paddy in Sambalpur, Bargarh, Subarnapur",
+    "features": "Constructed 1948–1957 to tame the devastating annual floods of the Mahanadi; longest earthen dam in the world; Gandhi Minar and Nehru Minar provide panoramic reservoir views."
+  },
+  {
+    "id": "dvc",
+    "name": "Damodar Valley Corporation (DVC)",
+    "hindi": "दामोदर घाटी निगम",
+    "river": "Damodar & tributaries (Barakar, Konar)",
+    "states": [
+      "Jharkhand",
+      "West Bengal"
+    ],
+    "type": "Multipurpose River Basin Authority (modelled on US TVA)",
+    "heightM": "Multiple dams (Tilaiya, Maithon, Konar, Panchet)",
+    "lengthM": "Basin-wide network",
+    "reservoir": "Tilaiya, Maithon, Konar, and Panchet reservoirs",
+    "installedCapacityMW": 6950,
+    "irrigationAreaHa": "5.5 lakh hectares in lower Damodar basin (Bardhaman, Hooghly)",
+    "features": "India's first multipurpose river valley project, established 18 February 1948 by an Act of Constituent Assembly; tamed the Sorrow of Bengal; powers the heavy industrial mineral belt of Asansol-Durgapur-Dhanbad."
+  },
+  {
+    "id": "nagarjunasagar",
+    "name": "Nagarjuna Sagar Project",
+    "hindi": "नागार्जुन सागर परियोजना",
+    "river": "Krishna",
+    "states": [
+      "Telangana",
+      "Andhra Pradesh"
+    ],
+    "type": "Masonry Gravity Dam",
+    "heightM": 124,
+    "lengthM": 1550,
+    "reservoir": "Nagarjuna Sagar (285 sq km, 11.47 billion m³ capacity)",
+    "installedCapacityMW": 816,
+    "irrigationAreaHa": "1.0 million hectares via Jawahar Canal (right bank) and Lal Bahadur Canal (left bank)",
+    "features": "Built 1955–1967; one of the largest masonry dams in the world; named after the 2nd-century CE Buddhist philosopher Nagarjuna whose ancient vihara ruins on Nagarjunakonda island were relocated to an island museum in the reservoir."
+  },
+  {
+    "id": "idukki",
+    "name": "Idukki Hydroelectric Project",
+    "hindi": "इडुक्की जलविद्युत परियोजना",
+    "river": "Periyar & Cheruthoni",
+    "states": [
+      "Kerala"
+    ],
+    "type": "Double-curvature Thin Arch Dam",
+    "heightM": 168.9,
+    "lengthM": 365.8,
+    "reservoir": "Idukki Reservoir (60 sq km)",
+    "installedCapacityMW": 780,
+    "irrigationAreaHa": "Non-irrigation (pure hydroelectric generation)",
+    "features": "Constructed with Canadian technical aid between the Kuravan and Kurathi granite hills; Asia's first double-curvature arch dam; powerhouse located deep underground inside Nadukani hill at Moolamattom, providing ~30% of Kerala's electric power."
+  },
+  {
+    "id": "polavaram",
+    "name": "Polavaram National Irrigation Project",
+    "hindi": "पोलावरम राष्ट्रीय सिंचाई परियोजना",
+    "river": "Godavari",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "type": "Earth-cum-Rockfill Dam with 48 Radial Spillway Gates",
+    "heightM": 50,
+    "lengthM": 2454,
+    "reservoir": "Polavaram Reservoir (550 sq km)",
+    "installedCapacityMW": 960,
+    "irrigationAreaHa": "2.91 lakh hectares directly + stabilization of 4 lakh ha in Krishna-Godavari deltas",
+    "features": "Conferred National Project status under the Andhra Pradesh Reorganisation Act, 2014; enables inter-basin diversion of 80 TMC water from surplus Godavari basin to deficit Krishna basin via Right Main Canal; supplies drinking water to Visakhapatnam steel city."
+  },
+  {
+    "id": "kosi",
+    "name": "Kosi Project (Bhimnagar Barrage)",
+    "hindi": "कोसी परियोजना (भीमनगर बैराज)",
+    "river": "Kosi (Saptakoshi)",
+    "states": [
+      "Bihar",
+      "Nepal"
+    ],
+    "type": "Diversion Barrage & Embankments",
+    "heightM": 10.3,
+    "lengthM": 1150,
+    "reservoir": "Barrage pondage on Indo-Nepal border",
+    "installedCapacityMW": 20,
+    "irrigationAreaHa": "8.5 lakh hectares in North Bihar and Nepal",
+    "features": "Constructed under 1954 Indo-Nepal agreement to check avulsion floods of Kosi (Sorrow of Bihar), which shifted westward by >120 km over 250 years."
+  },
+  {
+    "id": "kenbetwa",
+    "name": "Ken-Betwa Link Project (KBLP)",
+    "hindi": "केन-बेतवा नदी जोड़ो परियोजना",
+    "river": "Ken and Betwa (Yamuna tributaries)",
+    "states": [
+      "Madhya Pradesh",
+      "Uttar Pradesh"
+    ],
+    "type": "River Interlinking & Daudhan Dam",
+    "heightM": 77,
+    "lengthM": "221 km link canal",
+    "reservoir": "Daudhan Dam reservoir on Ken river",
+    "installedCapacityMW": 103,
+    "irrigationAreaHa": "10.62 lakh hectares in water-stressed Bundelkhand",
+    "features": "Pioneer project under the National Perspective Plan for interlinking of rivers; transfers surplus water from Ken basin to deficit Betwa basin; involves submergence of core habitat in Panna Tiger Reserve."
+  },
+  {
+    "id": "rihand",
+    "name": "Rihand Dam (Govind Ballabh Pant Sagar)",
+    "hindi": "रिहंद बांध (गोविंद बल्लभ पंत सागर)",
+    "river": "Rihand (Son tributary)",
+    "states": [
+      "Uttar Pradesh",
+      "Madhya Pradesh"
+    ],
+    "type": "Concrete Gravity Dam",
+    "heightM": 91.44,
+    "lengthM": 934,
+    "reservoir": "Govind Ballabh Pant Sagar (466 sq km — largest artificial reservoir in India by surface area and volume)",
+    "installedCapacityMW": 300,
+    "irrigationAreaHa": "Supplies cooling and process water to Singrauli industrial belt",
+    "features": "Located at Pipri in Sonbhadra district, UP; transformed Singrauli into the Energy Capital of India powering massive pithead NTPC super thermal plants and Hindalco aluminium smelter."
+  },
+  {
+    "id": "tungabhadra",
+    "name": "Tungabhadra Project (Pampa Sagar)",
+    "hindi": "तुंगभद्रा परियोजना (पंपा सागर)",
+    "river": "Tungabhadra (Krishna tributary)",
+    "states": [
+      "Karnataka",
+      "Andhra Pradesh",
+      "Telangana"
+    ],
+    "type": "Masonry Dam",
+    "heightM": 49.5,
+    "lengthM": 2441,
+    "reservoir": "Pampa Sagar (near Hosapete, Karnataka)",
+    "installedCapacityMW": 127,
+    "irrigationAreaHa": "5.0 lakh hectares in arid Raichur, Bellary, and Kurnool districts",
+    "features": "Constructed 1949–1953; early benchmark in inter-state cooperative river basin development; located near the historic Vijayanagara ruins at Hampi."
+  }
+]

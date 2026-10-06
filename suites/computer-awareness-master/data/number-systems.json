@@ -1,0 +1,78 @@
+{
+  "title": "Computer Number Systems, Conversions & Data Representation",
+  "version": "2026.09",
+  "systems": [
+    {
+      "name": "Binary",
+      "base": 2,
+      "digits": "0, 1",
+      "prefix": "0b",
+      "example": "(11001)2 = 25 in decimal"
+    },
+    {
+      "name": "Octal",
+      "base": 8,
+      "digits": "0, 1, 2, 3, 4, 5, 6, 7",
+      "prefix": "0o",
+      "example": "(31)8 = 25 in decimal"
+    },
+    {
+      "name": "Decimal",
+      "base": 10,
+      "digits": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9",
+      "prefix": "",
+      "example": "25"
+    },
+    {
+      "name": "Hexadecimal",
+      "base": 16,
+      "digits": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A (10), B (11), C (12), D (13), E (14), F (15)",
+      "prefix": "0x",
+      "example": "(19)16 = 25 in decimal"
+    }
+  ],
+  "conversion_rules": [
+    {
+      "rule": "Decimal to Binary",
+      "method": "Successive division by 2; record remainders in reverse order (bottom to top)."
+    },
+    {
+      "rule": "Binary to Decimal",
+      "method": "Multiply each binary digit by 2 raised to its positional power starting from right (2^0, 2^1, 2^2...) and sum up."
+    },
+    {
+      "rule": "Binary to Octal",
+      "method": "Group binary bits in sets of 3 from right to left; convert each 3-bit group to its octal equivalent."
+    },
+    {
+      "rule": "Binary to Hexadecimal",
+      "method": "Group binary bits in sets of 4 from right to left; convert each 4-bit nibble to hex (0-9, A-F)."
+    }
+  ],
+  "complements": {
+    "ones_complement": "Invert all bits: 0 becomes 1 and 1 becomes 0.",
+    "twos_complement": "1's Complement + 1. Standard method for representing signed negative integers in computer arithmetic."
+  },
+  "coding_schemes": [
+    {
+      "code": "ASCII",
+      "full_form": "American Standard Code for Information Interchange",
+      "facts": "7-bit code representing 128 characters (2^7 = 128, values 0 to 127). Extended ASCII uses 8 bits for 256 characters. Capital 'A' is 65 (01000001); lowercase 'a' is 97 (01100001); digit '0' is 48 (00110000)."
+    },
+    {
+      "code": "BCD",
+      "full_form": "Binary Coded Decimal",
+      "facts": "Represents each decimal digit (0-9) using a 4-bit binary nibble (e.g. 25 in BCD is 0010 0101)."
+    },
+    {
+      "code": "EBCDIC",
+      "full_form": "Extended Binary Coded Decimal Interchange Code",
+      "facts": "8-bit character encoding developed by IBM for mainframes."
+    },
+    {
+      "code": "Unicode",
+      "full_form": "Universal Coded Character Set",
+      "facts": "Universal character encoding standard capable of encoding all world languages, mathematical symbols, and emojis (UTF-8, UTF-16, UTF-32). UTF-8 is the dominant encoding on the World Wide Web."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "examId": "SSC-OTHER-2024",
+  "examCode": "other",
+  "examName": {
+    "en": "Other SSC Exams",
+    "hi": "अन्य एसएससी परीक्षाएं"
+  },
+  "fullName": {
+    "en": "Specialized & Departmental Examinations (Scientific Assistant IMD, LDCE, etc.)",
+    "hi": "विशिष्ट एवं विभागीय परीक्षाएं (वैज्ञानिक सहायक आईएमडी, एलडीसीई आदि)"
+  },
+  "badge": "Specialized Recruitment • Official Calendar Grounded",
+  "year": 2024,
+  "duration": "120 minutes",
+  "questions": 200,
+  "marks": 200,
+  "negativeMarking": "0.25 marks per wrong answer",
+  "subjects": [
+    "General Intelligence & Reasoning",
+    "Quantitative Aptitude",
+    "English Language",
+    "General Awareness",
+    "Engineering"
+  ],
+  "eligibility": {
+    "education": {
+      "en": "Bachelor’s Degree in Science (with Physics as one of the subjects)/Computer Science/Information Technology or Diploma in Electronics & Telecommunication Engineering.",
+      "hi": "विज्ञान में स्नातक (भौतिकी विषय सहित)/कंप्यूटर साइंस/आईटी या इलेक्ट्रॉनिक्स एवं टेलीकम्युनिकेशन इंजीनियरिंग में डिप्लोमा।"
+    },
+    "ageMin": 18,
+    "ageMax": 30,
+    "ageRelaxation": {
+      "en": "OBC: 3 yrs, SC/ST: 5 yrs as per official norms.",
+      "hi": "ओबीसी: 3 वर्ष, एससी/एसटी: 5 वर्ष आधिकारिक नियमानुसार।"
+    },
+    "esmProvisions": {
+      "en": "As per DoPT rules for Group B/C recruitment.",
+      "hi": "ग्रुप बी/सी भर्ती हेतु डीओपीटी नियमों के अनुसार।"
+    }
+  },
+  "officialNotification": {
+    "notificationNumber": "F. No. HQ-PPI03/20/2026-SPEC",
+    "notificationDate": "2024-06-24",
+    "applicationStart": "2026-09-01",
+    "applicationEnd": "2026-09-30",
+    "examDate": "September 2024",
+    "url": "https://ssc.gov.in",
+    "tentativeVacancies": 995,
+    "source": "Staff Selection Commission Calendar"
+  },
+  "lastVerified": "2026-09-28",
+  "postsOverview": "Scientific Assistant in India Meteorological Department (IMD); Grade C / D Limited Departmental Competitive Examination (LDCE).",
+  "stages": [
+    {
+      "stageId": "paper1",
+      "stageName": {
+        "en": "Paper-I (Non-Tech + Technical)",
+        "hi": "पेपर-I (गैर-तकनीकी + तकनीकी)"
+      },
+      "mode": "Computer Based Test",
+      "duration": "120 minutes",
+      "totalQuestions": 200,
+      "totalMarks": 200,
+      "negativeMarking": "0.25 marks per wrong answer",
+      "qualifyingNature": false,
+      "sections": [
+        {
+          "name": {
+            "en": "Part-I: Reasoning, Quant, English, GA",
+            "hi": "भाग-I: रीजनिंग, गणित, अंग्रेजी, जीएस"
+          },
+          "questions": 100,
+          "marks": 100,
+          "negativePerWrong": 0.25
+        },
+        {
+          "name": {
+            "en": "Part-II: Physics / Computer Science / Electronics",
+            "hi": "भाग-II: भौतिकी / कंप्यूटर साइंस / इलेक्ट्रॉनिक्स"
+          },
+          "questions": 100,
+          "marks": 100,
+          "negativePerWrong": 0.25
+        }
+      ]
+    }
+  ]
+}

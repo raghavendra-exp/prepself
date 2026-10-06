@@ -1,0 +1,97 @@
+{
+  "title": "Master Directory of Global and National Reports, Indexes, and Rankings",
+  "total_indexes": 22,
+  "last_updated": "2026-09-13",
+  "indexes": [
+    {
+      "index_name": "Human Development Index (HDI)",
+      "publishing_organization": "United Nations Development Programme (UNDP)",
+      "dimensions": "1. Long and healthy life (Life expectancy at birth), 2. Knowledge (Expected years of schooling & Mean years of schooling), 3. Decent standard of living (GNI per capita in PPP $)",
+      "india_rank_latest": "134 (Score 0.644 - Medium Human Development category)",
+      "top_ranking_country": "Switzerland",
+      "key_fact": "Conceptualized in 1990 by Pakistani economist Mahbub ul Haq and Indian Nobel laureate Amartya Sen."
+    },
+    {
+      "index_name": "Global Gender Gap Report",
+      "publishing_organization": "World Economic Forum (WEF)",
+      "dimensions": "Economic Participation and Opportunity, Educational Attainment, Health and Survival, Political Empowerment",
+      "india_rank_latest": "129 out of 146 countries",
+      "top_ranking_country": "Iceland (Ranked #1 for 15 consecutive years)",
+      "key_fact": "Assesses gender parity. Global score indicates it will take over a century to achieve full parity."
+    },
+    {
+      "index_name": "Global Hunger Index (GHI)",
+      "publishing_organization": "Concern Worldwide (Ireland) and Welthungerhilfe (Germany)",
+      "indicators": "1. Undernourishment (1/3 weight), 2. Child Stunting (1/6 weight), 3. Child Wasting (1/6 weight), 4. Child Mortality (1/3 weight)",
+      "india_rank_latest": "105 out of 127 countries (Level: Serious)",
+      "top_ranking_country": "Belarus, Bosnia & Herzegovina, Chile (among lowest hunger group)",
+      "key_fact": "India categorizes in the 'Serious' hunger severity band with score ~27.3."
+    },
+    {
+      "index_name": "Global Innovation Index (GII)",
+      "publishing_organization": "World Intellectual Property Organization (WIPO)",
+      "dimensions": "Innovation Inputs (Institutions, Human capital, Infrastructure, Market sophistication, Business sophistication) and Innovation Outputs (Knowledge & tech outputs, Creative outputs)",
+      "india_rank_latest": "39 out of 133 economies",
+      "top_ranking_country": "Switzerland (#1 for 14th consecutive year), followed by Sweden and USA",
+      "key_fact": "India jumped from 81st position in 2015 to top 40 in 2024-2026, leading lower-middle income economies."
+    },
+    {
+      "index_name": "World Press Freedom Index",
+      "publishing_organization": "Reporters Without Borders (Reporters Sans Frontieres - RSF, Paris)",
+      "indicators": "Political context, Legal framework, Economic context, Sociocultural context, Safety of journalists",
+      "india_rank_latest": "159 out of 180 countries",
+      "top_ranking_country": "Norway (#1), Denmark (#2), Sweden (#3)",
+      "key_fact": "Norway has retained the top position for 8 consecutive years."
+    },
+    {
+      "index_name": "World Happiness Report",
+      "publishing_organization": "UN Sustainable Development Solutions Network (SDSN)",
+      "variables": "GDP per capita, Social support, Healthy life expectancy, Freedom to make life choices, Generosity, Perceptions of corruption",
+      "india_rank_latest": "126 out of 143 countries",
+      "top_ranking_country": "Finland (#1 for 7th consecutive year), followed by Denmark and Iceland",
+      "key_fact": "Published annually on International Day of Happiness (20th March)."
+    },
+    {
+      "index_name": "Corruption Perceptions Index (CPI)",
+      "publishing_organization": "Transparency International (Berlin, Germany)",
+      "scale": "0 (Highly Corrupt) to 100 (Very Clean)",
+      "india_rank_latest": "93 out of 180 countries (Score: 39)",
+      "top_ranking_country": "Denmark (Score: 90 - Least Corrupt)",
+      "key_fact": "Assesses perceived levels of public sector corruption based on 13 data sources."
+    },
+    {
+      "index_name": "Logistics Performance Index (LPI)",
+      "publishing_organization": "World Bank",
+      "dimensions": "Customs clearance efficiency, Quality of trade & transport infrastructure, Ease of arranging competitively priced shipments, Competence of logistics services, Tracking & tracing, Timeliness",
+      "india_rank_latest": "38 out of 139 countries",
+      "top_ranking_country": "Singapore (#1), Finland (#2)",
+      "key_fact": "India's rank improved from 54th (2014) to 38th supported by PM Gati Shakti and National Logistics Policy."
+    },
+    {
+      "index_name": "Henley Passport Index",
+      "publishing_organization": "Henley & Partners (based on official data from IATA)",
+      "india_rank_latest": "82 (Visa-free or visa-on-arrival access to 58 destinations)",
+      "top_ranking_country": "Singapore (#1 with visa-free access to 195 destinations)",
+      "key_fact": "Ranks world's passports according to the number of destinations holders can access without prior visa."
+    },
+    {
+      "index_name": "National Multidimensional Poverty Index (MPI) - India",
+      "publishing_organization": "NITI Aayog (using NFHS-5 microdata)",
+      "dimensions": "Health (Nutrition, Child & Adolescent mortality, Maternal health), Education (Years of schooling, School attendance), Standard of Living (Cooking fuel, Sanitation, Drinking water, Electricity, Housing, Assets, Bank Account)",
+      "key_findings": "Multidimensional poverty in India declined from 29.17% (2013-14) to 11.28% (2022-23); 24.82 crore people exited multidimensional poverty. Uttar Pradesh, Bihar, and Madhya Pradesh registered fastest reductions.",
+      "top_performing_state": "Kerala has the lowest proportion of multidimensionally poor citizens (0.55%)."
+    },
+    {
+      "index_name": "State Energy and Climate Index (SECI)",
+      "publishing_organization": "NITI Aayog",
+      "top_performing_states": "Larger States: 1. Gujarat, 2. Kerala, 3. Punjab. Smaller States: Goa. UTs: Chandigarh.",
+      "key_parameters": "DISCOM performance, Clean energy initiatives, Energy efficiency, Environmental sustainability"
+    },
+    {
+      "index_name": "State Food Safety Index (SFSI)",
+      "publishing_organization": "Food Safety and Standards Authority of India (FSSAI)",
+      "top_performing_states": "Larger States: Kerala (#1), Punjab (#2), Tamil Nadu (#3). Smaller States: Goa (#1). UTs: Jammu & Kashmir (#1).",
+      "key_fact": "Announced annually on World Food Safety Day (7th June)."
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "phys-gd-male",
+    "exam": "gd",
+    "gender": "male",
+    "category": "General / OBC / SC",
+    "heightMinCm": 170,
+    "chestMinCm": 80,
+    "chestExpansionMinCm": 5,
+    "petEvents": [
+      {
+        "event": {
+          "en": "Running",
+          "hi": "दौड़"
+        },
+        "requirement": {
+          "en": "5 Kilometres within 24 Minutes",
+          "hi": "24 मिनट के भीतर 5 किलोमीटर"
+        },
+        "relaxations": {
+          "en": "For Ladakh region candidates: 1.6 km in 7 minutes.",
+          "hi": "लद्दाख क्षेत्र के अभ्यर्थियों हेतु: 7 मिनट में 1.6 किमी।"
+        }
+      }
+    ],
+    "officialSource": "SSC GD Constable Gazette Notification"
+  },
+  {
+    "id": "phys-gd-female",
+    "exam": "gd",
+    "gender": "female",
+    "category": "General / OBC / SC",
+    "heightMinCm": 157,
+    "petEvents": [
+      {
+        "event": {
+          "en": "Running",
+          "hi": "दौड़"
+        },
+        "requirement": {
+          "en": "1.6 Kilometres within 8.5 Minutes",
+          "hi": "8.5 मिनट के भीतर 1.6 किलोमीटर"
+        },
+        "relaxations": {
+          "en": "For Ladakh region candidates: 800 metres in 5 minutes.",
+          "hi": "लद्दाख क्षेत्र के अभ्यर्थियों हेतु: 5 मिनट में 800 मीटर।"
+        }
+      }
+    ],
+    "officialSource": "SSC GD Constable Gazette Notification"
+  },
+  {
+    "id": "phys-cpo-male",
+    "exam": "cpo",
+    "gender": "male",
+    "category": "General / OBC / SC",
+    "heightMinCm": 170,
+    "chestMinCm": 80,
+    "chestExpansionMinCm": 5,
+    "petEvents": [
+      {
+        "event": {
+          "en": "100m Sprint",
+          "hi": "100 मीटर स्प्रिंट"
+        },
+        "requirement": {
+          "en": "Within 16 Seconds",
+          "hi": "16 सेकंड के भीतर"
+        }
+      },
+      {
+        "event": {
+          "en": "1.6 km Race",
+          "hi": "1.6 किमी दौड़"
+        },
+        "requirement": {
+          "en": "Within 6.5 Minutes",
+          "hi": "6.5 मिनट के भीतर"
+        }
+      },
+      {
+        "event": {
+          "en": "Long Jump",
+          "hi": "लंबी कूद"
+        },
+        "requirement": {
+          "en": "3.65 Metres (in 3 chances)",
+          "hi": "3.65 मीटर (3 अवसरों में)"
+        }
+      },
+      {
+        "event": {
+          "en": "High Jump",
+          "hi": "ऊंची कूद"
+        },
+        "requirement": {
+          "en": "1.2 Metres (in 3 chances)",
+          "hi": "1.2 मीटर (3 अवसरों में)"
+        }
+      },
+      {
+        "event": {
+          "en": "Shot Put (16 lbs)",
+          "hi": "गोला फेंक (16 पाउंड)"
+        },
+        "requirement": {
+          "en": "4.5 Metres (in 3 chances)",
+          "hi": "4.5 मीटर (3 अवसरों में)"
+        }
+      }
+    ],
+    "officialSource": "SSC CPO Sub-Inspector Official Notification"
+  },
+  {
+    "id": "phys-cpo-female",
+    "exam": "cpo",
+    "gender": "female",
+    "category": "General / OBC / SC",
+    "heightMinCm": 157,
+    "petEvents": [
+      {
+        "event": {
+          "en": "100m Sprint",
+          "hi": "100 मीटर स्प्रिंट"
+        },
+        "requirement": {
+          "en": "Within 18 Seconds",
+          "hi": "18 सेकंड के भीतर"
+        }
+      },
+      {
+        "event": {
+          "en": "800m Race",
+          "hi": "800 मीटर दौड़"
+        },
+        "requirement": {
+          "en": "Within 4 Minutes",
+          "hi": "4 मिनट के भीतर"
+        }
+      },
+      {
+        "event": {
+          "en": "Long Jump",
+          "hi": "लंबी कूद"
+        },
+        "requirement": {
+          "en": "2.7 Metres (in 3 chances)",
+          "hi": "2.7 मीटर (3 अवसरों में)"
+        }
+      },
+      {
+        "event": {
+          "en": "High Jump",
+          "hi": "ऊंची कूद"
+        },
+        "requirement": {
+          "en": "0.9 Metres (in 3 chances)",
+          "hi": "0.9 मीटर (3 अवसरों में)"
+        }
+      }
+    ],
+    "officialSource": "SSC CPO Sub-Inspector Official Notification"
+  },
+  {
+    "id": "phys-mts-havaldar-male",
+    "exam": "mts",
+    "gender": "male",
+    "category": "Havaldar in CBIC & CBN",
+    "heightMinCm": 157.5,
+    "chestMinCm": 81,
+    "chestExpansionMinCm": 5,
+    "petEvents": [
+      {
+        "event": {
+          "en": "Walking",
+          "hi": "पैदल चाल"
+        },
+        "requirement": {
+          "en": "1600 Metres in 15 Minutes",
+          "hi": "15 मिनट में 1600 मीटर"
+        }
+      }
+    ],
+    "officialSource": "SSC MTS & Havaldar Notification"
+  }
+]

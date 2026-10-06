@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indian Heritage and Culture — Salient Aspects of Art Forms, Literature &amp; Architecture</title>
+<meta name="description" content="Comprehensive UPSC CSE &amp; UPPSC module on Indian Heritage and Culture: Visual &amp; Performing Arts, Classical &amp; Regional Literature, and Temple &amp; Cave Architecture from ancient to modern times, synthesized from Nitin Singhania, NCERT Fine Arts, CCRT, and Percy Brown.">
+<link rel="stylesheet" href="css/style.css">
+<style>
+.culture-hero {
+  background: radial-gradient(circle at 80% 20%, rgba(217, 119, 6, 0.12), transparent 50%),
+              radial-gradient(circle at 10% 80%, rgba(180, 83, 9, 0.08), transparent 50%),
+              var(--bg);
+  border-bottom: 1px solid var(--line);
+  padding: 44px 0 28px;
+}
+.culture-nav-pills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 22px 0 10px;
+}
+@media (max-width: 640px) {
+  .culture-nav-pills {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    padding-bottom: 8px;
+    margin-bottom: 14px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--line) transparent;
+  }
+}
+.culture-tab-btn {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.culture-tab-btn:hover, .culture-tab-btn.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+  box-shadow: 0 2px 8px rgba(180, 83, 9, 0.25);
+}
+.culture-search-box {
+  position: relative;
+  max-width: 520px;
+  margin-top: 18px;
+}
+.culture-search-box input {
+  width: 100%;
+  padding: 10px 14px 10px 38px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--bg-raised);
+  color: var(--ink);
+  font-size: 0.92rem;
+}
+.culture-search-box svg {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ink-faint);
+}
+.culture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+@media (max-width: 768px) {
+  .culture-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.culture-card {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.culture-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+}
+.card-header-badge {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.card-type-tag {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: var(--bg-sunken);
+  color: var(--accent-strong);
+  border: 1px solid var(--line-soft);
+}
+.card-era-badge {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+}
+.culture-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  line-height: 1.3;
+  margin: 0 0 6px;
+  color: var(--ink);
+}
+.card-subtitle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--seal);
+  margin-bottom: 12px;
+}
+.card-desc {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+  flex-grow: 1;
+}
+.feature-list {
+  background: var(--bg);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+}
+.feature-list h5 {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 6px;
+  letter-spacing: 0.05em;
+}
+.feature-list ul {
+  padding-left: 1.2em;
+  margin: 0;
+  line-height: 1.5;
+}
+.feature-list li {
+  margin-bottom: 4px;
+}
+.upsc-corner-box {
+  border-left: 3px solid var(--accent);
+  background: var(--accent-tint);
+  padding: 8px 12px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--ink);
+  margin-bottom: 14px;
+}
+.upsc-corner-box b {
+  color: var(--accent-strong);
+}
+.card-footer-links {
+  display: flex;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line-soft);
+  flex-wrap: wrap;
+}
+.card-footer-links .btn {
+  font-size: 0.78rem;
+  padding: 6px 10px;
+}
+.comparison-table-wrap {
+  overflow-x: auto;
+  margin: 24px 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.comp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  text-align: left;
+}
+.comp-table th {
+  background: var(--bg-sunken);
+  padding: 12px 16px;
+  border-bottom: 2px solid var(--line);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--ink);
+}
+.comp-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--line-soft);
+  vertical-align: top;
+  color: var(--ink-soft);
+  line-height: 1.45;
+}
+.comp-table tr:hover td {
+  background: var(--bg-raised);
+}
+.syllabus-guide-banner {
+  background: linear-gradient(135deg, rgba(217, 119, 6, 0.08), rgba(180, 83, 9, 0.04));
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+  margin-bottom: 32px;
+}
+</style>
+  <!-- Google Analytics Tracking (G-B0Z2G21W4F) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B0Z2G21W4F');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="site-nav" id="siteNav"></nav>
+
+<main id="main">
+  <div class="wrap"><div class="breadcrumb" id="breadcrumb"></div></div>
+
+  <header class="culture-hero">
+    <div class="wrap">
+      <span class="eyebrow">UPSC CSE GS Paper-1 &bull; Comprehensive Module &bull; Art, Architecture &amp; Literature</span>
+      <h1 style="font-size:clamp(2.1rem, 4.6vw, 3.2rem); margin-bottom:8px;">Indian Heritage &amp; Culture</h1>
+      <p class="section-desc" style="font-size:1.06rem; max-width:82ch; margin-bottom:18px;">
+        An encyclopedic, syllabus-mapped exploration of Indian Culture — covering salient aspects of <strong>Art Forms, Literature, and Architecture from ancient to modern times</strong>. Grounded in the canonical texts: <em>Nitin Singhania</em>, <em>NCERT Class 11 Fine Arts</em>, <em>CCRT</em>, <em>Percy Brown</em>, and <em>A.L. Basham</em>.
+      </p>
+
+      <div class="syllabus-guide-banner">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:8px;">
+          <h4 style="margin:0; font-family:var(--font-mono); text-transform:uppercase; font-size:0.82rem; color:var(--accent-strong);">Canonical Exam Textbooks Synthesized</h4>
+          <a href="books.html#pdf-vault" class="btn btn-outline" style="font-size:0.75rem; padding:4px 9px;">📥 Full 15-Book PDF Vault ↗</a>
+        </div>
+        <div style="font-size:0.9rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+          • <strong>Nitin Singhania</strong> (Indian Art &amp; Culture, McGraw Hill) &bull;
+          • <strong>NCERT Class 11</strong> (An Introduction to Indian Art, Parts I &amp; II) &bull;
+          • <strong>CCRT Compendiums</strong> (Centre for Cultural Resources &amp; Training) &bull;
+          • <strong>Percy Brown</strong> (Indian Architecture: Buddhist &amp; Hindu, Islamic Periods) &bull;
+          • <strong>A.L. Basham</strong> (The Wonder That Was India) &bull;
+          • <strong>Kapila Vatsyayan</strong> (Classical Indian Dance in Literature &amp; the Arts)
+        </div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; font-size:.82rem; padding-top:10px; border-top:1px dashed var(--line-soft);">
+          <a href="https://ncert.nic.in/textbook.php?kefa1=0-8" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size:0.78rem; padding:6px 12px; background:var(--accent); border-color:var(--accent-strong);">🏺 NCERT Class 11 Fine Arts Part I PDF ↗</a>
+          <a href="https://ncert.nic.in/textbook.php?lefa1=0-6" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size:0.78rem; padding:6px 12px; background:var(--accent); border-color:var(--accent-strong);">🎨 NCERT Class 12 Fine Arts Part II PDF ↗</a>
+          <a href="https://ccrtindia.gov.in/" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="font-size:0.78rem; padding:6px 10px;">🏛️ CCRT Cultural Compendiums ↗</a>
+          <a href="https://archive.org/search?query=%22Indian+Art+and+Culture%22+Nitin+Singhania" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="font-size:0.78rem; padding:6px 10px;">📖 Singhania Digital Archive ↗</a>
+        </div>
+      </div>
+
+      <div class="culture-search-box">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" id="cultureSearchInput" placeholder="Filter by art form, dance, dynasty, temple style, literature or keyword..." oninput="handleCultureSearch(this.value)">
+      </div>
+
+      <div class="culture-nav-pills" id="cultureNavPills">
+        <button class="culture-tab-btn active" onclick="switchCultureTab('all', this)">All Culture Topics (30+)</button>
+        <button class="culture-tab-btn" onclick="switchCultureTab('art-forms', this)">🎨 Indian Art Forms</button>
+        <button class="culture-tab-btn" onclick="switchCultureTab('literature', this)">📜 Literature</button>
+        <button class="culture-tab-btn" onclick="switchCultureTab('architecture', this)">🏛️ Architecture</button>
+        <button class="culture-tab-btn" onclick="switchCultureTab('comparisons', this)">⚖️ Core Comparative Tables</button>
+        <button class="culture-tab-btn" onclick="switchCultureTab('mains-frameworks', this)">✍️ Mains Model Answers</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Section 1: Dynamic Card Grid (Art Forms, Literature, Architecture) -->
+  <section class="section" id="cultureCardsSection" style="padding-top:16px;">
+    <div class="wrap">
+      <div class="culture-grid" id="cultureGrid">
+        <!-- Cards injected via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Comparative Analysis Tables -->
+  <section class="section section-alt" id="cultureComparisonsSection">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="kicker">Comparative High-Yield Benchmarks</span>
+          <h2 class="mt0">Core Architectural &amp; Artistic Comparisons</h2>
+        </div>
+        <p class="section-desc">Directly tested in UPSC Prelims elimination traps and Mains GS-1 10/15-marker analytical questions.</p>
+      </div>
+
+      <!-- Comparison 1: Nagara vs Dravida vs Vesara -->
+      <h3 style="margin-top:20px;">1. Temple Architecture: Nagara vs. Dravida vs. Vesara Styles</h3>
+      <div class="comparison-table-wrap">
+        <table class="comp-table">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Nagara Style (North India)</th>
+              <th>Dravida Style (South India)</th>
+              <th>Vesara Style (Hybrid Deccan)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Tower (Shikhara/Vimana)</strong></td>
+              <td>Curvilinear beehive-shaped Shikhara tapering inwards; capped with Amalaka and Kalasha. Three sub-types: Latina, Phamsana, Valabhi.</td>
+              <td>Stepped pyramidal tower called <em>Vimana</em> rising geometrically with stories (talas); capped with octagonal or dome-like Shikhara.</td>
+              <td>Hybrid shape combining curvilinear Nagara verticality with stepped Dravida horizontal tiers; often star-shaped (stellate plan).</td>
+            </tr>
+            <tr>
+              <td><strong>Entrance Gateway</strong></td>
+              <td>Modest portico/mandapa entrance; rarely has towering enclosure walls or towering gates.</td>
+              <td>Massive monumental pyramidal gateways called <strong>Gopurams</strong> that dominate the temple skyline.</td>
+              <td>Moderate to prominent gateways; emphasis placed on ornate pillared porches and multiple entrances.</td>
+            </tr>
+            <tr>
+              <td><strong>Enclosure &amp; Water Tank</strong></td>
+              <td>Temples built on elevated plinths (Jagati); boundary walls are generally absent; water tank not mandatory inside complex.</td>
+              <td>Strict boundary walls (Prakara walls) enclosing complex; large consecrated temple tank (Kalyani/Pushkarani) is mandatory.</td>
+              <td>Enclosure walls present; often integrated with pillared cloisters and tanks, common in Hoysala and Chalukya complexes.</td>
+            </tr>
+            <tr>
+              <td><strong>Deity Shrine (Sanctum)</strong></td>
+              <td>Garbhagriha directly under the tallest Shikhara; circumambulatory path (Pradakshina Path) enclosed or open.</td>
+              <td>Garbhagriha housed under the main Vimana; subsidiary shrines (Pariwara devatas) systematically arranged within prakara.</td>
+              <td>Often multi-shrined (Ekatakuta, Dvikuta, Trikuta, Panchakuta) arranged around central pillared hall (Navaranga).</td>
+            </tr>
+            <tr>
+              <td><strong>Prominent Examples</strong></td>
+              <td>Kandariya Mahadeva (Khajuraho), Sun Temple (Konark), Jagannath (Puri), Sun Temple (Modhera), Dashavatara (Deogarh).</td>
+              <td>Brihadisvara Temple (Thanjavur), Shore Temple (Mamallapuram), Meenakshi Amman (Madurai), Gangaikondacholapuram.</td>
+              <td>Kailash Temple (Cave 16, Ellora), Chennakeshava Temple (Belur), Hoysaleswara (Halebidu), Virupaksha (Pattadakal).</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Comparison 2: Gandhara vs Mathura vs Amaravati -->
+      <h3 style="margin-top:34px;">2. Post-Mauryan Sculpture Schools: Gandhara vs. Mathura vs. Amaravati</h3>
+      <div class="comparison-table-wrap">
+        <table class="comp-table">
+          <thead>
+            <tr>
+              <th>Dimension</th>
+              <th>Gandhara School</th>
+              <th>Mathura School</th>
+              <th>Amaravati School</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Geographical Area &amp; Patronage</strong></td>
+              <td>North-West Frontier (Peshawar, Taxila, Swat Valley); Patrons: Kushana rulers.</td>
+              <td>Mathura, Sonkh, Kankali Tila (Uttar Pradesh); Patrons: Kushana rulers.</td>
+              <td>Krishna-Godavari valley (Amaravati, Nagarjunakonda, Jaggayyapeta); Patrons: Satavahanas &amp; Ikshvakus.</td>
+            </tr>
+            <tr>
+              <td><strong>Material Used</strong></td>
+              <td>Grey/Bluish-grey schist stone, stucco (lime plaster), terracotta.</td>
+              <td>Spotted red sandstone quarried from Sikri / Mathura region.</td>
+              <td>White marble / crystalline limestone.</td>
+            </tr>
+            <tr>
+              <td><strong>Religious Influence</strong></td>
+              <td>Almost exclusively <strong>Buddhist</strong> (Mahayana Buddhism). Greco-Roman Apollo-like Buddha representation.</td>
+              <td>All three traditions: <strong>Buddhism, Jainism</strong> (Ayagapatas, Tirthankara icons), and <strong>Brahmanism</strong> (earliest Shiva Lingas, Vishnu, Surya).</td>
+              <td>Predominantly <strong>Buddhist</strong>; emphasis on narrative panels depicting Jataka stories and Buddha's life.</td>
+            </tr>
+            <tr>
+              <td><strong>Features of Buddha Image</strong></td>
+              <td>Wavy curly hair, sharp facial features, thin Greco-Roman drapery with realistic anatomical folds, muscular physique, moustache, Urna on forehead.</td>
+              <td>Shaven head or spiraled topknot (Ushnisha), fleshy energetic torso, transparent right-shoulder robe, joyful smile, large decorated halo.</td>
+              <td>Dynamic narrative reliefs, slim graceful limbs, sensuous figures in movement, multi-figure complex narrative compositions with deep emotion.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Comparison 3: Hindustani vs Carnatic Music -->
+      <h3 style="margin-top:34px;">3. Classical Music Traditions: Hindustani vs. Carnatic</h3>
+      <div class="comparison-table-wrap">
+        <table class="comp-table">
+          <thead>
+            <tr>
+              <th>Criteria</th>
+              <th>Hindustani Classical Music</th>
+              <th>Carnatic Classical Music</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Geographical Spread</strong></td>
+              <td>Northern, Central, and Eastern India.</td>
+              <td>Southern India (Tamil Nadu, Karnataka, Andhra Pradesh, Kerala, Telangana).</td>
+            </tr>
+            <tr>
+              <td><strong>Historical Influences</strong></td>
+              <td>Deep fusion of ancient Vedic musical traditions with Persian, Arab, and Central Asian court cultures (Amir Khusrau, Tansen).</td>
+              <td>Retained ancient indigenous Dravidian and Vedic traditions; largely unaffected by Persian/Arab court musical influx.</td>
+            </tr>
+            <tr>
+              <td><strong>Core Forms &amp; Structure</strong></td>
+              <td>Dhrupad, Khayal, Tarana, Thumri, Dadra, Dhamar. High scope for spontaneous improvisation (Alap-Jor-Jhala).</td>
+              <td>Kriti, Varnam, Padam, Javali, Tillana. Highly structured compositions with balanced balance between Sahitya (lyrics) and Swara.</td>
+            </tr>
+            <tr>
+              <td><strong>Gharana System</strong></td>
+              <td>Strong tradition of regional lineage schools (Gharanas): Gwalior, Agra, Kirana, Jaipur-Atrauli, Patiala, Delhi.</td>
+              <td>No rigid Gharana system; instead grouped by individual lineage styles (Bani) and Melakarta system (72 parent ragas of Venkatamakhin).</td>
+            </tr>
+            <tr>
+              <td><strong>Key Instruments</strong></td>
+              <td>Sitar, Sarod, Santoor, Shehnai, Bansuri, Tabla, Pakhawaj.</td>
+              <td>Veena (Saraswati Veena), Violin, Nadaswaram, Flute, Mridangam, Ghatam, Kanjira, Morsing.</td>
+            </tr>
+            <tr>
+              <td><strong>Pivotal Figures</strong></td>
+              <td>Tansen, Amir Khusrau, Swami Haridas, Bade Ghulam Ali Khan, Pt. Bhimsen Joshi.</td>
+              <td>Purandara Dasa (Pitamaha of Carnatic music), Trinity: Tyagaraja, Muthuswami Dikshitar, Syama Sastri.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: UPSC Mains Model Answer Frameworks -->
+  <section class="section" id="cultureMainsSection">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="kicker">UPSC GS-1 Mains Analytical Blueprint</span>
+          <h2 class="mt0">High-Yield Answer Writing Frameworks</h2>
+        </div>
+        <p class="section-desc">Master models with Intro, Structural Multi-Dimensional Body Points, Diagrams, and Concluding Value-Add.</p>
+      </div>
+
+      <div class="card-grid" style="grid-template-columns:1fr 1fr; gap:24px;">
+        <div class="book-card">
+          <div class="card-header-badge">
+            <span class="card-type-tag">UPSC GS-1 15 Marks / 250 Words</span>
+            <span class="card-era-badge">Architecture &amp; Religion</span>
+          </div>
+          <h3>Q: "Early Buddhist stupa architecture evolved from simple earthen funerary mounds into monumental cosmic architectures." Elucidate.</h3>
+          <p class="book-desc">
+            <strong>Framework Blueprint:</strong><br>
+            • <strong>Introduction:</strong> Define Stupa (from Sanskrit root <em>stup</em> meaning heap). Sutta Pitaka Mahaparinibbana Sutta mentions 8 original Saririka stupas over Buddha's relics (Rajgriha, Vaishali, Kapilavastu, etc.).<br>
+            • <strong>Architectural Components:</strong><br>
+            - <em>Anda:</em> Hemispherical dome symbolizing cosmic egg, dome of heaven, and impermanence.<br>
+            - <em>Harmika:</em> Square balcony atop dome representing the abode of gods/enlightenment.<br>
+            - <em>Chhatri / Yasti:</em> Central mast with 3 umbrella tiers symbolizing Three Jewels (Buddha, Dhamma, Sangha).<br>
+            - <em>Medhi &amp; Pradakshina Path:</em> Elevated terrace and circumambulatory pathway for clockwise meditation.<br>
+            - <em>Vedika &amp; Toranas:</em> Stone railings and ceremonial gateways carved with Jataka narratives (e.g. Sanchi Toranas).<br>
+            • <strong>Evolution:</strong> Earthen mounds (Pre-Mauryan) &rarr; Brick casing &amp; Ashokan expansion &rarr; Shunga-Andhra stone embellishment &amp; Toranas &rarr; Amaravati marble drum slabs &rarr; Gandharan vertical stupas.<br>
+            • <strong>Diagram Idea:</strong> Cross-sectional schematic diagram labeling Anda, Harmika, Chhatri, Medhi, Pradakshina Path, Torana.<br>
+            • <strong>Conclusion:</strong> Stupas represented architectural manifestation of Buddhist soteriology, transforming funerary relics into vibrant public spatial centers of cultural and sculptural narration.
+          </p>
+          <div class="card-footer-links">
+            <a href="practice.html?mode=mains&book=nitin-singhania" class="btn btn-primary">Practice More Culture Mains &rarr;</a>
+          </div>
+        </div>
+
+        <div class="book-card">
+          <div class="card-header-badge">
+            <span class="card-type-tag">UPSC GS-1 15 Marks / 250 Words</span>
+            <span class="card-era-badge">Social Reforms &amp; Arts</span>
+          </div>
+          <h3>Q: "The Bhakti and Sufi movements democratized regional vernacular languages and produced profound voices of female agency." Discuss.</h3>
+          <p class="book-desc">
+            <strong>Framework Blueprint:</strong><br>
+            • <strong>Introduction:</strong> Bhakti (from <em>bhaj</em> - participate/love) and Sufi movements (Tassawuf) represented medieval socio-spiritual revolutions rejecting ritualistic elitism, priestly monopoly, and rigid hierarchies.<br>
+            • <strong>Linguistic Democratization:</strong><br>
+            - Shattered Sanskrit/Arabic/Persian elite monopolies: Tulsidas composed in Awadhi, Surdas in Braj Bhasha, Kabir in Saddukkadi, Chaitanya in Bengali, Jnaneshwar in Marathi, Basavanna in Kannada Vachanas.<br>
+            - Amir Khusrau pioneered Hindavi (Dehlavi) poetry; Sufi poets used folk genres like Premakhyan (Malik Muhammad Jayasi's Padmavat in Awadhi).<br>
+            • <strong>Female Agency &amp; Subversion of Patriarchy:</strong><br>
+            - <em>Mirabai:</em> Rejected Rajput feudal norms and patriarchal marriage, embracing Krishna as divine spouse.<br>
+            - <em>Akka Mahadevi:</em> Lingayat mystic who renounced clothes, declaring worldly modesty redundant before Shiva (Chennamallikarjuna).<br>
+            - <em>Lal Ded (Lalleshwari):</em> Kashmiri Shaivite mystic whose <em>Vatsun / Vakhs</em> bridged Shaivism and Sufism (Rishi order of Nund Rishi).<br>
+            - <em>Andal:</em> Only female Alvar poetess whose <em>Tiruppavai</em> remains sacred liturgy in Tamil Nadu.<br>
+            • <strong>Conclusion:</strong> These movements established that spiritual liberation was accessible to all regardless of gender or caste, laying the foundational roots of modern Indian linguistic and egalitarian identities.
+          </p>
+          <div class="card-footer-links">
+            <a href="practice.html?mode=mains&book=satish-chandra" class="btn btn-primary">Practice Bhakti Mains Qs &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="siteFooter"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+<script>
+// Master Data Store for Indian Heritage & Culture Module
+const CULTURE_DATA = [
+  // --- ART FORMS: PAINTINGS ---
+  {
+    id: 'paintings-mural',
+    category: 'art-forms',
+    type: 'Paintings',
+    title: 'Mural Paintings of India',
+    era: '2nd c. BCE – 18th c. CE',
+    subtitle: 'Ajanta, Ellora, Bagh, Sittanavasal & Lepakshi',
+    desc: 'Mural paintings are large-scale artworks executed directly onto solid walls, ceilings, or cave surfaces using fresco techniques (fresco buono on wet plaster or fresco secco on dry lime plaster). They reflect sacred narratives, royal courts, and aesthetic masterworks.',
+    features: [
+      'Ajanta Caves (Maharashtra): Murals illustrate Jataka stories and Buddha\'s life. Masterpieces include Padmapani and Vajrapani (Cave 1), Dying Princess (Cave 16). Utilized natural pigments (lapislazuli, red ochre).',
+      'Ellora Murals (Kailash Temple): Paintings in multiple layers dating from Rashtrakuta and Yadava periods.',
+      'Bagh Caves (MP): Buddhist paintings stylistically linked to Ajanta but more secular in execution.',
+      'Sittanavasal (Tamil Nadu): 7th-9th c. Jain rock-cut cave paintings of Pandyan period featuring Samavasarana (divine assembly hall), lotus pond, and dancing apsaras.',
+      'Lepakshi (Andhra Pradesh): 16th c. Vijayanagara period murals in Veerabhadra temple; depicts Ramayana/Mahabharata with bold outlines and continuous narrative.'
+    ],
+    upscFact: 'UPSC Trap: Ajanta murals are NOT pure frescoes (fresco buono); they were executed on a clay-cowdung-straw ground coated with lime plaster using tempera technique (fresco secco).',
+    timelineRef: 'gupta-age',
+    bookRef: 'Nitin Singhania, Ch. 2; NCERT Class 11 Fine Arts Ch. 5'
+  },
+  {
+    id: 'paintings-miniature',
+    category: 'art-forms',
+    type: 'Paintings',
+    title: 'Indian Miniature Paintings: Mughal, Rajput & Pahari',
+    era: '11th c. – 19th c. CE',
+    subtitle: 'From Palm-Leaf Manuscripts to Imperial Ateliers & Princely Courts',
+    desc: 'Miniature paintings require precise miniature brushwork on perishable materials (palm-leaf, cloth, handmade paper). The art flourished under Pala Buddhist manuscripts, Western Indian Jain texts, and reached supreme refinement under Mughal imperial workshops and Rajput/Pahari courts.',
+    features: [
+      'Pala School (8th-12th c.): Buddhist palm-leaf miniatures with sinuous lines (Nalanda, Somapura).',
+      'Western Indian / Jain School: Characterized by protruding farther eye, angular faces, and lavish use of gold/silver pigment.',
+      'Mughal Miniature: Akbar established the imperial Tasvir Khana (Tuti-Nama, Hamzanama, Razmnama under Mir Sayyid Ali and Abdus Samad); Jahangir emphasized naturalism, royal portraiture, and flora/fauna (Ustad Mansur, Abul Hasan); Shah Jahan introduced formal court grandeur and jewel-like border illumination (Hasht Bihisht).',
+      'Rajput Schools: Mewar (emotional devotionalism, Sahibdin), Marwar, Bundi (vibrant skies, lush vegetation), Kota (famous hunting scenes/Shikar), Kishangarh (Nihal Chand\'s iconic Bani Thani / Indian Mona Lisa).',
+      'Pahari Schools: Basohli (bold primary colours, savage vitality), Kangra (delicate lyricism, Nayika-Bheda themes, soft green landscape tones under Raja Sansar Chand), Guler, Chamba.'
+    ],
+    upscFact: 'Bani Thani painting of Kishangarh was created by court painter Nihal Chand for Raja Sawant Singh (Nagari Das), portraying Radha with elongated eyes and arched eyebrows.',
+    timelineRef: 'akbar-the-great',
+    bookRef: 'Nitin Singhania, Ch. 2; CCRT Visual Arts'
+  },
+
+  // --- ART FORMS: DANCES ---
+  {
+    id: 'classical-dances',
+    category: 'art-forms',
+    type: 'Dances',
+    title: 'Classical Dances of India (8 Sangeet Natak Akademi Traditions)',
+    era: 'Ancient Natyashastra to Modern Times',
+    subtitle: 'Bharatanatyam, Kathak, Kathakali, Kuchipudi, Odissi, Manipuri, Mohiniyattam, Sattriya',
+    desc: 'Rooted in Bharata Muni\'s Natyashastra and Nandikeshvara\'s Abhinaya Darpana. Combines Nritta (pure rhythmic movement), Nritya (expressive storytelling through mudras and facial bhava), and Natya (dramatic enactment).',
+    features: [
+      'Bharatanatyam (Tamil Nadu): Evolved from Sadir Natkam performed by Devadasis; revived by E. Krishna Iyer and Rukmini Devi Arundale; features fire element (Agni), Alarippu to Tillana structure.',
+      'Kathak (North India): Traces to itinerant storytellers (Kathakars); received court patronage under Awadh Nawab Wajid Ali Shah; features intricate footwork (Tatkar), rapid pirouettes (Chakkars), and Jugalbandi with tabla.',
+      'Kathakali (Kerala): Male temple dance-drama representing the sky/ether element; elaborate makeup (Paccha - noble, Kathi - villainous, Kari - demonic), large headgear, and eye-ball movements.',
+      'Kuchipudi (Andhra Pradesh): Originated in Kuchelapuram village; formalized by Siddhendra Yogi; distinctive feature: Tarangam (dancing on brass plate edge balancing water pot).',
+      'Odissi (Odisha): Mahari and Gotipua lineages; water element; Tribhanga posture (tri-bent body curvature) and Chowk stance; accompanied by Mardala.',
+      'Manipuri (Manipur): Devotional Vaishnavite dance; Raasleela of Radha-Krishna; soft gliding footwork; Kumil barrel-shaped cylindrical skirt.',
+      'Mohiniyattam (Kerala): "Dance of the Enchantress" representing air element; graceful swaying lasya style; white/off-white kasavu saree with gold border.',
+      'Sattriya (Assam): Introduced by 15th c. Vaishnava saint Mahapurusha Srimanta Sankaradeva in monastic Sattras; accompanied by Khol and Bortal.'
+    ],
+    upscFact: 'Sattriya was recognized by Sangeet Natak Akademi as a classical dance in the year 2000. It is rooted in Sankaradeva\'s Ankiya Nat plays and monastic devotionalism.',
+    timelineRef: 'ancient-art',
+    bookRef: 'Nitin Singhania, Ch. 3; Kapila Vatsyayan'
+  },
+  {
+    id: 'folk-dances-modern',
+    category: 'art-forms',
+    type: 'Dances',
+    title: 'Folk Dances & Modern Dance Movements',
+    era: 'Centuries of Agrarian & Tribal Celebrations',
+    subtitle: 'From Regional Celebrations to Uday Shankar\'s Creative Synthesis',
+    desc: 'Folk dances express regional seasonal harvests, social rites, and community celebrations without rigid scholastic shastric rules. In the 20th century, Uday Shankar pioneered Modern Indian Dance by combining classical postures with European stage theatricality.',
+    features: [
+      'North & East: Bhangra & Giddha (Punjab), Chhau (semi-classical martial dance of Purulia, Seraikella, and Mayurbhanj - UNESCO Intangible Heritage), Bihu (Assam), Rouff (Kashmir), Jhumar (Jharkhand/Bihar).',
+      'West & Central: Garba & Dandiya Raas (Gujarat), Kalbelia (Rajasthan snake-charmer dance - UNESCO listed), Ghoomar (Bhil & Rajput heritage), Lavani (Maharashtra), Matki (MP).',
+      'South: Yakshagana (Karnataka theatre-dance), Padayani (Kerala martial-ritual dance), Kummi & Kolattam (Tamil Nadu), Dollu Kunitha (Karnataka drum dance).',
+      'Modern Dance: Uday Shankar founded the India Cultural Centre at Almora (1939), creating ballet based on machine age and socio-political themes without strict classical grammar.'
+    ],
+    upscFact: 'Kalbelia dance was inscribed on UNESCO\'s Representative List of Intangible Cultural Heritage of Humanity in 2010. Its movements mimic the movements of a serpent.',
+    timelineRef: 'tribal-movements-colonial-india',
+    bookRef: 'Nitin Singhania, Ch. 3; CCRT Performing Arts'
+  },
+
+  // --- ART FORMS: MUSIC ---
+  {
+    id: 'music-classical-folk',
+    category: 'art-forms',
+    type: 'Music',
+    title: 'Indian Classical & Folk Music Traditions',
+    era: 'Samaveda to Modern Times',
+    subtitle: 'Hindustani & Carnatic Classical Systems, Gharanas & Regional Folk Ballads',
+    desc: 'The Samaveda is the liturgical origin of Indian musical scales (Saptaswara: Sa, Re, Ga, Ma, Pa, Dha, Ni). Over centuries, Indian music branched into northern Hindustani and southern Carnatic traditions, anchored by the concepts of Raga (melodic framework) and Tala (rhythmic cycle).',
+    features: [
+      'Hindustani Pillars: Dhrupad (oldest grand devotional style, Swami Haridas, Tansen), Khayal (imaginative freedom, Amir Khusrau, Sadarang-Adarang), Thumri & Dadra (semi-classical romantic/devotional lyrical poetry), Tarana (rhythmic syllables).',
+      'Hindustani Gharanas: Gwalior (oldest Khayal gharana - Nathan Pirbakhsh), Agra (Rangeela gharana, Nom-Tom Alap), Kirana (deep emotional swara elaboration - Abdul Karim Khan, Bhimsen Joshi), Jaipur-Atrauli (complex ragas - Alladiya Khan).',
+      'Carnatic Music: Structured by Venkatamakhin\'s 72 Melakarta Janaka Ragas. Purandara Dasa framed foundational abhyasa gaanam exercises. Trinity (Tyagaraja, Muthuswami Dikshitar, Syama Sastri) produced monumental Kritis in praise of Rama, Devi, and Shiva.',
+      'Folk Music Traditions: Baul of Bengal (mystic wandering singers praising "Moner Manush"), Pandavani of Chhattisgarh (epic Mahabharata musical narration, Teejan Bai), Kajari (Bhojpuri monsoon songs), Maand (Rajasthan romantic court ballad), Wanawan (Kashmiri wedding music), Alha (Bundelkhand martial ballad of Alha and Udal).'
+    ],
+    upscFact: 'Natyashastra classifies musical instruments into 4 categories (Vadya): Tata (stringed/chordophones), Sushira (wind/aerophones), Avanaddha (percussion with animal hide/membranophones), and Ghana (solid metal/idiophones).',
+    timelineRef: 'early-medieval-period',
+    bookRef: 'Nitin Singhania, Ch. 4; CCRT Music'
+  },
+
+  // --- ART FORMS: PUPPETRY & THEATRE ---
+  {
+    id: 'puppetry-and-theatre',
+    category: 'art-forms',
+    type: 'Puppetry & Theatre',
+    title: 'Indian Puppetry & Traditional / Modern Theatre',
+    era: 'Ancient Natyashastra to IPTA & Modern Playwrights',
+    subtitle: '4 Puppetry Forms, Classical Sanskrit Drama, Regional Folk Theatres',
+    desc: 'Puppetry is an ancient narrative medium mentioned in the Silappadikaram and Mahabharata. India preserves all four major forms: String, Shadow, Rod, and Glove. Indian theatre evolved from classical Sanskrit drama into vibrant regional folk stages and anti-colonial modern theatre.',
+    features: [
+      'String Puppets: Kathputli (Rajasthan - wooden puppets with whistling sounds), Kundhei (Odisha - light wood with long skirts), Gombeyatta (Karnataka - stylized after Yakshagana), Bommalattam (Tamil Nadu - combines string and rod mechanisms).',
+      'Shadow Puppets (Leather): Togalu Gombeyatta (Karnataka), Tholu Bommalata (Andhra Pradesh - large translucent colored puppets), Ravanachhaya (Odisha - opaque deer-skin puppets with no joints, casting dramatic shadows), Chamadyache Bahulya (Maharashtra).',
+      'Rod Puppets: Putul Nach (West Bengal - large heavy rod puppets supported on waist harnesses), Yampuri (Bihar - wooden rod puppet enacting Yama\'s court).',
+      'Glove Puppets: Pavakoothu (Kerala - decorated with Kathakali face paints and headdresses).',
+      'Classical Sanskrit Drama: Bhasa (Svapnavasavadatta), Sudraka (Mrichhakatika - Little Clay Cart), Kalidasa (Abhijnanashakuntalam), Visakhadatta (Mudrarakshasa).',
+      'Regional Folk Theatre: Bhavai (Gujarat/Rajasthan - quick satire, Bhungal instrument), Jatra (Bengal - open-air musical theatre popularized by Chaitanya), Nautanki (Uttar Pradesh - based on Doha, Chaubola), Tamasha (Maharashtra - Lavani singing), Bhand Pather (Kashmir - satirical peasant comedy), Maach (Madhya Pradesh), Yakshagana (Karnataka), Koodiyattam (Kerala - UNESCO intangible heritage).',
+      'Modern Theatre: Indian People\'s Theatre Association (IPTA 1943), Prithvi Theatre, seminal dramatists: Badal Sircar (Third Theatre), Vijay Tendulkar (Ghashiram Kotwal), Girish Karnad (Tughlaq, Hayavadana), Habib Tanvir (Naya Theatre).'
+    ],
+    upscFact: 'Koodiyattam of Kerala is officially recognized as India\'s oldest surviving Sanskrit theatre tradition, inscribed as a UNESCO Masterpiece of the Oral and Intangible Heritage of Humanity.',
+    timelineRef: 'age-of-mahajanapadas',
+    bookRef: 'Nitin Singhania, Ch. 5 & 6; CCRT Theatre'
+  },
+
+  // --- ART FORMS: POTTERY & MARTIAL ARTS ---
+  {
+    id: 'pottery-and-martial-arts',
+    category: 'art-forms',
+    type: 'Pottery & Martial Arts',
+    title: 'Pottery Chronology & Traditional Martial Arts',
+    era: 'Neolithic to Modern Times',
+    subtitle: 'OCP, BRW, PGW, NBPW & Kalaripayattu, Silambam, Thang-Ta, Gatka',
+    desc: 'Pottery serves as the primary chronological index for Indian archaeology. Parallelly, traditional martial arts combined combat tactics, physical yoga, weapon training, and spiritual discipline.',
+    features: [
+      'Ochre Coloured Pottery (OCP): Late Harappan / Copper Hoard Culture (c. 2000-1500 BCE) in Upper Gangetic basin; red-slipped, porous, ochre wash that rubs off easily.',
+      'Black and Red Ware (BRW): Chalcolithic and Megalithic eras; produced by inverted firing technique; interior is black due to reduction and exterior is red due to oxidation.',
+      'Painted Grey Ware (PGW): Later Vedic period (c. 1100-600 BCE) associated with iron introduction and Mahabharata sites (Hastinapur, Ahichchhatra); fine grey fabric painted with geometric black patterns.',
+      'Northern Black Polished Ware (NBPW): Second Urbanization & Mauryan period (c. 600-200 BCE); exceptionally glossy mirror-like black surface; luxury tableware representing elite status.',
+      'Glazed & Unglazed Medieval Pottery: Introduction of Persian turquoise blue-glaze under Delhi Sultanate, Khurja pottery (UP), Jaipur Blue Pottery.',
+      'Kalaripayattu (Kerala): Mother of Indian martial arts; includes Meypayattu (body exercises), Kolthari (wooden weapons), Angathari (metal weapons), and Marmashastram (vital strike points).',
+      'Silambam (Tamil Nadu): Ancient stick-fencing martial art patronized by Pandyas and Cholas; mentioned in Sangam literature.',
+      'Thang-Ta (Manipur): "Art of the Sword and Spear" (Huyen Langlon); sacred ritual combat form of Meitei community.',
+      'Gatka (Punjab): Sikh weapon-based martial art associated with Guru Hargobind and Khalsa army; uses wooden sticks (soti) and leather shields.',
+      'Mallakhamb (Maharashtra/MP): Gymnastic martial training on a vertical wooden pole or rope; national recognized sport.'
+    ],
+    upscFact: 'UPSC Prelims chronological sequence: Ochre Coloured Pottery (OCP) -> Black and Red Ware (BRW) -> Painted Grey Ware (PGW) -> Northern Black Polished Ware (NBPW).',
+    timelineRef: 'prehistoric-age',
+    bookRef: 'R.S. Sharma, Ch. 12; Upinder Singh, Ch. 6; Nitin Singhania, Ch. 11'
+  },
+
+  // --- ART FORMS: SCULPTURE ---
+  {
+    id: 'sculptures-ancient-modern',
+    category: 'art-forms',
+    type: 'Visual Arts',
+    title: 'Indian Sculpture: Harappa to Modern Times',
+    era: '2500 BCE – 20th c. CE',
+    subtitle: 'From Bronze Dancing Girl & Didarganj Yakshi to Chola Nataraja & Modern Masters',
+    desc: 'Indian sculpture evolved from proto-historic terracotta and lost-wax bronze casting into monumental Ashokan sandstone monoliths, classical Gupta spiritual iconography, dynamic medieval temple carvings, and modern bronze landmarks.',
+    features: [
+      'Harappan Sculpture: Bronze "Dancing Girl" (Mohenjo-daro, cire-perdue lost-wax technique, tribal aborigine features, bangles), Steatite "Priest-King" (trefoil shawl embroidery), Terracotta Mother Goddess.',
+      'Mauryan Sculpture: Monolithic Ashokan animal capitals in Chunar sandstone with lustrous Mauryan polish; Didarganj Yakshi with fly-whisk (Chauri-bearer), Dhauli rock-cut elephant.',
+      'Post-Mauryan & Kushana: Gandhara (Greco-Roman Apollo-like Buddha), Mathura (vitality, red sandstone, shaven head), Amaravati (limestone narrative panels).',
+      'Gupta Golden Age: Sarnath Seated Buddha in Dharmachakra Pravartana Mudra; Sultanganj Bronze Buddha (now in Birmingham Museum); colossal Varaha avatar rescuing Bhudevi at Udayagiri Cave 5.',
+      'Medieval Schools: Chola Bronzes (Nataraja dancing Ananda Tandava within prabhamandala, stamping Apasmara dwarf of ignorance; right upper hand holds Damaru - creation, left upper holds Agni - destruction, lower right in Abhaya Mudra); Hoysala chloritic schist filigree carvings; Khajuraho erotic Mithuna sculptures and celestial Surasundaris.',
+      'Modern Sculpture: Ramkinkar Baij (Santhal Family - concrete outdoor modern sculpture), D.P. Roy Choudhury (Triumph of Labour at Marina Beach, Martyrs\' Memorial Patna), Sankho Chaudhuri.'
+    ],
+    upscFact: 'In the Chola Nataraja bronze icon: The upper right hand holds the Damaru (sound of cosmic creation), the upper left holds Agni (destruction), lower right is Abhaya Mudra (protection), lower left points down to lifted left foot (liberation/Mukti), and the right foot crushes the dwarf Apasmara Purusha (symbolizing ignorance/delusion).',
+    timelineRef: 'mauryan-empire',
+    bookRef: 'Nitin Singhania, Ch. 1; NCERT Fine Arts Ch. 2-6'
+  },
+
+  // --- LITERATURE: SANSKRIT, BUDDHIST, JAIN ---
+  {
+    id: 'literature-classical-sanskrit',
+    category: 'literature',
+    type: 'Ancient Literature',
+    title: 'Classical Sanskrit Literature & Religious Treatises',
+    era: '1500 BCE – 12th c. CE',
+    subtitle: 'Vedas, Upanishads, Dharmashastras & Plays of Kalidasa, Bhasa, Visakhadatta',
+    desc: 'Classical Sanskrit literature spans foundational Vedic revelations (Shruti), traditional remembered codes (Smriti), monumental epics, and an astonishing flowering of Kavya poetry and Nataka drama.',
+    features: [
+      'Vedic Corpus: Rigveda (1028 hymns, 10 Mandalas, Gayatri Mantra in Mandala 3), Samaveda (hymns of melody), Yajurveda (sacrificial rituals: Krishna & Shukla), Atharvaveda (magical charms, healing). Brahmanas explain rituals; Aranyakas are forest meditation texts; Upanishads (Vedanta) explore Brahman-Atman unity.',
+      'Vedangas (6 Limbs): Shiksha (phonetics), Kalpa (rituals: Shrauta, Grihya, Dharma Sutras), Vyakarana (grammar - Panini\'s Ashtadhyayi), Nirukta (etymology by Yaska), Chhanda (metrics), Jyotisha (astronomy).',
+      'Dharmashastras: Manusmriti, Yajnavalkya Smriti, Narada Smriti framing laws of varna, ashrama, and inheritance.',
+      'Kalidasa (Navaratna of Chandragupta II): Dramas: Abhijnanashakuntalam, Malavikagnimitram, Vikramorvashiyam; Mahakavyas: Raghuvamsha, Kumarasambhava; Lyric poems: Meghaduta, Ritusamhara.',
+      'Other Masterworks: Visakhadatta (Mudrarakshasa - political drama of Chanakya overthrowing Nandas, Devichandraguptam), Sudraka (Mrichhakatika - love of Charudatta and Vasantasena), Bhasa (Svapnavasavadatta), Banabhatta (Harshacharita, Kadambari), Bhavabhuti (Uttararamacharita), Bharavi (Kiratarjuniya), Magha (Shishupalavadha), Jayadeva (Gitagovinda).'
+    ],
+    upscFact: 'Panini\'s Ashtadhyayi (5th-4th c. BCE) is the foundational treatise on Sanskrit grammar. Patanjali wrote the famous commentary Mahabhasya on it during the Shunga period.',
+    timelineRef: 'gupta-age',
+    bookRef: 'Upinder Singh, Ch. 1 & 9; Nitin Singhania, Ch. 13'
+  },
+  {
+    id: 'literature-buddhist-jain',
+    category: 'literature',
+    type: 'Heterodox Literature',
+    title: 'Ancient Buddhist & Jain Canonical Literature',
+    era: '6th c. BCE – 10th c. CE',
+    subtitle: 'Tripitaka, Jatakas, Agamas, Tattvartha Sutra & Prakrit Epics',
+    desc: 'Buddhism and Jainism abandoned Sanskrit in favor of spoken vernaculars (Pali and Ardhamagadhi Prakrit) to transmit their teachings across all social classes, producing vast philosophical and biographical canons.',
+    features: [
+      'Pali Buddhist Canon (Tripitaka): Vinaya Pitaka (monastic discipline, Suttavibhanga, Khandhaka), Sutta Pitaka (Buddha\'s discourses in 5 Nikayas: Digha, Majjhima, Samyutta, Anguttara, Khuddaka including Dhammapada and Jataka tales), Abhidhamma Pitaka (philosophical analysis, Kathavatthu).',
+      'Non-Canonical Buddhist Texts: Milinda Panha (questions of Indo-Greek King Menander to monk Nagasena), Dipavamsa and Mahavamsa (Sri Lankan chronicles preserving Ashokan history), Buddhacharita and Saundarananda by Ashvaghosha (first Sanskrit Buddhist Kavyas).',
+      'Mahayana Treatises: Prajnaparamita Sutras, Nagarjuna\'s Mulamadhyamakakarika (Madhyamaka / Sunyata doctrine), Vasubandhu and Asanga\'s Yogachara treatises (Abhidharmakosha).',
+      'Jain Ardhamagadhi Agamas: 12 Angas (Acharanga Sutra on monastic vows, Sutrakritanga), 12 Upangas, Chedasutras, Mulasutras.',
+      'Key Jain Treatises: Tattvartha Sutra by Umaswati (accepted by both Digambaras and Svetambaras), Kalpa Sutra by Bhadrabahu (biographies of Tirthankaras), Samayasara and Pravachanasara by Acharya Kundakunda, Hemachandra\'s Parisishtaparvan (history of early Jain kings).'
+    ],
+    upscFact: 'The Third Buddhist Council held at Pataliputra under Ashoka\'s patronage compiled the Abhidhamma Pitaka, establishing Theravada doctrinal orthodoxy.',
+    timelineRef: 'age-of-mahajanapadas',
+    bookRef: 'Upinder Singh, Ch. 6; Nitin Singhania, Ch. 13'
+  },
+  {
+    id: 'literature-dravidian-medieval',
+    category: 'literature',
+    type: 'Dravidian & Medieval',
+    title: 'Early Dravidian (Sangam) to Medieval & Modern Literature',
+    era: '300 BCE – 20th c. CE',
+    subtitle: 'Sangam Tamil Corpus, Twin Epics, Bhakti Poetry, Indo-Persian & Modern Awakening',
+    desc: 'From the early secular Tamil poems of love (Agam) and heroism (Puram) to royal Indo-Persian chronicles and the modern renaissance spearheaded by Tagore and Premchand, Indian literature captures profound socio-political evolutions.',
+    features: [
+      'Sangam Literature: 3 Sangam assemblies in Madurai under Pandyan patronage. Tolkappiyam (grammar and poetics by Tolkappiyar), Ettuthogai (Eight Anthologies), Pattupattu (Ten Idylls), and Pathinenkilkanakku (Eighteen Minor Works, including Thiruvalluvar\'s moral masterpiece Tirukkural).',
+      'Post-Sangam Tamil Epics: Silappadikaram (Story of the Anklet by Ilango Adigal, centering on Kannagi and Kovalan), Manimekalai (Buddhist sequel by Chithalai Chathanar), and Sivaka Chintamani (Jain epic by Tirutakkatevar).',
+      'Indo-Persian Medieval Literature: Amir Khusrau (invented Qawwali, wrote Tughlaq Nama, Khazain-ul-Futuh, called himself "Tuti-e-Hind"), Ziauddin Barani (Tarikh-i-Firoz Shahi), Babur (Baburnama in Chagatai Turkic), Abul Fazl (Akbarnama and Ain-i-Akbari), Dara Shikoh (Majma-ul-Bahrain - Mingling of Two Oceans, Sirr-i-Akbar - Persian translation of 50 Upanishads).',
+      'Vernacular Medieval Awakening: Tulsidas (Ramcharitmanas in Awadhi), Surdas (Sursagar), Guru Nanak & Guru Granth Sahib (Gurumukhi), Krishnadevaraya (Amuktamalyada in Telugu), Eknath and Tukaram (Marathi Abhangs), Basavanna (Kannada Vachanas).',
+      'Modern Literature Revival: Bankim Chandra Chattopadhyay (Anandamath, Vande Mataram), Rabindranath Tagore (Gitanjali - Nobel Prize 1913, Gora), Munshi Premchand (Godan, Kafan), Subramania Bharati, Sarojini Naidu, Mirza Ghalib, Muhammad Iqbal.'
+    ],
+    upscFact: 'Sangam literature classifies landscape into 5 ecological zones (Thinai): Kurinji (hilly), Mullai (pastoral), Marudham (fertile agricultural), Neithal (coastal), and Palai (arid desert).',
+    timelineRef: 'kingdoms-of-south',
+    bookRef: 'Upinder Singh, Ch. 8; Nitin Singhania, Ch. 13'
+  },
+
+  // --- ARCHITECTURE: HARAPPAN, MAURYAN, GUPTA ---
+  {
+    id: 'arch-ancient-harappa-gupta',
+    category: 'architecture',
+    type: 'Ancient Architecture',
+    title: 'Harappan, Mauryan & Gupta Architecture',
+    era: '2600 BCE – 6th c. CE',
+    subtitle: 'Citadels & Drainage, Monolithic Ashokan Pillars, Early Stone & Brick Temples',
+    desc: 'The architectural continuum of India moved from the rigorous utilitarian urbanism of the Harappans to the grand court art of the Mauryas, culminating in the birth of free-standing structural temples under the Guptas.',
+    features: [
+      'Harappan Urbanism: Grid-iron street layout, division into Citadel (raised western platform with public buildings) and Lower Town (residential blocks). Great Bath at Mohenjo-daro (water-tight with bitumen/gypsum mortar), Great Granaries, Lothal tidal dockyard with sluice gates, advanced covered drainage networks, standardized kiln-burnt bricks (ratio 4:2:1).',
+      'Mauryan Architecture: Transition from wood to stone. Kumrahar 80-pillared wooden hypostyle hall at Pataliputra; Ashokan Monolithic Pillars sculpted from single blocks of Chunar sandstone, polished to glass-like mirror sheen, crowned with animal capitals (Sarnath Quadruple Lion, Rampurva Bull, Lauriya Nandangarh Lion). Barabar Caves (Lomas Rishi, Sudama) - earliest rock-cut barrel-vaulted chaitya halls with polished interiors.',
+      'Gupta Structural Temples: Emergence of the structural Hindu temple. Dashavatara Temple at Deogarh (UP) - earliest surviving Panchayatan temple with a modest Shikhara and Sheshashayi Vishnu panel; Bhitargaon Temple (Kanpur, UP) - earliest complete brick temple with arches and terracotta decoration; Temple No. 17 at Sanchi - flat-roofed stone shrine with pillared portico.'
+    ],
+    upscFact: 'Panchayatan style layout features a principal temple surrounded by 4 subsidiary shrines in four corners, forming a cross layout. The Dashavatara Temple at Deogarh is a quintessential Gupta example.',
+    timelineRef: 'indus-valley-civilization',
+    bookRef: 'Nitin Singhania, Ch. 1; Percy Brown, Ch. 1-7'
+  },
+
+  // --- ARCHITECTURE: TEMPLE STYLES ---
+  {
+    id: 'arch-temple-styles',
+    category: 'architecture',
+    type: 'Temple Architecture',
+    title: 'Nagara, Dravida & Vesara Temple Architecture',
+    era: '6th c. – 16th c. CE',
+    subtitle: 'Khajuraho, Odisha, Chola Brihadisvara, Vijayanagara & Hoysala Temples',
+    desc: 'Indian temple architecture reached monumental sophistication across three distinct regional orders: the curvilinear Nagara of the north, the pyramidal walled Dravida of peninsular India, and the hybrid star-shaped Vesara of the Deccan.',
+    features: [
+      'Nagara Architecture Components: Garbhagriha (sanctum), Mandapa (pillared hall), Antarala (vestibule), Shikhara (superstructure), Amalaka (cogged stone disc), Kalasha (finial crowning).',
+      'Nagara Sub-Schools: Odisha Style (Rekha Deul sanctum, Jagamohana assembly hall, Natamandira dance hall; Konark Sun Temple, Lingaraja at Bhubaneswar); Khajuraho / Chandela Style (integrated raised platform, erotic sculptures, Urushringa miniature subsidiary shikharas; Kandariya Mahadeva); Solanki / Maru-Gurjara (ornate Torana arches, Surya Kund stepwell step-tanks, white marble filigree; Modhera Sun Temple, Dilwara Jain temples).',
+      'Dravida Evolution: Pallava rock-cut Mandapas and monolithic Rathas (Pancha Rathas at Mamallapuram) -> Shore Temple (Rajasimha style) -> Chola colossal Vimana temples (Brihadisvara at Thanjavur built by Rajaraja I with 66m Vimana and 80-tonne monolithic granite cupola) -> Pandya towering Gopurams -> Vijayanagara grand Kalyan Mandapas with musical pillars (Virupaksha & Vittala at Hampi).',
+      'Vesara Synthesis: Fusion of northern curvilinear Shikhara and southern stepped Vimana. Early Chalukyas of Badami (Aihole, Pattadakal Virupaksha); Rashtrakutas (Monolithic Kailash Temple, Cave 16 Ellora carved top-to-bottom from a single basalt hill); Hoysalas (Belur, Halebidu - star-shaped stellate platforms, chloritic soapstone filigree carvings, bracket figurines/Madanikas).'
+    ],
+    upscFact: 'The Kailash Temple at Ellora (Cave 16) was excavated during the reign of Rashtrakuta king Krishna I (8th c. CE) by carving downwards into the basalt cliff from the top, removing over 200,000 tonnes of rock.',
+    timelineRef: 'gupta-age',
+    bookRef: 'Nitin Singhania, Ch. 1; Percy Brown, Vol. 1'
+  },
+
+  // --- ARCHITECTURE: CAVES & ROCK-CUT ---
+  {
+    id: 'arch-caves-rock-cut',
+    category: 'architecture',
+    type: 'Cave & Rock-Cut',
+    title: 'Cave Architecture & Rock-Cut Monuments',
+    era: '3rd c. BCE – 10th c. CE',
+    subtitle: 'Buddhist Chaityas & Viharas, Jain Caves, Elephanta & Western Ghats',
+    desc: 'Excavated from sheer living cliff faces, India\'s rock-cut caves served as monastic retreats (Viharas), congregational prayer halls with stupas (Chaityas), and royal Shaivite/Vaishnavite shrines.',
+    features: [
+      'Barabar & Nagarjuni Caves (Bihar): 3rd c. BCE Mauryan rock excavations for Ajivika sect (Lomas Rishi, Sudama); features famous wooden-style arched facades and glass-like mirror polish.',
+      'Western Ghats Buddhist Caves: Karle (greatest rock-cut Chaitya hall with 37 pillars, mithuna couples, and wooden umbrella over stupa), Bhaja, Bedse, Kanheri, Junnar (circular chaitya hall).',
+      'Ajanta Caves (Maharashtra): 29 horse-shoe shaped rock-cut caves overlooking Waghora river. Spans Hinayana (caves 9, 10, 12, 13) and Mahayana phases. Famous Chaityas (Cave 19 & 26 with Parinirvana Buddha) and Viharas with world-renowned frescoes.',
+      'Ellora Caves (Verul): 34 caves representing religious harmony: Buddhist (Caves 1-12), Hindu/Brahmanical (Caves 13-29 including Kailash Cave 16), and Jain (Caves 30-34 including Indra Sabha and Jagannath Sabha).',
+      'Elephanta Caves (Gharapuri Island, Mumbai): Colossal rock-cut Shaivite shrine featuring the iconic 20-foot Sadashiva / Trimurti sculpture (Aghora - destructive, Tatpurusha - peaceful, Vamadeva - feminine creator).',
+      'Jaina Caves of East India: Udayagiri and Khandagiri caves near Bhubaneswar (Hathigumpha with King Kharavela\'s inscription, Rani Gumpha double-storeyed monastery).'
+    ],
+    upscFact: 'The Hathigumpha inscription of King Kharavela of Kalinga (1st c. BCE) in the Udayagiri caves is written in Prakrit language and Brahmi script; it is a primary epigraphic record of ancient military campaigns and canal construction.',
+    timelineRef: 'post-mauryan-period',
+    bookRef: 'Upinder Singh, Ch. 7; Nitin Singhania, Ch. 1'
+  },
+
+  // --- ARCHITECTURE: MEDIEVAL & INDO-ISLAMIC ---
+  {
+    id: 'arch-indo-islamic',
+    category: 'architecture',
+    type: 'Medieval Architecture',
+    title: 'Indo-Islamic, Delhi Sultanate & Mughal Architecture',
+    era: '1192 – 18th c. CE',
+    subtitle: 'Arcuate System, True Domes, Charbagh Gardens, Pietra Dura & Imperial Forts',
+    desc: 'Indo-Islamic architecture synthesized Central Asian and Persian structural engineering (true arch, dome, vault, minarets, mortar) with indigenous Hindu craftsmanship (brackets, lintels, stone carving, lotus and kalasha motifs).',
+    features: [
+      'Structural Innovations: Transition from Trabeate (post-and-lintel) to Arcuate (true arches with keystone and squinch/pendentive dome support); elimination of human/animal figures in favor of Calligraphy, Arabesque (foliage interlacing), and Geometric patterns.',
+      'Delhi Sultanate Styles: Mamluk (Quwwat-ul-Islam mosque using temple spolia, Qutb Minar, Alai Darwaza by Alauddin Khilji introducing true horseshoe arch); Tughluq (battered/sloping walls, red sandstone, Tughlaqabad, tomb of Ghiyasuddin Tughlaq); Lodi (octagonal tombs, double dome introduction to maintain interior-exterior proportions, Sikandar Lodi tomb).',
+      'Provincial Indo-Islamic Styles: Bengal (brick masonry, curved Bengali chala roof, Adina Masjid); Gujarat (Jami Masjid Ahmedabad, Sidi Saiyyed delicate marble tree-of-life jali); Malwa (Jahaz Mahal floating between twin lakes in Mandu, Hindola Mahal); Jaunpur (Atala Masjid with tall sloping pylon gateway); Deccan (Gol Gumbaz at Bijapur - world\'s second largest dome with acoustic whispering gallery; Charminar at Hyderabad).',
+      'Mughal Imperial Splendor: Humayun\'s Tomb (Delhi - red sandstone, white marble double dome, charbagh layout, precursor to Taj Mahal designed by Mirak Mirza Ghiyas); Akbar (Fatehpur Sikri - Buland Darwaza, Panch Mahal, Jodha Bai palace, Birbal house, Salim Chishti white marble tomb); Jahangir (Tomb of Itmad-ud-Daulah in Agra - first complete white marble monument using delicate Pietra Dura inlay); Shah Jahan (Peak of elegance - Taj Mahal with bulbous dome and minarets, Red Fort Delhi, Jama Masjid Delhi, Moti Masjid Agra); Aurangzeb (Bibi Ka Maqbara at Aurangabad, Badshahi Mosque Lahore).'
+    ],
+    upscFact: 'The Double Dome system was introduced in India during the Lodi period (Sikandar Lodi\'s tomb) and perfected by the Mughals in Humayun\'s Tomb to ensure the interior ceiling remains proportionate to human scale while the exterior dome achieves imposing height.',
+    timelineRef: 'mughal-empire',
+    bookRef: 'Satish Chandra, Ch. 13 & 18; Percy Brown, Islamic Period'
+  },
+
+  // --- ARCHITECTURE: SIKH, RAJPUT & COLONIAL ---
+  {
+    id: 'arch-sikh-rajput-colonial',
+    category: 'architecture',
+    type: 'Regional & Modern',
+    title: 'Sikh, Rajput & Colonial / Post-Independence Architecture',
+    era: '16th c. – Present Day',
+    subtitle: 'Golden Temple, Hill Forts of Rajasthan, Indo-Saracenic & Modernist Capitals',
+    desc: 'From the fortified hill bastions of Rajasthan and the gilded sanctums of Sikh Gurudwaras to colonial Indo-Saracenic hybrid institutions and modern planned modernist cities, India\'s built landscape reflects sweeping historical shifts.',
+    features: [
+      'Sikh Architecture: Centered around Gurudwaras. Golden Temple (Harmandir Sahib, Amritsar) built in the center of the Amrit Sarovar lake, with 4 entrances symbolizing openness to all castes. Key features: Chhatris (kiosks), fluted ribbed domes, marble inlay, gold leafing, multi-storeyed Jharokhas.',
+      'Rajput Architecture: Colossal defensive hill forts (UNESCO Hill Forts: Chittorgarh, Kumbhalgarh, Ranthambore, Amber, Jaisalmer, Gagron). Palace features: delicate Jharokhas (overhanging balconies), Jaali screens for purdah, Chhatris, Sheesh Mahal (mirror palace), stepwells (Chand Baori at Abhaneri). Hawa Mahal (Palace of Winds, Jaipur) built by Sawai Pratap Singh with 953 jharokhas.',
+      'Colonial Eras & Styles: Portuguese (Goan churches - Basilica of Bom Jesus, Se Cathedral in Manueline Baroque style); British Neoclassical (Town Hall Kolkata, St. Andrew\'s Kirk Chennai); Victorian Gothic Revival (Victoria Terminus / CSMT Mumbai designed by F.W. Stevens); Indo-Saracenic (blending Gothic arches, Mughal domes, and Rajput jharokhas - Gateway of India Mumbai by George Wittet, Victoria Memorial Kolkata by William Emerson, Chepauk Palace Chennai).',
+      'Lutyens\' Delhi: Edwin Lutyens and Herbert Baker planned the new imperial capital; Rashtrapati Bhavan, Parliament House (circular colonnade), North and South Blocks blending classical Western columns with Indian Buddhist chhatris and jaalis.',
+      'Post-Independence Modern Architecture: Chandigarh designed by Le Corbusier (Capitol Complex, High Court, Secretariat - raw exposed concrete Brutalism); IIM Ahmedabad by Louis Kahn; Charles Correa (Bharat Bhavan Bhopal, Jawahar Kala Kendra Jaipur); B.V. Doshi (Amdavad ni Gufa, Aranya Low-Cost Housing - Pritzker Prize laureate).'
+    ],
+    upscFact: 'The Six Hill Forts of Rajasthan (Chittorgarh, Kumbhalgarh, Sawai Madhopur/Ranthambore, Jhalawar/Gagron, Jaipur/Amber, and Jaisalmer) were inscribed collectively as a UNESCO World Heritage Site in 2013.',
+    timelineRef: 'british-colonial-rule',
+    bookRef: 'Nitin Singhania, Ch. 1; Percy Brown; Modern Indian Architecture'
+  }
+];
+
+// Tab Switching
+function switchCultureTab(tab, btn) {
+  document.querySelectorAll('#cultureNavPills .culture-tab-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+
+  const cardsSec = document.getElementById('cultureCardsSection');
+  const compSec = document.getElementById('cultureComparisonsSection');
+  const mainsSec = document.getElementById('cultureMainsSection');
+
+  if (tab === 'comparisons') {
+    cardsSec.style.display = 'none';
+    compSec.style.display = 'block';
+    mainsSec.style.display = 'none';
+    compSec.scrollIntoView({ behavior: 'smooth' });
+    return;
+  }
+  if (tab === 'mains-frameworks') {
+    cardsSec.style.display = 'none';
+    compSec.style.display = 'none';
+    mainsSec.style.display = 'block';
+    mainsSec.scrollIntoView({ behavior: 'smooth' });
+    return;
+  }
+
+  // Cards display
+  cardsSec.style.display = 'block';
+  compSec.style.display = 'block';
+  mainsSec.style.display = 'block';
+
+  renderCultureCards(tab, document.getElementById('cultureSearchInput').value.trim());
+}
+
+// Search handling
+function handleCultureSearch(query) {
+  const activeBtn = document.querySelector('#cultureNavPills .culture-tab-btn.active');
+  const activeText = activeBtn ? activeBtn.textContent.toLowerCase() : '';
+  let filter = 'all';
+  if (activeText.includes('art forms')) filter = 'art-forms';
+  else if (activeText.includes('literature')) filter = 'literature';
+  else if (activeText.includes('architecture')) filter = 'architecture';
+
+  renderCultureCards(filter, query.trim());
+}
+
+// Render Culture Cards
+function renderCultureCards(categoryFilter = 'all', searchQuery = '') {
+  const container = document.getElementById('cultureGrid');
+  if (!container) return;
+
+  const q = searchQuery.toLowerCase();
+  const filtered = CULTURE_DATA.filter(item => {
+    const matchesCat = (categoryFilter === 'all' || item.category === categoryFilter);
+    const matchesQuery = !q || (
+      item.title.toLowerCase().includes(q) ||
+      item.subtitle.toLowerCase().includes(q) ||
+      item.desc.toLowerCase().includes(q) ||
+      item.type.toLowerCase().includes(q) ||
+      (item.features && item.features.some(f => f.toLowerCase().includes(q))) ||
+      (item.upscFact && item.upscFact.toLowerCase().includes(q))
+    );
+    return matchesCat && matchesQuery;
+  });
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<div style="grid-column:1/-1; padding:40px; text-align:center; color:var(--ink-faint);">
+      <h4>No heritage &amp; culture topics match your query "${searchQuery}"</h4>
+      <p>Try searching for terms like "Mural", "Kathak", "Nagara", "Ajanta", "Sanskrit", or "Stupa".</p>
+    </div>`;
+    return;
+  }
+
+  container.innerHTML = filtered.map(item => `
+    <article class="culture-card" id="${item.id}">
+      <div class="card-header-badge">
+        <span class="card-type-tag">${item.type}</span>
+        <span class="card-era-badge">${item.era}</span>
+      </div>
+      <h3>${item.title}</h3>
+      <div class="card-subtitle">${item.subtitle}</div>
+      <p class="card-desc">${item.desc}</p>
+
+      <div class="feature-list">
+        <h5>Key Dimensions &amp; Canonical Examples</h5>
+        <ul>
+          ${item.features.map(f => `<li>${f}</li>`).join('')}
+        </ul>
+      </div>
+
+      ${item.upscFact ? `
+        <div class="upsc-corner-box">
+          <b>🎯 UPSC High-Yield Insight:</b> ${item.upscFact}
+        </div>
+      ` : ''}
+
+      <div class="card-footer-links">
+        <a href="practice.html?category=art-culture" class="btn btn-primary">🎯 Prelims MCQs</a>
+        <a href="practice.html?mode=mains&book=nitin-singhania" class="btn btn-outline">✍️ Mains Frameworks</a>
+        <a href="timeline.html#${item.timelineRef}" class="btn btn-outline">⏱️ Period Timeline</a>
+        <a href="books.html" class="btn btn-outline">📚 Ref: ${item.bookRef.split(';')[0]}</a>
+      </div>
+    </article>
+  `).join('');
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  renderNav('art-culture.html');
+  renderBreadcrumb([
+    { label: 'Home', href: 'index.html' },
+    { label: 'Indian Heritage & Culture' }
+  ]);
+
+  const hash = (location.hash || '').replace('#', '');
+  if (hash && ['art-forms', 'literature', 'architecture', 'comparisons', 'mains-frameworks'].includes(hash)) {
+    const btn = document.querySelector(`#cultureNavPills button[onclick*="${hash}"]`);
+    switchCultureTab(hash, btn);
+  } else {
+    renderCultureCards('all', '');
+  }
+  renderFooter();
+});
+</script>
+</body>
+</html>

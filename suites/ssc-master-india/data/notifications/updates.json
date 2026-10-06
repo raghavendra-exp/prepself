@@ -1,0 +1,82 @@
+[
+  {
+    "id": "upd-01",
+    "category": "important",
+    "date": "2026-09-25",
+    "title": {
+      "en": "SSC CGL 2026 Tier-I Examination Schedule & Shift-wise Timings Announced",
+      "hi": "एसएससी सीजीएल 2026 टियर-I परीक्षा कार्यक्रम एवं शिफ्ट-वार समय घोषित"
+    },
+    "exam": "cgl",
+    "linkText": {
+      "en": "Read Official Schedule Notice",
+      "hi": "आधिकारिक कार्यक्रम नोटिस पढ़ें"
+    },
+    "url": "https://ssc.gov.in",
+    "isOfficial": true
+  },
+  {
+    "id": "upd-02",
+    "category": "deadline",
+    "date": "2026-09-20",
+    "title": {
+      "en": "SSC GD Constable 2026 Application Window Closing Soon - Apply Online at ssc.gov.in",
+      "hi": "एसएससी जीडी कांस्टेबल 2026 ऑनलाइन आवेदन अंतिम तिथि निकट - ssc.gov.in पर आवेदन करें"
+    },
+    "exam": "gd",
+    "linkText": {
+      "en": "Direct Application Portal",
+      "hi": "सीधा आवेदन पोर्टल"
+    },
+    "url": "https://ssc.gov.in",
+    "isOfficial": true
+  },
+  {
+    "id": "upd-03",
+    "category": "new",
+    "date": "2026-09-18",
+    "title": {
+      "en": "SSC Annual Calendar 2026-2027 Released with Tentative Notification & CBE Dates",
+      "hi": "एसएससी वार्षिक कैलेंडर 2026-2027 संभावित अधिसूचना एवं परीक्षा तिथियों सहित जारी"
+    },
+    "exam": "all",
+    "linkText": {
+      "en": "View Official SSC Calendar PDF",
+      "hi": "आधिकारिक एसएससी कैलेंडर पीडीएफ देखें"
+    },
+    "url": "https://ssc.gov.in",
+    "isOfficial": true
+  },
+  {
+    "id": "upd-04",
+    "category": "info",
+    "date": "2026-09-15",
+    "title": {
+      "en": "SSC CHSL 2026 Tier-I Final Answer Keys with Candidate Response Sheets Uploaded",
+      "hi": "एसएससी सीएचएसएल 2026 टियर-I अंतिम उत्तर कुंजी एवं अभ्यर्थी रिस्पांस शीट अपलोड"
+    },
+    "exam": "chsl",
+    "linkText": {
+      "en": "Candidate Portal Login",
+      "hi": "अभ्यर्थी पोर्टल लॉगिन"
+    },
+    "url": "https://ssc.gov.in",
+    "isOfficial": true
+  },
+  {
+    "id": "upd-05",
+    "category": "important",
+    "date": "2026-09-10",
+    "title": {
+      "en": "Important Instructions for Candidates regarding Physical Efficiency Test (PET/PST) for CPO SI",
+      "hi": "सीपीओ एसआई हेतु शारीरिक दक्षता परीक्षा (PET/PST) के संबंध में महत्वपूर्ण निर्देश"
+    },
+    "exam": "cpo",
+    "linkText": {
+      "en": "Read PET/PST Guidelines",
+      "hi": "पीईटी/पीएसटी दिशानिर्देश पढ़ें"
+    },
+    "url": "https://ssc.gov.in",
+    "isOfficial": true
+  }
+]

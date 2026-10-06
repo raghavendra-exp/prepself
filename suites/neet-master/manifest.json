@@ -1,0 +1,16 @@
+{
+  "short_name": "NEET Master",
+  "name": "NEET MASTER - Complete NEET-UG Preparation Platform",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "./",
+  "background_color": "#052e16",
+  "theme_color": "#16a34a",
+  "display": "standalone",
+  "orientation": "portrait"
+}

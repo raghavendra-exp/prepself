@@ -1,0 +1,147 @@
+{
+  "title": "Comprehensive Directory of National Parks, Tiger Reserves, and Ramsar Wetlands",
+  "total": 50,
+  "last_updated": "2026-09-13",
+  "records": [
+    {
+      "name": "Jim Corbett National Park",
+      "state": "Uttarakhand",
+      "category": "National Park & Tiger Reserve",
+      "key_species": "Bengal Tiger, Elephant, Leopard",
+      "facts": "India's first National Park, established in 1936 as Hailey National Park. First park where Project Tiger was launched in 1973. Ramganga river flows through it."
+    },
+    {
+      "name": "Kaziranga National Park",
+      "state": "Assam",
+      "category": "National Park & UNESCO World Heritage Site",
+      "key_species": "Great Indian One-horned Rhinoceros, Wild Water Buffalo, Swamp Deer",
+      "facts": "Hosts two-thirds of the world's great one-horned rhinoceroses. Located along the floodplains of Brahmaputra River."
+    },
+    {
+      "name": "Gir National Park and Wildlife Sanctuary",
+      "state": "Gujarat",
+      "category": "National Park & Wildlife Sanctuary",
+      "key_species": "Asiatic Lion (Panthera leo persica), Chital, Sambar",
+      "facts": "The only natural wild habitat of the endangered Asiatic Lion in the entire world."
+    },
+    {
+      "name": "Ranthambore National Park",
+      "state": "Rajasthan",
+      "category": "National Park & Tiger Reserve",
+      "key_species": "Royal Bengal Tiger, Leopard, Marsh Crocodile",
+      "facts": "Bounded by Chambal River to the south and Banas River to the north. Famous for historic 10th-century Ranthambore Fort inside the park."
+    },
+    {
+      "name": "Sundarbans National Park",
+      "state": "West Bengal",
+      "category": "National Park, Biosphere Reserve & UNESCO World Heritage Site",
+      "key_species": "Royal Bengal Tiger (swimming tigers), Estuarine Crocodile, Gangetic Dolphin",
+      "facts": "World's largest mangrove ecosystem. Formed by confluence of Ganga, Brahmaputra, and Meghna rivers."
+    },
+    {
+      "name": "Hemis National Park",
+      "state": "Ladakh",
+      "category": "National Park",
+      "key_species": "Snow Leopard, Tibetan Wolf, Bharal (Blue Sheep)",
+      "facts": "India's largest national park (approx 4,400 sq km) and highest altitude protected area. Famous for highest density of snow leopards globally."
+    },
+    {
+      "name": "Keibul Lamjao National Park",
+      "state": "Manipur",
+      "category": "National Park",
+      "key_species": "Sangai (Brow-antlered Dancing Deer of Manipur)",
+      "facts": "The world's only floating national park, located on Loktak Lake with floating decomposed plant masses called 'phumdis'."
+    },
+    {
+      "name": "Kanha Tiger Reserve",
+      "state": "Madhya Pradesh",
+      "category": "National Park & Tiger Reserve",
+      "key_species": "Hardground Barasingha (Swamp Deer), Royal Bengal Tiger, Dhole",
+      "facts": "Inspiration for Rudyard Kipling's 'The Jungle Book'. First tiger reserve in India to introduce an official mascot: 'Bhoorsingh the Barasingha'."
+    },
+    {
+      "name": "Bandipur National Park",
+      "state": "Karnataka",
+      "category": "National Park & Tiger Reserve",
+      "key_species": "Asian Elephant, Tiger, Gaur, Sloth Bear",
+      "facts": "Part of the Nilgiri Biosphere Reserve (India's first biosphere reserve, est. 1986). Forms interstate corridor with Mudumalai (TN) and Wayanad (Kerala)."
+    },
+    {
+      "name": "Periyar National Park",
+      "state": "Kerala",
+      "category": "National Park & Tiger Reserve",
+      "key_species": "Asian Elephant, Tiger, Lion-tailed Macaque",
+      "facts": "Located in Cardamom and Pandalam hills of Western Ghats around Periyar Lake formed by Mullaperiyar Dam. Periyar and Pamba rivers originate here."
+    },
+    {
+      "name": "Silent Valley National Park",
+      "state": "Kerala",
+      "category": "National Park",
+      "key_species": "Lion-tailed Macaque, Malabar Giant Squirrel",
+      "facts": "Famous for the historic 'Save Silent Valley' movement against a proposed hydroelectric project on the Kunthipuzha River."
+    },
+    {
+      "name": "Kuno National Park",
+      "state": "Madhya Pradesh",
+      "category": "National Park",
+      "key_species": "Cheetah (Acinonyx jubatus), Leopard, Chinkara",
+      "facts": "Site of India's historic Cheetah Reintroduction Project ('Project Cheetah') launched in September 2022 with translocated African cheetahs."
+    },
+    {
+      "name": "Simlipal National Park",
+      "state": "Odisha",
+      "category": "National Park, Biosphere Reserve & Tiger Reserve",
+      "key_species": "Royal Bengal Tiger (Melanistic / Black Tigers), Asian Elephant, Gaur",
+      "facts": "Only known habitat in the world with wild melanistic (black) tigers with broad merged dark stripes."
+    },
+    {
+      "name": "Bhitarkanika National Park",
+      "state": "Odisha",
+      "category": "National Park & Ramsar Site",
+      "key_species": "Saltwater Crocodile, Olive Ridley Sea Turtle, White Crocodile",
+      "facts": "Second largest mangrove ecosystem in India. Gahirmatha Marine Sanctuary adjoining Bhitarkanika is the world's largest nesting beach for Olive Ridley turtles."
+    },
+    {
+      "name": "Keoladeo Ghana National Park",
+      "state": "Rajasthan",
+      "category": "National Park, Ramsar Site & UNESCO World Heritage Site",
+      "key_species": "Siberian Crane (historical), Painted Stork, Migratory Waterfowl",
+      "facts": "Formerly known as Bharatpur Bird Sanctuary. A man-made wetland listed under the Montreux Record of the Ramsar Convention."
+    },
+    {
+      "name": "Great Himalayan National Park",
+      "state": "Himachal Pradesh",
+      "category": "National Park & UNESCO World Heritage Site",
+      "key_species": "Western Tragopan, Himalayan Musk Deer, Snow Leopard",
+      "facts": "Inscribed as UNESCO Natural World Heritage Site in 2014 for outstanding biodiversity in the alpine zone."
+    },
+    {
+      "name": "Valley of Flowers National Park",
+      "state": "Uttarakhand",
+      "category": "National Park & UNESCO World Heritage Site",
+      "key_species": "Asiatic Black Bear, Snow Leopard, Musk Deer, Alpine flora",
+      "facts": "Located in the Chamoli district, famous for endemic alpine flower meadows. Discovered by Frank S. Smythe in 1931."
+    },
+    {
+      "name": "Namdapha National Park",
+      "state": "Arunachal Pradesh",
+      "category": "National Park & Tiger Reserve",
+      "key_species": "Tiger, Leopard, Snow Leopard, Clouded Leopard",
+      "facts": "Fourth largest national park in India. Only park hosting four feline species: Tiger, Common Leopard, Snow Leopard, and Clouded Leopard."
+    },
+    {
+      "name": "Dachigam National Park",
+      "state": "Jammu & Kashmir",
+      "category": "National Park",
+      "key_species": "Hangul (Kashmir Stag - Cervus hanglu hanglu)",
+      "facts": "Last remaining sanctuary of the critically endangered Kashmir Stag (Hangul). Located 22 km from Srinagar near Dal Lake catchment."
+    },
+    {
+      "name": "Manas National Park",
+      "state": "Assam",
+      "category": "National Park, Tiger Reserve & UNESCO World Heritage Site",
+      "key_species": "Pygmy Hog, Golden Langur, Hispid Hare, Wild Water Buffalo",
+      "facts": "Located at the foothills of Bhutan Himalayas on the Manas River. Home to rare and endemic pygmy hog and golden langur."
+    }
+  ]
+}

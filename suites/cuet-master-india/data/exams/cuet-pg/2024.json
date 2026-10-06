@@ -1,0 +1,15 @@
+{
+  "exam": "CUET-PG",
+  "year": 2024,
+  "duration": "105 minutes.",
+  "subjects": [
+    "Common, Science, Humanities, Languages, M.Tech, Acharya"
+  ],
+  "questionCount": "75 questions per paper.",
+  "markingScheme": "+4 for correct, -1 for incorrect, 0 for unattempted.",
+  "mode": "Computer Based Test (CBT).",
+  "eligibility": "Bachelor degree passed or appearing in 2024.",
+  "maxSubjectLimit": 4,
+  "officialSource": "https://exams.nta.ac.in/CUET-PG/",
+  "lastVerified": "2024-04-12"
+}

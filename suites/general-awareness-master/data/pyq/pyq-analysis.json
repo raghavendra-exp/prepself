@@ -1,0 +1,117 @@
+{
+  "title": "Empirical PYQ & Trend Analysis for SBI Clerk, IBPS Clerk/CSA & RRB OA (2020-2026)",
+  "version": "2026.09",
+  "exams": [
+    {
+      "exam_name": "SBI Clerk Mains (Junior Associate)",
+      "section_name": "General / Financial Awareness",
+      "questions_count": 50,
+      "maximum_marks": 50,
+      "sectional_time_minutes": 35,
+      "negative_marking": 0.25,
+      "weightage_trend": {
+        "current_affairs_last_4_months": "45% (22-24 Questions)",
+        "banking_financial_awareness": "25% (12-14 Questions)",
+        "government_schemes": "15% (7-8 Questions)",
+        "static_gk_news_linked": "10% (4-6 Questions)",
+        "reports_indexes_summits": "5% (2-4 Questions)"
+      },
+      "key_observations": [
+        "SBI Clerk GA questions test deep factual nuances (e.g. not just who won the tournament, but whom they defeated, or specific financial outlays down to exact crores).",
+        "Nearly 80% of Static GK questions asked in SBI Clerk have a direct trigger in the preceding 3-4 months' current events (e.g. a country visited by PM, a wildlife sanctuary in the news).",
+        "Heavy emphasis on RBI regulations, Priority Sector Lending caps, and monetary policy ratios."
+      ]
+    },
+    {
+      "exam_name": "IBPS Clerk / Customer Service Associate (CSA) Mains",
+      "section_name": "General / Financial Awareness",
+      "questions_count": 50,
+      "maximum_marks": 50,
+      "sectional_time_minutes": 35,
+      "negative_marking": 0.25,
+      "weightage_trend": {
+        "current_affairs_last_5_months": "40% (20-22 Questions)",
+        "banking_awareness_core": "22% (10-12 Questions)",
+        "government_schemes": "18% (8-10 Questions)",
+        "static_gk": "12% (5-7 Questions)",
+        "reports_indexes_appointments": "8% (3-5 Questions)"
+      },
+      "key_observations": [
+        "IBPS loves Central Government Schemes: outlays, nodal ministries, beneficiary criteria, and anniversary milestones.",
+        "Questions on international organizations (headquarters, heads, recently joined member states).",
+        "Direct questions on abbreviations in financial news (e.g. LEI, CIMS, UDGAM, TReDS)."
+      ]
+    },
+    {
+      "exam_name": "IBPS RRB Office Assistant Mains (Multipurpose)",
+      "section_name": "General Awareness",
+      "questions_count": 40,
+      "maximum_marks": 40,
+      "composite_time_recommendation_minutes": 20,
+      "negative_marking": 0.25,
+      "weightage_trend": {
+        "current_affairs": "45% (18-20 Questions)",
+        "agriculture_rural_development_schemes": "20% (8-9 Questions)",
+        "static_gk_pure": "20% (7-8 Questions)",
+        "banking_awareness_rbi": "15% (5-6 Questions)"
+      },
+      "key_observations": [
+        "High proportion of pure Static GK (National Parks, Capitals, Currencies, Dams, Folk Dances) compared to SBI Clerk.",
+        "Special focus on NABARD, RRBs (amalgamation, shareholding pattern: 50% Centre, 15% State, 35% Sponsor Bank), and agricultural schemes like KCC, PM-KISAN, PMFBY.",
+        "Direct one-liner phrasing allows fast answering within 15-20 minutes to save time for Quant and Reasoning."
+      ]
+    }
+  ],
+  "priority_matrix": [
+    {
+      "tier": "Tier 1: MUST-DO HIGH YIELD (55-65% of Marks)",
+      "topics": [
+        "Recent 4 Months Current Affairs (especially RBI notifications, MoUs, Summits, Defense)",
+        "Flagship Central Schemes (PMJDY, PMJJBY, PMSBY, APY, MUDRA, PM-KISAN, PM Surya Ghar, Vishwakarma)",
+        "RBI Policy Rates (Repo, Reverse Repo, SDF, MSF, CRR, SLR) and Monetary Policy Committee (Art 45ZB)",
+        "Forex Reserves, CPI & WPI Inflation, IIP Core Industries weightage",
+        "Top Reports & Global Indexes (Publishing body, India's rank, Top ranker)"
+      ],
+      "action": "Daily active recall, flashcards, and revision. Never skip."
+    },
+    {
+      "tier": "Tier 2: CONSISTENT PERFORMERS (20-25% of Marks)",
+      "topics": [
+        "International Organizations (HQ, Chief, Year, Members, Reports: IMF, WB, ADB, AIIB, NDB, WTO, WEF)",
+        "Static GK News-Linked (National Parks, Ramsar Wetlands, Tiger Reserves, Major Rivers & Dams)",
+        "Countries, Capitals, and Currencies (BRICS, G20, ASEAN, recent bilateral visits)",
+        "Heads of Regulatory & Constitutional Bodies (SEBI, IRDAI, PFRDA, NABARD, SIDBI, CCI, CAG, CJI, CEC)"
+      ],
+      "action": "Weekly thematic practice sets and memory lab mnemonics."
+    },
+    {
+      "tier": "Tier 3: HIGH-REWARD NICHE (10-15% of Marks)",
+      "topics": [
+        "Major Sports Tournaments (T20 World Cup, Olympics/Paralympics medalists, Grand Slams, Venues)",
+        "Prestigious Awards (Bharat Ratna, Dadasaheb Phalke, Jnanpith, Nobel Prizes, Booker Prize)",
+        "Military & Naval Exercises (Tarang Shakti, Malabar, Yudh Abhyas, Garuda, Varuna)",
+        "Important Constitutional Articles (Fundamental Rights, DPSP, Writs, Emergency, Amendments 101/103/106)"
+      ],
+      "action": "Rapid fire speed drills and monthly capsule revision."
+    },
+    {
+      "tier": "Tier 4: MODERATE RETURN (5-10% of Marks)",
+      "topics": [
+        "Ancient & Medieval History high-points (IVC sites, Buddhist councils, Mauryan/Gupta rulers)",
+        "Modern Freedom Movement (1857 centers, Key INC sessions, Gandhian movements)",
+        "Indian Physical Geography (Mountain peaks, Passes, Soils, Crops)",
+        "State-specific folk dances and cultural festivals"
+      ],
+      "action": "High-yield one-liners and quick glance before exams."
+    },
+    {
+      "tier": "Tier 5: LOW-YIELD TRAP TOPICS (<3% of Marks)",
+      "topics": [
+        "Obscure days and trivial themes from 9+ months ago",
+        "Hyper-local municipal appointments and minor municipal notices",
+        "Deep esoteric political controversies and unverified media rumors"
+      ],
+      "action": "Avoid over-investing time. Practice negative marking avoidance."
+    }
+  ]
+}

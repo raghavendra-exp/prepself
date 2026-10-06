@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="hi" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#d97706" />
+    <meta name="description" content="UP Teacher Master: Complete self-study preparation platform for UP Primary Assistant Teacher (Super TET) and UP TGT recruitment examinations under UPESSC. Free practice questions, official syllabi, and direct NCERT links." />
+    <meta name="keywords" content="UP PRT, Super TET, UP TGT, UPTET, UPESSC, Uttar Pradesh Teacher Recruitment, NCERT Books, Teaching Skills, Child Psychology, UP GK, D.El.Ed, B.Ed" />
+
+    <title>UP Teacher Master — UP PRT + UP TGT Complete Preparation Platform</title>
+
+    <link rel="manifest" href="./manifest.json" />
+
+    <!-- Google Fonts for crisp Latin and Devanagari Hindi typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <style>#app-loader-wrapper{color:#0f172a;box-sizing:border-box;background-color:#f8fafc;justify-content:center;align-items:center;min-height:100vh;padding:1.5rem;font-family:Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;display:flex}.loader-card{text-align:center;background:#fff;border:1px solid #e2e8f0;border-radius:1rem;width:100%;max-width:480px;padding:2.25rem 2rem;box-shadow:0 10px 25px -5px #00000014,0 8px 10px -6px #0000000a}.loader-icon-box{background:linear-gradient(135deg,#f59e0b,#ea580c);border-radius:16px;justify-content:center;align-items:center;width:64px;height:64px;margin:0 auto 1.25rem;display:flex;box-shadow:0 8px 16px -4px #f59e0b59}.loader-spinner{border:3px solid #f1f5f9;border-top-color:#d97706;border-radius:50%;width:32px;height:32px;margin:1.25rem auto;animation:.8s linear infinite spin}@keyframes spin{to{transform:rotate(360deg)}}.loader-btn{color:#fff;cursor:pointer;background-color:#d97706;border:none;border-radius:.5rem;margin-top:1.25rem;padding:.625rem 1.25rem;font-size:.875rem;font-weight:600;transition:background-color .15s;display:inline-block}.loader-btn:hover{background-color:#b45309}</style>
+
+    <script>
+      // Global cache and worker purge helper
+      window.resetAppAndCaches = function() {
+        const statusEl = document.getElementById('loader-status');
+        if (statusEl) statusEl.innerText = 'Purging cache & refreshing...';
+        
+        const clearWorkers = 'serviceWorker' in navigator 
+          ? navigator.serviceWorker.getRegistrations().then(regs => Promise.all(regs.map(r => r.unregister())))
+          : Promise.resolve();
+          
+        const clearCaches = 'caches' in window 
+          ? caches.keys().then(keys => Promise.all(keys.map(k => caches.delete(k))))
+          : Promise.resolve();
+
+        Promise.all([clearWorkers, clearCaches]).then(() => {
+          window.location.reload(true);
+        }).catch(() => {
+          window.location.reload(true);
+        });
+      };
+
+      // Auto-reload on Vite preload errors (chunk hash mismatch after updates)
+      window.addEventListener('vite:preloadError', (event) => {
+        console.warn('Vite preload error detected, refreshing application...', event);
+        window.location.reload();
+      });
+
+      // Service Worker registration with proactive update check
+      if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js', { scope: './' })
+            .then((registration) => {
+              // Immediately check for updates
+              registration.update();
+
+              // Listen for waiting workers and activate immediately
+              if (registration.waiting) {
+                registration.waiting.postMessage({ action: 'skipWaiting' });
+              }
+
+              registration.addEventListener('updatefound', () => {
+                const newWorker = registration.installing;
+                if (newWorker) {
+                  newWorker.addEventListener('statechange', () => {
+                    if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                      newWorker.postMessage({ action: 'skipWaiting' });
+                    }
+                  });
+                }
+              });
+            })
+            .catch((err) => {
+              console.warn('Service worker registration error:', err);
+            });
+        });
+
+        // Reload on controller change to ensure users run fresh code
+        let refreshing = false;
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+          if (!refreshing) {
+            refreshing = true;
+            window.location.reload();
+          }
+        });
+      }
+
+      // Show recovery button after 3.5s if React hasn't mounted
+      setTimeout(() => {
+        const resetBtn = document.getElementById('loader-reset-btn');
+        if (resetBtn && document.getElementById('app-loader-wrapper')) {
+          resetBtn.style.display = 'inline-block';
+        }
+      }, 3500);
+
+      // Catch unhandled script loading errors
+      window.addEventListener('error', (event) => {
+        if (event.target && (event.target.tagName === 'SCRIPT' || event.target.tagName === 'LINK')) {
+          const statusEl = document.getElementById('loader-status');
+          const resetBtn = document.getElementById('loader-reset-btn');
+          if (statusEl) {
+            statusEl.innerHTML = '<span style="color: #dc2626; font-weight: 600;">नया अपडेट उपलब्ध है। कृपया कैश साफ़ करके रीलोड करें:</span>';
+          }
+          if (resetBtn) {
+            resetBtn.style.display = 'inline-block';
+          }
+        }
+      }, true);
+    </script>
+    <script type="module" crossorigin src="./assets/index-kwHdk6Ur.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CCfVeMAP.css">
+  </head>
+  <body>
+    <div id="root">
+      <!-- Immediate Branded Pre-mount UI to prevent blank screen -->
+      <div id="app-loader-wrapper">
+        <div class="loader-card">
+          <div class="loader-icon-box">
+            <svg width="36" height="36" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M50 20 L80 36 L50 52 L20 36 Z" fill="#ffffff" />
+              <path d="M30 46 L30 62 C30 72 70 72 70 62 L70 46 L50 56 Z" fill="#ffffff" opacity="0.9" />
+              <circle cx="82" cy="40" r="4" fill="#ffffff" />
+              <path d="M82 44 L82 66" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h1 style="font-size: 1.25rem; font-weight: 700; margin: 0 0 0.25rem; color: #1e293b;">
+            UP Teacher Master
+          </h1>
+          <p style="font-size: 0.875rem; color: #64748b; margin: 0 0 1rem;">
+            उत्तर प्रदेश प्राथमिक शिक्षक एवं TGT सम्पूर्ण तैयारी मंच
+          </p>
+          <div class="loader-spinner"></div>
+          <p id="loader-status" style="font-size: 0.8125rem; color: #475569; margin: 0.5rem 0;">
+            अध्ययन सामग्री व टेस्ट लोड हो रहे हैं...
+          </p>
+          <button id="loader-reset-btn" class="loader-btn" style="display: none;" onclick="window.resetAppAndCaches()">
+            कैश साफ़ कर नया वर्ज़न लोड करें (Clear Cache & Reload)
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

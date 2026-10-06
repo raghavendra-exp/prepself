@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="hi">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta name="theme-color" content="#1e3a8a" />
+    <meta name="description" content="UPSSSC PET Master — Complete Uttar Pradesh Preliminary Eligibility Test preparation platform. 1000+ practice questions, verified PYQs, books database, mock tests, and Hindi/English study material." />
+    <meta name="keywords" content="UPSSSC, PET 2026, UPSSSC PET syllabus, UPSSSC mock test, UP GK, Arihant PET book, Lucent GK, PET PYQ, preliminary eligibility test" />
+    
+    <!-- Open Graph / SEO -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="UPSSSC PET MASTER — Complete Exam Preparation" />
+    <meta property="og:description" content="Zero to Master: Foundation, Notes, PYQs, Mock Tests, and Recommended Books for UPSSSC PET." />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./pwa-192.png" />
+    
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <title>UPSSSC PET MASTER — Complete Preparation Platform (PET 2026)</title>
+    <script>
+      (function() {
+        try {
+          const theme = localStorage.getItem('upsssc_pet_theme_v1');
+          if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.setAttribute('data-theme', 'dark');
+            var meta = document.querySelector('meta[name="theme-color"]');
+            if (meta) meta.setAttribute('content', '#0b1120');
+          }
+        } catch (e) {}
+
+        // Automatic obsolete service worker cache buster
+        try {
+          if ('caches' in window && !localStorage.getItem('upsssc_sw_cleared_v5')) {
+            caches.keys().then(function(keys) {
+              return Promise.all(keys.map(function(k) {
+                if (k !== 'upsssc-pet-master-v5') return caches.delete(k);
+              }));
+            }).then(function() {
+              localStorage.setItem('upsssc_sw_cleared_v5', 'true');
+            });
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-Bf3hVz-e.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-KPGQtylt.css">
+  </head>
+  <body class="bg-slate-50 text-slate-900 min-h-screen">
+    <div id="root"></div>
+  </body>
+</html>

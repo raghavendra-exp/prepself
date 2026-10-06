@@ -1,0 +1,827 @@
+{
+  "module": "Comprehensive Computer & Banking Abbreviations Dictionary",
+  "version": "2026.1",
+  "totalCount": 160,
+  "terms": [
+    {
+      "term": "AI",
+      "fullForm": "Artificial Intelligence",
+      "category": "Emerging Tech"
+    },
+    {
+      "term": "ALU",
+      "fullForm": "Arithmetic Logic Unit",
+      "category": "Hardware / CPU"
+    },
+    {
+      "term": "API",
+      "fullForm": "Application Programming Interface",
+      "category": "Software"
+    },
+    {
+      "term": "APIFS",
+      "fullForm": "Apple File System",
+      "category": "Operating System"
+    },
+    {
+      "term": "APIPA",
+      "fullForm": "Automatic Private IP Addressing",
+      "category": "Networking"
+    },
+    {
+      "term": "ARPANET",
+      "fullForm": "Advanced Research Projects Agency Network",
+      "category": "Internet History"
+    },
+    {
+      "term": "ASCII",
+      "fullForm": "American Standard Code for Information Interchange",
+      "category": "Fundamentals"
+    },
+    {
+      "term": "ATM",
+      "fullForm": "Automated Teller Machine / Asynchronous Transfer Mode",
+      "category": "Banking / Telecom"
+    },
+    {
+      "term": "BIOS",
+      "fullForm": "Basic Input / Output System",
+      "category": "Hardware / Boot"
+    },
+    {
+      "term": "BISP",
+      "fullForm": "Bank Information Security Policy",
+      "category": "Cybersecurity"
+    },
+    {
+      "term": "BPS",
+      "fullForm": "Bits Per Second",
+      "category": "Networking"
+    },
+    {
+      "term": "CAD",
+      "fullForm": "Computer Aided Design",
+      "category": "Software"
+    },
+    {
+      "term": "CAM",
+      "fullForm": "Computer Aided Manufacturing / Content Addressable Memory",
+      "category": "Hardware"
+    },
+    {
+      "term": "CBDC",
+      "fullForm": "Central Bank Digital Currency",
+      "category": "Digital Banking"
+    },
+    {
+      "term": "CBS",
+      "fullForm": "Core Banking Solution",
+      "category": "Digital Banking"
+    },
+    {
+      "term": "CD",
+      "fullForm": "Compact Disc",
+      "category": "Memory / Storage"
+    },
+    {
+      "term": "CD-ROM",
+      "fullForm": "Compact Disc Read Only Memory",
+      "category": "Memory / Storage"
+    },
+    {
+      "term": "CD-RW",
+      "fullForm": "Compact Disc Re-Writable",
+      "category": "Memory / Storage"
+    },
+    {
+      "term": "CERT-In",
+      "fullForm": "Indian Computer Emergency Response Team",
+      "category": "Cybersecurity"
+    },
+    {
+      "term": "CISO",
+      "fullForm": "Chief Information Security Officer",
+      "category": "Banking Security"
+    },
+    {
+      "term": "CLI",
+      "fullForm": "Command Line Interface",
+      "category": "Operating System"
+    },
+    {
+      "term": "CMOS",
+      "fullForm": "Complementary Metal-Oxide Semiconductor",
+      "category": "Hardware"
+    },
+    {
+      "term": "COBOL",
+      "fullForm": "Common Business Oriented Language",
+      "category": "Programming"
+    },
+    {
+      "term": "CPU",
+      "fullForm": "Central Processing Unit",
+      "category": "Hardware / CPU"
+    },
+    {
+      "term": "CRC",
+      "fullForm": "Cyclic Redundancy Check",
+      "category": "Networking"
+    },
+    {
+      "term": "CRT",
+      "fullForm": "Cathode Ray Tube",
+      "category": "Hardware / Display"
+    },
+    {
+      "term": "CTS",
+      "fullForm": "Cheque Truncation System",
+      "category": "Digital Banking"
+    },
+    {
+      "term": "CU",
+      "fullForm": "Control Unit",
+      "category": "Hardware / CPU"
+    },
+    {
+      "term": "CVV",
+      "fullForm": "Card Verification Value",
+      "category": "Digital Banking"
+    },
+    {
+      "term": "DBMS",
+      "fullForm": "Database Management System",
+      "category": "Database"
+    },
+    {
+      "term": "DDL",
+      "fullForm": "Data Definition Language",
+      "category": "Database / SQL"
+    },
+    {
+      "term": "DDoS",
+      "fullForm": "Distributed Denial of Service",
+      "category": "Cybersecurity"
+    },
+    {
+      "term": "DHCP",
+      "fullForm": "Dynamic Host Configuration Protocol",
+      "category": "Protocols"
+    },
+    {
+      "term": "DLL",
+      "fullForm": "Dynamic Link Library / Data Link Layer",
+      "category": "OS / Networking"
+    },
+    {
+      "term": "DMA",
+      "fullForm": "Direct Memory Access",
+      "category": "Hardware"
+    },
+    {
+      "term": "DML",
+      "fullForm": "Data Manipulation Language",
+      "category": "Database / SQL"
+    },
+    {
+      "term": "DNS",
+      "fullForm": "Domain Name System",
+      "category": "Protocols"
+    },
+    {
+      "term": "DRAM",
+      "fullForm": "Dynamic Random Access Memory",
+      "category": "Memory"
+    },
+    {
+      "term": "DSL",
+      "fullForm": "Digital Subscriber Line",
+      "category": "Networking"
+    },
+    {
+      "term": "DVD",
+      "fullForm": "Digital Versatile Disc / Digital Video Disc",
+      "category": "Memory / Storage"
+    },
+    {
+      "term": "EBCDIC",
+      "fullForm": "Extended Binary Coded Decimal Interchange Code",
+      "category": "Fundamentals"
+    },
+    {
+      "term": "EEPROM",
+      "fullForm": "Electrically Erasable Programmable Read-Only Memory",
+      "category": "Memory"
+    },
+    {
+      "term": "EMV",
+      "fullForm": "Europay, MasterCard, and Visa",
+      "category": "Digital Banking"
+    },
+    {
+      "term": "ENIAC",
+      "fullForm": "Electronic Numerical Integrator and Computer",
+      "category": "Computer History"
+    },
+    {
+      "term": "EPROM",
+      "fullForm": "Erasable Programmable Read-Only Memory",
+      "category": "Memory"
+    },
+    {
+      "term": "FAT",
+      "fullForm": "File Allocation Table",
+      "category": "Operating System"
+    },
+    {
+      "term": "FIFO",
+      "fullForm": "First In First Out",
+      "category": "Data Structures"
+    },
+    {
+      "term": "FTP",
+      "fullForm": "File Transfer Protocol",
+      "category": "Protocols"
+    },
+    {
+      "term": "Gbps",
+      "fullForm": "Gigabits Per Second",
+      "category": "Networking"
+    },
+    {
+      "term": "GB",
+      "fullForm": "Gigabyte (1024 Megabytes)",
+      "category": "Units of Memory"
+    },
+    {
+      "term": "GHz",
+      "fullForm": "Gigahertz",
+      "category": "CPU Clock"
+    },
+    {
+      "term": "GIS",
+      "fullForm": "Geographic Information System",
+      "category": "Software"
+    },
+    {
+      "term": "GPRS",
+      "fullForm": "General Packet Radio Service",
+      "category": "Telecom"
+    },
+    {
+      "term": "GPS",
+      "fullForm": "Global Positioning System",
+      "category": "Hardware"
+    },
+    {
+      "term": "GPU",
+      "fullForm": "Graphics Processing Unit",
+      "category": "Hardware"
+    },
+    {
+      "term": "GUI",
+      "fullForm": "Graphical User Interface",
+      "category": "Operating System"
+    },
+    {
+      "term": "HDD",
+      "fullForm": "Hard Disk Drive",
+      "category": "Memory / Storage"
+    },
+    {
+      "term": "HDMI",
+      "fullForm": "High-Definition Multimedia Interface",
+      "category": "Hardware / Ports"
+    },
+    {
+      "term": "HTML",
+      "fullForm": "HyperText Markup Language",
+      "category": "Web Tech"
+    },
+    {
+      "term": "HTTP",
+      "fullForm": "HyperText Transfer Protocol",
+      "category": "Protocols"
+    },
+    {
+      "term": "HTTPS",
+      "fullForm": "HyperText Transfer Protocol Secure",
+      "category": "Protocols"
+    },
+    {
+      "term": "IaaS",
+      "fullForm": "Infrastructure as a Service",
+      "category": "Cloud Computing"
+    },
+    {
+      "term": "IC",
+      "fullForm": "Integrated Circuit",
+      "category": "Hardware History"
+    },
+    {
+      "term": "ICMP",
+      "fullForm": "Internet Control Message Protocol",
+      "category": "Protocols"
+    },
+    {
+      "term": "IEEE",
+      "fullForm": "Institute of Electrical and Electronics Engineers",
+      "category": "Standards"
+    },
+    {
+      "term": "IMAP",
+      "fullForm": "Internet Message Access Protocol",
+      "category": "Protocols / Email"
+    },
+    {
+      "term": "IMPS",
+      "fullForm": "Immediate Payment Service",
+      "category": "Digital Banking"
+    },
+    {
+      "term": "IP",
+      "fullForm": "Internet Protocol",
+      "category": "Protocols"
+    },
+    {
+      "term": "IPv4",
+      "fullForm": "Internet Protocol version 4 (32-bit)",
+      "category": "Protocols"
+    },
+    {
+      "term": "IPv6",
+      "fullForm": "Internet Protocol version 6 (128-bit)",
+      "category": "Protocols"
+    },
+    {
+      "term": "ISDN",
+      "fullForm": "Integrated Services Digital Network",
+      "category": "Networking"
+    },
+    {
+      "term": "ISP",
+      "fullForm": "Internet Service Provider",
+      "category": "Internet"
+    },
+    {
+      "term": "JPEG",
+      "fullForm": "Joint Photographic Experts Group",
+      "category": "File Formats"
+    },
+    {
+      "term": "JSON",
+      "fullForm": "JavaScript Object Notation",
+      "category": "Web Tech"
+    },
+    {
+      "term": "KB",
+      "fullForm": "Kilobyte (1024 Bytes)",
+      "category": "Units of Memory"
+    },
+    {
+      "term": "LAN",
+      "fullForm": "Local Area Network",
+      "category": "Networking"
+    },
+    {
+      "term": "LCD",
+      "fullForm": "Liquid Crystal Display",
+      "category": "Hardware / Display"
+    },
+    {
+      "term": "LED",
+      "fullForm": "Light Emitting Diode",
+      "category": "Hardware / Display"
+    },
+    {
+      "term": "LIFO",
+      "fullForm": "Last In First Out",
+      "category": "Data Structures"
+    },
+    {
+      "term": "MAC",
+      "fullForm": "Media Access Control (48-bit physical address)",
+      "category": "Networking"
+    },
+    {
+      "term": "MAN",
+      "fullForm": "Metropolitan Area Network",
+      "category": "Networking"
+    },
+    {
+      "term": "MB",
+      "fullForm": "Megabyte (1024 Kilobytes)",
+      "category": "Units of Memory"
+    },
+    {
+      "term": "MBR",
+      "fullForm": "Master Boot Record",
+      "category": "Boot / Storage"
+    },
+    {
+      "term": "MICR",
+      "fullForm": "Magnetic Ink Character Recognition",
+      "category": "Input / Banking"
+    },
+    {
+      "term": "MIDI",
+      "fullForm": "Musical Instrument Digital Interface",
+      "category": "Audio"
+    },
+    {
+      "term": "MIME",
+      "fullForm": "Multipurpose Internet Mail Extensions",
+      "category": "Email / Protocols"
+    },
+    {
+      "term": "MIPS",
+      "fullForm": "Million Instructions Per Second",
+      "category": "CPU Performance"
+    },
+    {
+      "term": "MODEM",
+      "fullForm": "Modulator - Demodulator",
+      "category": "Networking Devices"
+    },
+    {
+      "term": "MOSFET",
+      "fullForm": "Metal-Oxide-Semiconductor Field-Effect Transistor",
+      "category": "Hardware"
+    },
+    {
+      "term": "MP3",
+      "fullForm": "MPEG Audio Layer III",
+      "category": "Audio Formats"
+    },
+    {
+      "term": "MPEG",
+      "fullForm": "Moving Picture Experts Group",
+      "category": "Video Formats"
+    },
+    {
+      "term": "NACH",
+      "fullForm": "National Automated Clearing House",
+      "category": "Digital Banking"
+    },
+    {
+      "term": "NAT",
+      "fullForm": "Network Address Translation",
+      "category": "Networking"
+    },
+    {
+      "term": "NEFT",
+      "fullForm": "National Electronic Funds Transfer",
+      "category": "Digital Banking"
+    },
+    {
+      "term": "NFC",
+      "fullForm": "Near Field Communication",
+      "category": "Wireless / Banking"
+    },
+    {
+      "term": "NIC",
+      "fullForm": "Network Interface Card",
+      "category": "Networking Hardware"
+    },
+    {
+      "term": "NPCI",
+      "fullForm": "National Payments Corporation of India",
+      "category": "Digital Banking"
+    },
+    {
+      "term": "NTFS",
+      "fullForm": "New Technology File System",
+      "category": "Operating System"
+    },
+    {
+      "term": "OCR",
+      "fullForm": "Optical Character Recognition",
+      "category": "Input Devices"
+    },
+    {
+      "term": "OMR",
+      "fullForm": "Optical Mark Recognition",
+      "category": "Input Devices"
+    },
+    {
+      "term": "OOP",
+      "fullForm": "Object-Oriented Programming",
+      "category": "Programming"
+    },
+    {
+      "term": "OS",
+      "fullForm": "Operating System",
+      "category": "Operating System"
+    },
+    {
+      "term": "OSI",
+      "fullForm": "Open Systems Interconnection",
+      "category": "Networking Standards"
+    },
+    {
+      "term": "PaaS",
+      "fullForm": "Platform as a Service",
+      "category": "Cloud Computing"
+    },
+    {
+      "term": "PAN",
+      "fullForm": "Personal Area Network / Permanent Account Number",
+      "category": "Networking / Tax"
+    },
+    {
+      "term": "PCI",
+      "fullForm": "Peripheral Component Interconnect",
+      "category": "Hardware / Buses"
+    },
+    {
+      "term": "PDF",
+      "fullForm": "Portable Document Format",
+      "category": "File Formats"
+    },
+    {
+      "term": "PNG",
+      "fullForm": "Portable Network Graphics",
+      "category": "File Formats"
+    },
+    {
+      "term": "POP3",
+      "fullForm": "Post Office Protocol version 3",
+      "category": "Protocols / Email"
+    },
+    {
+      "term": "POST",
+      "fullForm": "Power-On Self-Test",
+      "category": "Boot Process"
+    },
+    {
+      "term": "PRAM",
+      "fullForm": "Phase-change Random Access Memory",
+      "category": "Memory"
+    },
+    {
+      "term": "PROM",
+      "fullForm": "Programmable Read-Only Memory",
+      "category": "Memory"
+    },
+    {
+      "term": "QoS",
+      "fullForm": "Quality of Service",
+      "category": "Networking"
+    },
+    {
+      "term": "RAM",
+      "fullForm": "Random Access Memory",
+      "category": "Memory"
+    },
+    {
+      "term": "RDBMS",
+      "fullForm": "Relational Database Management System",
+      "category": "Database"
+    },
+    {
+      "term": "RDP",
+      "fullForm": "Remote Desktop Protocol",
+      "category": "Protocols"
+    },
+    {
+      "term": "RFID",
+      "fullForm": "Radio Frequency Identification",
+      "category": "Wireless Tech"
+    },
+    {
+      "term": "RIP",
+      "fullForm": "Routing Information Protocol",
+      "category": "Routing"
+    },
+    {
+      "term": "RISC",
+      "fullForm": "Reduced Instruction Set Computer",
+      "category": "CPU Architecture"
+    },
+    {
+      "term": "ROM",
+      "fullForm": "Read-Only Memory",
+      "category": "Memory"
+    },
+    {
+      "term": "RTGS",
+      "fullForm": "Real Time Gross Settlement",
+      "category": "Digital Banking"
+    },
+    {
+      "term": "RTOS",
+      "fullForm": "Real-Time Operating System",
+      "category": "Operating System"
+    },
+    {
+      "term": "SaaS",
+      "fullForm": "Software as a Service",
+      "category": "Cloud Computing"
+    },
+    {
+      "term": "SAN",
+      "fullForm": "Storage Area Network",
+      "category": "Networking"
+    },
+    {
+      "term": "SATA",
+      "fullForm": "Serial Advanced Technology Attachment",
+      "category": "Hardware Interfaces"
+    },
+    {
+      "term": "SCSI",
+      "fullForm": "Small Computer System Interface",
+      "category": "Hardware Interfaces"
+    },
+    {
+      "term": "SFTP",
+      "fullForm": "SSH File Transfer Protocol",
+      "category": "Protocols"
+    },
+    {
+      "term": "SMTP",
+      "fullForm": "Simple Mail Transfer Protocol",
+      "category": "Protocols / Email"
+    },
+    {
+      "term": "SNA",
+      "fullForm": "Systems Network Architecture",
+      "category": "Networking History"
+    },
+    {
+      "term": "SNMP",
+      "fullForm": "Simple Network Management Protocol",
+      "category": "Protocols"
+    },
+    {
+      "term": "SPOOL",
+      "fullForm": "Simultaneous Peripheral Operations On-Line",
+      "category": "Operating System"
+    },
+    {
+      "term": "SQL",
+      "fullForm": "Structured Query Language",
+      "category": "Database"
+    },
+    {
+      "term": "SRAM",
+      "fullForm": "Static Random Access Memory",
+      "category": "Memory"
+    },
+    {
+      "term": "SSD",
+      "fullForm": "Solid State Drive",
+      "category": "Storage"
+    },
+    {
+      "term": "SSH",
+      "fullForm": "Secure Shell",
+      "category": "Protocols / Security"
+    },
+    {
+      "term": "SSL",
+      "fullForm": "Secure Sockets Layer",
+      "category": "Security"
+    },
+    {
+      "term": "TB",
+      "fullForm": "Terabyte (1024 Gigabytes)",
+      "category": "Units of Memory"
+    },
+    {
+      "term": "TCP",
+      "fullForm": "Transmission Control Protocol",
+      "category": "Protocols"
+    },
+    {
+      "term": "TCP/IP",
+      "fullForm": "Transmission Control Protocol / Internet Protocol",
+      "category": "Networking"
+    },
+    {
+      "term": "TCL",
+      "fullForm": "Transaction Control Language",
+      "category": "Database / SQL"
+    },
+    {
+      "term": "TFTP",
+      "fullForm": "Trivial File Transfer Protocol",
+      "category": "Protocols"
+    },
+    {
+      "term": "TLS",
+      "fullForm": "Transport Layer Security",
+      "category": "Security"
+    },
+    {
+      "term": "UEFI",
+      "fullForm": "Unified Extensible Firmware Interface",
+      "category": "Boot Process"
+    },
+    {
+      "term": "UDP",
+      "fullForm": "User Datagram Protocol",
+      "category": "Protocols"
+    },
+    {
+      "term": "UNIVAC",
+      "fullForm": "Universal Automatic Computer",
+      "category": "Computer History"
+    },
+    {
+      "term": "UPI",
+      "fullForm": "Unified Payments Interface",
+      "category": "Digital Banking"
+    },
+    {
+      "term": "UPS",
+      "fullForm": "Uninterruptible Power Supply",
+      "category": "Hardware"
+    },
+    {
+      "term": "URL",
+      "fullForm": "Uniform Resource Locator",
+      "category": "Internet"
+    },
+    {
+      "term": "USB",
+      "fullForm": "Universal Serial Bus",
+      "category": "Hardware / Ports"
+    },
+    {
+      "term": "UTP",
+      "fullForm": "Unshielded Twisted Pair",
+      "category": "Transmission Media"
+    },
+    {
+      "term": "VAN",
+      "fullForm": "Value Added Network",
+      "category": "Networking"
+    },
+    {
+      "term": "VBA",
+      "fullForm": "Visual Basic for Applications",
+      "category": "Software / Office"
+    },
+    {
+      "term": "VGA",
+      "fullForm": "Video Graphics Array",
+      "category": "Hardware / Ports"
+    },
+    {
+      "term": "VoIP",
+      "fullForm": "Voice over Internet Protocol",
+      "category": "Networking"
+    },
+    {
+      "term": "VPA",
+      "fullForm": "Virtual Payment Address",
+      "category": "Digital Banking"
+    },
+    {
+      "term": "VPN",
+      "fullForm": "Virtual Private Network",
+      "category": "Networking"
+    },
+    {
+      "term": "WAN",
+      "fullForm": "Wide Area Network",
+      "category": "Networking"
+    },
+    {
+      "term": "WAP",
+      "fullForm": "Wireless Application Protocol / Wireless Access Point",
+      "category": "Networking"
+    },
+    {
+      "term": "WIFI",
+      "fullForm": "Wireless Fidelity (IEEE 802.11)",
+      "category": "Networking"
+    },
+    {
+      "term": "WLAN",
+      "fullForm": "Wireless Local Area Network",
+      "category": "Networking"
+    },
+    {
+      "term": "WORM",
+      "fullForm": "Write Once Read Many",
+      "category": "Storage"
+    },
+    {
+      "term": "WWW",
+      "fullForm": "World Wide Web",
+      "category": "Internet"
+    },
+    {
+      "term": "XHTML",
+      "fullForm": "Extensible HyperText Markup Language",
+      "category": "Web Tech"
+    },
+    {
+      "term": "XML",
+      "fullForm": "Extensible Markup Language",
+      "category": "Web Tech"
+    }
+  ]
+}

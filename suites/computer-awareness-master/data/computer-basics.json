@@ -1,0 +1,183 @@
+{
+  "title": "Computer Fundamentals, History & Classifications",
+  "version": "2026.09",
+  "overview": {
+    "definition": "An electronic, programmable device that accepts raw data as input, processes it according to stored instructions (software), produces meaningful information as output, and stores results for future use.",
+    "gigo_principle": "Garbage In, Garbage Out (GIGO): If invalid data is input into a computer, the resulting output will inevitably be invalid.",
+    "characteristics": [
+      {
+        "trait": "Speed",
+        "description": "Executes millions to billions of instructions per second (measured in MIPS, BIPS, or GHz clock cycles)."
+      },
+      {
+        "trait": "Accuracy",
+        "description": "High degree of calculation precision with zero calculation fatigue or computational error unless programmed wrongly."
+      },
+      {
+        "trait": "Diligence",
+        "description": "Free from monotony, tiredness, or lack of concentration; operates continuously for months without loss of accuracy."
+      },
+      {
+        "trait": "Versatility",
+        "description": "Can perform diverse tasks simultaneously from core banking transactions to digital graphics."
+      },
+      {
+        "trait": "Storage Capacity",
+        "description": "Stores vast volumes of data permanently in secondary storage (terabytes to petabytes)."
+      },
+      {
+        "trait": "No IQ & No Feelings",
+        "description": "Cannot think, judge, or feel autonomously without explicit human algorithmic programming."
+      }
+    ],
+    "fathers_of_computing": [
+      {
+        "person": "Charles Babbage",
+        "title": "Father of the Computer",
+        "contribution": "Invented Difference Engine (1822) and Analytical Engine (1837), which introduced input, processing, memory (store), control, and output."
+      },
+      {
+        "person": "Lady Ada Lovelace (Augusta Ada Byron)",
+        "title": "First Computer Programmer",
+        "contribution": "Wrote the first algorithm intended to be executed on Charles Babbage's Analytical Engine."
+      },
+      {
+        "person": "Alan Turing",
+        "title": "Father of Modern Computer Science & AI",
+        "contribution": "Formulated Turing Machine concept, Turing Test for AI, and designed Bombe machine to crack Enigma code."
+      },
+      {
+        "person": "John von Neumann",
+        "title": "Architect of Stored-Program Architecture",
+        "contribution": "Pioneered Von Neumann Architecture (1945), where data and program instructions share common memory."
+      }
+    ]
+  },
+  "generations": [
+    {
+      "generation": "First Generation (1940 - 1956)",
+      "switching_device": "Vacuum Tubes (Thermionic Valves)",
+      "memory_storage": "Magnetic Drums & Magnetic Core Memory",
+      "language": "Machine Language (0s and 1s) and Assembly Language",
+      "speed_measured": "Milliseconds (10^-3 s)",
+      "characteristics": "Enormous physical size, consumed massive electricity, generated excessive heat, frequent hardware burnouts.",
+      "examples": [
+        "ENIAC (Electronic Numerical Integrator and Computer - First general-purpose electronic computer, built by Eckert & Mauchly)",
+        "EDVAC",
+        "UNIVAC I (Universal Automatic Computer - First commercial computer)",
+        "IBM 701"
+      ],
+      "exam_fact": "ENIAC was developed at the University of Pennsylvania by J. Presper Eckert and John Mauchly."
+    },
+    {
+      "generation": "Second Generation (1956 - 1963)",
+      "switching_device": "Transistors (invented in 1947 at Bell Labs by John Bardeen, Walter Brattain, and William Shockley)",
+      "memory_storage": "Magnetic Core Memory, Magnetic Tape and Disks",
+      "language": "High-Level Languages emerged: FORTRAN (Formula Translation - 1957, by John Backus) and COBOL (Common Business Oriented Language - 1959, led by Grace Hopper)",
+      "speed_measured": "Microseconds (10^-6 s)",
+      "characteristics": "Smaller, faster, cheaper, more energy-efficient and reliable than vacuum tubes.",
+      "examples": [
+        "IBM 1401",
+        "IBM 1620",
+        "CDC 1604",
+        "UNIVAC 1108"
+      ],
+      "exam_fact": "Transistors replaced vacuum tubes; FORTRAN and COBOL were introduced in this generation."
+    },
+    {
+      "generation": "Third Generation (1964 - 1971)",
+      "switching_device": "Integrated Circuits (ICs) - Small Scale Integration (SSI) & Medium Scale Integration (MSI), invented in 1958 by Jack Kilby and Robert Noyce",
+      "memory_storage": "Magnetic Core replaced gradually by Semiconductor RAM",
+      "language": "Advanced High-Level Languages: BASIC, PASCAL, PL/1",
+      "speed_measured": "Nanoseconds (10^-9 s)",
+      "characteristics": "Time-sharing Operating Systems introduced, keyboards and monitors replaced punched cards.",
+      "examples": [
+        "IBM System/360",
+        "PDP-8 (Minicomputer)",
+        "TDC-316"
+      ],
+      "exam_fact": "Silicon chips / Integrated Circuits (ICs) were invented by Jack Kilby."
+    },
+    {
+      "generation": "Fourth Generation (1971 - Present)",
+      "switching_device": "Very Large Scale Integration (VLSI) & Microprocessors (Intel 4004 - world's first single-chip 4-bit microprocessor, 1971 by Ted Hoff & Federico Faggin)",
+      "memory_storage": "Semiconductor Semiconductor RAM/ROM, Hard Disks, Optical Disks",
+      "language": "C, C++, Java, Python, SQL, 4GLs",
+      "speed_measured": "Picoseconds (10^-12 s) to Femtoseconds",
+      "characteristics": "Birth of Personal Computers (PCs), Graphical User Interface (GUI), Internet, distributed computing.",
+      "examples": [
+        "Apple II",
+        "IBM PC (1981)",
+        "CRAY-1 (First commercially successful Supercomputer by Seymour Cray, 1976)"
+      ],
+      "exam_fact": "Intel 4004 was the world's first commercial microprocessor; CRAY-1 was developed by Seymour Cray ('Father of Supercomputing')."
+    },
+    {
+      "generation": "Fifth Generation (Present & Beyond)",
+      "switching_device": "Ultra Large Scale Integration (ULSI), Quantum computing chips, and Optical/Photonic chips",
+      "memory_storage": "High-density SSDs (NVMe), Cloud distributed storage, Holographic memory",
+      "language": "Natural Language Processing (NLP), Python, R, AI frameworks (PyTorch, TensorFlow)",
+      "characteristics": "Artificial Intelligence (AI), Machine Learning, Voice Recognition, Parallel Processing, Quantum Supremacy.",
+      "examples": [
+        "Supercomputers (Frontier, Fugaku, PARAM Siddhi-AI, AIRAWAT)",
+        "Robotics",
+        "Neuromorphic systems"
+      ],
+      "exam_fact": "Fifth generation computers focus on AI, parallel processing, and natural language understanding."
+    }
+  ],
+  "classification": {
+    "by_working_principle": [
+      {
+        "type": "Analog Computer",
+        "definition": "Operates on continuous physical variables such as voltage, pressure, temperature, and current. Used in scientific measurement and speedometers.",
+        "example": "Mercury thermometer, mechanical speedometer, operational amplifiers."
+      },
+      {
+        "type": "Digital Computer",
+        "definition": "Processes data in discrete binary digits (0 and 1). High precision, general purpose, handles arithmetic and logical calculations.",
+        "example": "Laptops, smartphones, bank ATM kiosks, desktops."
+      },
+      {
+        "type": "Hybrid Computer",
+        "definition": "Combines features of both Analog (speed of continuous data measurement) and Digital (precision of numerical calculation).",
+        "example": "Intensive Care Unit (ICU) patient heart monitors, petrol pump fuel meters, flight simulators."
+      }
+    ],
+    "by_size_and_capability": [
+      {
+        "type": "Supercomputer",
+        "definition": "Most powerful, fastest, and most expensive computers designed for massive mathematical processing and scientific simulations.",
+        "speed_unit": "FLOPS (Floating Point Operations Per Second: PetaFLOPS, ExaFLOPS)",
+        "father": "Seymour Cray (Father of Supercomputing). Dr. Vijay Bhatkar is the Father of Indian Supercomputing (PARAM 8000 in 1991).",
+        "applications": "Weather forecasting, nuclear weapon simulations, quantum mechanics, drug discovery.",
+        "examples": "Frontier (USA - world's first verified Exascale supercomputer), Fugaku (Japan), PARAM Siddhi-AI (India), AIRAWAT (India)."
+      },
+      {
+        "type": "Mainframe Computer",
+        "definition": "High-performance enterprise computers designed to support thousands of concurrent users and process massive transactional databases with 99.999% uptime.",
+        "speed_unit": "MIPS (Million Instructions Per Second)",
+        "applications": "Core Banking Solution (CBS) systems at RBI/SBI, insurance claims, airline ticket reservations, census databases.",
+        "examples": "IBM zSeries (z16), UNISYS, Fujitsu ICL."
+      },
+      {
+        "type": "Minicomputer (Midrange Server)",
+        "definition": "Medium-sized multi-user computer lying between mainframes and microcomputers. Can support 4 to 200 users simultaneously.",
+        "applications": "Departmental servers, university research labs, manufacturing control.",
+        "examples": "DEC PDP-11, VAX, IBM AS/400."
+      },
+      {
+        "type": "Microcomputer (Personal Computer - PC)",
+        "definition": "Single-user computer powered by a single microprocessor chip. Most ubiquitous category.",
+        "subtypes": "Desktop, Laptop (Notebook), Tablet, Smartphone, Workstation.",
+        "examples": "Dell Inspiron, MacBook, Lenovo ThinkPad."
+      },
+      {
+        "type": "Embedded System",
+        "definition": "Specialized computer system with a dedicated function embedded within a larger mechanical or electrical system. Runs on a microcontroller or SoC with fixed firmware in ROM.",
+        "applications": "ATM machines, Point of Sale (POS) terminals, washing machines, car engine ECUs, smart TVs.",
+        "examples": "ATM card reader controller, digital microwave timer."
+      }
+    ]
+  }
+}

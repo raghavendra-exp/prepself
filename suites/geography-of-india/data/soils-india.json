@@ -1,0 +1,254 @@
+[
+  {
+    "id": "alluvial",
+    "name": "Alluvial Soil",
+    "hindi": "जलोढ़ मृदा",
+    "sharePercent": 40,
+    "areaSqKm": "1,500,000",
+    "order": "Inceptisols & Entisols",
+    "genesis": "Depositional soil formed by the silt, clay, and sand brought down by Himalayan and Peninsular river systems. Transported (azonal) soil with immature horizons.",
+    "distribution": "Indo-Gangetic-Brahmaputra plains (Punjab, Haryana, UP, Bihar, West Bengal, Assam), coastal deltas (Mahanadi, Godavari, Krishna, Kaveri), and Narmada/Tapi valleys.",
+    "subtypes": [
+      {
+        "name": "Khadar",
+        "desc": "Newer, light-colored, fine alluvium deposited in active annual floodplains. Highly fertile, non-calcareous."
+      },
+      {
+        "name": "Bhangar",
+        "desc": "Older, dark clayey alluvium on elevated river terraces above flood levels. Contains calcareous concretions (Kankar)."
+      }
+    ],
+    "chemistry": {
+      "richIn": [
+        "Potash (K2O)",
+        "Lime (CaO)",
+        "Phosphoric acid (moderate)"
+      ],
+      "deficientIn": [
+        "Nitrogen (N)",
+        "Phosphorus (P)",
+        "Organic Humus"
+      ]
+    },
+    "physicalProperties": "Loamy to clayey-loam texture, highly porous, well-drained, neutral to mildly alkaline pH (6.5–8.4).",
+    "suitableCrops": [
+      "Rice (Paddy)",
+      "Wheat",
+      "Sugarcane",
+      "Jute",
+      "Oilseeds",
+      "Pulses",
+      "Maize"
+    ],
+    "problems": "Over-irrigation in canal colonies causes waterlogging and secondary salinization (Reh/Kallar); riverbank erosion during monsoon floods."
+  },
+  {
+    "id": "black",
+    "name": "Black Soil (Regur / Black Cotton Soil)",
+    "hindi": "काली मृदा (रेगुर)",
+    "sharePercent": 15,
+    "areaSqKm": "546,000",
+    "order": "Vertisols",
+    "genesis": "Formed in-situ by the weathering of basaltic lava rocks of the Deccan Traps (Cretaceous vulcanism) under sub-humid to semi-arid conditions.",
+    "distribution": "Deccan lava plateau: Maharashtra, Madhya Pradesh (Malwa), Gujarat (Kathiawar), Karnataka (northern districts), Telangana, and Andhra Pradesh.",
+    "chemistry": {
+      "richIn": [
+        "Iron (gives dark color)",
+        "Lime",
+        "Calcium",
+        "Potassium",
+        "Magnesium carbonates",
+        "Aluminium"
+      ],
+      "deficientIn": [
+        "Nitrogen",
+        "Phosphorus",
+        "Organic matter"
+      ]
+    },
+    "physicalProperties": "High clay content (>50% montmorillonite clay), exceptionally high moisture retention capacity. Highly sticky when wet; contracts and develops wide, deep cracks when dry (self-ploughing property facilitating aeration).",
+    "suitableCrops": [
+      "Cotton (premier crop)",
+      "Sugarcane",
+      "Soybean (MP)",
+      "Jowar",
+      "Wheat (under irrigation)",
+      "Citrus fruits (Nagpur oranges)"
+    ],
+    "problems": "Extremely difficult to plough when wet; poor drainage in low-lying tracts; cracks increase moisture evaporation during prolonged dry spells."
+  },
+  {
+    "id": "redyellow",
+    "name": "Red & Yellow Soil",
+    "hindi": "लाल एवं पीली मृदा",
+    "sharePercent": 18.5,
+    "areaSqKm": "600,000",
+    "order": "Alfisols & Ultisols",
+    "genesis": "Formed by the weathering of ancient crystalline and metamorphic Archaean rocks (granites, gneisses, schists) under low-rainfall conditions. Red color is due to wide diffusion of ferric iron oxides; turns yellow when hydrated.",
+    "distribution": "Eastern and southern Peninsular plateau: Odisha, Chhattisgarh, Jharkhand (Chota Nagpur), Telangana, Andhra Pradesh, Tamil Nadu, Karnataka, and parts of Bundelkhand and Meghalaya.",
+    "chemistry": {
+      "richIn": [
+        "Potash",
+        "Iron"
+      ],
+      "deficientIn": [
+        "Nitrogen",
+        "Phosphorus",
+        "Humus",
+        "Lime"
+      ]
+    },
+    "physicalProperties": "Porous, friable, sandy to loamy texture on uplands; heavier clayey texture in valley bottoms. Acidic to neutral pH.",
+    "suitableCrops": [
+      "Millets (Ragi, Jowar, Bajra)",
+      "Pulses",
+      "Groundnut",
+      "Tobacco",
+      "Rice (in irrigated valleys)"
+    ],
+    "problems": "Low moisture retention; highly prone to sheet and gully erosion; requires heavy application of nitrogenous and phosphatic fertilizers."
+  },
+  {
+    "id": "laterite",
+    "name": "Laterite Soil",
+    "hindi": "लैटेराइट मृदा",
+    "sharePercent": 4.3,
+    "areaSqKm": "126,000",
+    "order": "Oxisols & Ultisols",
+    "genesis": "Formed under conditions of high temperature and alternating heavy rainfall and dry seasons. Intense leaching (desilication) washes away silica and soluble bases, leaving behind residual iron and aluminium oxides (bauxite/ferrite crust). Name from Latin 'Later' meaning brick.",
+    "distribution": "High summits of Western Ghats (Kerala, Karnataka), Eastern Ghats (Odisha), Rajmahal Hills, Meghalaya Plateau, and parts of MP and Assam.",
+    "chemistry": {
+      "richIn": [
+        "Iron oxide",
+        "Aluminium sesquioxides",
+        "Titanium"
+      ],
+      "deficientIn": [
+        "Silica",
+        "Lime",
+        "Magnesia",
+        "Potash",
+        "Nitrogen",
+        "Phosphoric acid",
+        "Humus"
+      ]
+    },
+    "physicalProperties": "Coarse, highly porous, acidic pH (4.5–5.5). Soft when wet, but hardens irreversibly like a brick upon drying and exposure to air (used for building blocks).",
+    "suitableCrops": [
+      "Cashew nuts",
+      "Tea",
+      "Coffee",
+      "Rubber",
+      "Coconut",
+      "Arecanut",
+      "Cardamom (with organic manuring and fertilizers)"
+    ],
+    "problems": "Acidic, highly leached, poor in plant nutrients; prone to severe water erosion on hill slopes."
+  },
+  {
+    "id": "arid",
+    "name": "Arid / Desert Soil",
+    "hindi": "शुष्क / मरुस्थलीय मृदा",
+    "sharePercent": 4.3,
+    "areaSqKm": "142,000",
+    "order": "Aridisols",
+    "genesis": "Formed under arid and semi-arid conditions characterized by low rainfall, intense heat, and high evaporation. Mechanical disintegration of rocks and aeolian wind deposition dominate over chemical weathering.",
+    "distribution": "Western Rajasthan (Thar), southern Punjab, southern Haryana, and northern Gujarat (Kutch).",
+    "chemistry": {
+      "richIn": [
+        "Soluble salts",
+        "Phosphate (normal levels)"
+      ],
+      "deficientIn": [
+        "Nitrogen",
+        "Organic matter / Humus",
+        "Moisture"
+      ]
+    },
+    "physicalProperties": "Sandy to gravelly texture, low clay content, very high permeability and low water retention. Alkaline pH (7.5–9.2); bottom horizons contain calcium carbonate (Kankar) layers restricting root penetration.",
+    "suitableCrops": [
+      "Bajra (Pearl Millet)",
+      "Guar",
+      "Moth bean",
+      "Barley",
+      "Mustard & Wheat (under canal irrigation like IGNP)"
+    ],
+    "problems": "Severe wind erosion, high salinity, moisture deficiency, and shifting sand dune encroachment."
+  },
+  {
+    "id": "saline",
+    "name": "Saline & Alkaline Soil (Usara / Reh / Kallar)",
+    "hindi": "लवणीय एवं क्षारीय मृदा (ऊसर)",
+    "sharePercent": 2.1,
+    "areaSqKm": "68,000",
+    "order": "Halomorphic soils",
+    "genesis": "Contains large proportions of soluble sodium, potassium, and magnesium salts. Occurs in arid tracts due to high evaporation, in coastal tracts due to seawater inundation, and in canal-irrigated zones due to capillary action and waterlogging.",
+    "distribution": "Sundarbans (saline coastal alluvium), Rann of Kutch, canal-irrigated tracts of Punjab, Haryana, Western UP (locally known as Reh, Kallar, Usar), and coastal deltas.",
+    "chemistry": {
+      "richIn": [
+        "Sodium chloride",
+        "Sodium sulphate",
+        "Sodium carbonate"
+      ],
+      "deficientIn": [
+        "Nitrogen",
+        "Calcium"
+      ]
+    },
+    "physicalProperties": "White efflorescent crust on surface; structureless; alkaline pH (>8.5); impermeable to water and air, preventing germination.",
+    "suitableCrops": [
+      "Generally barren; salt-tolerant crops like Berseem, Dhaincha, and barley can grow after gypsum treatment and drainage leaching."
+    ],
+    "problems": "Total destruction of soil structure; toxic sodium ion concentration; loss of productive agricultural land."
+  },
+  {
+    "id": "peaty",
+    "name": "Peaty & Marshy Soil (Kari)",
+    "hindi": "पीट एवं दलदली मृदा (कारी)",
+    "sharePercent": 1.5,
+    "areaSqKm": "50,000",
+    "order": "Histosols",
+    "genesis": "Formed under conditions of excessive rainfall, high humidity, and continuous waterlogging where slow decomposition of plant residues leads to accumulation of huge amounts of organic matter.",
+    "distribution": "Alappuzha and Kottayam districts of Kerala (locally called 'Kari' soils), coastal Odisha, Sundarbans of West Bengal, and Terai belt of Bihar and Uttarakhand.",
+    "chemistry": {
+      "richIn": [
+        "Organic matter / Humus (40–50%)",
+        "Iron"
+      ],
+      "deficientIn": [
+        "Potash",
+        "Phosphate"
+      ]
+    },
+    "physicalProperties": "Heavy, dark black or bluish-grey color, highly acidic (pH 3.5–4.5), contains soluble ferrous salts and hydrogen sulphide.",
+    "suitableCrops": [
+      "Paddy (Rice cultivation in Kerala's below-sea-level Kuttanad system), Jute, Mangrove vegetation"
+    ],
+    "problems": "Extreme acidity, waterlogging, toxic levels of iron and aluminium compounds."
+  },
+  {
+    "id": "forest",
+    "name": "Forest & Mountain Soil",
+    "hindi": "पर्वतीय एवं वन मृदा",
+    "sharePercent": 8.6,
+    "areaSqKm": "285,000",
+    "order": "Inceptisols & Entisols (Uplands)",
+    "genesis": "Formed in forested and mountainous areas where sufficient rainfall occurs. Soil formation is dominated by mechanical weathering caused by snow, rain, and temperature fluctuations combined with decomposition of organic leaf litter.",
+    "distribution": "Himalayan mountain ranges (Jammu & Kashmir, Ladakh, Himachal Pradesh, Uttarakhand, Sikkim, Arunachal Pradesh) and higher elevations of Western Ghats.",
+    "chemistry": {
+      "richIn": [
+        "Humus (in surface layer under dense forest canopy)"
+      ],
+      "deficientIn": [
+        "Potash",
+        "Phosphorus",
+        "Lime"
+      ]
+    },
+    "physicalProperties": "Loamy and silty on valley floors, but coarse-grained on upper steep slopes; acidic with low humus in snow-covered areas due to podzolization.",
+    "suitableCrops": [
+      "Tea (Darjeeling, Assam), Coffee (Nilgiris), Apple, Pear, Peach orchards, Spices (cardamom, pepper), Maize and Potato"
+    ],
+    "problems": "Thin soil profiles on steep gradients; highly vulnerable to deforestation-induced soil erosion, landslides, and rill washing."
+  }
+]

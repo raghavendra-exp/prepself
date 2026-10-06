@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Shield Background -->
+  <path d="M32 4L56 14V32C56 46 45 56 32 60C19 56 8 46 8 32V14L32 4Z" fill="#0B132B" stroke="#F59E0B" stroke-width="2"/>
+  <!-- Tri-color Slices -->
+  <path d="M32 8L50 16.5V26H14V16.5L32 8Z" fill="#FF9933" opacity="0.9"/>
+  <rect x="14" y="26" width="36" height="10" fill="#FFFFFF"/>
+  <path d="M14 36H50V38C50 46 41 53 32 56C23 53 14 46 14 38V36Z" fill="#138808" opacity="0.9"/>
+  <!-- Ashoka Chakra Symbol in Center -->
+  <circle cx="32" cy="31" r="4.2" stroke="#000080" stroke-width="1" fill="#FFFFFF"/>
+  <!-- Golden Star on top -->
+  <polygon points="32,16 34,22 40,22 35,26 37,32 32,28 27,32 29,26 24,22 30,22" fill="#F59E0B" stroke="#B45309" stroke-width="0.5"/>
+</svg>

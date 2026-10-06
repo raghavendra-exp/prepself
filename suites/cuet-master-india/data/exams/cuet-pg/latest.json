@@ -1,0 +1,31 @@
+{
+  "exam": "CUET-PG",
+  "year": 2026,
+  "duration": "105 minutes (1 hour 45 minutes).",
+  "subjects": [
+    "COQP01 to COQP22 - Common Subjects (COQP11: General Paper/LLB, COQP12: MBA/Management, B.Ed, etc.)",
+    "SCQP01 to SCQP30 - Science Subjects (SCQP09: Computer Science / MCA, SCQP08: Chemistry, SCQP24: Physics, SCQP17: Life Sciences, SCQP19: Mathematics)",
+    "HUQP01 to HUQP26 - Humanities Subjects (HUQP18: Political Science, HUQP09: Economics, HUQP01: History, HUQP20: Psychology, HUQP22: Sociology)",
+    "LAQP01 to LAQP41 - Language Subjects (LAQP01: English, LAQP02: Hindi, LAQP35: Sanskrit)",
+    "MTQP01 to MTQP12 - M.Tech / Higher Engineering Subjects",
+    "ACQP01 to ACQP26 - Acharya Subjects"
+  ],
+  "questionCount": "75 domain-specific Multiple Choice Questions (MCQs) per question paper. All questions are compulsory.",
+  "markingScheme": "+4 for each correct response, -1 for each incorrect response, 0 for unattempted/unanswered questions.",
+  "mode": "Computer Based Test (CBT) only across multiple shifts.",
+  "eligibility": "Candidates must have passed a Bachelor's degree or equivalent examination or be appearing in the final year qualifying examination in 2026. For appearing in the CUET (PG) 2026, there is no age limit for the candidates. However, candidates are required to fulfill the specific age and eligibility criteria of the University/Institution in which they are desirous of taking admission.",
+  "maxSubjectLimit": 4,
+  "officialSource": "https://exams.nta.ac.in/CUET-PG/",
+  "lastVerified": "2026-03-15",
+  "sections": [
+    {
+      "name": "Domain / Discipline Knowledge",
+      "description": "75 questions entirely focused on domain syllabus, core concepts, analytical reasoning, and specialized discipline topics.",
+      "questionsTotal": 75,
+      "questionsToAttempt": 75,
+      "durationMinutes": 105,
+      "marksPerQuestion": 4,
+      "negativeMarking": 1
+    }
+  ]
+}

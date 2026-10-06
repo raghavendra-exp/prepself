@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Free AI prompt generator for exam trend analysis — pick any Indian competitive exam, choose how many years back, and get a ready-to-use AI prompt covering topic frequency, difficulty trends, and predictions.">
+<meta name="author" content="Raghavbegins">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Exam Trend Analysis Prompt Generator | Raghavbegins">
+<meta property="og:description" content="Generate an AI prompt analysing N years of PYQ trends for any Indian competitive exam — Banking, UPSC, SSC, Railway, JEE, NEET, GATE, Law and more.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://raghavendra-exp.github.io/prepself/trend-analysis-generator.html">
+<link rel="canonical" href="https://raghavendra-exp.github.io/prepself/trend-analysis-generator.html">
+<title>Exam Trend Analysis Generator — N-Year PYQ Trends for Any Exam | Raghavbegins</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-B0Z2G21W4F");</script>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --d1:#050912;--d2:#0A1120;--d3:#111B2E;
+  --pr:#4F46E5;--pr2:#6366F1;--pr3:#818CF8;
+  --cy:#06B6D4;--cy2:#22D3EE;
+  --gr:#10B981;--gr2:#34D399;
+  --ac:#F59E0B;--rd:#EF4444;
+  --txt:#0F172A;--txt2:#475569;--txt3:#94A3B8;
+  --bdr:#E2E8F0;--sf:#fff;--sf2:#F8FAFC;
+  --r:14px;--rl:20px;
+  --font-mono:ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;
+}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--sf2);color:var(--txt2)}
+a{color:inherit}
+@keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.4)}}
+
+/* Header */
+.hdr{position:sticky;top:0;z-index:500;background:rgba(5,9,18,.9);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.07)}
+.hdr-inner{max-width:1100px;margin:0 auto;padding:0 22px;height:58px;display:flex;align-items:center;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;flex:1;min-width:0;text-decoration:none}
+.logo-badge{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--pr),var(--cy));display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.logo h1{font-size:13px;font-weight:800;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hdr-back{padding:6px 14px;border-radius:18px;font-size:12px;font-weight:700;color:rgba(255,255,255,.8);border:1px solid rgba(255,255,255,.14);text-decoration:none;flex-shrink:0}
+.hdr-back:hover{background:rgba(255,255,255,.08)}
+
+/* Hero */
+.hero{background:linear-gradient(160deg,var(--d1),var(--d3));padding:52px 20px 44px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 30% 20%,rgba(79,70,229,.28),transparent),radial-gradient(ellipse 60% 60% at 80% 60%,rgba(6,182,212,.18),transparent)}
+.hero-in{position:relative;max-width:680px;margin:0 auto}
+.hero-tag{display:inline-flex;align-items:center;gap:7px;padding:6px 16px;border-radius:22px;background:rgba(52,211,153,.12);border:1px solid rgba(52,211,153,.3);font-size:11.5px;font-weight:700;color:var(--gr2);margin-bottom:18px}
+.hero-tag .d{width:6px;height:6px;border-radius:50%;background:var(--gr2);animation:blink 1.6s infinite}
+.hero h2{font-size:clamp(24px,4vw,36px);font-weight:900;color:#fff;letter-spacing:-.8px;margin:0 0 12px;line-height:1.2}
+.hero h2 span{background:linear-gradient(135deg,var(--cy2),var(--gr2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero p{font-size:14.5px;color:rgba(255,255,255,.55);line-height:1.7;margin:0}
+
+/* Wrap */
+.wrap{max-width:820px;margin:0 auto;padding:36px 20px 70px}
+.card{background:var(--sf);border:1.5px solid var(--bdr);border-radius:var(--rl);padding:26px 28px;box-shadow:0 1px 10px rgba(15,23,42,.06);margin-bottom:20px}
+.card h3{font-size:15px;font-weight:800;color:var(--txt);margin:0 0 4px}
+.card .sub{font-size:12.5px;color:var(--txt3);margin-bottom:18px}
+
+/* Form controls */
+.field{margin-bottom:18px}
+.field label{display:block;font-size:12.5px;font-weight:700;color:var(--txt);margin-bottom:7px}
+select,input[type="text"],input[type="number"]{
+  width:100%;padding:11px 14px;border-radius:10px;border:1.5px solid var(--bdr);
+  font-size:14px;font-family:inherit;color:var(--txt);background:var(--sf2);transition:border-color .15s;
+}
+select:focus,input:focus{outline:none;border-color:var(--pr3)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.years-wrap{display:flex;align-items:center;gap:14px}
+.years-wrap input[type="range"]{flex:1;accent-color:var(--pr)}
+.years-badge{font-family:var(--font-mono);font-size:15px;font-weight:800;color:var(--pr);background:#EEF2FF;padding:6px 14px;border-radius:10px;min-width:64px;text-align:center;flex-shrink:0}
+
+.chk-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:9px}
+.chk-item{display:flex;align-items:flex-start;gap:9px;padding:10px 12px;border:1.5px solid var(--bdr);border-radius:10px;cursor:pointer;transition:all .15s;background:var(--sf2)}
+.chk-item:hover{border-color:var(--pr3)}
+.chk-item input{margin-top:2px;accent-color:var(--pr);flex-shrink:0}
+.chk-item span{font-size:12.5px;color:var(--txt2);line-height:1.5}
+.chk-item strong{color:var(--txt);display:block;font-size:12.5px}
+
+/* 3D generate button */
+.btn-gen{
+  width:100%;padding:15px 24px;border-radius:14px;border:none;cursor:pointer;
+  font-size:15px;font-weight:800;color:#fff;font-family:inherit;
+  background:linear-gradient(135deg,var(--pr2),var(--cy));
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.4),inset 0 -2px 3px rgba(0,0,0,.15),0 6px 0 #33249A,0 6px 14px rgba(0,0,0,.25),0 14px 26px rgba(79,70,229,.35);
+  transition:transform .12s,box-shadow .12s;transform:translateY(0);
+}
+.btn-gen:hover{transform:translateY(-2px)}
+.btn-gen:active{transform:translateY(4px);box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 1px 0 #33249A,0 2px 6px rgba(0,0,0,.2)}
+
+/* Output */
+.output-wrap{display:none}
+.output-wrap.show{display:block}
+.output-box{
+  background:var(--d1);color:#E2E8F0;border-radius:14px;padding:20px 22px;
+  font-family:var(--font-mono);font-size:12.5px;line-height:1.8;white-space:pre-wrap;
+  max-height:420px;overflow-y:auto;border:1px solid rgba(255,255,255,.08);
+}
+.output-actions{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+.btn-copy{
+  padding:10px 20px;border-radius:22px;border:1.5px solid var(--bdr);background:var(--sf);
+  color:var(--txt);font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .15s;
+}
+.btn-copy:hover{border-color:var(--pr3);color:var(--pr)}
+.btn-copy.copied{background:var(--gr2);color:#fff;border-color:var(--gr2)}
+
+.ai-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:8px}
+.ai-btn{
+  display:flex;align-items:center;justify-content:center;gap:7px;padding:11px;border-radius:12px;
+  border:1.5px solid var(--bdr);background:var(--sf2);color:var(--txt);text-decoration:none;
+  font-size:12.5px;font-weight:700;transition:all .15s;
+}
+.ai-btn:hover{border-color:var(--pr3);background:#EEF2FF;transform:translateY(-2px)}
+
+.toast{position:fixed;bottom:22px;right:20px;background:var(--d1);color:#fff;padding:11px 18px;border-radius:12px;font-size:13px;font-weight:600;box-shadow:0 10px 30px rgba(0,0,0,.3);transform:translateY(80px);opacity:0;transition:all .28s;z-index:999;border-left:3px solid var(--gr2)}
+.toast.show{transform:translateY(0);opacity:1}
+
+.ft{background:var(--d1);padding:22px 20px;text-align:center;margin-top:20px}
+.ft p{font-size:11px;color:rgba(255,255,255,.35);margin:4px 0}
+.ft a{color:rgba(255,255,255,.55);text-decoration:none}
+.ft a:hover{color:#fff}
+
+@media(max-width:760px){.chk-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.row2,.chk-grid,.ai-grid{grid-template-columns:1fr}}
+</style>
+  <link rel="stylesheet" href="css/modern.css">
+</head>
+<body>
+<script>try{var _rv=JSON.parse(localStorage.getItem('rb_recent_tools')||'[]');var _href=location.pathname.split('/').pop()||'index.html';_rv=_rv.filter(function(t){return t.href!==_href;});_rv.unshift({href:_href,ts:Date.now()});_rv=_rv.slice(0,6);localStorage.setItem('rb_recent_tools',JSON.stringify(_rv));}catch(e){}</script>
+
+<header class="hdr">
+  <div class="hdr-inner">
+    <a class="logo" href="./">
+      <div class="logo-badge">&#x1F4C8;</div>
+      <h1>Exam Trend Analysis Generator</h1>
+    </a>
+    <a class="hdr-back" href="./">&#8592; All Tools</a>
+    <a class="hdr-back" href="quiz-simulator.html" style="margin-left:6px;color:#10B981;font-weight:700">&#x1F3AF; <span>Mock Lab</span></a>
+    <div class="hdr-tools" style="margin-left:auto;display:flex;gap:6px;align-items:center">
+      <button class="be-btn-tool" onclick="BE_NAV.openSpotlight()" title="Search tools (Ctrl+K)">&#x1F50D; <span class="be-kbd-badge">Ctrl K</span></button>
+      <button class="be-btn-tool" onclick="BE_NAV.openCalc()" title="Exam Calculator">&#x1F9EE;</button>
+      <button class="be-btn-tool" onclick="BE_NAV.toggleTheme()" id="themeToggleBtn" title="Toggle dark/light theme">&#x1F319;</button>
+      <button class="be-btn-tool be-hamburger" onclick="BE_NAV.toggleDrawer()" title="Menu">&#x2630;</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-in">
+    <div class="hero-tag"><span class="d"></span> Works for all 80+ exams</div>
+    <h2>N-Year <span>Trend Analysis</span> Prompt Generator</h2>
+    <p>Pick any exam, choose how many years back to analyse, and get a ready-to-paste AI prompt that breaks down topic frequency, difficulty shifts, and predicts what's likely to come next.</p>
+  </div>
+</section>
+
+<main class="wrap">
+
+  <div class="card">
+    <h3>&#x1F3AF; Step 1 — Choose your exam</h3>
+    <div class="sub">Select the category, then narrow it down as much or as little as you like</div>
+    <div class="row2">
+      <div class="field">
+        <label>Exam Category</label>
+        <select id="examCategory">
+          <option value="Banking (SBI PO/Clerk, IBPS PO/Clerk/SO, RBI Grade B)">&#x1F3E6; Banking</option>
+          <option value="Railway (RRB NTPC, Group D, ALP, JE)">&#x1F686; Railway</option>
+          <option value="UPSC Civil Services (IAS/IPS/IFS)">&#x1F3DB;&#xFE0F; UPSC / Civil Services</option>
+          <option value="SSC (CGL, CHSL, MTS, JE)">&#x1F4CB; SSC</option>
+          <option value="JEE (Mains &amp; Advanced)">&#x2697;&#xFE0F; JEE</option>
+          <option value="NEET UG">&#x1F9EC; NEET</option>
+          <option value="MBA Entrance (CAT, XAT, SNAP)">&#x1F4BC; MBA / CAT</option>
+          <option value="State PSC">&#x1F5FA;&#xFE0F; State PSC</option>
+          <option value="Teaching (CTET, DSSSB, KVS)">&#x1F4DA; Teaching</option>
+          <option value="Defence (NDA, AFCAT, Agniveer)">&#x1F396;&#xFE0F; Defence</option>
+          <option value="GATE / PSU">&#x2699;&#xFE0F; GATE / PSU</option>
+          <option value="Law Entrance (CLAT, AILET, LSAT)">&#x2696;&#xFE0F; Law Entrance</option>
+          <option value="Other Indian competitive exam">&#x1F4DD; Other / Custom</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Specific Exam Name <span style="font-weight:400;color:var(--txt3)">(optional)</span></label>
+        <input type="text" id="examName" placeholder="e.g. SBI PO, CLAT, GATE CS">
+      </div>
+    </div>
+    <div class="row2">
+      <div class="field">
+        <label>Subject / Section <span style="font-weight:400;color:var(--txt3)">(optional)</span></label>
+        <input type="text" id="examSubject" list="subjectSuggestions" placeholder="e.g. Quantitative Aptitude, Legal Reasoning">
+        <datalist id="subjectSuggestions">
+          <option value="Quantitative Aptitude">
+          <option value="Reasoning Ability">
+          <option value="English Language">
+          <option value="General Awareness">
+          <option value="Static GK">
+          <option value="Current Affairs">
+          <option value="Physics">
+          <option value="Chemistry">
+          <option value="Mathematics">
+          <option value="Biology">
+          <option value="Legal Reasoning">
+          <option value="Logical Reasoning">
+          <option value="Computer Knowledge">
+          <option value="General Studies">
+          <option value="Optional Subject">
+        </datalist>
+      </div>
+      <div class="field" style="margin-bottom:0">
+        <label>Topic / Chapter <span style="font-weight:400;color:var(--txt3)">(optional — narrows it further)</span></label>
+        <input type="text" id="examTopic" placeholder="e.g. Percentage, Time &amp; Work, Comprehension">
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>&#x1F4C5; Step 2 — How many years back?</h3>
+    <div class="sub">Drag to choose the trend window (3–20 years)</div>
+    <div class="field" style="margin-bottom:0">
+      <div class="years-wrap">
+        <input type="range" id="yearsSlider" min="3" max="20" value="10">
+        <div class="years-badge" id="yearsBadge">10 yrs</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>&#x1F50D; Step 3 — What should the analysis cover?</h3>
+    <div class="sub">All are on by default — untick anything you don't need</div>
+    <div class="chk-grid">
+      <label class="chk-item"><input type="checkbox" checked data-k="freq"><span><strong>Topic-wise frequency</strong>Which chapters appeared most, year by year</span></label>
+      <label class="chk-item"><input type="checkbox" checked data-k="diff"><span><strong>Difficulty trend</strong>Has the exam gotten easier or harder?</span></label>
+      <label class="chk-item"><input type="checkbox" checked data-k="marks"><span><strong>Marks distribution shift</strong>Section-wise weightage changes</span></label>
+      <label class="chk-item"><input type="checkbox" checked data-k="repeat"><span><strong>Repeated question patterns</strong>Concepts tested again and again</span></label>
+      <label class="chk-item"><input type="checkbox" checked data-k="emerging"><span><strong>Emerging topics</strong>New areas only appearing in recent years</span></label>
+      <label class="chk-item"><input type="checkbox" checked data-k="predict"><span><strong>Next-cycle prediction</strong>Data-backed forecast for the upcoming exam</span></label>
+      <label class="chk-item"><input type="checkbox" checked data-k="speed"><span><strong>Speed &amp; time analysis</strong>How time pressure per question/section has changed</span></label>
+      <label class="chk-item"><input type="checkbox" checked data-k="advantage"><span><strong>Advantages of this trend</strong>How knowing this trend helps your preparation</span></label>
+      <label class="chk-item"><input type="checkbox" checked data-k="drawback"><span><strong>Drawbacks &amp; limitations</strong>Where trend-based prep can mislead you</span></label>
+    </div>
+  </div>
+
+  <button class="btn-gen" id="genBtn">&#x2728; Generate Trend Analysis Prompt</button>
+
+  <div class="card output-wrap" id="outputWrap" style="margin-top:20px">
+    <h3>&#x1F4CB; Your Prompt</h3>
+    <div class="sub">Copy this, or open directly in your favourite AI</div>
+    <div class="output-box" id="outputBox"></div>
+    <div class="output-actions">
+      <button class="btn-copy" id="copyBtn">&#x1F4CB; Copy Prompt</button>
+    </div>
+    <div class="ai-grid">
+      <a href="#" class="ai-btn" data-ai="claude">&#x1F916; Claude</a>
+      <a href="#" class="ai-btn" data-ai="chatgpt">&#x1F4AC; ChatGPT</a>
+      <a href="#" class="ai-btn" data-ai="gemini">&#x2728; Gemini</a>
+      <a href="#" class="ai-btn" data-ai="perplexity">&#x1F50D; Perplexity</a>
+      <a href="#" class="ai-btn" data-ai="copilot">&#x1FA9F; Copilot</a>
+      <a href="#" class="ai-btn" data-ai="metaai">&#x1F310; Meta AI</a>
+    </div>
+  </div>
+
+</main>
+
+<footer class="ft">
+  <p><a href="./">&#8592; All Exam Tools</a> &middot; <a href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener" style="color:#C084FC;font-weight:700">&#x1F468;&#x200D;&#x1F4BB; Creator Profile</a> &middot; <a href="contact.html">Contact</a> &middot; <a href="privacy-policy.html">Privacy Policy</a></p>
+  <p>&#169; 2025&ndash;2026 <a href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Raghavbegins (Raghavendra)</a> &middot; India &middot; Free educational platform</p>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+  var yearsSlider = document.getElementById("yearsSlider");
+  var yearsBadge  = document.getElementById("yearsBadge");
+  yearsSlider.addEventListener("input", function(){
+    yearsBadge.textContent = yearsSlider.value + " yrs";
+  });
+
+  var AI_URLS = {
+    claude: "https://claude.ai/new",
+    chatgpt: "https://chat.openai.com/",
+    gemini: "https://gemini.google.com/",
+    perplexity: "https://www.perplexity.ai/",
+    copilot: "https://copilot.microsoft.com/",
+    metaai: "https://www.meta.ai/"
+  };
+
+  function buildPrompt(){
+    var category = document.getElementById("examCategory").value;
+    var nameField = document.getElementById("examName").value.trim();
+    var subjectField = document.getElementById("examSubject").value.trim();
+    var topicField = document.getElementById("examTopic").value.trim();
+    var examLabel = nameField ? (nameField + " (" + category + ")") : category;
+    var years = yearsSlider.value;
+    var thisYear = new Date().getFullYear();
+    var fromYear = thisYear - parseInt(years, 10);
+
+    var scopeLine = "";
+    if (subjectField && topicField){
+      scopeLine = "Focus specifically on the **" + subjectField + "** section, and within it, the **" + topicField + "** topic/chapter.\n\n";
+    } else if (subjectField){
+      scopeLine = "Focus specifically on the **" + subjectField + "** section of the exam.\n\n";
+    } else if (topicField){
+      scopeLine = "Focus specifically on the topic/chapter: **" + topicField + "**.\n\n";
+    }
+
+    var checks = document.querySelectorAll(".chk-item input[type=checkbox]");
+    var wants = {};
+    checks.forEach(function(c){ wants[c.dataset.k] = c.checked; });
+
+    var points = [];
+    var n = 1;
+    if (wants.freq)      points.push(n++ + ". **Topic-wise frequency analysis** — list which chapters/topics appeared most often each year from " + fromYear + " to " + thisYear + ", and how this emphasis has shifted over time.");
+    if (wants.diff)      points.push(n++ + ". **Difficulty level trend** — has the exam gotten easier or harder across these " + years + " years? Give specific evidence (question complexity, time pressure, elimination rate).");
+    if (wants.marks)     points.push(n++ + ". **Marks / weightage distribution** — how has the marks allocation across sections changed over this period?");
+    if (wants.repeat)    points.push(n++ + ". **Repeated question patterns** — identify concepts, question types, or specific themes that have been tested repeatedly across the " + years + "-year window.");
+    if (wants.emerging)  points.push(n++ + ". **Emerging topics** — highlight any topics or question styles that only started appearing in the more recent years and were absent earlier.");
+    if (wants.speed)     points.push(n++ + ". **Speed &amp; time analysis** — how has the time pressure per question or per section changed across these years? Has the number of questions, section timing, or overall difficulty-to-time ratio shifted?");
+    if (wants.predict)   points.push(n++ + ". **Data-backed prediction** — based on everything above, predict which topics are most likely to be heavily tested in the next exam cycle, and explain your reasoning.");
+    if (wants.advantage) points.push(n++ + ". **Advantages of this trend analysis** — explain concretely how knowing these " + years + "-year trends should change a student's preparation strategy, and what edge it gives them over students who don't study trends.");
+    if (wants.drawback)  points.push(n++ + ". **Drawbacks &amp; limitations** — be honest about where trend-based prediction can mislead a student (e.g. exam pattern changes suddenly, small sample sizes, examiner intentionally breaking patterns) so I don't over-rely on this analysis alone.");
+
+    var prompt =
+"Act as an expert exam analyst specialising in the Indian competitive exam: " + examLabel + ".\n\n" +
+scopeLine +
+"I need a detailed TREND ANALYSIS of " + examLabel + " question papers over the last " + years + " years (approximately " + fromYear + " to " + thisYear + ").\n\n" +
+"Please cover the following in your analysis:\n\n" +
+points.join("\n\n") + "\n\n" +
+"Format your response with:\n" +
+"- A year-by-year breakdown table where the data allows it\n" +
+"- A clear summary of the 3-5 most important trends you found\n" +
+"- A prioritized study focus list for a student preparing for the next attempt, based specifically on this " + years + "-year trend analysis\n\n" +
+"Be specific and cite actual patterns rather than generic advice. If you are not fully certain about a particular year's exact paper, say so rather than guessing, and focus on the years/trends you can speak to with confidence.";
+
+    return prompt;
+  }
+
+  document.getElementById("genBtn").addEventListener("click", function(){
+    var prompt = buildPrompt();
+    document.getElementById("outputBox").textContent = prompt;
+    document.getElementById("outputWrap").classList.add("show");
+    document.getElementById("outputWrap").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  document.getElementById("copyBtn").addEventListener("click", function(){
+    var text = document.getElementById("outputBox").textContent;
+    navigator.clipboard.writeText(text).then(function(){
+      var btn = document.getElementById("copyBtn");
+      btn.textContent = "✅ Copied!";
+      btn.classList.add("copied");
+      showToast("Prompt copied to clipboard!");
+      setTimeout(function(){
+        btn.textContent = "📋 Copy Prompt";
+        btn.classList.remove("copied");
+      }, 2000);
+    }).catch(function(){
+      showToast("Couldn't copy — please select and copy manually.");
+    });
+  });
+
+  document.querySelectorAll(".ai-btn").forEach(function(btn){
+    btn.addEventListener("click", function(e){
+      e.preventDefault();
+      var text = document.getElementById("outputBox").textContent;
+      if (!text){ showToast("Generate a prompt first!"); return; }
+      navigator.clipboard.writeText(text).then(function(){
+        showToast("Prompt copied — opening " + btn.textContent.trim() + "...");
+      }).catch(function(){});
+      window.open(AI_URLS[btn.dataset.ai], "_blank", "noopener");
+    });
+  });
+
+  function showToast(msg){
+    var t = document.getElementById("toast");
+    t.textContent = msg;
+    t.classList.add("show");
+    setTimeout(function(){ t.classList.remove("show"); }, 2800);
+  }
+})();
+</script>
+
+<!-- Firebase SDK -->
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-analytics.js";
+  const firebaseConfig = {
+    apiKey: "AIzaSyCumDxKiDMd72dRmY6igXXxOypJe1JvD0g",
+    authDomain: "bharatexam-d477c.firebaseapp.com",
+    projectId: "bharatexam-d477c",
+    storageBucket: "bharatexam-d477c.firebasestorage.app",
+    messagingSenderId: "977099665337",
+    appId: "1:977099665337:web:6c9fc3e3abd15e67929068",
+    measurementId: "G-B0Z2G21W4F"
+  };
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+<script src="js/nav.js"></script>
+</body>
+</html>

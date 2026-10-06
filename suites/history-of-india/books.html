@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The 10 Canonical Textbooks Study Hub — Complete History of India</title>
+<meta name="description" content="Comprehensive study hub synthesizing the 10 canonical textbooks for UPSC CSE & UPPSC: NCERTs (Class 6-12), R.S. Sharma, Upinder Singh, Satish Chandra, Spectrum, Bipan Chandra, Nitin Singhania, and Norman Lowe.">
+<link rel="stylesheet" href="css/style.css">
+<style>
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 26px;
+  margin-top: 24px;
+}
+@media (max-width: 768px) {
+  .books-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.book-card {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 26px 28px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.book-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--seal);
+}
+.book-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  gap: 12px;
+}
+.book-icon {
+  font-size: 2.2rem;
+  line-height: 1;
+}
+.book-badge {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.book-title {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ink);
+  margin: 0 0 4px;
+}
+.book-author {
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+  color: var(--seal);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.book-syllabus {
+  font-size: 0.8rem;
+  background: var(--bg-sunken);
+  padding: 6px 12px;
+  border-radius: var(--radius);
+  color: var(--ink-soft);
+  margin-bottom: 14px;
+  border: 1px solid var(--line-soft);
+}
+.book-desc {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+  flex-grow: 1;
+}
+.book-chapters {
+  background: var(--bg);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 18px;
+}
+.book-chapters h4 {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-faint);
+  margin: 0 0 8px;
+}
+.book-chapters ul {
+  padding-left: 1.3em;
+  margin: 0;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+.book-chapters li {
+  margin-bottom: 4px;
+}
+.book-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding-top: 14px;
+  border-top: 1px solid var(--line-soft);
+}
+.book-actions .btn {
+  flex: 1 1 calc(50% - 4px);
+  text-align: center;
+  font-size: 0.82rem;
+  padding: 7px 10px;
+}
+.book-pdf-box {
+  background: color-mix(in srgb, var(--seal-tint) 28%, var(--bg));
+  border: 1px solid color-mix(in srgb, var(--seal) 25%, var(--line));
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  margin-bottom: 16px;
+}
+.pdf-box-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.pdf-tag {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--seal);
+  letter-spacing: 0.05em;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.pdf-source {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+}
+.pdf-links-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.btn-pdf {
+  background: var(--seal);
+  color: #fff !important;
+  font-size: 0.8rem;
+  padding: 7px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+  border: 1px solid var(--seal-strong);
+}
+.btn-pdf:hover {
+  background: var(--seal-strong);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow);
+}
+.btn-pdf-sub {
+  background: var(--bg-raised);
+  color: var(--ink);
+  font-size: 0.76rem;
+  padding: 6px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  border: 1px solid var(--line);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.15s ease;
+}
+.btn-pdf-sub:hover {
+  border-color: var(--seal);
+  color: var(--seal);
+  background: var(--bg-sunken);
+}
+[data-theme="dark"] .btn-pdf {
+  background: #b94444;
+  color: #fff !important;
+  border-color: #d96a6a;
+}
+[data-theme="dark"] .btn-pdf:hover {
+  background: #c95555;
+}
+.pdf-vault-banner {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--seal);
+  border-radius: var(--radius-lg);
+  padding: 20px 24px;
+  margin: 18px 0 24px;
+}
+</style>
+  <!-- Google Analytics Tracking (G-B0Z2G21W4F) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B0Z2G21W4F');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="site-nav" id="siteNav"></nav>
+
+<main id="main">
+  <div class="wrap"><div class="breadcrumb" id="breadcrumb"></div></div>
+
+  <header class="section" style="padding-bottom:10px;">
+    <div class="wrap">
+      <span class="eyebrow">UPSC CSE &bull; UPPSC GS-1, 5, 6 &bull; Canonical Textbooks Synthesis</span>
+      <h1 style="font-size:clamp(2rem,4.4vw,3.1rem);">The Canonical Textbooks Study Hub (15 Master Books)</h1>
+      <p class="section-desc" style="font-size:1.05rem; max-width:80ch; margin-bottom:20px;">
+        Every single concept, chronological period, art tradition, sociological dimension, and practice question across this platform is rigorously mapped to the 15 canonical standard textbooks recommended by toppers and faculty for UPSC Civil Services and State Public Service examinations. Explore chapter summaries, high-yield thematic nodes, direct open-access PDF downloads, and launch targeted Prelims MCQs and Mains answer writing drills directly by book.
+      </p>
+
+      <!-- PDF Download & Digital Vault Banner -->
+      <div class="pdf-vault-banner" id="pdf-vault">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:12px;">
+          <div>
+            <h3 style="margin:0 0 4px; font-size:1.15rem; display:flex; align-items:center; gap:8px;">
+              <span>📥</span> Direct PDF Books &amp; Open-Access Digital Vault
+            </h3>
+            <p style="margin:0; font-size:.9rem; color:var(--ink-soft);">
+              Instant 1-click access to official NCERT e-Textbooks (Class 6–12), Ministry of Culture CCRT compendiums, and verified open-access digitized editions preserved on the Internet Archive and National Digital Library.
+            </p>
+          </div>
+          <a href="https://ncert.nic.in/textbook.php" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="background:var(--seal); border-color:var(--seal-strong);">
+            🌐 Official NCERT e-Textbook Portal ↗
+          </a>
+        </div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; font-size:.82rem;">
+          <a href="https://ncert.nic.in/textbook.php" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📘 NCERT ePathshala Portal ↗</a>
+          <a href="https://archive.org/details/dli.ernet.4087" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏺 R.S. Sharma Ancient India PDF ↗</a>
+          <a href="https://archive.org/details/dli.ernet.4039" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">⚔️ Satish Chandra Medieval India PDF ↗</a>
+          <a href="https://archive.org/details/indias-struggle-for-independence_202106" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🇮🇳 Bipan Chandra Struggle for Independence PDF ↗</a>
+          <a href="https://archive.org/search?query=%22A+Brief+History+of+Modern+India%22+Rajiv+Ahir" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📖 Spectrum Modern India Reader ↗</a>
+          <a href="https://ncert.nic.in/textbook.php?kefa1=0-8" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🎨 NCERT Class 11 Fine Arts PDF ↗</a>
+          <a href="https://ccrtindia.gov.in/" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ CCRT Cultural Compendiums ↗</a>
+          <a href="https://ncert.nic.in/textbook.php?lesy1=0-7" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">👥 NCERT Indian Society PDF ↗</a>
+          <a href="https://archive.org/search?query=%22Mastering+Modern+World+History%22+Norman+Lowe" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🌍 Norman Lowe World History PDF ↗</a>
+          <a href="https://archive.org/search?query=%22India+After+Gandhi%22+Ramachandra+Guha" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🕊️ India After Gandhi Reader ↗</a>
+        </div>
+      </div>
+
+      <div class="filter-bar" id="booksFilterBar">
+        <button class="filter-chip active" onclick="filterBooks('all', this)">All 15 Books (15)</button>
+        <button class="filter-chip" onclick="filterBooks('ncert', this)">NCERT Foundations (5)</button>
+        <button class="filter-chip" onclick="filterBooks('ancient', this)">Ancient India (2)</button>
+        <button class="filter-chip" onclick="filterBooks('medieval', this)">Medieval India (1)</button>
+        <button class="filter-chip" onclick="filterBooks('modern', this)">Modern India (3)</button>
+        <button class="filter-chip" onclick="filterBooks('post-independence', this)">Post-Independence (1)</button>
+        <button class="filter-chip" onclick="filterBooks('art', this)">Art &amp; Culture (2)</button>
+        <button class="filter-chip" onclick="filterBooks('society', this)">Indian Society (2)</button>
+        <button class="filter-chip" onclick="filterBooks('world', this)">World History (1)</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="section" style="padding-top:14px;">
+    <div class="wrap">
+      <div class="books-grid" id="booksContainer">
+
+        <!-- Book 1: NCERT Class 6-8 Our Pasts -->
+        <div class="book-card" data-category="ncert">
+          <div class="book-header">
+            <span class="book-icon">📘</span>
+            <span class="book-badge" style="background:#e0f2fe; color:#0369a1;">NCERT Foundation</span>
+          </div>
+          <h2 class="book-title">Our Pasts (Parts I, II, &amp; III)</h2>
+          <div class="book-author">NCERT Class 6, 7, and 8</div>
+          <div class="book-syllabus">Target: UPSC Prelims &bull; Archaeological Foundations &bull; Early Feudal Roots</div>
+          <p class="book-desc">
+            The indispensable gateway to Indian history. Builds foundational clarity on pre-historic hunter-gatherers, the earliest cities (Harappa), janapadas, Ashokan statecraft, early medieval temples, Delhi Sultanate, Mughal administrative nobility, and the arrival of the East India Company.
+          </p>
+          <div class="book-chapters">
+            <h4>Core UPSC Concepts &amp; Key Themes</h4>
+            <ul>
+              <li><strong>Class 6:</strong> Burzahom pit-dwellings, Mehrgarh neolithic farming, Dholavira &amp; Lothal dockyard, Vedic Jana vs Janapada.</li>
+              <li><strong>Class 7:</strong> Chola Kudavolai village elections, Mansabdari &amp; Jagirdari under Akbar, Shahna-i-Mandi, Bhakti saint-poets.</li>
+              <li><strong>Class 8:</strong> Battle of Plassey &amp; Buxar, 1857 Revolt epicenters, De-industrialization of traditional handlooms, Wood's Despatch.</li>
+            </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Official e-Textbook PDFs</span>
+              <span class="pdf-source">NCERT ePathshala Portal</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://ncert.nic.in/textbook.php?fess1=0-10" target="_blank" rel="noopener noreferrer" class="btn-pdf">📘 Class 6: Our Pasts I PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?gess1=0-8" target="_blank" rel="noopener noreferrer" class="btn-pdf">📘 Class 7: Our Pasts II PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?hess1=0-8" target="_blank" rel="noopener noreferrer" class="btn-pdf">📘 Class 8: Our Pasts III PDF ↗</a>
+              <a href="https://archive.org/search?query=title%3A%22Our+Pasts%22+creator%3A%22NCERT%22" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ Archive Digital Copies ↗</a>
+            </div>
+          </div>
+          <div class="book-actions">
+            <a href="practice.html?book=ncert" class="btn btn-primary">🎯 Prelims MCQs</a>
+            <a href="practice.html?mode=mains&book=ncert" class="btn btn-outline">✍️ Mains Qs</a>
+            <a href="timeline.html#indus-valley-civilization" class="btn btn-outline">⏱️ Timeline</a>
+            <a href="map.html" class="btn btn-outline">🗺️ Sites Map</a>
+          </div>
+        </div>
+
+        <!-- Book 2: NCERT Class 9-10 Contemporary World -->
+        <div class="book-card" data-category="ncert world">
+          <div class="book-header">
+            <span class="book-icon">🌍</span>
+            <span class="book-badge" style="background:#fef3c7; color:#b45309;">World &amp; Modern</span>
+          </div>
+          <h2 class="book-title">India &amp; the Contemporary World (I &amp; II)</h2>
+          <div class="book-author">NCERT Class 9 and 10</div>
+          <div class="book-syllabus">Target: UPSC GS-1 World History &bull; Modern Nationalism &bull; Industrialization</div>
+          <p class="book-desc">
+            Pivotal textbook for conceptualizing world history revolutions and global modernities. Covers the French Revolution, the Russian Revolution, the rise of Nazism, the print culture revolution, and European nationalism that sparked anti-colonial resistance across Asia.
+          </p>
+          <div class="book-chapters">
+            <h4>Core UPSC Concepts &amp; Key Themes</h4>
+            <ul>
+              <li><strong>Class 9:</strong> Three Estates of Ancien Régime, Jacobin Club &amp; Robespierre, Bolshevik April Theses, Weimar hyperinflation, Nuremberg laws.</li>
+              <li><strong>Class 10:</strong> Mazzini &amp; Cavour in Italian Unification, Bismarck's Blood &amp; Iron, Swadeshi &amp; Non-Cooperation, Gutenberg press impact.</li>
+            </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Official e-Textbook PDFs</span>
+              <span class="pdf-source">NCERT ePathshala Portal</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://ncert.nic.in/textbook.php?iess1=0-5" target="_blank" rel="noopener noreferrer" class="btn-pdf">🌍 Class 9: World History I PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?jess1=0-5" target="_blank" rel="noopener noreferrer" class="btn-pdf">🌍 Class 10: World History II PDF ↗</a>
+              <a href="https://archive.org/search?query=title%3A%22India+and+the+Contemporary+World%22+creator%3A%22NCERT%22" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ Archive Digital Copies ↗</a>
+            </div>
+          </div>
+          <div class="book-actions">
+            <a href="practice.html?book=norman-lowe" class="btn btn-primary">🎯 Prelims MCQs</a>
+            <a href="practice.html?mode=mains&book=norman-lowe" class="btn btn-outline">✍️ Mains Qs</a>
+            <a href="timeline.html#the-revolt-of-1857" class="btn btn-outline">⏱️ Timeline</a>
+            <a href="map.html" class="btn btn-outline">🗺️ Sites Map</a>
+          </div>
+        </div>
+
+        <!-- Book 3: NCERT Class 11-12 Themes in Indian History -->
+        <div class="book-card" data-category="ncert">
+          <div class="book-header">
+            <span class="book-icon">📜</span>
+            <span class="book-badge" style="background:#f3e8ff; color:#7e22ce;">Advanced Themes</span>
+          </div>
+          <h2 class="book-title">Themes in Indian History (Parts I, II, &amp; III)</h2>
+          <div class="book-author">NCERT Class 11 and 12</div>
+          <div class="book-syllabus">Target: Direct UPSC Prelims Questions &bull; Primary Sources &bull; Historiography</div>
+          <p class="book-desc">
+            The single most heavily tested textbook series in the UPSC Preliminary Examination over the last 15 years. Uses contemporary archaeological reports, epigraphic transcriptions, foreign traveler accounts, and colonial gazetteers to provide profound thematic depth.
+          </p>
+          <div class="book-chapters">
+            <h4>Core UPSC Concepts &amp; Key Themes</h4>
+            <ul>
+              <li><strong>Theme 1–4:</strong> Bricks, Beads and Bones (Harappan craft); Kings, Farmers and Towns (Mauryan epigraphy); Kinship &amp; Caste (Mahabharata); Stupas &amp; Ajanta murals.</li>
+              <li><strong>Theme 5–9:</strong> Al-Biruni's Kitab-ul-Hind, Ibn Battuta's Rihla, Bhakti-Sufi traditions (Alvars, Nayanars, Virashaivas), Vijayanagara urban core &amp; Mahanavami Dibba, Ain-i-Akbari.</li>
+              <li><strong>Theme 10–15:</strong> Permanent Settlement &amp; Fifth Report, Santhal Hool, 1857 proclamations, Mahatma Gandhi &amp; mass civil disobedience, Constituent Assembly debates.</li>
+            </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Official e-Textbook PDFs</span>
+              <span class="pdf-source">NCERT ePathshala Portal</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://ncert.nic.in/textbook.php?lehs1=0-4" target="_blank" rel="noopener noreferrer" class="btn-pdf">📜 Themes Part I (Ancient) PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?lehs2=0-5" target="_blank" rel="noopener noreferrer" class="btn-pdf">📜 Themes Part II (Medieval) PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?lehs3=0-6" target="_blank" rel="noopener noreferrer" class="btn-pdf">📜 Themes Part III (Modern) PDF ↗</a>
+              <a href="https://archive.org/search?query=title%3A%22Themes+in+Indian+History%22+creator%3A%22NCERT%22" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ Archive Digital Copies ↗</a>
+            </div>
+          </div>
+          <div class="book-actions">
+            <a href="practice.html?book=ncert" class="btn btn-primary">🎯 Prelims MCQs</a>
+            <a href="practice.html?mode=mains&book=ncert" class="btn btn-outline">✍️ Mains Qs</a>
+            <a href="timeline.html#gupta-age" class="btn btn-outline">⏱️ Timeline</a>
+            <a href="map.html" class="btn btn-outline">🗺️ Sites Map</a>
+          </div>
+        </div>
+
+        <!-- Book 4: India's Ancient Past by R.S. Sharma -->
+        <div class="book-card" data-category="ancient">
+          <div class="book-header">
+            <span class="book-icon">🏺</span>
+            <span class="book-badge" style="background:#ffedd5; color:#c2410c;">Ancient Benchmark</span>
+          </div>
+          <h2 class="book-title">India's Ancient Past</h2>
+          <div class="book-author">Prof. R.S. Sharma (Oxford University Press)</div>
+          <div class="book-syllabus">Target: Chronological Rigour &bull; Second Urbanization &bull; Ancient Material Culture</div>
+          <p class="book-desc">
+            The definitive standard textbook for building an unbreakable chronological and socio-economic timeline of Ancient India. Focuses on the material foundations of historical change: iron technology, agricultural surplus, punch-marked coinage, and trade guild emergence.
+          </p>
+          <div class="book-chapters">
+            <h4>Core UPSC Concepts &amp; Key Themes</h4>
+            <ul>
+              <li>Paleolithic to Chalcolithic transitions (Bhimbetka, Inamgaon, Jorwe culture).</li>
+              <li>Second Urbanization in the Gangetic Basin &amp; the rise of Magadha's 16 Mahajanapadas.</li>
+              <li>Mauryan centralized administrative statecraft, Ashoka's Dhamma, and post-Mauryan trade (Kushana gold dinaras &amp; Satavahana maritime networks).</li>
+              <li>Gupta classical golden age, land grant economy (Agraharas), and early Indian feudalism.</li>
+            </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Open-Access Digital Editions</span>
+              <span class="pdf-source">Internet Archive &bull; DLI National Preservation</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/details/dli.ernet.4087" target="_blank" rel="noopener noreferrer" class="btn-pdf">🏺 Old NCERT: Ancient India PDF ↗</a>
+              <a href="https://archive.org/details/in.ernet.dli.2015.445969" target="_blank" rel="noopener noreferrer" class="btn-pdf">📖 India's Ancient Past (Oxford) PDF ↗</a>
+              <a href="https://archive.org/search?query=%22R.S.+Sharma%22+Ancient+India" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ Complete R.S. Sharma Archive ↗</a>
+            </div>
+          </div>
+          <div class="book-actions">
+            <a href="practice.html?book=rs-sharma" class="btn btn-primary">🎯 Prelims MCQs</a>
+            <a href="practice.html?mode=mains&book=rs-sharma" class="btn btn-outline">✍️ Mains Qs</a>
+            <a href="timeline.html#maurya-empire" class="btn btn-outline">⏱️ Timeline</a>
+            <a href="map.html" class="btn btn-outline">🗺️ Sites Map</a>
+          </div>
+        </div>
+
+        <!-- Book 5: Upinder Singh Ancient and Early Medieval India -->
+        <div class="book-card" data-category="ancient art">
+          <div class="book-header">
+            <span class="book-icon">🏛️</span>
+            <span class="book-badge" style="background:#ecfccb; color:#4d7c0f;">Advanced Ancient</span>
+          </div>
+          <h2 class="book-title">History of Ancient &amp; Early Medieval India</h2>
+          <div class="book-author">Prof. Upinder Singh (Pearson)</div>
+          <div class="book-syllabus">Target: Conceptual Nuance &bull; Inscriptions &amp; Epigraphy &bull; Cultural Transitions</div>
+          <p class="book-desc">
+            The gold standard for advanced UPSC Mains answer writing and conceptual Prelims traps. Synthesizes archaeological excavations, primary epigraphic inscriptions, literary texts, and trans-regional cultural exchanges from the Stone Age to the 12th century CE.
+          </p>
+          <div class="book-chapters">
+            <h4>Core UPSC Concepts &amp; Key Themes</h4>
+            <ul>
+              <li>Epigraphic analysis of Ashokan Major &amp; Minor Rock Edicts across Greek, Aramaic, Prakrit.</li>
+              <li>Megalithic burial traditions of South India and Sangam socio-political landscapes.</li>
+              <li>Architectural evolution of rock-cut caves (Barabar, Karle, Kanheri, Ajanta, Ellora).</li>
+              <li>Peninsular dynasties: Pallavas of Kanchi, Early Chalukyas of Badami, Rashtrakutas, and Imperial Chola administrative agrarian institutions.</li>
+            </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Academic &amp; Library Preservation</span>
+              <span class="pdf-source">Internet Archive Open Library</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/search?query=%22Upinder+Singh%22+Ancient+Early+Medieval" target="_blank" rel="noopener noreferrer" class="btn-pdf">🏛️ Upinder Singh Digital Archive Reader ↗</a>
+              <a href="https://archive.org/details/ahistoryofancientandearlymedievalindiafromthestoneagettothe12thcenturyupindersingh_202003_121_R" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📖 Digital Research Copy ↗</a>
+            </div>
+          </div>
+          <div class="book-actions">
+            <a href="practice.html?book=upinder-singh" class="btn btn-primary">🎯 Prelims MCQs</a>
+            <a href="practice.html?mode=mains&book=upinder-singh" class="btn btn-outline">✍️ Mains Qs</a>
+            <a href="timeline.html#chola-empire" class="btn btn-outline">⏱️ Timeline</a>
+            <a href="map.html" class="btn btn-outline">🗺️ Sites Map</a>
+          </div>
+        </div>
+
+        <!-- Book 6: History of Medieval India by Satish Chandra -->
+        <div class="book-card" data-category="medieval">
+          <div class="book-header">
+            <span class="book-icon">⚔️</span>
+            <span class="book-badge" style="background:#fee2e2; color:#b91c1c;">Medieval Masterwork</span>
+          </div>
+          <h2 class="book-title">History of Medieval India</h2>
+          <div class="book-author">Prof. Satish Chandra (Orient BlackSwan)</div>
+          <div class="book-syllabus">Target: Delhi Sultanate &bull; Mughal Administration &bull; Peninsular Empires</div>
+          <p class="book-desc">
+            The canonical textbook for Medieval India. Provides lucid, balanced political, agrarian, and cultural analysis of the Delhi Sultanate, the Vijayanagara Empire, the Bahmani kingdoms, the Mughal Empire, and the rise of the Maratha confederacy under Chhatrapati Shivaji.
+          </p>
+          <div class="book-chapters">
+            <h4>Core UPSC Concepts &amp; Key Themes</h4>
+            <ul>
+              <li>Tripartite Struggle for Kannauj (Gurjara-Pratiharas, Palas, Rashtrakutas).</li>
+              <li>Delhi Sultanate administrative machinery: Iqta system, Balban's blood and iron, Alauddin Khilji's market control regulations (Shahna-i-Mandi), and Tughlaq reforms.</li>
+              <li>Mughal imperial state: Akbar's Sulh-i-Kul, Mansabdari rank system (Zat &amp; Sawar), Dahsala land revenue settlement, and Jagirdari agrarian crisis.</li>
+              <li>Chhatrapati Shivaji's Ashtapradhan council, Chauth &amp; Sardeshmukhi levies.</li>
+            </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Open-Access Digital Editions</span>
+              <span class="pdf-source">Old NCERT Class 11 &bull; DLI Archive</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/details/dli.ernet.4039" target="_blank" rel="noopener noreferrer" class="btn-pdf">⚔️ Old NCERT: Medieval India PDF ↗</a>
+              <a href="https://archive.org/details/in.ernet.dli.2015.447529" target="_blank" rel="noopener noreferrer" class="btn-pdf">📖 Medieval India (812-1526) DLI PDF ↗</a>
+              <a href="https://archive.org/search?query=%22Satish+Chandra%22+Medieval+India" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ Satish Chandra Digital Archive ↗</a>
+            </div>
+          </div>
+          <div class="book-actions">
+            <a href="practice.html?book=satish-chandra" class="btn btn-primary">🎯 Prelims MCQs</a>
+            <a href="practice.html?mode=mains&book=satish-chandra" class="btn btn-outline">✍️ Mains Qs</a>
+            <a href="timeline.html#mughal-empire" class="btn btn-outline">⏱️ Timeline</a>
+            <a href="map.html" class="btn btn-outline">🗺️ Sites Map</a>
+          </div>
+        </div>
+
+        <!-- Book 7: Spectrum Brief History of Modern India -->
+        <div class="book-card" data-category="modern">
+          <div class="book-header">
+            <span class="book-icon">📖</span>
+            <span class="book-badge" style="background:#dbeafe; color:#1d4ed8;">Modern High-Yield</span>
+          </div>
+          <h2 class="book-title">A Brief History of Modern India</h2>
+          <div class="book-author">Rajiv Ahir, IPS (Spectrum Publications)</div>
+          <div class="book-syllabus">Target: UPSC Prelims High-Yield Facts &bull; Chronological Precision &bull; Acts &amp; Treaties</div>
+          <p class="book-desc">
+            The most widely read quick-revision textbook for Modern Indian History. Covers the advent of European trading companies, colonial constitutional enactments (1773 to 1947), socio-religious reform societies, tribal and peasant uprisings, and phase-by-phase national movement milestones.
+          </p>
+          <div class="book-chapters">
+            <h4>Core UPSC Concepts &amp; Key Themes</h4>
+            <ul>
+              <li>Colonial expansionist doctrines: Subsidiary Alliance (Wellesley) &amp; Doctrine of Lapse (Dalhousie).</li>
+              <li>Socio-religious reform movements: Brahmo Samaj, Arya Samaj, Ramakrishna Mission, Satyashodhak Samaj, Aligarh Movement.</li>
+              <li>Constitutional development: Regulating Act 1773, Charter Acts, Indian Councils Acts 1861/1892, Morley-Minto 1909, Montagu-Chelmsford 1919, GoI Act 1935.</li>
+              <li>Swadeshi movement, Non-Cooperation, Civil Disobedience, Cripps Mission, Quit India, Cabinet Mission 1946.</li>
+            </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Digital Reference &amp; Study Readers</span>
+              <span class="pdf-source">Internet Archive Open Library</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/search?query=%22A+Brief+History+of+Modern+India%22+Rajiv+Ahir" target="_blank" rel="noopener noreferrer" class="btn-pdf">📖 Spectrum Modern India Archive Reader ↗</a>
+              <a href="https://archive.org/search?query=Spectrum+Modern+India+Rajiv+Ahir" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ Spectrum Editions Archive ↗</a>
+            </div>
+          </div>
+          <div class="book-actions">
+            <a href="practice.html?book=spectrum" class="btn btn-primary">🎯 Prelims MCQs</a>
+            <a href="practice.html?mode=mains&book=spectrum" class="btn btn-outline">✍️ Mains Qs</a>
+            <a href="timeline.html#the-national-movement" class="btn btn-outline">⏱️ Timeline</a>
+            <a href="map.html" class="btn btn-outline">🗺️ Sites Map</a>
+          </div>
+        </div>
+
+        <!-- Book 8: India's Struggle for Independence by Bipan Chandra -->
+        <div class="book-card" data-category="modern">
+          <div class="book-header">
+            <span class="book-icon">🇮🇳</span>
+            <span class="book-badge" style="background:#ccfbf1; color:#0f766e;">Mains Analytical</span>
+          </div>
+          <h2 class="book-title">India's Struggle for Independence</h2>
+          <div class="book-author">Prof. Bipan Chandra et al. (Penguin)</div>
+          <div class="book-syllabus">Target: UPSC GS-1 Mains Analytical Architect &bull; Mass Nationalism Dynamics</div>
+          <p class="book-desc">
+            The foundational analytical masterpiece for UPSC Mains GS Paper-1. Decodes the character of the colonial state, the Gramscian hegemonic nature of British rule, Gandhi's Struggle-Truce-Struggle (S-T-S) strategy, revolutionary socialism of Bhagat Singh, and peasant-working class mobilizations.
+          </p>
+          <div class="book-chapters">
+            <h4>Core UPSC Concepts &amp; Key Themes</h4>
+            <ul>
+              <li>Economic critique of colonialism: Dadabhai Naoroji, R.C. Dutt, and M.G. Ranade's Drain Theory.</li>
+              <li>Character of the Moderates vs Extremists, and the strategic significance of the 1907 Surat Split.</li>
+              <li>Mahatma Gandhi's moral and ideological synthesis: Satyagraha, Ahimsa, Harijan upliftment, and constructive programs.</li>
+              <li>Revolutionary socialism (HRA, HSRA, Kakori, Bhagat Singh) and the socio-economic radicalization of the 1930s.</li>
+            </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Open-Access Full-Text PDF</span>
+              <span class="pdf-source">Internet Archive Public Domain / Library Loan</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/details/indias-struggle-for-independence_202106" target="_blank" rel="noopener noreferrer" class="btn-pdf">🇮🇳 Full Text Struggle for Independence PDF ↗</a>
+              <a href="https://archive.org/details/indiasstrugglefo0000unse" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📖 Open Library Lending Copy ↗</a>
+              <a href="https://archive.org/search?query=%22Modern+India%22+Bipan+Chandra" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📘 Old NCERT Modern India Archive ↗</a>
+            </div>
+          </div>
+          <div class="book-actions">
+            <a href="practice.html?book=bipan-chandra" class="btn btn-primary">🎯 Prelims MCQs</a>
+            <a href="practice.html?mode=mains&book=bipan-chandra" class="btn btn-outline">✍️ Mains Qs</a>
+            <a href="timeline.html#gandhian-mass-movements" class="btn btn-outline">⏱️ Timeline</a>
+            <a href="map.html" class="btn btn-outline">🗺️ Sites Map</a>
+          </div>
+        </div>
+
+        <!-- Book 9: Indian Art and Culture by Nitin Singhania -->
+        <div class="book-card" data-category="art">
+          <div class="book-header">
+            <span class="book-icon">🎨</span>
+            <span class="book-badge" style="background:#fce7f3; color:#be185d;">Art &amp; Heritage</span>
+          </div>
+          <h2 class="book-title">Indian Art and Culture</h2>
+          <div class="book-author">Nitin Singhania, IAS (McGraw Hill)</div>
+          <div class="book-syllabus">Target: UPSC Prelims &amp; Mains Visual Arts, Performing Arts &amp; UNESCO Heritage</div>
+          <p class="book-desc">
+            The encyclopedic reference handbook for Indian art, architecture, performing arts, and religious philosophies. Extensively illustrates temple architectures (Nagara, Dravida, Vesara), mural and miniature paintings, classical dances, music traditions, UNESCO Tangible &amp; Intangible Heritage elements, and regional handicrafts.
+          </p>
+          <div class="book-chapters">
+            <h4>Core UPSC Concepts &amp; Key Themes</h4>
+            <ul>
+              <li>Temple architecture: Garbhagriha, Shikhara, Vimana, Mandapa, Gopurams, and Panchayatan layout.</li>
+              <li>Paintings: Murals (Ajanta, Bagh, Sittanavasal) and Miniatures (Mughal, Rajasthani, Pahari, Kangra).</li>
+              <li>Performing Arts: 8 Sangeet Natak Akademi classical dances, Natyashastra instrument classification (Tata, Sushira, Avanaddha, Ghana), Puppetry, and martial arts (Kalaripayattu, Thang-Ta).</li>
+              <li>Indian Philosophy: Six Astika schools (Samkhya, Yoga, Nyaya, Vaisheshika, Mimamsa, Vedanta) &amp; Shramanic traditions.</li>
+            </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Official Portals &amp; Library Preservation</span>
+              <span class="pdf-source">Ministry of Culture CCRT &bull; Internet Archive</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://ccrtindia.gov.in/" target="_blank" rel="noopener noreferrer" class="btn-pdf">🏛️ CCRT Official Heritage Compendiums ↗</a>
+              <a href="https://archive.org/search?query=%22Indian+Art+and+Culture%22+Nitin+Singhania" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🎨 Singhania Digital Archive Reader ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?kefa1=0-8" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏺 NCERT Class 11 Fine Arts PDF ↗</a>
+            </div>
+          </div>
+          <div class="book-actions">
+            <a href="practice.html?book=nitin-singhania" class="btn btn-primary">🎯 Prelims MCQs</a>
+            <a href="practice.html?mode=mains&book=nitin-singhania" class="btn btn-outline">✍️ Mains Qs</a>
+            <a href="timeline.html#ancient-art" class="btn btn-outline">⏱️ Timeline</a>
+            <a href="map.html" class="btn btn-outline">🗺️ Sites Map</a>
+          </div>
+        </div>
+
+        <!-- Book 10: Mastering Modern World History by Norman Lowe -->
+        <div class="book-card" data-category="world">
+          <div class="book-header">
+            <span class="book-icon">🌐</span>
+            <span class="book-badge" style="background:#e0e7ff; color:#4338ca;">World History</span>
+          </div>
+          <h2 class="book-title">Mastering Modern World History</h2>
+          <div class="book-author">Norman Lowe (Macmillan / Bloomsbury)</div>
+          <div class="book-syllabus">Target: UPSC GS-1 World History &bull; International Relations Foundations</div>
+          <p class="book-desc">
+            The gold-standard reference for Modern World History since the 18th century. Masterfully dissects the Enlightenment, American and French Revolutions, the Industrial Revolution, the Scramble for Africa, World Wars I and II, the League of Nations, the Great Depression, the Cold War, and post-WWII Decolonization.
+          </p>
+          <div class="book-chapters">
+            <h4>Core UPSC Concepts &amp; Key Themes</h4>
+            <ul>
+              <li>18th Century Revolutions: Locke &amp; Montesquieu, Declaration of Independence 1776, French Estates-General 1789, Napoleonic Code.</li>
+              <li>19th Century Transformations: Industrial Revolution in Britain, Scramble for Africa &amp; Berlin Conference 1884, German &amp; Italian Unifications.</li>
+              <li>20th Century Cataclysms: Causes of WWI, Treaty of Versailles 1919 (Diktat), Russian Bolshevik Revolution 1917, Rise of Mussolini &amp; Hitler, Great Depression &amp; New Deal.</li>
+              <li>Post-1945 Geopolitics: United Nations formation, Cold War (Containment, Cuban Missile Crisis 1962), Decolonization in Asia/Africa, Bandung Conference &amp; NAM, Collapse of the USSR 1991.</li>
+            </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Open Library &amp; Academic Preservation</span>
+              <span class="pdf-source">Internet Archive World History Collections</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/search?query=%22Mastering+Modern+World+History%22+Norman+Lowe" target="_blank" rel="noopener noreferrer" class="btn-pdf">🌍 Norman Lowe World History Archive Reader ↗</a>
+              <a href="https://archive.org/details/masteringmodernw0000lowe" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📖 Open Library Lending Edition ↗</a>
+            </div>
+          </div>
+          <div class="book-actions">
+            <a href="practice.html?book=norman-lowe" class="btn btn-primary">🎯 Prelims MCQs</a>
+            <a href="practice.html?mode=mains&book=norman-lowe" class="btn btn-outline">✍️ Mains Qs</a>
+            <a href="timeline.html#the-national-movement" class="btn btn-outline">⏱️ Timeline</a>
+            <a href="map.html" class="btn btn-outline">🗺️ Sites Map</a>
+          </div>
+        </div>
+
+        <!-- Book 11: Society in India by Ram Ahuja -->
+        <div class="book-card" data-category="society">
+          <div class="book-header">
+            <span class="book-icon">👥</span>
+            <span class="book-badge" style="background:#ccfbf1; color:#0f766e;">Indian Society Benchmark</span>
+          </div>
+          <h2 class="book-title">Society in India &amp; Social Problems in India</h2>
+          <div class="book-author">Prof. Ram Ahuja (Rawat Publications)</div>
+          <div class="book-syllabus">Target: UPSC GS-1 Indian Society &bull; Social Stratification &bull; Contemporary Social Issues</div>
+          <p class="book-desc">
+            The canonical standard reference for UPSC GS-1 Indian Society. Thoroughly analyzes the structural features of Indian society, caste system transformations, joint family evolution, tribal integration models, communalism dynamics, regionalism causes, and systemic social challenges.
+          </p>
+          <div class="book-chapters">
+            <h4>Core UPSC Concepts &amp; Key Themes</h4>
+            <ul>
+              <li><strong>Structural Dimensions:</strong> Varna vs Jati, caste endogamy, changes in joint family structures, status of women across eras.</li>
+              <li><strong>Social Problems:</strong> Communalism causes &amp; stages, regionalism &amp; Sons of the Soil movements, poverty &amp; unemployment nexus.</li>
+              <li><strong>Marginalized Groups:</strong> Problems of SCs, STs, OBCs, elderly demographics, domestic violence, and bonded/child labor.</li>
+              <li><strong>Modern Transformations:</strong> Secularism in India vs Western models, social deviance, youth unrest, and drug abuse problems.</li>
+            </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Academic Digital Preservation</span>
+              <span class="pdf-source">Internet Archive Sociology Repository</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/search?query=%22Society+in+India%22+OR+%22Social+Problems+in+India%22+Ram+Ahuja" target="_blank" rel="noopener noreferrer" class="btn-pdf">👥 Ram Ahuja Society &amp; Problems Reader ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?lesy1=0-7" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📘 NCERT Class 12 Indian Society PDF ↗</a>
+            </div>
+          </div>
+          <div class="book-actions">
+            <a href="society.html" class="btn btn-primary">🏛️ Indian Society Hub</a>
+            <a href="practice.html?category=modern" class="btn btn-outline">🎯 Practice Qs</a>
+            <a href="women.html" class="btn btn-outline">👑 Women in History</a>
+            <a href="practice.html?mode=mains&book=bipan-chandra" class="btn btn-outline">✍️ Mains Frameworks</a>
+          </div>
+        </div>
+
+        <!-- Book 12: NCERT Class 11-12 Sociology -->
+        <div class="book-card" data-category="ncert society">
+          <div class="book-header">
+            <span class="book-icon">📊</span>
+            <span class="book-badge" style="background:#e0f2fe; color:#0369a1;">NCERT Sociology</span>
+          </div>
+          <h2 class="book-title">Indian Society &amp; Social Change and Development in India</h2>
+          <div class="book-author">NCERT Class 11 &amp; 12 (Sociology Department)</div>
+          <div class="book-syllabus">Target: UPSC GS-1 Core Concepts &bull; Demographic Transition &bull; Social Movements</div>
+          <p class="book-desc">
+            The foundational conceptual textbooks for Indian Society. Delves into demographic structures, social institutions (continuity and change), patterns of social inequality and exclusion, cultural diversity challenges, and structural processes of Sanskritization, Westernization, Modernization, and Secularization.
+          </p>
+          <div class="book-chapters">
+            <h4>Core UPSC Concepts &amp; Key Themes</h4>
+            <ul>
+              <li><strong>Class 12 Indian Society:</strong> Demographic structure of India (TFR, Ageing, Dividend), Caste &amp; Tribe institutions, Patterns of social inequality &amp; exclusion (Dalits, Adivasis, Women, Disabled), Challenges of Cultural Diversity.</li>
+              <li><strong>Class 12 Social Change:</strong> Structural Change (Colonialism &amp; Urbanization), Cultural Change (Sanskritization, Modernization), Agrarian Structure, Globalization &amp; Social Change, Social Movements (Peasant, Dalit, Women, Environmental).</li>
+            </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Official e-Textbook PDFs</span>
+              <span class="pdf-source">NCERT ePathshala Portal</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://ncert.nic.in/textbook.php?kesy1=0-5" target="_blank" rel="noopener noreferrer" class="btn-pdf">📊 Class 11: Introducing Sociology PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?lesy1=0-7" target="_blank" rel="noopener noreferrer" class="btn-pdf">👥 Class 12: Indian Society PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?lesy2=0-8" target="_blank" rel="noopener noreferrer" class="btn-pdf">🔄 Class 12: Social Change in India PDF ↗</a>
+              <a href="https://archive.org/search?query=title%3A%22Indian+Society%22+creator%3A%22NCERT%22" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ Archive Digital Copies ↗</a>
+            </div>
+          </div>
+          <div class="book-actions">
+            <a href="society.html" class="btn btn-primary">🏛️ Society Module</a>
+            <a href="practice.html?category=modern" class="btn btn-outline">🎯 Prelims MCQs</a>
+            <a href="themes.html#society" class="btn btn-outline">🎨 Society Theme</a>
+            <a href="practice.html?mode=mains&book=ncert" class="btn btn-outline">✍️ Mains Qs</a>
+          </div>
+        </div>
+
+        <!-- Book 13: NCERT Class 11 Fine Arts -->
+        <div class="book-card" data-category="ncert art">
+          <div class="book-header">
+            <span class="book-icon">🏺</span>
+            <span class="book-badge" style="background:#fce7f3; color:#be185d;">Fine Arts Benchmark</span>
+          </div>
+          <h2 class="book-title">An Introduction to Indian Art (Parts I &amp; II)</h2>
+          <div class="book-author">NCERT Class 11 Fine Arts &bull; CCRT Compendiums</div>
+          <div class="book-syllabus">Target: UPSC Prelims Visual Art &bull; Sculpture Architecture &bull; Buddhist Stupas &amp; Temples</div>
+          <p class="book-desc">
+            The definitive official visual handbook for Indian art history. Provides authentic archaeological photographs, cross-sectional diagrams, and stylistic analysis of prehistoric rock paintings (Bhimbetka), Indus seals, Mauryan pillars, post-Mauryan stupas, Ajanta frescoes, and temple architectures.
+          </p>
+          <div class="book-chapters">
+            <h4>Core UPSC Concepts &amp; Key Themes</h4>
+            <ul>
+              <li><strong>Rock Art &amp; Indus:</strong> Upper Palaeolithic and Mesolithic paintings at Bhimbetka, Harappan bronze casting (lost wax), steatite seals, terracotta toys.</li>
+              <li><strong>Sculpture &amp; Architecture:</strong> Didarganj Yakshi, Lion Capital of Sarnath, Sanchi Torana narrative carvings, Karle and Kanheri Chaityas.</li>
+              <li><strong>Mural Traditions:</strong> Ajanta cave mural techniques (tempera fresco secco), Bodhisattva Padmapani iconography, Ellora Kailash monolithic temple excavation.</li>
+              <li><strong>Temple Forms:</strong> Deogarh Dashavatara Gupta temple, Khajuraho Kandariya Mahadeva, Thanjavur Brihadisvara Vimana, Konark Sun Temple.</li>
+            </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Official Fine Arts e-Textbook PDFs</span>
+              <span class="pdf-source">NCERT ePathshala Portal &bull; Ministry of Culture</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://ncert.nic.in/textbook.php?kefa1=0-8" target="_blank" rel="noopener noreferrer" class="btn-pdf">🏺 Class 11 Fine Arts Part I PDF ↗</a>
+              <a href="https://ncert.nic.in/textbook.php?lefa1=0-6" target="_blank" rel="noopener noreferrer" class="btn-pdf">🎨 Class 12 Fine Arts Part II PDF ↗</a>
+              <a href="https://ccrtindia.gov.in/" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🏛️ CCRT Cultural Modules ↗</a>
+              <a href="https://archive.org/search?query=title%3A%22Introduction+to+Indian+Art%22+creator%3A%22NCERT%22" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📖 Archive Editions ↗</a>
+            </div>
+          </div>
+          <div class="book-actions">
+            <a href="art-culture.html" class="btn btn-primary">🎨 Art &amp; Culture Hub</a>
+            <a href="practice.html?category=art-culture" class="btn btn-outline">🎯 Culture MCQs</a>
+            <a href="map.html" class="btn btn-outline">🗺️ Heritage Map</a>
+            <a href="practice.html?mode=mains&book=nitin-singhania" class="btn btn-outline">✍️ Mains Models</a>
+          </div>
+        </div>
+
+        <!-- Book 14: India After Gandhi by Ramachandra Guha & Bipan Chandra -->
+        <div class="book-card" data-category="post-independence modern">
+          <div class="book-header">
+            <span class="book-icon">🇮🇳</span>
+            <span class="book-badge" style="background:#ffedd5; color:#c2410c;">Post-Independence Canon</span>
+          </div>
+          <h2 class="book-title">India After Gandhi &amp; India Since Independence</h2>
+          <div class="book-author">Ramachandra Guha / Prof. Bipan Chandra et al.</div>
+          <div class="book-syllabus">Target: UPSC GS-1 Post-Independence Consolidation &bull; Nation Building &bull; Foreign Policy</div>
+          <p class="book-desc">
+            The master reference texts for Post-Independence Indian History. Illuminates the heroic challenges of partition rehabilitation, 565 princely state integrations (Sardar Patel &amp; V.P. Menon), linguistic state reorganization, Nehruvian democratic institution-building, Green Revolution, 1975 Emergency, and 1991 LPG reforms.
+          </p>
+          <div class="book-chapters">
+            <h4>Core UPSC Concepts &amp; Key Themes</h4>
+            <ul>
+              <li><strong>Nation Building:</strong> Integration of Junagadh, Hyderabad (Operation Polo), and Kashmir; Dhar Commission, JVP Committee, and 1956 States Reorganisation Act.</li>
+              <li><strong>Foreign Policy:</strong> Non-Aligned Movement (NAM), Panchsheel Principles (1954), 1962 Sino-Indian War, 1965 and 1971 Indo-Pak Wars, Pokhran Nuclear Tests.</li>
+              <li><strong>Agrarian &amp; Economic Reforms:</strong> Zamindari Abolition, Bhoodan-Gramdan (Vinoba Bhave), Green Revolution, Operation Flood (AMUL), 1991 LPG crisis and reforms.</li>
+              <li><strong>Polity &amp; Crises:</strong> 1975-77 Internal Emergency, JP Total Revolution, Rise of Regional Parties, Coalition Era (1989-2014), Naxalbari uprising.</li>
+            </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Academic Preservation &amp; Library Readers</span>
+              <span class="pdf-source">Internet Archive Open Library</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/search?query=%22India+After+Gandhi%22+Ramachandra+Guha" target="_blank" rel="noopener noreferrer" class="btn-pdf">🕊️ India After Gandhi Archive Reader ↗</a>
+              <a href="https://archive.org/search?query=%22India+Since+Independence%22+Bipan+Chandra" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">🇮🇳 India Since Independence Reader ↗</a>
+              <a href="https://archive.org/details/indiaaftergandhi0000guha" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📖 Open Library Lending Copy ↗</a>
+            </div>
+          </div>
+          <div class="book-actions">
+            <a href="timeline.html#independent-india-overview" class="btn btn-primary">⏱️ Post-1947 Timeline</a>
+            <a href="practice.html?category=modern" class="btn btn-outline">🎯 Practice MCQs</a>
+            <a href="society.html" class="btn btn-outline">👥 Society Issues</a>
+            <a href="practice.html?mode=mains&book=bipan-chandra" class="btn btn-outline">✍️ Mains Answers</a>
+          </div>
+        </div>
+
+        <!-- Book 15: From Plassey to Partition and After by Sekhar Bandyopadhyay -->
+        <div class="book-card" data-category="modern">
+          <div class="book-header">
+            <span class="book-icon">📜</span>
+            <span class="book-badge" style="background:#fef3c7; color:#b45309;">Advanced Historiography</span>
+          </div>
+          <h2 class="book-title">From Plassey to Partition and After</h2>
+          <div class="book-author">Prof. Sekhar Bandyopadhyay (Orient BlackSwan)</div>
+          <div class="book-syllabus">Target: UPSC Mains Advanced Historiographical Nuance &bull; Subaltern &amp; Elite Perspectives</div>
+          <p class="book-desc">
+            The premier university-level textbook bridging colonial state formation and nationalist mobilizations. Synthesizes Cambridge, Nationalist, Marxist, and Subaltern historiographical debates regarding British conquest, peasant and tribal insurrections, Gandhian mass movements, caste movements, and the partition holocaust.
+          </p>
+          <div class="book-chapters">
+            <h4>Core UPSC Concepts &amp; Key Themes</h4>
+            <ul>
+              <li><strong>18th Century Debate:</strong> "Dark Age" vs "Prosperity and Reorientation" across successor regional states (Bengal, Awadh, Mysore, Marathas).</li>
+              <li><strong>Colonial Agrarian Economy:</strong> Commercialization of agriculture, de-industrialization debate, rural indebtedness, famines.</li>
+              <li><strong>Nationalism Dynamics:</strong> Limitations of elite politics, Gramscian hegemonic nature of colonial rule, Subaltern autonomous peasant consciousness.</li>
+              <li><strong>Partition &amp; Independence:</strong> Cabinet Mission negotiations, Mountbatten 3rd June Plan, communal mobilization, Radcliffe boundary drawing and human cost.</li>
+            </ul>
+          </div>
+          <div class="book-pdf-box">
+            <div class="pdf-box-head">
+              <span class="pdf-tag">📥 Academic Digital Preservation</span>
+              <span class="pdf-source">Internet Archive Open Library</span>
+            </div>
+            <div class="pdf-links-row">
+              <a href="https://archive.org/search?query=%22From+Plassey+to+Partition%22+Sekhar+Bandyopadhyay" target="_blank" rel="noopener noreferrer" class="btn-pdf">📜 From Plassey to Partition Archive Reader ↗</a>
+              <a href="https://archive.org/details/fromplasseyparti00band" target="_blank" rel="noopener noreferrer" class="btn-pdf-sub">📖 Open Library Lending Copy ↗</a>
+            </div>
+          </div>
+          <div class="book-actions">
+            <a href="practice.html?book=spectrum" class="btn btn-primary">🎯 Modern MCQs</a>
+            <a href="practice.html?mode=mains&book=bipan-chandra" class="btn btn-outline">✍️ Mains Drills</a>
+            <a href="timeline.html#establishment-of-british-power" class="btn btn-outline">⏱️ Modern Timeline</a>
+            <a href="map.html" class="btn btn-outline">🗺️ Historical Map</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="siteFooter"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  renderNav('books.html');
+  renderBreadcrumb([
+    { label: 'Home', href: 'index.html' },
+    { label: 'Canonical Textbooks Hub' }
+  ]);
+  renderFooter();
+});
+
+function filterBooks(cat, btn) {
+  document.querySelectorAll('#booksFilterBar .filter-chip').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+
+  const cards = document.querySelectorAll('.book-card');
+  cards.forEach(card => {
+    const cardCat = card.getAttribute('data-category') || '';
+    if (cat === 'all' || cardCat.includes(cat)) {
+      card.style.display = 'flex';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+</script>
+</body>
+</html>

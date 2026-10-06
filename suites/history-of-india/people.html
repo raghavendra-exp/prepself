@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personalities in Indian History — Complete History of India</title>
+<meta name="description" content="Rulers, philosophers, strategists, poets, reformers, and administrators who shaped Indian history across Ancient, Medieval, and Modern eras.">
+<link rel="stylesheet" href="css/style.css">
+  <!-- Google Analytics Tracking (G-B0Z2G21W4F) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B0Z2G21W4F');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="site-nav" id="siteNav"></nav>
+
+<main id="main">
+  <div class="wrap"><div class="breadcrumb" id="breadcrumb"></div></div>
+
+  <header class="section" style="padding-bottom:12px;">
+    <div class="wrap">
+      <span class="eyebrow">Personalities &bull; Leaders &bull; Thinkers &bull; Reformers</span>
+      <h1 style="font-size:clamp(2rem,4.4vw,3.1rem);">People Who Shaped History</h1>
+      <p class="section-desc" style="font-size:1.05rem; max-width:74ch;">
+        Rulers, strategists, philosophers, poets, religious leaders, and administrators drawn from the source revision sheets — categorized by historical era and fully interconnected with the Knowledge Graph.
+      </p>
+
+      <div style="display:flex; flex-wrap:wrap; gap:14px; align-items:center; margin-top:20px;">
+        <div class="quick-search" style="flex:1; max-width:360px; margin:0;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          <input type="text" id="peopleSearch" placeholder="Search personality by name or role...">
+        </div>
+        <span class="badge" id="peopleCountBadge" style="background:var(--bg-sunken); color:var(--ink-soft);">Loading...</span>
+      </div>
+
+      <div class="filter-bar" id="eraFilterBar" style="margin-top:16px;"></div>
+    </div>
+  </header>
+
+  <section class="section" style="padding-top:10px;">
+    <div class="wrap card-grid" id="peopleRoot">
+      <p class="loading-note">Loading people…</p>
+    </div>
+  </section>
+</main>
+
+<footer id="siteFooter"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+<script>
+let ALL_PEOPLE = [];
+let ACTIVE_CAT = 'all';
+let SEARCH_TERM = '';
+let PERIODS_MAP = {};
+
+const ERA_CATEGORIES = [
+  { id: 'all', label: 'All Eras' },
+  { id: 'ancient', label: 'Ancient India' },
+  { id: 'medieval', label: 'Early Medieval' },
+  { id: 'sultanate', label: 'Delhi Sultanate' },
+  { id: 'mughal', label: 'Mughal Era' },
+  { id: 'colonial', label: 'Colonial & Freedom' },
+  { id: 'independent', label: 'Independent India' },
+  { id: 'up', label: 'Uttar Pradesh Track' }
+];
+
+async function initPeople(){
+  renderNav('people.html');
+  renderBreadcrumb([{label:'Home',href:'index.html'},{label:'People'}]);
+  const d = await HistoryData.load();
+  d.periods.forEach(p => { PERIODS_MAP[p.id] = p; });
+  ALL_PEOPLE = await HistoryData.allPeople(false);
+
+  renderFilterBar();
+  drawPeople();
+
+  const searchInput = document.getElementById('peopleSearch');
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      SEARCH_TERM = e.target.value.toLowerCase().trim();
+      drawPeople();
+    });
+  }
+
+  renderFooter();
+}
+
+function renderFilterBar(){
+  const bar = document.getElementById('eraFilterBar');
+  bar.innerHTML = ERA_CATEGORIES.map(c => `
+    <button class="filter-chip ${ACTIVE_CAT === c.id ? 'active' : ''}" onclick="setEra('${c.id}')">
+      ${c.label}
+    </button>`).join('');
+}
+
+function setEra(catId){
+  ACTIVE_CAT = catId;
+  renderFilterBar();
+  drawPeople();
+}
+
+function drawPeople(){
+  const filtered = ALL_PEOPLE.filter(p => {
+    const period = PERIODS_MAP[p.periodId] || {};
+    let matchesEra = true;
+    if (ACTIVE_CAT === 'up') {
+      matchesEra = period.region === 'up';
+    } else if (ACTIVE_CAT !== 'all') {
+      matchesEra = period.category === ACTIVE_CAT;
+    }
+
+    const matchesSearch = !SEARCH_TERM ||
+      p.name.toLowerCase().includes(SEARCH_TERM) ||
+      (p.role && p.role.toLowerCase().includes(SEARCH_TERM)) ||
+      (p.note && p.note.toLowerCase().includes(SEARCH_TERM)) ||
+      (p.periodTitle && p.periodTitle.toLowerCase().includes(SEARCH_TERM));
+
+    return matchesEra && matchesSearch;
+  });
+
+  document.getElementById('peopleCountBadge').textContent = `${filtered.length} personalities shown`;
+
+  const root = document.getElementById('peopleRoot');
+  if (!filtered.length) {
+    root.innerHTML = '<p class="loading-note" style="grid-column:1/-1;">No personalities found matching your search criteria.</p>';
+    return;
+  }
+
+  root.innerHTML = filtered.map(p => `
+    <div class="person-card reveal in">
+      <a href="period.html?id=${p.periodId}#people" style="text-decoration:none; color:inherit; display:block;">
+        <span class="theme-chip" style="margin-bottom:8px;">${p.periodTitle}</span>
+        <div class="p-name">${p.name}</div>
+        <div class="p-role">${p.role || ''}</div>
+        <div class="p-note">${p.note || ''}</div>
+      </a>
+      <a href="graph.html?q=${encodeURIComponent(p.name)}" style="display:inline-block; margin-top:10px; font-size:.74rem; font-family:var(--font-mono); color:var(--accent); text-decoration:none; font-weight:600;">View in Knowledge Graph →</a>
+    </div>`).join('');
+
+  initReveal();
+}
+
+initPeople();
+</script>
+</body>
+</html>

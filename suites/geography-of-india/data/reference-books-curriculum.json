@@ -1,0 +1,1087 @@
+{
+  "curriculumOverview": {
+    "title": "Comprehensive Reference Library & UPSC Syllabus Mapping",
+    "description": "Standard authoritative reference books, NCERT textbooks, official government PDFs, and chapter-wise study guidelines for World and Indian Geography covering the entire UPSC CSE GS-I/Prelims and State PSC syllabi.",
+    "coreBooks": [
+      {
+        "id": "majid-husain-india",
+        "title": "Geography of India",
+        "author": "Prof. Majid Husain",
+        "publisher": "McGraw Hill Education",
+        "latestEdition": "9th / 10th Edition",
+        "category": "Indian Geography (Physical, Human, Economic)",
+        "relevance": "The gold standard textbook for Indian Geography for UPSC Civil Services Prelims and Mains (GS-I & Optional). Unrivalled depth in physiography, drainage basins, agro-climatic zones, and mineral belts.",
+        "onlineReaderUrl": "https://archive.org/details/geography-of-india-by-majid-husain",
+        "pdfDownloadUrl": "https://archive.org/download/geography-of-india-by-majid-husain/geography-of-india-by-majid-husain.pdf",
+        "keyChapters": [
+          {
+            "ch": 1,
+            "name": "Structure and Relief",
+            "topics": "Geological history, Archean to Tertiary rock systems, physiographic divisions of India."
+          },
+          {
+            "ch": 2,
+            "name": "Drainage System",
+            "topics": "Himalayan vs Peninsular drainage, river regimes, antecedent rivers, inter-linking of rivers."
+          },
+          {
+            "ch": 3,
+            "name": "Climate",
+            "topics": "Monsoon mechanisms, thermal & dynamic concepts, jet streams, El Niño/La Niña/IOD, climatic classifications (Köppen, Stamp, Thornthwaite)."
+          },
+          {
+            "ch": 4,
+            "name": "Natural Vegetation and Wildlife",
+            "topics": "Forest types (ISFR classifications), social forestry, biosphere reserves, national parks."
+          },
+          {
+            "ch": 5,
+            "name": "Soils",
+            "topics": "ICAR 8 soil orders, soil degradation, desertification, soil conservation techniques."
+          },
+          {
+            "ch": 6,
+            "name": "Resources: Land and Water",
+            "topics": "Land use classification, irrigation development, groundwater depletion, multi-purpose river valley projects."
+          },
+          {
+            "ch": 7,
+            "name": "Mineral and Energy Resources",
+            "topics": "Distribution of metallic & non-metallic minerals, Gondwana vs Tertiary coal, petroleum basins, nuclear & renewable energy."
+          },
+          {
+            "ch": 8,
+            "name": "Agriculture",
+            "topics": "Cropping patterns, Green Revolution, agro-climatic regions, livestock and fisheries, agricultural distress and reforms."
+          },
+          {
+            "ch": 9,
+            "name": "Industries",
+            "topics": "Location factors of Iron & Steel, Cotton Textile, Sugar, Petrochemicals, IT; Industrial regions of India."
+          },
+          {
+            "ch": 10,
+            "name": "Transport, Communication & Trade",
+            "topics": "Roadways (Bharatmala), Railways (DFCs), Waterways (Sagarmala), Ports, Pipeline networks."
+          },
+          {
+            "ch": 11,
+            "name": "Cultural Setting & Demography",
+            "topics": "Population growth, density, sex ratio, literacy, Census trends, migration patterns."
+          },
+          {
+            "ch": 12,
+            "name": "Settlements & Urbanization",
+            "topics": "Rural settlement types, urbanization trends, smart cities, slum problems, metropolitan regions."
+          }
+        ]
+      },
+      {
+        "id": "majid-husain-world",
+        "title": "World Geography",
+        "author": "Prof. Majid Husain",
+        "publisher": "Rawat Publications / McGraw Hill",
+        "latestEdition": "5th Edition",
+        "category": "World Physical & Regional Geography",
+        "relevance": "Comprehensive treatise on global geomorphology, oceanography, climatology, global major biomes, resource distribution, and continental economic geography.",
+        "onlineReaderUrl": "https://archive.org/details/world-geography-majid-husain",
+        "keyChapters": [
+          {
+            "ch": 1,
+            "name": "Origin and Evolution of the Earth",
+            "topics": "Cosmology, Big Bang, Nebular hypothesis, geological time scale, interior of the earth."
+          },
+          {
+            "ch": 2,
+            "name": "The Earth's Crust & Geomorphology",
+            "topics": "Continental drift, seafloor spreading, plate tectonics, mountain building, rocks and rock cycle."
+          },
+          {
+            "ch": 3,
+            "name": "Geomorphic Processes & Landforms",
+            "topics": "Weathering, mass movement, fluvial, glacial, arid, karst, coastal landforms."
+          },
+          {
+            "ch": 4,
+            "name": "Oceanography",
+            "topics": "Ocean floor topography, temperature, salinity, waves, tides, ocean currents and fishing banks."
+          },
+          {
+            "ch": 5,
+            "name": "Climatology",
+            "topics": "Atmosphere structure, heat budget, planetary winds, jet streams, cyclones, Köppen climate classification."
+          },
+          {
+            "ch": 6,
+            "name": "World Biomes and Soils",
+            "topics": "Pedogenesis, global soil distribution, tropical rainforest to tundra biomes."
+          },
+          {
+            "ch": 7,
+            "name": "World Natural Resources & Industrial Belts",
+            "topics": "Global distribution of iron ore, coal, oil, manufacturing belts (Rust Belt, Ruhr, Anshan)."
+          }
+        ]
+      },
+      {
+        "id": "gc-leong",
+        "title": "Certificate Physical and Human Geography",
+        "author": "Goh Cheng Leong (G.C. Leong)",
+        "publisher": "Oxford University Press",
+        "latestEdition": "New Edition",
+        "category": "Physical Geography & World Climatic Regions",
+        "relevance": "The most widely recommended conceptual book for UPSC Prelims. Part 1 builds razor-sharp physical foundations (landforms, vulcanism, earthquakes), while Part 2 is the legendary 12-chapter guide to world climatic regimes.",
+        "onlineReaderUrl": "https://archive.org/details/certificate-physical-and-human-geography-by-g-c-leong",
+        "pdfDownloadUrl": "https://archive.org/download/certificate-physical-and-human-geography-by-g-c-leong/certificate-physical-and-human-geography-by-g-c-leong.pdf",
+        "keyChapters": [
+          {
+            "ch": 1,
+            "name": "The Earth and the Universe",
+            "topics": "Solar system, longitude, latitude, International Date Line, seasons."
+          },
+          {
+            "ch": 2,
+            "name": "The Earth's Crust",
+            "topics": "Igneous, sedimentary, metamorphic rocks; folding and faulting; plate movements."
+          },
+          {
+            "ch": 3,
+            "name": "Vulcanism and Earthquakes",
+            "topics": "Volcano types, intrusive bodies (batholiths, dykes), seismic waves, Ring of Fire."
+          },
+          {
+            "ch": 4,
+            "name": "Weathering, Mass Movement and Groundwater",
+            "topics": "Chemical & physical weathering, landslides, karst topography and caves."
+          },
+          {
+            "ch": 5,
+            "name": "Landform by Running Water",
+            "topics": "River life cycle (youth, maturity, old age), meanders, oxbows, deltas."
+          },
+          {
+            "ch": 6,
+            "name": "Landform of Glaciation",
+            "topics": "Cirques, arêtes, U-shaped valleys, moraines, drumlins, fiords."
+          },
+          {
+            "ch": 7,
+            "name": "Arid or Desert Landforms",
+            "topics": "Dunes, barchans, yardangs, zeugen, deflation hollows, loess."
+          },
+          {
+            "ch": 8,
+            "name": "Coastal Landforms",
+            "topics": "Wave refraction, cliffs, stacks, spits, barrier beaches, coral reefs."
+          },
+          {
+            "ch": 9,
+            "name": "Islands and Coral Reefs",
+            "topics": "Fringing reefs, barrier reefs, atolls, coral bleaching."
+          },
+          {
+            "ch": 10,
+            "name": "The Oceans",
+            "topics": "Continental shelves, ocean currents (Gulf Stream, Kuroshio), tides."
+          },
+          {
+            "ch": 11,
+            "name": "Part II: Climates of the World (Ch 13 to 25)",
+            "topics": "Detailed coverage of Hot Wet Equatorial, Tropical Monsoon, Savanna, Hot Desert, Mid-Latitude Desert, Mediterranean, Steppe, China Type, British Type, Siberian Type, Laurentian Type, Arctic/Tundra climates."
+          }
+        ]
+      },
+      {
+        "id": "ncert-class-11-physical",
+        "title": "Fundamentals of Physical Geography (Class 11)",
+        "hindiTitle": "भौतिक भूगोल के मूल सिद्धांत (कक्षा 11)",
+        "author": "NCERT",
+        "publisher": "National Council of Educational Research and Training",
+        "latestEdition": "Latest Official NCERT Edition",
+        "category": "World Physical Geography",
+        "relevance": "Mandatory foundational textbook for all UPSC aspirants. 100% conceptual grounding for GS-I Geomorphology, Climatology, and Oceanography.",
+        "ncertCode": "kegy2",
+        "officialUrl": "https://ncert.nic.in/textbook.php?kegy2=0-14",
+        "zipDownloadUrl": "https://ncert.nic.in/textbook/pdf/kegy2dd.zip",
+        "hindiOfficialUrl": "https://ncert.nic.in/textbook.php?khgy2=0-14",
+        "hindiZipUrl": "https://ncert.nic.in/textbook/pdf/khgy2dd.zip",
+        "keyChapters": [
+          {
+            "ch": 1,
+            "name": "Geography as a Discipline",
+            "topics": "Nature, branches of geography (physical vs human), interface with sister disciplines.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy201.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy201.pdf"
+          },
+          {
+            "ch": 2,
+            "name": "The Origin and Evolution of the Earth",
+            "topics": "Nebular hypothesis, terrestrial planets vs Jovian, evolution of lithosphere, atmosphere & oceans.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy202.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy202.pdf"
+          },
+          {
+            "ch": 3,
+            "name": "Interior of the Earth",
+            "topics": "Seismic P & S waves, shadow zones, crust, mantle, asthenosphere, outer & inner core.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy203.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy203.pdf"
+          },
+          {
+            "ch": 4,
+            "name": "Distribution of Oceans and Continents",
+            "topics": "Continental drift (Wegener), seafloor spreading (Hess), plate tectonics, Ring of Fire.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy204.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy204.pdf"
+          },
+          {
+            "ch": 5,
+            "name": "Minerals and Rocks",
+            "topics": "Feldspar, quartz, pyroxene, igneous, sedimentary, metamorphic rock cycle.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy205.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy205.pdf"
+          },
+          {
+            "ch": 6,
+            "name": "Geomorphic Processes",
+            "topics": "Endogenic (diastrophism, volcanism) vs exogenic forces, weathering, mass movements, erosion, pedogenesis.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy206.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy206.pdf"
+          },
+          {
+            "ch": 7,
+            "name": "Landforms and their Evolution",
+            "topics": "Running water (fluvial), groundwater (karst), glaciers, wind (arid), and coastal landforms.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy207.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy207.pdf"
+          },
+          {
+            "ch": 8,
+            "name": "Composition and Structure of Atmosphere",
+            "topics": "Atmospheric gases, dust, troposphere, stratosphere, ozonosphere, mesosphere, ionosphere, thermosphere.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy208.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy208.pdf"
+          },
+          {
+            "ch": 9,
+            "name": "Solar Radiation, Heat Budget and Temperature",
+            "topics": "Insolation factors, albedo, terrestrial radiation balance, temperature inversion, lapse rate.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy209.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy209.pdf"
+          },
+          {
+            "ch": 10,
+            "name": "Atmospheric Circulation and Weather Systems",
+            "topics": "Pressure belts, Hadley-Ferrel-Polar cells, Coriolis force, jet streams, tropical & extra-tropical cyclones.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy210.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy210.pdf"
+          },
+          {
+            "ch": 11,
+            "name": "Water in the Atmosphere",
+            "topics": "Evaporation, absolute/relative humidity, dew, frost, fog, clouds classification, precipitation types.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy211.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy211.pdf"
+          },
+          {
+            "ch": 12,
+            "name": "World Climate and Climate Change",
+            "topics": "Köppen climate groups (A, B, C, D, E, H), greenhouse effect, global warming trends.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy212.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy212.pdf"
+          },
+          {
+            "ch": 13,
+            "name": "Water (Oceans)",
+            "topics": "Ocean floor topography (shelf, slope, abyssal floor, deeps), salinity factors, vertical temperature thermocline.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy213.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy213.pdf"
+          },
+          {
+            "ch": 14,
+            "name": "Movements of Ocean Water",
+            "topics": "Waves anatomy, tidal theory (spring & neap tides), ocean currents (warm & cold, gyres, upwelling).",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy214.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy214.pdf"
+          }
+        ]
+      },
+      {
+        "id": "ncert-class-11-india",
+        "title": "India: Physical Environment (Class 11)",
+        "hindiTitle": "भारत: भौतिक पर्यावरण (कक्षा 11)",
+        "author": "NCERT",
+        "publisher": "National Council of Educational Research and Training",
+        "latestEdition": "Latest Official NCERT Edition",
+        "category": "Physical Geography of India",
+        "relevance": "Direct source of 10-15 Prelims questions every year. Covers India's physiography, drainage, monsoon mechanics, soils, and natural hazards.",
+        "ncertCode": "kegy1",
+        "officialUrl": "https://ncert.nic.in/textbook.php?kegy1=0-6",
+        "zipDownloadUrl": "https://ncert.nic.in/textbook/pdf/kegy1dd.zip",
+        "hindiOfficialUrl": "https://ncert.nic.in/textbook.php?khgy1=0-6",
+        "hindiZipUrl": "https://ncert.nic.in/textbook/pdf/khgy1dd.zip",
+        "keyChapters": [
+          {
+            "ch": 1,
+            "name": "India — Location",
+            "topics": "Latitudinal & longitudinal extent, frontiers, territorial waters (12 nm), EEZ, standard meridian (82°30'E).",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy101.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy101.pdf"
+          },
+          {
+            "ch": 2,
+            "name": "Structure and Physiography",
+            "topics": "Peninsular block, Himalayas and young fold mountains, Northern Plains (Bhabar, Tarai, Bhangar, Khadar), Coastal Plains, Thar Desert, Islands.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy102.pdf"
+          },
+          {
+            "ch": 3,
+            "name": "Drainage System",
+            "topics": "Himalayan (Indus, Ganga, Brahmaputra) vs Peninsular (Narmada, Tapi, Godavari, Krishna, Cauvery, Mahanadi), river patterns, watershed management.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy103.pdf"
+          },
+          {
+            "ch": 4,
+            "name": "Climate",
+            "topics": "Monsoon mechanism, thermal vs dynamic concept, ITCZ shift, Somali jet, Tibetan anticyclone, El Niño/IOD, seasons, Köppen zones of India.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy104.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy104.pdf"
+          },
+          {
+            "ch": 5,
+            "name": "Natural Vegetation",
+            "topics": "Tropical evergreen, semi-evergreen, moist & dry deciduous, thorn, montane, littoral & swamp forests; Biosphere Reserves.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy105.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy105.pdf"
+          },
+          {
+            "ch": 6,
+            "name": "Soils",
+            "topics": "Alluvial, black (regur), red and yellow, laterite, arid, saline, peaty, and forest soils; soil erosion and watershed conservation.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy106.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy106.pdf"
+          },
+          {
+            "ch": 7,
+            "name": "Natural Hazards and Disasters",
+            "topics": "Earthquakes (seismic zonation), tsunamis, tropical cyclones, floods, droughts, landslides, NDMA mitigation strategies.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/kegy107.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/khgy107.pdf"
+          }
+        ]
+      },
+      {
+        "id": "ncert-class-12-human",
+        "title": "Fundamentals of Human Geography (Class 12)",
+        "hindiTitle": "मानव भूगोल के मूल सिद्धांत (कक्षा 12)",
+        "author": "NCERT",
+        "publisher": "National Council of Educational Research and Training",
+        "latestEdition": "Latest Official NCERT Edition",
+        "category": "World Human & Economic Geography",
+        "relevance": "Core text for Human Geography, demography, primary/secondary/tertiary activities, and world trade.",
+        "ncertCode": "legy1",
+        "officialUrl": "https://ncert.nic.in/textbook.php?legy1=0-8",
+        "zipDownloadUrl": "https://ncert.nic.in/textbook/pdf/legy1dd.zip",
+        "hindiOfficialUrl": "https://ncert.nic.in/textbook.php?lhgy1=0-8",
+        "hindiZipUrl": "https://ncert.nic.in/textbook/pdf/lhgy1dd.zip",
+        "keyChapters": [
+          {
+            "ch": 1,
+            "name": "Human Geography: Nature and Scope",
+            "topics": "Environmental determinism (Ratzel/Semple), possibilism (Vidal de la Blache), neo-determinism (Griffith Taylor Stop-and-Go).",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy101.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy101.pdf"
+          },
+          {
+            "ch": 2,
+            "name": "The World Population: Distribution, Density and Growth",
+            "topics": "Demographic Transition Theory (Stages 1-3), spatial population distribution, push and pull migration factors.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy102.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy102.pdf"
+          },
+          {
+            "ch": 3,
+            "name": "Human Development",
+            "topics": "HDI pillars and dimensions, Mahbub ul Haq and Amartya Sen capabilities approach.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy103.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy103.pdf"
+          },
+          {
+            "ch": 4,
+            "name": "Primary Activities",
+            "topics": "Hunting and gathering, pastoral nomadism, commercial livestock ranching, shifting cultivation, intensive subsistence, plantation agriculture, Mediterranean farming.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy104.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy104.pdf"
+          },
+          {
+            "ch": 5,
+            "name": "Secondary Activities",
+            "topics": "Manufacturing industries classification (household, small, large scale), Alfred Weber industrial location, heavy engineering, footloose industries.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy105.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy105.pdf"
+          },
+          {
+            "ch": 6,
+            "name": "Tertiary and Quaternary Activities",
+            "topics": "Services, trade, transport, quaternary research, quinary policymaking, BPO, KPO, off-shoring trends.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy106.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy106.pdf"
+          },
+          {
+            "ch": 7,
+            "name": "Transport and Communication",
+            "topics": "Trans-continental railways (Trans-Siberian, Canadian Pacific), major sea routes (North Atlantic, Suez, Panama), containerization, cyber space/Internet.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy107.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy107.pdf"
+          },
+          {
+            "ch": 8,
+            "name": "International Trade",
+            "topics": "Basis of international trade (resource disparity, comparative advantage), ports as gateways of international trade, WTO.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy108.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy108.pdf"
+          }
+        ]
+      },
+      {
+        "id": "ncert-class-12-india",
+        "title": "India: People and Economy (Class 12)",
+        "hindiTitle": "भारत: लोग और अर्थव्यवस्था (कक्षा 12)",
+        "author": "NCERT",
+        "publisher": "National Council of Educational Research and Training",
+        "latestEdition": "Latest Official NCERT Edition",
+        "category": "Indian Human & Economic Geography",
+        "relevance": "Essential data and conceptual foundation for Indian Agriculture, Mineral & Energy belts, Industrial locations, and Planning.",
+        "ncertCode": "legy2",
+        "officialUrl": "https://ncert.nic.in/textbook.php?legy2=0-9",
+        "zipDownloadUrl": "https://ncert.nic.in/textbook/pdf/legy2dd.zip",
+        "hindiOfficialUrl": "https://ncert.nic.in/textbook.php?lhgy2=0-9",
+        "hindiZipUrl": "https://ncert.nic.in/textbook/pdf/lhgy2dd.zip",
+        "keyChapters": [
+          {
+            "ch": 1,
+            "name": "Population: Distribution, Density, Growth and Composition",
+            "topics": "Demographic trends from 1901 to 2011, rural-urban composition, linguistic & religious diversity, youth and adolescent policy.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy201.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy201.pdf"
+          },
+          {
+            "ch": 2,
+            "name": "Human Settlements",
+            "topics": "Rural settlement types (clustered, semi-clustered, hamleted, dispersed), urban classification, metropolitan cities, smart cities.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy202.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy202.pdf"
+          },
+          {
+            "ch": 3,
+            "name": "Land Resources and Agriculture",
+            "topics": "9 land use categories, agricultural land resources, cropping seasons (Kharif, Rabi, Zaid), food grains (rice, wheat) and cash crops, agricultural challenges.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy203.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy203.pdf"
+          },
+          {
+            "ch": 4,
+            "name": "Water Resources",
+            "topics": "Surface & groundwater potentials, irrigation demand, water quality deterioration, watershed management (Haryali, Neeru-Meeru, Arvary Pani Sansad), National Water Policy.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy204.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy204.pdf"
+          },
+          {
+            "ch": 5,
+            "name": "Mineral and Energy Resources",
+            "topics": "Metallic minerals (iron ore, bauxite, copper), non-metallic, conventional energy (coal basins, petroleum basins), non-conventional renewable energy (solar, wind, tidal, geothermal).",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy205.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy205.pdf"
+          },
+          {
+            "ch": 6,
+            "name": "Planning and Sustainable Development in Indian Context",
+            "topics": "Target area planning (Hill Area, Drought Prone Area), case study of Integrated Tribal Development Project in Bharmaur region of HP.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy206.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy206.pdf"
+          },
+          {
+            "ch": 7,
+            "name": "Transport and Communication",
+            "topics": "Land transport (National Highways, Golden Quadrilateral, Bharatmala), Indian Railways network and DFCs, Inland Waterways (NW-1 to NW-5), major sea ports, pipeline networks.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy207.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy207.pdf"
+          },
+          {
+            "ch": 8,
+            "name": "International Trade",
+            "topics": "Changing patterns of India's foreign trade composition, direction of trade, sea ports as gateways of international trade, airports.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy208.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy208.pdf"
+          },
+          {
+            "ch": 9,
+            "name": "Geographical Perspective on Selected Issues and Problems",
+            "topics": "Environmental pollution (air, water, land, noise), urban-waste disposal, rural-to-urban migration and Dharavi slums, land degradation and desertification.",
+            "pdfUrl": "https://ncert.nic.in/textbook/pdf/legy209.pdf",
+            "hindiPdfUrl": "https://ncert.nic.in/textbook/pdf/lhgy209.pdf"
+          }
+        ]
+      },
+      {
+        "id": "dr-khullar",
+        "title": "India: A Comprehensive Geography",
+        "author": "Dr. D.R. Khullar",
+        "publisher": "Kalyani Publishers",
+        "latestEdition": "Latest Comprehensive Edition",
+        "category": "Comprehensive Indian Geography",
+        "relevance": "Encyclopedic reference book used by UPSC toppers for in-depth data, regional case studies, river disputes, and detailed maps of agro-ecological regions.",
+        "onlineReaderUrl": "https://archive.org/search?query=india+a+comprehensive+geography+khullar"
+      },
+      {
+        "id": "savindra-singh",
+        "title": "Physical Geography",
+        "author": "Dr. Savindra Singh",
+        "publisher": "Prayag Pustak Bhawan",
+        "latestEdition": "Latest Edition",
+        "category": "Advanced Physical Geography (Geomorphology, Oceanography, Climatology)",
+        "relevance": "Unrivalled for deep geomorphological theories (Davisian cycle of erosion, Penck slope replacement), deep oceanographic dynamics, and atmospheric thermodynamics.",
+        "onlineReaderUrl": "https://archive.org/details/physical-geography-savindra-singh",
+        "pdfDownloadUrl": "https://archive.org/download/physical-geography-savindra-singh/physical-geography-savindra-singh.pdf"
+      }
+    ],
+    "officialPdfRepositories": [
+      {
+        "category": "Official NCERT Complete Textbooks (Direct ZIP & Online Readers)",
+        "badge": "NCERT Official",
+        "items": [
+          {
+            "title": "Class 11: Fundamentals of Physical Geography (Complete Book ZIP)",
+            "hindiTitle": "कक्षा 11: भौतिक भूगोल के मूल सिद्धांत (सम्पूर्ण पुस्तक)",
+            "publisher": "NCERT New Delhi",
+            "directPdfOrZipUrl": "https://ncert.nic.in/textbook/pdf/kegy2dd.zip",
+            "onlinePortalUrl": "https://ncert.nic.in/textbook.php?kegy2=0-14",
+            "format": "ZIP (All Chapters PDF)",
+            "topicsCovered": "Geomorphology, Climatology, Oceanography, Soil & Biomes"
+          },
+          {
+            "title": "Class 11: India — Physical Environment (Complete Book ZIP)",
+            "hindiTitle": "कक्षा 11: भारत — भौतिक पर्यावरण (सम्पूर्ण पुस्तक)",
+            "publisher": "NCERT New Delhi",
+            "directPdfOrZipUrl": "https://ncert.nic.in/textbook/pdf/kegy1dd.zip",
+            "onlinePortalUrl": "https://ncert.nic.in/textbook.php?kegy1=0-6",
+            "format": "ZIP (All Chapters PDF)",
+            "topicsCovered": "Indian Physiography, Drainage, Monsoon, Natural Vegetation, Soils, Hazards"
+          },
+          {
+            "title": "Class 12: Fundamentals of Human Geography (Complete Book ZIP)",
+            "hindiTitle": "कक्षा 12: मानव भूगोल के मूल सिद्धांत (सम्पूर्ण पुस्तक)",
+            "publisher": "NCERT New Delhi",
+            "directPdfOrZipUrl": "https://ncert.nic.in/textbook/pdf/legy1dd.zip",
+            "onlinePortalUrl": "https://ncert.nic.in/textbook.php?legy1=0-8",
+            "format": "ZIP (All Chapters PDF)",
+            "topicsCovered": "World Population, Primary, Secondary & Tertiary Activities, World Transport"
+          },
+          {
+            "title": "Class 12: India — People and Economy (Complete Book ZIP)",
+            "hindiTitle": "कक्षा 12: भारत — लोग और अर्थव्यवस्था (सम्पूर्ण पुस्तक)",
+            "publisher": "NCERT New Delhi",
+            "directPdfOrZipUrl": "https://ncert.nic.in/textbook/pdf/legy2dd.zip",
+            "onlinePortalUrl": "https://ncert.nic.in/textbook.php?legy2=0-9",
+            "format": "ZIP (All Chapters PDF)",
+            "topicsCovered": "Indian Agriculture, Water Resources, Minerals & Energy, Industries, Transport"
+          }
+        ]
+      },
+      {
+        "category": "Disaster Risk Reduction & Geophysical Hazards (Govt & UN PDFs)",
+        "badge": "NDMA & UN Official",
+        "items": [
+          {
+            "title": "Disaster Management Act, 2005 (Official Ministry Gazette PDF)",
+            "publisher": "Ministry of Law and Justice & NDMA, Govt of India",
+            "directPdfOrZipUrl": "https://www.ndma.gov.in/sites/default/files/PDF/DM_act2005.pdf",
+            "format": "Official PDF",
+            "topicsCovered": "Statutory framework, NDMA, SDMA, DDMA, NDRF, SDRF, Section 40, Section 46"
+          },
+          {
+            "title": "Sendai Framework for Disaster Risk Reduction 2015–2030",
+            "publisher": "United Nations Office for Disaster Risk Reduction (UNDRR)",
+            "directPdfOrZipUrl": "https://www.preventionweb.net/files/43291_sendaiframeworkfordrren.pdf",
+            "format": "Official UN PDF",
+            "topicsCovered": "4 Priorities for Action, 7 Global Targets, Build Back Better"
+          },
+          {
+            "title": "National Disaster Management Guidelines & Protocols Portal",
+            "publisher": "NDMA Govt of India",
+            "directPdfOrZipUrl": "https://ndma.gov.in/Governance/Guidelines",
+            "format": "Official Portal",
+            "topicsCovered": "Earthquake zonation, Tsunami early warning, Cyclones, Urban Floods, Landslides"
+          }
+        ]
+      },
+      {
+        "category": "Forests, Natural Resources & Minerals (Government Reports)",
+        "badge": "MoEFCC & Ministry of Mines",
+        "items": [
+          {
+            "title": "India State of Forest Report (ISFR) 2021",
+            "publisher": "Forest Survey of India (FSI), MoEFCC",
+            "directPdfOrZipUrl": "https://fsi.nic.in/forest-report-2021",
+            "format": "Official Report Portal",
+            "topicsCovered": "VDF, MDF, OF classification, total forest cover (24.62%), mangrove cover, bamboo resources, forest carbon stock"
+          },
+          {
+            "title": "Indian Minerals Yearbook (IMYB)",
+            "publisher": "Indian Bureau of Mines (IBM), Ministry of Mines",
+            "directPdfOrZipUrl": "https://ibm.gov.in/index.php?c=pages&m=index&id=1063",
+            "format": "Official Annual Yearbook",
+            "topicsCovered": "State-wise reserves and production of Iron ore, Bauxite, Coal, Manganese, Copper, Limestone"
+          },
+          {
+            "title": "Geological Survey of India (GSI) Publications Portal",
+            "publisher": "Geological Survey of India",
+            "directPdfOrZipUrl": "https://www.gsi.gov.in/",
+            "format": "National Geological Repository",
+            "topicsCovered": "Geological mapping, mineral belt surveys, landslides hazard micro-zonation"
+          }
+        ]
+      },
+      {
+        "category": "Atmospheric Science & Climate Change Reports",
+        "badge": "IPCC & IMD",
+        "items": [
+          {
+            "title": "IPCC AR6 Working Group I: The Physical Science Basis",
+            "publisher": "Intergovernmental Panel on Climate Change (IPCC)",
+            "directPdfOrZipUrl": "https://www.ipcc.ch/report/ar6/wg1/",
+            "format": "Official Global Report",
+            "topicsCovered": "Global greenhouse gas trajectories, ocean warming, cryosphere melting, extreme climatic events"
+          },
+          {
+            "title": "India Meteorological Department (IMD) Climate Portal",
+            "publisher": "Ministry of Earth Sciences, Govt of India",
+            "directPdfOrZipUrl": "https://mausam.imd.gov.in/",
+            "format": "Official MoES Portal",
+            "topicsCovered": "Monsoon tracking, cyclone early warning systems (Orange/Red alerts), rainfall anomalies"
+          }
+        ]
+      },
+      {
+        "category": "Demography & Census Reports",
+        "badge": "Census of India",
+        "items": [
+          {
+            "title": "Census of India 2011 Digital Data & Tables",
+            "publisher": "Office of the Registrar General & Census Commissioner, India",
+            "directPdfOrZipUrl": "https://censusindia.gov.in/",
+            "format": "Official Census Repository",
+            "topicsCovered": "Population density, decadal growth rate (17.7%), child sex ratio (918), state-wise literacy, urbanization"
+          }
+        ]
+      }
+    ],
+    "syllabusTopicMapping": [
+      {
+        "module": "Salient features of World’s Physical Geography",
+        "submodules": [
+          {
+            "name": "Geomorphology",
+            "topics": [
+              "Origin & Evolution of Earth",
+              "Interior of the Earth",
+              "Distribution of Continents & Oceans",
+              "Plate Tectonic Theory",
+              "Distribution of Earthquakes & Volcanoes",
+              "Rocks & Rock Cycle",
+              "Geomorphic Processes – Endogenic & Exogenic",
+              "Landforms & their Evolution",
+              "Geological Time Scale"
+            ],
+            "primaryBooks": "NCERT Class 11 'Fundamentals of Physical Geography' (Ch 2-7); G.C. Leong (Ch 1-8); Savindra Singh 'Physical Geography' (Part 1).",
+            "pdfLinks": [
+              {
+                "title": "NCERT Class 11 Ch 2: Origin & Evolution of Earth",
+                "url": "https://ncert.nic.in/textbook/pdf/kegy202.pdf",
+                "type": "NCERT PDF"
+              },
+              {
+                "title": "NCERT Class 11 Ch 3: Interior of the Earth",
+                "url": "https://ncert.nic.in/textbook/pdf/kegy203.pdf",
+                "type": "NCERT PDF"
+              },
+              {
+                "title": "NCERT Class 11 Ch 4: Oceans & Continents",
+                "url": "https://ncert.nic.in/textbook/pdf/kegy204.pdf",
+                "type": "NCERT PDF"
+              },
+              {
+                "title": "NCERT Class 11 Ch 5: Minerals & Rocks",
+                "url": "https://ncert.nic.in/textbook/pdf/kegy205.pdf",
+                "type": "NCERT PDF"
+              },
+              {
+                "title": "NCERT Class 11 Ch 6: Geomorphic Processes",
+                "url": "https://ncert.nic.in/textbook/pdf/kegy206.pdf",
+                "type": "NCERT PDF"
+              },
+              {
+                "title": "NCERT Class 11 Ch 7: Landforms & their Evolution",
+                "url": "https://ncert.nic.in/textbook/pdf/kegy207.pdf",
+                "type": "NCERT PDF"
+              },
+              {
+                "title": "G.C. Leong: Physical Geography (Read Online)",
+                "url": "https://archive.org/details/certificate-physical-and-human-geography-by-g-c-leong",
+                "type": "Standard Book"
+              }
+            ]
+          },
+          {
+            "name": "Oceanography",
+            "topics": [
+              "Hydrological Cycle",
+              "Seafloor Spreading",
+              "Ocean Floor Configuration",
+              "Temperature & Salinity of Oceans",
+              "Movement of Oceans – Waves, Tides, Currents"
+            ],
+            "primaryBooks": "NCERT Class 11 (Ch 13-14); G.C. Leong (Ch 10); Savindra Singh (Oceanography section); Majid Husain 'World Geography'.",
+            "pdfLinks": [
+              {
+                "title": "NCERT Class 11 Ch 13: Water (Oceans) Relief & Salinity",
+                "url": "https://ncert.nic.in/textbook/pdf/kegy213.pdf",
+                "type": "NCERT PDF"
+              },
+              {
+                "title": "NCERT Class 11 Ch 14: Movements of Ocean Water (Tides/Currents)",
+                "url": "https://ncert.nic.in/textbook/pdf/kegy214.pdf",
+                "type": "NCERT PDF"
+              },
+              {
+                "title": "G.C. Leong Ch 10: The Oceans & Currents",
+                "url": "https://archive.org/details/certificate-physical-and-human-geography-by-g-c-leong",
+                "type": "Standard Book"
+              },
+              {
+                "title": "Savindra Singh: Physical Geography (Full PDF)",
+                "url": "https://archive.org/download/physical-geography-savindra-singh/physical-geography-savindra-singh.pdf",
+                "type": "Reference Book"
+              }
+            ]
+          },
+          {
+            "name": "Climatology",
+            "topics": [
+              "Earth’s Atmosphere – Composition & Structure",
+              "Solar Radiation, Heat Budget & Temperature",
+              "Atmospheric Circulation & Weather Systems",
+              "World Climate (Köppen Climate classification & G.C. Leong 12 types)"
+            ],
+            "primaryBooks": "NCERT Class 11 (Ch 8-12); G.C. Leong (Ch 13-25); Savindra Singh (Climatology section).",
+            "pdfLinks": [
+              {
+                "title": "NCERT Class 11 Ch 8: Atmosphere Structure",
+                "url": "https://ncert.nic.in/textbook/pdf/kegy208.pdf",
+                "type": "NCERT PDF"
+              },
+              {
+                "title": "NCERT Class 11 Ch 9: Solar Radiation & Heat Budget",
+                "url": "https://ncert.nic.in/textbook/pdf/kegy209.pdf",
+                "type": "NCERT PDF"
+              },
+              {
+                "title": "NCERT Class 11 Ch 10: Atmospheric Circulation & Cyclones",
+                "url": "https://ncert.nic.in/textbook/pdf/kegy210.pdf",
+                "type": "NCERT PDF"
+              },
+              {
+                "title": "NCERT Class 11 Ch 11: Water in the Atmosphere",
+                "url": "https://ncert.nic.in/textbook/pdf/kegy211.pdf",
+                "type": "NCERT PDF"
+              },
+              {
+                "title": "NCERT Class 11 Ch 12: World Climate & Climate Change",
+                "url": "https://ncert.nic.in/textbook/pdf/kegy212.pdf",
+                "type": "NCERT PDF"
+              },
+              {
+                "title": "G.C. Leong Part II: 12 World Climates Guide",
+                "url": "https://archive.org/details/certificate-physical-and-human-geography-by-g-c-leong",
+                "type": "Standard Book"
+              }
+            ]
+          },
+          {
+            "name": "Soil Geography",
+            "topics": [
+              "Soil & Soil Contents",
+              "Process of Soil Formation (Pedogenesis)",
+              "Soil Forming Factors (Jenny Equation)",
+              "Types of Soils (USDA 12 Orders & Global Zonal Soils)",
+              "Soil Erosion & Conservation"
+            ],
+            "primaryBooks": "NCERT Class 11 (Ch 6 & 16); Savindra Singh; Majid Husain 'Geography of India' (Ch 5).",
+            "pdfLinks": [
+              {
+                "title": "NCERT Class 11 (India) Ch 6: Soils of India",
+                "url": "https://ncert.nic.in/textbook/pdf/kegy106.pdf",
+                "type": "NCERT PDF"
+              },
+              {
+                "title": "NCERT Class 11 Physical Ch 6: Weathering & Pedogenesis",
+                "url": "https://ncert.nic.in/textbook/pdf/kegy206.pdf",
+                "type": "NCERT PDF"
+              },
+              {
+                "title": "ICAR National Bureau of Soil Survey (NBSS&LUP)",
+                "url": "https://icar.org.in/",
+                "type": "Official Portal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "module": "Distribution of Key Natural Resources across the world (including South Asia & Indian sub-continent)",
+        "topics": [
+          "Types of Resources (Origin, Ownership, Exhaustibility)",
+          "Land Resources (Utilisation, Use Pattern, Degradation & Conservation)",
+          "Forest Resources (Types & Distribution, Causes of Depletion, Conservation)",
+          "Water Resources (Marine & Freshwater, Scarcity, IWRM)",
+          "Agricultural Resources (Types of Farming, Cropping Patterns, Economy, Food Security)",
+          "Mineral & Energy Resources (Ferrous & Non-Ferrous, Conventional & Non-Conventional, Global & Indian Belts, Conservation)"
+        ],
+        "primaryBooks": "NCERT Class 12 'Fundamentals of Human Geography' (Ch 5-6); NCERT Class 12 'India: People & Economy' (Ch 5-7); Majid Husain 'Geography of India' (Ch 6-8).",
+        "pdfLinks": [
+          {
+            "title": "NCERT Class 12 Human Ch 4: Primary Activities",
+            "url": "https://ncert.nic.in/textbook/pdf/legy104.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 12 India Ch 3: Land Resources & Agriculture",
+            "url": "https://ncert.nic.in/textbook/pdf/legy203.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 12 India Ch 4: Water Resources",
+            "url": "https://ncert.nic.in/textbook/pdf/legy204.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 12 India Ch 5: Mineral & Energy Resources",
+            "url": "https://ncert.nic.in/textbook/pdf/legy205.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "India State of Forest Report (ISFR) 2021",
+            "url": "https://fsi.nic.in/forest-report-2021",
+            "type": "Govt Report"
+          },
+          {
+            "title": "Indian Minerals Yearbook (IBM Official)",
+            "url": "https://ibm.gov.in/index.php?c=pages&m=index&id=1063",
+            "type": "Govt Report"
+          }
+        ]
+      },
+      {
+        "module": "Factors responsible for the location of primary, secondary, and tertiary sector industries (World & India)",
+        "topics": [
+          "Classification of Industries",
+          "Alfred Weber Theory of Industrial Location & Location Determinants (Raw Material, Labour, Market, Capital, Land, Grants, Power, Transport, Water, Communication)",
+          "Distribution of Major Industries (Iron & Steel, IT & Electronics, Cotton Textiles)",
+          "Agglomeration & Footloose Industries"
+        ],
+        "primaryBooks": "NCERT Class 12 'Fundamentals of Human Geography' (Ch 6-7); NCERT Class 12 'India: People & Economy' (Ch 8); Majid Husain (Ch 9).",
+        "pdfLinks": [
+          {
+            "title": "NCERT Class 12 Human Ch 5: Secondary Activities & Industrial Location",
+            "url": "https://ncert.nic.in/textbook/pdf/legy105.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 12 Human Ch 6: Tertiary & Quaternary Services",
+            "url": "https://ncert.nic.in/textbook/pdf/legy106.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 12 India Ch 6: Planning & Sustainable Development",
+            "url": "https://ncert.nic.in/textbook/pdf/legy206.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "Majid Husain: Geography of India (Ch 9 Industries)",
+            "url": "https://archive.org/details/geography-of-india-by-majid-husain",
+            "type": "Standard Book"
+          }
+        ]
+      },
+      {
+        "module": "Important Geophysical Phenomena & Environmental Changes",
+        "topics": [
+          "Earthquakes (Why Earth Shakes, Waves P/S/L/R, Shadow Zones, Types, Measuring, Hazards)",
+          "Tsunami (Causes, Shoaling Dynamics, Inundation, Mitigation & Early Warning)",
+          "Volcanoes (Types, Causes, Intrusive & Extrusive Landforms, Global Belts)",
+          "Cyclones (Tropical Cyclones, Anti-Cyclones, Extra-Tropical Cyclones, Western Disturbances)",
+          "Factors Causing Changes in Critical Geographical Features",
+          "Examples of Changing Features (Melting of Ice Sheets, Desertification, Vanishing Water-bodies)",
+          "Impact of Changing Features on water-bodies, ice-caps, flora and fauna"
+        ],
+        "primaryBooks": "NCERT Class 11 (Ch 3, 4, 10); G.C. Leong (Ch 3); NDMA Guidelines; IPCC AR6 Synthesis Report; PMF IAS / Majid Husain.",
+        "pdfLinks": [
+          {
+            "title": "NCERT Class 11 Ch 3: Earthquakes & Seismic Shadow Zones",
+            "url": "https://ncert.nic.in/textbook/pdf/kegy203.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 11 (India) Ch 7: Hazards & Disasters",
+            "url": "https://ncert.nic.in/textbook/pdf/kegy107.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NDMA Act 2005 Official Gazette PDF",
+            "url": "https://www.ndma.gov.in/sites/default/files/PDF/DM_act2005.pdf",
+            "type": "Official Act"
+          },
+          {
+            "title": "Sendai Framework for DRR 2015-2030 (UN PDF)",
+            "url": "https://www.preventionweb.net/files/43291_sendaiframeworkfordrren.pdf",
+            "type": "UN Document"
+          },
+          {
+            "title": "IPCC AR6 Working Group I: Physical Science Basis",
+            "url": "https://www.ipcc.ch/report/ar6/wg1/",
+            "type": "IPCC Report"
+          },
+          {
+            "title": "NDMA Official Disaster Management Guidelines",
+            "url": "https://ndma.gov.in/Governance/Guidelines",
+            "type": "Govt Guidelines"
+          }
+        ]
+      },
+      {
+        "module": "Physical Geography of India",
+        "topics": [
+          "Physiography of India (Himalayas, Great Plains, Peninsular Plateau, Coastal Plains, Thar, Islands)",
+          "Drainage System (Himalayan vs Peninsular, 14 Major Basins)",
+          "Climate of India (Monsoon, Jet streams, Seasons, Western Disturbances)",
+          "Soils in India (ICAR 8 groups, distribution, reclamation)",
+          "Natural Vegetation (5 forest types, ISFR data, conservation)"
+        ],
+        "primaryBooks": "NCERT Class 11 'India: Physical Environment' (Ch 1-6); Majid Husain 'Geography of India' (Ch 1-5); D.R. Khullar.",
+        "pdfLinks": [
+          {
+            "title": "NCERT Class 11 (India) Ch 1: India Location & Borders",
+            "url": "https://ncert.nic.in/textbook/pdf/kegy101.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 11 (India) Ch 2: Structure & Physiography",
+            "url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 11 (India) Ch 3: Drainage System",
+            "url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 11 (India) Ch 4: Climate & Monsoon",
+            "url": "https://ncert.nic.in/textbook/pdf/kegy104.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 11 (India) Ch 5: Natural Vegetation",
+            "url": "https://ncert.nic.in/textbook/pdf/kegy105.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 11 (India) Ch 6: Soils",
+            "url": "https://ncert.nic.in/textbook/pdf/kegy106.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "Majid Husain: Geography of India (Full Book Archive)",
+            "url": "https://archive.org/details/geography-of-india-by-majid-husain",
+            "type": "Standard Book"
+          }
+        ]
+      },
+      {
+        "module": "Human Geography",
+        "topics": [
+          "Demography (Population size, distribution, density, DTM, sex ratio, literacy)",
+          "Urbanization (Trends, million-plus cities, slums, smart cities, AMRUT)",
+          "Census (History from 1872/1881, Census 2011 authoritative figures, socio-economic trends)"
+        ],
+        "primaryBooks": "NCERT Class 12 'India: People & Economy' (Ch 1-4); Majid Husain (Ch 11-12); Census of India Reports.",
+        "pdfLinks": [
+          {
+            "title": "NCERT Class 12 Human Ch 1: Nature & Scope of Human Geo",
+            "url": "https://ncert.nic.in/textbook/pdf/legy101.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 12 Human Ch 2: World Population Distribution",
+            "url": "https://ncert.nic.in/textbook/pdf/legy102.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 12 India Ch 1: Population of India",
+            "url": "https://ncert.nic.in/textbook/pdf/legy201.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 12 India Ch 2: Human Settlements",
+            "url": "https://ncert.nic.in/textbook/pdf/legy202.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "Census of India 2011 Official Digital Portal",
+            "url": "https://censusindia.gov.in/",
+            "type": "Census Portal"
+          }
+        ]
+      },
+      {
+        "module": "Economic Geography",
+        "topics": [
+          "Agriculture (Major crops, seasons, Green Revolution, schemes)",
+          "Mineral Resources (Iron ore, bauxite, copper, manganese belts)",
+          "Energy Resources (Coal, petroleum, nuclear, 500 GW renewables)",
+          "Industry (Industrial regions, manufacturing corridors, Make in India)",
+          "Transport & Communication (Bharatmala, DFCs, Sagarmala, National Waterways, UDAN)"
+        ],
+        "primaryBooks": "NCERT Class 12 'India: People & Economy' (Ch 5-10); Majid Husain (Ch 7-10); Economic Survey.",
+        "pdfLinks": [
+          {
+            "title": "NCERT Class 12 India Ch 3: Land Resources & Agriculture",
+            "url": "https://ncert.nic.in/textbook/pdf/legy203.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 12 India Ch 5: Mineral & Energy Resources",
+            "url": "https://ncert.nic.in/textbook/pdf/legy205.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 12 India Ch 7: Transport & Communication",
+            "url": "https://ncert.nic.in/textbook/pdf/legy207.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "NCERT Class 12 India Ch 8: International Trade",
+            "url": "https://ncert.nic.in/textbook/pdf/legy208.pdf",
+            "type": "NCERT PDF"
+          },
+          {
+            "title": "Indian Minerals Yearbook (IBM)",
+            "url": "https://ibm.gov.in/index.php?c=pages&m=index&id=1063",
+            "type": "Govt Report"
+          }
+        ]
+      }
+    ]
+  }
+}

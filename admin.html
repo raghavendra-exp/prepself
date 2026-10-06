@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>Admin — Visitor History | Raghavbegins</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --d1:#050912;--d2:#0A1120;--d3:#111B2E;
+  --pr:#4F46E5;--pr2:#6366F1;--cy:#06B6D4;--gr2:#34D399;--rd:#EF4444;
+  --txt:#0F172A;--txt2:#475569;--txt3:#94A3B8;--bdr:#E2E8F0;--sf:#fff;--sf2:#F8FAFC;
+}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--sf2);color:var(--txt2)}
+.hdr{background:linear-gradient(160deg,var(--d1),var(--d3));padding:16px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.hdr h1{font-size:15px;font-weight:800;color:#fff;margin:0}
+.hdr a{color:rgba(255,255,255,.7);font-size:12px;text-decoration:none;border:1px solid rgba(255,255,255,.15);padding:6px 14px;border-radius:18px}
+.hdr a:hover{background:rgba(255,255,255,.08);color:#fff}
+.wrap{max-width:1000px;margin:0 auto;padding:30px 20px 60px}
+
+.gate{max-width:420px;margin:80px auto;text-align:center;background:#fff;border:1.5px solid var(--bdr);border-radius:16px;padding:36px 30px}
+.gate h2{font-size:18px;color:var(--txt);margin:0 0 10px}
+.gate p{font-size:13px;color:var(--txt3);margin:0 0 20px}
+.btn{padding:12px 24px;border-radius:24px;border:none;background:linear-gradient(135deg,var(--pr2),var(--cy));color:#fff;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit}
+.btn:hover{opacity:.92}
+
+.denied{max-width:460px;margin:80px auto;text-align:center;background:#FEF2F2;border:1.5px solid #FECACA;border-radius:16px;padding:32px 28px}
+.denied h2{color:var(--rd);font-size:17px;margin:0 0 8px}
+.denied p{font-size:13px;color:#7F1D1D;margin:0}
+
+.stat-row{display:flex;gap:12px;margin-bottom:22px;flex-wrap:wrap}
+.stat{flex:1;min-width:140px;background:#fff;border:1.5px solid var(--bdr);border-radius:12px;padding:16px}
+.stat b{display:block;font-size:24px;color:var(--pr);font-family:ui-monospace,monospace}
+.stat span{font-size:11px;color:var(--txt3);text-transform:uppercase;letter-spacing:.05em;font-weight:700}
+
+.tbl-wrap{background:#fff;border:1.5px solid var(--bdr);border-radius:12px;overflow:hidden}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{background:var(--sf2);padding:10px 14px;text-align:left;font-weight:700;color:var(--txt);border-bottom:2px solid var(--bdr);white-space:nowrap;position:sticky;top:0}
+td{padding:10px 14px;border-bottom:1px solid var(--bdr);color:var(--txt2);vertical-align:top}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:var(--sf2)}
+.tbl-scroll{max-height:70vh;overflow-y:auto}
+.empty{padding:40px;text-align:center;color:var(--txt3);font-size:13px}
+.badge{display:inline-block;font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px;background:#EEF2FF;color:var(--pr)}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <h1>&#x1F510; Admin — Visitor History</h1>
+  <a href="./">&#8592; Back to site</a>
+</div>
+
+<div class="wrap">
+  <div id="gateArea">
+    <div class="gate">
+      <h2>&#x1F511; Admin Sign-In Required</h2>
+      <p>Sign in with the admin Google account to view visitor history.</p>
+      <button class="btn" id="adminSignInBtn">Sign in with Google</button>
+    </div>
+  </div>
+
+  <div id="deniedArea" style="display:none">
+    <div class="denied">
+      <h2>&#x26D4; Access Denied</h2>
+      <p>You're signed in, but this account doesn't have admin access to visitor history.</p>
+    </div>
+  </div>
+
+  <div id="dataArea" style="display:none">
+    <div class="stat-row">
+      <div class="stat"><b id="totalEntries">0</b><span>Total History Entries</span></div>
+      <div class="stat"><b id="uniqueUsers">0</b><span>Unique Signed-In Users</span></div>
+      <div class="stat"><b id="topTool">&#8212;</b><span>Most Opened Tool</span></div>
+    </div>
+    <div class="tbl-wrap">
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th>User</th><th>Tool Opened</th><th>Timestamp</th><th>Expires</th></tr></thead>
+          <tbody id="historyBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-app.js";
+  import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-auth.js";
+  import { getFirestore, collection, query, orderBy, limit, getDocs } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyCumDxKiDMd72dRmY6igXXxOypJe1JvD0g",
+    authDomain: "bharatexam-d477c.firebaseapp.com",
+    projectId: "bharatexam-d477c",
+    storageBucket: "bharatexam-d477c.firebasestorage.app",
+    messagingSenderId: "977099665337",
+    appId: "1:977099665337:web:6c9fc3e3abd15e67929068",
+    measurementId: "G-B0Z2G21W4F"
+  };
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+  const provider = new GoogleAuthProvider();
+  const db = getFirestore(app);
+
+  /* This is only for the UI gate — REAL security comes from your
+     Firestore rules (see the note shared alongside this file), which
+     must independently restrict reads on "history" to your admin account.
+     The admin email is stored as a SHA-256 hash below (not plaintext) so
+     it isn't harvestable from view-source; the hash check below is still
+     just a UI convenience, not the actual access control. */
+  const ADMIN_EMAIL_HASH = "55a727a1366657bb0bccca58958ea9de766e211fd2e0d383c491470b27203bf1";
+
+  async function sha256Hex(text) {
+    const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
+    return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
+  }
+
+  const gateArea   = document.getElementById("gateArea");
+  const deniedArea = document.getElementById("deniedArea");
+  const dataArea   = document.getElementById("dataArea");
+
+  document.getElementById("adminSignInBtn").addEventListener("click", () => {
+    signInWithPopup(auth, provider).catch((err) => console.error("[admin] sign-in failed:", err.message));
+  });
+
+  onAuthStateChanged(auth, async (user) => {
+    if (!user) {
+      gateArea.style.display = "";
+      deniedArea.style.display = "none";
+      dataArea.style.display = "none";
+      return;
+    }
+
+    const signedInHash = user.email ? await sha256Hex(user.email.toLowerCase()) : "";
+    if (signedInHash !== ADMIN_EMAIL_HASH) {
+      gateArea.style.display = "none";
+      deniedArea.style.display = "";
+      dataArea.style.display = "none";
+      console.warn("[admin] signed in as an account that does not match the configured admin hash");
+      return;
+    }
+
+    gateArea.style.display = "none";
+    deniedArea.style.display = "none";
+    dataArea.style.display = "";
+
+    try {
+      const q = query(collection(db, "history"), orderBy("timestamp", "desc"), limit(500));
+      const snap = await getDocs(q);
+      const rows = [];
+      const toolCounts = {};
+      const users = new Set();
+
+      snap.forEach((docSnap) => {
+        const d = docSnap.data();
+        rows.push(d);
+        toolCounts[d.tool] = (toolCounts[d.tool] || 0) + 1;
+        if (d.uid) users.add(d.uid);
+      });
+
+      document.getElementById("totalEntries").textContent = rows.length.toLocaleString("en-IN");
+      document.getElementById("uniqueUsers").textContent = users.size.toLocaleString("en-IN");
+
+      let topTool = "—";
+      let topCount = 0;
+      for (const t in toolCounts) { if (toolCounts[t] > topCount) { topCount = toolCounts[t]; topTool = t; } }
+      document.getElementById("topTool").textContent = topTool;
+
+      const tbody = document.getElementById("historyBody");
+      if (rows.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="4"><div class="empty">No history entries yet — they will appear here once signed-in visitors start using the tools.</div></td></tr>';
+      } else {
+        tbody.innerHTML = rows.map((d) => {
+          const who = d.displayName || d.email || d.uid || "Unknown";
+          const ts = d.timestamp && d.timestamp.toDate ? d.timestamp.toDate().toLocaleString("en-IN") : "—";
+          const exp = d.expiresAt && d.expiresAt.toDate ? d.expiresAt.toDate().toLocaleDateString("en-IN") : (d.expiresAt ? new Date(d.expiresAt.seconds ? d.expiresAt.seconds*1000 : d.expiresAt).toLocaleDateString("en-IN") : "—");
+          return "<tr><td>" + who + ' <span class="badge">' + (d.email || "") + "</span></td><td>" + (d.tool || "") + "</td><td>" + ts + "</td><td>" + exp + "</td></tr>";
+        }).join("");
+      }
+    } catch (err) {
+      console.error("[admin] failed to load history:", err.message);
+      dataArea.innerHTML = '<div class="denied"><h2>&#x26A0;&#xFE0F; Could not load history</h2><p>' + err.message + '</p></div>';
+    }
+  });
+</script>
+</body>
+</html>

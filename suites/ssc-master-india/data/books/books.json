@@ -1,0 +1,285 @@
+[
+  {
+    "id": "book-kiran-ssc-math",
+    "title": "SSC Mathematics Chapterwise & Typewise Solved Papers (1999 - Present)",
+    "author": "Think Tank of Kiran Institute of Career Excellence (KICX)",
+    "publisher": "Kiran Publication",
+    "edition": "Latest Revised Edition",
+    "year": 2025,
+    "exams": [
+      "cgl",
+      "chsl",
+      "cpo",
+      "mts",
+      "selection-post",
+      "gd"
+    ],
+    "subject": "Quantitative Aptitude",
+    "syllabusCoverage": {
+      "en": "Complete coverage of Arithmetic and Advanced Mathematics (Algebra, Trigonometry, Geometry, Mensuration, Coordinate Geometry, Statistics & Probability).",
+      "hi": "अंकगणित और अग्रिम गणित (बीजगणित, त्रिकोणमिति, ज्यामिति, क्षेत्रमिति, सांख्यिकी) का संपूर्ण कवरेज।"
+    },
+    "pyqCoverage": {
+      "en": "12,500+ chapterwise and typewise previous years questions with authentic detailed solutions.",
+      "hi": "12,500+ अध्यायवार और प्रकारवार पिछले वर्षों के प्रश्न प्रामाणिक विस्तृत हल सहित।"
+    },
+    "practiceQuantity": "12,500+ Questions",
+    "difficulty": "Basic to Exam Advanced",
+    "intendedLearner": {
+      "en": "Essential for all SSC aspirants building concept clarity and pattern recognition.",
+      "hi": "पैटर्न की समझ और अवधारणाओं को मजबूत करने हेतु सभी एसएससी अभ्यर्थियों के लिए अनिवार्य।"
+    },
+    "publisherPage": "https://kiranprakashan.com",
+    "purchaseLinks": [
+      {
+        "store": "Publisher Official Store",
+        "url": "https://kiranprakashan.com",
+        "badge": "Official"
+      },
+      {
+        "store": "Amazon India",
+        "url": "https://www.amazon.in",
+        "badge": "Verified Publisher Listing"
+      },
+      {
+        "store": "Flipkart",
+        "url": "https://www.flipkart.com",
+        "badge": "Verified Seller"
+      }
+    ],
+    "mappingToSyllabus": {
+      "subject": "Quantitative Aptitude",
+      "topics": [
+        "Number System",
+        "Percentage",
+        "Profit & Loss",
+        "Ratio & Proportion",
+        "Time & Work",
+        "Algebra",
+        "Trigonometry",
+        "Geometry"
+      ]
+    }
+  },
+  {
+    "id": "book-pinnacle-ssc-english",
+    "title": "SSC English 7600+ TCS MCQ Chapter-wise Solved Papers",
+    "author": "Pinnacle Editorial Board",
+    "publisher": "Pinnacle Publications",
+    "edition": "5th Edition",
+    "year": 2025,
+    "exams": [
+      "cgl",
+      "chsl",
+      "cpo",
+      "stenographer",
+      "mts"
+    ],
+    "subject": "English Language",
+    "syllabusCoverage": {
+      "en": "Exhaustive coverage of Grammar rules, Vocabulary (Synonyms, Antonyms, Idioms, One-word substitution, Spellings), Cloze Test, Reading Comprehension, Sentence Improvement, Active/Passive, Narration.",
+      "hi": "व्याकरण नियम, शब्दावली (समानार्थी, विलोम, मुहावरे, अनेक शब्दों के लिए एक शब्द), क्लोज टेस्ट, कॉम्प्रिहेंशन, एक्टिव/पैसिव का संपूर्ण संकलन।"
+    },
+    "pyqCoverage": {
+      "en": "7,600+ recent TCS pattern questions with Hindi-English bilingual explanations and frequency indices.",
+      "hi": "7,600+ नवीनतम टीसीएस पैटर्न प्रश्न द्विभाषी स्पष्टीकरण सहित।"
+    },
+    "practiceQuantity": "7,600+ Questions",
+    "difficulty": "Moderate to Advanced",
+    "intendedLearner": {
+      "en": "Ideal for mastering high-scoring English in CGL Tier-II (135 marks) and CHSL/Steno (100 marks).",
+      "hi": "सीजीएल टियर-II (135 अंक) और स्टेनो (100 अंक) में अधिकतम अंक प्राप्त करने हेतु आदर्श।"
+    },
+    "publisherPage": "https://ssccglpinnacle.com",
+    "purchaseLinks": [
+      {
+        "store": "Pinnacle Official Portal",
+        "url": "https://ssccglpinnacle.com",
+        "badge": "Official"
+      },
+      {
+        "store": "Amazon India",
+        "url": "https://www.amazon.in",
+        "badge": "Authentic Edition"
+      }
+    ],
+    "mappingToSyllabus": {
+      "subject": "English Language",
+      "topics": [
+        "Vocabulary",
+        "Error Detection",
+        "Sentence Improvement",
+        "Cloze Test",
+        "Active/Passive",
+        "Direct/Indirect Speech",
+        "Reading Comprehension"
+      ]
+    }
+  },
+  {
+    "id": "book-rakesh-yadav-reasoning",
+    "title": "SSC Reasoning 7300+ Chapterwise Solved Questions",
+    "author": "Rakesh Yadav",
+    "publisher": "Rakesh Yadav Readers Publication (RYP)",
+    "edition": "Latest Edition",
+    "year": 2025,
+    "exams": [
+      "cgl",
+      "chsl",
+      "cpo",
+      "je",
+      "mts",
+      "stenographer",
+      "gd"
+    ],
+    "subject": "General Intelligence & Reasoning",
+    "syllabusCoverage": {
+      "en": "Both Verbal and Non-Verbal reasoning chapters: Syllogism, Blood Relations, Coding-Decoding, Seating Arrangement, Puzzles, Statement-Assumption, Dice, Paper Cutting.",
+      "hi": "भाषिक एवं अभाषिक तर्कशक्ति: न्याय निगमन, रक्त संबंध, कोडिंग-डिकोडिंग, बैठक व्यवस्था, पहेलियां, पासा, कागज मोड़ना।"
+    },
+    "pyqCoverage": {
+      "en": "7,300+ verified previous year questions with QR code video solutions and logical shortcuts.",
+      "hi": "7,300+ सत्यापित पिछले वर्षों के प्रश्न तार्किक शॉर्टकट विधियों सहित।"
+    },
+    "practiceQuantity": "7,300+ Questions",
+    "difficulty": "Basic to Exam Standard",
+    "intendedLearner": {
+      "en": "Suitable for beginners and repeaters seeking speed and accuracy in reasoning.",
+      "hi": "तर्कशक्ति में गति और सटीकता बढ़ाने हेतु शुरुआती और अनुभवी अभ्यर्थियों दोनों के लिए उपयुक्त।"
+    },
+    "publisherPage": "https://rakeshyadavreaderspublication.com",
+    "purchaseLinks": [
+      {
+        "store": "RYP Official Store",
+        "url": "https://rakeshyadavreaderspublication.com",
+        "badge": "Official"
+      },
+      {
+        "store": "Amazon India",
+        "url": "https://www.amazon.in",
+        "badge": "Verified Listing"
+      }
+    ],
+    "mappingToSyllabus": {
+      "subject": "General Intelligence & Reasoning",
+      "topics": [
+        "Analogy",
+        "Series",
+        "Coding-Decoding",
+        "Blood Relations",
+        "Direction",
+        "Syllogism",
+        "Puzzles",
+        "Non-Verbal"
+      ]
+    }
+  },
+  {
+    "id": "book-disha-ssc-gk",
+    "title": "Disha 10000+ Objective General Knowledge & Current Affairs for SSC Exams",
+    "author": "Disha Experts",
+    "publisher": "Disha Publication",
+    "edition": "7th Revised Edition",
+    "year": 2025,
+    "exams": [
+      "cgl",
+      "chsl",
+      "mts",
+      "gd",
+      "cpo",
+      "je",
+      "stenographer",
+      "selection-post"
+    ],
+    "subject": "General Awareness",
+    "syllabusCoverage": {
+      "en": "Indian History, Geography, Indian Polity, Economy, General Science (Physics, Chemistry, Biology), Environment, Static GK, Computer Literacy, Art & Culture.",
+      "hi": "भारतीय इतिहास, भूगोल, राजव्यवस्था, अर्थव्यवस्था, सामान्य विज्ञान (भौतिकी, रसायन, जीवविज्ञान), पर्यावरण, स्टेटिक जीके, कंप्यूटर।"
+    },
+    "pyqCoverage": {
+      "en": "10,000+ topic-wise objective MCQs compiled from SSC CGL, CHSL, CPO, MTS, and State exams with trend analysis.",
+      "hi": "10,000+ विषयवार वस्तुनिष्ठ प्रश्न विस्तृत व्याख्या सहित।"
+    },
+    "practiceQuantity": "10,000+ Questions",
+    "difficulty": "Comprehensive",
+    "intendedLearner": {
+      "en": "Comprehensive revision guide for non-science and science background students alike.",
+      "hi": "सामान्य अध्ययन में व्यापक रिवीजन और तथ्य याद रखने हेतु सर्वश्रेष्ठ पुस्तक।"
+    },
+    "publisherPage": "https://dishapublication.com",
+    "purchaseLinks": [
+      {
+        "store": "Disha Publication Portal",
+        "url": "https://dishapublication.com",
+        "badge": "Official"
+      },
+      {
+        "store": "Amazon India",
+        "url": "https://www.amazon.in",
+        "badge": "Verified Store"
+      }
+    ],
+    "mappingToSyllabus": {
+      "subject": "General Awareness",
+      "topics": [
+        "History",
+        "Geography",
+        "Polity",
+        "Economy",
+        "General Science",
+        "Static GK",
+        "Art & Culture"
+      ]
+    }
+  },
+  {
+    "id": "book-arihant-ssc-je-civil",
+    "title": "SSC Junior Engineer Civil Engineering Paper-I & II Chapterwise Solved Papers",
+    "author": "Arihant Experts",
+    "publisher": "Arihant Publications India Ltd",
+    "edition": "2025 Edition",
+    "year": 2025,
+    "exams": [
+      "je"
+    ],
+    "subject": "Engineering",
+    "syllabusCoverage": {
+      "en": "Building Materials, Estimating & Costing, Surveying, Soil Mechanics, Hydraulics, Irrigation, Transportation, Environmental Engineering, Structural Theory, RCC & Steel Design.",
+      "hi": "भवन निर्माण सामग्री, प्राक्कलन, सर्वेक्षण, मृदा यांत्रिकी, द्रवचालिती, सिंचाई, पर्यावरण इंजीनियरिंग, आरसीसी एवं स्टील डिजाइन।"
+    },
+    "pyqCoverage": {
+      "en": "Over 15 years of SSC JE Civil solved papers with step-by-step calculations and diagrams.",
+      "hi": "15 से अधिक वर्षों के एसएससी जेई सिविल हल प्रश्न पत्र।"
+    },
+    "practiceQuantity": "4,500+ Technical Questions",
+    "difficulty": "Engineering Standard (Diploma/Degree)",
+    "intendedLearner": {
+      "en": "Indispensable for Civil Engineering candidates targeting CPWD, MES, BRO, and CWC.",
+      "hi": "सीपीडब्ल्यूडी, एमईएस, बीआरओ में जेई पद हेतु सिविल इंजीनियरिंग अभ्यर्थियों के लिए अनिवार्य।"
+    },
+    "publisherPage": "https://arihantbooks.com",
+    "purchaseLinks": [
+      {
+        "store": "Arihant Official Portal",
+        "url": "https://arihantbooks.com",
+        "badge": "Official"
+      },
+      {
+        "store": "Amazon India",
+        "url": "https://www.amazon.in",
+        "badge": "Verified Seller"
+      }
+    ],
+    "mappingToSyllabus": {
+      "subject": "Engineering",
+      "topics": [
+        "Building Materials",
+        "Surveying",
+        "Soil Mechanics",
+        "Hydraulics",
+        "RCC Design",
+        "Structural Theory"
+      ]
+    }
+  }
+]

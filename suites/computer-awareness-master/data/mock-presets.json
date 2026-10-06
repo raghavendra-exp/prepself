@@ -1,0 +1,76 @@
+{
+  "presets": [
+    {
+      "id": "rrb-full-mains-1",
+      "title": "IBPS RRB Clerk Mains Full Mock 1",
+      "badge": "Full Exam Level",
+      "description": "Standard 40 questions pattern for RRB Office Assistant Mains exam (20 minutes, 20 marks, -0.125 negative marking).",
+      "questionCount": 40,
+      "durationMinutes": 20,
+      "marksPerQuestion": 0.5,
+      "negativeMark": 0.125,
+      "filter": "all",
+      "difficulty": "All"
+    },
+    {
+      "id": "rrb-full-mains-2",
+      "title": "IBPS RRB PO Mains High-Yield Mock 2",
+      "badge": "Challenger Level",
+      "description": "Moderate-to-hard level 40 questions covering in-depth networking, cybersecurity, SQL, and digital banking.",
+      "questionCount": 40,
+      "durationMinutes": 20,
+      "marksPerQuestion": 0.5,
+      "negativeMark": 0.125,
+      "filter": "all",
+      "difficulty": "Moderate-Hard"
+    },
+    {
+      "id": "speed-drill-15",
+      "title": "Rapid Fire Speed Drill (15 Qs)",
+      "badge": "Speed Booster",
+      "description": "15 high-frequency questions in 5 minutes (20 seconds per question) to train rapid recall for shortcuts and full forms.",
+      "questionCount": 15,
+      "durationMinutes": 5,
+      "marksPerQuestion": 1.0,
+      "negativeMark": 0.25,
+      "filter": "shortcuts-fullforms",
+      "difficulty": "Speed"
+    },
+    {
+      "id": "office-shortcuts-special",
+      "title": "MS Office & Keyboard Hotkeys Special",
+      "badge": "Topic Focus",
+      "description": "25 questions focusing strictly on Word, Excel formulas, PowerPoint, and hotkeys.",
+      "questionCount": 25,
+      "durationMinutes": 12,
+      "marksPerQuestion": 1.0,
+      "negativeMark": 0.25,
+      "filter": "ms-office",
+      "difficulty": "All"
+    },
+    {
+      "id": "networking-security-special",
+      "title": "Networking, OSI Layers & Cybersecurity",
+      "badge": "Topic Focus",
+      "description": "25 questions testing OSI layers, protocols, port numbers, cyber attacks, and IT Act.",
+      "questionCount": 25,
+      "durationMinutes": 12,
+      "marksPerQuestion": 1.0,
+      "negativeMark": 0.25,
+      "filter": "networking-security",
+      "difficulty": "All"
+    },
+    {
+      "id": "digital-banking-fintech",
+      "title": "Digital Banking, Finacle & NPCI Rails",
+      "badge": "Banking Special",
+      "description": "20 questions covering RTGS, NEFT, IMPS, UPI limits, CTS MICR, EMV chips, and RBI guidelines.",
+      "questionCount": 20,
+      "durationMinutes": 10,
+      "marksPerQuestion": 1.0,
+      "negativeMark": 0.25,
+      "filter": "digital-banking",
+      "difficulty": "All"
+    }
+  ]
+}

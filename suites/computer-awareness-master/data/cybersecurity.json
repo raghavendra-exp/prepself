@@ -1,0 +1,178 @@
+{
+  "module": "Cybersecurity, Cryptography & IT Law",
+  "version": "2026.1",
+  "sections": [
+    {
+      "id": "malware-types",
+      "title": "Malware Taxonomy & Classification",
+      "hindiTitle": "मैलवेयर का वर्गीकरण",
+      "malwareList": [
+        {
+          "name": "Virus (Vital Information Resources Under Siege)",
+          "spreadMechanism": "Attaches itself to an executable program/file. Requires human action (running infected file) to replicate and spread.",
+          "damage": "Corrupts files, deletes data, alters system settings.",
+          "historicalFirst": "Creeper (1971) on ARPANET; Brain (1986) was first IBM PC virus created by two Pakistani brothers."
+        },
+        {
+          "name": "Worm",
+          "spreadMechanism": "Self-replicating standalone program. DOES NOT require a host file or user intervention. Spreads autonomously over computer networks exploiting software vulnerabilities.",
+          "damage": "Consumes massive network bandwidth, crashes servers.",
+          "historicalFirst": "Morris Worm (1988) written by Robert Tappan Morris."
+        },
+        {
+          "name": "Trojan Horse",
+          "spreadMechanism": "Disguises itself as legitimate, useful software (e.g., free game, codec, utility). Once installed, secretly executes a malicious payload.",
+          "keyDifference": "CANNOT replicate itself (unlike viruses and worms). Often installs backdoors."
+        },
+        {
+          "name": "Ransomware",
+          "spreadMechanism": "Encrypts victim's critical files using unbreakable asymmetric cryptography and demands ransom (usually in Bitcoin/cryptocurrency) for the decryption key.",
+          "notableExamples": "WannaCry (2017, exploited NSA EternalBlue exploit), NotPetya, LockBit."
+        },
+        {
+          "name": "Spyware & Keylogger",
+          "spreadMechanism": "Secretly monitors user activities, captures keystrokes (banking passwords, credit card numbers), web history, and sends to attackers.",
+          "mitigation": "Virtual on-screen keyboards used by banks to defeat hardware/software keyloggers."
+        },
+        {
+          "name": "Rootkit",
+          "spreadMechanism": "Collection of software tools that grants privileged root/administrator access while actively concealing its presence from OS and antivirus tools by subverting the kernel."
+        },
+        {
+          "name": "Botnet & Zombies",
+          "spreadMechanism": "Network of infected internet-connected devices (bots/zombies) controlled remotely by a 'Bot Herder' via Command and Control (C2) servers. Used to launch massive DDoS attacks."
+        }
+      ]
+    },
+    {
+      "id": "cyber-attacks",
+      "title": "Common Cyber Attacks in Banking",
+      "hindiTitle": "बैंकिंग में प्रमुख साइबर हमले",
+      "attacks": [
+        {
+          "name": "Phishing",
+          "desc": "Fraudulent communication (usually email) disguised as trustworthy entity (e.g. Bank SBI, RBI) to trick user into revealing sensitive credentials."
+        },
+        {
+          "name": "Spear Phishing",
+          "desc": "Highly targeted phishing aimed at a specific individual or organization with personalized details."
+        },
+        {
+          "name": "Whaling",
+          "desc": "Phishing targeted specifically at high-profile senior executives (CEOs, CFOs, Board members)."
+        },
+        {
+          "name": "Vishing (Voice Phishing)",
+          "desc": "Phone call scams pretending to be bank customer care demanding OTP or CVV."
+        },
+        {
+          "name": "Smishing (SMS Phishing)",
+          "desc": "Fraudulent text messages containing malicious links claiming account deactivation or lottery reward."
+        },
+        {
+          "name": "Man-in-the-Middle (MitM)",
+          "desc": "Attacker secretly intercepts and relays communications between two parties who believe they are communicating directly (mitigated by TLS certificates and HSTS)."
+        },
+        {
+          "name": "DoS & DDoS (Distributed Denial of Service)",
+          "desc": "Overwhelming a target server or banking portal with massive floods of bogus traffic to exhaust server resources and deny service to genuine bank customers."
+        },
+        {
+          "name": "SQL Injection (SQLi)",
+          "desc": "Inserting malicious SQL query statements via web application input fields (login box) to manipulate backend database and extract secret records."
+        },
+        {
+          "name": "Cross-Site Scripting (XSS)",
+          "desc": "Injecting malicious client-side JavaScript scripts into trusted websites visited by other users to steal session cookies."
+        },
+        {
+          "name": "Zero-Day Vulnerability",
+          "desc": "A security flaw that is unknown to the software vendor and has zero days of patch protection when actively exploited."
+        }
+      ]
+    },
+    {
+      "id": "cryptography",
+      "title": "Cryptography & Digital Signatures",
+      "hindiTitle": "क्रिप्टोग्राफी और डिजिटल हस्ताक्षर",
+      "ciaTriad": {
+        "confidentiality": "Ensures information is accessible only to authorized entities (achieved via Encryption).",
+        "integrity": "Guarantees data is not altered or tampered with in transit (achieved via Cryptographic Hashing).",
+        "availability": "Ensures systems and data are readily accessible to authorized users when needed (resilience against DoS)."
+      },
+      "ciphers": [
+        {
+          "type": "Symmetric Encryption (Secret Key)",
+          "mechanism": "Uses the SAME single secret key for both encryption and decryption.",
+          "algorithms": "DES (56-bit, obsolete), 3DES, AES (Advanced Encryption Standard - 128, 192, 256-bit, worldwide standard), Blowfish, RC4.",
+          "speed": "Very fast, computationally lightweight. Key distribution is challenging."
+        },
+        {
+          "type": "Asymmetric Encryption (Public Key)",
+          "mechanism": "Uses a KEY PAIR: Public Key (freely shared, used to encrypt) and Private Key (kept strictly secret, used to decrypt).",
+          "algorithms": "RSA (Rivest-Shamir-Adleman), ECC (Elliptic Curve Cryptography), Diffie-Hellman Key Exchange, DSA.",
+          "speed": "Slower than symmetric, computationally intensive. Solves key distribution problem."
+        }
+      ],
+      "hashingVsEncryption": {
+        "encryption": "Two-way function. Plaintext can be encrypted into ciphertext and decrypted back into plaintext using the appropriate key.",
+        "hashing": "One-way mathematical function (Hash Function). Takes arbitrary input and produces fixed-length digest (e.g. SHA-256 produces 256 bits). Cannot be reversed. Used for password storage and integrity verification."
+      },
+      "digitalSignature": {
+        "definition": "Mathematical scheme for demonstrating the authenticity and integrity of digital messages/documents.",
+        "signingProcess": "Sender generates hash of message -> encrypts hash using SENDER'S PRIVATE KEY = Digital Signature.",
+        "verificationProcess": "Receiver decrypts signature using SENDER'S PUBLIC KEY to recover original hash -> computes new hash of received message -> if both match, signature is authentic!",
+        "properties": "Guarantees: 1. Authenticity, 2. Non-Repudiation (sender cannot deny having sent it), 3. Data Integrity."
+      }
+    },
+    {
+      "id": "it-act-india",
+      "title": "Information Technology (IT) Act, 2000 & CERT-In",
+      "hindiTitle": "सूचना प्रौद्योगिकी (IT) अधिनियम 2000 एवं CERT-In",
+      "enacted": "Passed in May 2000, notified on October 17, 2000. Major amendment in 2008 (effective October 27, 2009). Based on UNCITRAL Model Law on Electronic Commerce.",
+      "keySections": [
+        {
+          "section": "Section 43",
+          "crime": "Penalty and compensation for damage to computer systems (unauthorized copying, introducing virus, denying access)."
+        },
+        {
+          "section": "Section 65",
+          "crime": "Tampering with computer source documents (up to 3 years imprisonment or fine up to ₹2 lakh)."
+        },
+        {
+          "section": "Section 66",
+          "crime": "Computer-related offences / Hacking (up to 3 years imprisonment or fine up to ₹5 lakh)."
+        },
+        {
+          "section": "Section 66B",
+          "crime": "Punishment for dishonestly receiving stolen computer resource or communication device."
+        },
+        {
+          "section": "Section 66C",
+          "crime": "Punishment for identity theft (using electronic signature, password of another person)."
+        },
+        {
+          "section": "Section 66D",
+          "crime": "Punishment for cheating by personation by using computer resource (phishing scams)."
+        },
+        {
+          "section": "Section 66E",
+          "crime": "Punishment for violation of privacy (capturing/publishing private images without consent)."
+        },
+        {
+          "section": "Section 66F",
+          "crime": "Punishment for Cyber Terrorism (attacks on critical infrastructure; punishable with life imprisonment)."
+        },
+        {
+          "section": "Section 66A",
+          "crime": "Criminalized sending offensive messages through communication services. STRUCK DOWN by Supreme Court in Shreya Singhal v. Union of India (2015) as unconstitutional."
+        }
+      ],
+      "certIn": {
+        "name": "Indian Computer Emergency Response Team (CERT-In)",
+        "established": "January 2004 under Section 70B of the IT Act.",
+        "role": "National nodal agency for responding to computer security incidents, issuing security advisories, handling incident response for Indian cyber space."
+      }
+    }
+  ]
+}

@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indian Society — Salient Features, Diversity &amp; Contemporary Social Issues</title>
+<meta name="description" content="Comprehensive UPSC CSE GS-1 module on Indian Society: Diversity, Women's Organizations, Population, Poverty &amp; Development, Urbanization, Globalization, Social Empowerment, Communalism, Regionalism, and Secularism. Grounded in Ram Ahuja, NCERT Sociology (Class 11-12), and M.N. Srinivas.">
+<link rel="stylesheet" href="css/style.css">
+<style>
+.society-hero {
+  background: radial-gradient(circle at 80% 20%, rgba(13, 148, 136, 0.12), transparent 50%),
+              radial-gradient(circle at 10% 80%, rgba(15, 118, 110, 0.08), transparent 50%),
+              var(--bg);
+  border-bottom: 1px solid var(--line);
+  padding: 44px 0 28px;
+}
+.society-nav-pills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 22px 0 10px;
+}
+@media (max-width: 640px) {
+  .society-nav-pills {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    padding-bottom: 8px;
+    margin-bottom: 14px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--line) transparent;
+  }
+}
+.society-tab-btn {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.society-tab-btn:hover, .society-tab-btn.active {
+  background: var(--seal);
+  color: #fff;
+  border-color: var(--seal);
+  box-shadow: 0 2px 8px rgba(15, 118, 110, 0.25);
+}
+.society-search-box {
+  position: relative;
+  max-width: 520px;
+  margin-top: 18px;
+}
+.society-search-box input {
+  width: 100%;
+  padding: 10px 14px 10px 38px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--bg-raised);
+  color: var(--ink);
+  font-size: 0.92rem;
+}
+.society-search-box svg {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ink-faint);
+}
+.society-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+@media (max-width: 768px) {
+  .society-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.society-card {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 26px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.society-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--seal);
+}
+.card-header-badge {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.card-type-tag {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: var(--bg-sunken);
+  color: var(--seal-strong);
+  border: 1px solid var(--line-soft);
+}
+.society-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  line-height: 1.3;
+  margin: 0 0 6px;
+  color: var(--ink);
+}
+.card-subtitle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--seal);
+  margin-bottom: 12px;
+}
+.card-desc {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+  flex-grow: 1;
+}
+.feature-list {
+  background: var(--bg);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+}
+.feature-list h5 {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 6px;
+  letter-spacing: 0.05em;
+}
+.feature-list ul {
+  padding-left: 1.2em;
+  margin: 0;
+  line-height: 1.5;
+}
+.feature-list li {
+  margin-bottom: 4px;
+}
+.upsc-corner-box {
+  border-left: 3px solid var(--seal);
+  background: var(--seal-tint);
+  padding: 10px 14px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--ink);
+  margin-bottom: 14px;
+}
+.upsc-corner-box b {
+  color: var(--seal-strong);
+}
+.card-footer-links {
+  display: flex;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line-soft);
+  flex-wrap: wrap;
+}
+.card-footer-links .btn {
+  font-size: 0.78rem;
+  padding: 6px 10px;
+}
+.comp-table-wrap {
+  overflow-x: auto;
+  margin: 24px 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.comp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  text-align: left;
+}
+.comp-table th {
+  background: var(--bg-sunken);
+  padding: 12px 16px;
+  border-bottom: 2px solid var(--line);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--ink);
+}
+.comp-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--line-soft);
+  vertical-align: top;
+  color: var(--ink-soft);
+  line-height: 1.45;
+}
+.comp-table tr:hover td {
+  background: var(--bg-raised);
+}
+.syllabus-guide-banner {
+  background: linear-gradient(135deg, rgba(13, 148, 136, 0.08), rgba(15, 118, 110, 0.04));
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+  margin-bottom: 32px;
+}
+</style>
+  <!-- Google Analytics Tracking (G-B0Z2G21W4F) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B0Z2G21W4F');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="site-nav" id="siteNav"></nav>
+
+<main id="main">
+  <div class="wrap"><div class="breadcrumb" id="breadcrumb"></div></div>
+
+  <header class="society-hero">
+    <div class="wrap">
+      <span class="eyebrow">UPSC CSE GS Paper-1 &bull; Indian Society Special Module</span>
+      <h1 style="font-size:clamp(2.1rem, 4.6vw, 3.2rem); margin-bottom:8px;">Indian Society &amp; Social Issues</h1>
+      <p class="section-desc" style="font-size:1.06rem; max-width:82ch; margin-bottom:18px;">
+        An authoritative, multidimensional study of <strong>Indian Society</strong>: Diversity, Women's Organizations, Population Demographics, Poverty &amp; Development, Urbanization, Globalization, Social Empowerment, Communalism, Regionalism, and Secularism. Grounded in standard sociological authorities: <em>Ram Ahuja</em>, <em>NCERT Class 11-12 Sociology</em>, <em>M.N. Srinivas</em>, <em>Amartya Sen</em>, and <em>Bipan Chandra</em>.
+      </p>
+
+      <div class="syllabus-guide-banner">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:8px;">
+          <h4 style="margin:0; font-family:var(--font-mono); text-transform:uppercase; font-size:0.82rem; color:var(--seal-strong);">Canonical Exam Textbooks Synthesized</h4>
+          <a href="books.html#pdf-vault" class="btn btn-outline" style="font-size:0.75rem; padding:4px 9px;">📥 Full 15-Book PDF Vault ↗</a>
+        </div>
+        <div style="font-size:0.9rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+          • <strong>Ram Ahuja</strong> (Society in India &amp; Social Problems in India, Rawat Publications) &bull;
+          • <strong>NCERT Class 11 &amp; 12</strong> (Introducing Sociology, Indian Society, Social Change &amp; Development in India) &bull;
+          • <strong>M.N. Srinivas</strong> (Social Change in Modern India, Castes in Modern India &amp; Other Essays) &bull;
+          • <strong>Amartya Sen</strong> (Development as Freedom, The Argumentative Indian) &bull;
+          • <strong>Bipan Chandra</strong> (Communalism in Modern India) &bull;
+          • <strong>Yogendra Singh</strong> (Modernization of Indian Tradition)
+        </div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; font-size:.82rem; padding-top:10px; border-top:1px dashed var(--line-soft);">
+          <a href="https://ncert.nic.in/textbook.php?lesy1=0-7" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size:0.78rem; padding:6px 12px; background:var(--seal); border-color:var(--seal-strong);">👥 NCERT Class 12 Indian Society PDF ↗</a>
+          <a href="https://ncert.nic.in/textbook.php?lesy2=0-8" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size:0.78rem; padding:6px 12px; background:var(--seal); border-color:var(--seal-strong);">🔄 NCERT Class 12 Social Change PDF ↗</a>
+          <a href="https://ncert.nic.in/textbook.php?kesy1=0-5" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="font-size:0.78rem; padding:6px 10px;">📊 Class 11 Introducing Sociology ↗</a>
+          <a href="https://archive.org/search?query=%22Society+in+India%22+OR+%22Social+Problems+in+India%22+Ram+Ahuja" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="font-size:0.78rem; padding:6px 10px;">📖 Ram Ahuja Archive Reader ↗</a>
+        </div>
+      </div>
+
+      <div class="society-search-box">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" id="societySearchInput" placeholder="Filter by concept, e.g. 'Demographic Dividend', 'SHG', 'Poverty Line', 'Secularism', 'UCC'..." oninput="handleSocietySearch(this.value)">
+      </div>
+
+      <div class="society-nav-pills" id="societyNavPills">
+        <button class="society-tab-btn active" onclick="switchSocietyTab('all', this)">All 10 Core Topics</button>
+        <button class="society-tab-btn" onclick="switchSocietyTab('diversity', this)">🇮🇳 Diversity &amp; Salient Features</button>
+        <button class="society-tab-btn" onclick="switchSocietyTab('women', this)">👩 Women &amp; Organizations</button>
+        <button class="society-tab-btn" onclick="switchSocietyTab('demography', this)">👥 Population &amp; Demography</button>
+        <button class="society-tab-btn" onclick="switchSocietyTab('poverty', this)">📉 Poverty &amp; Development</button>
+        <button class="society-tab-btn" onclick="switchSocietyTab('urbanization', this)">🏙️ Urbanization &amp; Slums</button>
+        <button class="society-tab-btn" onclick="switchSocietyTab('globalization', this)">🌐 Globalization</button>
+        <button class="society-tab-btn" onclick="switchSocietyTab('empowerment', this)">✊ Social Empowerment</button>
+        <button class="society-tab-btn" onclick="switchSocietyTab('communalism', this)">🕊️ Communalism &amp; Secularism</button>
+        <button class="society-tab-btn" onclick="switchSocietyTab('regionalism', this)">🗺️ Regionalism</button>
+        <button class="society-tab-btn" onclick="switchSocietyTab('mains-models', this)">✍️ Mains Model Answers</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Section 1: Main Society Cards Grid -->
+  <section class="section" id="societyCardsSection" style="padding-top:16px;">
+    <div class="wrap">
+      <div class="society-grid" id="societyGrid">
+        <!-- Cards injected via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Core Analytical Comparisons -->
+  <section class="section section-alt" id="societyComparisonsSection">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="kicker">Sociological Benchmarks</span>
+          <h2 class="mt0">Core Theoretical Comparisons</h2>
+        </div>
+        <p class="section-desc">Critical conceptual distinctions required for high-scoring UPSC GS-1 Mains answers.</p>
+      </div>
+
+      <!-- Comparison 1: Western Secularism vs Indian Secularism -->
+      <h3 style="margin-top:20px;">1. Models of Secularism: Western "Wall of Separation" vs. Indian "Principled Distance"</h3>
+      <div class="comp-table-wrap">
+        <table class="comp-table">
+          <thead>
+            <tr>
+              <th>Dimension</th>
+              <th>Western Model (e.g. French Laïcité / American Strict Neutrality)</th>
+              <th>Indian Model (Principled Distance / Sarva Dharma Sambhava)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Relationship between State &amp; Religion</strong></td>
+              <td>Strict mutual exclusion ("Wall of separation"). The state cannot interfere in religion, and religion cannot enter public policy or affairs of state.</td>
+              <td>Equal respect and equal protection for all religions (<em>Sarva Dharma Sambhava</em>). No strict wall of separation.</td>
+            </tr>
+            <tr>
+              <td><strong>State Intervention</strong></td>
+              <td>State cannot intervene in religious practices even to reform social evils (e.g. state cannot ban gender-discriminatory religious rituals).</td>
+              <td>State maintains "principled distance": reserves the right to intervene positively to reform oppressive social evils (e.g., abolition of Sati, banning untouchability under Art. 17, temple entry laws, Triple Talaq ban).</td>
+            </tr>
+            <tr>
+              <td><strong>Financial Support &amp; Minority Rights</strong></td>
+              <td>No state funding or subsidies can be given to religious educational institutions or places of worship.</td>
+              <td>State provides grants-in-aid to minority-run educational institutions without discrimination (Articles 29 &amp; 30); manages religious endowments for public welfare.</td>
+            </tr>
+            <tr>
+              <td><strong>Philosophical Origin</strong></td>
+              <td>Born out of violent historical conflicts between the Monarchy/State and the Roman Catholic Church in post-Reformation Europe.</td>
+              <td>Evolved from ancient composite civilizational pluralism (Ashoka's 12th Rock Edict, Bhakti-Sufi syncretism, freedom struggle unity).</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Comparison 2: Trickle Down vs Inclusive Development -->
+      <h3 style="margin-top:34px;">2. Development Paradigm Shift: "Trickle-Down" Economics vs. "Inclusive Rights-Based" Growth</h3>
+      <div class="comp-table-wrap">
+        <table class="comp-table">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Early "Trickle-Down" Strategy (1950s–1970s)</th>
+              <th>Inclusive &amp; Direct Empowerment Paradigm (Post-2000 &amp; DBT Era)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Core Assumption</strong></td>
+              <td>Rapid capital investment in heavy industries (Mahalanobis model) and GDP growth will automatically trickle down to benefit the poorest strata.</td>
+              <td>Growth alone is insufficient without targeted human capital investment, direct redistributive welfare, and capability expansion (Amartya Sen).</td>
+            </tr>
+            <tr>
+              <td><strong>Operational Mechanism</strong></td>
+              <td>Centralized state allocation, public sector dominance, bureaucratic rationing, and indirect subsidies.</td>
+              <td>Rights-based enactments (MGNREGA 2005, RTE 2009, NFSA 2013) transitioning into biometric Direct Benefit Transfers (DBT via JAM Trinity: Jan Dhan, Aadhaar, Mobile).</td>
+            </tr>
+            <tr>
+              <td><strong>Targeting &amp; Leakages</strong></td>
+              <td>Plagued by massive administrative intermediaries, leakages in physical grain distribution, and ghost beneficiaries.</td>
+              <td>De-duplication using Aadhaar, bank account transfers directly to women heads of households, Geo-tagging of assets (PMAY, PMGSY).</td>
+            </tr>
+            <tr>
+              <td><strong>Outcome Metric</strong></td>
+              <td>Measured primarily by headline GDP growth rate and industrial output indices.</td>
+              <td>Measured by Multidimensional Poverty Index (MPI), reduction in stunting/wasting, female workforce participation, and Gini coefficient.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: UPSC Mains Model Answers -->
+  <section class="section" id="societyMainsSection">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="kicker">UPSC GS-1 Mains Analytical Blueprint</span>
+          <h2 class="mt0">Indian Society Model Answer Frameworks</h2>
+        </div>
+        <p class="section-desc">Fully structured model answers with Intro, Sub-Headings, Constitutional Articles, Empirical Data, and Forward-Looking Conclusion.</p>
+      </div>
+
+      <div class="card-grid" style="grid-template-columns:1fr 1fr; gap:24px;">
+        <div class="book-card">
+          <div class="card-header-badge">
+            <span class="card-type-tag">UPSC GS-1 15 Marks / 250 Words</span>
+            <span class="card-era-badge">Social Empowerment &amp; Gender</span>
+          </div>
+          <h3>Q: "Self-Help Groups (SHGs) have emerged as the most potent micro-level institutional vehicles for women's socio-economic empowerment in India." Critically examine.</h3>
+          <p class="book-desc">
+            <strong>Model Framework Blueprint:</strong><br>
+            • <strong>Introduction:</strong> Define SHG (voluntary affinity group of 10-20 rural women pooling savings for mutual collateral-free credit). Over 10 million SHGs under Deendayal Antyodaya Yojana - NRLM mobilizing 100+ million women.<br>
+            • <strong>Pillars of Empowerment:</strong><br>
+            - <em>Financial Inclusion:</em> Eliminates dependency on predatory local moneylenders charging 36-60% interest. Bank credit linkage through NABARD program.<br>
+            - <em>Livelihood &amp; Entrepreneurship:</em> Transition from thrift credit to micro-enterprises (Lakhpati Didi initiative, agro-processing, dairy cooperatives).<br>
+            - <em>Social Capital &amp; Agency:</em> Kudumbashree (Kerala) and Mission Shakti (Odisha) demonstrate women mobilizing against domestic violence, arrack sales, and local sanitary issues.<br>
+            - <em>Political Leadership:</em> SHG leaders emerging as elected Panchayati Raj representatives (Panchayat leaders), breaking rural patriarchal glass ceilings.<br>
+            • <strong>Critical Limitations &amp; Bottlenecks:</strong><br>
+            - "Proxy Male Control": Men often controlling credit allocation while women bear repayment burden.<br>
+            - Regional Imbalance: Southern states account for disproportionate share of credit linkage compared to Northern/Central states.<br>
+            - Micro-Finance Debt Traps: Multiple borrowing leading to distress.<br>
+            • <strong>Way Forward:</strong> Forward market integration (e-Commerce / ONDC), digital financial literacy, and transforming SHGs into viable Producer Organizations (FPOs).
+          </p>
+          <div class="card-footer-links">
+            <a href="practice.html?mode=mains&book=ncert" class="btn btn-primary">Practice More Society Mains &rarr;</a>
+          </div>
+        </div>
+
+        <div class="book-card">
+          <div class="card-header-badge">
+            <span class="card-type-tag">UPSC GS-1 15 Marks / 250 Words</span>
+            <span class="card-era-badge">Globalization &amp; Culture</span>
+          </div>
+          <h3>Q: "Globalization has not eradicated traditional Indian cultural identities; rather, it has catalyzed a process of 'Glocalization' and cultural hybridity." Discuss.</h3>
+          <p class="book-desc">
+            <strong>Model Framework Blueprint:</strong><br>
+            • <strong>Introduction:</strong> Define Globalization (multidimensional flow of ideas, capital, technology, and culture across borders). Contrast the "Cultural Imperialism / Homogenization" thesis (McDonaldization) with the reality of "Glocalization" (Roland Robertson) — the mutual interpenetration of the global and the local.<br>
+            • <strong>Manifestations of Glocalization in Indian Society:</strong><br>
+            - <em>Culinary Sphere:</em> Global fast-food chains forced to alter menus to Indian dietary sensibilities (McAloo Tikki, paneer burgers, separate vegetarian kitchens).<br>
+            - <em>Media &amp; Entertainment:</em> Global OTT platforms producing localized vernacular content; Bollywood and regional cinema (Tollywood, Mollywood) achieving global reach (RRR, Oscar recognitions).<br>
+            - <em>Festivals &amp; Rituals:</em> Commercialization of traditional festivals (Diwali, Karva Chauth, Durga Puja) integrated with modern digital shopping galas; celebration of Mother\'s Day alongside traditional family reverence.<br>
+            - <em>Re-export of Indian Culture:</em> Yoga globalized through UN International Yoga Day; Ayurveda and ethnic textiles conquering Western markets.<br>
+            • <strong>Societal Anxieties &amp; Backlash:</strong><br>
+            - Cultural anxiety prompting defensive revivalism, moral policing, and identity polarization.<br>
+            - Consumerist individualism challenging the traditional collective family support system.<br>
+            • <strong>Conclusion:</strong> Indian society has historically demonstrated an absorptive resilience; globalization in India is not a one-way erasure, but a continuous creative negotiation preserving core civilizational pluralism.
+          </p>
+          <div class="card-footer-links">
+            <a href="practice.html?mode=mains&book=bipan-chandra" class="btn btn-primary">Practice Globalization Qs &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="siteFooter"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+<script>
+// Master Data Store for Indian Society Module
+const SOCIETY_DATA = [
+  // --- 1. SALIENT FEATURES & DIVERSITY ---
+  {
+    id: 'society-diversity-features',
+    category: 'diversity',
+    type: 'Core Concept',
+    title: 'Salient Features of Indian Society & Dimensions of Diversity',
+    subtitle: 'Caste, Linguistic, Religious, Racial & Tribal Mosaic & Unity in Diversity',
+    desc: 'Indian society is characterized by civilizational continuity, structural pluralism, composite culture, and the co-existence of profound traditionalism with rapid hyper-modernity. Rather than a melting pot that homogenizes differences, India represents a "salad bowl" or mosaic model where distinctive cultural identities retain their flavour while contributing to an overarching national unity.',
+    features: [
+      'Features of Indian Society: Multi-ethnic, multi-lingual, multi-religious, stratified, patriarchal family systems with matrilineal exceptions (Nairs of Kerala, Khasi/Garo of Meghalaya), and the transition from joint to nuclear and reconstituted families.',
+      'Caste Diversity (Varna vs Jati): Hierarchical endogamous social stratification based historically on notions of ritual purity and pollution (Louis Dumont). In modern India, caste has shifted from ritual status to a potent vehicle for political mobilization, vote-bank bargaining, and affirmative action claims (M.N. Srinivas).',
+      'Linguistic Diversity: 22 languages recognized under Eighth Schedule of the Constitution; over 121 major languages and 1,369 mother tongues (Census 2011). Four major language families: Indo-Aryan (78%), Dravidian (20%), Austroasiatic (Munda/Khasi), and Tibeto-Burman. Preserved through the Three-Language Formula.',
+      'Religious Diversity & Syncretism: Birthplace of four major world religions (Hinduism, Buddhism, Jainism, Sikhism) and home to Islam, Christianity, Zoroastrianism, and Judaism. Syncretic traditions like Ganga-Jamuni Tehzeeb, Ajmer Dargah, and Sufi-Bhakti confluence.',
+      'Racial & Ethnic Diversity: B.S. Guha\'s classification identifies 6 racial sub-types in India: Negrito, Proto-Australoid, Mongoloid, Mediterranean, Western Brachycephals, and Nordic.',
+      'Tribal Diversity: Over 705 Scheduled Tribes comprising 8.6% of population; 75 Particularly Vulnerable Tribal Groups (PVTGs). Protected under Fifth and Sixth Schedules, PESA 1996, and Forest Rights Act 2006.',
+      'Challenges & Unity: Challenges include linguistic chauvinism, regionalism, and caste atrocities. Unity is cemented by overarching constitutional values, common historical anti-colonial memory, pan-Indian pilgrimages, and democratic institutional participation.'
+    ],
+    upscFact: 'M.N. Srinivas coined the concepts of "Sanskritization" (process by which lower castes adopt rituals and customs of dominant upper castes to raise social status) and "Dominant Caste" (a caste possessing economic land power and numerical strength in a locality).',
+    bookRef: 'Ram Ahuja, Ch. 1-2; NCERT Class 12 Indian Society Ch. 2-3; M.N. Srinivas'
+  },
+
+  // --- 2. ROLE OF WOMEN & ORGANIZATIONS ---
+  {
+    id: 'society-women-organizations',
+    category: 'women',
+    type: 'Gender & Movements',
+    title: 'Role of Women and Women\'s Organizations in India',
+    subtitle: 'From 19th Century Reforms to Freedom Struggle, SHGs & 106th CAA',
+    desc: 'The trajectory of women\'s mobilization in India has evolved from 19th-century male-led social reform societies to autonomous women\'s organizations during the freedom movement, and onwards to contemporary grassroots Self-Help Groups (SHGs) and political reservation struggles.',
+    features: [
+      '19th Century Social Reforms: Raja Ram Mohan Roy (Sati abolition 1829), Ishwar Chandra Vidyasagar (Hindu Widows\' Remarriage Act 1856), Jyotirao & Savitribai Phule (first native girls\' school at Bhide Wada Pune 1848), Pandita Ramabai (Sharada Sadan 1889 for young widows), D.K. Karve (first women\'s university in Pune 1916).',
+      'Early Autonomous Women\'s Organizations: Bharat Stree Mahamandal (1910 by Sarala Devi Chaudhurani - first all-India women\'s organization), Women\'s Indian Association (WIA 1917 by Annie Besant and Margaret Cousins), National Council of Women in India (NCWI 1925 by Mehribai Tata), All India Women\'s Conference (AIWC 1927 by Margaret Cousins and Amrit Kaur).',
+      'Women in Peasant & Agrarian Struggles: Tebhaga Movement in Bengal (Nari Bahini active in harvesting), Telangana Peasant Armed Struggle (Chityala Ailamma fighting feudal Deshmukhs), Warli Revolt in Maharashtra (led by Godavari Parulekar).',
+      'Women in Freedom Movement: Swadeshi boycott, picketing of liquor shops during Non-Cooperation, Sarojini Naidu leading Dharasana salt raid (1930), Aruna Asaf Ali hoisting tricolor at Gowalia Tank (1942), Usha Mehta\'s underground Congress Radio, Captain Lakshmi Sahgal in INA Rani of Jhansi Regiment.',
+      'Contemporary Organizations: SEWA (Self Employed Women\'s Association founded by Ela Bhatt 1972 - unionizing informal women workers), AIDWA (All India Democratic Women\'s Association), Saheli (anti-rape and anti-dowry agitations).',
+      'Role of SHGs & Microfinance: Kudumbashree in Kerala (poverty eradication and women empowerment mission), Mission Shakti in Odisha, DAY-NRLM (Deendayal Antyodaya Yojana). Provides microcredit, fosters community leadership, and breaks rural patriarchal hegemony.',
+      'Political Empowerment: 73rd and 74th Constitutional Amendments (33% reservation in Panchayati Raj, now raised to 50% in 20 states). Landmark passage of the Nari Shakti Vandan Adhiniyam (106th Constitutional Amendment Act 2023) providing 33% reservation for women in the Lok Sabha and State Legislative Assemblies.'
+    ],
+    upscFact: 'The Committee on the Status of Women in India (CSWI) published the historic report "Towards Equality" in 1974, which exposed declining female sex ratios, rising maternal mortality, and economic marginalization, sparking the modern Indian feminist movement.',
+    bookRef: 'Ram Ahuja, Ch. 5; NCERT Class 12 Social Change Ch. 8; Bipan Chandra'
+  },
+
+  // --- 3. POPULATION & ASSOCIATED ISSUES ---
+  {
+    id: 'society-population-demographics',
+    category: 'demography',
+    type: 'Demographics',
+    title: 'Population Demography, Demographic Dividend & Aging in India',
+    subtitle: 'NFHS-5 Trends, Total Fertility Rates, Skilling Challenge & Geriatric Care',
+    desc: 'India has become the world\'s most populous nation (1.4+ billion). It stands at a historic demographic crossroads: experiencing a major demographic dividend with over 68% of its population in the working-age bracket (15–64), while simultaneously navigating falling fertility rates and impending population aging.',
+    features: [
+      'Key Demographic Indicators (NFHS-5, 2019-21): Total Fertility Rate (TFR) has declined to 2.0 children per woman (below the replacement level of 2.1). Sex ratio at birth improved to 952 females per 1000 males, and overall sex ratio reached 1020 females per 1000 males.',
+      'Regional Demographic Divergence: Northern states (UP, Bihar, MP, Rajasthan) have younger populations with TFR slightly above replacement, whereas Southern states (Kerala, Tamil Nadu, Andhra, Karnataka) have completed the demographic transition with TFR as low as 1.5–1.7. This divergence triggers acute political tensions regarding Lok Sabha delimitation and 16th Finance Commission tax devolution.',
+      'Demographic Dividend (Boon or Bane?): Window of opportunity open till approximately 2055. Can become a "demographic disaster" unless matched by quality education (NEP 2020), skilling (Skill India Mission), formal job creation, and female labor force participation (FLFPR).',
+      'Population Aging in India: Elderly population (>60 years) is projected to double from 10.1% in 2021 to over 15% by 2036 and 20.8% by 2050 (India Ageing Report 2023). Triggers "feminization of aging" (elderly women outliving men, often destitute and widowed).',
+      'Policy Initiatives: National Population Policy (NPP) 2000 prioritizing informed choice and reproductive health over coercive sterilizations; Mission Parivar Vikas; Atal Vayo Abhyuday Yojana (AVYAY) for senior citizens; Maintenance and Welfare of Parents and Senior Citizens Act 2007.'
+    ],
+    upscFact: 'Replacement-level fertility is the total fertility rate (normally 2.1 children per woman) at which a population exactly replaces itself from one generation to the next without migration. NFHS-5 confirmed India\'s national TFR dropped to 2.0.',
+    bookRef: 'Ram Ahuja, Ch. 4; NCERT Class 12 Indian Society Ch. 2; NITI Aayog Reports'
+  },
+
+  // --- 4. POVERTY & DEVELOPMENTAL ISSUES ---
+  {
+    id: 'society-poverty-development',
+    category: 'poverty',
+    type: 'Development Economics',
+    title: 'Poverty & Developmental Issues: Measurement, Nexus & Alleviation',
+    subtitle: 'Tendulkar & Rangarajan Lines, Multidimensional Poverty Index & Policy Shift',
+    desc: 'Poverty is not merely an economic shortfall of income, but a multidimensional deprivation of basic human capabilities (Amartya Sen). India\'s policy trajectory has evolved from 1950s trickle-down optimism to target-oriented schemes, and finally to modern Direct Benefit Transfers (DBT) and multidimensional poverty reduction.',
+    features: [
+      'Concepts of Poverty: Absolute Poverty (inability to attain minimum physical subsistence needs) vs. Relative Poverty (inequality compared to societal living standards); Generational vs. Situational poverty.',
+      'Evolution of Poverty Lines in India: Y.K. Alagh Committee (1979 - calorie norm: 2400 kcal rural, 2100 kcal urban); D.T. Lakdawala Committee (1993 - state-specific CPI-AL and CPI-IW baskets); Suresh Tendulkar Committee (2009 - moved away from calories to per capita consumption expenditure on health, education, clothing; Rs 27/day rural, Rs 33/day urban); C. Rangarajan Committee (2014 - raised line to Rs 32 rural, Rs 47 urban).',
+      'Multidimensional Poverty Index (MPI by NITI Aayog & UNDP): Measures deprivations across 3 equally weighted dimensions (Health, Education, Standard of Living) spanning 12 indicators. India lifted 248 million individuals out of multidimensional poverty between 2013-14 and 2022-23.',
+      'Causes & Social Spread of Poverty: Colonial de-industrialization, land fragmentation, disguised unemployment in agriculture, poor quality public healthcare driving out-of-pocket bankruptcies. Heavily concentrated among SCs, STs, and landless agricultural laborers.',
+      'Policy Paradigm Shift: Shift from 1950s-70s trickle-down economics to 1980s target-oriented anti-poverty programmes (IRDP), to post-2000 rights-based entitlements (MGNREGA guaranteeing 100 days of wage work, National Food Security Act 2013), to current direct benefit transfers (DBT via JAM Trinity: Jan Dhan, Aadhaar, Mobile).',
+      'Poverty-Inequality-Development Nexus: Kuznets Curve debate; Oxfam reports highlighting that the top 1% hold over 40% of national wealth. Growth without progressive taxation and social security exacerbates relative deprivation.'
+    ],
+    upscFact: 'NITI Aayog\'s National Multidimensional Poverty Index (MPI) uses the Alkire-Foster methodology with 12 indicators: Nutrition, Child & Adolescent Mortality, Maternal Health, Years of Schooling, School Attendance, Cooking Fuel, Sanitation, Drinking Water, Electricity, Housing, Assets, and Bank Accounts.',
+    bookRef: 'Ram Ahuja, Ch. 3; Amartya Sen (Development as Freedom); NITI Aayog MPI'
+  },
+
+  // --- 5. URBANIZATION: PROBLEMS & REMEDIES ---
+  {
+    id: 'society-urbanization-slums',
+    category: 'urbanization',
+    type: 'Urban Sociology',
+    title: 'Urbanization in India: Trends, Problems of Slums & Governance',
+    subtitle: 'Push-Pull Factors, 74th CAA, Smart Cities Mission & Dharavi Case Study',
+    desc: 'India is undergoing a colossal spatial and demographic transition, with the urban population rising from 31.16% (Census 2011) to an estimated 40%+ by 2036. However, Indian urbanization is marked by top-heavy primate city growth, service delivery collapse, and expanding informal slum settlements.',
+    features: [
+      'Drivers of Urbanization: Rural push factors (agricultural unviability, repeated droughts, caste oppression) combined with urban pull factors (industrial & service jobs, educational opportunities, civic anonymity). Rise of "Census Towns" (rural areas developing urban economic traits without municipal governance).',
+      'Severe Service Delivery Deficits: Water crises and groundwater depletion ("Day Zero" threats in Chennai, Bengaluru); acute air pollution across the Indo-Gangetic Plain; unmanaged municipal solid waste (collapsing landfills at Ghazipur, Deonar); urban flooding caused by encroachment on wetlands and natural stormwater drainage.',
+      'Social Consequences: Spatial segregation into gated communities alongside expanding squatter settlements; breakdown of traditional kinship support; alienation and mental health distress; informalization of labor (gig economy, construction workers without social security).',
+      'Impact on Rural Hinterland: "Feminization of agriculture" as men migrate to urban hubs; remittance economies sustaining rural households; loss of skilled rural youth (brain drain).',
+      'Governance & ULBs: 74th Constitutional Amendment Act (1992) granted constitutional status to Urban Local Bodies (12th Schedule). Crippled by the "3Fs": inadequate Funds, lack of Functionaries, and withheld Functions. Parastatal agencies (development authorities) undermining elected municipal mayors.',
+      'Slums & Dharavi Case Study: Slums lack tenure security, clean piped water, and private sanitation. Dharavi in Mumbai (one of Asia\'s largest slums) combines acute squalor with an informal economy generating over $1 billion annually. Challenges of in-situ rehabilitation vs displacement.',
+      'Government Missions: Smart Cities Mission, AMRUT (Atal Mission for Rejuvenation and Urban Transformation), Pradhan Mantri Awas Yojana - Urban (PMAY-U: Housing for All), Swachh Bharat Mission (Urban 2.0), PM-eBus Sewa.'
+    ],
+    upscFact: 'Census of India defines an Urban Area as: (1) All statutory places with a municipality, corporation, cantonment board, or notified town area; (2) All other places satisfying 3 criteria: minimum 5,000 population, at least 75% of male main working population engaged in non-agricultural pursuits, and density of at least 400 persons per sq. km.',
+    bookRef: 'Ram Ahuja, Ch. 12; NCERT Class 12 Social Change Ch. 6; Ministry of Housing & Urban Affairs'
+  },
+
+  // --- 6. EFFECTS OF GLOBALIZATION ---
+  {
+    id: 'society-globalization-impact',
+    category: 'globalization',
+    type: 'Cultural Transformation',
+    title: 'Effects of Globalization on Indian Society',
+    subtitle: 'Economic, Cultural, Agrarian & Gender Transformations (Homogenization vs Glocalization)',
+    desc: 'Globalization—the worldwide integration of economic, financial, technological, and cultural flows—has transformed Indian society since the 1991 New Economic Policy. Rather than uniform Westernization, India demonstrates active cultural hybridity and contested socio-economic outcomes.',
+    features: [
+      'Dimensions: Economic (MNCs, foreign direct investment, outsourcing / IT-BPO hubs in Bengaluru and Hyderabad), Cultural (satellite television, social media, consumerism), Political (global human rights, environmental conventions).',
+      'Cultural Homogenization vs. Glocalization: Fears of cultural erasure ("McDonaldization", consumerism) have been counterbalanced by "Glocalization" (adapting global products to Indian sensibilities: vegetarian fast food menus, Hindi/vernacular streaming shows, fusion ethnic fashion).',
+      'Impact on Women: Dual outcomes. Accelerated economic autonomy, late marriage, and high entry into IT/services/banking. However, it created the "double burden" (working woman managing both office work and unshared domestic chores) and new risks (cyber-stalking, commodification in media).',
+      'Impact on Agrarian Sector: Integration with volatile global commodity markets; corporate seed monopolies (patented BT Cotton) increasing input costs; agrarian distress and debt cycles leading to farmer suicides in Vidarbha and Telangana; emergence of corporate contract farming.',
+      'Impact on Family & Youth: Rise of nuclear and single-parent households; individualism challenging filial piety; elder loneliness as adult children migrate abroad ("empty nest syndrome"); aspirational consumer boom among youth.',
+      'Does Globalization Cause Poverty?: Paradoxical dualism. Globalization lifted millions out of absolute poverty by driving export-oriented IT, pharma, and services; however, it worsened relative economic inequality, casualized formal labor contracts, and exacerbated regional disparities between coastal/industrialized states and interior states.'
+    ],
+    upscFact: 'Glocalization, a sociological term popularized by Roland Robertson, refers to the simultaneous co-presence of both universalizing and particularizing tendencies—the adaptation of global ideas and goods to local cultural preferences.',
+    bookRef: 'Ram Ahuja, Ch. 17; NCERT Class 12 Social Change Ch. 7; Yogendra Singh'
+  },
+
+  // --- 7. SOCIAL EMPOWERMENT ---
+  {
+    id: 'society-social-empowerment',
+    category: 'empowerment',
+    type: 'Affirmative Action',
+    title: 'Social Empowerment: Disadvantaged Groups & Affirmative Justice',
+    subtitle: 'Scheduled Castes, STs, OBCs, Divyangjan, Transgender Persons & Constitutional Architecture',
+    desc: 'Social empowerment is the process of building capabilities, expanding agency, and securing constitutional rights for historically marginalized and socially excluded groups so they can lead dignified lives with equal opportunities.',
+    features: [
+      'Disadvantaged Target Groups: Scheduled Castes (SCs), Scheduled Tribes (STs), Other Backward Classes (OBCs), Religious and Linguistic Minorities, Persons with Disabilities (Divyangjan), Transgender and Gender-Nonconforming individuals, and Senior Citizens.',
+      'Constitutional Rights Framework: Article 14 (Equality before Law), Article 15 (Prohibition of discrimination on grounds of religion, race, caste, sex; special provisions for women and socially & educationally backward classes), Article 16 (Equality of opportunity in public employment; reservations under 16(4)), Article 17 (Abolition of Untouchability), Article 21 (Right to Life and Personal Dignity), Article 23 & 24 (Prohibition of human trafficking, forced labor, and child labor), Article 46 (Promotion of educational and economic interests of SCs, STs, and weaker sections).',
+      'Statutory & Institutional Safeguards: Protection of Civil Rights Act 1955, SC/ST (Prevention of Atrocities) Act 1989 (stringent punishments for caste-based violence and humiliation), National Commission for SCs (Art. 338), National Commission for STs (Art. 338A), National Commission for Backward Classes (Art. 338B via 102nd CAA).',
+      'Empowerment Initiatives: PM-AJAY (Pradhan Mantri Anusuchit Jaati Abhyuday Yojana), PM-JANMAN for PVTGs, NAMASTE scheme (eliminating manual scavenging with 100% mechanization), Stand-Up India (loans for SC/ST and women entrepreneurs), Rights of Persons with Disabilities Act 2016 (expanding recognized disabilities from 7 to 21), Transgender Persons (Protection of Rights) Act 2019.',
+      'Empowerment in Reality vs. Experience: Reservations have created an educated middle class among SC/ST/OBCs; however, deep-seated social prejudices persist. Issues include creamy layer exclusions, sub-categorization within backward classes (Justice Rohini Commission), and persistent violence against inter-caste marriages.'
+    ],
+    upscFact: 'The Supreme Court in Indra Sawhney v. Union of India (1992) upheld 27% reservation for OBCs, capped total reservations at 50% (unless extraordinary circumstances exist), and introduced the concept of the "Creamy Layer" to exclude affluent individuals among backward classes from reservation benefits.',
+    bookRef: 'Ram Ahuja, Ch. 8-10; NCERT Class 12 Indian Society Ch. 5; Gail Omvedt'
+  },
+
+  // --- 8. COMMUNALISM & SECULARISM ---
+  {
+    id: 'society-communalism-antidote',
+    category: 'communalism',
+    type: 'Social Conflict',
+    title: 'Communalism in Past & Contemporary India & Secularism as Antidote',
+    subtitle: 'Bipan Chandra\'s 3 Stages, Causes of Riots, Social Media Weaponization & Constitutional Remedy',
+    desc: 'Communalism is an ideology asserting that society is divided into distinct religious communities whose secular political, economic, and cultural interests are not only divergent but intrinsically antagonistic and mutually irreconcilable.',
+    features: [
+      'Bipan Chandra\'s Three Stages of Communalism: (1) Communal Consciousness (benign pride in one\'s religious community); (2) Liberal Communalism (belief that religious communities have separate socio-political interests that must be defended politically); (3) Extreme Communalism (belief that mutual interests are irreconcilable and hostile, leading to violence, separatism, and fascism).',
+      'Historical Evolution: Colonial policy of "Divide and Rule"; introduction of Separate Electorates under Morley-Minto Reforms (1909); rise of communal organizations (Muslim League 1906, Hindu Mahasabha 1915); tragic partition holocaust of 1947.',
+      'Contemporary Manifestations: Majoritarian and minoritarian communalism feeding each other; communal riots (1984 anti-Sikh, 1992-93 Mumbai, 2002 Gujarat, 2013 Muzaffarnagar); rise of cyber-communalism (social media misinformation, fake videos sparking mob violence), moral policing, and vigilantism.',
+      'Root Causes: Historical grievances and distorted memories; competitive electoral vote-bank mobilization; socio-economic deprivation and relative competition for scarce public jobs (Sachar Committee findings); residential ghettoization and declining inter-faith social interaction.',
+      'Consequences: Erosion of national integration and composite culture; loss of innocent lives and property; psycho-social trauma; economic loss; damage to India\'s international democratic standing.',
+      'Measures to Eradicate: Enforcement of rule of law and police accountability (Prakash Singh directives); fast-track courts for hate crimes; de-radicalization programs; revamping school history curricula to emphasize composite heritage; proactive local community peace committees (Mohalla Committees).',
+      'Secularism as Antidote: Promoting constitutional morality and equal citizenship where individual rights are guaranteed independent of religious identity.'
+    ],
+    upscFact: 'In S.R. Bommai v. Union of India (1994), a nine-judge Constitution Bench of the Supreme Court held that "Secularism is a basic feature of the Constitution" and that any state government pursuing unsecular policies or instigating communal violence is liable to dismissal under Article 356.',
+    bookRef: 'Bipan Chandra (Communalism in Modern India); Ram Ahuja, Ch. 14; NCERT Class 12'
+  },
+
+  // --- 9. REGIONALISM & SONS OF SOIL ---
+  {
+    id: 'society-regionalism-federalism',
+    category: 'regionalism',
+    type: 'Political Sociology',
+    title: 'Regionalism in India: Forms, "Sons of the Soil" & Federal Dynamics',
+    subtitle: 'Secessionism, Sub-Statehood Demands, Inter-State River Disputes & Economic Imbalance',
+    desc: 'Regionalism is an ideology and political movement driven by deep loyalty to one\'s distinct geographical, linguistic, and cultural region. While benign regional pride can decentralize democracy, aggressive chauvinistic regionalism threatens national unity.',
+    features: [
+      'Forms of Regionalism: (1) Secessionism (militant demands to break away from the Indian Union: early DMK in 1960s, Khalistan movement in Punjab, Naga/Mizo insurgencies); (2) Demands for Separate Statehood (movements seeking reorganization: creation of Telangana 2014, ongoing demands for Vidarbha, Bodoland, Gorkhaland); (3) Demand for Full Statehood (Delhi, Puducherry); (4) Inter-State Disputes (river water disputes like Cauvery, Krishna, Sutlej-Yamuna Link; boundary disputes like Belagavi between Maharashtra and Karnataka).',
+      'The "Sons of the Soil" (Bhumi Putra) Ideology: Belief that local inhabitants have primary and exclusive rights over land, natural resources, and employment opportunities within their home state. Examples: Shiv Sena\'s anti-South Indian and anti-North Indian agitations in Mumbai (1960s-2000s); Assam Movement (1979-1985) against undocumented migrants; state legislation mandating 75% local reservation in private sector jobs (Haryana, Andhra Pradesh).',
+      'Underlying Causes: Geographical isolation and alienation (North-East); continuous regional economic imbalance (Vidarbha in Maharashtra, Bundelkhand in UP/MP, KBK region in Odisha); linguistic and cultural identity assertions; opportunistic exploitation by regional political parties.',
+      'Consequences: Violence against internal migrant workers; inter-state friction impeding the national unified market; subversion of Article 19(1)(d) and (e) (freedom to move and reside anywhere in India).',
+      'Role of Regional Parties: Vocal defenders of federalism checking central overreach during coalition eras (1989–2014); but sometimes resort to parochial identity politics to consolidate regional vote banks.',
+      'Measures to Contain: Special constitutional provisions under Article 371 (development boards for Vidarbha, Marathwada, Saurashtra, Hill areas); Inter-State Council (Art. 263); GST Council model of cooperative federalism; national connectivity corridors (PM Gati Shakti); cultural immersion initiatives like Ek Bharat Shreshtha Bharat.'
+    ],
+    upscFact: 'Article 371 to 371-J in Part XXI of the Indian Constitution contain special asymmetric federal provisions tailored to meet regional aspirations and socio-economic imbalances across 12 states (Maharashtra, Gujarat, Nagaland, Assam, Manipur, Andhra Pradesh, Telangana, Sikkim, Mizoram, Arunachal Pradesh, Goa, Karnataka).',
+    bookRef: 'Ram Ahuja, Ch. 15; NCERT Class 12 Indian Society Ch. 6; Bipan Chandra'
+  },
+
+  // --- 10. SECULARISM & UNIFORM CIVIL CODE ---
+  {
+    id: 'society-secularism-ucc',
+    category: 'secularism',
+    type: 'Constitutional Architecture',
+    title: 'Indian Model of Secularism & The Uniform Civil Code (UCC) Debate',
+    subtitle: 'Article 44, Shah Bano to Uttarakhand UCC Act 2024 & Pluralism vs Gender Justice',
+    desc: 'Secularism in India is rooted in the philosophy of "Sarva Dharma Sambhava" (equal respect for all paths), functioning via "principled distance" where the state neither sponsors a state religion nor remains blind to social evils masquerading as religious tradition.',
+    features: [
+      'Constitutional Fabric: Preamble explicitly declared India a "Secular" Republic via the 42nd Amendment (1976). Article 25 (freedom of conscience and free profession, practice and propagation of religion), Article 26 (freedom to manage religious affairs), Article 27 (prohibition of taxes for religious promotion), Article 28 (freedom from religious instruction in state-aided schools).',
+      'The Uniform Civil Code (UCC) Mandate: Article 44 (Directive Principles of State Policy) directs that the State shall endeavor to secure for citizens a Uniform Civil Code throughout the territory of India, replacing diverse faith-based personal laws governing marriage, divorce, maintenance, inheritance, and adoption with a common civil law.',
+      'Key Judicial Interventions: Shah Bano Case (1985 - Supreme Court granted maintenance under Section 125 CrPC, lamenting that Article 44 remained a dead letter); Sarla Mudgal Case (1995 - conversion to Islam solely to practice polygamy held illegal); Shayara Bano Case (2017 - declared Talaq-e-Biddat / Instant Triple Talaq unconstitutional and arbitrary under Article 14).',
+      'Uttarakhand UCC Act (2024): First state in independent India to enact a comprehensive UCC. Mandates equal inheritance rights for sons and daughters, bans polygamy, outlaws child marriage and halala, standardizes divorce proceedings, and requires mandatory registration of live-in relationships. Exempts Scheduled Tribes to protect customary traditions.',
+      'The Core Debate: Arguments FOR UCC: Gender justice for women across all faiths, elimination of discriminatory patriarchal personal laws, national integration, legal simplicity. Arguments AGAINST / Concerns: Fears among religious minorities of majoritarian imposition, infringement of Article 25 and 29 cultural rights, complex diversity of customary tribal practices in the North-East protected under Article 371.',
+      '22nd Law Commission Consultation: Engaged in extensive nationwide stakeholder consultations, suggesting piecemeal reform of discriminatory aspects of personal laws rather than an abrupt forced uniform overhaul.'
+    ],
+    upscFact: 'Goa is the only Indian state that has had a common civil code since liberation in 1961, based on the Portuguese Civil Code of 1867, where all marriages, divorces, and inheritances are registered civilly regardless of religious faith.',
+    bookRef: 'Ram Ahuja, Ch. 16; NCERT Class 11 Political Theory Ch. 8; Law Commission Reports'
+  }
+];
+
+// Tab Switching
+function switchSocietyTab(tab, btn) {
+  document.querySelectorAll('#societyNavPills .society-tab-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+
+  const cardsSec = document.getElementById('societyCardsSection');
+  const compSec = document.getElementById('societyComparisonsSection');
+  const mainsSec = document.getElementById('societyMainsSection');
+
+  if (tab === 'mains-models') {
+    cardsSec.style.display = 'none';
+    compSec.style.display = 'none';
+    mainsSec.style.display = 'block';
+    mainsSec.scrollIntoView({ behavior: 'smooth' });
+    return;
+  }
+
+  cardsSec.style.display = 'block';
+  compSec.style.display = 'block';
+  mainsSec.style.display = 'block';
+
+  renderSocietyCards(tab, document.getElementById('societySearchInput').value.trim());
+}
+
+// Search handling
+function handleSocietySearch(query) {
+  const activeBtn = document.querySelector('#societyNavPills .society-tab-btn.active');
+  const activeText = activeBtn ? activeBtn.textContent.toLowerCase() : '';
+  let filter = 'all';
+  if (activeText.includes('diversity')) filter = 'diversity';
+  else if (activeText.includes('women')) filter = 'women';
+  else if (activeText.includes('population')) filter = 'demography';
+  else if (activeText.includes('poverty')) filter = 'poverty';
+  else if (activeText.includes('urbanization')) filter = 'urbanization';
+  else if (activeText.includes('globalization')) filter = 'globalization';
+  else if (activeText.includes('empowerment')) filter = 'empowerment';
+  else if (activeText.includes('communalism')) filter = 'communalism';
+  else if (activeText.includes('regionalism')) filter = 'regionalism';
+
+  renderSocietyCards(filter, query.trim());
+}
+
+// Render Society Cards
+function renderSocietyCards(categoryFilter = 'all', searchQuery = '') {
+  const container = document.getElementById('societyGrid');
+  if (!container) return;
+
+  const q = searchQuery.toLowerCase();
+  const filtered = SOCIETY_DATA.filter(item => {
+    const matchesCat = (categoryFilter === 'all' || item.category === categoryFilter);
+    const matchesQuery = !q || (
+      item.title.toLowerCase().includes(q) ||
+      item.subtitle.toLowerCase().includes(q) ||
+      item.desc.toLowerCase().includes(q) ||
+      item.type.toLowerCase().includes(q) ||
+      (item.features && item.features.some(f => f.toLowerCase().includes(q))) ||
+      (item.upscFact && item.upscFact.toLowerCase().includes(q))
+    );
+    return matchesCat && matchesQuery;
+  });
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<div style="grid-column:1/-1; padding:40px; text-align:center; color:var(--ink-faint);">
+      <h4>No Indian Society topics match your query "${searchQuery}"</h4>
+      <p>Try searching for terms like "SHG", "Poverty", "Demographic Dividend", "Urbanization", "UCC", or "Communalism".</p>
+    </div>`;
+    return;
+  }
+
+  container.innerHTML = filtered.map(item => `
+    <article class="society-card" id="${item.id}">
+      <div class="card-header-badge">
+        <span class="card-type-tag">${item.type}</span>
+      </div>
+      <h3>${item.title}</h3>
+      <div class="card-subtitle">${item.subtitle}</div>
+      <p class="card-desc">${item.desc}</p>
+
+      <div class="feature-list">
+        <h5>Core Dimensions &amp; Empirical Findings</h5>
+        <ul>
+          ${item.features.map(f => `<li>${f}</li>`).join('')}
+        </ul>
+      </div>
+
+      ${item.upscFact ? `
+        <div class="upsc-corner-box">
+          <b>🎯 UPSC Analytical Benchmark:</b> ${item.upscFact}
+        </div>
+      ` : ''}
+
+      <div class="card-footer-links">
+        <a href="practice.html?category=modern" class="btn btn-primary">🎯 Practice Questions</a>
+        <a href="practice.html?mode=mains&book=bipan-chandra" class="btn btn-outline">✍️ Mains Answers</a>
+        <a href="women.html" class="btn btn-outline">👑 Women in History</a>
+        <a href="books.html" class="btn btn-outline">📚 Ref: ${item.bookRef.split(';')[0]}</a>
+      </div>
+    </article>
+  `).join('');
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  renderNav('society.html');
+  renderBreadcrumb([
+    { label: 'Home', href: 'index.html' },
+    { label: 'Indian Society' }
+  ]);
+
+  const hash = (location.hash || '').replace('#', '');
+  if (hash && ['diversity', 'women', 'demography', 'poverty', 'urbanization', 'globalization', 'empowerment', 'communalism', 'regionalism', 'mains-models'].includes(hash)) {
+    const btn = document.querySelector(`#societyNavPills button[onclick*="${hash}"]`);
+    switchSocietyTab(hash, btn);
+  } else {
+    renderSocietyCards('all', '');
+  }
+  renderFooter();
+});
+</script>
+</body>
+</html>

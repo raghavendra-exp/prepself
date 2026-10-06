@@ -1,0 +1,17 @@
+{
+  "name": "General • Science • Teaching Exams India",
+  "short_name": "GST Exams India",
+  "description": "Master Exam Preparation Ecosystem for Indian General, Science and Teaching Competitions",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#059669",
+  "theme_color": "#059669",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

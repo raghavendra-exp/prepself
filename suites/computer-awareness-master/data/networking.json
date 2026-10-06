@@ -1,0 +1,200 @@
+{
+  "module": "Computer Networking",
+  "version": "2026.1",
+  "sections": [
+    {
+      "id": "network-types",
+      "title": "Geographical Network Classifications",
+      "hindiTitle": "भौगोलिक नेटवर्क वर्गीकरण",
+      "types": [
+        {
+          "acronym": "PAN",
+          "name": "Personal Area Network",
+          "range": "Within 10 meters (approx 33 feet)",
+          "tech": "Bluetooth, Zigbee, NFC, Infrared",
+          "desc": "Connects devices centered on a single person's workspace."
+        },
+        {
+          "acronym": "LAN",
+          "name": "Local Area Network",
+          "range": "Within a room, building, or office campus (up to 1 km)",
+          "tech": "Ethernet (IEEE 802.3), Wi-Fi (IEEE 802.11)",
+          "desc": "High data transfer rate, low error rate, privately owned."
+        },
+        {
+          "acronym": "CAN",
+          "name": "Campus Area Network",
+          "range": "1 km to 5 km (university or military base)",
+          "tech": "Fiber optic backbone, gigabit Ethernet",
+          "desc": "Spans multiple contiguous buildings belonging to one organization."
+        },
+        {
+          "acronym": "MAN",
+          "name": "Metropolitan Area Network",
+          "range": "5 km to 50 km (entire city or large metro area)",
+          "tech": "Cable TV network, WiMAX, city fiber loops",
+          "desc": "Spans a city; larger than LAN, smaller than WAN."
+        },
+        {
+          "acronym": "WAN",
+          "name": "Wide Area Network",
+          "range": "Country, continent, or entire globe",
+          "tech": "Leased lines, satellite links, underwater fiber cables",
+          "desc": "The Internet is the world's largest public WAN. High latency compared to LAN."
+        },
+        {
+          "acronym": "SAN",
+          "name": "Storage Area Network",
+          "range": "Data centers",
+          "tech": "Fibre Channel (FC), iSCSI",
+          "desc": "Dedicated high-speed network that interconnects and delivers shared pools of storage devices."
+        },
+        {
+          "acronym": "VPN",
+          "name": "Virtual Private Network",
+          "range": "Global encrypted overlay",
+          "tech": "IPsec, OpenVPN, WireGuard, SSL/TLS",
+          "desc": "Creates a secure, encrypted tunnel across a public network like the Internet."
+        }
+      ]
+    },
+    {
+      "id": "network-topologies",
+      "title": "Network Topologies & Formulas",
+      "hindiTitle": "नेटवर्क टोपोलॉजी और सूत्र",
+      "topologies": [
+        {
+          "name": "Star Topology",
+          "structure": "All devices connected to a central Hub or Switch.",
+          "advantages": "Easy to install and wire; failure of one cable/device only disconnects that device, central monitoring.",
+          "disadvantages": "Central hub/switch is a Single Point of Failure (if central hub fails, whole network goes down).",
+          "cablesNeeded": "N cables (where N is number of nodes)",
+          "examFrequency": "Most widely used topology in modern LANs."
+        },
+        {
+          "name": "Mesh Topology",
+          "structure": "Every device is connected to every other device via dedicated point-to-point links (Fully Connected Mesh).",
+          "advantages": "Highest fault tolerance, robust, dedicated traffic with no congestion, maximum privacy.",
+          "disadvantages": "Most expensive, massive cabling, difficult installation and maintenance.",
+          "formula": "Number of duplex links = N * (N - 1) / 2 | Number of I/O ports per device = N - 1",
+          "examFrequency": "Extremely frequent math calculation in bank exams! (e.g., 6 devices require 6*5/2 = 15 cables)."
+        },
+        {
+          "name": "Bus Topology",
+          "structure": "All devices share a single common communication line called a 'Backbone' cable, terminated at both ends with Terminators.",
+          "advantages": "Minimal cabling required, cost-effective for small networks.",
+          "disadvantages": "If backbone cable breaks anywhere, entire network goes down. Difficult troubleshooting, packet collisions (uses CSMA/CD).",
+          "terminatorRole": "Absorbs signals to prevent signal reflection (echo) which causes line noise."
+        },
+        {
+          "name": "Ring Topology",
+          "structure": "Devices connected in a circular closed loop. Data travels in one direction (unidirectional) or bidirectional (dual ring).",
+          "advantages": "Predictable transmission via Token Passing (Token Ring - IEEE 802.5), no collisions.",
+          "disadvantages": "Break in the ring breaks the entire network unless using a redundant dual ring (FDDI)."
+        },
+        {
+          "name": "Tree Topology",
+          "structure": "Hierarchical combination of Star and Bus topologies. Root node connects to secondary hubs.",
+          "advantages": "Highly scalable, easy expansion of corporate branch networks.",
+          "disadvantages": "Failure of root trunk cable disables the dependent branches."
+        },
+        {
+          "name": "Hybrid Topology",
+          "structure": "Combination of two or more different topologies (e.g., Star-Ring, Star-Bus).",
+          "advantages": "Flexible and reliable.",
+          "disadvantages": "Complex design and architecture."
+        }
+      ]
+    },
+    {
+      "id": "network-hardware",
+      "title": "Network Hardware & Devices",
+      "hindiTitle": "नेटवर्क उपकरण और हार्डवेयर",
+      "devices": [
+        {
+          "name": "Repeater",
+          "layer": "Layer 1 (Physical)",
+          "desc": "Regenerates and amplifies attenuated signals over long cable runs. Operates on raw bits, does not read headers."
+        },
+        {
+          "name": "Hub",
+          "layer": "Layer 1 (Physical)",
+          "desc": "Multi-port repeater. Broadcasts all incoming packets to ALL connected ports (dumb device). High collisions, single collision domain, single broadcast domain."
+        },
+        {
+          "name": "Bridge",
+          "layer": "Layer 2 (Data Link)",
+          "desc": "Connects two LAN segments using the same protocol. Filters traffic based on MAC addresses. Divides network into 2 collision domains."
+        },
+        {
+          "name": "Switch",
+          "layer": "Layer 2 (Data Link) / Layer 3 (Multilayer)",
+          "desc": "Intelligent multi-port bridge. Builds a MAC Address Table (CAM Table) through learning. Forwards frames only to destination port (unicast). Each port is its own separate collision domain."
+        },
+        {
+          "name": "Router",
+          "layer": "Layer 3 (Network)",
+          "desc": "Connects disparate networks (e.g. LAN to WAN / Internet). Routes packets based on logical IP addresses using routing protocols (OSPF, BGP). Blocks broadcasts (breaks broadcast domains)."
+        },
+        {
+          "name": "Gateway",
+          "layer": "Layer 4 - Layer 7 (Transport to Application)",
+          "desc": "Protocol translator / converter. Connects two completely different network architectures (e.g., AppleTalk to TCP/IP, or legacy mainframe to cloud)."
+        },
+        {
+          "name": "Modem (Modulator-Demodulator)",
+          "layer": "Layer 1/2",
+          "desc": "Converts digital data from computer into analog signals for telephone/cable lines, and vice versa."
+        }
+      ],
+      "collisionVsBroadcastDomain": {
+        "collisionDomain": "Network segment where packet collisions can occur if two devices transmit simultaneously. Hub = 1 collision domain for all ports. Switch = Each port is a separate collision domain.",
+        "broadcastDomain": "Portion of network where any device sending a broadcast frame will be received by all other devices. Hub and Switch maintain 1 broadcast domain. Router breaks broadcast domains."
+      }
+    },
+    {
+      "id": "transmission-media",
+      "title": "Transmission Media (Guided vs Unguided)",
+      "hindiTitle": "संचरण माध्यम (गाइडेड बनाम अनगाइडेड)",
+      "guided": [
+        {
+          "name": "Twisted Pair Cable",
+          "types": "UTP (Unshielded) & STP (Shielded)",
+          "connectors": "RJ-45 (8 pins, Registered Jack 45), RJ-11 (telephones)",
+          "categories": "Cat 5e (1 Gbps up to 100m), Cat 6 (10 Gbps up to 55m), Cat 6a (10 Gbps up to 100m)",
+          "desc": "Pairs of wires twisted together to cancel electromagnetic interference (EMI) and crosstalk."
+        },
+        {
+          "name": "Coaxial Cable",
+          "types": "Thicknet (10BASE5) & Thinnet (10BASE2)",
+          "connectors": "BNC (Bayonet Neill-Concelman) connector, F-type (cable TV)",
+          "desc": "Central copper conductor surrounded by dielectric insulator, metallic braided shield, and plastic jacket."
+        },
+        {
+          "name": "Fiber Optic Cable",
+          "types": "Single-Mode (long distance, laser, thin core 9µm) vs Multi-Mode (short distance, LED, thicker core 50-62.5µm)",
+          "principle": "Total Internal Reflection (TIR)",
+          "connectors": "SC, LC, ST",
+          "desc": "Transmits light pulses through glass/plastic core. Immune to EMI and radio interference, highest bandwidth."
+        }
+      ],
+      "unguided": [
+        {
+          "name": "Radio Waves",
+          "frequency": "3 kHz to 1 GHz",
+          "propagation": "Omnidirectional (travels in all directions). Penetrates building walls. Used in AM/FM radio, Wi-Fi, cellular."
+        },
+        {
+          "name": "Microwaves",
+          "frequency": "1 GHz to 300 GHz",
+          "propagation": "Line-of-Sight (unidirectional, narrow focused beam). Blocked by obstacles. Used in satellite and radar communication."
+        },
+        {
+          "name": "Infrared Waves",
+          "frequency": "300 GHz to 400 THz",
+          "propagation": "Line-of-Sight, short range. Cannot penetrate walls (high security). Used in TV remote controls."
+        }
+      ]
+    }
+  ]
+}

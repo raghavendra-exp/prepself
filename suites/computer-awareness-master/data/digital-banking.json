@@ -1,0 +1,141 @@
+{
+  "module": "Digital Banking Systems & Financial Technology",
+  "version": "2026.1",
+  "sections": [
+    {
+      "id": "cbs-finacle",
+      "title": "Core Banking Solutions (CBS)",
+      "hindiTitle": "कोर बैंकिंग सॉल्यूशन (CBS)",
+      "definition": "CORE stands for 'Centralized Online Real-time Electronic' banking. Enables customers to access their bank account and perform basic transactions from any branch on the bank's network.",
+      "majorCbsPlatforms": [
+        {
+          "product": "Finacle",
+          "vendor": "Infosys",
+          "usedBy": "State Bank of India (SBI), Punjab National Bank (PNB), Bank of Baroda (BOB), Union Bank"
+        },
+        {
+          "product": "BaNCS",
+          "vendor": "Tata Consultancy Services (TCS)",
+          "usedBy": "Central Bank of India, Indian Bank, several Regional Rural Banks (RRBs)"
+        },
+        {
+          "product": "Flexcube",
+          "vendor": "Oracle Financial Services Software",
+          "usedBy": "HDFC Bank, Yes Bank, RBL Bank"
+        },
+        {
+          "product": "FinnOne Neo",
+          "vendor": "Nucleus Software",
+          "usedBy": "Leading lending and NBFC operations"
+        }
+      ]
+    },
+    {
+      "id": "payment-systems",
+      "title": "Indian Payment Systems Comparison Matrix",
+      "hindiTitle": "भारतीय भुगतान प्रणालियों की तुलनात्मक तालिका",
+      "systems": [
+        {
+          "system": "RTGS",
+          "fullName": "Real Time Gross Settlement",
+          "manager": "Reserve Bank of India (RBI)",
+          "timing": "24x7x365 (round-the-clock since Dec 2020)",
+          "settlement": "Real-time, order-by-order gross basis (individual transaction)",
+          "limits": "Minimum: ₹2,00,000 | Maximum: No upper limit",
+          "reversal": "Irrevocable and final upon settlement"
+        },
+        {
+          "system": "NEFT",
+          "fullName": "National Electronic Funds Transfer",
+          "manager": "Reserve Bank of India (RBI)",
+          "timing": "24x7x365 (half-hourly batches; 48 batches per day since Dec 2019)",
+          "settlement": "Deferred Net Settlement (DNS) in batches",
+          "limits": "Minimum: ₹1 | Maximum: No ceiling set by RBI (bank specific)",
+          "features": "Supports cash remittance to Nepal under Indo-Nepal Remittance Scheme"
+        },
+        {
+          "system": "IMPS",
+          "fullName": "Immediate Payment Service",
+          "manager": "National Payments Corporation of India (NPCI)",
+          "timing": "24x7x365 instant transfer",
+          "settlement": "Real-time instant interbank electronic fund transfer",
+          "limits": "Minimum: ₹1 | Maximum: ₹5,00,000 (increased from ₹2 lakh in Oct 2021)",
+          "channels": "Mobile banking, internet banking, ATMs, SMS, MMID (Mobile Money Identifier - 7 digits)"
+        },
+        {
+          "system": "UPI",
+          "fullName": "Unified Payments Interface",
+          "manager": "National Payments Corporation of India (NPCI)",
+          "timing": "24x7x365 instant transfer",
+          "addressing": "Virtual Payment Address (VPA / UPI ID - e.g., user@sbi)",
+          "limits": "Standard: ₹1,00,000 per day; ₹5,00,000 for hospitals, educational institutions, IPO, and RBI Retail Direct schemes.",
+          "protocols": "Built on IMPS rails, uses 2-factor authentication (UPI PIN)"
+        },
+        {
+          "system": "AePS",
+          "fullName": "Aadhaar Enabled Payment System",
+          "manager": "National Payments Corporation of India (NPCI)",
+          "services": "Cash withdrawal, cash deposit, balance enquiry, Aadhaar to Aadhaar fund transfer, mini statement",
+          "requirements": "IIN (Issuer Identification Number), Aadhaar number, Biometric fingerprint/iris"
+        },
+        {
+          "system": "CTS",
+          "fullName": "Cheque Truncation System",
+          "manager": "Reserve Bank of India (RBI) / NPCI",
+          "definition": "Online image-based cheque clearing process. Physical cheque is truncated at collecting bank; digital image and MICR data transmitted electronically.",
+          "micrCode": "9-digit numeric code on cheque bottom: First 3 digits = City code, Middle 3 digits = Bank code, Last 3 digits = Branch code."
+        }
+      ]
+    },
+    {
+      "id": "card-technologies",
+      "title": "Payment Card Technologies & Security",
+      "hindiTitle": "पेमेंट कार्ड प्रौद्योगिकियाँ एवं सुरक्षा",
+      "features": [
+        {
+          "tech": "Magnetic Stripe",
+          "security": "Low - Static data stored on magnetic tape easily cloned using skimmers (discontinued for issuance)."
+        },
+        {
+          "tech": "EMV Chip",
+          "security": "High - Europay, MasterCard, Visa standard. Microchip creates dynamic unique cryptogram for every single transaction."
+        },
+        {
+          "tech": "Contactless NFC",
+          "security": "Uses Near Field Communication (RFID 13.56 MHz). Tap-and-go payment without PIN up to ₹5,000 in India."
+        },
+        {
+          "tech": "CVV / CVC",
+          "security": "Card Verification Value (3 digits on back of Visa/MasterCard/RuPay; 4 digits on front of American Express). Never stored by merchants under RBI Tokenization guidelines."
+        },
+        {
+          "tech": "Card Tokenization",
+          "security": "RBI mandate replacing actual 16-digit Card Number with an alternate unique code called 'Token' tied to specific merchant and device."
+        }
+      ]
+    },
+    {
+      "id": "rbi-cyber-framework",
+      "title": "RBI Cybersecurity Framework for Banks",
+      "hindiTitle": "बैंकों हेतु RBI साइबर सुरक्षा ढाँचा",
+      "guidelines": [
+        {
+          "title": "Chief Information Security Officer (CISO)",
+          "detail": "Independent officer reporting directly to the Risk Committee of the Board."
+        },
+        {
+          "title": "Security Operations Centre (SOC)",
+          "detail": "Mandatory 24x7 monitoring and incident detection infrastructure."
+        },
+        {
+          "title": "Incident Reporting Timeline",
+          "detail": "Banks MUST report any cyber security incident to RBI within 2 to 6 hours of detection, and to CERT-In within 6 hours."
+        },
+        {
+          "title": "Customer Liability Circular",
+          "detail": "Zero liability for customer if fraudulent unauthorized electronic transaction is reported within 3 working days."
+        }
+      ]
+    }
+  ]
+}

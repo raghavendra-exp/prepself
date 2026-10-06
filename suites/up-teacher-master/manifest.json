@@ -1,0 +1,18 @@
+{
+  "name": "UP Teacher Master — UP PRT + UP TGT Preparation",
+  "short_name": "UPTeacherMaster",
+  "description": "Complete preparation platform for UP Primary Assistant Teacher (Super TET) and UP TGT recruitment examinations.",
+  "start_url": "/up-teacher-master/",
+  "scope": "/up-teacher-master/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#d97706",
+  "icons": [
+    {
+      "src": "/up-teacher-master/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,814 @@
+{
+  "Indian Constitution": {
+    "url": "https://legislative.gov.in/constitution-of-india/",
+    "source": "Government of India"
+  },
+  "ISRO": {
+    "url": "https://www.isro.gov.in/",
+    "source": "ISRO (Official)"
+  },
+  "Election Commission of India": {
+    "url": "https://eci.gov.in/",
+    "source": "ECI (Official)"
+  },
+  "Reserve Bank of India": {
+    "url": "https://www.rbi.org.in/",
+    "source": "RBI (Official)"
+  },
+  "Supreme Court of India": {
+    "url": "https://www.sci.gov.in/",
+    "source": "Supreme Court (Official)"
+  },
+  "Parliament of India": {
+    "url": "https://sansad.in/",
+    "source": "Parliament of India (Official)"
+  },
+  "United Nations": {
+    "url": "https://www.un.org/en/",
+    "source": "UN (Official)"
+  },
+  "UNESCO": {
+    "url": "https://www.unesco.org/en",
+    "source": "UNESCO (Official)"
+  },
+  "Archaeological Survey of India": {
+    "url": "https://asi.nic.in/",
+    "source": "ASI (Official)"
+  },
+  "Mahatma Gandhi": {
+    "url": "https://www.britannica.com/biography/Mahatma-Gandhi",
+    "source": "Britannica"
+  },
+  "Chandragupta Maurya": {
+    "url": "https://www.britannica.com/biography/Chandragupta-Maurya",
+    "source": "Britannica"
+  },
+  "Chanakya (Kautilya)": {
+    "url": "https://www.britannica.com/biography/Kautilya",
+    "source": "Britannica"
+  },
+  "Ashoka the Great": {
+    "url": "https://www.britannica.com/biography/Ashoka",
+    "source": "Britannica"
+  },
+  "Ashoka": {
+    "url": "https://www.britannica.com/biography/Ashoka",
+    "source": "Britannica"
+  },
+  "Bindusara": {
+    "url": "https://www.britannica.com/biography/Bindusara",
+    "source": "Britannica"
+  },
+  "Megasthenes": {
+    "url": "https://www.britannica.com/biography/Megasthenes",
+    "source": "Britannica"
+  },
+  "Samudragupta": {
+    "url": "https://www.britannica.com/biography/Samudra-Gupta",
+    "source": "Britannica"
+  },
+  "Chandragupta II (Vikramaditya)": {
+    "url": "https://www.britannica.com/biography/Chandragupta-II",
+    "source": "Britannica"
+  },
+  "Chandragupta I": {
+    "url": "https://www.britannica.com/biography/Chandra-Gupta-I",
+    "source": "Britannica"
+  },
+  "Kalidasa": {
+    "url": "https://www.britannica.com/biography/Kalidasa",
+    "source": "Britannica"
+  },
+  "Aryabhata": {
+    "url": "https://www.britannica.com/biography/Aryabhata-I",
+    "source": "Britannica"
+  },
+  "Faxian": {
+    "url": "https://www.britannica.com/biography/Faxian",
+    "source": "Britannica"
+  },
+  "Xuanzang": {
+    "url": "https://www.britannica.com/biography/Xuanzang",
+    "source": "Britannica"
+  },
+  "Harshavardhana": {
+    "url": "https://www.britannica.com/biography/Harsha",
+    "source": "Britannica"
+  },
+  "Pulakeshin II": {
+    "url": "https://www.britannica.com/biography/Pulakesin-II",
+    "source": "Britannica"
+  },
+  "Gautama Buddha": {
+    "url": "https://www.britannica.com/biography/Buddha",
+    "source": "Britannica"
+  },
+  "Mahavira": {
+    "url": "https://www.britannica.com/biography/Mahavira",
+    "source": "Britannica"
+  },
+  "Menander (Milinda)": {
+    "url": "https://www.britannica.com/biography/Menander-king-of-Bactria",
+    "source": "Britannica"
+  },
+  "Kanishka": {
+    "url": "https://www.britannica.com/biography/Kanishka",
+    "source": "Britannica"
+  },
+  "Rudradaman I": {
+    "url": "https://www.britannica.com/biography/Rudradaman-I",
+    "source": "Britannica"
+  },
+  "Rajaraja Chola I": {
+    "url": "https://www.britannica.com/biography/Rajaraja-I",
+    "source": "Britannica"
+  },
+  "Rajendra Chola I": {
+    "url": "https://www.britannica.com/biography/Rajendra-I",
+    "source": "Britannica"
+  },
+  "Mihir Bhoja": {
+    "url": "https://en.wikipedia.org/wiki/Mihira_Bhoja",
+    "source": "Wikipedia"
+  },
+  "Raja Bhoja": {
+    "url": "https://en.wikipedia.org/wiki/Bhoja",
+    "source": "Wikipedia"
+  },
+  "Prithviraj Chauhan (Prithviraj III)": {
+    "url": "https://en.wikipedia.org/wiki/Prithviraj_Chauhan",
+    "source": "Wikipedia"
+  },
+  "Vikramaditya VI": {
+    "url": "https://en.wikipedia.org/wiki/Vikramaditya_VI",
+    "source": "Wikipedia"
+  },
+  "Qutb-ud-din Aibak": {
+    "url": "https://www.britannica.com/biography/Qutb-ud-Din-Aibak",
+    "source": "Britannica"
+  },
+  "Shams-ud-din Iltutmish": {
+    "url": "https://www.britannica.com/biography/Iltutmish",
+    "source": "Britannica"
+  },
+  "Razia Sultan": {
+    "url": "https://www.britannica.com/biography/Raziyyat-al-Din",
+    "source": "Britannica"
+  },
+  "Ghiyas-ud-din Balban": {
+    "url": "https://www.britannica.com/biography/Balban",
+    "source": "Britannica"
+  },
+  "Alauddin Khalji": {
+    "url": "https://www.britannica.com/biography/Ala-ud-Din-Khalji",
+    "source": "Britannica"
+  },
+  "Muhammad bin Tughlaq": {
+    "url": "https://www.britannica.com/biography/Muhammad-bin-Tughluq",
+    "source": "Britannica"
+  },
+  "Firuz Shah Tughlaq": {
+    "url": "https://www.britannica.com/biography/Firuz-Shah-Tughluq",
+    "source": "Britannica"
+  },
+  "Sikandar Lodi": {
+    "url": "https://en.wikipedia.org/wiki/Sikandar_Lodi",
+    "source": "Wikipedia"
+  },
+  "Ibrahim Lodi": {
+    "url": "https://en.wikipedia.org/wiki/Ibrahim_Lodi",
+    "source": "Wikipedia"
+  },
+  "Amir Khusrau": {
+    "url": "https://www.britannica.com/biography/Amir-Khosrow",
+    "source": "Britannica"
+  },
+  "Ziauddin Barani": {
+    "url": "https://en.wikipedia.org/wiki/Ziauddin_Barani",
+    "source": "Wikipedia"
+  },
+  "Mehrgarh": {
+    "url": "https://www.britannica.com/place/Mehrgarh",
+    "source": "Britannica"
+  },
+  "Bhimbetka": {
+    "url": "https://whc.unesco.org/en/list/925/",
+    "source": "UNESCO World Heritage"
+  },
+  "Harappa (Punjab)": {
+    "url": "https://www.britannica.com/place/Harappa",
+    "source": "Britannica"
+  },
+  "Mohenjo-daro (Sindh)": {
+    "url": "https://whc.unesco.org/en/list/138/",
+    "source": "UNESCO World Heritage"
+  },
+  "Dholavira (Gujarat)": {
+    "url": "https://whc.unesco.org/en/list/1645/",
+    "source": "UNESCO World Heritage"
+  },
+  "Lothal (Gujarat)": {
+    "url": "https://en.wikipedia.org/wiki/Lothal",
+    "source": "Wikipedia"
+  },
+  "Rigveda": {
+    "url": "https://www.britannica.com/topic/Rigveda",
+    "source": "Britannica"
+  },
+  "Upanishads": {
+    "url": "https://www.britannica.com/topic/Upanishad",
+    "source": "Britannica"
+  },
+  "Arthashastra": {
+    "url": "https://www.britannica.com/topic/Artha-shastra",
+    "source": "Britannica"
+  },
+  "Kalinga War": {
+    "url": "https://www.britannica.com/event/Battle-of-Kalinga",
+    "source": "Britannica"
+  },
+  "Nalanda University": {
+    "url": "https://whc.unesco.org/en/list/1502/",
+    "source": "UNESCO World Heritage"
+  },
+  "Khajuraho": {
+    "url": "https://whc.unesco.org/en/list/240/",
+    "source": "UNESCO World Heritage"
+  },
+  "Brihadeeswara Temple": {
+    "url": "https://whc.unesco.org/en/list/250/",
+    "source": "UNESCO World Heritage"
+  },
+  "Qutub Minar": {
+    "url": "https://whc.unesco.org/en/list/233/",
+    "source": "UNESCO World Heritage"
+  },
+  "First Battle of Panipat": {
+    "url": "https://www.britannica.com/event/Battle-of-Panipat-1526",
+    "source": "Britannica"
+  },
+  "Milinda Panha": {
+    "url": "https://en.wikipedia.org/wiki/Milinda_Panha",
+    "source": "Wikipedia"
+  },
+  "Bactrian Greeks": {
+    "url": "https://en.wikipedia.org/wiki/Greco-Bactrian_Kingdom",
+    "source": "Wikipedia"
+  },
+  "Delhi Sultanate": {
+    "url": "https://www.britannica.com/place/Delhi-Sultanate",
+    "source": "Britannica"
+  },
+  "Mughal Empire": {
+    "url": "https://www.britannica.com/place/Mughal-dynasty",
+    "source": "Britannica"
+  },
+  "Buddhism": {
+    "url": "https://www.britannica.com/topic/Buddhism",
+    "source": "Britannica"
+  },
+  "Jainism": {
+    "url": "https://www.britannica.com/topic/Jainism",
+    "source": "Britannica"
+  },
+  "Bhakti Movement": {
+    "url": "https://www.britannica.com/topic/bhakti",
+    "source": "Britannica"
+  },
+  "Sufism": {
+    "url": "https://www.britannica.com/topic/Sufism",
+    "source": "Britannica"
+  },
+  "Ghiyas-ud-din Tughlaq": {
+    "url": "https://www.britannica.com/biography/Ghiyas-al-Din-Tughluq",
+    "source": "Britannica"
+  },
+  "Kizr Khan": {
+    "url": "https://en.wikipedia.org/wiki/Khizr_Khan_(Sayyid_dynasty)",
+    "source": "Wikipedia"
+  },
+  "Mubarak Shah": {
+    "url": "https://en.wikipedia.org/wiki/Mubarak_Shah",
+    "source": "Wikipedia"
+  },
+  "Bahlul Lodi": {
+    "url": "https://www.britannica.com/biography/Bahlul-Khan-Lodi",
+    "source": "Britannica"
+  },
+  "Harihara I & Bukka Raya I": {
+    "url": "https://en.wikipedia.org/wiki/Harihara_I",
+    "source": "Wikipedia"
+  },
+  "Krishna Deva Raya": {
+    "url": "https://www.britannica.com/biography/Krishnadevaraya",
+    "source": "Britannica"
+  },
+  "Babur": {
+    "url": "https://www.britannica.com/biography/Babur",
+    "source": "Britannica"
+  },
+  "Humayun": {
+    "url": "https://www.britannica.com/biography/Humayun",
+    "source": "Britannica"
+  },
+  "Sher Shah Suri": {
+    "url": "https://www.britannica.com/biography/Sher-Shah",
+    "source": "Britannica"
+  },
+  "Islam Shah Suri": {
+    "url": "https://en.wikipedia.org/wiki/Islam_Shah_Suri",
+    "source": "Wikipedia"
+  },
+  "Akbar the Great": {
+    "url": "https://www.britannica.com/biography/Akbar",
+    "source": "Britannica"
+  },
+  "Bairam Khan": {
+    "url": "https://www.britannica.com/biography/Bayram-Khan",
+    "source": "Britannica"
+  },
+  "Raja Todar Mal": {
+    "url": "https://en.wikipedia.org/wiki/Raja_Todar_Mal",
+    "source": "Wikipedia"
+  },
+  "Abul Fazl": {
+    "url": "https://www.britannica.com/biography/Abul-Fazl-Allami",
+    "source": "Britannica"
+  },
+  "Jahangir": {
+    "url": "https://www.britannica.com/biography/Jahangir",
+    "source": "Britannica"
+  },
+  "Nur Jahan": {
+    "url": "https://www.britannica.com/biography/Nur-Jahan",
+    "source": "Britannica"
+  },
+  "Sir Thomas Roe": {
+    "url": "https://www.britannica.com/biography/Sir-Thomas-Roe",
+    "source": "Britannica"
+  },
+  "Shah Jahan": {
+    "url": "https://www.britannica.com/biography/Shah-Jahan",
+    "source": "Britannica"
+  },
+  "Mumtaz Mahal": {
+    "url": "https://www.britannica.com/biography/Mumtaz-Mahal",
+    "source": "Britannica"
+  },
+  "Aurangzeb (Alamgir)": {
+    "url": "https://www.britannica.com/biography/Aurangzeb",
+    "source": "Britannica"
+  },
+  "Dara Shikoh": {
+    "url": "https://www.britannica.com/biography/Dara-Shikoh",
+    "source": "Britannica"
+  },
+  "Shivaji": {
+    "url": "https://www.britannica.com/biography/Shivaji",
+    "source": "Britannica"
+  },
+  "Sambhaji": {
+    "url": "https://en.wikipedia.org/wiki/Sambhaji",
+    "source": "Wikipedia"
+  },
+  "Bahadur Shah I (Shah Alam)": {
+    "url": "https://en.wikipedia.org/wiki/Bahadur_Shah_I",
+    "source": "Wikipedia"
+  },
+  "Muhammad Shah 'Rangeela'": {
+    "url": "https://en.wikipedia.org/wiki/Muhammad_Shah_(Mughal_emperor)",
+    "source": "Wikipedia"
+  },
+  "Shah Alam II": {
+    "url": "https://en.wikipedia.org/wiki/Shah_Alam_II",
+    "source": "Wikipedia"
+  },
+  "Bahadur Shah II (Zafar)": {
+    "url": "https://www.britannica.com/biography/Bahadur-Shah-II",
+    "source": "Britannica"
+  },
+  "Maharaja Ranjit Singh": {
+    "url": "https://www.britannica.com/biography/Ranjit-Singh",
+    "source": "Britannica"
+  },
+  "Guru Nanak Dev Ji": {
+    "url": "https://www.britannica.com/biography/Guru-Nanak",
+    "source": "Britannica"
+  },
+  "Guru Gobind Singh Ji": {
+    "url": "https://www.britannica.com/biography/Gobind-Singh",
+    "source": "Britannica"
+  },
+  "Robert Clive": {
+    "url": "https://www.britannica.com/biography/Robert-Clive-Baron-Clive-of-Plassey",
+    "source": "Britannica"
+  },
+  "Siraj-ud-Daulah": {
+    "url": "https://www.britannica.com/biography/Siraj-al-Dawlah",
+    "source": "Britannica"
+  },
+  "Dadabhai Naoroji": {
+    "url": "https://www.britannica.com/biography/Dadabhai-Naoroji",
+    "source": "Britannica"
+  },
+  "Bal Gangadhar Tilak": {
+    "url": "https://www.britannica.com/biography/Bal-Gangadhar-Tilak",
+    "source": "Britannica"
+  },
+  "Lala Lajpat Rai": {
+    "url": "https://www.britannica.com/biography/Lala-Lajpat-Rai",
+    "source": "Britannica"
+  },
+  "Gopal Krishna Gokhale": {
+    "url": "https://www.britannica.com/biography/Gopal-Krishna-Gokhale",
+    "source": "Britannica"
+  },
+  "Subhas Chandra Bose": {
+    "url": "https://www.britannica.com/biography/Subhas-Chandra-Bose",
+    "source": "Britannica"
+  },
+  "Sardar Vallabhbhai Patel": {
+    "url": "https://www.britannica.com/biography/Vallabhbhai-Patel",
+    "source": "Britannica"
+  },
+  "Jawaharlal Nehru": {
+    "url": "https://www.britannica.com/biography/Jawaharlal-Nehru",
+    "source": "Britannica"
+  },
+  "Bhagat Singh": {
+    "url": "https://www.britannica.com/biography/Bhagat-Singh",
+    "source": "Britannica"
+  },
+  "Taj Mahal": {
+    "url": "https://whc.unesco.org/en/list/252/",
+    "source": "UNESCO World Heritage"
+  },
+  "Battle of Plassey": {
+    "url": "https://www.britannica.com/event/Battle-of-Plassey",
+    "source": "Britannica"
+  },
+  "Battle of Buxar": {
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Buxar",
+    "source": "Wikipedia"
+  },
+  "Indian National Congress": {
+    "url": "https://www.britannica.com/topic/Indian-National-Congress",
+    "source": "Britannica"
+  },
+  "Vijayanagara Empire": {
+    "url": "https://whc.unesco.org/en/list/241/",
+    "source": "UNESCO World Heritage"
+  },
+  "Hampi": {
+    "url": "https://whc.unesco.org/en/list/241/",
+    "source": "UNESCO World Heritage"
+  },
+  "Red Fort": {
+    "url": "https://whc.unesco.org/en/list/231/",
+    "source": "UNESCO World Heritage"
+  },
+  "Golden Temple": {
+    "url": "https://en.wikipedia.org/wiki/Golden_Temple",
+    "source": "Wikipedia"
+  },
+  "Raja Ram Mohan Roy": {
+    "url": "https://www.britannica.com/biography/Ram-Mohun-Roy",
+    "source": "Britannica"
+  },
+  "Swami Dayanand Saraswati": {
+    "url": "https://www.britannica.com/biography/Dayananda-Sarasvati",
+    "source": "Britannica"
+  },
+  "Swami Vivekananda": {
+    "url": "https://www.britannica.com/biography/Swami-Vivekananda",
+    "source": "Britannica"
+  },
+  "Sir Syed Ahmed Khan": {
+    "url": "https://www.britannica.com/biography/Sayyid-Ahmad-Khan",
+    "source": "Britannica"
+  },
+  "Warren Hastings": {
+    "url": "https://www.britannica.com/biography/Warren-Hastings",
+    "source": "Britannica"
+  },
+  "Lord Cornwallis": {
+    "url": "https://www.britannica.com/biography/Charles-Cornwallis-1st-Marquess-and-2nd-Earl-Cornwallis",
+    "source": "Britannica"
+  },
+  "Lord Ripon": {
+    "url": "https://en.wikipedia.org/wiki/George_Robinson,_1st_Marquess_of_Ripon",
+    "source": "Wikipedia"
+  },
+  "Lord Mountbatten": {
+    "url": "https://www.britannica.com/biography/Louis-Mountbatten-1st-Earl-Mountbatten-of-Burma",
+    "source": "Britannica"
+  },
+  "Muhammad Ali Jinnah": {
+    "url": "https://www.britannica.com/biography/Muhammad-Ali-Jinnah",
+    "source": "Britannica"
+  },
+  "Maulana Abul Kalam Azad": {
+    "url": "https://www.britannica.com/biography/Abul-Kalam-Azad",
+    "source": "Britannica"
+  },
+  "Dr. B. R. Ambedkar": {
+    "url": "https://www.britannica.com/biography/B-R-Ambedkar",
+    "source": "Britannica"
+  },
+  "Dr. Rajendra Prasad": {
+    "url": "https://www.britannica.com/biography/Rajendra-Prasad",
+    "source": "Britannica"
+  },
+  "Lal Bahadur Shastri": {
+    "url": "https://www.britannica.com/biography/Lal-Bahadur-Shastri",
+    "source": "Britannica"
+  },
+  "Indira Gandhi": {
+    "url": "https://www.britannica.com/biography/Indira-Gandhi",
+    "source": "Britannica"
+  },
+  "Jayaprakash Narayan": {
+    "url": "https://www.britannica.com/biography/Jayaprakash-Narayan",
+    "source": "Britannica"
+  },
+  "Morarji Desai": {
+    "url": "https://www.britannica.com/biography/Morarji-Desai",
+    "source": "Britannica"
+  },
+  "Rajiv Gandhi": {
+    "url": "https://www.britannica.com/biography/Rajiv-Gandhi",
+    "source": "Britannica"
+  },
+  "V. P. Singh": {
+    "url": "https://en.wikipedia.org/wiki/V._P._Singh",
+    "source": "Wikipedia"
+  },
+  "P. V. Narasimha Rao": {
+    "url": "https://www.britannica.com/biography/P-V-Narasimha-Rao",
+    "source": "Britannica"
+  },
+  "Atal Bihari Vajpayee": {
+    "url": "https://www.britannica.com/biography/Atal-Bihari-Vajpayee",
+    "source": "Britannica"
+  },
+  "I. K. Gujral": {
+    "url": "https://en.wikipedia.org/wiki/I._K._Gujral",
+    "source": "Wikipedia"
+  },
+  "Dr. Manmohan Singh": {
+    "url": "https://www.britannica.com/biography/Manmohan-Singh",
+    "source": "Britannica"
+  },
+  "Manmohan Singh": {
+    "url": "https://www.britannica.com/biography/Manmohan-Singh",
+    "source": "Britannica"
+  },
+  "Narendra Modi": {
+    "url": "https://www.britannica.com/biography/Narendra-Modi",
+    "source": "Britannica"
+  },
+  "Napoleon Bonaparte": {
+    "url": "https://www.britannica.com/biography/Napoleon-I",
+    "source": "Britannica"
+  },
+  "Otto von Bismarck": {
+    "url": "https://www.britannica.com/biography/Otto-von-Bismarck",
+    "source": "Britannica"
+  },
+  "Woodrow Wilson": {
+    "url": "https://www.britannica.com/biography/Woodrow-Wilson",
+    "source": "Britannica"
+  },
+  "Adolf Hitler": {
+    "url": "https://www.britannica.com/biography/Adolf-Hitler",
+    "source": "Britannica"
+  },
+  "Constitution of India": {
+    "url": "https://legislative.gov.in/constitution-of-india/",
+    "source": "Government of India"
+  },
+  "NITI Aayog": {
+    "url": "https://www.niti.gov.in/",
+    "source": "NITI Aayog (Official)"
+  },
+  "Louis XVI": {
+    "url": "https://www.britannica.com/biography/Louis-XVI",
+    "source": "Britannica"
+  },
+  "Maximilien Robespierre": {
+    "url": "https://www.britannica.com/biography/Maximilien-Robespierre",
+    "source": "Britannica"
+  },
+  "Georges Danton": {
+    "url": "https://www.britannica.com/biography/Georges-Danton",
+    "source": "Britannica"
+  },
+  "Jean-Paul Marat": {
+    "url": "https://www.britannica.com/biography/Jean-Paul-Marat",
+    "source": "Britannica"
+  },
+  "Archduke Franz Ferdinand": {
+    "url": "https://www.britannica.com/biography/Francis-Ferdinand",
+    "source": "Britannica"
+  },
+  "Winston Churchill": {
+    "url": "https://www.britannica.com/biography/Winston-Churchill",
+    "source": "Britannica"
+  },
+  "Franklin D. Roosevelt": {
+    "url": "https://www.britannica.com/biography/Franklin-D-Roosevelt",
+    "source": "Britannica"
+  },
+  "V. I. Lenin": {
+    "url": "https://www.britannica.com/biography/Vladimir-Ilich-Lenin",
+    "source": "Britannica"
+  },
+  "Leon Trotsky": {
+    "url": "https://www.britannica.com/biography/Leon-Trotsky",
+    "source": "Britannica"
+  },
+  "Joseph Stalin": {
+    "url": "https://www.britannica.com/biography/Joseph-Stalin",
+    "source": "Britannica"
+  },
+  "Tsar Nicholas II": {
+    "url": "https://www.britannica.com/biography/Nicholas-II-tsar-of-Russia",
+    "source": "Britannica"
+  },
+  "Alexander Kerensky": {
+    "url": "https://www.britannica.com/biography/Aleksandr-Fyodorovich-Kerensky",
+    "source": "Britannica"
+  },
+  "Treaty of Versailles": {
+    "url": "https://www.britannica.com/event/Treaty-of-Versailles-1919",
+    "source": "Britannica"
+  },
+  "League of Nations": {
+    "url": "https://www.britannica.com/topic/League-of-Nations",
+    "source": "Britannica"
+  },
+  "Raja Shiv Prasad 'Sitare Hind'": {
+    "url": "https://en.wikipedia.org/wiki/Shiv_Prasad_Sitara-e-Hind",
+    "source": "Wikipedia"
+  },
+  "Malik Sarwar": {
+    "url": "https://en.wikipedia.org/wiki/Malik_Sarwar",
+    "source": "Wikipedia"
+  },
+  "Chandradeva": {
+    "url": "https://en.wikipedia.org/wiki/Gahadavala_dynasty",
+    "source": "Wikipedia"
+  },
+  "Govindachandra": {
+    "url": "https://en.wikipedia.org/wiki/Govindachandra",
+    "source": "Wikipedia"
+  },
+  "Vidyadhara": {
+    "url": "https://en.wikipedia.org/wiki/Vidyadhara_(Chandela_dynasty)",
+    "source": "Wikipedia"
+  },
+  "Yashovarman": {
+    "url": "https://en.wikipedia.org/wiki/Yashovarman_(Chandela_dynasty)",
+    "source": "Wikipedia"
+  },
+  "Saadat Khan Burhan-ul-Mulk": {
+    "url": "https://en.wikipedia.org/wiki/Saadat_Ali_Khan_I",
+    "source": "Wikipedia"
+  },
+  "Shuja-ud-Daula": {
+    "url": "https://en.wikipedia.org/wiki/Shuja-ud-Daula",
+    "source": "Wikipedia"
+  },
+  "Asaf-ud-Daula": {
+    "url": "https://en.wikipedia.org/wiki/Asaf-ud-Daula",
+    "source": "Wikipedia"
+  },
+  "Nana Sahib": {
+    "url": "https://www.britannica.com/biography/Nana-Sahib",
+    "source": "Britannica"
+  },
+  "Maulvi Ahmadullah Shah": {
+    "url": "https://en.wikipedia.org/wiki/Ahmadullah_Shah",
+    "source": "Wikipedia"
+  },
+  "Khan Bahadur Khan": {
+    "url": "https://en.wikipedia.org/wiki/Khan_Bahadur_Khan",
+    "source": "Wikipedia"
+  },
+  "Pandit Madan Mohan Malaviya": {
+    "url": "https://www.britannica.com/biography/Madan-Mohan-Malaviya",
+    "source": "Britannica"
+  },
+  "Raja Shiv Prasad": {
+    "url": "https://en.wikipedia.org/wiki/Shiv_Prasad_Sitara-e-Hind",
+    "source": "Wikipedia"
+  },
+  "Sir Antony MacDonnell": {
+    "url": "https://en.wikipedia.org/wiki/Antony_MacDonnell,_1st_Baron_MacDonnell",
+    "source": "Wikipedia"
+  },
+  "Lord William Bentinck": {
+    "url": "https://www.britannica.com/biography/William-Cavendish-Bentinck",
+    "source": "Britannica"
+  },
+  "Govind Ballabh Pant": {
+    "url": "https://www.britannica.com/biography/Govind-Ballabh-Pant",
+    "source": "Britannica"
+  },
+  "Chandra Shekhar Azad": {
+    "url": "https://www.britannica.com/biography/Chandrasekhar-Azad",
+    "source": "Britannica"
+  },
+  "Goswami Tulsidas": {
+    "url": "https://www.britannica.com/biography/Tulsidas",
+    "source": "Britannica"
+  },
+  "Rani Durgavati": {
+    "url": "https://en.wikipedia.org/wiki/Durgavati",
+    "source": "Wikipedia"
+  },
+  "Ahilyabai Holkar": {
+    "url": "https://www.britannica.com/biography/Ahalya-Bai",
+    "source": "Britannica"
+  },
+  "Uda Devi Pasi": {
+    "url": "https://en.wikipedia.org/wiki/Uda_Devi",
+    "source": "Wikipedia"
+  },
+  "Mulayam Singh Yadav": {
+    "url": "https://en.wikipedia.org/wiki/Mulayam_Singh_Yadav",
+    "source": "Wikipedia"
+  },
+  "Mayawati": {
+    "url": "https://en.wikipedia.org/wiki/Mayawati",
+    "source": "Wikipedia"
+  },
+  "Dr. APJ Abdul Kalam": {
+    "url": "https://www.britannica.com/biography/A-P-J-Abdul-Kalam",
+    "source": "Britannica"
+  },
+  "Har Gobind Khorana": {
+    "url": "https://www.britannica.com/biography/Har-Gobind-Khorana",
+    "source": "Britannica"
+  },
+  "Mahatma Jyotirao Phule": {
+    "url": "https://www.britannica.com/biography/Jyotirao-Govindrao-Phule",
+    "source": "Britannica"
+  },
+  "Sri Narayana Guru": {
+    "url": "https://en.wikipedia.org/wiki/Narayana_Guru",
+    "source": "Wikipedia"
+  },
+  "Gopal Hari Deshmukh (Lokahitwadi)": {
+    "url": "https://en.wikipedia.org/wiki/Gopal_Hari_Deshmukh",
+    "source": "Wikipedia"
+  },
+  "Mahadev Govind Ranade": {
+    "url": "https://www.britannica.com/biography/Mahadev-Govind-Ranade",
+    "source": "Britannica"
+  },
+  "Allan Octavian Hume": {
+    "url": "https://en.wikipedia.org/wiki/Allan_Octavian_Hume",
+    "source": "Wikipedia"
+  },
+  "Surendranath Banerjea": {
+    "url": "https://www.britannica.com/biography/Surendranath-Banerjea",
+    "source": "Britannica"
+  },
+  "W. C. Bonnerjee": {
+    "url": "https://en.wikipedia.org/wiki/Womesh_Chunder_Bonnerjee",
+    "source": "Wikipedia"
+  },
+  "Lord North": {
+    "url": "https://www.britannica.com/biography/Frederick-North-2nd-earl-of-Guilford",
+    "source": "Britannica"
+  },
+  "Edmund Burke": {
+    "url": "https://www.britannica.com/biography/Edmund-Burke",
+    "source": "Britannica"
+  },
+  "Lord Curzon": {
+    "url": "https://www.britannica.com/biography/George-Nathaniel-Curzon-Marquess-Curzon-of-Kedleston",
+    "source": "Britannica"
+  },
+  "Lord Chelmsford": {
+    "url": "https://en.wikipedia.org/wiki/Frederic_Thesiger,_1st_Viscount_Chelmsford",
+    "source": "Wikipedia"
+  },
+  "Lord Irwin": {
+    "url": "https://en.wikipedia.org/wiki/Edward_Wood,_1st_Earl_of_Halifax",
+    "source": "Wikipedia"
+  },
+  "Lord Wavell": {
+    "url": "https://www.britannica.com/biography/Archibald-Wavell-1st-Earl-Wavell",
+    "source": "Britannica"
+  },
+  "Birsa Munda": {
+    "url": "https://www.britannica.com/biography/Birsa-Munda",
+    "source": "Britannica"
+  },
+  "Sido and Kanhu Murmu": {
+    "url": "https://en.wikipedia.org/wiki/Sidhu_and_Kanhu_Murmu",
+    "source": "Wikipedia"
+  }
+}

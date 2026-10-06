@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" rx="24" fill="url(#bg-gradient)"/>
+  <!-- Microchip / Computer Frame -->
+  <rect x="22" y="24" width="56" height="42" rx="6" fill="#082f49" stroke="#38bdf8" stroke-width="3"/>
+  <circle cx="50" cy="45" r="10" fill="#0284c7"/>
+  <path d="M44 45L48 49L56 41" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Stand -->
+  <path d="M42 66H58V76H42V66Z" fill="#38bdf8"/>
+  <path d="M32 76H68" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c4a6e"/>
+      <stop offset="1" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+</svg>

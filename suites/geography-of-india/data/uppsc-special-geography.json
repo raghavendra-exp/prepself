@@ -1,0 +1,264 @@
+{
+  "overview": {
+    "title": "Geography of Uttar Pradesh (UPPSC PCS Special)",
+    "hindi": "उत्तर प्रदेश का भूगोल एवं आपदा परिदृश्य (UPPSC विशेष)",
+    "syllabusMapping": "UPPSC PCS Mains Paper 5 & Paper 6 (UP Special) + Prelims GS Paper 1",
+    "area": "2,40,928 sq km (7.33% of India's total geographical area, 4th largest state by area)",
+    "latLong": "Lat: 23°52'N to 31°28'N; Long: 77°30'E to 84°39'E",
+    "frontiers": "Bounded by 8 States (Uttarakhand, Himachal Pradesh, Haryana, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, Bihar), 1 Union Territory (Delhi), and 1 International Border with Nepal (approx 579 km across 7 districts: Pilibhit, Lakhimpur Kheri, Bahraich, Shravasti, Balrampur, Siddharthnagar, Maharajganj)."
+  },
+  "physiography": [
+    {
+      "id": "bhabar_terai",
+      "name": "Bhabar & Terai Belt",
+      "hindi": "भाबर एवं तराई क्षेत्र",
+      "districts": "Saharanpur, Bijnor, Pilibhit, Lakhimpur Kheri, Bahraich, Shravasti, Balrampur, Siddharthnagar, Maharajganj, Gorakhpur, Kushinagar",
+      "bhabarDetails": "Narrow strip of 8–10 km along the Shiwalik foothills in northern Saharanpur and Bijnor. Composed of coarse gravel, pebbles, and boulders. High porosity causes rivers and seasonal torrents to sink underground.",
+      "teraiDetails": "Lies immediately south of Bhabar, spanning 15–30 km. Marshy, waterlogged, humid lowland where underground Bhabar streams re-emerge at the surface. Rich in tall elephant grass and Sal/Semal forests. Extensively reclaimed post-independence for intensive cultivation of Sugarcane, Paddy, and Wheat.",
+      "ecologicalSignificance": "Dudhwa National Park (Lakhimpur Kheri) and Pilibhit Tiger Reserve are prime conservation hubs in the Terai arc landscape (habitat of Tiger, One-horned Rhino, Swamp Deer/Barasingha)."
+    },
+    {
+      "id": "ganga_plain",
+      "name": "The Great Gangetic Plain of UP",
+      "hindi": "गंगा का मध्य एवं पूर्वी मैदान",
+      "districts": "Covers ~70% of UP's area across Western, Central, and Eastern districts",
+      "subdivisions": [
+        {
+          "name": "Western Plain (Upper Ganga-Yamuna Doab)",
+          "features": "Highest agricultural productivity, Green Revolution core (Meerut, Muzaffarnagar, Bulandshahr, Aligarh). Intensive tubewell irrigation and sugarcane/wheat dominance."
+        },
+        {
+          "name": "Central Plain (Rohilkhand & Awadh)",
+          "features": "Drained by Gomti, Sai, and Ghaghara (Lucknow, Kanpur, Ayodhya, Bareilly, Rae Bareli). Mix of Bhangar and Khadar with patches of alkaline Usar/Reh soils."
+        },
+        {
+          "name": "Eastern Plain (Purvanchal)",
+          "features": "Flat low-gradient floodplains (Gorakhpur, Deoria, Azamgarh, Varanasi, Ghazipur, Ballia). Densely populated; prone to recurrent floods from Rapti, Ghaghara, and Gandak."
+        }
+      ]
+    },
+    {
+      "id": "southern_plateau",
+      "name": "Southern Hilly & Plateau Region (Bundelkhand & Baghelkhand)",
+      "hindi": "दक्षिणी पठारी प्रदेश (बुंदेलखंड एवं बघेलखंड)",
+      "districts": "7 Bundelkhand districts: Jhansi, Lalitpur, Jalaun, Hamirpur, Mahoba, Banda, Chitrakoot + Mirzapur & Sonbhadra",
+      "geology": "Archaean Bundelkhand granites and gneisses (some of the oldest continental crust in India ~2.5–3.0 billion years) and Vindhyan sandstones.",
+      "morphology": "Undulating terrain dissected by ravines and badlands along the Yamuna, Chambal, Betwa, and Ken rivers. Characterized by residual hillocks (tors), shallow soils, and semi-arid conditions.",
+      "socioEconomic": "Chronic hydrological drought, hard-rock granite aquifer with poor groundwater storage; out-migration."
+    }
+  ],
+  "drainage": {
+    "majorRivers": [
+      {
+        "name": "Ganga",
+        "hindi": "गंगा",
+        "upEntryExit": "Enters UP at Bijnor district; flows through 28 districts (~1,450 km in UP); exits UP at Ballia into Bihar.",
+        "keyTributaries": "Ramganga (joins at Kannauj), Yamuna (joins at Prayagraj Triveni Sangam), Gomti (joins at Saidpur, Ghazipur), Ghaghara/Sarayu (joins near Revelganj/Chhapra)."
+      },
+      {
+        "name": "Yamuna",
+        "hindi": "यमुना",
+        "upEntryExit": "Enters UP at Saharanpur (Faizabad village); forms border with Haryana; flows through Noida, Mathura, Agra, Etawah, Kalpi; joins Ganga at Prayagraj.",
+        "keyTributaries": "Hindon, Chambal (joins at Pachnada, Etawah), Sind, Betwa (joins at Hamirpur), Ken (joins at Chilla, Banda)."
+      },
+      {
+        "name": "Gomti",
+        "hindi": "गोमती",
+        "upEntryExit": "Entirely an intra-state plains river! Originates from Fulhar Jheel / Gomat Taal in Madhotanda, Pilibhit district; flows through Lucknow, Sultanpur, Jaunpur; meets Ganga at Kaithi near Ghazipur.",
+        "keyTributaries": "Sai River (joins Gomti at Rajepur, Jaunpur)."
+      },
+      {
+        "name": "Ghaghara / Sarayu",
+        "hindi": "घाघरा / सरयू (करनाली)",
+        "upEntryExit": "Originates near Gurla Mandhata / Mapchachungo glacier in Tibet; enters UP via Kheri/Bahraich; flows past Ayodhya (as Sarayu); carries the highest volume of water into the Ganga in UP."
+      },
+      {
+        "name": "Son",
+        "hindi": "सोन नदी",
+        "upEntryExit": "Originates from Amarkantak (MP); cuts across the southern tip of UP in Sonbhadra district before entering Bihar to join Ganga at Danapur (Patna)."
+      },
+      {
+        "name": "Chambal & Betwa",
+        "hindi": "चंबल एवं बेतवा",
+        "upEntryExit": "Chambal forms deep ravines/badlands (Bihars) along Agra and Etawah borders. Betwa originates from Raisen (MP), enters UP at Lalitpur/Jhansi, hosts Matatila Dam and Parichha Dam."
+      }
+    ],
+    "canalsAndInterlinking": [
+      {
+        "name": "Sharda Canal System",
+        "details": "Longest canal network in Uttar Pradesh (approx 12,368 km of main canals and distributaries), taken out from the Sharda River at Banbasa (Pilibhit/Uttarakhand border) in 1928."
+      },
+      {
+        "name": "Upper & Lower Ganga Canals",
+        "details": "Upper Ganga Canal taken out from Haridwar (1854, engineered by Proby Cautley), irrigating Western UP. Lower Ganga Canal taken out from Narora barrage (Bulandshahr)."
+      },
+      {
+        "name": "Ken-Betwa River Interlinking Project",
+        "details": "India's first landmark national river interlinking project. Transfers surplus water from the Ken River basin (via Daudhan Dam and a 221 km canal) to the water-deficit Betwa basin. Irrigates 10.62 lakh hectares, provides drinking water to 62 lakh people across Bundelkhand (Banda, Mahoba, Jhansi, Lalitpur in UP), and generates 103 MW hydro power. Submerges a portion of Panna Tiger Reserve core."
+      }
+    ]
+  },
+  "soilsOfUP": [
+    {
+      "name": "Khadar Soil (Younger Alluvium)",
+      "hindi": "खादर मिट्टी (नवीन जलोढ़)",
+      "characteristics": "Deposited annually by fresh river floods along low-lying riverbanks. Fine, light-colored, highly fertile, rich in humus, excellent moisture retention. Highly productive for Paddy, Jute, Sugarcane, and vegetables."
+    },
+    {
+      "name": "Bhangar Soil (Older Alluvium)",
+      "hindi": "बांगर मिट्टी (पुरातन जलोढ़)",
+      "characteristics": "Occupies higher terraces above current flood reach. Heavier texture, darker clay-loam, contains calcareous concretions known as 'Kankar' nodules. Requires chemical fertilizers and tubewell irrigation for optimal Wheat, Mustard, and Potato yields."
+    },
+    {
+      "name": "Usar / Reh / Kallar (Saline & Alkaline Soils)",
+      "hindi": "ऊसर / रेह / कल्लर",
+      "characteristics": "Affects over 1.2 million hectares in central and western UP (Aligarh, Mainpuri, Kanpur, Raebareli, Unnao). Caused by excessive canal over-irrigation, high water table, poor subsoil drainage, and intense evaporation depositing sodium carbonate/sulfate salts on the surface. Reclaimed using Gypsum (calcium sulfate) and green manuring (Dhaincha)."
+    },
+    {
+      "name": "Bundelkhand Local Soils (Mar, Kabar, Parwa, Rakar)",
+      "hindi": "बुंदेलखंड की स्थानीय मृदाएं (मार, काबर, पड़वा, राकर)",
+      "characteristics": "Four distinct pedological varieties: (1) Mar (Māar): Black cotton-like clayey soil with high moisture retention, highly sticky when wet, crack-forming when dry; ideal for Rabi gram and wheat. (2) Kabar: Coarse black soil, very difficult to plough if dried out. (3) Parwa (Padwa): Reddish-yellow sandy loam, easy to cultivate, responds well to irrigation. (4) Rakar: Thin, highly eroded, stony slope soil, nutrient-poor, suitable only for drought-hardy coarse millets (Jowar, Bajra, Til)."
+    }
+  ],
+  "disastersInUP": [
+    {
+      "type": "Terai & Eastern UP Floods",
+      "hindi": "तराई एवं पूर्वी उत्तर प्रदेश की बाढ़",
+      "districts": "Gorakhpur, Maharajganj, Kushinagar, Deoria, Siddharthnagar, Balrampur, Shravasti, Bahraich, Basti, Gonda",
+      "causes": "Excessive monsoon precipitation in the upper catchments of Nepal Himalayas; sudden discharge from Nepal barrages; low topographic slope (<10 cm/km) leading to sluggish runoff; meandering and silting of Rapti, Ghaghara, Gandak, and Rohini rivers.",
+      "impact": "Inundation of standing crops, waterborne epidemics (Japanese Encephalitis/AES in Gorakhpur-Basti division), displacement of millions.",
+      "mitigation": "Construction and revetment of embankments; flood-warning telemetry stations linked to Nepal hydrological centers; Gorakhpur Environmental Action Group (GEAG) community flood-resilient farming models."
+    },
+    {
+      "type": "Bundelkhand Chronic Drought & Water Scarcity",
+      "hindi": "बुंदेलखंड का दीर्घकालिक सूखा",
+      "districts": "Jhansi, Lalitpur, Jalaun, Hamirpur, Mahoba, Banda, Chitrakoot",
+      "causes": "Granitic and gneissic crystalline basement rocks with negligible secondary porosity/permeability, resulting in minimal groundwater storage; highly erratic monsoon with high rainfall variability (>30%); deforestation of the Vindhyan slopes.",
+      "mitigation": "Ken-Betwa Interlinking project; Bundelkhand Drought Mitigation Package; revitalization of historic Chandela-era tanks and talabs; check dams and farm ponds under Khet Talab Yojana; cultivation of low-water pulses and oilseeds."
+    },
+    {
+      "type": "Western UP Seismic Vulnerability (Zone IV)",
+      "hindi": "पश्चिमी उत्तर प्रदेश भूकंपीय संवेदनशीलता (ज़ोन IV)",
+      "districts": "Meerut, Ghaziabad, Gautam Buddha Nagar (Noida), Bulandshahr, Hapur, Muzaffarnagar, Saharanpur, Baghpat",
+      "causes": "Proximity to the active tectonic faults of the Himalayas and the sub-surface Delhi-Haridwar Ridge and Moradabad fault; deep unconsolidated alluvial soil layers capable of amplifying seismic shockwaves.",
+      "mitigation": "Strict enforcement of BIS IS 1893:2016 building codes in high-rise constructions of Noida/Greater Noida; retrofitting of municipal buildings."
+    }
+  ],
+  "protectedAreasAndRamsar": {
+    "tigerReserves": [
+      {
+        "name": "Dudhwa National Park & Tiger Reserve",
+        "district": "Lakhimpur Kheri",
+        "year": 1987,
+        "significance": "Prime habitat of Royal Bengal Tiger, Indian One-horned Rhinoceros (reintroduced in 1984), and Swamp Deer (Barasingha)."
+      },
+      {
+        "name": "Pilibhit Tiger Reserve",
+        "district": "Pilibhit",
+        "year": 2014,
+        "significance": "Awarded the international TX2 award in 2020 for doubling its tiger population ahead of target."
+      },
+      {
+        "name": "Amangarh Tiger Reserve",
+        "district": "Bijnor",
+        "year": 2012,
+        "significance": "Buffer zone of Jim Corbett National Park left in UP after Uttarakhand state reorganization."
+      },
+      {
+        "name": "Ranipur Tiger Reserve",
+        "district": "Chitrakoot",
+        "year": 2022,
+        "significance": "UP's 4th and India's 53rd Tiger Reserve, located in the Bundelkhand region; vital corridor for tigers dispersing from Panna (MP)."
+      }
+    ],
+    "ramsarSites": [
+      {
+        "name": "Upper Ganga River (Brijghat to Narora)",
+        "district": "Bulandshahr / Hapur / Sambhal",
+        "year": 2005,
+        "species": "Ganges River Dolphin, Gharial, Marsh Crocodile, Smooth-coated Otter."
+      },
+      {
+        "name": "Nawabganj Bird Sanctuary (Shahid Chandra Shekhar Azad)",
+        "district": "Unnao",
+        "year": 2019,
+        "species": "Over 250 species of migratory waterfowl, Sarus crane."
+      },
+      {
+        "name": "Parvati Arga Bird Sanctuary",
+        "district": "Gonda",
+        "year": 2019,
+        "species": "Oxbow lake wetland hosting critically endangered White-rumped Vulture, Indian Vulture."
+      },
+      {
+        "name": "Saman Bird Sanctuary",
+        "district": "Mainpuri",
+        "year": 2019,
+        "species": "Seasonal oxbow lake on the Ganga floodplain; vital for Sarus crane."
+      },
+      {
+        "name": "Samaspur Bird Sanctuary",
+        "district": "Raebareli",
+        "year": 2019,
+        "species": "Perennial lowland marsh harboring over 75,000 birds annually."
+      },
+      {
+        "name": "Sandi Bird Sanctuary",
+        "district": "Hardoi",
+        "year": 2019,
+        "species": "Freshwater marsh on the Garra river basin, refuge for Red-crested Pochard."
+      },
+      {
+        "name": "Sarsai Nawar Jheel",
+        "district": "Etawah",
+        "year": 2019,
+        "species": "Flagship site for the Sarus Crane (Grus antigone — State Bird of UP); designated Ramsar wetland."
+      },
+      {
+        "name": "Sur Sarovar (Keetham Lake)",
+        "district": "Agra",
+        "year": 2020,
+        "species": "Artificial lake wetland alongside Yamuna river; adjacent to Bear Rescue Facility."
+      },
+      {
+        "name": "Haiderpur Wetland",
+        "district": "Muzaffarnagar / Bijnor border",
+        "year": 2021,
+        "species": "Human-made wetland within Hastinapur Wildlife Sanctuary; vital for Swamp Deer and Ganges Dolphin."
+      },
+      {
+        "name": "Bakhira Wildlife Sanctuary",
+        "district": "Sant Kabir Nagar",
+        "year": 2021,
+        "species": "Largest natural floodplain wetland in eastern UP, providing wintering habitat for Siberian birds."
+      }
+    ]
+  },
+  "mineralsAndEnergy": [
+    {
+      "region": "Sonbhadra",
+      "minerals": "Coal (Singrauli Coalfield), high-grade Limestone (Gurma, Kajrahat for cement), Dolomite, Calcite, Marble, Gold traces.",
+      "energy": "Singrauli & Rihand Super Thermal Power Plants (NTPC), Rihand Dam Hydroelectric Project (Pipri - Govind Ballabh Pant Sagar reservoir, largest man-made lake in India)."
+    },
+    {
+      "region": "Prayagraj (Shankargarh)",
+      "minerals": "Silica Sand (Glass Sand) — premier source in India for glass manufacturing.",
+      "energy": "Bara Super Thermal Power Project."
+    },
+    {
+      "region": "Banda & Chitrakoot",
+      "minerals": "Bauxite (aluminum ore deposits), Ochre (Geru), China clay.",
+      "energy": "Solar power parks in Bundelkhand."
+    },
+    {
+      "region": "Lalitpur",
+      "minerals": "Uranium traces, Copper, Rock Phosphate, Pyrophyllite, Diaspore.",
+      "energy": "Matatila and Rajghat Hydroelectric projects on Betwa River."
+    },
+    {
+      "region": "Bulandshahr (Narora)",
+      "minerals": "River sands and alluvium.",
+      "energy": "Narora Atomic Power Station (NAPS) — 2x220 MW Pressurized Heavy Water Reactors (PHWR) cooled by Ganga canal water."
+    }
+  ]
+}

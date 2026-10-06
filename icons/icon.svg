@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#050C1A"/>
+    </linearGradient>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="wingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded rectangle -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+
+  <!-- Outer Glow Circle -->
+  <circle cx="256" cy="256" r="180" fill="url(#brandGrad)" opacity="0.12"/>
+
+  <!-- Shield Base -->
+  <path d="M256,120 C320,120 370,155 370,225 C370,315 256,400 256,400 C256,400 142,315 142,225 C142,155 192,120 256,120 Z" fill="url(#brandGrad)" opacity="0.22"/>
+
+  <!-- Open Book / Wings -->
+  <path d="M256,200 C226,175 180,175 155,185 L155,315 C185,305 225,305 256,330 C287,305 327,305 357,315 L357,185 C332,175 286,175 256,200 Z" fill="none" stroke="url(#wingGrad)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Center Spine -->
+  <line x1="256" y1="200" x2="256" y2="330" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Golden Mastery Star -->
+  <polygon points="256,135 264,154 284,157 269,171 273,190 256,180 239,190 243,171 228,157 248,154" fill="#F59E0B"/>
+</svg>

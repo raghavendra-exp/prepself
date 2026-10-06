@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Historical Atlas &amp; Map Lab — Complete History of India</title>
+<meta name="description" content="Explore calibrated archaeological and historical sites across India on Google Satellite Hybrid, Terrain, and Classical Atlas: Indus Valley, 16 Mahajanapadas, Ashokan Rock Edicts, Classical Temples, Medieval Forts, and Freedom Struggle landmarks.">
+<link rel="stylesheet" href="css/style.css">
+<!-- Leaflet CSS & JS for Google Maps Tile Integration -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<style>
+/* Map Lab specific styles */
+.map-layout {
+  display: grid;
+  grid-template-columns: 1.45fr 1fr;
+  gap: 28px;
+  align-items: start;
+  margin-top: 20px;
+}
+@media (max-width: 980px) {
+  .map-layout {
+    grid-template-columns: 1fr;
+  }
+}
+.map-stage-card {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  position: relative;
+  box-shadow: var(--shadow);
+}
+.map-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line-soft);
+}
+.engine-switcher {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.engine-btn {
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.engine-btn:hover {
+  border-color: var(--seal);
+  background: var(--bg-raised);
+}
+.engine-btn.active {
+  background: var(--seal);
+  color: #fff;
+  border-color: var(--seal);
+}
+
+/* Leaflet Container */
+#leafletMap {
+  width: 100%;
+  height: 620px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid var(--line-soft);
+  z-index: 10;
+}
+.leaflet-container {
+  font-family: var(--font-body);
+  background: var(--bg-sunken);
+}
+.leaflet-popup-content-wrapper {
+  background: var(--bg-raised);
+  color: var(--ink);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-lg);
+  padding: 4px;
+}
+.leaflet-popup-tip {
+  background: var(--bg-raised);
+}
+.leaflet-popup-content {
+  margin: 12px 14px;
+  line-height: 1.45;
+  min-width: 240px;
+  max-width: 320px;
+}
+
+/* SVG Map Wrap */
+.map-svg-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 750 / 850;
+  background: radial-gradient(circle at 50% 50%, var(--bg-raised) 0%, var(--bg-sunken) 100%);
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid var(--line-soft);
+}
+.map-svg-wrap svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.geo-land {
+  fill: var(--bg);
+  stroke: var(--line);
+  stroke-width: 1.2;
+}
+.geo-boundary {
+  fill: none;
+  stroke: var(--line);
+  stroke-width: 1;
+  stroke-dasharray: 4 4;
+}
+.geo-river {
+  fill: none;
+  stroke: #729cb6;
+  stroke-width: 1.6;
+  opacity: 0.65;
+}
+.geo-river-label {
+  font-family: var(--font-mono);
+  font-size: 8.5px;
+  fill: #61879f;
+  font-style: italic;
+  pointer-events: none;
+}
+.geo-sea-label {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-style: italic;
+  letter-spacing: 0.15em;
+  fill: var(--ink-faint);
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+/* Marker Styles for SVG */
+.map-marker {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  outline: none;
+}
+.map-marker .marker-pulse {
+  fill: var(--accent);
+  opacity: 0.18;
+  transition: all 0.3s ease;
+}
+.map-marker .marker-ring {
+  fill: var(--bg-raised);
+  stroke: var(--accent);
+  stroke-width: 2;
+  transition: all 0.2s ease;
+}
+.map-marker .marker-dot {
+  fill: var(--accent);
+  transition: all 0.2s ease;
+}
+.map-marker .marker-label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 600;
+  fill: var(--ink);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  text-shadow: 0 0 3px var(--bg);
+}
+.map-marker:hover .marker-label,
+.map-marker.selected .marker-label {
+  opacity: 1;
+}
+.map-marker:hover .marker-pulse,
+.map-marker.selected .marker-pulse {
+  r: 22;
+  opacity: 0.35;
+}
+.map-marker:hover .marker-ring,
+.map-marker.selected .marker-ring {
+  r: 10;
+  stroke-width: 2.5;
+}
+
+/* Layer Theme Palettes */
+.map-marker.layer-ivc .marker-ring { stroke: #d97706; }
+.map-marker.layer-ivc .marker-dot, .map-marker.layer-ivc .marker-pulse { fill: #d97706; }
+.map-marker.layer-mahajanapadas .marker-ring { stroke: #2563eb; }
+.map-marker.layer-mahajanapadas .marker-dot, .map-marker.layer-mahajanapadas .marker-pulse { fill: #2563eb; }
+.map-marker.layer-edicts .marker-ring { stroke: #16a34a; }
+.map-marker.layer-edicts .marker-dot, .map-marker.layer-edicts .marker-pulse { fill: #16a34a; }
+.map-marker.layer-temples .marker-ring { stroke: #9333ea; }
+.map-marker.layer-temples .marker-dot, .map-marker.layer-temples .marker-pulse { fill: #9333ea; }
+.map-marker.layer-battles .marker-ring { stroke: #dc2626; }
+.map-marker.layer-battles .marker-dot, .map-marker.layer-battles .marker-pulse { fill: #dc2626; }
+.map-marker.layer-freedom .marker-ring { stroke: #ea580c; }
+.map-marker.layer-freedom .marker-dot, .map-marker.layer-freedom .marker-pulse { fill: #ea580c; }
+
+/* Dossier Panel */
+.dossier-card {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 80px;
+}
+.dossier-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.dossier-title {
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  margin: 4px 0 10px;
+  line-height: 1.2;
+}
+.dossier-close {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--ink-faint);
+}
+.dossier-close:hover { color: var(--ink); }
+.dossier-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 14px;
+  font-size: 0.84rem;
+  padding-bottom: 14px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--line-soft);
+}
+.d-meta-item b {
+  color: var(--ink-faint);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  display: block;
+}
+.dossier-section h4 {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-faint);
+  margin-bottom: 6px;
+}
+.dossier-section p {
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+.dossier-empty {
+  padding: 48px 24px;
+  text-align: center;
+  background: var(--bg-raised);
+  border: 1px dashed var(--line);
+  border-radius: var(--radius-lg);
+}
+.dossier-icon {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+.dossier-quick-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 18px;
+}
+.pill-chip {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 0.78rem;
+  font-family: var(--font-mono);
+  cursor: pointer;
+  color: var(--ink);
+  transition: all 0.2s;
+}
+.pill-chip:hover {
+  border-color: var(--seal);
+  background: var(--bg-raised);
+  color: var(--seal);
+}
+.badge-site {
+  font-size: 0.72rem;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+.badge-ivc { background: #faede6; color: #a84e1b; }
+.badge-mahajanapadas { background: #fbf5e6; color: #8e681c; }
+.badge-edicts { background: #e8f2ee; color: #2e594d; }
+.badge-temples { background: #f4edf8; color: #623674; }
+.badge-battles { background: #faeaeb; color: #8f2b2b; }
+.badge-freedom { background: #e8f2f8; color: #1c5b85; }
+
+[data-theme="dark"] .badge-ivc { background: #38241b; color: #efa57b; }
+[data-theme="dark"] .badge-mahajanapadas { background: #332b1a; color: #e9c77e; }
+[data-theme="dark"] .badge-edicts { background: #1c2e28; color: #85c2b0; }
+[data-theme="dark"] .badge-temples { background: #2f1d35; color: #d0a2e5; }
+[data-theme="dark"] .badge-battles { background: #351a1d; color: #e58890; }
+[data-theme="dark"] .badge-freedom { background: #182b3a; color: #7cbde9; }
+
+.site-card {
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.site-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--seal);
+}
+.site-card.active {
+  border-color: var(--seal);
+  box-shadow: 0 0 0 2px var(--seal-tint);
+}
+.sc-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+</style>
+  <!-- Google Analytics Tracking (G-B0Z2G21W4F) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B0Z2G21W4F');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="site-nav" id="siteNav"></nav>
+
+<main id="main">
+  <div class="wrap"><div class="breadcrumb" id="breadcrumb"></div></div>
+
+  <header class="section" style="padding-bottom:10px;">
+    <div class="wrap">
+      <span class="eyebrow">Interactive Visual Atlas &bull; Cartographic Archaeology &bull; Google Maps Engine</span>
+      <h1 style="font-size:clamp(2rem,4.4vw,3.1rem);">Historical Atlas &amp; Archaeological Map Lab</h1>
+      <p class="section-desc" style="font-size:1.05rem; max-width:78ch; margin-bottom:20px;">
+        Explore India's spatial heritage across the millennia with real GPS coordinates and Google Maps satellite, terrain, and roadmap tiles. Inspect 44 calibrated historical sites—from Bronze Age Harappan dockyards to Mahajanapada capitals, Ashokan epigraphs, classical temples, medieval battlegrounds, and freedom struggle epicenters—complete with 1-click external Google Maps and Google Earth 3D exploration.
+      </p>
+
+      <div class="filter-bar" id="mapLayerFilterBar"></div>
+    </div>
+  </header>
+
+  <section class="section" style="padding-top:10px;" id="mapStageWrap">
+    <div class="wrap">
+      <div class="map-layout">
+        <!-- Map Stage (Leaflet Google Tiles + SVG Canvas) -->
+        <div class="map-stage-card">
+          <div class="map-toolbar">
+            <div class="engine-switcher">
+              <button class="engine-btn active" id="btnEngineHybrid" onclick="HistoryMap.setEngine('google-hybrid')">🛰️ Satellite Hybrid</button>
+              <button class="engine-btn" id="btnEngineTerrain" onclick="HistoryMap.setEngine('google-terrain')">⛰️ Terrain</button>
+              <button class="engine-btn" id="btnEngineRoadmap" onclick="HistoryMap.setEngine('google-roadmap')">🗺️ Google Maps</button>
+              <button class="engine-btn" id="btnEngineSvg" onclick="HistoryMap.setEngine('svg')">📜 Classical Atlas</button>
+            </div>
+
+            <div style="display:flex; align-items:center; gap:10px; margin-left:auto;">
+              <span class="badge" id="siteCountBadge" style="background:var(--bg-sunken); color:var(--ink-soft);">Loading sites…</span>
+            </div>
+          </div>
+
+          <div style="margin-bottom:12px;">
+            <div class="quick-search" style="max-width:100%; margin:0;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+              <input type="text" id="mapSearchInput" placeholder="Filter sites by name, state, river, patron, or keyword…">
+            </div>
+          </div>
+
+          <!-- Leaflet Interactive Map Container (Google Maps Tiles) -->
+          <div id="leafletMap"></div>
+
+          <!-- SVG Classical Atlas Map Container -->
+          <div class="map-svg-wrap" id="svgMapWrap" style="display:none;">
+            <svg viewBox="0 0 750 850" id="indiaHistoricalMap" preserveAspectRatio="xMidYMid meet">
+              <defs>
+                <radialGradient id="oceanShade" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="var(--bg-raised)" stop-opacity="0.2"/>
+                  <stop offset="100%" stop-color="var(--line-soft)" stop-opacity="0.5"/>
+                </radialGradient>
+              </defs>
+
+              <!-- Sea labels -->
+              <text x="100" y="600" class="geo-sea-label">ARABIAN SEA</text>
+              <text x="560" y="650" class="geo-sea-label">BAY OF BENGAL</text>
+              <text x="320" y="820" class="geo-sea-label">INDIAN OCEAN</text>
+
+              <!-- Indian Subcontinent Calibrated Landmass Outline -->
+              <path class="geo-land" d="
+                M 160 80
+                L 240 60 L 320 65 L 360 110 L 420 160 L 520 220 L 590 230 L 670 200 L 710 240
+                L 700 300 L 640 330 L 660 360 L 620 400 L 590 390 L 580 430 L 560 480 L 520 540
+                L 450 630 L 400 710 L 375 790 L 365 790 L 350 740 L 320 680 L 290 620 L 260 520
+                L 245 490 L 210 490 L 195 440 L 170 450 L 150 420 L 170 380 L 180 340 L 150 300
+                L 130 250 L 130 180 Z
+              " />
+
+              <!-- Sri Lanka outline -->
+              <path class="geo-land" d="M 400 795 C 410 805, 415 825, 405 835 C 395 845, 385 830, 390 810 Z" />
+
+              <!-- Major Historical River Basins -->
+              <path class="geo-river" d="M 230 40 Q 250 80 200 140 T 175 230 T 160 320 T 150 380" />
+              <text x="145" y="270" class="geo-river-label">Indus R.</text>
+              <path class="geo-river" d="M 260 90 Q 240 140 210 190" />
+              <text x="215" y="165" class="geo-river-label">Ravi</text>
+
+              <path class="geo-river" d="M 330 180 Q 360 220 420 280 T 500 335 T 580 380 T 605 425" />
+              <text x="440" y="280" class="geo-river-label">Ganga R.</text>
+              <path class="geo-river" d="M 320 185 Q 340 230 380 290 T 450 345" />
+              <text x="350" y="285" class="geo-river-label">Yamuna R.</text>
+
+              <path class="geo-river" d="M 410 390 Q 340 400 230 435" />
+              <text x="330" y="410" class="geo-river-label">Narmada R.</text>
+              <path class="geo-river" d="M 370 430 Q 310 440 225 460" />
+
+              <path class="geo-river" d="M 265 500 Q 340 510 440 530 T 530 550" />
+              <text x="380" y="520" class="geo-river-label">Godavari R.</text>
+
+              <path class="geo-river" d="M 280 580 Q 350 590 440 600 T 510 610" />
+              <text x="390" y="595" class="geo-river-label">Krishna R.</text>
+
+              <path class="geo-river" d="M 300 700 Q 340 720 410 735" />
+              <text x="345" y="730" class="geo-river-label">Kaveri R.</text>
+
+              <!-- Dynamic Markers Group -->
+              <g id="mapMarkersGroup"></g>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Interactive Dossier Panel -->
+        <div id="mapDossier">
+          <p class="loading-note">Loading site dossier…</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed Directory Grid -->
+  <section class="section section-alt">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="kicker">Geographical Gazetteer</span>
+          <h2 class="mt0">Catalogue of 44 Historical Sites</h2>
+        </div>
+        <p class="section-desc">Click any site to pinpoint it on the atlas and open its full archaeological profile with Google Maps and Earth links.</p>
+      </div>
+
+      <div class="card-grid" id="mapSitesList">
+        <p class="loading-note">Loading sites catalogue…</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="siteFooter"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+<script src="js/map.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  HistoryMap.init();
+});
+</script>
+</body>
+</html>

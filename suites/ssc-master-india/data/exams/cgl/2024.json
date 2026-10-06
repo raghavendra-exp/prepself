@@ -1,0 +1,201 @@
+{
+  "examId": "SSC-CGL-2024",
+  "examCode": "cgl",
+  "examName": {
+    "en": "SSC CGL",
+    "hi": "एसएससी सीजीएल"
+  },
+  "fullName": {
+    "en": "Combined Graduate Level Examination",
+    "hi": "संयुक्त स्नातक स्तरीय परीक्षा"
+  },
+  "badge": "Graduation Level • Group B & C",
+  "year": 2024,
+  "duration": "Tier-I: 60 mins | Tier-II: 2h 15m + DEST",
+  "questions": 100,
+  "marks": 200,
+  "negativeMarking": "Tier-I: 0.50 | Tier-II Paper-I: 1.00",
+  "subjects": [
+    "Quantitative Aptitude",
+    "General Intelligence & Reasoning",
+    "English Language",
+    "General Awareness",
+    "Computer Knowledge",
+    "Statistics"
+  ],
+  "eligibility": {
+    "education": {
+      "en": "Bachelor's Degree from a recognized University or equivalent. For JSO: Bachelor's Degree with 60% in Mathematics at 12th standard OR Bachelor's Degree in any subject with Statistics as one of the subjects at degree level.",
+      "hi": "मान्यता प्राप्त विश्वविद्यालय से स्नातक डिग्री या समकक्ष। जेएसओ हेतु: 12वीं में गणित में 60% अंक या डिग्री स्तर पर सांख्यिकी विषय।"
+    },
+    "ageMin": 18,
+    "ageMax": 32,
+    "ageRelaxation": {
+      "en": "OBC: 3 years, SC/ST: 5 years, PwBD: 10 years, Ex-Servicemen: 3 years after deduction of the military service.",
+      "hi": "ओबीसी: 3 वर्ष, एससी/एसटी: 5 वर्ष, दिव्यांग: 10 वर्ष, भूतपूर्व सैनिक: सैन्य सेवा घटाने के बाद 3 वर्ष।"
+    },
+    "physical": {
+      "en": "Physical fitness standards mandatory only for Inspector (Central Excise/Examiner/Preventive Officer) and Sub-Inspector in CBI/NIA/CBN.",
+      "hi": "शारीरिक मानक केवल इंस्पेक्टर (केंद्रीय उत्पाद/परीक्षक/निवारक अधिकारी) और सीबीआई/एनआईए/सीबीएन में उप-निरीक्षक पद हेतु आवश्यक।"
+    },
+    "skillReq": {
+      "en": "Data Entry Speed Test (DEST) is mandatory and qualifying for all posts (2000 key depressions in 15 minutes).",
+      "hi": "डाटा एंट्री स्पीड टेस्ट (DEST) सभी पदों के लिए अनिवार्य एवं क्वालिफाइंग है (15 मिनट में 2000 की-डिप्रेशन)।"
+    },
+    "esmProvisions": {
+      "en": "Reservation for ESM is available in Group C posts as per DoPT guidelines; Age relaxation permissible for Group B & C.",
+      "hi": "डीओपीटी दिशानिर्देशों के अनुसार ग्रुप सी पदों में भूतपूर्व सैनिकों हेतु आरक्षण; ग्रुप बी और सी में आयु छूट अनुमेय।"
+    }
+  },
+  "officialNotification": {
+    "notificationNumber": "F. No. HQ-PPI03/11/2026-PP_1",
+    "notificationDate": "2024-06-24",
+    "applicationStart": "2026-06-11",
+    "applicationEnd": "2026-07-10",
+    "correctionWindow": "2026-07-15 to 2026-07-16",
+    "examDate": "September 2024",
+    "url": "https://ssc.gov.in",
+    "tentativeVacancies": 17727,
+    "source": "Staff Selection Commission Official Gazette Notice (ssc.gov.in)"
+  },
+  "lastVerified": "2026-09-28",
+  "postsOverview": "Assistant Section Officer (CSS, IB, MEA, Railways), Inspector (Income Tax, Central Excise, GST, Preventive Officer, Examiner), Sub-Inspector (CBI, NIA), Assistant Enforcement Officer, Divisional Accountant, JSO, Auditor, Tax Assistant.",
+  "stages": [
+    {
+      "stageId": "tier1",
+      "stageName": {
+        "en": "Tier-I (CBE)",
+        "hi": "टियर-I (कंप्यूटर आधारित)"
+      },
+      "mode": "Computer Based Test (Objective MCQ)",
+      "duration": "60 minutes (80 minutes for scribes)",
+      "totalQuestions": 100,
+      "totalMarks": 200,
+      "negativeMarking": "0.50 marks per wrong answer",
+      "qualifyingNature": true,
+      "sections": [
+        {
+          "name": {
+            "en": "General Intelligence & Reasoning",
+            "hi": "सामान्य बुद्धिमत्ता एवं तर्कशक्ति"
+          },
+          "questions": 25,
+          "marks": 50,
+          "negativePerWrong": 0.5
+        },
+        {
+          "name": {
+            "en": "General Awareness",
+            "hi": "सामान्य जागरूकता"
+          },
+          "questions": 25,
+          "marks": 50,
+          "negativePerWrong": 0.5
+        },
+        {
+          "name": {
+            "en": "Quantitative Aptitude",
+            "hi": "मात्रात्मक अभिरुचि"
+          },
+          "questions": 25,
+          "marks": 50,
+          "negativePerWrong": 0.5
+        },
+        {
+          "name": {
+            "en": "English Comprehension",
+            "hi": "अंग्रेजी बोधगम्यता"
+          },
+          "questions": 25,
+          "marks": 50,
+          "negativePerWrong": 0.5
+        }
+      ]
+    },
+    {
+      "stageId": "tier2",
+      "stageName": {
+        "en": "Tier-II (Paper-I + Paper-II)",
+        "hi": "टियर-II (पेपर-I + पेपर-II)"
+      },
+      "mode": "Computer Based Examination",
+      "duration": "Paper-I: 2h 15m + 15m DEST | Paper-II: 2h",
+      "totalQuestions": 150,
+      "totalMarks": 390,
+      "negativeMarking": "1 mark per wrong answer in Paper-I",
+      "qualifyingNature": false,
+      "sections": [
+        {
+          "name": {
+            "en": "Paper-I Sec-I: Mathematical Abilities",
+            "hi": "पेपर-I खंड-I: गणितीय योग्यता"
+          },
+          "questions": 30,
+          "marks": 90,
+          "negativePerWrong": 1,
+          "timeLimit": "60 mins combined with Reasoning"
+        },
+        {
+          "name": {
+            "en": "Paper-I Sec-I: Reasoning & General Intelligence",
+            "hi": "पेपर-I खंड-I: तर्कशक्ति एवं सामान्य बुद्धि"
+          },
+          "questions": 30,
+          "marks": 90,
+          "negativePerWrong": 1,
+          "timeLimit": "60 mins combined with Math"
+        },
+        {
+          "name": {
+            "en": "Paper-I Sec-II: English Language & Comprehension",
+            "hi": "पेपर-I खंड-II: अंग्रेजी भाषा एवं बोधगम्यता"
+          },
+          "questions": 45,
+          "marks": 135,
+          "negativePerWrong": 1,
+          "timeLimit": "60 mins combined with GA"
+        },
+        {
+          "name": {
+            "en": "Paper-I Sec-II: General Awareness",
+            "hi": "पेपर-I खंड-II: सामान्य जागरूकता"
+          },
+          "questions": 25,
+          "marks": 75,
+          "negativePerWrong": 1,
+          "timeLimit": "60 mins combined with English"
+        },
+        {
+          "name": {
+            "en": "Paper-I Sec-III Mod-I: Computer Knowledge (Qualifying)",
+            "hi": "पेपर-I खंड-III: कंप्यूटर ज्ञान (क्वालिफाइंग)"
+          },
+          "questions": 20,
+          "marks": 60,
+          "negativePerWrong": 1,
+          "timeLimit": "15 mins"
+        },
+        {
+          "name": {
+            "en": "Paper-I Sec-III Mod-II: DEST Typing Test (Qualifying)",
+            "hi": "पेपर-I खंड-III: DEST टाइपिंग (क्वालिफाइंग)"
+          },
+          "questions": 1,
+          "marks": 0,
+          "negativePerWrong": 0,
+          "timeLimit": "15 mins (2000 depressions)"
+        },
+        {
+          "name": {
+            "en": "Paper-II: Statistics (Only for JSO applicants)",
+            "hi": "पेपर-II: सांख्यिकी (केवल JSO आवेदकों हेतु)"
+          },
+          "questions": 100,
+          "marks": 200,
+          "negativePerWrong": 0.5,
+          "timeLimit": "120 mins"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "title": "Master Directory of High-Yield Appointments, National & International Awards, and Sports",
+  "version": "2026.09",
+  "constitutional_and_regulatory_heads": [
+    {
+      "position": "President of India",
+      "incumbent": "Droupadi Murmu",
+      "details": "15th President of India; First tribal woman President and youngest person to assume the office; former Governor of Jharkhand."
+    },
+    {
+      "position": "Vice-President of India & Chairman of Rajya Sabha",
+      "incumbent": "Jagdeep Dhankhar",
+      "details": "14th Vice-President of India; former Governor of West Bengal."
+    },
+    {
+      "position": "Chief Justice of India (CJI)",
+      "incumbent": "Justice Sanjiv Khanna",
+      "details": "51st Chief Justice of India (succeeded Justice D.Y. Chandrachud); term up to May 2025."
+    },
+    {
+      "position": "Speaker of Lok Sabha",
+      "incumbent": "Om Birla",
+      "details": "Re-elected Speaker of the 18th Lok Sabha (represents Kota, Rajasthan)."
+    },
+    {
+      "position": "Chief Election Commissioner (CEC)",
+      "incumbent": "Rajiv Kumar",
+      "details": "25th CEC; conducts General Elections, Presidential elections."
+    },
+    {
+      "position": "Comptroller and Auditor General of India (CAG)",
+      "incumbent": "K. Sanjay Murthy",
+      "details": "Appointed under Article 148; former Secretary of Higher Education."
+    },
+    {
+      "position": "Attorney General for India",
+      "incumbent": "R. Venkataramani",
+      "details": "16th Attorney General of India appointed under Article 76."
+    },
+    {
+      "position": "Governor, Reserve Bank of India (RBI)",
+      "incumbent": "Shaktikanta Das",
+      "details": "25th Governor of RBI; Central Banker of the Year global recognition."
+    },
+    {
+      "position": "Deputy Governors of RBI (4 posts)",
+      "incumbents": "1. Michael Debabrata Patra, 2. M. Rajeshwar Rao, 3. T. Rabi Sankar, 4. Swaminathan Janakiraman",
+      "details": "Oversee Monetary Policy, Regulation, Fintech & Currency Management."
+    },
+    {
+      "position": "Chairperson, Securities and Exchange Board of India (SEBI)",
+      "incumbent": "Madhabi Puri Buch",
+      "details": "First woman Chairperson of SEBI and first from the private sector."
+    },
+    {
+      "position": "Chairman, Insurance Regulatory and Development Authority of India (IRDAI)",
+      "incumbent": "Debasish Panda",
+      "details": "HQ in Hyderabad; sets insurance penetration and solvency norms."
+    },
+    {
+      "position": "Chairperson, Pension Fund Regulatory and Development Authority (PFRDA)",
+      "incumbent": "Deepak Mohanty",
+      "details": "HQ in New Delhi; regulates NPS and Atal Pension Yojana."
+    },
+    {
+      "position": "Chairman, National Bank for Agriculture and Rural Development (NABARD)",
+      "incumbent": "Shaji K. V.",
+      "details": "HQ in Mumbai; apex refinancing agency for agriculture and rural credit."
+    },
+    {
+      "position": "Chairman & Managing Director, Small Industries Development Bank of India (SIDBI)",
+      "incumbent": "Manoj Mittal",
+      "details": "HQ in Lucknow; implements MUDRA, SVANidhi, and MSME credit support."
+    },
+    {
+      "position": "Managing Director, National Housing Bank (NHB)",
+      "incumbent": "Sanjay Shukla",
+      "details": "HQ in New Delhi; wholly owned by Government of India (divested by RBI)."
+    },
+    {
+      "position": "Chairperson, Competition Commission of India (CCI)",
+      "incumbent": "Ravneet Kaur",
+      "details": "First woman regular Chairperson of CCI; prevents anti-competitive practices."
+    },
+    {
+      "position": "Chairman, 16th Finance Commission",
+      "incumbent": "Dr. Arvind Panagariya",
+      "details": "Appointed under Article 280; former Vice-Chairman of NITI Aayog; Secretary: Ritvik Ranjanam Pandey."
+    },
+    {
+      "position": "Vice-Chairperson, NITI Aayog",
+      "incumbent": "Suman Bery",
+      "details": "Eminent macro-economist; succeeded Dr. Rajiv Kumar."
+    },
+    {
+      "position": "Chief Executive Officer (CEO), NITI Aayog",
+      "incumbent": "B. V. R. Subrahmanyam",
+      "details": "Former Commerce Secretary and Chief Secretary of Jammu & Kashmir."
+    }
+  ],
+  "major_awards": [
+    {
+      "award": "Bharat Ratna (2024 Conferred)",
+      "details": "Highest civilian award instituted in 1954. Conferred upon 5 illustrious personalities: 1. Karpoori Thakur (former Bihar CM, champion of social justice - posthumous), 2. Lal Krishna Advani (former Deputy PM), 3. P. V. Narasimha Rao (former PM who pioneered 1991 economic reforms - posthumous), 4. Chaudhary Charan Singh (former PM and champion of farmers - posthumous), 5. Dr. M. S. Swaminathan (Father of India's Green Revolution - posthumous)."
+    },
+    {
+      "award": "Dadasaheb Phalke Award",
+      "details": "India's highest award in the field of cinema presented annually at National Film Awards. Latest recipients: Waheeda Rehman (53rd recipient) and Mithun Chakraborty (54th recipient)."
+    },
+    {
+      "award": "58th Jnanpith Award",
+      "details": "India's highest literary honour presented by Bharatiya Jnanpith. Jointly conferred upon: 1. Gulzar (renowned Urdu poet and lyricist), and 2. Jagadguru Rambhadracharya (Sanskrit scholar and polyglot)."
+    },
+    {
+      "award": "Nobel Prizes 2024",
+      "recipients": [
+        {
+          "category": "Physiology or Medicine",
+          "winners": "Victor Ambros and Gary Ruvkun",
+          "citation": "For the discovery of microRNA and its role in post-transcriptional gene regulation."
+        },
+        {
+          "category": "Physics",
+          "winners": "John J. Hopfield and Geoffrey E. Hinton",
+          "citation": "For foundational discoveries and inventions that enable machine learning with artificial neural networks."
+        },
+        {
+          "category": "Chemistry",
+          "winners": "David Baker (computational protein design) and Demis Hassabis & John M. Jumper (AlphaFold protein structure prediction)",
+          "citation": "For breakthroughs in computational protein design and 3D protein structure prediction."
+        },
+        {
+          "category": "Literature",
+          "winners": "Han Kang (South Korea)",
+          "citation": "For her intense poetic prose that confronts historical traumas and exposes the fragility of human life (First South Korean writer to win Nobel in Literature; author of The Vegetarian)."
+        },
+        {
+          "category": "Peace",
+          "winners": "Nihon Hidankyo (Japan)",
+          "citation": "Grassroots movement of atomic bomb survivors from Hiroshima and Nagasaki (Hibakusha), for its efforts to achieve a world free of nuclear weapons."
+        },
+        {
+          "category": "Economic Sciences (Sveriges Riksbank Prize)",
+          "winners": "Daron Acemoglu, Simon Johnson, and James A. Robinson",
+          "citation": "For studies of how institutions are formed and affect prosperity."
+        }
+      ]
+    },
+    {
+      "award": "Booker Prize & International Booker Prize",
+      "details": "International Booker Prize 2024 awarded to German author Jenny Erpenbeck and translator Michael Hofmann for the novel 'Kairos'. Booker Prize 2024 awarded to British author Samantha Harvey for 'Orbital' (novel set aboard the International Space Station)."
+    }
+  ],
+  "sports_highlights": [
+    {
+      "event": "ICC Men's T20 World Cup 2024",
+      "hosts": "USA and West Indies",
+      "champion": "India (Defeated South Africa by 7 runs in the final at Kensington Oval, Barbados)",
+      "key_facts": "India won its second T20 World Cup title (first was in 2007 under MS Dhoni). Captain: Rohit Sharma; Player of the Series: Jasprit Bumrah; Player of the Match in Final: Virat Kohli (76 runs). India remained undefeated throughout the tournament."
+    },
+    {
+      "event": "Paris Olympics 2024",
+      "host_city": "Paris, France (Motto: Games Wide Open)",
+      "india_medals": "Total 6 Medals (1 Silver, 5 Bronze).",
+      "indian_medalists": [
+        "Neeraj Chopra (Silver in Men's Javelin Throw - 89.45 m; Pakistan's Arshad Nadeem won Gold with Olympic record 92.97 m)",
+        "Manu Bhaker (Bronze in Women's 10m Air Pistol - First Indian woman shooter to win Olympic medal)",
+        "Manu Bhaker & Sarabjot Singh (Bronze in 10m Air Pistol Mixed Team - Manu Bhaker became first Indian athlete in post-independence era to win 2 medals in a single Olympics)",
+        "Swapnil Kusale (Bronze in Men's 50m Rifle 3 Positions)",
+        "Indian Men's Hockey Team (Bronze medal defeating Spain 2-1; Captain: Harmanpreet Singh; PR Sreejesh retired after tournament)",
+        "Aman Sehrawat (Bronze in Men's 57kg Freestyle Wrestling - Youngest Indian Olympic individual medalist at age 21)"
+      ]
+    },
+    {
+      "event": "Paris Paralympics 2024",
+      "india_performance": "Historic best tally of 29 Medals (7 Gold, 9 Silver, 13 Bronze), finishing 18th in medal standings.",
+      "gold_medalists": [
+        "Avani Lekhara (Women's 10m Air Rifle Standing SH1 - First Indian woman with 2 Paralympic golds)",
+        "Nitesh Kumar (Men's Singles SL3 Badminton)",
+        "Sumit Antil (Men's Javelin Throw F64 - Paralympic record 70.59 m, consecutive gold)",
+        "Harvinder Singh (Men's Individual Recurve Open Archery - India's first ever archery gold)",
+        "Dharambir (Men's Club Throw F51 - Asian record)",
+        "Praveen Kumar (Men's High Jump T64 - Asian record 2.08 m)",
+        "Navdeep Singh (Men's Javelin Throw F41)"
+      ]
+    },
+    {
+      "event": "Grand Slam Tennis Champions (Recent)",
+      "highlights": "Carlos Alcaraz won French Open and Wimbledon 2024. Jannik Sinner won Australian Open and US Open 2024. Aryna Sabalenka won Australian Open and US Open 2024. Iga Swiatek won French Open 2024. Barbora Krejcikova won Wimbledon 2024. Rohan Bopanna became oldest Grand Slam champion in Open Era winning Australian Open 2024 Men's Doubles at age 43."
+    }
+  ]
+}

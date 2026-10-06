@@ -1,0 +1,271 @@
+{
+  "module": "Microsoft Office Suite",
+  "version": "2026.1",
+  "apps": [
+    {
+      "id": "ms-word",
+      "name": "Microsoft Word",
+      "hindiName": "माइक्रोसॉफ्ट वर्ड",
+      "role": "Word Processing Software",
+      "defaultExt": ".docx (Office 2007 onwards, XML-based), legacy .doc (97-2003)",
+      "defaultFont": "Calibri, size 11pt (previously Times New Roman 12pt in Word 2003)",
+      "defaultAlignment": "Left-aligned (Ctrl+L)",
+      "ribbonTabs": [
+        {
+          "tab": "Home",
+          "items": "Clipboard, Font, Paragraph (alignments, bullets, line spacing), Styles, Editing (Find, Replace)."
+        },
+        {
+          "tab": "Insert",
+          "items": "Pages (Cover Page, Blank, Page Break), Tables, Illustrations (Pictures, Shapes, SmartArt, Charts), Header & Footer, Page Number, WordArt, Equation, Symbol."
+        },
+        {
+          "tab": "Design / Page Layout",
+          "items": "Themes, Margins (Normal, Narrow, Wide), Orientation (Portrait, Landscape), Size (A4, Letter), Columns, Breaks, Watermark, Page Color, Page Borders."
+        },
+        {
+          "tab": "References",
+          "items": "Table of Contents, Footnotes / Endnotes, Citations & Bibliography, Captions, Index, Table of Authorities."
+        },
+        {
+          "tab": "Mailings",
+          "items": "Envelopes, Labels, Start Mail Merge (Letters, E-mail, Envelopes, Labels, Directory), Select Recipients, Insert Merge Field, Finish & Merge."
+        },
+        {
+          "tab": "Review",
+          "items": "Spelling & Grammar (F7), Thesaurus (Shift+F7), Word Count, Translate, Comments, Tracking (Track Changes), Compare, Protect."
+        },
+        {
+          "tab": "View",
+          "items": "Views (Read Mode, Print Layout, Web Layout, Outline, Draft), Ruler, Gridlines, Navigation Pane, Zoom (10% min to 500% max), Macros (Alt+F8)."
+        }
+      ],
+      "keyFeatures": [
+        {
+          "name": "Mail Merge",
+          "desc": "Combines a Main Document (letter, envelope) with a Data Source (Excel sheet, Access table, Outlook contacts) to generate personalized mass documents."
+        },
+        {
+          "name": "Header & Footer",
+          "desc": "Content repeated at top (header) and bottom (footer) of every page. Header resides inside the top margin."
+        },
+        {
+          "name": "Footnote vs Endnote",
+          "desc": "Footnote appears at the bottom of the current page. Endnote appears at the very end of the document (or section)."
+        },
+        {
+          "name": "Drop Cap",
+          "desc": "Decorative large initial letter of a paragraph spanning 3 lines by default (max 10 lines)."
+        },
+        {
+          "name": "Watermark",
+          "desc": "Faded background text or image behind the text on all pages (e.g. 'CONFIDENTIAL', 'DO NOT COPY')."
+        }
+      ],
+      "zoomLimits": {
+        "min": "10%",
+        "max": "500%",
+        "default": "100%"
+      },
+      "examTips": [
+        "Difference between Footnote and Endnote: Footnote is placed at bottom of each page; Endnote is placed at the end of entire document.",
+        "Default extension in modern Word is .docx (XML-based, compressed zip container).",
+        "Max Zoom in MS Word is 500% (whereas in Excel and PowerPoint it is 400%)."
+      ]
+    },
+    {
+      "id": "ms-excel",
+      "name": "Microsoft Excel",
+      "hindiName": "माइक्रोसॉफ्ट एक्सेल",
+      "role": "Spreadsheet Software",
+      "defaultExt": ".xlsx (standard), .xlsm (macro-enabled), .xls (legacy 97-2003)",
+      "structure": {
+        "rows": "1,048,576 rows per worksheet (numbered 1 to 1048576; previously 65,536 in Excel 2003)",
+        "columns": "16,384 columns per worksheet (lettered A to XFD; previously 256 / IV in Excel 2003)",
+        "cellAddress": "Intersection of column letter and row number (e.g., A1, B12, XFD1048576)",
+        "nameBox": "Displays the address of currently active cell or named range (located left of formula bar)",
+        "formulaBar": "Displays the formula or data contained in the active cell. All formulas begin with '=' sign."
+      },
+      "cellReferencing": [
+        {
+          "type": "Relative Reference",
+          "syntax": "A1",
+          "desc": "Changes dynamically when copied to other cells relative to row/column movement."
+        },
+        {
+          "type": "Absolute Reference",
+          "syntax": "$A$1",
+          "desc": "Anchors both column and row using '$' symbol. Never changes when copied. Press F4 to toggle."
+        },
+        {
+          "type": "Mixed Reference",
+          "syntax": "$A1 or A$1",
+          "desc": "Locks either the column ($A1) or the row (A$1), leaving the other free to change."
+        }
+      ],
+      "essentialFormulas": [
+        {
+          "name": "SUM",
+          "syntax": "=SUM(A1:A10)",
+          "desc": "Calculates total arithmetic sum of numeric values in range."
+        },
+        {
+          "name": "AVERAGE",
+          "syntax": "=AVERAGE(A1:A10)",
+          "desc": "Calculates arithmetic mean of numeric cells in range."
+        },
+        {
+          "name": "MAX / MIN",
+          "syntax": "=MAX(A1:A10) / =MIN(A1:A10)",
+          "desc": "Finds largest or smallest numeric value in range."
+        },
+        {
+          "name": "COUNT",
+          "syntax": "=COUNT(A1:A10)",
+          "desc": "Counts only cells that contain numbers."
+        },
+        {
+          "name": "COUNTA",
+          "syntax": "=COUNTA(A1:A10)",
+          "desc": "Counts all non-empty cells (numbers, text, logical values, errors)."
+        },
+        {
+          "name": "COUNTBLANK",
+          "syntax": "=COUNTBLANK(A1:A10)",
+          "desc": "Counts empty cells in the specified range."
+        },
+        {
+          "name": "IF",
+          "syntax": "=IF(condition, value_if_true, value_if_false)",
+          "desc": "Logical test condition and returns corresponding value."
+        },
+        {
+          "name": "VLOOKUP",
+          "syntax": "=VLOOKUP(lookup_val, table_array, col_index, [exact_match_bool])",
+          "desc": "Vertical lookup: searches first column of table for lookup value and returns corresponding column item."
+        },
+        {
+          "name": "HLOOKUP",
+          "syntax": "=HLOOKUP(lookup_val, table_array, row_index, [exact_match_bool])",
+          "desc": "Horizontal lookup: searches top row and returns item from specified row."
+        }
+      ],
+      "commonErrors": [
+        {
+          "error": "#####",
+          "cause": "Column width is too narrow to display the number, or negative date/time."
+        },
+        {
+          "error": "#DIV/0!",
+          "cause": "Formula attempts to divide by zero or an empty cell."
+        },
+        {
+          "error": "#N/A",
+          "cause": "'No value available' - lookup formula fails to find matching record."
+        },
+        {
+          "error": "#NAME?",
+          "cause": "Excel does not recognize text in formula (misspelled function name like =SUMM)."
+        },
+        {
+          "error": "#NULL!",
+          "cause": "Incorrect intersection operator specified (e.g. space between two non-intersecting ranges)."
+        },
+        {
+          "error": "#NUM!",
+          "cause": "Formula contains invalid numeric values (e.g. square root of negative number)."
+        },
+        {
+          "error": "#REF!",
+          "cause": "Invalid cell reference (cell was deleted or pasted over)."
+        },
+        {
+          "error": "#VALUE!",
+          "cause": "Wrong type of argument (e.g. mathematical operation on a text string like =A1+'text')."
+        }
+      ],
+      "zoomLimits": {
+        "min": "10%",
+        "max": "400%",
+        "default": "100%"
+      },
+      "examTips": [
+        "How many columns and rows in Excel 2016/2019/365? 16,384 columns (A to XFD) and 1,048,576 rows.",
+        "In Excel, text data is left-aligned by default, while numbers and dates are right-aligned by default.",
+        "To start a formula, which symbol is mandatory? '=' (Equals sign)."
+      ]
+    },
+    {
+      "id": "ms-powerpoint",
+      "name": "Microsoft PowerPoint",
+      "hindiName": "माइक्रोसॉफ्ट पावरपॉइंट",
+      "role": "Presentation Software",
+      "defaultExt": ".pptx (standard), .ppsx (PowerPoint Show - opens directly in slideshow mode), .potx (template)",
+      "views": [
+        {
+          "name": "Normal View",
+          "desc": "Primary editing view with slide thumbnail pane on left and large active slide workspace in center."
+        },
+        {
+          "name": "Slide Sorter View",
+          "desc": "Shows thumbnail grid of all slides; best for reorganizing, reordering, and deleting slides."
+        },
+        {
+          "name": "Notes Page View",
+          "desc": "Displays slide with speaker notes beneath it for lecture preparation."
+        },
+        {
+          "name": "Slide Show View",
+          "desc": "Full-screen presentation view (F5 from beginning, Shift+F5 from current slide)."
+        },
+        {
+          "name": "Slide Master View",
+          "desc": "Hierarchy of slides that stores information about the theme, layout, background, fonts, and colors for the entire presentation."
+        }
+      ],
+      "transitionsVsAnimations": {
+        "transition": "Motion effect that occurs when you move from one slide to the next during a presentation.",
+        "animation": "Visual or sound effect applied to individual elements (text, picture, chart, shape) on a single slide."
+      },
+      "slideShowShortcuts": [
+        {
+          "key": "F5",
+          "action": "Start presentation from slide 1."
+        },
+        {
+          "key": "Shift + F5",
+          "action": "Start presentation from current slide."
+        },
+        {
+          "key": "B",
+          "action": "Turn screen black / return to show."
+        },
+        {
+          "key": "W",
+          "action": "Turn screen white / return to show."
+        },
+        {
+          "key": "Esc",
+          "action": "Exit slide show immediately."
+        },
+        {
+          "key": "Ctrl + P",
+          "action": "Change mouse pointer to Pen tool during show."
+        },
+        {
+          "key": "Ctrl + E",
+          "action": "Switch pointer to Eraser tool during show."
+        }
+      ],
+      "zoomLimits": {
+        "min": "10%",
+        "max": "400%",
+        "default": "100%"
+      },
+      "examTips": [
+        "Shortcut to insert a NEW SLIDE is Ctrl + M (NOT Ctrl+N, which opens a new presentation file). Extremely common trap!",
+        "Shortcut to duplicate current slide is Ctrl + D."
+      ]
+    }
+  ]
+}

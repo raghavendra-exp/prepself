@@ -1,0 +1,22 @@
+[
+  {
+    "id": "steno-01",
+    "grade": "Grade D (80 WPM)",
+    "language": "en",
+    "title": "Parliamentary Debate Speech on National Education and Skill Development",
+    "targetSpeed": 80,
+    "durationMinutes": 10,
+    "wordCount": 800,
+    "dictationText": "Mr. Speaker Sir, I rise to support the legislative measure introduced by the honorable Minister for promoting vocational education and technical skills among our youthful population. It is an acknowledged reality that academic certification alone cannot fulfill the aspirations of millions of young citizens entering the workforce every successive year. The proposed infrastructure will create specialized training centers in every parliamentary constituency, offering curricula aligned with emerging industrial requirements. Modern manufacturing, information technology, renewable energy installations, and telecommunications demand technical proficiencies of the highest order. By creating a national framework for skill certification, this bill empowers apprentices from backward and rural segments to secure dignified employment in both public undertakings and organized private sectors. I urge all members of this august House to pass this progressive enactment unanimously without partisan hesitation."
+  },
+  {
+    "id": "steno-02",
+    "grade": "Grade C (100 WPM)",
+    "language": "en",
+    "title": "Economic Survey and Infrastructure Finance Address",
+    "targetSpeed": 100,
+    "durationMinutes": 10,
+    "wordCount": 1000,
+    "dictationText": "Honorable Chairman, the deliberations of this standing committee have highlighted the imperative necessity of sustaining capital expenditure across logistics and transportation networks. The macroeconomic indicators of the country demonstrate resilient growth trajectories notwithstanding complex international headwinds. Public investments in dedicated freight corridors, port modernization, and multi-modal logistics parks have already yielded significant reductions in transit periods and fuel expenditure. When logistical expenditures decrease, indigenous manufacturing enterprises attain competitive parity in international export markets. Consequently, our foreign exchange reserves expand, stabilizing fiscal balances and creating sustainable employment in auxiliary sectors. The commission recommends that public private partnerships should be revitalized through transparent dispute resolution mechanisms and sovereign risk mitigating guarantees. Let us ensure that public funds are allocated with rigorous financial prudence to maximize societal benefits."
+  }
+]

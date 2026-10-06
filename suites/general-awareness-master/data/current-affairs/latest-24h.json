@@ -1,0 +1,117 @@
+{
+  "title": "GA Last 24 Hours High-Yield Digest",
+  "date": "2026-09-13",
+  "version": "2026.09",
+  "records": [
+    {
+      "id": "CA-2026-09-0001",
+      "date": "2026-09-12",
+      "category": "ECONOMY",
+      "headline": "India's Foreign Exchange Reserves Touch Record High Surpassing $700 Billion Mark",
+      "summary": "The Reserve Bank of India reported that India's foreign exchange reserves surged to a historic high, crossing the $700 billion milestone driven by strong foreign portfolio investment inflows, robust valuation gains in gold reserves, and sustained trade remittances.",
+      "exam_fact": "India became only the fourth country in the world (after China, Japan, and Switzerland) to cross $700 Billion in foreign currency reserves.",
+      "why_important": "Adequate forex reserves shield the domestic currency from abrupt speculative depreciation and provide an import cover of over 11 months.",
+      "related_static_topic": "Balance of Payments (BoP) & Foreign Exchange Management Act (FEMA 1999)",
+      "related_banking_topic": "Custody of Forex by RBI (Section 40 of RBI Act, 1934)",
+      "mcqs": [
+        {
+          "question": "Which institution in India acts as the sole custodian of the country's foreign exchange reserves?",
+          "options": ["Ministry of Finance", "Reserve Bank of India", "State Bank of India", "EXIM Bank", "SEBI"],
+          "answer": 1,
+          "explanation": "Under Section 40 of the RBI Act 1934 and provisions of FEMA 1999, the Reserve Bank of India is the custodian and manager of India's foreign exchange reserves."
+        }
+      ],
+      "source": "Reserve Bank of India Weekly Statistical Supplement (rbi.org.in)",
+      "source_url": "https://rbi.org.in",
+      "last_verified": "2026-09-13"
+    },
+    {
+      "id": "CA-2026-09-0002",
+      "date": "2026-09-12",
+      "category": "SCIENCE & TECH",
+      "headline": "ISRO Announces Launch Schedule for Shukrayaan-1 Venus Orbiter Mission",
+      "summary": "The Indian Space Research Organisation (ISRO) formalized mission configurations for 'Shukrayaan-1', India's first scientific mission to explore Venus, slated to investigate surface geology and the thick atmospheric chemistry of the planet.",
+      "exam_fact": "Shukrayaan-1 will be launched using ISRO's LVM3 (Launch Vehicle Mark-3) heavy-lift rocket.",
+      "why_important": "Marks India's third planetary exploration milestone following Chandrayaan (Moon) and Mangalyaan (Mars).",
+      "related_static_topic": "Solar System Geography & Satellite Orbits",
+      "related_banking_topic": "Commercial space funding and IN-SPACe initiatives",
+      "mcqs": [
+        {
+          "question": "Which rocket is designated to launch ISRO's Venus exploration orbiter Shukrayaan-1?",
+          "options": ["PSLV-C56", "GSLV Mk II", "LVM3 (GSLV Mk III)", "SSLV-D2", "Sounding Rocket"],
+          "answer": 2,
+          "explanation": "ISRO has earmarked its heaviest operational launch vehicle, LVM3 (Launch Vehicle Mark-3), for the interplanetary Shukrayaan-1 mission."
+        }
+      ],
+      "source": "ISRO Press Briefing / Department of Space (isro.gov.in)",
+      "source_url": "https://www.isro.gov.in",
+      "last_verified": "2026-09-13"
+    },
+    {
+      "id": "CA-2026-09-0003",
+      "date": "2026-09-11",
+      "category": "APPOINTMENTS",
+      "headline": "Government Appoints New Executive Director at International Monetary Fund (IMF) Representing India",
+      "summary": "The Appointments Committee of the Cabinet (ACC) approved the appointment of a senior financial economist as Executive Director (India) at the International Monetary Fund (IMF) headquarters in Washington D.C., representing the constituency of India, Bangladesh, Bhutan, and Sri Lanka.",
+      "exam_fact": "India represents a four-country constituency at the IMF Executive Board comprising India, Bangladesh, Bhutan, and Sri Lanka.",
+      "why_important": "IMF voting rights and quota revisions directly influence global sovereign funding and SDR allocations.",
+      "related_static_topic": "Bretton Woods Institutions (IMF & World Bank 1944)",
+      "related_banking_topic": "Special Drawing Rights (SDR) and Forex Reserves",
+      "mcqs": [
+        {
+          "question": "Which of the following countries is NOT part of India's voting constituency at the IMF Executive Board?",
+          "options": ["Bangladesh", "Bhutan", "Sri Lanka", "Nepal", "India"],
+          "answer": 3,
+          "explanation": "India represents India, Bangladesh, Bhutan, and Sri Lanka at the IMF Executive Board. Nepal is represented in a different constituency."
+        }
+      ],
+      "source": "Appointments Committee of the Cabinet (DoPT pib.gov.in)",
+      "source_url": "https://pib.gov.in",
+      "last_verified": "2026-09-13"
+    },
+    {
+      "id": "CA-2026-09-0004",
+      "date": "2026-09-11",
+      "category": "GOVERNMENT SCHEMES",
+      "headline": "PMAY-U 2.0 Cabinet Approval: 1 Crore Additional Affordable Houses for Urban Poor",
+      "summary": "Union Cabinet chaired by Prime Minister approved Pradhan Mantri Awas Yojana - Urban 2.0 (PMAY-U 2.0) with an investment of ₹10 Lakh Crore, offering interest subsidy on home loans up to ₹35 Lakh for EWS/LIG families.",
+      "exam_fact": "Under PMAY-U 2.0, the Interest Subsidy Scheme (ISS) provides an upfront 4.0% interest subsidy on home loans up to ₹25 Lakh for tenures up to 12 years.",
+      "why_important": "Massive driver for priority sector housing credit and affordable housing construction across Tier-2 and Tier-3 cities.",
+      "related_static_topic": "Fundamental Right to Shelter (Article 21) & Urbanisation in India",
+      "related_banking_topic": "Priority Sector Lending (PSL) Housing Credit Caps",
+      "mcqs": [
+        {
+          "question": "Under PMAY-U 2.0 Interest Subsidy Scheme, what is the maximum interest subvention percentage provided on eligible home loans?",
+          "options": ["2.00%", "3.00%", "4.00%", "5.00%", "6.50%"],
+          "answer": 2,
+          "explanation": "PMAY-U 2.0 provides an interest subsidy of 4.0% per annum on home loans up to ₹25 Lakh for a maximum loan tenure of 12 years."
+        }
+      ],
+      "source": "Press Information Bureau (PIB) Cabinet Release",
+      "source_url": "https://pib.gov.in",
+      "last_verified": "2026-09-13"
+    },
+    {
+      "id": "CA-2026-09-0005",
+      "date": "2026-09-10",
+      "category": "ENVIRONMENT",
+      "headline": "India Adds 3 New Wetlands to Ramsar Convention Network Taking Total to 85 Sites",
+      "summary": "Ministry of Environment, Forest and Climate Change announced that 3 more wetlands from India have been designated as Wetlands of International Importance under the Ramsar Convention, elevating India's tally to 85 Ramsar sites.",
+      "exam_fact": "India has the highest number of Ramsar sites in South Asia, and third highest globally (after the UK and Mexico).",
+      "why_important": "Ramsar sites protect critical flood plains, migratory waterfowl flyways, and rural biodiversity.",
+      "related_static_topic": "Ramsar Convention 1971 (signed in Ramsar, Iran) & Wildlife Protection Act 1972",
+      "related_banking_topic": "Green Finance and Sustainable Development Goals (SDG 14 & 15)",
+      "mcqs": [
+        {
+          "question": "The Ramsar Convention on Wetlands was signed in 1971 in which country?",
+          "options": ["Iraq", "Iran", "Switzerland", "Egypt", "Jordan"],
+          "answer": 1,
+          "explanation": "The Convention on Wetlands of International Importance was adopted in the Iranian city of Ramsar on February 2, 1971 (celebrated annually as World Wetlands Day)."
+        }
+      ],
+      "source": "Ministry of Environment, Forest and Climate Change (moef.gov.in)",
+      "source_url": "https://moef.gov.in",
+      "last_verified": "2026-09-13"
+    }
+  ]
+}

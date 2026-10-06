@@ -1,0 +1,2835 @@
+[
+  {
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-A Civil Engineering",
+    "subject": "Engineering",
+    "chapter": "Building Materials",
+    "topic": "Cement Testing and Consistency",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which apparatus is officially standardized as per IS: 4031 to determine the standard consistency and initial setting time of Portland cement?",
+      "hi": "पोर्टलैंड सीमेंट की मानक सघनता और प्रारंभिक जमाव काल ज्ञात करने हेतु IS: 4031 के अनुसार किस उपकरण का मानकीकरण किया गया है?"
+    },
+    "options": [
+      {
+        "en": "Vicat's Apparatus",
+        "hi": "विकट उपकरण (Vicat's Apparatus)"
+      },
+      {
+        "en": "Le Chatelier Apparatus",
+        "hi": "ले-चैटेलियर उपकरण"
+      },
+      {
+        "en": "Slump Cone Apparatus",
+        "hi": "स्लम्प कोन उपकरण"
+      },
+      {
+        "en": "Michaelis Briquette Apparatus",
+        "hi": "माइकेलिस उपकरण"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Vicat's apparatus with a 10 mm diameter plunger is used for standard consistency, and with a 1 mm square needle for initial setting time. Le Chatelier apparatus tests soundness for free lime.",
+      "hi": "विकट उपकरण का उपयोग सीमेंट की सामान्य सघनता और प्रारंभिक व अंतिम जमाव काल मापने हेतु किया जाता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE 2024 Paper-I",
+    "tags": [
+      "Civil Engineering",
+      "Cement",
+      "Building Materials"
+    ],
+    "id": "Q-00024"
+  },
+  {
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-B Electrical Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Machines",
+    "topic": "Transformers",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "The open circuit test on a power transformer is performed primarily to determine which of the following losses?",
+      "hi": "पावर ट्रांसफॉर्मर पर ओपन सर्किट परीक्षण मुख्य रूप से निम्नलिखित में से किस हानि को निर्धारित करने हेतु किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Core / Iron Loss",
+        "hi": "क्रोड / लौह हानि (Core/Iron Loss)"
+      },
+      {
+        "en": "Copper Loss at full load",
+        "hi": "पूर्ण भार पर ताम्र हानि"
+      },
+      {
+        "en": "Friction and Windage Loss",
+        "hi": "घर्षण और वाइंडिंग हानि"
+      },
+      {
+        "en": "Stray Load Loss",
+        "hi": "स्ट्रे लोड हानि"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Open Circuit (OC) test is conducted at rated voltage on the Low Voltage (LV) side with the HV side kept open to measure core/iron loss (hysteresis + eddy current) and no-load current I₀. Short Circuit (SC) test measures copper loss.",
+      "hi": "ओपन सर्किट (OC) परीक्षण रेटेड वोल्टेज पर लौह हानि (हिस्टैरिसीस एवं भंवर धारा हानि) ज्ञात करने हेतु किया जाता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical 2024",
+    "tags": [
+      "Electrical Engineering",
+      "Transformers"
+    ],
+    "id": "Q-00025"
+  },
+  {
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C Mechanical Engineering",
+    "subject": "Engineering",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamic Cycles",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "For the same maximum pressure and maximum temperature, which of the following thermodynamic cycles has the highest thermal efficiency?",
+      "hi": "समान अधिकतम दाब और अधिकतम तापमान के लिए, निम्नलिखित में से किस थर्मोडायनामिक चक्र की तापीय दक्षता सबसे अधिक होती है?"
+    },
+    "options": [
+      {
+        "en": "Diesel Cycle",
+        "hi": "डीजल चक्र (Diesel Cycle)"
+      },
+      {
+        "en": "Otto Cycle",
+        "hi": "ओटो चक्र"
+      },
+      {
+        "en": "Dual Cycle",
+        "hi": "डुअल चक्र"
+      },
+      {
+        "en": "Carnot Cycle with infinite duration",
+        "hi": "कार्नो चक्र"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "For the same maximum pressure and temperature: Thermal Efficiency(Diesel) > Thermal Efficiency(Dual) > Thermal Efficiency(Otto). (Conversely, for the same compression ratio, Otto cycle has higher efficiency).",
+      "hi": "समान अधिकतम दाब एवं तापमान की स्थिति में डीजल चक्र की दक्षता सर्वाधिक होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical 2024",
+    "tags": [
+      "Mechanical Engineering",
+      "Thermodynamics"
+    ],
+    "id": "Q-00026"
+  },
+  {
+    "id": "Q-01009",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01010",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01011",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01012",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01013",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01014",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01015",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01016",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01017",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01018",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01019",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01020",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01021",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01022",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01023",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01024",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01025",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01026",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01027",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01028",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01029",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01030",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01031",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01032",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01033",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01034",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01035",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01036",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01037",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01038",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01039",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01040",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01041",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01042",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01043",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01044",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01045",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01046",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01047",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01048",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01049",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01050",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01051",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01052",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01053",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01054",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01055",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01056",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01057",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01058",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01059",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01060",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01061",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01062",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01063",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01064",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01065",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01066",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-B General Engineering",
+    "subject": "Engineering",
+    "chapter": "Electrical Engineering",
+    "topic": "Circuit Theory & Power Systems",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "In a 3-phase induction motor, if the rotor runs at synchronous speed, what will be the value of slip?",
+      "hi": "एक 3-फेज प्रेरण मोटर में, यदि रोटर तुल्यकालिक गति पर चलता है, तो स्लिप (Slip) का मान क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "Zero (0)",
+        "hi": "शून्य (0)"
+      },
+      {
+        "en": "1 (Unity)",
+        "hi": "1"
+      },
+      {
+        "en": "0.5",
+        "hi": "0.5"
+      },
+      {
+        "en": "Infinity",
+        "hi": "अनंत"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Slip s = (Ns - Nr) / Ns. If Nr = Ns, slip s = 0.",
+      "hi": "स्लिप s = (Ns - Nr) / Ns। जब रोटर की गति तुल्यकालिक गति के बराबर होती है, तो स्लिप शून्य होती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Electrical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Electrical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01067",
+    "exam": "je",
+    "stage": "Paper-I",
+    "section": "Part-C General Engineering",
+    "subject": "Engineering",
+    "chapter": "Mechanical Engineering",
+    "topic": "Fluid Mechanics & Thermodynamics",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "Bernoulli's equation represents the principle of conservation of which physical quantity for an ideal fluid?",
+      "hi": "बरनौली का समीकरण आदर्श तरल हेतु किस भौतिक राशि के संरक्षण के सिद्धांत को दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "Energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "Mass",
+        "hi": "द्रव्यमान"
+      },
+      {
+        "en": "Momentum",
+        "hi": "संवेग"
+      },
+      {
+        "en": "Force",
+        "hi": "बल"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bernoulli's equation is a formulation of the Law of Conservation of Energy applied to fluid flow.",
+      "hi": "बरनौली समीकरण तरल प्रवाह में ऊर्जा संरक्षण के नियम पर आधारित है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Mechanical Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Mechanical",
+      "JE"
+    ]
+  },
+  {
+    "id": "Q-01068",
+    "exam": "je",
+    "stage": "Paper-II",
+    "section": "Part-A General Engineering",
+    "subject": "Engineering",
+    "chapter": "Civil Engineering",
+    "topic": "Concrete Technology & Structures",
+    "year": "2024",
+    "difficulty": "hard",
+    "question": {
+      "en": "As per IS 456:2000, what is the maximum permissible compressive stress in concrete under direct compression for M20 grade?",
+      "hi": "IS 456:2000 के अनुसार, M20 ग्रेड कंक्रीट हेतु सीधे संपीड़न में अधिकतम अनुमेय प्रतिबल क्या है?"
+    },
+    "options": [
+      {
+        "en": "5.0 N/mm²",
+        "hi": "5.0 N/mm²"
+      },
+      {
+        "en": "7.0 N/mm²",
+        "hi": "7.0 N/mm²"
+      },
+      {
+        "en": "8.5 N/mm²",
+        "hi": "8.5 N/mm²"
+      },
+      {
+        "en": "4.0 N/mm²",
+        "hi": "4.0 N/mm²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As per Table 21 of IS 456:2000, permissible compressive stress in direct compression for M20 is 5.0 N/mm² (and in bending compression is 7.0 N/mm²).",
+      "hi": "IS 456:2000 के अनुसार M20 कंक्रीट में सीधे संपीड़न हेतु अनुमेय प्रतिबल 5.0 N/mm² है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC JE Civil Engineering Paper",
+    "tags": [
+      "Engineering",
+      "Civil",
+      "JE"
+    ]
+  }
+]

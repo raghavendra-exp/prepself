@@ -1,0 +1,54 @@
+[
+  {
+    "id": "trans-01",
+    "title": "Administrative Memorandum on Code of Conduct",
+    "direction": "en_to_hi",
+    "sourceText": "Every government servant shall at all times maintain absolute integrity, devotion to duty, and do nothing which is unbecoming of a government servant. Promptness and courtesy must be extended to all members of the public seeking official assistance.",
+    "modelTranslation": "प्रत्येक सरकारी कर्मचारी हर समय पूर्ण सत्यनिष्ठा और कर्तव्यपरायणता बनाए रखेगा तथा ऐसा कोई आचरण नहीं करेगा जो एक सरकारी कर्मचारी के लिए अशोभनीय हो। आधिकारिक सहायता प्राप्त करने के इच्छुक जनता के सभी सदस्यों के प्रति तत्परता और विनम्रता का व्यवहार किया जाना चाहिए।",
+    "keyTerminology": [
+      {
+        "term": "Absolute integrity",
+        "meaning": "पूर्ण सत्यनिष्ठा"
+      },
+      {
+        "term": "Devotion to duty",
+        "meaning": "कर्तव्यपरायणता"
+      },
+      {
+        "term": "Unbecoming",
+        "meaning": "अशोभनीय"
+      },
+      {
+        "term": "Promptness and courtesy",
+        "meaning": "तत्परता और विनम्रता"
+      }
+    ],
+    "grammarNotes": "In official administrative Hindi, future obligations for conduct use future imperative forms (बनाए रखेगा, व्यवहार किया जाना चाहिए)."
+  },
+  {
+    "id": "trans-02",
+    "title": "Financial Management Notification",
+    "direction": "hi_to_en",
+    "sourceText": "वित्तीय वर्ष के समापन पर सभी आहरण एवं संवितरण अधिकारियों को यह सुनिश्चित करना अनिवार्य है कि स्वीकृत बजट का व्यय नियमानुसार ही किया जाए और कोई भी धनराशि बिना औचित्य के समर्पित न की जाए।",
+    "modelTranslation": "At the close of the financial year, it is mandatory for all Drawing and Disbursing Officers to ensure that the expenditure of the sanctioned budget is incurred strictly according to rules and no funds are surrendered without proper justification.",
+    "keyTerminology": [
+      {
+        "term": "आहरण एवं संवितरण अधिकारी",
+        "meaning": "Drawing and Disbursing Officer (DDO)"
+      },
+      {
+        "term": "स्वीकृत बजट",
+        "meaning": "Sanctioned budget"
+      },
+      {
+        "term": "व्यय",
+        "meaning": "Expenditure"
+      },
+      {
+        "term": "समर्पित करना",
+        "meaning": "Surrender (of funds)"
+      }
+    ],
+    "grammarNotes": "Notice the translation of \"सुनिश्चित करना अनिवार्य है\" as \"it is mandatory to ensure\"."
+  }
+]

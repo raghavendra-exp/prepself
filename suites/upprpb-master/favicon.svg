@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+  </defs>
+  <path d="M50 5 L88 20 C88 60 50 92 50 92 C50 92 12 60 12 20 Z" fill="url(#shieldGrad)" stroke="#fbbf24" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="50" cy="45" r="16" fill="#0f172a" stroke="#f59e0b" stroke-width="2"/>
+  <polygon points="50,34 54,42 63,43 56,49 58,57 50,53 42,57 44,49 37,43 46,42" fill="#fbbf24"/>
+</svg>

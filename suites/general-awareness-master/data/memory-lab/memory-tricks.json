@@ -1,0 +1,50 @@
+{
+  "title": "GA Memory Lab: High-Yield Mnemonics and Mental Models",
+  "total_tricks": 15,
+  "tricks": [
+    {
+      "id": "MEM-01",
+      "title": "Sixth Schedule Tribal States Mnemonic",
+      "mnemonic": "AMTM (Assam, Meghalaya, Tripura, Mizoram)",
+      "explanation": "Sixth Schedule of the Constitution applies exclusively to tribal areas in 4 North Eastern states: Assam, Meghalaya, Tripura, and Mizoram. It does NOT apply to Manipur, Nagaland, or Arunachal Pradesh.",
+      "trap_alert": "Exams often insert 'Manipur' as an option. Remember: No 'Man' in Sixth Schedule (No Manipur)!"
+    },
+    {
+      "id": "MEM-02",
+      "title": "Eight Core Industries by Weightage",
+      "mnemonic": "Refinery -> Electricity -> Steel -> Coal -> Crude Oil -> Gas -> Cement -> Fertilizer",
+      "shortcut": "'RESC-CGC-F' (Remember: Refinery fuels Electricity which melts Steel to mine Coal).",
+      "explanation": "Refinery Products has the highest share (28%), Fertilizer has the lowest share (2.6%). Total share of core industries in IIP is 40.27%."
+    },
+    {
+      "id": "MEM-03",
+      "title": "Preamble Keywords Order",
+      "mnemonic": "SO-SO-SE-DE-RE (Sovereign, Socialist, Secular, Democratic, Republic)",
+      "explanation": "The exact constitutional sequence in the Preamble of India: Sovereign, Socialist, Secular, Democratic, Republic. The words 'Socialist, Secular, Integrity' were added by the 42nd Amendment Act 1976."
+    },
+    {
+      "id": "MEM-04",
+      "title": "Panch Prayag Confluences in Sequence",
+      "mnemonic": "Vi-Na-Kar-Rud-Dev with Alaknanda",
+      "explanation": "All 5 Prayags meet Alaknanda: 1. Vishnuprayag (+ Dhauliganga), 2. Nandaprayag (+ Nandakini), 3. Karnaprayag (+ Pindar), 4. Rudraprayag (+ Mandakini), 5. Devprayag (+ Bhagirathi = Ganga)."
+    },
+    {
+      "id": "MEM-05",
+      "title": "PM MUDRA Loan Slabs",
+      "mnemonic": "Shishu (Baby: up to 50k), Kishore (Teen: 50k - 5L), Tarun (Youth: 5L - 10L), Tarun Plus (up to 20L)",
+      "explanation": "Shishu: up to ₹50,000 | Kishore: ₹50,001 to ₹5 Lakh | Tarun: ₹5,00,001 to ₹10 Lakh | Tarun Plus: up to ₹20 Lakh for seasoned borrowers."
+    },
+    {
+      "id": "MEM-06",
+      "title": "PMFBY Farmer Premium Rates",
+      "mnemonic": "2 - 1.5 - 5 (Kharif Monsoon 2%, Rabi Winter 1.5%, Commercial Cash Crop 5%)",
+      "explanation": "Kharif is riskier with monsoons (2%), Rabi is calmer (1.5%), Commercial crops generate high revenue (5%)."
+    },
+    {
+      "id": "MEM-07",
+      "title": "SDR Currency Basket of IMF",
+      "mnemonic": "U-E-C-J-P (Dollar, Euro, Yuan/Renminbi, Yen, Pound)",
+      "explanation": "Special Drawing Rights currency basket has 5 currencies: US Dollar, Euro, Chinese Renminbi, Japanese Yen, British Pound Sterling."
+    }
+  ]
+}

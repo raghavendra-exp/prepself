@@ -1,0 +1,251 @@
+{
+  "module": "Operating Systems",
+  "version": "2026.1",
+  "sections": [
+    {
+      "id": "os-fundamentals",
+      "title": "OS Fundamentals & Architecture",
+      "hindiTitle": "ऑपरेटिंग सिस्टम की बुनियादी बातें एवं संरचना",
+      "overview": "An Operating System (OS) is system software that acts as an intermediary between computer hardware and the user. It manages system resources, executes programs, and provides a stable, consistent environment.",
+      "hindiOverview": "ऑपरेटिंग सिस्टम (OS) सिस्टम सॉफ्टवेयर है जो कंप्यूटर हार्डवेयर और उपयोगकर्ता के बीच मध्यस्थ के रूप में कार्य करता है। यह सिस्टम संसाधनों का प्रबंधन करता है।",
+      "keyFunctions": [
+        {
+          "name": "Processor Management",
+          "desc": "Process scheduling, context switching, CPU allocation algorithms (FCFS, SJF, Round Robin, Priority)."
+        },
+        {
+          "name": "Memory Management",
+          "desc": "Tracks primary memory allocation, paging, segmentation, virtual memory, and swapping."
+        },
+        {
+          "name": "File Management",
+          "desc": "Organizes directory structures, file allocation tables (FAT/NTFS), permissions, and file access control."
+        },
+        {
+          "name": "Device Management",
+          "desc": "Communicates with hardware devices using dedicated Device Drivers and I/O controllers (buffering, caching, spooling)."
+        },
+        {
+          "name": "Security & Protection",
+          "desc": "User authentication, access control lists (ACL), process isolation, firewall coordination."
+        },
+        {
+          "name": "User Interface",
+          "desc": "Provides CLI (Command Line Interface - e.g., Bash, CMD) and GUI (Graphical User Interface - e.g., Windows Explorer, macOS Aqua)."
+        }
+      ],
+      "spoolingVsBuffering": {
+        "spooling": "Simultaneous Peripheral Operations On-Line (SPOOLing) overlaps I/O of one job with computation of other jobs. Uses disk as a very large buffer (e.g., Print Spooler).",
+        "buffering": "Temporarily stores data in main memory (RAM) while being transferred between devices or application to compensate for speed mismatch."
+      },
+      "examTips": [
+        "SPOOLing uses hard disk as buffer, while Buffering uses main memory (RAM). High-frequency bank exam question!",
+        "Virtual Memory uses secondary storage (Hard disk/SSD) to simulate additional RAM when physical RAM is insufficient.",
+        "Thrashing occurs when the system spends more time paging (swapping pages between RAM and disk) than executing actual instructions."
+      ]
+    },
+    {
+      "id": "os-types",
+      "title": "Types of Operating Systems",
+      "hindiTitle": "ऑपरेटिंग सिस्टम के प्रकार",
+      "types": [
+        {
+          "type": "Batch OS",
+          "desc": "Jobs with similar needs are batched together and executed without user interaction. No direct interaction between user and computer during execution.",
+          "example": "Early mainframes, payroll systems."
+        },
+        {
+          "type": "Multi-programming OS",
+          "desc": "Multiple programs reside in main memory simultaneously. CPU switches between jobs to keep CPU utilization high.",
+          "example": "Modern general OS foundation."
+        },
+        {
+          "type": "Multi-tasking / Time-Sharing",
+          "desc": "CPU executes multiple tasks concurrently by rapidly switching between them (Time quantum/slice). Each user gets a share of CPU time.",
+          "example": "Windows 10/11, macOS, Linux, Unix."
+        },
+        {
+          "type": "Real-Time OS (RTOS)",
+          "desc": "Guarantees strict deadlines for task completion. Hard RTOS has zero tolerance for missing deadlines (missed deadline = catastrophe). Soft RTOS tolerates minor delays with degraded quality.",
+          "example": "VxWorks, QNX, RTLinux (Used in missile guidance, ATMs, medical monitors)."
+        },
+        {
+          "type": "Distributed OS",
+          "desc": "Manages a collection of independent networked computers, presenting them to the user as a single coherent system.",
+          "example": "LOCUS, Amoeba."
+        },
+        {
+          "type": "Network OS (NOS)",
+          "desc": "Runs on a dedicated server and manages network traffic, shared printers, files, and security.",
+          "example": "Windows Server, Novell NetWare, Red Hat Enterprise Linux."
+        },
+        {
+          "type": "Embedded / Mobile OS",
+          "desc": "Designed for compact devices with limited power and resources.",
+          "example": "Android (based on Linux kernel), iOS, iPadOS, Tizen."
+        }
+      ]
+    },
+    {
+      "id": "file-systems",
+      "title": "File Systems & Storage Management",
+      "hindiTitle": "फ़ाइल सिस्टम और स्टोरेज प्रबंधन",
+      "comparison": [
+        {
+          "name": "FAT16",
+          "maxFileSize": "2 GB",
+          "maxVolSize": "4 GB",
+          "features": "Legacy MS-DOS, 16-bit cluster addresses, no file permissions."
+        },
+        {
+          "name": "FAT32",
+          "maxFileSize": "4 GB",
+          "maxVolSize": "2 TB (Windows format 32GB)",
+          "features": "Supported everywhere (USB drives), no security permissions, no journaling."
+        },
+        {
+          "name": "NTFS",
+          "maxFileSize": "16 TB - 16 EB",
+          "maxVolSize": "8 PB - 8 EB",
+          "features": "Windows default since XP. Journaling, file compression, EFS encryption, granular permissions (ACL), disk quotas."
+        },
+        {
+          "name": "exFAT",
+          "maxFileSize": "16 EB",
+          "maxVolSize": "128 PB",
+          "features": "Optimized for flash memory (SD cards, USBs) without FAT32's 4GB file limit, cross-platform with Mac."
+        },
+        {
+          "name": "ext4",
+          "maxFileSize": "16 TB",
+          "maxVolSize": "1 EB",
+          "features": "Standard Linux file system. Journaling, backwards compatibility with ext2/ext3."
+        },
+        {
+          "name": "APFS / HFS+",
+          "maxFileSize": "8 EB",
+          "maxVolSize": "8 EB",
+          "features": "Apple File System (APFS) optimized for SSDs, snapshots, crash protection."
+        }
+      ],
+      "examTraps": [
+        "Question: What is the maximum file size supported by FAT32? Answer: 4 GB (specifically 4GB minus 1 byte).",
+        "Question: Which file system introduced file encryption and journaling in Windows? Answer: NTFS (New Technology File System)."
+      ]
+    },
+    {
+      "id": "booting-process",
+      "title": "Booting Process, BIOS & UEFI",
+      "hindiTitle": "बूटिंग प्रक्रिया, BIOS और UEFI",
+      "steps": [
+        {
+          "step": 1,
+          "name": "Power On",
+          "detail": "Power supply sends Power Good signal to the motherboard clock generator."
+        },
+        {
+          "step": 2,
+          "name": "CPU Reset",
+          "detail": "CPU executes jump instruction at standard memory address (0xFFFF0 in x86) pointing to ROM BIOS."
+        },
+        {
+          "step": 3,
+          "name": "POST (Power-On Self-Test)",
+          "detail": "Firmware checks hardware integrity (RAM, keyboard, video card, disk). Beep codes signal errors if screen is inactive."
+        },
+        {
+          "step": 4,
+          "name": "Boot Device Selection",
+          "detail": "Firmware searches configured boot order (SSD, HDD, USB, Network) for boot sector."
+        },
+        {
+          "step": 5,
+          "name": "MBR / GPT & Bootloader",
+          "detail": "Loads Master Boot Record (MBR - Sector 0) or GUID Partition Table (GPT) and hands control to Windows Boot Manager (BOOTMGR) or GRUB."
+        },
+        {
+          "step": 6,
+          "name": "Kernel Initialization",
+          "detail": "OS Kernel is loaded into RAM (ntoskrnl.exe in Windows, vmlinuz in Linux), loads critical drivers."
+        },
+        {
+          "step": 7,
+          "name": "User Space & Shell",
+          "detail": "System processes launch, login screen displays, user shell initializes."
+        }
+      ],
+      "typesOfBooting": {
+        "coldBoot": "Hard Boot - Starting the computer from a completely powered-off state by pressing the power button.",
+        "warmBoot": "Soft Boot - Restarting the computer while it is already running (via OS restart command or Ctrl+Alt+Del) without cutting main electrical power."
+      },
+      "biosVsUefi": {
+        "bios": "Basic Input/Output System: Legacy 16-bit mode, MBR partition table (max 2TB disks, 4 primary partitions), slow boot.",
+        "uefi": "Unified Extensible Firmware Interface: Modern 32/64-bit, GPT partition table (up to 9.4 ZB, 128 partitions), Secure Boot feature, graphical mouse interface."
+      }
+    },
+    {
+      "id": "linux-unix-commands",
+      "title": "Linux & Unix Essentials for Bank Exams",
+      "hindiTitle": "बैंक परीक्षाओं हेतु लिनक्स और यूनिक्स आवश्यक कमांड",
+      "overview": "Linux is an open-source Unix-like kernel released in 1991 by Linus Torvalds. Unix was created at Bell Labs in 1969 by Ken Thompson and Dennis Ritchie.",
+      "topCommands": [
+        {
+          "command": "ls",
+          "desc": "List directory contents (`ls -l` for long format with permissions)."
+        },
+        {
+          "command": "pwd",
+          "desc": "Print Working Directory (shows current absolute path)."
+        },
+        {
+          "command": "cd",
+          "desc": "Change directory (`cd ..` goes up one level, `cd ~` goes to home)."
+        },
+        {
+          "command": "mkdir",
+          "desc": "Make directory (`mkdir -p dir/subdir`)."
+        },
+        {
+          "command": "rm",
+          "desc": "Remove files or directories (`rm -r` for recursive removal)."
+        },
+        {
+          "command": "cp",
+          "desc": "Copy files or directories (`cp file1 file2`)."
+        },
+        {
+          "command": "mv",
+          "desc": "Move or rename files (`mv old new`)."
+        },
+        {
+          "command": "cat",
+          "desc": "Concatenate and display file content on terminal."
+        },
+        {
+          "command": "grep",
+          "desc": "Global Regular Expression Print - searches text for matching patterns."
+        },
+        {
+          "command": "chmod",
+          "desc": "Change file access permissions (e.g. `chmod 755 script.sh` - Read=4, Write=2, Execute=1)."
+        },
+        {
+          "command": "chown",
+          "desc": "Change file owner and group."
+        },
+        {
+          "command": "ps / top",
+          "desc": "Display currently running active processes."
+        },
+        {
+          "command": "kill",
+          "desc": "Terminate a process by its PID (Process ID) (`kill -9 PID` sends SIGKILL)."
+        },
+        {
+          "command": "man",
+          "desc": "Display reference manual pages for any command."
+        }
+      ]
+    }
+  ]
+}

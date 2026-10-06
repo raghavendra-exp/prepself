@@ -1,0 +1,116 @@
+[
+  {
+    "id": "fc-01",
+    "subject": "General Awareness",
+    "category": "Indian Polity - Articles",
+    "front": {
+      "en": "Article 32 of the Constitution of India",
+      "hi": "भारतीय संविधान का अनुच्छेद 32"
+    },
+    "back": {
+      "en": "Right to Constitutional Remedies. Empowers Supreme Court to issue 5 types of Writs (Habeas Corpus, Mandamus, Prohibition, Quo-Warranto, Certiorari). Dr. B.R. Ambedkar called it \"Heart and Soul of the Constitution\".",
+      "hi": "संवैधानिक उपचारों का अधिकार। सर्वोच्च न्यायालय को 5 प्रकार की रिट जारी करने का अधिकार देता है। डॉ. बी.आर. अंबेडकर ने इसे \"संविधान का हृदय और आत्मा\" कहा था।"
+    },
+    "subtext": "Part III • Fundamental Rights",
+    "tags": [
+      "Polity",
+      "Constitution",
+      "High Frequency"
+    ]
+  },
+  {
+    "id": "fc-02",
+    "subject": "General Awareness",
+    "category": "History - Battles",
+    "front": {
+      "en": "First Battle of Panipat (1526)",
+      "hi": "पानीपत का प्रथम युद्ध (1526)"
+    },
+    "back": {
+      "en": "Fought on 21 April 1526 between Babur and Ibrahim Lodi (Sultan of Delhi). Babur introduced Tulughma tactical formation and gunpowder artillery (canons) for the first time in North India, defeating Lodi and establishing the Mughal Empire.",
+      "hi": "21 अप्रैल 1526 को बाबर और इब्राहिम लोदी के बीच लड़ा गया। बाबर ने तोपखाने और तुलुगमा पद्धति का उपयोग कर लोदी को पराजित किया और भारत में मुगल साम्राज्य की नींव रखी।"
+    },
+    "subtext": "Medieval Indian History",
+    "tags": [
+      "History",
+      "Mughals",
+      "Panipat"
+    ]
+  },
+  {
+    "id": "fc-03",
+    "subject": "General Awareness",
+    "category": "Static GK - National Parks",
+    "front": {
+      "en": "Keibul Lamjao National Park",
+      "hi": "केइबुल लामजाओ राष्ट्रीय उद्यान"
+    },
+    "back": {
+      "en": "Located in Bishnupur district of Manipur on Loktak Lake. It is the WORLD'S ONLY FLOATING NATIONAL PARK, home to the endangered Brow-antlered deer known as Sangai (Dancing Deer of Manipur) on floating biomass called phumdis.",
+      "hi": "मणिपुर के लोकतक झील पर स्थित विश्व का एकमात्र तैरता हुआ राष्ट्रीय उद्यान। यह तैरती हुई फुमदी पर पाए जाने वाले संकटग्रस्त संगाई हिरण (डांसिंग डियर) का प्राकृतिक आवास है।"
+    },
+    "subtext": "Biodiversity • North-East India",
+    "tags": [
+      "Geography",
+      "Environment",
+      "National Parks"
+    ]
+  },
+  {
+    "id": "fc-04",
+    "subject": "English Language",
+    "category": "Vocabulary - Idioms",
+    "front": {
+      "en": "Burn the midnight oil",
+      "hi": "Burn the midnight oil (मुहावरा)"
+    },
+    "back": {
+      "en": "Meaning: To work or study late into the night.\nExample: Aspirants are burning the midnight oil to clear the SSC CGL examination.",
+      "hi": "अर्थ: देर रात तक कठिन परिश्रम या पढ़ाई करना।\nउदाहरण: अभ्यर्थी एसएससी सीजीएल परीक्षा उत्तीर्ण करने हेतु देर रात तक अध्ययन कर रहे हैं।"
+    },
+    "subtext": "Idioms & Phrases • SSC Frequent",
+    "tags": [
+      "English",
+      "Idioms",
+      "Vocab"
+    ]
+  },
+  {
+    "id": "fc-05",
+    "subject": "Computer Knowledge",
+    "category": "Computer Fundamentals",
+    "front": {
+      "en": "Cache Memory vs Virtual Memory",
+      "hi": "कैश मेमोरी बनाम वर्चुअल मेमोरी"
+    },
+    "back": {
+      "en": "Cache Memory: Ultra-fast Static RAM (SRAM) located inside or near CPU to store frequently executed instructions.\nVirtual Memory: An OS storage allocation technique using Hard Disk/SSD space to simulate additional RAM when physical RAM is exhausted.",
+      "hi": "कैश मेमोरी: सीपीयू के अंदर स्थित अति-तीव्र एसआरएएम जो बार-बार प्रयुक्त निर्देशों को रखती है।\nवर्चुअल मेमोरी: रैम समाप्त होने पर सेकेंडरी स्टोरेज (हार्ड डिस्क) को रैम के रूप में प्रयोग करने की ओएस तकनीक।"
+    },
+    "subtext": "Tier-II Computer Module Mandatory",
+    "tags": [
+      "Computer",
+      "Memory",
+      "CGL Tier-II"
+    ]
+  },
+  {
+    "id": "fc-06",
+    "subject": "General Awareness",
+    "category": "Science - Physics Units",
+    "front": {
+      "en": "SI Unit of Luminous Intensity & Magnetic Flux",
+      "hi": "दीप्त तीव्रता एवं चुंबकीय फ्लक्स की एसआई इकाई"
+    },
+    "back": {
+      "en": "Luminous Intensity: Candela (cd)\nMagnetic Flux: Weber (Wb)\nMagnetic Flux Density (Field): Tesla (T)\nElectric Capacitance: Farad (F)",
+      "hi": "दीप्त तीव्रता: कैंडेला (cd)\nचुंबकीय फ्लक्स: वेबर (Wb)\nचुंबकीय क्षेत्र घनत्व: टेस्ला (T)\nवैद्युत धारिता: फैराड (F)"
+    },
+    "subtext": "Units & Measurements • Physics",
+    "tags": [
+      "Science",
+      "Physics",
+      "SI Units"
+    ]
+  }
+]

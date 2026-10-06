@@ -1,0 +1,117 @@
+{
+  "title": "Structured Study Plans for Banking General Awareness",
+  "plans": [
+    {
+      "id": "PLAN-30",
+      "name": "30-Day Express Mains Crash Course",
+      "target": "Aspirants with Mains in 4 weeks",
+      "daily_time_minutes": 90,
+      "weeks": [
+        {
+          "week_num": 1,
+          "focus": "Recent 2 Months Current Affairs + Flagship Schemes",
+          "milestones": [
+            "Day 1-2: Last 60 days Banking & RBI notifications",
+            "Day 3-4: PMJDY, PMJJBY, PMSBY, APY, MUDRA details & limits",
+            "Day 5-6: PM-KISAN, PM Surya Ghar, Vishwakarma, KCC",
+            "Day 7: Weekly Revision Test (50 Questions)"
+          ]
+        },
+        {
+          "week_num": 2,
+          "focus": "Earlier 2 Months CA + Monetary Policy & Economy",
+          "milestones": [
+            "Day 8-9: Months 3-4 Current Affairs Capsule",
+            "Day 10-11: Monetary policy rates, FIT 4%+/-2%, MPC composition, BoP & Forex",
+            "Day 12-13: CPI, WPI, IIP Core Industries, Fiscal Deficit formulas",
+            "Day 14: Mid-Course Simulated Mock Test (SBI Clerk Pattern)"
+          ]
+        },
+        {
+          "week_num": 3,
+          "focus": "High-Yield Static GK + International Bodies + Reports",
+          "milestones": [
+            "Day 15-16: International Org HQ & Chiefs (IMF, WB, ADB, AIIB, NDB, WTO, WEF)",
+            "Day 17-18: Global Reports & India Ranks (HDI, Gender Gap, Hunger, Press Freedom)",
+            "Day 19-20: National Parks, Tiger Reserves, Ramsar Sites, Rivers & Dams",
+            "Day 21: Full Length IBPS Clerk Mains GA Simulator"
+          ]
+        },
+        {
+          "week_num": 4,
+          "focus": "Appointments, Sports, Awards & Mistakes Notebook Clean-up",
+          "milestones": [
+            "Day 22-23: Constitutional heads, PSB Chiefs, Nobel, Bharat Ratna, Paris Olympics",
+            "Day 24-25: Re-testing all items in Mistakes Notebook",
+            "Day 26-28: Daily Full Mock Test + Negative-avoidance drills",
+            "Day 29-30: Formula and fact sheet review, rest, and exam strategy mindset"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PLAN-60",
+      "name": "60-Day Comprehensive GA Mastery Roadmap",
+      "target": "Aspirants aiming for 40+ out of 50 in Mains",
+      "daily_time_minutes": 60,
+      "weeks": [
+        {
+          "week_num": 1,
+          "focus": "Indian Constitution & Polity Fundamentals",
+          "milestones": [
+            "Preamble, Fundamental Rights, DPSP, Important Articles, Schedules"
+          ]
+        },
+        {
+          "week_num": 2,
+          "focus": "Indian Geography & River Systems",
+          "milestones": [
+            "Himalayan & Peninsular Rivers, Dams, Peaks, Mountain Passes"
+          ]
+        },
+        {
+          "week_num": 3,
+          "focus": "Macro-Economy & National Income",
+          "milestones": [
+            "GDP, GVA, Inflation CPI/WPI, Fiscal Deficits, Balance of Payments"
+          ]
+        },
+        {
+          "week_num": 4,
+          "focus": "Central Government Schemes Phase 1",
+          "milestones": [
+            "Financial Inclusion: PMJDY, PMJJBY, PMSBY, APY, MUDRA, Stand-Up India"
+          ]
+        },
+        {
+          "week_num": 5,
+          "focus": "Central Government Schemes Phase 2",
+          "milestones": [
+            "Agri & Rural: PM-KISAN, PMFBY, KCC, PM Surya Ghar, Vishwakarma, JJM"
+          ]
+        },
+        {
+          "week_num": 6,
+          "focus": "International Organizations & Global Treaties",
+          "milestones": [
+            "IMF, World Bank, ADB, AIIB, NDB, WTO, UNEP, ASEAN, SCO, BRICS"
+          ]
+        },
+        {
+          "week_num": 7,
+          "focus": "Current Affairs Months 1 & 2 In-Depth",
+          "milestones": [
+            "Daily capsules, Static linkage badges, topic quizzes"
+          ]
+        },
+        {
+          "week_num": 8,
+          "focus": "Current Affairs Months 3 & 4 + Mock Simulator Drills",
+          "milestones": [
+            "Comprehensive mocks, PYQ empirical review, Readiness score audit"
+          ]
+        }
+      ]
+    }
+  ]
+}

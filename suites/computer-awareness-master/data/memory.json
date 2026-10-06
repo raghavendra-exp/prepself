@@ -1,0 +1,178 @@
+{
+  "title": "Computer Memory Hierarchy, Storage Units & Types",
+  "version": "2026.09",
+  "units": [
+    {
+      "unit": "Bit (Binary Digit)",
+      "size": "0 or 1 (Smallest unit of digital data)"
+    },
+    {
+      "unit": "Nibble",
+      "size": "4 Bits (Half a byte)"
+    },
+    {
+      "unit": "Byte",
+      "size": "8 Bits (Fundamental unit representing one alphanumeric character)"
+    },
+    {
+      "unit": "Kilobyte (KB)",
+      "size": "1,024 Bytes (2^10 Bytes)"
+    },
+    {
+      "unit": "Megabyte (MB)",
+      "size": "1,024 KB = 1,048,576 Bytes (2^20 Bytes)"
+    },
+    {
+      "unit": "Gigabyte (GB)",
+      "size": "1,024 MB (2^30 Bytes)"
+    },
+    {
+      "unit": "Terabyte (TB)",
+      "size": "1,024 GB (2^40 Bytes)"
+    },
+    {
+      "unit": "Petabyte (PB)",
+      "size": "1,024 TB (2^50 Bytes)"
+    },
+    {
+      "unit": "Exabyte (EB)",
+      "size": "1,024 PB (2^60 Bytes)"
+    },
+    {
+      "unit": "Zettabyte (ZB)",
+      "size": "1,024 EB (2^70 Bytes)"
+    },
+    {
+      "unit": "Yottabyte (YB)",
+      "size": "1,024 ZB (2^80 Bytes)"
+    }
+  ],
+  "hierarchy_levels": [
+    {
+      "level": 1,
+      "name": "CPU Registers",
+      "location": "Inside CPU Core",
+      "speed": "Fastest (Sub-nanosecond <1 ns)",
+      "capacity": "Few bytes to kilobytes (32-bit, 64-bit)",
+      "cost_per_bit": "Most Expensive",
+      "volatility": "Volatile"
+    },
+    {
+      "level": 2,
+      "name": "Cache Memory (L1, L2, L3)",
+      "location": "On-chip / Near CPU",
+      "speed": "Extremely Fast (1 to 10 ns)",
+      "capacity": "L1: 32-128 KB, L2: 256KB-1MB, L3: 4-64 MB",
+      "cost_per_bit": "Very Expensive",
+      "volatility": "Volatile (Static RAM - SRAM)"
+    },
+    {
+      "level": 3,
+      "name": "Main Memory (RAM)",
+      "location": "Motherboard DIMM Slots",
+      "speed": "Fast (10 to 50 ns)",
+      "capacity": "4 GB to 128 GB",
+      "cost_per_bit": "Moderate",
+      "volatility": "Volatile (Dynamic RAM - DRAM)"
+    },
+    {
+      "level": 4,
+      "name": "Secondary Storage (SSD / Flash)",
+      "location": "Internal Drive Bay / M.2",
+      "speed": "Moderate (500 MB/s to 7,000 MB/s)",
+      "capacity": "256 GB to 4 TB",
+      "cost_per_bit": "Low",
+      "volatility": "Non-Volatile (NAND Flash)"
+    },
+    {
+      "level": 5,
+      "name": "Magnetic Storage (HDD)",
+      "location": "Internal SATA / External",
+      "speed": "Slow (Mechanical seek time 5-15 ms)",
+      "capacity": "1 TB to 20 TB",
+      "cost_per_bit": "Very Low",
+      "volatility": "Non-Volatile"
+    },
+    {
+      "level": 6,
+      "name": "Tertiary / Offline (Magnetic Tape, Optical Disc)",
+      "location": "Removable",
+      "speed": "Slowest (Sequential Access)",
+      "capacity": "Multi-terabytes",
+      "cost_per_bit": "Cheapest",
+      "volatility": "Non-Volatile (Archive)"
+    }
+  ],
+  "primary_memory": {
+    "ram": {
+      "name": "Random Access Memory (RAM)",
+      "characteristics": "Primary main memory; directly accessible by CPU; read and write; VOLATILE (contents lost instantly when power is cut).",
+      "types": [
+        {
+          "type": "SRAM (Static RAM)",
+          "mechanism": "Built with flip-flops (transistors). Does NOT need periodic refreshing. Faster, generates less heat, more expensive. Used in CPU Cache."
+        },
+        {
+          "type": "DRAM (Dynamic RAM)",
+          "mechanism": "Built with capacitors and transistors. Electric charge leaks, so it REQUIRES periodic refreshing thousands of times per second. Slower, cheaper, higher density. Used as main system RAM."
+        }
+      ]
+    },
+    "rom": {
+      "name": "Read Only Memory (ROM)",
+      "characteristics": "Permanent memory containing bootstrap loader and basic firmware; read-only during normal operation; NON-VOLATILE (contents retained even when power is off).",
+      "types": [
+        {
+          "type": "MROM (Mask ROM)",
+          "details": "Hardwired during manufacturing; cannot be altered."
+        },
+        {
+          "type": "PROM (Programmable ROM)",
+          "details": "Manufactured blank; can be programmed once using a PROM burner (One-Time Programmable)."
+        },
+        {
+          "type": "EPROM (Erasable Programmable ROM)",
+          "details": "Can be erased by exposing the chip to strong Ultraviolet (UV) light through a quartz window for 15-20 minutes, then reprogrammed."
+        },
+        {
+          "type": "EEPROM (Electrically Erasable Programmable ROM)",
+          "details": "Can be erased and rewritten electrically byte-by-byte without removing from circuit. Modern computer BIOS/UEFI chips are EEPROM / Flash memory."
+        }
+      ]
+    },
+    "bios_and_booting": {
+      "bios": "Basic Input/Output System stored in ROM. Performs Power-On Self-Test (POST) upon system startup to verify CPU, RAM, keyboard, and disk drives are functioning before loading the OS kernel.",
+      "booting_types": [
+        {
+          "type": "Cold Booting (Hard Boot)",
+          "details": "Starting a computer from completely powered-off state by turning on the physical power switch."
+        },
+        {
+          "type": "Warm Booting (Soft Boot)",
+          "details": "Restarting a computer that is already powered on (via Ctrl+Alt+Del or OS Restart command). Does not cut power to the motherboard."
+        }
+      ]
+    },
+    "virtual_memory": {
+      "definition": "An OS memory management technique where a portion of secondary storage (hard disk/SSD) is treated as an extension of physical RAM when RAM runs out of space.",
+      "terms": [
+        {
+          "term": "Page",
+          "details": "A fixed-size block of virtual memory (typically 4 KB)."
+        },
+        {
+          "term": "Frame",
+          "details": "A fixed-size block of physical RAM."
+        },
+        {
+          "term": "Page Fault",
+          "details": "Occurs when a program requests a memory page that is currently not in physical RAM, triggering OS to load it from disk."
+        },
+        {
+          "term": "Thrashing",
+          "details": "A degraded system condition where CPU spends more time swapping pages between RAM and disk than executing user programs."
+        }
+      ]
+    }
+  }
+}

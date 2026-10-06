@@ -1,0 +1,16 @@
+{
+  "name": "SSC MASTER INDIA",
+  "short_name": "SSC Master",
+  "description": "Complete SSC Exams Preparation & Official Recruitment Information Platform (CGL, CHSL, MTS, GD, CPO, JE, Steno, Selection Post, JHT)",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e3a8a",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

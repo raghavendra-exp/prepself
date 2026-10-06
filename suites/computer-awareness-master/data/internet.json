@@ -1,0 +1,217 @@
+{
+  "module": "Internet, Web Technologies & Cloud Computing",
+  "version": "2026.1",
+  "sections": [
+    {
+      "id": "internet-milestones",
+      "title": "Internet History & Foundations",
+      "hindiTitle": "इंटरनेट का इतिहास और प्रमुख मील के पत्थर",
+      "milestones": [
+        {
+          "year": 1969,
+          "name": "ARPANET",
+          "desc": "Advanced Research Projects Agency Network (US Dept of Defense). First packet-switching network. First message 'LO' (intended 'LOGIN')."
+        },
+        {
+          "year": 1983,
+          "name": "TCP/IP Adoption",
+          "desc": "ARPANET officially switched from NCP to TCP/IP on January 1, 1983 ('Flag Day' - birth of the modern Internet)."
+        },
+        {
+          "year": 1989,
+          "name": "World Wide Web (WWW)",
+          "desc": "Invented by Tim Berners-Lee at CERN (Switzerland). Also created HTML, HTTP, URL, and the first web browser 'WorldWideWeb' (later renamed Nexus)."
+        },
+        {
+          "year": 1993,
+          "name": "Mosaic Browser",
+          "desc": "First widely popular graphical web browser developed by Marc Andreessen at NCSA."
+        },
+        {
+          "year": 1995,
+          "name": "Internet in India",
+          "desc": "Launched publicly on August 15, 1995 by Videsh Sanchar Nigam Limited (VSNL)."
+        }
+      ],
+      "keyPioneers": [
+        {
+          "person": "Vint Cerf & Bob Kahn",
+          "title": "Fathers of the Internet (designed TCP/IP protocols)."
+        },
+        {
+          "person": "Tim Berners-Lee",
+          "title": "Father of the World Wide Web (WWW)."
+        },
+        {
+          "person": "Ray Tomlinson",
+          "title": "Father of Email (invented network email on ARPANET and chose '@' symbol in 1971)."
+        }
+      ]
+    },
+    {
+      "id": "url-anatomy",
+      "title": "URL Anatomy & Domain Names",
+      "hindiTitle": "URL की संरचना और डोमेन नाम",
+      "urlStructure": {
+        "example": "https://www.bankexam.org.in:443/syllabus/computer?topic=networking#osi-layers",
+        "components": [
+          {
+            "part": "Protocol / Scheme",
+            "value": "https://",
+            "desc": "Specifies communication protocol and encryption mechanism."
+          },
+          {
+            "part": "Subdomain",
+            "value": "www.",
+            "desc": "Subdivision of main domain name."
+          },
+          {
+            "part": "Second-Level Domain",
+            "value": "bankexam",
+            "desc": "Unique organizational name chosen by registrant."
+          },
+          {
+            "part": "Top-Level Domain (TLD)",
+            "value": ".org",
+            "desc": "Generic TLD (.com = commercial, .org = non-profit, .edu = educational, .gov = government)."
+          },
+          {
+            "part": "Country Code TLD (ccTLD)",
+            "value": ".in",
+            "desc": "Geographic designation (.in = India, .uk = United Kingdom, .au = Australia)."
+          },
+          {
+            "part": "Port Number",
+            "value": ":443",
+            "desc": "Network port service (often omitted when using default ports like 80 or 443)."
+          },
+          {
+            "part": "Path",
+            "value": "/syllabus/computer",
+            "desc": "Hierarchical location of the resource on web server file structure."
+          },
+          {
+            "part": "Query String",
+            "value": "?topic=networking",
+            "desc": "Key-value parameters passed to the server script (starts with '?')."
+          },
+          {
+            "part": "Fragment / Anchor",
+            "value": "#osi-layers",
+            "desc": "Bookmark that scrolls directly to specific section within HTML page (starts with '#')."
+          }
+        ]
+      },
+      "dnsHierarchy": {
+        "desc": "DNS (Domain Name System) translates human-readable domain names (www.rbi.org.in) into machine IP addresses (104.18.22.1).",
+        "flow": [
+          {
+            "step": 1,
+            "name": "Browser Cache",
+            "detail": "Browser checks its local cache and OS cache."
+          },
+          {
+            "step": 2,
+            "name": "Resolving Name Server",
+            "detail": "Queries ISP recursive resolver."
+          },
+          {
+            "step": 3,
+            "name": "Root Name Servers",
+            "detail": "13 worldwide root server clusters (.) redirect to TLD servers."
+          },
+          {
+            "step": 4,
+            "name": "TLD Name Servers",
+            "detail": "Directs to Authoritative Server for .in or .org."
+          },
+          {
+            "step": 5,
+            "name": "Authoritative Name Server",
+            "detail": "Returns the exact IP address to resolver and client."
+          }
+        ]
+      }
+    },
+    {
+      "id": "email-architecture",
+      "title": "Email Architecture & Headers",
+      "hindiTitle": "ईमेल संरचना और हेडर",
+      "components": [
+        {
+          "name": "MUA (Mail User Agent)",
+          "desc": "Email client software used by the user (Outlook, Thunderbird, Gmail web client)."
+        },
+        {
+          "name": "MTA (Mail Transfer Agent)",
+          "desc": "Server software that routes emails using SMTP (Postfix, Sendmail, Exchange)."
+        },
+        {
+          "name": "MDA (Mail Delivery Agent)",
+          "desc": "Delivers email into the recipient's mailbox on the destination server."
+        }
+      ],
+      "headers": [
+        {
+          "field": "To",
+          "desc": "Primary intended recipient(s). All recipients can see everyone in 'To' and 'Cc'."
+        },
+        {
+          "field": "Cc (Carbon Copy)",
+          "desc": "Secondary recipients kept informed. Visible to all other recipients."
+        },
+        {
+          "field": "Bcc (Blind Carbon Copy)",
+          "desc": "Secret recipients. Hidden from 'To' and 'Cc' recipients to protect recipient privacy."
+        },
+        {
+          "field": "MIME (Multipurpose Internet Mail Extensions)",
+          "desc": "Extends format of email to support non-ASCII text, audio, video, images, and attachments."
+        }
+      ]
+    },
+    {
+      "id": "cloud-computing",
+      "title": "Cloud Computing Architecture",
+      "hindiTitle": "क्लाउड कंप्यूटिंग संरचना",
+      "serviceModels": [
+        {
+          "model": "IaaS (Infrastructure as a Service)",
+          "vendorManages": "Virtualization, Servers, Storage, Networking",
+          "userManages": "OS, Middleware, Runtime, Data, Applications",
+          "examples": "Amazon EC2, Google Compute Engine, Microsoft Azure VMs"
+        },
+        {
+          "model": "PaaS (Platform as a Service)",
+          "vendorManages": "Virtualization, Servers, Storage, Networking, OS, Runtime",
+          "userManages": "Applications and Data",
+          "examples": "Google App Engine, AWS Elastic Beanstalk, Heroku"
+        },
+        {
+          "model": "SaaS (Software as a Service)",
+          "vendorManages": "Everything (Hardware to Application software)",
+          "userManages": "End-user configuration only",
+          "examples": "Google Workspace (Gmail, Docs), Microsoft 365, Salesforce, Dropbox"
+        }
+      ],
+      "deploymentModels": [
+        {
+          "type": "Public Cloud",
+          "desc": "Services owned and operated by third-party provider, shared multi-tenant infrastructure."
+        },
+        {
+          "type": "Private Cloud",
+          "desc": "Infrastructure dedicated exclusively to a single organization (highest security for banks)."
+        },
+        {
+          "type": "Hybrid Cloud",
+          "desc": "Combines public and private clouds bound together by technology allowing data/apps to be shared between them."
+        },
+        {
+          "type": "Community Cloud",
+          "desc": "Shared infrastructure for organizations with common concerns (e.g. shared banking compliance platform)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Free AI prompt generator for UGC NET, CSIR NET, JRF, CUET, State Judiciary (PCS-J), Insurance exams (LIC AAO/NIACL), CA/CS/CMA, and Agriculture exams (ICAR/IBPS AFO). No login required.">
+<meta name="author" content="Raghavbegins">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="More Exams Prompt Generator — NET/JRF, CUET, Judiciary, Insurance, CA/CS/CMA, Agriculture | Raghavbegins">
+<meta property="og:description" content="AI study prompts for UGC NET, CSIR NET, JRF, CUET, State Judiciary, Insurance, CA/CS/CMA and Agriculture exams — free, no login.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://raghavendra-exp.github.io/prepself/more_exams_prompt_generator.html">
+<link rel="canonical" href="https://raghavendra-exp.github.io/prepself/more_exams_prompt_generator.html">
+<title>NET/JRF, CUET, Judiciary, Insurance, CA/CS/CMA &amp; Agriculture Exam AI Prompt Generator | Raghavbegins</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-B0Z2G21W4F");</script>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --d1:#050912;--d2:#0A1120;--d3:#111B2E;
+  --pr:#4F46E5;--pr2:#6366F1;--pr3:#818CF8;
+  --cy:#06B6D4;--cy2:#22D3EE;
+  --gr:#10B981;--gr2:#34D399;
+  --ac:#F59E0B;--rd:#EF4444;
+  --txt:#0F172A;--txt2:#475569;--txt3:#94A3B8;
+  --bdr:#E2E8F0;--sf:#fff;--sf2:#F8FAFC;
+  --r:14px;--rl:20px;
+  --font-mono:ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;
+}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--sf2);color:var(--txt2)}
+a{color:inherit}
+@keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.4)}}
+
+.hdr{position:sticky;top:0;z-index:500;background:rgba(5,9,18,.9);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.07)}
+.hdr-inner{max-width:1100px;margin:0 auto;padding:0 22px;height:58px;display:flex;align-items:center;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;flex:1;min-width:0;text-decoration:none}
+.logo-badge{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--pr),var(--cy));display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.logo h1{font-size:13px;font-weight:800;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hdr-back{padding:6px 14px;border-radius:18px;font-size:12px;font-weight:700;color:rgba(255,255,255,.8);border:1px solid rgba(255,255,255,.14);text-decoration:none;flex-shrink:0}
+.hdr-back:hover{background:rgba(255,255,255,.08)}
+
+.hero{background:linear-gradient(160deg,var(--d1),var(--d3));padding:52px 20px 44px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 30% 20%,rgba(79,70,229,.28),transparent),radial-gradient(ellipse 60% 60% at 80% 60%,rgba(6,182,212,.18),transparent)}
+.hero-in{position:relative;max-width:720px;margin:0 auto}
+.hero-tag{display:inline-flex;align-items:center;gap:7px;padding:6px 16px;border-radius:22px;background:rgba(52,211,153,.12);border:1px solid rgba(52,211,153,.3);font-size:11.5px;font-weight:700;color:var(--gr2);margin-bottom:18px}
+.hero-tag .d{width:6px;height:6px;border-radius:50%;background:var(--gr2);animation:blink 1.6s infinite}
+.hero h2{font-size:clamp(22px,4vw,34px);font-weight:900;color:#fff;letter-spacing:-.7px;margin:0 0 12px;line-height:1.25}
+.hero h2 span{background:linear-gradient(135deg,var(--cy2),var(--gr2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero p{font-size:14px;color:rgba(255,255,255,.55);line-height:1.7;margin:0}
+.hero-pills{display:flex;gap:7px;justify-content:center;flex-wrap:wrap;margin-top:18px}
+.hero-pill{font-size:11px;font-weight:700;padding:5px 12px;border-radius:16px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);color:rgba(255,255,255,.75)}
+
+.wrap{max-width:820px;margin:0 auto;padding:36px 20px 70px}
+.card{background:var(--sf);border:1.5px solid var(--bdr);border-radius:var(--rl);padding:26px 28px;box-shadow:0 1px 10px rgba(15,23,42,.06);margin-bottom:20px}
+.card h3{font-size:15px;font-weight:800;color:var(--txt);margin:0 0 4px}
+.card .sub{font-size:12.5px;color:var(--txt3);margin-bottom:18px}
+
+.field{margin-bottom:18px}
+.field:last-child{margin-bottom:0}
+.field label{display:block;font-size:12.5px;font-weight:700;color:var(--txt);margin-bottom:7px}
+select,input[type="text"]{
+  width:100%;padding:11px 14px;border-radius:10px;border:1.5px solid var(--bdr);
+  font-size:14px;font-family:inherit;color:var(--txt);background:var(--sf2);transition:border-color .15s;
+}
+select:focus,input:focus{outline:none;border-color:var(--pr3)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+
+.cat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.cat-opt{position:relative}
+.cat-opt input{position:absolute;opacity:0;width:100%;height:100%;cursor:pointer;margin:0}
+.cat-opt-ui{display:flex;flex-direction:column;align-items:center;gap:6px;padding:14px 8px;border:1.5px solid var(--bdr);border-radius:12px;text-align:center;transition:all .15s;background:var(--sf2)}
+.cat-opt-ui .ic{font-size:22px}
+.cat-opt-ui .lb{font-size:11px;font-weight:700;color:var(--txt2);line-height:1.3}
+.cat-opt input:checked + .cat-opt-ui{border-color:var(--pr);background:#EEF2FF;box-shadow:0 0 0 2px rgba(79,70,229,.15)}
+.cat-opt input:checked + .cat-opt-ui .lb{color:var(--pr)}
+.cat-opt-ui:hover{border-color:var(--pr3)}
+
+.years-wrap{display:flex;align-items:center;gap:14px}
+.years-wrap input[type="range"]{flex:1;accent-color:var(--pr)}
+.years-badge{font-family:var(--font-mono);font-size:15px;font-weight:800;color:var(--pr);background:#EEF2FF;padding:6px 14px;border-radius:10px;min-width:64px;text-align:center;flex-shrink:0}
+
+.chk-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.chk-item{display:flex;align-items:flex-start;gap:9px;padding:10px 12px;border:1.5px solid var(--bdr);border-radius:10px;cursor:pointer;transition:all .15s;background:var(--sf2)}
+.chk-item:hover{border-color:var(--pr3)}
+.chk-item input{margin-top:2px;accent-color:var(--pr);flex-shrink:0}
+.chk-item span{font-size:12.5px;color:var(--txt2);line-height:1.5}
+.chk-item strong{color:var(--txt);display:block;font-size:12.5px}
+
+.btn-gen{
+  width:100%;padding:15px 24px;border-radius:14px;border:none;cursor:pointer;
+  font-size:15px;font-weight:800;color:#fff;font-family:inherit;
+  background:linear-gradient(135deg,var(--pr2),var(--cy));
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.4),inset 0 -2px 3px rgba(0,0,0,.15),0 6px 0 #33249A,0 6px 14px rgba(0,0,0,.25),0 14px 26px rgba(79,70,229,.35);
+  transition:transform .12s,box-shadow .12s;transform:translateY(0);
+}
+.btn-gen:hover{transform:translateY(-2px)}
+.btn-gen:active{transform:translateY(4px);box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 1px 0 #33249A,0 2px 6px rgba(0,0,0,.2)}
+
+.output-wrap{display:none}
+.output-wrap.show{display:block}
+.output-box{
+  background:var(--d1);color:#E2E8F0;border-radius:14px;padding:20px 22px;
+  font-family:var(--font-mono);font-size:12.5px;line-height:1.8;white-space:pre-wrap;
+  max-height:420px;overflow-y:auto;border:1px solid rgba(255,255,255,.08);
+}
+.output-actions{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+.btn-copy{
+  padding:10px 20px;border-radius:22px;border:1.5px solid var(--bdr);background:var(--sf);
+  color:var(--txt);font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .15s;
+}
+.btn-copy:hover{border-color:var(--pr3);color:var(--pr)}
+.btn-copy.copied{background:var(--gr2);color:#fff;border-color:var(--gr2)}
+
+.ai-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:8px}
+.ai-btn{
+  display:flex;align-items:center;justify-content:center;gap:7px;padding:11px;border-radius:12px;
+  border:1.5px solid var(--bdr);background:var(--sf2);color:var(--txt);text-decoration:none;
+  font-size:12.5px;font-weight:700;transition:all .15s;
+}
+.ai-btn:hover{border-color:var(--pr3);background:#EEF2FF;transform:translateY(-2px)}
+
+.toast{position:fixed;bottom:22px;right:20px;background:var(--d1);color:#fff;padding:11px 18px;border-radius:12px;font-size:13px;font-weight:600;box-shadow:0 10px 30px rgba(0,0,0,.3);transform:translateY(80px);opacity:0;transition:all .28s;z-index:999;border-left:3px solid var(--gr2)}
+.toast.show{transform:translateY(0);opacity:1}
+
+.ft{background:var(--d1);padding:22px 20px;text-align:center;margin-top:20px}
+.ft p{font-size:11px;color:rgba(255,255,255,.35);margin:4px 0}
+.ft a{color:rgba(255,255,255,.55);text-decoration:none}
+.ft a:hover{color:#fff}
+
+@media(max-width:640px){.cat-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.row2,.chk-grid,.ai-grid{grid-template-columns:1fr}}
+@media print {
+  .hdr, .hero, .card:not(.output-wrap), .ft, .noprint { display: none !important; }
+  body { background: #fff !important; color: #000 !important; }
+}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What's the difference between this tool and the dedicated NET/JRF, CUET, Judiciary, Insurance, CA/CS/CMA, and Agriculture pages?","acceptedAnswer":{"@type":"Answer","text":"This page is a quick, single-form generator covering all six categories in one place. The dedicated pages for each of these exams offer more depth — including practice sets, PYQ analysis, flashcards, and exam-specific news — so they're generally the better starting point if you know which exam you're preparing for."}},
+{"@type":"Question","name":"Do I need to create an account to use this prompt generator?","acceptedAnswer":{"@type":"Answer","text":"No. This tool works without any sign-up."}}
+]}
+</script>
+</head>
+<body>
+<script>try{var _rv=JSON.parse(localStorage.getItem('rb_recent_tools')||'[]');var _href=location.pathname.split('/').pop()||'index.html';_rv=_rv.filter(function(t){return t.href!==_href;});_rv.unshift({href:_href,ts:Date.now()});_rv=_rv.slice(0,6);localStorage.setItem('rb_recent_tools',JSON.stringify(_rv));}catch(e){}</script>
+
+<header class="hdr">
+  <div class="hdr-inner">
+    <a class="logo" href="./">
+      <div class="logo-badge">&#x1F393;</div>
+      <h1>More Exams Prompt Generator</h1>
+    </a>
+    <a class="hdr-back" href="./">&#8592; All Tools</a>
+  </div>
+</header>
+<div style="background:rgba(5,9,18,.95);padding:8px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1100px;margin:0 auto">
+  <span id="streakBadge" style="display:none;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;border:1px solid rgba(255,255,255,.25);color:#fff">&#x1F525; streak</span>
+  <span style="font-size:12px;color:rgba(255,255,255,.6)">Each category now also has its own dedicated tool with flashcards &amp; more &rarr; <a href="net_jrf_exam_prompt_generator.html" style="color:#8fd7ff">NET/JRF</a>, <a href="cuet_exam_prompt_generator.html" style="color:#8fd7ff">CUET</a>, <a href="judiciary_exam_prompt_generator.html" style="color:#8fd7ff">Judiciary</a>, <a href="insurance_exam_prompt_generator.html" style="color:#8fd7ff">Insurance</a>, <a href="cacs_exam_prompt_generator.html" style="color:#8fd7ff">CA/CS/CMA</a>, <a href="agriculture_exam_prompt_generator.html" style="color:#8fd7ff">Agriculture</a></span>
+</div>
+
+<section class="hero">
+  <div class="hero-in">
+    <div class="hero-tag"><span class="d"></span> 6 additional exam categories, one tool</div>
+    <h2>NET/JRF, CUET, Judiciary, Insurance, <span>CA/CS/CMA &amp; Agriculture</span></h2>
+    <p>The exams that don't fit neatly into the other 14 tools — covered here in one place. Pick a category, fill in a few details, and get a ready-to-use AI prompt.</p>
+    <div class="hero-pills">
+      <span class="hero-pill">&#x1F393; UGC/CSIR NET &amp; JRF</span>
+      <span class="hero-pill">&#x1F3EB; CUET UG/PG</span>
+      <span class="hero-pill">&#x2696;&#xFE0F; State Judiciary (PCS-J)</span>
+      <span class="hero-pill">&#x1F4C4; Insurance (LIC/NIACL)</span>
+      <span class="hero-pill">&#x1F4CA; CA / CS / CMA</span>
+      <span class="hero-pill">&#x1F33E; Agriculture (ICAR/AFO)</span>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+
+  <div class="card">
+    <h3>&#x1F3AF; Step 1 — Pick your exam category</h3>
+    <div class="sub">Each category shows its own relevant fields below</div>
+    <div class="cat-grid">
+      <label class="cat-opt"><input type="radio" name="cat" value="net" checked><div class="cat-opt-ui"><span class="ic">&#x1F393;</span><span class="lb">UGC/CSIR NET &amp; JRF</span></div></label>
+      <label class="cat-opt"><input type="radio" name="cat" value="cuet"><div class="cat-opt-ui"><span class="ic">&#x1F3EB;</span><span class="lb">CUET UG/PG</span></div></label>
+      <label class="cat-opt"><input type="radio" name="cat" value="judiciary"><div class="cat-opt-ui"><span class="ic">&#x2696;&#xFE0F;</span><span class="lb">State Judiciary</span></div></label>
+      <label class="cat-opt"><input type="radio" name="cat" value="insurance"><div class="cat-opt-ui"><span class="ic">&#x1F4C4;</span><span class="lb">Insurance (LIC/NIACL)</span></div></label>
+      <label class="cat-opt"><input type="radio" name="cat" value="cacs"><div class="cat-opt-ui"><span class="ic">&#x1F4CA;</span><span class="lb">CA / CS / CMA</span></div></label>
+      <label class="cat-opt"><input type="radio" name="cat" value="agri"><div class="cat-opt-ui"><span class="ic">&#x1F33E;</span><span class="lb">Agriculture</span></div></label>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3 id="step2Title">&#x1F4DD; Step 2 — Exam details</h3>
+    <div class="sub" id="step2Sub">Fields update automatically based on your category above</div>
+
+    <!-- NET/JRF fields -->
+    <div class="catFields" data-cat="net">
+      <div class="row2">
+        <div class="field">
+          <label>Exam Type</label>
+          <select id="netType">
+            <option value="UGC NET">UGC NET (all subjects)</option>
+            <option value="CSIR NET">CSIR NET (Science subjects)</option>
+            <option value="JRF (Junior Research Fellowship)">JRF — Junior Research Fellowship</option>
+            <option value="SET / SLET (State Eligibility Test)">SET / SLET (State-level equivalent)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Subject</label>
+          <input type="text" id="netSubject" list="netSubjects" placeholder="e.g. Political Science, Life Sciences">
+          <datalist id="netSubjects">
+            <option value="Education"><option value="English"><option value="Political Science">
+            <option value="Economics"><option value="Commerce"><option value="Management">
+            <option value="Computer Science &amp; Applications"><option value="History"><option value="Geography">
+            <option value="Sociology"><option value="Psychology"><option value="Public Administration">
+            <option value="Law"><option value="Home Science"><option value="Physical Education">
+            <option value="Environmental Science"><option value="Life Sciences"><option value="Physical Sciences">
+            <option value="Chemical Sciences"><option value="Earth Sciences"><option value="Mathematical Sciences">
+          </datalist>
+        </div>
+      </div>
+      <div class="field" style="margin-bottom:0">
+        <label>Paper Focus</label>
+        <select id="netPaper">
+          <option value="Paper 1 (Teaching &amp; Research Aptitude — common for all)">Paper 1 — Teaching &amp; Research Aptitude</option>
+          <option value="Paper 2 (Subject-specific)">Paper 2 — Subject-specific</option>
+          <option value="Both Paper 1 and Paper 2">Both Paper 1 &amp; Paper 2</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- CUET fields -->
+    <div class="catFields" data-cat="cuet" style="display:none">
+      <div class="row2">
+        <div class="field">
+          <label>Level</label>
+          <select id="cuetLevel">
+            <option value="CUET UG (Undergraduate)">CUET UG (Undergraduate)</option>
+            <option value="CUET PG (Postgraduate)">CUET PG (Postgraduate)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Domain Subject</label>
+          <input type="text" id="cuetSubject" list="cuetSubjects" placeholder="e.g. Physics, Business Studies, English">
+          <datalist id="cuetSubjects">
+            <option value="Physics"><option value="Chemistry"><option value="Mathematics">
+            <option value="Biology"><option value="English"><option value="General Test">
+            <option value="Economics"><option value="Business Studies"><option value="Accountancy">
+            <option value="Political Science"><option value="History"><option value="Geography">
+            <option value="Sociology"><option value="Psychology"><option value="Computer Science">
+            <option value="Legal Studies">
+          </datalist>
+        </div>
+      </div>
+      <div class="field" style="margin-bottom:0">
+        <label>Target University <span style="font-weight:400;color:var(--txt3)">(optional)</span></label>
+        <input type="text" id="cuetUni" placeholder="e.g. DU, JNU, BHU, Jamia Millia">
+      </div>
+    </div>
+
+    <!-- Judiciary fields -->
+    <div class="catFields" data-cat="judiciary" style="display:none">
+      <div class="row2">
+        <div class="field">
+          <label>State</label>
+          <input type="text" id="judState" list="judStates" placeholder="e.g. Uttar Pradesh, Bihar, Rajasthan">
+          <datalist id="judStates">
+            <option value="Uttar Pradesh"><option value="Bihar"><option value="Madhya Pradesh">
+            <option value="Rajasthan"><option value="Delhi"><option value="Maharashtra">
+            <option value="West Bengal"><option value="Punjab &amp; Haryana"><option value="Jharkhand">
+            <option value="Chhattisgarh">
+          </datalist>
+        </div>
+        <div class="field">
+          <label>Exam Stage</label>
+          <select id="judStage">
+            <option value="Prelims">Prelims</option>
+            <option value="Mains">Mains</option>
+            <option value="Viva-Voce / Interview">Viva-Voce / Interview</option>
+          </select>
+        </div>
+      </div>
+      <div class="field" style="margin-bottom:0">
+        <label>Law Subject Focus <span style="font-weight:400;color:var(--txt3)">(optional)</span></label>
+        <input type="text" id="judSubject" list="judSubjects" placeholder="e.g. CrPC, IPC, Evidence Act, Constitution">
+        <datalist id="judSubjects">
+          <option value="Constitution of India"><option value="Indian Penal Code (IPC)">
+          <option value="Code of Criminal Procedure (CrPC)"><option value="Code of Civil Procedure (CPC)">
+          <option value="Indian Evidence Act"><option value="Contract Act"><option value="Transfer of Property Act">
+          <option value="Local &amp; State-specific laws">
+        </datalist>
+      </div>
+    </div>
+
+    <!-- Insurance fields -->
+    <div class="catFields" data-cat="insurance" style="display:none">
+      <div class="row2">
+        <div class="field">
+          <label>Exam Name</label>
+          <select id="insExam">
+            <option value="LIC AAO (Assistant Administrative Officer)">LIC AAO</option>
+            <option value="LIC ADO (Apprentice Development Officer)">LIC ADO</option>
+            <option value="NIACL AO (Administrative Officer)">NIACL AO</option>
+            <option value="NIACL Assistant">NIACL Assistant</option>
+            <option value="United India Insurance (UIIC) AO">UIIC AO</option>
+            <option value="Oriental Insurance Company (OICL) AO">OICL AO</option>
+            <option value="New India Assurance (NIACL) Assistant">New India Assurance Assistant</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Exam Stage</label>
+          <select id="insStage">
+            <option value="Prelims">Prelims</option>
+            <option value="Mains">Mains</option>
+            <option value="Interview">Interview</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- CA/CS/CMA fields -->
+    <div class="catFields" data-cat="cacs" style="display:none">
+      <div class="row2">
+        <div class="field">
+          <label>Course</label>
+          <select id="cacsCourse">
+            <option value="CA (Chartered Accountancy)">CA — Chartered Accountancy</option>
+            <option value="CS (Company Secretary)">CS — Company Secretary</option>
+            <option value="CMA (Cost &amp; Management Accountancy)">CMA — Cost &amp; Management Accountancy</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Level</label>
+          <select id="cacsLevel">
+            <option value="Foundation">Foundation</option>
+            <option value="Intermediate / Executive">Intermediate / Executive</option>
+            <option value="Final / Professional">Final / Professional</option>
+          </select>
+        </div>
+      </div>
+      <div class="field" style="margin-bottom:0">
+        <label>Paper / Subject <span style="font-weight:400;color:var(--txt3)">(optional)</span></label>
+        <input type="text" id="cacsSubject" placeholder="e.g. Accounting, Corporate Law, Cost Accounting">
+      </div>
+    </div>
+
+    <!-- Agriculture fields -->
+    <div class="catFields" data-cat="agri" style="display:none">
+      <div class="row2">
+        <div class="field">
+          <label>Exam Name</label>
+          <select id="agriExam">
+            <option value="ICAR JRF (Junior Research Fellowship)">ICAR JRF</option>
+            <option value="ICAR SRF (Senior Research Fellowship)">ICAR SRF</option>
+            <option value="ASRB NET (Agricultural Scientists Recruitment Board)">ASRB NET</option>
+            <option value="IBPS AFO (Agriculture Field Officer)">IBPS AFO</option>
+            <option value="State Agriculture Officer / Supervisor exams">State Agriculture Officer / Supervisor</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Subject</label>
+          <input type="text" id="agriSubject" list="agriSubjects" placeholder="e.g. Agronomy, Horticulture, Soil Science">
+          <datalist id="agriSubjects">
+            <option value="Agronomy"><option value="Horticulture"><option value="Plant Pathology">
+            <option value="Soil Science"><option value="Animal Husbandry"><option value="Genetics &amp; Plant Breeding">
+            <option value="Agricultural Economics"><option value="Entomology"><option value="Agricultural Extension">
+          </datalist>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>&#x1F4C5; Step 3 — PYQ / Trend Window</h3>
+    <div class="sub">How many years of previous papers should the AI consider?</div>
+    <div class="field" style="margin-bottom:0">
+      <div class="years-wrap">
+        <input type="range" id="yearsSlider" min="3" max="15" value="8">
+        <div class="years-badge" id="yearsBadge">8 yrs</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>&#x1F50D; Step 4 — What should the prompt cover?</h3>
+    <div class="sub">All are on by default — untick anything you don't need</div>
+    <div class="chk-grid">
+      <label class="chk-item"><input type="checkbox" checked data-k="syllabus"><span><strong>Full syllabus &amp; strategy</strong>Structured breakdown with a study plan</span></label>
+      <label class="chk-item"><input type="checkbox" checked data-k="concepts"><span><strong>Key concept explanations</strong>Clear teaching of core topics</span></label>
+      <label class="chk-item"><input type="checkbox" checked data-k="practice"><span><strong>Practice questions/MCQs</strong>Exam-pattern questions with solutions</span></label>
+      <label class="chk-item"><input type="checkbox" checked data-k="pyq"><span><strong>PYQ pattern analysis</strong>What's been asked in past papers</span></label>
+      <label class="chk-item"><input type="checkbox" checked data-k="current"><span><strong>Recent updates/current affairs</strong>Anything current relevant to this exam</span></label>
+      <label class="chk-item"><input type="checkbox" checked data-k="interview"><span><strong>Interview / Viva prep</strong>For stages involving a personal interview</span></label>
+    </div>
+  </div>
+
+  <button class="btn-gen" id="genBtn">&#x2728; Generate AI Prompt</button>
+
+  <div class="card output-wrap" id="outputWrap" style="margin-top:20px">
+    <h3>&#x1F4CB; Your Prompt</h3>
+    <div class="sub">Copy this, or open directly in your favourite AI</div>
+    <div class="output-box" id="outputBox"></div>
+    <div class="output-actions">
+      <button class="btn-copy" id="copyBtn">&#x1F4CB; Copy Prompt</button>
+      <button class="btn-copy noprint" onclick="window.print()">&#x1F5A8;&#xFE0F; Print</button>
+    </div>
+    <div class="ai-grid">
+      <a href="#" class="ai-btn" data-ai="claude">&#x1F916; Claude</a>
+      <a href="#" class="ai-btn" data-ai="chatgpt">&#x1F4AC; ChatGPT</a>
+      <a href="#" class="ai-btn" data-ai="gemini">&#x2728; Gemini</a>
+      <a href="#" class="ai-btn" data-ai="perplexity">&#x1F50D; Perplexity</a>
+      <a href="#" class="ai-btn" data-ai="copilot">&#x1FA9F; Copilot</a>
+      <a href="#" class="ai-btn" data-ai="metaai">&#x1F310; Meta AI</a>
+    </div>
+  </div>
+
+</main>
+
+<footer class="ft">
+  <p><a href="./">&#8592; All Exam Tools</a> &middot; <a href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener" style="color:#C084FC;font-weight:700">&#x1F468;&#x200D;&#x1F4BB; Creator Profile</a> &middot; <a href="contact.html">Contact</a> &middot; <a href="privacy-policy.html">Privacy Policy</a></p>
+  <p>&#169; 2025&ndash;2026 <a href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Raghavbegins (Raghavendra)</a> &middot; India &middot; Free educational platform</p>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+  var yearsSlider = document.getElementById("yearsSlider");
+  var yearsBadge  = document.getElementById("yearsBadge");
+  yearsSlider.addEventListener("input", function(){
+    yearsBadge.textContent = yearsSlider.value + " yrs";
+  });
+
+  var CATEGORY_META = {
+    net:       { label: "UGC NET / CSIR NET / JRF", stepTitle: "&#x1F393; Step 2 — NET/JRF exam details" },
+    cuet:      { label: "CUET", stepTitle: "&#x1F3EB; Step 2 — CUET exam details" },
+    judiciary: { label: "State Judiciary Services (PCS-J)", stepTitle: "&#x2696;&#xFE0F; Step 2 — Judiciary exam details" },
+    insurance: { label: "Insurance exam", stepTitle: "&#x1F4C4; Step 2 — Insurance exam details" },
+    cacs:      { label: "CA/CS/CMA", stepTitle: "&#x1F4CA; Step 2 — CA/CS/CMA exam details" },
+    agri:      { label: "Agriculture exam", stepTitle: "&#x1F33E; Step 2 — Agriculture exam details" }
+  };
+
+  var catRadios = document.querySelectorAll('input[name="cat"]');
+  var catFieldBlocks = document.querySelectorAll(".catFields");
+  var step2Title = document.getElementById("step2Title");
+
+  function switchCategory(cat){
+    catFieldBlocks.forEach(function(block){
+      block.style.display = (block.dataset.cat === cat) ? "" : "none";
+    });
+    step2Title.innerHTML = CATEGORY_META[cat].stepTitle;
+  }
+
+  catRadios.forEach(function(radio){
+    radio.addEventListener("change", function(){
+      if(this.checked){
+        switchCategory(this.value);
+        try{ localStorage.setItem('moreexams_lastcat', this.value); }catch(e){}
+      }
+    });
+  });
+
+  /* ── Continue where you left off (remember last category) ── */
+  (function restoreLastCategory(){
+    try{
+      var last = localStorage.getItem('moreexams_lastcat');
+      if(!last || !CATEGORY_META[last]) return;
+      var radio = document.querySelector('input[name="cat"][value="' + last + '"]');
+      if(radio){
+        radio.checked = true;
+        switchCategory(last);
+      }
+    }catch(e){}
+  })();
+
+  /* ── Study streak tracker ── */
+  (function studyStreak(){
+    try{
+      var todayStr = new Date().toDateString();
+      var lastVisit = localStorage.getItem('moreexams_lastvisit');
+      var streak = parseInt(localStorage.getItem('moreexams_streak') || '0', 10);
+      if(lastVisit !== todayStr){
+        var yesterday = new Date();
+        yesterday.setDate(yesterday.getDate() - 1);
+        streak = (lastVisit === yesterday.toDateString()) ? streak + 1 : 1;
+        localStorage.setItem('moreexams_streak', String(streak));
+        localStorage.setItem('moreexams_lastvisit', todayStr);
+      }
+      var el = document.getElementById('streakBadge');
+      if(el){ el.textContent = '\uD83D\uDD25 ' + streak + '-day streak'; el.style.display = ''; }
+    }catch(e){}
+  })();
+
+  var AI_URLS = {
+    claude: "https://claude.ai/new",
+    chatgpt: "https://chat.openai.com/",
+    gemini: "https://gemini.google.com/",
+    perplexity: "https://www.perplexity.ai/",
+    copilot: "https://copilot.microsoft.com/",
+    metaai: "https://www.meta.ai/"
+  };
+
+  function getChecked(){
+    var checks = document.querySelectorAll(".chk-item input[type=checkbox]");
+    var wants = {};
+    checks.forEach(function(c){ wants[c.dataset.k] = c.checked; });
+    return wants;
+  }
+
+  function buildExamLabel(){
+    var cat = document.querySelector('input[name="cat"]:checked').value;
+    if (cat === "net"){
+      var t = document.getElementById("netType").value;
+      var s = document.getElementById("netSubject").value.trim();
+      var p = document.getElementById("netPaper").value;
+      return t + (s ? (" — " + s) : "") + ", focusing on " + p;
+    }
+    if (cat === "cuet"){
+      var lvl = document.getElementById("cuetLevel").value;
+      var sub = document.getElementById("cuetSubject").value.trim();
+      var uni = document.getElementById("cuetUni").value.trim();
+      return lvl + (sub ? (" — " + sub + " domain paper") : "") + (uni ? (", targeting admission to " + uni) : "");
+    }
+    if (cat === "judiciary"){
+      var st = document.getElementById("judState").value.trim() || "a state";
+      var stage = document.getElementById("judStage").value;
+      var lawSub = document.getElementById("judSubject").value.trim();
+      return st + " Judicial Services (PCS-J) — " + stage + (lawSub ? (", with focus on " + lawSub) : "");
+    }
+    if (cat === "insurance"){
+      var exam = document.getElementById("insExam").value;
+      var stage2 = document.getElementById("insStage").value;
+      return exam + " — " + stage2 + " stage";
+    }
+    if (cat === "cacs"){
+      var course = document.getElementById("cacsCourse").value;
+      var level = document.getElementById("cacsLevel").value;
+      var subj = document.getElementById("cacsSubject").value.trim();
+      return course + " — " + level + (subj ? (", paper: " + subj) : "");
+    }
+    if (cat === "agri"){
+      var aExam = document.getElementById("agriExam").value;
+      var aSub = document.getElementById("agriSubject").value.trim();
+      return aExam + (aSub ? (" — " + aSub) : "");
+    }
+    return "the selected exam";
+  }
+
+  function buildPrompt(){
+    var examLabel = buildExamLabel();
+    var years = yearsSlider.value;
+    var thisYear = new Date().getFullYear();
+    var fromYear = thisYear - parseInt(years, 10);
+    var wants = getChecked();
+
+    var points = [];
+    var n = 1;
+    if (wants.syllabus)  points.push(n++ + ". **Full syllabus &amp; strategy** — a structured, topic-wise breakdown of the complete syllabus with a realistic study plan and time allocation per topic.");
+    if (wants.concepts)  points.push(n++ + ". **Key concept explanations** — clearly explain the core concepts of this subject/paper the way an expert teacher would, with examples.");
+    if (wants.practice)  points.push(n++ + ". **Practice questions/MCQs** — generate exam-pattern practice questions with complete, worked-through solutions.");
+    if (wants.pyq)       points.push(n++ + ". **PYQ pattern analysis** — analyse what has actually been asked in the last " + years + " years (approx. " + fromYear + " to " + thisYear + ") and what patterns emerge.");
+    if (wants.current)   points.push(n++ + ". **Recent updates / current affairs** — mention anything current and relevant to this exam that a candidate should be aware of right now.");
+    if (wants.interview) points.push(n++ + ". **Interview / Viva preparation** — if this exam has a personal interview or viva stage, give guidance on how to prepare for it, including likely questions.");
+
+    var prompt =
+"Act as an expert mentor for the following Indian competitive exam: " + examLabel + ".\n\n" +
+"Please help me prepare by covering the following:\n\n" +
+points.join("\n\n") + "\n\n" +
+"Format your response clearly with headings for each section above. Be specific to this exact exam and paper rather than giving generic exam advice, and if you're not fully certain about a specific past year's paper, say so rather than guessing.";
+
+    return prompt;
+  }
+
+  document.getElementById("genBtn").addEventListener("click", function(){
+    var prompt = buildPrompt();
+    document.getElementById("outputBox").textContent = prompt;
+    document.getElementById("outputWrap").classList.add("show");
+    document.getElementById("outputWrap").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  document.getElementById("copyBtn").addEventListener("click", function(){
+    var text = document.getElementById("outputBox").textContent;
+    navigator.clipboard.writeText(text).then(function(){
+      var btn = document.getElementById("copyBtn");
+      btn.textContent = "✅ Copied!";
+      btn.classList.add("copied");
+      showToast("Prompt copied to clipboard!");
+      setTimeout(function(){
+        btn.textContent = "📋 Copy Prompt";
+        btn.classList.remove("copied");
+      }, 2000);
+    }).catch(function(){
+      showToast("Couldn't copy — please select and copy manually.");
+    });
+  });
+
+  document.querySelectorAll(".ai-btn").forEach(function(btn){
+    btn.addEventListener("click", function(e){
+      e.preventDefault();
+      var text = document.getElementById("outputBox").textContent;
+      if (!text){ showToast("Generate a prompt first!"); return; }
+      navigator.clipboard.writeText(text).then(function(){
+        showToast("Prompt copied — opening " + btn.textContent.trim() + "...");
+      }).catch(function(){});
+      window.open(AI_URLS[btn.dataset.ai], "_blank", "noopener");
+    });
+  });
+
+  function showToast(msg){
+    var t = document.getElementById("toast");
+    t.textContent = msg;
+    t.classList.add("show");
+    setTimeout(function(){ t.classList.remove("show"); }, 2800);
+  }
+})();
+</script>
+
+<!-- Firebase SDK -->
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-analytics.js";
+  const firebaseConfig = {
+    apiKey: "AIzaSyCumDxKiDMd72dRmY6igXXxOypJe1JvD0g",
+    authDomain: "bharatexam-d477c.firebaseapp.com",
+    projectId: "bharatexam-d477c",
+    storageBucket: "bharatexam-d477c.firebasestorage.app",
+    messagingSenderId: "977099665337",
+    appId: "1:977099665337:web:6c9fc3e3abd15e67929068",
+    measurementId: "G-B0Z2G21W4F"
+  };
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+</body>
+</html>

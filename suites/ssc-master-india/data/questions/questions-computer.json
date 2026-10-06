@@ -1,0 +1,3647 @@
+[
+  {
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Paper-I Sec-III Computer Knowledge",
+    "subject": "Computer Knowledge",
+    "chapter": "Networking & Internet",
+    "topic": "Protocols and Port Numbers",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which application layer network protocol operates by default over Port 443 to establish encrypted web communication via TLS/SSL?",
+      "hi": "कौन सा एप्लिकेशन लेयर नेटवर्क प्रोटोकॉल TLS/SSL के माध्यम से एन्क्रिप्टेड वेब संचार स्थापित करने हेतु डिफ़ॉल्ट रूप से पोर्ट 443 पर कार्य करता है?"
+    },
+    "options": [
+      {
+        "en": "HTTPS",
+        "hi": "HTTPS"
+      },
+      {
+        "en": "HTTP",
+        "hi": "HTTP"
+      },
+      {
+        "en": "FTP",
+        "hi": "FTP"
+      },
+      {
+        "en": "SSH",
+        "hi": "SSH"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "HTTPS (Hypertext Transfer Protocol Secure) operates over TCP port 443. Standard unencrypted HTTP uses Port 80, FTP uses Port 20/21, and SSH uses Port 22.",
+      "hi": "HTTPS डिफ़ॉल्ट रूप से पोर्ट 443 पर कार्य करता है। असुरक्षित HTTP पोर्ट 80, FTP पोर्ट 21 और SSH पोर्ट 22 का उपयोग करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL Tier-II 2024 Computer Module",
+    "tags": [
+      "Computer",
+      "Protocols",
+      "Networking"
+    ],
+    "id": "Q-00023"
+  },
+  {
+    "id": "Q-00929",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00930",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00931",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00932",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00933",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00934",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00935",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00936",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00937",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00938",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00939",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00940",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00941",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00942",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00943",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00944",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00945",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00946",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00947",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00948",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00949",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00950",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00951",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00952",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00953",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00954",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00955",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00956",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00957",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00958",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00959",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00960",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00961",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00962",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00963",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00964",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00965",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00966",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00967",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00968",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00969",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00970",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00971",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00972",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00973",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00974",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00975",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00976",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00977",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00978",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00979",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00980",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00981",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00982",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00983",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00984",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00985",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00986",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00987",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00988",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00989",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00990",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00991",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00992",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00993",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00994",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00995",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00996",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00997",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00998",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-00999",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-01000",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-01001",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-01002",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-01003",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-01004",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-01005",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which keyboard shortcut key is used to open the \"Format Cells\" dialog box?",
+      "hi": "एमएस एक्सेल में \"फॉर्मेट सेल्स\" डायलॉग बॉक्स खोलने हेतु किस कीबोर्ड शॉर्टकट का प्रयोग किया जाता है?"
+    },
+    "options": [
+      {
+        "en": "Ctrl + 1",
+        "hi": "Ctrl + 1"
+      },
+      {
+        "en": "Ctrl + F",
+        "hi": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + Shift + F",
+        "hi": "Ctrl + Shift + F"
+      },
+      {
+        "en": "Alt + 1",
+        "hi": "Alt + 1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ctrl + 1 is the standard shortcut to display the Format Cells dialog in Microsoft Excel.",
+      "hi": "एमएस एक्सेल में Ctrl + 1 दबाने पर फॉर्मेट सेल्स विंडो खुलती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-01006",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which malicious software hides its presence on a computer system and allows unauthorized administrative access to an attacker?",
+      "hi": "कौन सा दुर्भावनापूर्ण सॉफ्टवेयर कंप्यूटर में अपनी उपस्थिति छिपाता है और हमलावर को अनधिकृत प्रशासनिक नियंत्रण प्रदान करता है?"
+    },
+    "options": [
+      {
+        "en": "Rootkit",
+        "hi": "Rootkit"
+      },
+      {
+        "en": "Worm",
+        "hi": "Worm"
+      },
+      {
+        "en": "Spyware",
+        "hi": "Spyware"
+      },
+      {
+        "en": "Adware",
+        "hi": "Adware"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rootkit is designed to hide the existence of certain processes or programs from normal methods of detection.",
+      "hi": "रूटकिट (Rootkit) ऑपरेटिंग सिस्टम के भीतर छिपकर गुप्त प्रशासनिक नियंत्रण स्थापित करता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-01007",
+    "exam": "chsl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "IPv4 address consists of how many bits?",
+      "hi": "IPv4 एड्रेस कितने बिट्स का होता है?"
+    },
+    "options": [
+      {
+        "en": "32 bits",
+        "hi": "32 bits"
+      },
+      {
+        "en": "64 bits",
+        "hi": "64 bits"
+      },
+      {
+        "en": "128 bits",
+        "hi": "128 bits"
+      },
+      {
+        "en": "16 bits",
+        "hi": "16 bits"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An IPv4 address is 32 bits long (4 octets of 8 bits each), whereas an IPv6 address is 128 bits long.",
+      "hi": "IPv4 एड्रेस 32 बिट (4 बाइट्स) का होता है, जबकि IPv6 128 बिट का होता है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  },
+  {
+    "id": "Q-01008",
+    "exam": "cgl",
+    "stage": "Tier-II",
+    "section": "Computer Knowledge Test",
+    "subject": "Computer Knowledge",
+    "chapter": "Computer Fundamentals",
+    "topic": "Hardware, Software & Networking",
+    "year": "2024",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which among the following is a non-volatile semiconductor memory?",
+      "hi": "निम्नलिखित में से कौन सी एक नॉन-वोलेटाइल (गैर-वाष्पशील) सेमीकंडक्टर मेमोरी है?"
+    },
+    "options": [
+      {
+        "en": "ROM",
+        "hi": "ROM"
+      },
+      {
+        "en": "SRAM",
+        "hi": "SRAM"
+      },
+      {
+        "en": "DRAM",
+        "hi": "DRAM"
+      },
+      {
+        "en": "Cache Memory",
+        "hi": "Cache Memory"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "ROM (Read Only Memory) retains its stored information even when the power is turned off.",
+      "hi": "ROM एक गैर-वाष्पशील मेमोरी है जो कंप्यूटर बंद होने पर भी डेटा को सुरक्षित रखती है।"
+    },
+    "sourceType": "verified-pyq",
+    "source": "SSC CGL/CHSL Tier-II Computer Knowledge Test",
+    "tags": [
+      "Computer",
+      "Tier-II",
+      "Qualifying"
+    ]
+  }
+]

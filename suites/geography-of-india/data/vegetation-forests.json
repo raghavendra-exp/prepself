@@ -1,0 +1,121 @@
+[
+  {
+    "id": "evergreen",
+    "name": "Tropical Wet Evergreen & Semi-Evergreen",
+    "hindi": "उष्णकटिबंधीय सदाबहार एवं अर्ध-सदाबहार वन",
+    "rainfallCm": ">200 cm (often >250 cm)",
+    "tempC": "25°–27°C with high humidity (>77%)",
+    "distribution": "Western slopes of Western Ghats (Kerala, Karnataka, Goa, Maharashtra), hills of Northeast India (Assam, Meghalaya, Nagaland, Manipur, Mizoram, Tripura), and Andaman & Nicobar Islands.",
+    "structure": "Tiered multi-layered canopy (up to 60 meters and above); dense shrub and creeper undergrowth; trees do not have a synchronized leaf-shedding season, appearing green year-round.",
+    "indicatorSpecies": [
+      "Rosewood (Dalbergia latifolia)",
+      "Mahogany",
+      "Ebony",
+      "Aini",
+      "Champa",
+      "Mesua",
+      "White Cedar",
+      "Hollock",
+      "Bambusa (bamboo)"
+    ],
+    "economicUtility": "Source of valuable dense hardwood timber, spices, medicinal herbs; highly restricted commercial exploitation due to high biodiversity conservation priorities.",
+    "conservationIssues": "Fragmentation due to linear infrastructure, monoculture plantations (rubber, oil palm, tea), and shifting cultivation (Jhum) in Northeast."
+  },
+  {
+    "id": "moistdeciduous",
+    "name": "Tropical Moist Deciduous (Monsoon Forests)",
+    "hindi": "उष्णकटिबंधीय आर्द्र पर्णपाती वन",
+    "rainfallCm": "100–200 cm",
+    "tempC": "27°C average",
+    "distribution": "North-eastern states along Himalayan foothills (Bhabar-Terai belt), eastern slopes of Western Ghats, Odisha, Chhattisgarh, Jharkhand, parts of MP and UP.",
+    "structure": "Open canopy compared to evergreen; trees shed their leaves synchronously for 6 to 8 weeks during the dry spring/early summer to minimize transpiration.",
+    "indicatorSpecies": [
+      "Sal (Shorea robusta — dominant)",
+      "Teak (Tectona grandis)",
+      "Shisham (Dalbergia sissoo)",
+      "Mahua",
+      "Amla",
+      "Semul",
+      "Kusum",
+      "Sandalwood (Santalum album in Karnataka)"
+    ],
+    "economicUtility": "India's most commercially valuable forests; provides heavy railway sleeper timber (Sal), shipbuilding and furniture timber (Teak), fragrant sandalwood, and non-timber forest produce (NTFP: tendu leaves for beedi, mahua flowers).",
+    "conservationIssues": "Heavy historic clearance for agriculture and settlement; logging pressure; forest fires during the dry spring season."
+  },
+  {
+    "id": "drydeciduous",
+    "name": "Tropical Dry Deciduous Forests",
+    "hindi": "उष्णकटिबंधीय शुष्क पर्णपाती वन",
+    "rainfallCm": "70–100 cm",
+    "tempC": "High summer temperatures (>40°C)",
+    "distribution": "Most widespread forest type in India by area: covers vast rain-shadow interior plains of UP, Bihar, Madhya Pradesh, Maharashtra, Karnataka, Telangana, and Tamil Nadu.",
+    "structure": "Open forest with large grassland patches (parkland landscape); trees shed leaves for prolonged dry season (up to 3-4 months), standing completely leafless.",
+    "indicatorSpecies": [
+      "Teak (dominant in central/southern tracts)",
+      "Tendu (Diospyros melanoxylon)",
+      "Palas / Flame of the Forest (Butea monosperma)",
+      "Amaltas (Cassia fistula)",
+      "Bel",
+      "Khair",
+      "Axlewood"
+    ],
+    "economicUtility": "Fuelwood, local timber, tendu leaf collection (supporting rural tribal economy), cattle grazing.",
+    "conservationIssues": "Severe overgrazing, lopping for fodder, frequent summer brush fires, conversion to agricultural scrub."
+  },
+  {
+    "id": "thornscrub",
+    "name": "Tropical Thorn & Scrub Forests",
+    "hindi": "उष्णकटिबंधीय कंटीले वन एवं झाड़ियाँ",
+    "rainfallCm": "<70 cm (often <50 cm)",
+    "tempC": "Hot arid/semi-arid climate with prolonged drought",
+    "distribution": "Northwestern India: western Rajasthan, southern Punjab, Haryana, Gujarat (Kutch/Saurashtra), and interior rain-shadow Deccan (parts of Maharashtra, Karnataka, Andhra).",
+    "structure": "Open, xerophytic vegetation; low stunted trees (rarely >6 meters) scattered amidst thorny scrub and grasses; deep taproots to seek groundwater, thick fleshy stems to store water, and modified thorns instead of leaves to stop transpiration.",
+    "indicatorSpecies": [
+      "Babool / Acacia nilotica",
+      "Khejri / Prosopis cineraria (State tree of Rajasthan, sacred to Bishnois)",
+      "Khair",
+      "Ber (Ziziphus)",
+      "Wild date palm",
+      "Cacti and Euphorbias"
+    ],
+    "economicUtility": "Khejri pods (Sangri) used for food, acacia bark used for tanning leather, gum arabic, camel and goat fodder.",
+    "conservationIssues": "Desertification, overgrazing, fuel wood extraction."
+  },
+  {
+    "id": "montane",
+    "name": "Montane Subtropical & Temperate / Alpine Forests",
+    "hindi": "पर्वतीय उपोष्ण, शीतोष्ण एवं अल्पाइन वन",
+    "rainfallCm": "150–300 cm with altitudinal temperature decline",
+    "tempC": "Subtropical to sub-zero alpine conditions",
+    "distribution": "Himalayas from Kashmir to Arunachal Pradesh; higher summits of Western Ghats (Nilgiris, Anamalai, Palani hills) as 'Shola-grassland' mosaics.",
+    "structure": "Vertical zonation with increasing altitude: (1) Subtropical pine/broadleaf (1,000–2,000 m: Chir Pine, Oak); (2) Wet Temperate / Coniferous (1,500–3,000 m: Blue Pine, Deodar, Spruce, Silver Fir, Birch); (3) Alpine scrub and meadows (3,000–4,000 m: Rhododendrons, Junipers, Bugyals/alpine pastures); (4) Permanent snow/ice (>4,500 m).",
+    "indicatorSpecies": [
+      "Deodar (Cedrus deodara — durable rot-resistant timber)",
+      "Chir Pine",
+      "Oak (Quercus)",
+      "Rhododendron",
+      "Bhojpatra (Betula utilis / Himalayan Birch)",
+      "Silver Fir"
+    ],
+    "economicUtility": "Softwood timber for packaging and paper pulp, resin from pine, medicinal plants, seasonal transhumant pastoralism by Gujjars, Bakarwals, and Gaddis on alpine pastures (Bugyals/Margs).",
+    "conservationIssues": "Pine needle forest fires, pine invasion displacing water-conserving broadleaved oaks, retreat of alpine treelines due to climate warming."
+  },
+  {
+    "id": "mangrove",
+    "name": "Littoral & Swamp / Mangrove Forests (Tidal Forests)",
+    "hindi": "मैंग्रोव / ज्वारीय एवं अनूप वन",
+    "rainfallCm": "Variable (tidal estuarine/deltaic environment)",
+    "tempC": "Warm coastal tropical waters (>20°C SST)",
+    "distribution": "Deltas of the Ganga-Brahmaputra (Sundarbans), Mahanadi, Godavari, Krishna, and Kaveri; Gulf of Kutch and Gulf of Khambhat (Gujarat); Andaman & Nicobar Islands. Total Indian coverage: ~4,992 sq km (~0.15% of land area).",
+    "structure": "Halophytic, salt-tolerant evergreen woody plants adapted to anaerobic, waterlogged, saline muddy substrates; equipped with stilt/prop roots, knee roots, and aerial breathing roots (pneumatophores) projecting vertically above water; exhibit viviparous germination (seeds germinate while still attached to parent tree).",
+    "indicatorSpecies": [
+      "Sundari (Heritiera fomes — gives Sundarbans its name)",
+      "Rhizophora (Red mangrove)",
+      "Avicennia (Black mangrove)",
+      "Sonneratia",
+      "Nypa fruticans (mangrove palm)"
+    ],
+    "economicUtility": "Critical coastal bio-shield buffering cyclones and storm surges; primary nursery and breeding ground for fish, shrimp, and crabs; timber resistant to shipworm rot.",
+    "conservationIssues": "Aquaculture pond expansion, upstream freshwater diversion reducing estuarine flushing, coastal urbanization, sea-level rise."
+  }
+]

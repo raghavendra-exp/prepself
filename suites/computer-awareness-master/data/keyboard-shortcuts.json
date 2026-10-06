@@ -1,0 +1,517 @@
+{
+  "module": "Keyboard Shortcuts & Hotkeys",
+  "version": "2026.1",
+  "totalCount": 115,
+  "categories": [
+    {
+      "category": "Windows Universal & Navigation",
+      "hindiCategory": "विंडोज यूनिवर्सल और नेविगेशन",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + C",
+          "action": "Copy selected item to clipboard",
+          "category": "General"
+        },
+        {
+          "keys": "Ctrl + X",
+          "action": "Cut selected item to clipboard",
+          "category": "General"
+        },
+        {
+          "keys": "Ctrl + V",
+          "action": "Paste item from clipboard",
+          "category": "General"
+        },
+        {
+          "keys": "Ctrl + Z",
+          "action": "Undo last action",
+          "category": "General"
+        },
+        {
+          "keys": "Ctrl + Y",
+          "action": "Redo undone action",
+          "category": "General"
+        },
+        {
+          "keys": "Ctrl + A",
+          "action": "Select all items in document or window",
+          "category": "General"
+        },
+        {
+          "keys": "Ctrl + F",
+          "action": "Open Find dialog / search bar",
+          "category": "General"
+        },
+        {
+          "keys": "Ctrl + H",
+          "action": "Open Replace dialog",
+          "category": "General"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Open Print dialog",
+          "category": "General"
+        },
+        {
+          "keys": "Ctrl + S",
+          "action": "Save current document",
+          "category": "General"
+        },
+        {
+          "keys": "Ctrl + O",
+          "action": "Open existing file",
+          "category": "General"
+        },
+        {
+          "keys": "Ctrl + N",
+          "action": "Open new document / window",
+          "category": "General"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close active document or browser tab",
+          "category": "General"
+        },
+        {
+          "keys": "Alt + F4",
+          "action": "Close active program or shut down Windows",
+          "category": "Windows"
+        },
+        {
+          "keys": "Alt + Tab",
+          "action": "Switch between open applications",
+          "category": "Windows"
+        },
+        {
+          "keys": "Win + D",
+          "action": "Show / hide desktop (minimize all)",
+          "category": "Windows"
+        },
+        {
+          "keys": "Win + E",
+          "action": "Open File Explorer",
+          "category": "Windows"
+        },
+        {
+          "keys": "Win + L",
+          "action": "Lock Windows PC or switch accounts",
+          "category": "Windows"
+        },
+        {
+          "keys": "Win + R",
+          "action": "Open Run dialog box",
+          "category": "Windows"
+        },
+        {
+          "keys": "Win + X",
+          "action": "Open Quick Link / Power User menu",
+          "category": "Windows"
+        },
+        {
+          "keys": "Shift + Delete",
+          "action": "Permanently delete file bypassing Recycle Bin",
+          "category": "Windows"
+        },
+        {
+          "keys": "F1",
+          "action": "Open Help center",
+          "category": "Function Keys"
+        },
+        {
+          "keys": "F2",
+          "action": "Rename selected file or folder",
+          "category": "Function Keys"
+        },
+        {
+          "keys": "F3",
+          "action": "Search for a file or folder in File Explorer",
+          "category": "Function Keys"
+        },
+        {
+          "keys": "F5",
+          "action": "Refresh active window or web page",
+          "category": "Function Keys"
+        },
+        {
+          "keys": "F11",
+          "action": "Toggle full screen mode",
+          "category": "Function Keys"
+        },
+        {
+          "keys": "F12",
+          "action": "Open 'Save As' dialog box in MS Office",
+          "category": "Function Keys"
+        }
+      ]
+    },
+    {
+      "category": "Microsoft Word Specific",
+      "hindiCategory": "माइक्रोसॉफ्ट वर्ड विशिष्ट शॉर्टकट",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + B",
+          "action": "Toggle Bold formatting",
+          "category": "Word Formatting"
+        },
+        {
+          "keys": "Ctrl + I",
+          "action": "Toggle Italic formatting",
+          "category": "Word Formatting"
+        },
+        {
+          "keys": "Ctrl + U",
+          "action": "Toggle Underline formatting",
+          "category": "Word Formatting"
+        },
+        {
+          "keys": "Ctrl + Shift + D",
+          "action": "Double underline text",
+          "category": "Word Formatting"
+        },
+        {
+          "keys": "Ctrl + E",
+          "action": "Align text to Center",
+          "category": "Word Alignment"
+        },
+        {
+          "keys": "Ctrl + L",
+          "action": "Align text to Left",
+          "category": "Word Alignment"
+        },
+        {
+          "keys": "Ctrl + R",
+          "action": "Align text to Right",
+          "category": "Word Alignment"
+        },
+        {
+          "keys": "Ctrl + J",
+          "action": "Justify text (even margins on both sides)",
+          "category": "Word Alignment"
+        },
+        {
+          "keys": "Ctrl + 1",
+          "action": "Set single line spacing",
+          "category": "Word Spacing"
+        },
+        {
+          "keys": "Ctrl + 2",
+          "action": "Set double line spacing",
+          "category": "Word Spacing"
+        },
+        {
+          "keys": "Ctrl + 5",
+          "action": "Set 1.5 line spacing",
+          "category": "Word Spacing"
+        },
+        {
+          "keys": "Ctrl + K",
+          "action": "Insert Hyperlink",
+          "category": "Word Insert"
+        },
+        {
+          "keys": "Ctrl + Enter",
+          "action": "Insert hard Page Break",
+          "category": "Word Insert"
+        },
+        {
+          "keys": "Shift + Enter",
+          "action": "Insert soft line break without starting new paragraph",
+          "category": "Word Insert"
+        },
+        {
+          "keys": "Ctrl + Shift + Enter",
+          "action": "Insert Column Break",
+          "category": "Word Insert"
+        },
+        {
+          "keys": "Ctrl + [",
+          "action": "Decrease font size by 1 point",
+          "category": "Word Font"
+        },
+        {
+          "keys": "Ctrl + ]",
+          "action": "Increase font size by 1 point",
+          "category": "Word Font"
+        },
+        {
+          "keys": "Ctrl + Shift + C",
+          "action": "Copy text formatting (Format Painter)",
+          "category": "Word Formatting"
+        },
+        {
+          "keys": "Ctrl + Shift + V",
+          "action": "Paste text formatting",
+          "category": "Word Formatting"
+        },
+        {
+          "keys": "Ctrl + Spacebar",
+          "action": "Clear all character formatting (reset to default)",
+          "category": "Word Formatting"
+        },
+        {
+          "keys": "F7",
+          "action": "Run Spelling and Grammar check",
+          "category": "Word Tools"
+        },
+        {
+          "keys": "Shift + F7",
+          "action": "Open Thesaurus (Synonyms dictionary)",
+          "category": "Word Tools"
+        },
+        {
+          "keys": "Shift + F3",
+          "action": "Change case (UPPERCASE, lowercase, Title Case)",
+          "category": "Word Formatting"
+        },
+        {
+          "keys": "Alt + Shift + D",
+          "action": "Insert current Date field",
+          "category": "Word Insert"
+        },
+        {
+          "keys": "Alt + Shift + T",
+          "action": "Insert current Time field",
+          "category": "Word Insert"
+        }
+      ]
+    },
+    {
+      "category": "Microsoft Excel Specific",
+      "hindiCategory": "माइक्रोसॉफ्ट एक्सेल विशिष्ट शॉर्टकट",
+      "shortcuts": [
+        {
+          "keys": "F2",
+          "action": "Edit active cell (places cursor at end of cell contents)",
+          "category": "Excel Editing"
+        },
+        {
+          "keys": "F4",
+          "action": "Repeat last action OR cycle absolute/relative cell references ($A$1 -> A$1 -> $A1 -> A1)",
+          "category": "Excel Formula"
+        },
+        {
+          "keys": "Alt + =",
+          "action": "AutoSum (automatically inserts =SUM() formula for adjacent cells)",
+          "category": "Excel Formula"
+        },
+        {
+          "keys": "Ctrl + ;",
+          "action": "Insert current system Date into cell",
+          "category": "Excel Data Entry"
+        },
+        {
+          "keys": "Ctrl + Shift + :",
+          "action": "Insert current system Time into cell",
+          "category": "Excel Data Entry"
+        },
+        {
+          "keys": "Ctrl + ` (grave accent)",
+          "action": "Toggle between displaying cell values and formulas across sheet",
+          "category": "Excel View"
+        },
+        {
+          "keys": "Ctrl + Shift + L",
+          "action": "Toggle AutoFilter on/off for selected data range",
+          "category": "Excel Data"
+        },
+        {
+          "keys": "Shift + Spacebar",
+          "action": "Select entire row",
+          "category": "Excel Selection"
+        },
+        {
+          "keys": "Ctrl + Spacebar",
+          "action": "Select entire column",
+          "category": "Excel Selection"
+        },
+        {
+          "keys": "Ctrl + Shift + + (Plus)",
+          "action": "Insert new cells, rows, or columns",
+          "category": "Excel Editing"
+        },
+        {
+          "keys": "Ctrl + - (Minus)",
+          "action": "Delete selected cells, rows, or columns",
+          "category": "Excel Editing"
+        },
+        {
+          "keys": "Ctrl + Arrow Key",
+          "action": "Jump to edge of data region in that direction",
+          "category": "Excel Navigation"
+        },
+        {
+          "keys": "Shift + Arrow Key",
+          "action": "Extend cell selection by one cell",
+          "category": "Excel Selection"
+        },
+        {
+          "keys": "Ctrl + Page Down",
+          "action": "Switch to next worksheet in workbook",
+          "category": "Excel Navigation"
+        },
+        {
+          "keys": "Ctrl + Page Up",
+          "action": "Switch to previous worksheet in workbook",
+          "category": "Excel Navigation"
+        },
+        {
+          "keys": "Alt + Enter",
+          "action": "Start a new line within the same cell (word wrap inside cell)",
+          "category": "Excel Data Entry"
+        },
+        {
+          "keys": "Ctrl + D",
+          "action": "Fill Down (copies formula/value from cell directly above)",
+          "category": "Excel Editing"
+        },
+        {
+          "keys": "Ctrl + R",
+          "action": "Fill Right (copies formula/value from cell directly to the left)",
+          "category": "Excel Editing"
+        }
+      ]
+    },
+    {
+      "category": "Microsoft PowerPoint Specific",
+      "hindiCategory": "माइक्रोसॉफ्ट पावरपॉइंट विशिष्ट शॉर्टकट",
+      "shortcuts": [
+        {
+          "keys": "F5",
+          "action": "Start Slide Show from beginning (Slide 1)",
+          "category": "PPT Show"
+        },
+        {
+          "keys": "Shift + F5",
+          "action": "Start Slide Show from current active slide",
+          "category": "PPT Show"
+        },
+        {
+          "keys": "Ctrl + M",
+          "action": "Insert a NEW SLIDE into presentation",
+          "category": "PPT Slide"
+        },
+        {
+          "keys": "Ctrl + D",
+          "action": "Duplicate selected slide or object",
+          "category": "PPT Slide"
+        },
+        {
+          "keys": "B",
+          "action": "Turn display black during slide show (press again to resume)",
+          "category": "PPT Show"
+        },
+        {
+          "keys": "W",
+          "action": "Turn display white during slide show (press again to resume)",
+          "category": "PPT Show"
+        },
+        {
+          "keys": "Esc",
+          "action": "End slide show presentation",
+          "category": "PPT Show"
+        },
+        {
+          "keys": "Ctrl + P",
+          "action": "Change mouse pointer to Pen annotation tool",
+          "category": "PPT Show"
+        },
+        {
+          "keys": "Ctrl + A",
+          "action": "Change mouse pointer back to Arrow",
+          "category": "PPT Show"
+        },
+        {
+          "keys": "Ctrl + E",
+          "action": "Change mouse pointer to Eraser tool",
+          "category": "PPT Show"
+        },
+        {
+          "keys": "Ctrl + G",
+          "action": "Group selected shapes or objects together",
+          "category": "PPT Objects"
+        },
+        {
+          "keys": "Ctrl + Shift + G",
+          "action": "Ungroup selected group of objects",
+          "category": "PPT Objects"
+        }
+      ]
+    },
+    {
+      "category": "Web Browser & Internet Hotkeys",
+      "hindiCategory": "वेब ब्राउज़र और इंटरनेट हॉटकीज़",
+      "shortcuts": [
+        {
+          "keys": "Ctrl + T",
+          "action": "Open new browser tab",
+          "category": "Browser"
+        },
+        {
+          "keys": "Ctrl + W",
+          "action": "Close active browser tab",
+          "category": "Browser"
+        },
+        {
+          "keys": "Ctrl + Shift + T",
+          "action": "Reopen last closed browser tab",
+          "category": "Browser"
+        },
+        {
+          "keys": "Ctrl + Shift + N",
+          "action": "Open new Incognito / InPrivate window",
+          "category": "Browser"
+        },
+        {
+          "keys": "Ctrl + H",
+          "action": "Open browsing History",
+          "category": "Browser"
+        },
+        {
+          "keys": "Ctrl + J",
+          "action": "Open Downloads page",
+          "category": "Browser"
+        },
+        {
+          "keys": "Ctrl + D",
+          "action": "Bookmark current webpage",
+          "category": "Browser"
+        },
+        {
+          "keys": "Ctrl + Shift + D",
+          "action": "Bookmark all open tabs into a folder",
+          "category": "Browser"
+        },
+        {
+          "keys": "Ctrl + R / F5",
+          "action": "Reload current page",
+          "category": "Browser"
+        },
+        {
+          "keys": "Ctrl + Shift + R / Ctrl + F5",
+          "action": "Hard reload page ignoring cached files",
+          "category": "Browser"
+        },
+        {
+          "keys": "Alt + Left Arrow",
+          "action": "Go back one page in history",
+          "category": "Browser"
+        },
+        {
+          "keys": "Alt + Right Arrow",
+          "action": "Go forward one page in history",
+          "category": "Browser"
+        },
+        {
+          "keys": "Ctrl + Tab",
+          "action": "Switch to next tab on the right",
+          "category": "Browser"
+        },
+        {
+          "keys": "Ctrl + Shift + Tab",
+          "action": "Switch to previous tab on the left",
+          "category": "Browser"
+        }
+      ]
+    }
+  ]
+}

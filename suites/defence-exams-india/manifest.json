@@ -1,0 +1,17 @@
+{
+  "name": "DEFENCE EXAMS INDIA — Master Preparation Platform",
+  "short_name": "DefenceExams",
+  "description": "Complete Indian Armed Forces entrance & recruitment preparation platform: NDA, CDS, AFCAT, Agniveer, Coast Guard, Technical Entries, SSB, Physical, Medical & Mock Tests.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0B132B",
+  "theme_color": "#0B132B",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

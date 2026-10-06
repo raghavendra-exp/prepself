@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About, Sources &amp; Changelog — Complete History of India</title>
+<link rel="stylesheet" href="css/style.css">
+  <!-- Google Analytics Tracking (G-B0Z2G21W4F) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B0Z2G21W4F');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="site-nav" id="siteNav"></nav>
+<main id="main">
+  <div class="wrap"><div class="breadcrumb" id="breadcrumb"></div></div>
+  <header class="section" style="padding-bottom:0;">
+    <div class="wrap">
+      <span class="eyebrow">About This Project</span>
+      <h1 style="font-size:clamp(2rem,4.4vw,3rem);">Sources, Method &amp; What's New</h1>
+      <p class="section-desc" style="font-size:1.05rem; max-width:70ch;">This site converts a growing set of supplied revision-sheet infographics into an interactive, interconnected reference — a national chronology, a dedicated Uttar Pradesh (UPPSC) track, and a computed knowledge graph linking them together.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="wrap" style="max-width:70ch;">
+      <div class="stat-strip" id="aboutStats" style="margin-bottom:34px;">
+        <div class="stat"><span class="num">—</span><span class="lab">Total Pages</span></div>
+        <div class="stat"><span class="num">—</span><span class="lab">National Chronology</span></div>
+        <div class="stat"><span class="num">—</span><span class="lab">Uttar Pradesh (UPPSC)</span></div>
+        <div class="stat"><span class="num">—</span><span class="lab">World History Context</span></div>
+      </div>
+
+      <h2>What comes from the source sheets</h2>
+      <p style="color:var(--ink-soft);">Every period overview, phase, event, aspect-wise table, list of women's contributions, list of important sites, and UPSC Prelims/Mains point on this site is drawn from a corresponding supplied revision sheet, which you can open at any time via the <b>"View Original Revision Sheet"</b> control on each period page. The chronology, terminology, dates, phases and level of detail follow the source sheets; nothing has been invented to make a period look fuller than its source material supports. Where a small number of dates required independent verification (for example, the exact date Uttar Pradesh was renamed in 1950), that verification is noted on the relevant page rather than silently substituted.</p>
+
+      <h2>What is added for navigation only</h2>
+      <p style="color:var(--ink-soft);">Search indexing, the cross-linking between periods/people/themes, the knowledge graph's computed relations (see below), and a small set of curated external reference links (Britannica, UNESCO, Government portals) are added purely as navigation aids and are visually distinguished with an <span class="ext-link">example ↗</span> external-link style. They are not part of the original source material.</p>
+
+      <h2>The knowledge graph</h2>
+      <p style="color:var(--ink-soft);">Rather than a hand-written list of "related topics," <a href="graph.html">the Knowledge Graph Explorer</a> and every period page's "Related Topics" panel are computed live from the structured fields already in <code>data/history.json</code> — a period's <code>themes</code>, <code>people</code>, <code>women</code> and <code>events</code> arrays. Any name that recurs in two or more periods (for instance, Akbar appearing in both his own national biography page and the Uttar Pradesh Mughal Period page) is automatically cross-linked in both directions, with no manual list to maintain.</p>
+
+      <h2>The Uttar Pradesh (UPPSC) track</h2>
+      <p style="color:var(--ink-soft);">Alongside the national chronology sits a self-contained, 28-page <a href="up-history.html">Uttar Pradesh history track</a> aimed at UPPSC's GS Paper I &amp; II — prehistoric U.P. through the Vedic Age, Mahajanapadas, Mauryan and Gupta periods, the medieval Sultanate and Mughal centuries, the Revolt of 1857, British administration, the freedom struggle, and the state's formation, reorganisation and 21st-century development. These pages carry their own <code>region: "up"</code> tag so the main national timeline and home page stay focused on the all-India story, while search, themes, people, women, and the knowledge graph all draw on both tracks together.</p>
+
+      <h2>Coverage at a glance</h2>
+      <p style="color:var(--ink-soft);">The national chronology runs continuously from the Palaeolithic Age through India's present day (2020–Present), with five further pages placing India's colonial and freedom-struggle chapters in global context (the French Revolution, World War I, the Russian Revolution, World War II, and a summary World History chart). The data architecture (<code>data/history.json</code>) is designed so that further periods, deeper sub-pages, or entirely new state-specific tracks can be added by extending the JSON file and dropping in the corresponding infographic, without any redesign. See the project's <code>README.md</code> for the exact steps.</p>
+
+      <h2 id="changelog">Changelog</h2>
+      <div id="changelogList" style="display:flex; flex-direction:column; gap:18px; margin-top:18px;"></div>
+    </div>
+  </section>
+</main>
+<footer id="siteFooter"></footer>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script>
+async function initAbout(){
+  renderNav('about.html');
+  renderBreadcrumb([{label:'Home',href:'index.html'},{label:'About'}]);
+  const d = await HistoryData.load();
+  const total = d.periods.length;
+  const national = d.periods.filter(p => !p.region && p.category !== 'world').length;
+  const up = d.periods.filter(p => p.region === 'up').length;
+  const world = d.periods.filter(p => p.category === 'world').length;
+  const stats = document.querySelectorAll('#aboutStats .num');
+  stats[0].textContent = total;
+  stats[1].textContent = national;
+  stats[2].textContent = up;
+  stats[3].textContent = world;
+
+  const changelog = [
+    {
+      title: 'Major Modernization: Interactive Historical Map Lab + UPSC Practice Hub + Spotlight Search + Mobile Navigation',
+      body: 'Comprehensive competitive examination overhaul: Added the calibrated SVG Interactive Historical Atlas & Archaeological Map Lab (map.html) covering 30+ sites across 6 historical layers (Indus Valley, 16 Mahajanapadas, Ashokan Edicts, Classical Temples, Medieval Forts, and Freedom Landmarks); created the UPSC Prelims & Mains Practice Hub (practice.html) with 50+ statement-based MCQs, instant elimination insights, accuracy tracking, and GS-1 analytical answer frameworks; integrated a global Spotlight Search Omnibox (Ctrl+K / ⌘K) across all 80+ periods, sites, and exam drills; added mobile-first sticky bottom navigation ribbon and slide-out navigation drawer; and built a modern animated era calculator modal.'
+    },
+    {
+      title: 'Site audit + 2 new pages + technical hygiene',
+      body: "Acted as a solutions audit: found and removed a stray leftover empty directory from an early build step; added two genuinely underrepresented pages — Governors-General and Viceroys of India (a complete 1773–1948 ruler-by-ruler reference, one of the most classic UPSC quick-reference tables, extracted from Spectrum) and Tribal Revolts and Movements in Colonial India (Santhal, Munda, Kol, Bhil and North-East Frontier resistance — a genuinely underrepresented topic in most freedom-struggle narratives); enriched British Administration with a Constitutional Acts at a Glance table including contemporaries' own judgements (Burke, Lord North, Ilbert, Morley); and added the missing SEO/technical hygiene files — robots.txt and a sitemap.xml generated directly from history.json (now covering 89 URLs) — plus Open Graph meta tags on the home page."
+    },
+    {
+      title: 'Deepened with primary textbook research (Bipin Chandra, Norman Lowe) — 1 new page, 3 pages enriched',
+      body: "Extracted and paraphrased genuine analytical content from Bipin Chandra et al.'s <i>India's Struggle for Independence</i> and Norman Lowe's <i>Mastering Modern World History</i> — added a new Foundation of the Indian National Congress page covering the 'Safety Valve' theory debate, deepened Socio-Religious Reforms with Phule, Narayana Guru and the movements' shared rationalist framework, added a historiographical debate section to World War I on who bears responsibility for the war, and added specific, book-grounded detail on why Quit India happened when it did to Independence of India. Six books were uploaded in total (two further Spectrum editions, a general World History textbook); given their combined length runs to several thousand pages, this pass covered the highest-value, most exam-relevant sections first rather than attempting exhaustive coverage in one turn."
+    },
+    {
+      title: 'Uttar Pradesh track aspect tables elaborated (127 categories, 28 pages)',
+      body: "Every aspect-table category across the whole UP track now opens with a short explanatory intro before its bullet list — pointing out what's worth noticing, flagging cross-references to other pages in this track or the national chronology, and calling out exam-relevant details. The underlying bullet facts are unchanged; period.js now renders either format automatically."
+    },
+    {
+      title: 'Uttar Pradesh track overviews elaborated (28 pages)',
+      body: "Rewrote every UP-track period's overview into a longer narrative — averaging roughly 200 words — that both stands on its own AND explicitly cross-references the fuller national account of the same dynasty, emperor or movement where one exists elsewhere on this site (e.g. the UP Mughal Period page now explains specifically what the national Akbar/Jahangir/Shah Jahan pages leave out by covering the empire at nationwide scale)."
+    },
+    {
+      title: 'National track overviews elaborated (49 pages)',
+      body: 'Rewrote every national-track period\\'s overview into a longer, more explanatory narrative — averaging roughly 250 words (up from ~70) — adding historical causation, significance, and connective context between periods, rather than just summarising the source sheet\\'s bullet points.'
+    },
+    {
+      title: 'Uttar Pradesh (UPPSC) track completed — 28 pages',
+      body: "Added the remaining 8 UP-specific pages: Freedom Struggle in U.P., United Provinces During Modern India, Formation of Uttar Pradesh, Reorganisation of Uttar Pradesh, Political Developments, Economic &amp; Social Progress, Uttar Pradesh in the 21st Century, and a cross-cutting Important Personalities gallery. Also corrected the UP track's chronological ordering — the Jaunpur Sultanate (1394) now correctly precedes the Sayyid &amp; Lodi Dynasty page (from 1414) rather than following it — and re-verified U.P.'s formation date against independent sources."
+    },
+    {
+      title: 'Uttar Pradesh (UPPSC) track launched — 20 pages',
+      body: "Introduced a dedicated, self-contained regional track for UPPSC aspirants, region-tagged so it doesn't interleave with the national \"one continuous journey,\" but fully wired into search, themes, people, women and the knowledge graph."
+    },
+    {
+      title: 'Knowledge graph engine added',
+      body: 'Built js/graph.js — a computed graph of every person, event and period, powering automatic "also appears in" cross-links and a new Knowledge Graph Explorer (graph.html). Also added four World History sub-pages: the French Revolution, World War I, the Russian Revolution, and World War II.'
+    },
+    {
+      title: 'Coverage extended to Independent India and beyond',
+      body: "Added British Administration in India, Socio-Religious Reforms, the Indian Freedom Struggle, a Mahatma Gandhi biography, Independence of India (1939–47), and a full decade-by-decade run through Independent India from 1947 to the present, plus a World History Chronological Chart for global context."
+    },
+    {
+      title: 'Mughal Empire and Sikh Empire added',
+      body: 'Extended the Delhi Sultanate era with the Tughlaq, Sayyid and Lodi dynasties, added the Vijayanagara Empire, and built out the full Mughal arc — Babur, Humayun, the Sur Interregnum, Akbar, Jahangir, Shah Jahan, Aurangzeb and the Later Mughals — plus the Sikh Empire and the Establishment of British Power.'
+    },
+    {
+      title: 'Initial launch',
+      body: "Launched with 14 periods from the Prehistoric Age through the Khalji Dynasty, the core data-driven architecture (history.json powering every page), the master timeline, themes, people, women's history, search, UPSC Mode, dark mode, and the \"Stone &amp; Ink\" design system."
+    }
+  ];
+
+  document.getElementById('changelogList').innerHTML = changelog.map(c => `
+    <div style="border-left:2px solid var(--accent); padding-left:18px;">
+      <h3 style="margin-bottom:4px; font-size:1.05rem;">${c.title}</h3>
+      <p style="color:var(--ink-soft); font-size:.92rem; margin:0;">${c.body}</p>
+    </div>`).join('');
+
+  renderFooter();
+}
+initAbout();
+</script>
+</body>
+</html>

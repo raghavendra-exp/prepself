@@ -1,0 +1,134 @@
+{
+  "examId": "SSC-STENO-2026",
+  "examCode": "stenographer",
+  "examName": {
+    "en": "SSC Stenographer",
+    "hi": "एसएससी आशुलिपिक"
+  },
+  "fullName": {
+    "en": "Stenographer Grade \"C\" & \"D\" Examination",
+    "hi": "आशुलिपिक ग्रेड \"सी\" एवं \"डी\" परीक्षा"
+  },
+  "badge": "12th Pass • Shorthand Skill • No Math",
+  "year": 2026,
+  "duration": "120 minutes",
+  "questions": 200,
+  "marks": 200,
+  "negativeMarking": "0.25 marks per incorrect answer",
+  "subjects": [
+    "General Intelligence & Reasoning",
+    "General Awareness",
+    "English Language",
+    "Shorthand",
+    "Typing"
+  ],
+  "eligibility": {
+    "education": {
+      "en": "12th Standard or equivalent from a recognized Board or University. Shorthand skills required for Skill Test.",
+      "hi": "मान्यता प्राप्त बोर्ड से 12वीं उत्तीर्ण। कौशल परीक्षा हेतु आशुलिपि ज्ञान अनिवार्य।"
+    },
+    "ageMin": 18,
+    "ageMax": 30,
+    "ageRelaxation": {
+      "en": "Grade C: 18-30 years; Grade D: 18-27 years. OBC: 3 yrs, SC/ST: 5 yrs, ESM: 3 yrs.",
+      "hi": "ग्रेड सी: 18-30 वर्ष; ग्रेड डी: 18-27 वर्ष। ओबीसी: 3 वर्ष, एससी/एसटी: 5 वर्ष।"
+    },
+    "skillReq": {
+      "en": "Skill Test in Stenography: Grade C: 100 WPM dictation for 10 mins; Grade D: 80 WPM dictation for 10 mins. Transcription in English/Hindi on computer.",
+      "hi": "आशुलिपि कौशल परीक्षा: ग्रेड सी: 100 शब्द/मिनट (10 मिनट डिक्टेशन); ग्रेड डी: 80 शब्द/मिनट (10 मिनट डिक्टेशन)। कंप्यूटर पर ट्रांसक्रिप्शन।"
+    },
+    "esmProvisions": {
+      "en": "Reservation applicable for Grade D posts as per central government norms.",
+      "hi": "ग्रेड डी पदों हेतु केंद्र सरकार के नियमों के अनुसार आरक्षण लागू।"
+    }
+  },
+  "officialNotification": {
+    "notificationNumber": "F. No. HQ-PPI03/17/2026-PP_7",
+    "notificationDate": "2026-07-26",
+    "applicationStart": "2026-07-26",
+    "applicationEnd": "2026-08-24",
+    "examDate": "November - December 2026",
+    "url": "https://ssc.gov.in",
+    "tentativeVacancies": 2006,
+    "source": "SSC Official Stenographer Examination Notification"
+  },
+  "lastVerified": "2026-09-28",
+  "postsOverview": "Stenographer Grade C in Central Ministries and Election Commission; Stenographer Grade D in Subordinate Offices and Attached Offices across India.",
+  "stages": [
+    {
+      "stageId": "cbe",
+      "stageName": {
+        "en": "Computer Based Examination (CBE)",
+        "hi": "कंप्यूटर आधारित परीक्षा"
+      },
+      "mode": "Objective MCQ (Note: No Mathematics Section!)",
+      "duration": "2 Hours (120 minutes)",
+      "totalQuestions": 200,
+      "totalMarks": 200,
+      "negativeMarking": "0.25 marks per wrong answer",
+      "qualifyingNature": false,
+      "sections": [
+        {
+          "name": {
+            "en": "General Intelligence & Reasoning",
+            "hi": "सामान्य बुद्धिमत्ता एवं तर्कशक्ति"
+          },
+          "questions": 50,
+          "marks": 50,
+          "negativePerWrong": 0.25
+        },
+        {
+          "name": {
+            "en": "General Awareness",
+            "hi": "सामान्य जागरूकता"
+          },
+          "questions": 50,
+          "marks": 50,
+          "negativePerWrong": 0.25
+        },
+        {
+          "name": {
+            "en": "English Language & Comprehension (Major Weightage)",
+            "hi": "अंग्रेजी भाषा एवं बोध (प्रमुख भार)"
+          },
+          "questions": 100,
+          "marks": 100,
+          "negativePerWrong": 0.25
+        }
+      ]
+    },
+    {
+      "stageId": "skill-test",
+      "stageName": {
+        "en": "Skill Test in Stenography",
+        "hi": "आशुलिपि कौशल परीक्षा"
+      },
+      "mode": "Dictation & Transcription on Computer",
+      "duration": "Dictation: 10 mins | Transcription: 40-65 mins based on grade/language",
+      "totalQuestions": 1,
+      "totalMarks": 0,
+      "negativeMarking": "Evaluation by percentage of transcription errors",
+      "qualifyingNature": true,
+      "sections": [
+        {
+          "name": {
+            "en": "Grade C Shorthand (100 WPM)",
+            "hi": "ग्रेड सी आशुलिपि (100 शब्द/मिनट)"
+          },
+          "questions": 1,
+          "marks": 0,
+          "negativePerWrong": 0
+        },
+        {
+          "name": {
+            "en": "Grade D Shorthand (80 WPM)",
+            "hi": "ग्रेड डी आशुलिपि (80 शब्द/मिनट)"
+          },
+          "questions": 1,
+          "marks": 0,
+          "negativePerWrong": 0
+        }
+      ]
+    }
+  ]
+}

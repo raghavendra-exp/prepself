@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Complete History of India — An Interactive Journey</title>
+<meta name="description" content="An interactive historical atlas of India from Prehistory to the present day, plus a dedicated Uttar Pradesh (UPPSC) track, a computed knowledge graph, a master timeline, themes, people, women's contributions and a UPSC revision mode.">
+<meta property="og:title" content="Complete History of India — An Interactive Journey">
+<meta property="og:description" content="80 interconnected pages spanning Prehistory to the present day, a dedicated Uttar Pradesh (UPPSC) track, and a computed knowledge graph linking every person and event across both.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="css/style.css">
+  <!-- Google Analytics Tracking (G-B0Z2G21W4F) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B0Z2G21W4F');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="site-nav" id="siteNav"></nav>
+
+<main id="main">
+
+  <header class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="glyph-row">॥ अ आ इ ई उ ऊ ए ऐ ओ औ ॥ अ आ इ ई उ ऊ ए ऐ ओ औ ॥</div>
+    </div>
+    <div class="wrap">
+      <span class="eyebrow">Interactive Historical Atlas · Digital Museum · UPSC Companion</span>
+      <h1>The <em>Complete History</em><br>of India</h1>
+      <p class="lede">One continuous, interconnected journey — from the Palaeolithic Age to India's present day — told through chronology, themes, people, women's contributions and exam-ready facts, alongside a dedicated Uttar Pradesh (UPPSC) track and a computed knowledge graph.</p>
+
+      <div class="quick-search" style="margin-bottom:30px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" id="qSearch" placeholder="Search a year, event, person, or theme — e.g. “Ashoka”, “1526”, “Bhakti”">
+        <div class="search-results" id="qSearchResults"></div>
+      </div>
+
+      <div class="hero-ctas">
+        <a href="timeline.html" class="btn btn-primary">Master Timeline</a>
+        <a href="art-culture.html" class="btn btn-primary" style="background:#b45309; border-color:#92400e;">🎨 Art &amp; Culture</a>
+        <a href="society.html" class="btn btn-primary" style="background:#0f766e; border-color:#115e59;">👥 Indian Society</a>
+        <a href="map.html" class="btn btn-primary" style="background:var(--accent); border-color:var(--accent-strong);">🗺️ Map Lab</a>
+        <a href="practice.html" class="btn btn-primary" style="background:var(--seal); border-color:var(--seal-strong);">🎯 UPSC Hub</a>
+        <a href="books.html" class="btn btn-outline">📚 15 Textbooks</a>
+        <a href="#periods" class="btn btn-outline">Browse Periods</a>
+        <a href="themes.html" class="btn btn-outline">Themes</a>
+      </div>
+
+      <div class="stat-strip reveal" id="statStrip">
+        <div class="stat"><span class="num">—</span><span class="lab">Periods Covered</span></div>
+        <div class="stat"><span class="num">—</span><span class="lab">Dated Events</span></div>
+        <div class="stat"><span class="num">—</span><span class="lab">Key Personalities</span></div>
+        <div class="stat"><span class="num">—</span><span class="lab">Women Profiled</span></div>
+        <div class="stat"><span class="num">2.5M BCE</span><span class="lab">Earliest Coverage</span></div>
+        <div class="stat"><span class="num">Present Day</span><span class="lab">Coverage Ends</span></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="kicker">The Continuous Journey</span>
+          <h2 class="mt0" id="journeyHeading">One story, many chapters</h2>
+        </div>
+        <p class="section-desc">Every period connects to the one before and after it. Follow the rail below, or jump straight to any era.</p>
+      </div>
+      <div class="journey-rail">
+        <div class="journey-track" id="journeyTrack"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="periods">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="kicker">All Periods</span>
+          <h2 class="mt0">Browse the full chronology</h2>
+        </div>
+      </div>
+      <div class="card-grid" id="periodGrid"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="kicker">Featured</span>
+          <h2 class="mt0">Turning points worth knowing</h2>
+        </div>
+        <a href="timeline.html" class="btn btn-ghost">See the full timeline →</a>
+      </div>
+      <div class="card-grid" id="featuredEvents"></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      <div class="tablet" style="padding:28px 30px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; margin-bottom:20px; border-left:4px solid var(--accent);">
+        <div>
+          <span class="t-cat cat-ancient" style="background:var(--accent-tint); color:var(--accent-strong); margin-bottom:10px;">Google Maps Engine &bull; GPS Calibrated</span>
+          <h3 style="margin-bottom:6px;">Historical Atlas &amp; Archaeological Map Lab</h3>
+          <p class="t-tag" style="margin:0; max-width:62ch;">Explore 44 calibrated archaeological sites with real GPS coordinates across Google Satellite Hybrid, Terrain, Roadmap, and Classical Cartography tiles. Includes 1-click external Google Maps and Google Earth 3D exploration.</p>
+        </div>
+        <a href="map.html" class="btn btn-primary" style="flex-shrink:0;">Explore Google Maps Atlas &rarr;</a>
+      </div>
+
+      <div class="tablet" style="padding:28px 30px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; margin-bottom:20px; border-left:4px solid var(--seal);">
+        <div>
+          <span class="t-cat cat-colonial" style="background:var(--seal-tint); color:var(--seal-strong); margin-bottom:10px;">540+ MCQs &bull; 215+ Mains &bull; Exam Simulator</span>
+          <h3 style="margin-bottom:6px;">UPSC Prelims &amp; Mains Practice Hub</h3>
+          <p class="t-tag" style="margin:0; max-width:62ch;">Practice with 540+ authentic Prelims MCQs and 215+ GS Paper-1 Mains model answer frameworks. Features timed test simulation, UPSC negative marking (+2.00/-0.66), instant elimination traps, and topper insights.</p>
+        </div>
+        <a href="practice.html" class="btn btn-primary" style="flex-shrink:0;">Start Practice Drills &rarr;</a>
+      </div>
+
+      <div class="tablet" style="padding:28px 30px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; margin-bottom:20px; border-left:4px solid #b45309;">
+        <div>
+          <span class="t-cat cat-ancient" style="background:#fef3c7; color:#b45309; margin-bottom:10px;">Art Forms &bull; Literature &bull; Architecture &bull; New Module</span>
+          <h3 style="margin-bottom:6px;">Indian Heritage &amp; Culture Hub</h3>
+          <p class="t-tag" style="margin:0; max-width:62ch;">Explore all salient aspects of Indian art forms (Paintings, Classical Dances, Music, Puppetry, Pottery, Theatre, Martial Arts, Sculptures), Classical &amp; Regional Literature, and Temple &amp; Cave Architecture from ancient to modern times. Grounded in Nitin Singhania, NCERT Fine Arts, and CCRT.</p>
+        </div>
+        <a href="art-culture.html" class="btn btn-primary" style="flex-shrink:0; background:#b45309; border-color:#92400e;">Explore Art &amp; Culture &rarr;</a>
+      </div>
+
+      <div class="tablet" style="padding:28px 30px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; margin-bottom:20px; border-left:4px solid #0f766e;">
+        <div>
+          <span class="t-cat cat-colonial" style="background:#ccfbf1; color:#0f766e; margin-bottom:10px;">Diversity &bull; Demography &bull; Social Issues &bull; New Module</span>
+          <h3 style="margin-bottom:6px;">Indian Society &amp; Social Issues Hub</h3>
+          <p class="t-tag" style="margin:0; max-width:62ch;">Master the full UPSC GS-1 Indian Society syllabus: Salient Features, Diversity &amp; Pluralism, Women's Organizations, Population Trends &amp; Aging, Poverty Lines &amp; Development, Urbanization Deficits &amp; Slums, Globalization Effects, Social Empowerment, Communalism, Regionalism, and Secularism &amp; UCC. Synthesized from Ram Ahuja and NCERT Sociology.</p>
+        </div>
+        <a href="society.html" class="btn btn-primary" style="flex-shrink:0; background:#0f766e; border-color:#115e59;">Explore Indian Society &rarr;</a>
+      </div>
+
+      <div class="tablet" style="padding:28px 30px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; margin-bottom:20px; border-left:4px solid var(--gold);">
+        <div>
+          <span class="t-cat cat-medieval" style="background:color-mix(in srgb, var(--gold) 20%, var(--bg)); color:var(--gold); margin-bottom:10px;">Canonical Foundations &bull; 15 Master Textbooks &amp; PDF Vault</span>
+          <h3 style="margin-bottom:6px;">The 15 Canonical Textbooks Hub &amp; PDF Vault</h3>
+          <p class="t-tag" style="margin:0; max-width:62ch;">Master Indian History, Art &amp; Culture, and Indian Society through 15 canonical textbooks: NCERTs (Class 6-12), R.S. Sharma, Upinder Singh, Satish Chandra, Spectrum, Bipan Chandra, Nitin Singhania, Norman Lowe, Ram Ahuja, Ramachandra Guha, and Sekhar Bandyopadhyay — complete with direct open-access PDF links.</p>
+        </div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <a href="books.html" class="btn btn-primary" style="flex-shrink:0;">15 Textbooks Hub &rarr;</a>
+          <a href="books.html#pdf-vault" class="btn btn-outline" style="flex-shrink:0;">📥 PDF Vault &rarr;</a>
+        </div>
+      </div>
+
+      <div class="tablet" style="padding:28px 30px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; margin-bottom:20px;">
+        <div>
+          <span class="t-cat cat-up" style="margin-bottom:10px;">For UPPSC Aspirants</span>
+          <h3 style="margin-bottom:6px;">A dedicated Uttar Pradesh history track</h3>
+          <p class="t-tag" style="margin:0; max-width:56ch;" id="upTeaserText">Exam-focused pages — prehistoric U.P. through the 21st century — cross-linked with this atlas's national chronology and knowledge graph.</p>
+        </div>
+        <a href="up-history.html" class="btn btn-primary" style="flex-shrink:0;">Explore UP History (UPPSC) &rarr;</a>
+      </div>
+      <div class="tablet" style="padding:28px 30px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
+        <div>
+          <span class="t-cat cat-world" style="margin-bottom:10px;">Knowledge Graph</span>
+          <h3 style="margin-bottom:6px;">Almost every name and event here is a doorway</h3>
+          <p class="t-tag" style="margin:0; max-width:56ch;">People, events and themes are cross-linked automatically — search any of them and see where else they appear across the whole atlas.</p>
+        </div>
+        <a href="graph.html" class="btn btn-primary" style="flex-shrink:0;">Open the Knowledge Graph →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="badge badge-women" style="margin-bottom:10px;">A dedicated thread</span>
+          <h2 class="mt0">Women in the Making of Indian History</h2>
+        </div>
+        <a href="women.html" class="btn btn-ghost">Open the full Women's History section →</a>
+      </div>
+      <p class="section-desc" style="margin-bottom:26px;">From the Rigvedic hymn-composers Lopamudra and Ghosha, to philosophers like Gargi Vachaknavi, ruling queens like Razia Sultan, and patrons like Sembiyan Mahadevi — women appear throughout every period in the source material, not as a footnote.</p>
+      <div class="card-grid" id="featuredWomen"></div>
+    </div>
+  </section>
+
+  <section class="section" id="upsc">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="kicker">Exam Preparation</span>
+          <h2 class="mt0">UPSC Mode</h2>
+        </div>
+      </div>
+      <div class="two-col">
+        <div>
+          <p style="font-size:1.05rem; color:var(--ink-soft);">Flip the <b>UPSC Mode</b> switch in the top navigation bar on any period page to surface Prelims facts and Mains analytical themes for that era — pulled directly from the source revision sheets.</p>
+          <button class="btn btn-primary" onclick="toggleUpsc(); document.getElementById('demoUpsc').scrollIntoView({behavior:'smooth'});">Try it — toggle UPSC Mode</button>
+        </div>
+        <div class="upsc-panel" id="demoUpsc">
+          <h4>What UPSC Mode surfaces</h4>
+          <ul>
+            <li>Important dates & founding facts</li>
+            <li>Key personalities & their roles</li>
+            <li>Causes, consequences & significance</li>
+            <li>Constitutional / administrative provisions where relevant</li>
+            <li>Quick-revision fact tables per period</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="siteFooter"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+<script>
+async function initHome(){
+  renderNav('index.html');
+  const dAll = await HistoryData.load();
+  const d = { periods: dAll.periods.filter(p => !p.region) };
+
+  // stats
+  const events = (await HistoryData.allEvents()).filter(e => !dAll.periods.find(p=>p.id===e.periodId)?.region);
+  const people = (await HistoryData.allPeople(false)).filter(p => !dAll.periods.find(x=>x.id===p.periodId)?.region);
+  const women = (await HistoryData.allPeople(true)).filter(p => p.isWomen && !dAll.periods.find(x=>x.id===p.periodId)?.region);
+  const stats = document.querySelectorAll('#statStrip .num');
+  stats[0].textContent = d.periods.length;
+  stats[1].textContent = events.length + '+';
+  stats[2].textContent = people.length + '+';
+  stats[3].textContent = women.length + '+';
+  document.getElementById('journeyHeading').textContent = `One story, ${d.periods.length} chapters`;
+
+  const upCount = dAll.periods.filter(p => p.region === 'up').length;
+  document.getElementById('upTeaserText').textContent =
+    `${upCount} exam-focused pages — prehistoric U.P. through the 21st century — cross-linked with this atlas's national chronology and knowledge graph.`;
+
+  // journey rail
+  document.getElementById('journeyTrack').innerHTML = d.periods.map(p => `
+    <a class="j-node" href="period.html?id=${p.id}">
+      <span class="j-range">${p.dateRange.split(' ')[0]}</span>
+      <span class="dot"></span>
+      <span class="j-title">${p.title}</span>
+    </a>`).join('');
+
+  // period grid
+  document.getElementById('periodGrid').innerHTML = d.periods.map(p => `
+    <a class="tablet reveal" href="period.html?id=${p.id}">
+      <span class="t-order">${String(p.order).padStart(2,'0')}</span>
+      <span class="t-cat cat-${p.category}">${p.category}</span>
+      <span class="t-range">${p.dateRange}</span>
+      <h3>${p.title}</h3>
+      <p class="t-tag">${p.tagline}</p>
+      <span class="t-arrow">Explore period →</span>
+    </a>`).join('');
+
+  // featured events — pick 6 spread across the chronology
+  const featured = events.filter((e,i) => i % Math.ceil(events.length/6) === 0).slice(0,6);
+  document.getElementById('featuredEvents').innerHTML = featured.map(e => `
+    <a href="period.html?id=${e.periodId}#event-${Search.slug(e.title)}" class="event-card reveal" style="text-decoration:none;">
+      <span class="event-year">${e.year}</span>
+      <h4>${e.title}</h4>
+      <p>${e.desc}</p>
+      <span class="theme-chip">${e.periodTitle}</span>
+    </a>`).join('');
+
+  // featured women
+  const featuredWomen = women.slice(0, 6);
+  document.getElementById('featuredWomen').innerHTML = featuredWomen.map(w => `
+    <a href="period.html?id=${w.periodId}#women" class="person-card women-card reveal" style="text-decoration:none; display:block;">
+      <span class="badge badge-women" style="margin-bottom:8px;">${w.periodTitle}</span>
+      <div class="p-name">${w.name}</div>
+      <div class="p-role">${w.role}</div>
+      <div class="p-note">${w.note}</div>
+    </a>`).join('');
+
+  wireQuickSearch('qSearch', 'qSearchResults');
+  renderBreadcrumb([{ label: 'Home', href: 'index.html' }, { label: 'All Subjects' }, { label: 'Atlas Overview' }]);
+  renderFooter();
+  initReveal();
+}
+initHome();
+</script>
+</body>
+</html>

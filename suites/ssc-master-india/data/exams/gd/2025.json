@@ -1,0 +1,144 @@
+{
+  "examId": "SSC-GD-2025",
+  "examCode": "gd",
+  "examName": {
+    "en": "SSC GD Constable",
+    "hi": "एसएससी जीडी कांस्टेबल"
+  },
+  "fullName": {
+    "en": "Constable (GD) in CAPFs, SSF and Rifleman (GD) in Assam Rifles Examination",
+    "hi": "केंद्रीय सशस्त्र पुलिस बलों (CAPFs), SSF में कांस्टेबल (GD) एवं असम राइफल्स में राइफलमैन (GD) परीक्षा"
+  },
+  "badge": "10th Matric • CAPFs & Armed Forces",
+  "year": 2025,
+  "duration": "60 minutes",
+  "questions": 80,
+  "marks": 160,
+  "negativeMarking": "0.25 marks per wrong answer",
+  "subjects": [
+    "General Intelligence & Reasoning",
+    "General Awareness",
+    "Quantitative Aptitude",
+    "General Hindi",
+    "English Language",
+    "Physical Preparation"
+  ],
+  "eligibility": {
+    "education": {
+      "en": "Matriculation or 10th Class Examination pass from a recognized Board/University.",
+      "hi": "मान्यता प्राप्त बोर्ड से 10वीं कक्षा (मैट्रिक) उत्तीर्ण।"
+    },
+    "ageMin": 18,
+    "ageMax": 23,
+    "ageRelaxation": {
+      "en": "SC/ST: 5 years, OBC: 3 years, Ex-Servicemen: 3 years after deduction of military service.",
+      "hi": "एससी/एसटी: 5 वर्ष, ओबीसी: 3 वर्ष, भूतपूर्व सैनिक: 3 वर्ष।"
+    },
+    "physical": {
+      "en": "Height: Male 170 cm, Female 157 cm. Chest (Male): 80 cm unexpanded with 5 cm expansion. Running (PET): Male: 5 km in 24 mins; Female: 1.6 km in 8.5 mins.",
+      "hi": "ऊंचाई: पुरुष 170 सेमी, महिला 157 सेमी। सीना (पुरुष): 80 सेमी (5 सेमी फुलाव)। दौड़ (PET): पुरुष: 24 मिनट में 5 किमी; महिला: 8.5 मिनट में 1.6 किमी।"
+    },
+    "esmProvisions": {
+      "en": "10% vacancies reserved horizontally for Ex-Servicemen. ESM exempted from PET.",
+      "hi": "भूतपूर्व सैनिकों हेतु 10% रिक्तियां क्षैतिज आरक्षित। पीईटी से छूट प्राप्त।"
+    }
+  },
+  "officialNotification": {
+    "notificationNumber": "F. No. HQ-PPI03/14/2026-PP_4",
+    "notificationDate": "2025-06-15",
+    "applicationStart": "2026-08-27",
+    "applicationEnd": "2026-10-05",
+    "examDate": "September 2025",
+    "url": "https://ssc.gov.in",
+    "tentativeVacancies": 39481,
+    "source": "Staff Selection Commission Notification for Constable (GD)"
+  },
+  "lastVerified": "2026-09-28",
+  "postsOverview": "Constable (General Duty) in BSF, CISF, CRPF, SSB, ITBP, Assam Rifles (AR), Secretariat Security Force (SSF).",
+  "stages": [
+    {
+      "stageId": "cbe",
+      "stageName": {
+        "en": "Computer Based Examination (CBE)",
+        "hi": "कंप्यूटर आधारित परीक्षा (CBE)"
+      },
+      "mode": "Online Objective Test (Bilingual + 13 Regional Languages)",
+      "duration": "60 minutes",
+      "totalQuestions": 80,
+      "totalMarks": 160,
+      "negativeMarking": "0.25 marks per wrong answer",
+      "qualifyingNature": false,
+      "sections": [
+        {
+          "name": {
+            "en": "Part-A: General Intelligence and Reasoning",
+            "hi": "भाग-क: सामान्य बुद्धिमत्ता एवं तर्कशक्ति"
+          },
+          "questions": 20,
+          "marks": 40,
+          "negativePerWrong": 0.25
+        },
+        {
+          "name": {
+            "en": "Part-B: General Knowledge and General Awareness",
+            "hi": "भाग-ख: सामान्य ज्ञान एवं जागरूकता"
+          },
+          "questions": 20,
+          "marks": 40,
+          "negativePerWrong": 0.25
+        },
+        {
+          "name": {
+            "en": "Part-C: Elementary Mathematics",
+            "hi": "भाग-ग: प्रारंभिक गणित"
+          },
+          "questions": 20,
+          "marks": 40,
+          "negativePerWrong": 0.25
+        },
+        {
+          "name": {
+            "en": "Part-D: English OR Hindi (Candidate Choice)",
+            "hi": "भाग-घ: अंग्रेजी अथवा हिंदी (वैकल्पिक)"
+          },
+          "questions": 20,
+          "marks": 40,
+          "negativePerWrong": 0.25
+        }
+      ]
+    },
+    {
+      "stageId": "pet-pst",
+      "stageName": {
+        "en": "Physical Efficiency Test (PET) & PST",
+        "hi": "शारीरिक दक्षता एवं मानक परीक्षण"
+      },
+      "mode": "Physical Running & Measurement by CAPF Board",
+      "duration": "As per event specifications",
+      "totalQuestions": 0,
+      "totalMarks": 0,
+      "negativeMarking": "None (Qualifying Only)",
+      "qualifyingNature": true,
+      "sections": [
+        {
+          "name": {
+            "en": "Male Running: 5 km in 24 Minutes",
+            "hi": "पुरुष दौड़: 24 मिनट में 5 किमी"
+          },
+          "questions": 1,
+          "marks": 0,
+          "negativePerWrong": 0
+        },
+        {
+          "name": {
+            "en": "Female Running: 1.6 km in 8.5 Minutes",
+            "hi": "महिला दौड़: 8.5 मिनट में 1.6 किमी"
+          },
+          "questions": 1,
+          "marks": 0,
+          "negativePerWrong": 0
+        }
+      ]
+    }
+  ]
+}

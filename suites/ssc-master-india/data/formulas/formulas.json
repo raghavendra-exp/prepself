@@ -1,0 +1,114 @@
+[
+  {
+    "id": "formula-quant-01",
+    "topic": "Percentage & Successive Change",
+    "subject": "Quantitative Aptitude",
+    "title": {
+      "en": "Successive Percentage Change Formula",
+      "hi": "क्रमागत प्रतिशत परिवर्तन सूत्र"
+    },
+    "formula": "Net Change % = a + b + (a × b) / 100",
+    "notes": {
+      "en": "Use positive values for increases and negative values for discounts/decreases. Works for two successive percentage variations.",
+      "hi": "वृद्धि हेतु धनात्मक और कमी/छूट हेतु ऋणात्मक मान प्रयोग करें। दो क्रमागत प्रतिशत परिवर्तनों पर लागू होता है।"
+    },
+    "example": {
+      "en": "If length of a rectangle increases by 20% and breadth decreases by 10%: Net Area Change = 20 - 10 + (20 × -10)/100 = 10 - 2 = +8% increase.",
+      "hi": "यदि आयत की लंबाई में 20% वृद्धि और चौड़ाई में 10% कमी होती है: कुल क्षेत्रफल परिवर्तन = 20 - 10 + (20 × -10)/100 = +8% वृद्धि।"
+    },
+    "trick": {
+      "en": "For equal percentage increase and decrease of x%, there is always an overall loss of (x²/100)%.",
+      "hi": "यदि किसी मान में x% की वृद्धि और फिर x% की कमी की जाए, तो सदैव कुल (x²/100)% की हानि होती है।"
+    }
+  },
+  {
+    "id": "formula-quant-02",
+    "topic": "Profit, Loss & Discount",
+    "subject": "Quantitative Aptitude",
+    "title": {
+      "en": "Marked Price to Cost Price Ratio with Discount and Profit",
+      "hi": "अंकित मूल्य एवं क्रय मूल्य का सीधा अनुपात"
+    },
+    "formula": "MP / CP = (100 + Profit%) / (100 - Discount%)",
+    "notes": {
+      "en": "Most powerful time-saver for SSC CGL & CHSL problems involving Cost Price, Marked Price, Discount, and Net Profit.",
+      "hi": "क्रय मूल्य, अंकित मूल्य, छूट और लाभ वाले जटिल प्रश्नों को कुछ ही सेकंड में हल करने वाला अत्यंत उपयोगी सूत्र।"
+    },
+    "example": {
+      "en": "A shopkeeper allows 10% discount and still makes 20% profit. MP/CP = (100 + 20) / (100 - 10) = 120 / 90 = 4/3. If CP = 300, MP = 400.",
+      "hi": "एक दुकानदार 10% छूट देकर 20% लाभ कमाता है: MP/CP = 120/90 = 4/3। यदि CP = 300 है तो MP = 400 रुपये।"
+    }
+  },
+  {
+    "id": "formula-quant-03",
+    "topic": "Compound Interest",
+    "subject": "Quantitative Aptitude",
+    "title": {
+      "en": "Difference Between CI and SI for 2 and 3 Years",
+      "hi": "2 वर्ष एवं 3 वर्ष हेतु चक्रवृद्धि व साधारण ब्याज का अंतर"
+    },
+    "formula": "2 Years: Diff = P × (R / 100)²  |  3 Years: Diff = P × (R / 100)² × (3 + R / 100)",
+    "notes": {
+      "en": "Appears in virtually every SSC shift. Memorizing this eliminates the need to calculate complete 3-year CI tables.",
+      "hi": "एसएससी की प्रत्येक पाली में आने वाला सर्वप्रमुख सूत्र।"
+    },
+    "example": {
+      "en": "If P = 10,000, R = 10%, 2 Years Diff = 10000 × (10/100)² = 10000 × (1/100) = Rs 100.",
+      "hi": "यदि मूलधन 10,000 रु, दर 10%, 2 वर्ष का अंतर = 10,000 × (1/100) = 100 रुपये।"
+    }
+  },
+  {
+    "id": "formula-quant-04",
+    "topic": "Time, Speed and Distance",
+    "subject": "Quantitative Aptitude",
+    "title": {
+      "en": "Average Speed & Early-Late Travel Formula",
+      "hi": "औसत गति एवं समय अंतर सूत्र"
+    },
+    "formula": "Avg Speed (Equal distance) = 2xy / (x + y)  |  Distance = [S₁ × S₂ / |S₁ - S₂|] × (Total Time Difference in hours)",
+    "notes": {
+      "en": "When a person walks to office at S₁ and is late by t₁, and walks at S₂ and is early by t₂, use the second formula directly.",
+      "hi": "जब कोई व्यक्ति S₁ गति से t₁ मिनट देर और S₂ गति से t₂ मिनट पहले पहुंचे, तो सीधे दूसरे सूत्र का प्रयोग करें।"
+    },
+    "example": {
+      "en": "Speed 4 km/h is 10 min late; Speed 5 km/h is 5 min early. Total time diff = 15 min = 1/4 hr. Distance = (4 × 5 / 1) × (1/4) = 5 km.",
+      "hi": "4 किमी/घंटे से 10 मिनट देर, 5 किमी/घंटे से 5 मिनट पहले। समयांतर 15 मिनट = 1/4 घंटा। दूरी = (4×5/1) × (1/4) = 5 किमी।"
+    }
+  },
+  {
+    "id": "formula-quant-05",
+    "topic": "Algebra",
+    "subject": "Quantitative Aptitude",
+    "title": {
+      "en": "Standard Identity of x + 1/x",
+      "hi": "x + 1/x के मानक सर्वसमिका सूत्र"
+    },
+    "formula": "If x + 1/x = k, then: x² + 1/x² = k² - 2, and x³ + 1/x³ = k³ - 3k",
+    "notes": {
+      "en": "If x - 1/x = k, then: x² + 1/x² = k² + 2, and x³ - 1/x³ = k³ + 3k.",
+      "hi": "यदि x - 1/x = k है, तो x² + 1/x² = k² + 2 और x³ - 1/x³ = k³ + 3k होता है।"
+    },
+    "example": {
+      "en": "If x + 1/x = 3, then x³ + 1/x³ = 3³ - 3(3) = 27 - 9 = 18.",
+      "hi": "यदि x + 1/x = 3 है, तो x³ + 1/x³ = 27 - 9 = 18।"
+    }
+  },
+  {
+    "id": "formula-quant-06",
+    "topic": "Geometry & Mensuration",
+    "subject": "Quantitative Aptitude",
+    "title": {
+      "en": "Inradius and Circumradius of Right Angled & Equilateral Triangle",
+      "hi": "समकोण एवं समबाहु त्रिभुज की अंत:त्रिज्या व परित्रिज्या"
+    },
+    "formula": "Right Triangle: r = (P + B - H) / 2, R = H / 2  |  Equilateral Triangle: r = a / (2√3), R = a / √3",
+    "notes": {
+      "en": "Ratio of circumradius to inradius in an equilateral triangle is always R : r = 2 : 1.",
+      "hi": "समबाहु त्रिभुज में परित्रिज्या और अंत:त्रिज्या का अनुपात सदैव R : r = 2 : 1 होता है।"
+    },
+    "example": {
+      "en": "Right triangle with sides 6, 8, 10. r = (6 + 8 - 10) / 2 = 4 / 2 = 2 cm; R = 10 / 2 = 5 cm.",
+      "hi": "भुजाएं 6, 8, 10 वाला समकोण त्रिभुज: अंत:त्रिज्या = (6+8-10)/2 = 2 सेमी, परित्रिज्या = 10/2 = 5 सेमी।"
+    }
+  }
+]

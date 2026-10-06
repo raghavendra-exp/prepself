@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Themes — Complete History of India</title>
+<link rel="stylesheet" href="css/style.css">
+  <!-- Google Analytics Tracking (G-B0Z2G21W4F) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B0Z2G21W4F');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="site-nav" id="siteNav"></nav>
+<main id="main">
+  <div class="wrap"><div class="breadcrumb" id="breadcrumb"></div></div>
+  <header class="section" style="padding-bottom:0;">
+    <div class="wrap">
+      <span class="eyebrow">Thematic Exploration</span>
+      <h1 style="font-size:clamp(2rem,4.4vw,3rem);">Explore India's History by Theme</h1>
+      <p class="section-desc" style="font-size:1.05rem;">Polity, war &amp; security, religion, economy, society, women's history, art &amp; culture, science &amp; technology and foreign relations — traced across every period.</p>
+    </div>
+  </header>
+  <section class="section">
+    <div class="wrap" id="themesRoot"><p class="loading-note">Loading themes…</p></div>
+  </section>
+</main>
+<footer id="siteFooter"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+<script>
+async function initThemes(){
+  renderNav('themes.html');
+  renderBreadcrumb([{label:'Home',href:'index.html'},{label:'Themes'}]);
+  const d = await HistoryData.load();
+  const byTheme = {};
+  d.periods.forEach(p => (p.themes||[]).forEach(t => {
+    byTheme[t] = byTheme[t] || [];
+    byTheme[t].push(p);
+  }));
+  const root = document.getElementById('themesRoot');
+  root.innerHTML = Object.entries(byTheme).map(([t, periods]) => `
+    <div id="${t}" style="margin-bottom:44px; scroll-margin-top:90px;">
+      <div class="section-head">
+        <div><span class="kicker">Theme</span><h2 class="mt0">${HistoryData.THEME_LABELS[t]||t}</h2></div>
+        <span style="font-family:var(--font-mono); font-size:.78rem; color:var(--ink-faint);">${periods.length} period${periods.length>1?'s':''}</span>
+      </div>
+      <div class="card-grid">
+        ${periods.map(p => `
+          <a class="tablet" href="period.html?id=${p.id}">
+            <span class="t-cat cat-${p.category}">${p.category}</span>
+            <span class="t-range">${p.dateRange}</span>
+            <h3>${p.title}</h3>
+            <p class="t-tag">${p.tagline}</p>
+            <span class="t-arrow">Explore →</span>
+          </a>`).join('')}
+      </div>
+    </div>`).join('');
+  renderFooter();
+  if (location.hash) { const el = document.querySelector(location.hash); if (el) setTimeout(()=>el.scrollIntoView({behavior:'smooth'}), 200); }
+}
+initThemes();
+</script>
+</body>
+</html>

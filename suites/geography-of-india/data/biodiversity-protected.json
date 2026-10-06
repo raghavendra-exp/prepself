@@ -1,0 +1,176 @@
+{
+  "biosphereReserves": [
+    {
+      "name": "Nilgiri",
+      "state": "Tamil Nadu, Kerala, Karnataka",
+      "year": 1986,
+      "mab": true,
+      "keySpecies": "Nilgiri Tahr, Lion-tailed Macaque"
+    },
+    {
+      "name": "Nanda Devi",
+      "state": "Uttarakhand",
+      "year": 1988,
+      "mab": true,
+      "keySpecies": "Snow Leopard, Himalayan Musk Deer"
+    },
+    {
+      "name": "Gulf of Mannar",
+      "state": "Tamil Nadu",
+      "year": 1989,
+      "mab": true,
+      "keySpecies": "Dugong (Sea Cow), Coral Reefs"
+    },
+    {
+      "name": "Nokrek",
+      "state": "Meghalaya (Garo Hills)",
+      "year": 1988,
+      "mab": true,
+      "keySpecies": "Red Panda, Asian Elephant, Citrus indica (wild orange)"
+    },
+    {
+      "name": "Sundarbans",
+      "state": "West Bengal",
+      "year": 1989,
+      "mab": true,
+      "keySpecies": "Royal Bengal Tiger, Estuarine Crocodile"
+    },
+    {
+      "name": "Manas",
+      "state": "Assam",
+      "year": 1989,
+      "mab": false,
+      "keySpecies": "Golden Langur, Pygmy Hog, Hispid Hare"
+    },
+    {
+      "name": "Great Nicobar",
+      "state": "Andaman & Nicobar Islands",
+      "year": 1989,
+      "mab": true,
+      "keySpecies": "Saltwater Crocodile, Nicobar Megapode"
+    },
+    {
+      "name": "Similipal",
+      "state": "Odisha",
+      "year": 1994,
+      "mab": true,
+      "keySpecies": "Tiger, Elephant, Gaur, Chausingha"
+    },
+    {
+      "name": "Dibru-Saikhowa",
+      "state": "Assam",
+      "year": 1997,
+      "mab": false,
+      "keySpecies": "White-winged Wood Duck, Feral Horses (smallest BR in India, 765 sq km)"
+    },
+    {
+      "name": "Dehang-Debang",
+      "state": "Arunachal Pradesh",
+      "year": 1998,
+      "mab": false,
+      "keySpecies": "Mishmi Takin, Musk Deer"
+    },
+    {
+      "name": "Pachmarhi",
+      "state": "Madhya Pradesh",
+      "year": 1999,
+      "mab": true,
+      "keySpecies": "Giant Flying Squirrel, Chinkara"
+    },
+    {
+      "name": "Khangchendzonga",
+      "state": "Sikkim",
+      "year": 2000,
+      "mab": true,
+      "keySpecies": "Snow Leopard, Red Panda, Tibetan Sheep"
+    },
+    {
+      "name": "Agasthyamalai",
+      "state": "Kerala, Tamil Nadu",
+      "year": 2001,
+      "mab": true,
+      "keySpecies": "Nilgiri Tahr, Asian Elephant, Kani tribe medicinal plants"
+    },
+    {
+      "name": "Achanakmar-Amarkantak",
+      "state": "MP, Chhattisgarh",
+      "year": 2005,
+      "mab": true,
+      "keySpecies": "Four-horned Antelope, Indian Wild Dog (Dhole)"
+    },
+    {
+      "name": "Great Rann of Kutch",
+      "state": "Gujarat",
+      "year": 2008,
+      "mab": false,
+      "keySpecies": "Indian Wild Ass (Khur), Greater Flamingo (largest BR in India, 12,454 sq km)"
+    },
+    {
+      "name": "Cold Desert",
+      "state": "Himachal Pradesh (Spiti/Pin Valley)",
+      "year": 2009,
+      "mab": false,
+      "keySpecies": "Snow Leopard, Tibetan Gazelle, Woolly Hare"
+    },
+    {
+      "name": "Seshachalam Hills",
+      "state": "Andhra Pradesh (Tirupati)",
+      "year": 2010,
+      "mab": false,
+      "keySpecies": "Slender Loris, Red Sanders (Pterocarpus santalinus)"
+    },
+    {
+      "name": "Panna",
+      "state": "Madhya Pradesh",
+      "year": 2011,
+      "mab": true,
+      "keySpecies": "Tiger, Chital, Chinkara, Sambhar, Sloth Bear"
+    }
+  ],
+  "mabSummary": "12 of the 18 Biosphere Reserves in India are inscribed on UNESCO's World Network of Biosphere Reserves (WNBR) under the Man and the Biosphere (MAB) programme.",
+  "ramsarWetlandsSummary": {
+    "totalSites": 85,
+    "totalAreaHa": "1.35 million hectares",
+    "leadingState": "Tamil Nadu leads with 18 Ramsar sites, followed by Uttar Pradesh with 10 sites.",
+    "keySites": [
+      {
+        "name": "Sundarban Wetland",
+        "state": "West Bengal",
+        "areaSqKm": 4230,
+        "feature": "Largest Ramsar Site in India"
+      },
+      {
+        "name": "Vembanad-Kol Wetland",
+        "state": "Kerala",
+        "areaSqKm": 1512,
+        "feature": "Longest freshwater lake/wetland in India"
+      },
+      {
+        "name": "Chilika Lake",
+        "state": "Odisha",
+        "areaSqKm": 1165,
+        "feature": "First Ramsar Site of India (designated 1981 alongside Keoladeo NP); largest coastal lagoon"
+      },
+      {
+        "name": "Keoladeo National Park",
+        "state": "Rajasthan (Bharatpur)",
+        "feature": "Montreux Record site due to ecological changes; wintering ground for migratory Siberian Cranes"
+      },
+      {
+        "name": "Loktak Lake",
+        "state": "Manipur",
+        "feature": "Montreux Record site; famous for floating Phumdis and Keibul Lamjao NP (Sangai brow-antlered deer)"
+      },
+      {
+        "name": "Renuka Wetland",
+        "state": "Himachal Pradesh",
+        "feature": "Smallest Ramsar Site in India (area ~0.2 sq km)"
+      }
+    ]
+  },
+  "tigerReservesSummary": {
+    "totalReserves": 55,
+    "topStates": "Madhya Pradesh (7 reserves — Tiger State of India with 785 tigers in 2022 Census), Karnataka (5 reserves with 563 tigers), Uttarakhand (Corbett holds highest tiger density in world).",
+    "latestAdditions": "Veerangana Durgavati (MP, 54th), Dholpur-Karauli (Rajasthan, 55th)."
+  }
+}

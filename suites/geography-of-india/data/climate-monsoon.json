@@ -1,0 +1,140 @@
+{
+  "overview": {
+    "type": "Tropical Monsoon Climate (Köppen Amw / Cwg / Aw)",
+    "drivers": [
+      "Differential heating of land (Indian subcontinent) and sea (Indian Ocean)",
+      "Thermal low over the Tibetan Plateau acting as an elevated heat engine (Tibetan Anticyclone)",
+      "Northward seasonal shift of the Inter-Tropical Convergence Zone (ITCZ) over the Indo-Gangetic plain (Monsoon Trough)",
+      "High-pressure cell over the South Indian Ocean near Madagascar (Mascarene High)",
+      "Low-level cross-equatorial Somali Jet (Findlater Jet) transporting immense moisture from East Africa into the Arabian Sea",
+      "Subtropical Westerly Jet Stream withdrawal from north of Himalayas & appearance of Tropical Easterly Jet (TEJ) over peninsular India (~14°N)",
+      "ENSO (El Niño Southern Oscillation) & Indian Ocean Dipole (IOD) teleconnections"
+    ]
+  },
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Intense Summer Continental Heating",
+      "hindi": "ग्रीष्मकालीन तापीय तापन",
+      "period": "April – May",
+      "physics": "The apparent northward movement of the sun towards the Tropic of Cancer (23.5°N) causes solar insolation to peak over northern and northwestern India, pushing daytime temperatures >45°C in the Thar Desert and central plains. The Tibetan Plateau heats up rapidly due to its high altitude and thin atmosphere.",
+      "phenomena": "Creation of intense thermal low pressure (<996 hPa) centered over Multan and the Thar desert. Generates localized pre-monsoon convective storms: Loo (hot dry winds in Northern Plains), Kalbaishakhi / Nor'westers (severe thunderstorms in Bengal/Assam aiding tea & jute), Mango Showers in Kerala, and Cherry Blossom Showers in Karnataka coffee estates."
+    },
+    {
+      "stage": 2,
+      "name": "ITCZ Migration & Pressure Gradient Reversal",
+      "hindi": "आईटीसीजेड (ITCZ) का उत्तर की ओर विस्थापन",
+      "period": "Late May",
+      "physics": "The equatorial trough of low pressure (ITCZ) migrates from the equator to 20°–25°N over the Gangetic plain, becoming the 'Monsoon Trough'. Simultaneously, a persistent high-pressure cell develops over the southern Indian Ocean near Madagascar (Mascarene High, ~30°S).",
+      "phenomena": "Creates an immense trans-hemispheric barometric pressure gradient between the Mascarene High and the Northwest Indian Thermal Low."
+    },
+    {
+      "stage": 3,
+      "name": "Cross-Equatorial Flow & Somali Jet Trigger",
+      "hindi": "विषुवतीय पवन एवं सोमाली जेट प्रवाह",
+      "period": "Late May – Early June",
+      "physics": "Southeast Trade Winds in the Southern Hemisphere blow towards the equator, cross it off the coast of East Africa, and are deflected to the right by Coriolis force, becoming southwesterly winds. This flow is concentrated into a high-speed low-level atmospheric jet: the Somali Low-Level Jet (Findlater Jet).",
+      "phenomena": "The Somali Jet sweeps northeastward across the Arabian Sea, sucking massive moisture from the warm sea surface and hurtling it directly towards the west coast of India."
+    },
+    {
+      "stage": 4,
+      "name": "Onset / 'Monsoon Burst' over Kerala",
+      "hindi": "केरल तट पर मानसून का प्रस्फोट (Burst)",
+      "period": "June 1 (Standard Onset Date)",
+      "physics": "The Subtropical Westerly Jet Stream suddenly shifts north of the Tibetan Plateau. Concurrently, the Tropical Easterly Jet (TEJ) establishes itself in the upper troposphere (150–100 hPa) at ~14°N over Peninsular India, creating upper-air divergence that triggers rapid ascending air motion.",
+      "phenomena": "Sudden onset of persistent, heavy convective rainfall accompanied by thunder and lightning along the Malabar Coast of Kerala, termed the 'Burst of the Monsoon'."
+    },
+    {
+      "stage": 5,
+      "name": "Bifurcation into Arabian Sea & Bay of Bengal Branches",
+      "hindi": "अरब सागर एवं बंगाल की खाड़ी शाखाओं में विभाजन",
+      "period": "June 1 – June 15",
+      "physics": "The tapering Peninsular landmass splits the incoming moist Southwest Monsoon current into two distinct branches: the Arabian Sea Branch and the Bay of Bengal Branch.",
+      "phenomena": "Arabian Sea Branch strikes the steep western face of the Western Ghats (orographic rainfall >250–400 cm), creating a stark rain-shadow (<60 cm) across the Deccan plateau (Marathwada, North Karnataka). The Bay of Bengal branch sweeps towards the Myanmar and Northeast hills, deflected westward along the Himalayan foothills towards Delhi."
+    },
+    {
+      "stage": 6,
+      "name": "Full Country Coverage & Orographic Funneling",
+      "hindi": "अखिल भारतीय विस्तार एवं चेरापूंजी संकेंद्रण",
+      "period": "June 15 – July 15",
+      "physics": "By mid-July, both branches merge over Punjab and Haryana. The Bay of Bengal branch encounters the funnel-shaped Garo-Khasi-Jaintia hill alignment in Meghalaya, forcing rapid orographic ascent.",
+      "phenomena": "Mawsynram and Cherrapunji receive world-record annual rainfall (>11,000 mm). The northern plains experience progressive westward decline in rainfall (Kolkata ~150 cm -> Patna ~100 cm -> Prayagraj ~90 cm -> Delhi ~60 cm -> Jaisalmer <15 cm)."
+    },
+    {
+      "stage": 7,
+      "name": "Monsoon Breaks & Trough Oscillations",
+      "hindi": "मानसून विच्छेद (Break in Monsoon)",
+      "period": "July – August",
+      "physics": "During the monsoon season, there are periods of dry spells called 'Breaks' lasting 1 to 2 weeks. This occurs when the Monsoon Trough shifts northwards close to the Himalayan foothills, or when tropical depressions fail to form in the Bay of Bengal.",
+      "phenomena": "Rainfall ceases abruptly over the central and northern plains, while heavy downpours pound the Himalayan catchments, causing devastating flash floods in Bihar, Bengal, and Assam while the plains suffer dry spells."
+    },
+    {
+      "stage": 8,
+      "name": "Retreating (Northeast) Monsoon & October Heat",
+      "hindi": "मानसून का निवर्तन एवं उत्तर-पूर्वी मानसून",
+      "period": "September – December",
+      "physics": "As the sun retreats southwards towards the Tropic of Capricorn, the land cools rapidly and high pressure establishes over northern India. The monsoon withdraws from Rajasthan by September 1, Delhi by mid-September, and South India by December.",
+      "phenomena": "Clear skies and high temperatures with moist soil produce oppressive weather called 'October Heat'. As retreating winds cross the Bay of Bengal, they pick up moisture and strike the Coromandel Coast (Tamil Nadu and coastal AP), providing their primary annual rainfall between October and December."
+    }
+  ],
+  "teleconnections": [
+    {
+      "name": "El Niño Southern Oscillation (ENSO)",
+      "impact": "Warm phase (El Niño) in the central/eastern equatorial Pacific weakens the Walker Circulation and Mascarene High, historically correlating with drought or deficit monsoon in ~60% of cases. Cold phase (La Niña) typically enhances monsoon rains."
+    },
+    {
+      "name": "Indian Ocean Dipole (IOD)",
+      "impact": "Positive IOD (warmer Western Indian Ocean near Arabian Sea, cooler eastern Indian Ocean near Sumatra) strengthens the monsoon and can offset an El Niño impact. Negative IOD dampens monsoon moisture flow."
+    },
+    {
+      "name": "Madden-Julian Oscillation (MJO)",
+      "impact": "An eastward-moving pulse of cloud and rainfall traversing the global tropics every 30–60 days. When active over the Indian Ocean, it triggers heavy active spells in the monsoon."
+    },
+    {
+      "name": "Western Disturbances",
+      "impact": "Extra-tropical temperate shallow depressions originating over the Mediterranean and Caspian seas, steered into northwest India by the Subtropical Westerly Jet stream from December to March. Provide crucial 5–10 cm winter rainfall for Rabi wheat in Punjab, Haryana, and Western UP, and snowfall in Western Himalayas."
+    }
+  ],
+  "koppenClassification": [
+    {
+      "code": "Amw",
+      "name": "Tropical Monsoon (short dry winter)",
+      "region": "Western coastal plain (Malabar, Konkan), parts of Tripura"
+    },
+    {
+      "code": "Aw",
+      "name": "Tropical Savanna",
+      "region": "Most of the Peninsular Plateau, south of Tropic of Cancer"
+    },
+    {
+      "code": "As",
+      "name": "Tropical with dry summer",
+      "region": "Coromandel Coast of Tamil Nadu (winter rainfall)"
+    },
+    {
+      "code": "BShw",
+      "name": "Semi-Arid Steppe",
+      "region": "Rain-shadow belt east of Western Ghats, parts of Rajasthan/Gujarat/Haryana"
+    },
+    {
+      "code": "BWhw",
+      "name": "Hot Desert",
+      "region": "Extreme western Rajasthan (Thar/Marusthali)"
+    },
+    {
+      "code": "Cwg",
+      "name": "Monsoon with dry winter (Gangetic type)",
+      "region": "Northern Plains, Ganga basin, Assam valley"
+    },
+    {
+      "code": "Dfc",
+      "name": "Cold humid winter with short summer",
+      "region": "Arunachal Pradesh, Sikkim"
+    },
+    {
+      "code": "E",
+      "name": "Polar / Tundra",
+      "region": "Higher reaches of Jammu & Kashmir, Ladakh, Himachal, Uttarakhand"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "short_name": "LawEntranceMaster",
+  "name": "Law Entrance Master India - CLAT & AILET Prep",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%234f46e5'><path d='M12 3v18M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2M7 21h10'/></svg>",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "display": "standalone",
+  "orientation": "portrait"
+}

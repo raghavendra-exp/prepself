@@ -1,0 +1,162 @@
+{
+  "module": "Programming Basics, Languages & Data Structures",
+  "version": "2026.1",
+  "sections": [
+    {
+      "id": "language-generations",
+      "title": "Generations of Programming Languages",
+      "hindiTitle": "प्रोग्रामिंग भाषाओं की पीढ़ियाँ",
+      "generations": [
+        {
+          "gen": "1GL (First Generation)",
+          "type": "Machine Language",
+          "desc": "Raw binary code (0s and 1s) directly executed by CPU hardware. Machine dependent, hardest to program.",
+          "example": "Direct machine instructions"
+        },
+        {
+          "gen": "2GL (Second Generation)",
+          "type": "Assembly Language",
+          "desc": "Uses human-readable alphanumeric Mnemonics (e.g., ADD, MOV, SUB, JMP). Translated into machine code by an Assembler.",
+          "example": "x86 Assembly, ARM Assembly"
+        },
+        {
+          "gen": "3GL (Third Generation)",
+          "type": "High-Level Procedural Languages",
+          "desc": "Machine-independent languages using English-like syntax and mathematical notations. Translated via Compilers or Interpreters.",
+          "example": "C, C++, Java, Fortran, COBOL, BASIC, Pascal"
+        },
+        {
+          "gen": "4GL (Fourth Generation)",
+          "type": "Declarative & Query Languages",
+          "desc": "Non-procedural languages focusing on 'WHAT to do' rather than 'HOW to do it'. Closer to natural language.",
+          "example": "SQL, PL/SQL, MATLAB, ABAP"
+        },
+        {
+          "gen": "5GL (Fifth Generation)",
+          "type": "AI, Logic & Constraint-based",
+          "desc": "Languages designed for artificial intelligence, expert systems, and problem-solving without programmer algorithm specifications.",
+          "example": "Prolog, LISP, Mercury"
+        }
+      ]
+    },
+    {
+      "id": "translators",
+      "title": "Language Translators: Compiler vs Interpreter vs Assembler",
+      "hindiTitle": "भाषा अनुवादक: कंपाइलर बनाम इंटरप्रेटर बनाम असेंबलर",
+      "translators": [
+        {
+          "name": "Compiler",
+          "execution": "Translates entire source code into machine/object code (.obj / .exe) in ONE single pass before execution.",
+          "speed": "Fast runtime execution once compiled.",
+          "errorReporting": "Displays all errors and warnings together after scanning entire file.",
+          "examples": "C, C++, Rust, Go, Fortran."
+        },
+        {
+          "name": "Interpreter",
+          "execution": "Translates and executes source code LINE BY LINE. Does not generate intermediate standalone executable file.",
+          "speed": "Slower runtime execution compared to compiled code.",
+          "errorReporting": "Stops execution immediately at the very first syntax error encountered.",
+          "examples": "Python, JavaScript, Ruby, PHP, Perl."
+        },
+        {
+          "name": "Assembler",
+          "execution": "Translates low-level Assembly mnemonic programs into raw Machine Language object code.",
+          "examples": "NASM, MASM, TASM."
+        },
+        {
+          "name": "Hybrid (JIT / Bytecode)",
+          "execution": "Compiles source code into architecture-neutral intermediate Bytecode (.class file), which is interpreted/JIT compiled by a Virtual Machine (JVM / CLR).",
+          "examples": "Java (javac compiles to bytecode, JVM executes), C# (.NET CLR)."
+        }
+      ]
+    },
+    {
+      "id": "oop-concepts",
+      "title": "Object-Oriented Programming (OOP) Pillars",
+      "hindiTitle": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग के चार स्तंभ",
+      "pillars": [
+        {
+          "name": "Class & Object",
+          "desc": "A Class is a blueprint or user-defined prototype from which individual Objects (instances having state and behavior) are created."
+        },
+        {
+          "name": "Encapsulation",
+          "desc": "Bundling data (attributes) and methods that operate on that data into a single unit (class), restricting direct access to internal components (Data Hiding using private access specifiers)."
+        },
+        {
+          "name": "Abstraction",
+          "desc": "Representing essential features while hiding internal background implementation details from user (e.g., ATM screen shows 'Withdraw Money' without revealing internal banking queries)."
+        },
+        {
+          "name": "Inheritance",
+          "desc": "Mechanism where a new class (derived/child class) inherits properties and behaviors from an existing class (base/parent class). Promotes code reusability."
+        },
+        {
+          "name": "Polymorphism",
+          "desc": "'Many forms'. Ability of a message, function, or operator to be processed in more than one way (Compile-time: Method Overloading; Runtime: Method Overriding)."
+        }
+      ]
+    },
+    {
+      "id": "data-structures",
+      "title": "Core Data Structures & Complexity",
+      "hindiTitle": "डेटा संरचनाएँ और जटिलता",
+      "structures": [
+        {
+          "name": "Array",
+          "type": "Linear",
+          "desc": "Contiguous memory allocation storing elements of identical data type. Constant time $O(1)$ index access."
+        },
+        {
+          "name": "Stack",
+          "type": "Linear",
+          "principle": "LIFO (Last In First Out)",
+          "operations": "Push (insert), Pop (delete), Peek (inspect top). Used in function call recursion, Undo operations, expression evaluation."
+        },
+        {
+          "name": "Queue",
+          "type": "Linear",
+          "principle": "FIFO (First In First Out)",
+          "operations": "Enqueue (insert at rear), Dequeue (remove from front). Used in printer spooling, CPU task scheduling."
+        },
+        {
+          "name": "Linked List",
+          "type": "Linear",
+          "desc": "Elements (nodes) connected via pointers/references, non-contiguous dynamic memory allocation (Singly, Doubly, Circular)."
+        },
+        {
+          "name": "Binary Tree",
+          "type": "Non-Linear",
+          "desc": "Hierarchical structure where each node has at most two children (Left and Right). Topmost node is Root; nodes with no children are Leaves."
+        },
+        {
+          "name": "Graph",
+          "type": "Non-Linear",
+          "desc": "Collection of vertices (nodes) connected by edges (links). Models computer networks, social networks, GPS routes."
+        }
+      ],
+      "algorithms": [
+        {
+          "name": "Linear Search",
+          "time": "O(N)",
+          "requirement": "Works on unsorted or sorted array. Sequentially checks each item."
+        },
+        {
+          "name": "Binary Search",
+          "time": "O(log N)",
+          "requirement": "MANDATORY: Array MUST BE SORTED. Repeatedly divides search interval in half."
+        },
+        {
+          "name": "Bubble Sort",
+          "time": "O(N^2)",
+          "desc": "Repeatedly swaps adjacent elements if in wrong order."
+        },
+        {
+          "name": "Merge Sort / Quick Sort",
+          "time": "O(N log N)",
+          "desc": "Divide and conquer sorting algorithms."
+        }
+      ]
+    }
+  ]
+}

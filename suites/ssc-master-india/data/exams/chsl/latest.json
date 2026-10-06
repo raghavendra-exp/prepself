@@ -1,0 +1,181 @@
+{
+  "examId": "SSC-CHSL-2026",
+  "examCode": "chsl",
+  "examName": {
+    "en": "SSC CHSL",
+    "hi": "एसएससी सीएचएसएल"
+  },
+  "fullName": {
+    "en": "Combined Higher Secondary (10+2) Level Examination",
+    "hi": "संयुक्त उच्चतर माध्यमिक (10+2) स्तरीय परीक्षा"
+  },
+  "badge": "10+2 Level • LDC, JSA, DEO",
+  "year": 2026,
+  "duration": "Tier-I: 60 mins | Tier-II: 2h 15m + Skill/Typing",
+  "questions": 100,
+  "marks": 200,
+  "negativeMarking": "Tier-I: 0.50 | Tier-II: 1.00 per wrong",
+  "subjects": [
+    "Quantitative Aptitude",
+    "General Intelligence & Reasoning",
+    "English Language",
+    "General Awareness",
+    "Computer Knowledge",
+    "Typing"
+  ],
+  "eligibility": {
+    "education": {
+      "en": "Passed 12th Standard or equivalent from a recognized Board or University. For DEO Grade A in CAG: 12th in Science stream with Mathematics.",
+      "hi": "मान्यता प्राप्त बोर्ड से 12वीं उत्तीर्ण। सीएजी में डीईओ ग्रेड ए हेतु: गणित विषय के साथ विज्ञान वर्ग में 12वीं।"
+    },
+    "ageMin": 18,
+    "ageMax": 27,
+    "ageRelaxation": {
+      "en": "OBC: 3 years, SC/ST: 5 years, PwBD: 10 years, ESM: 3 years.",
+      "hi": "ओबीसी: 3 वर्ष, एससी/एसटी: 5 वर्ष, दिव्यांग: 10 वर्ष, भूतपूर्व सैनिक: 3 वर्ष।"
+    },
+    "skillReq": {
+      "en": "Typing Test for LDC/JSA (English 35 WPM / Hindi 30 WPM); Skill Test for DEO (8000 key depressions per hour).",
+      "hi": "एलडीसी/जेएसए हेतु टाइपिंग टेस्ट (अंग्रेजी 35 शब्द/मिनट या हिंदी 30 शब्द/मिनट); डीईओ हेतु 8000 की-डिप्रेशन प्रति घंटा।"
+    },
+    "esmProvisions": {
+      "en": "Horizontal reservation for Ex-Servicemen in LDC/JSA and Group C posts.",
+      "hi": "एलडीसी/जेएसए एवं ग्रुप सी पदों में भूतपूर्व सैनिकों हेतु क्षैतिज आरक्षण।"
+    }
+  },
+  "officialNotification": {
+    "notificationNumber": "F. No. HQ-PPI03/12/2026-PP_2",
+    "notificationDate": "2026-04-08",
+    "applicationStart": "2026-04-08",
+    "applicationEnd": "2026-05-07",
+    "correctionWindow": "2026-05-10 to 2026-05-11",
+    "examDate": "July 2026",
+    "url": "https://ssc.gov.in",
+    "tentativeVacancies": 3712,
+    "source": "SSC Official Notification (ssc.gov.in)"
+  },
+  "lastVerified": "2026-09-28",
+  "postsOverview": "Lower Division Clerk (LDC), Junior Secretariat Assistant (JSA), Data Entry Operator (DEO), Data Entry Operator Grade A.",
+  "stages": [
+    {
+      "stageId": "tier1",
+      "stageName": {
+        "en": "Tier-I (CBE)",
+        "hi": "टियर-I (कंप्यूटर आधारित)"
+      },
+      "mode": "Computer Based Test (Objective MCQ)",
+      "duration": "60 minutes",
+      "totalQuestions": 100,
+      "totalMarks": 200,
+      "negativeMarking": "0.50 marks per wrong answer",
+      "qualifyingNature": true,
+      "sections": [
+        {
+          "name": {
+            "en": "English Language (Basic Knowledge)",
+            "hi": "अंग्रेजी भाषा (मूल ज्ञान)"
+          },
+          "questions": 25,
+          "marks": 50,
+          "negativePerWrong": 0.5
+        },
+        {
+          "name": {
+            "en": "General Intelligence",
+            "hi": "सामान्य बुद्धिमत्ता"
+          },
+          "questions": 25,
+          "marks": 50,
+          "negativePerWrong": 0.5
+        },
+        {
+          "name": {
+            "en": "Quantitative Aptitude (Basic Arithmetic Skill)",
+            "hi": "मात्रात्मक अभिरुचि"
+          },
+          "questions": 25,
+          "marks": 50,
+          "negativePerWrong": 0.5
+        },
+        {
+          "name": {
+            "en": "General Awareness",
+            "hi": "सामान्य जागरूकता"
+          },
+          "questions": 25,
+          "marks": 50,
+          "negativePerWrong": 0.5
+        }
+      ]
+    },
+    {
+      "stageId": "tier2",
+      "stageName": {
+        "en": "Tier-II (Session I & II)",
+        "hi": "टियर-II (सत्र I एवं II)"
+      },
+      "mode": "Computer Based Examination + Skill/Typing",
+      "duration": "2 hours 15 minutes + Skill/Typing",
+      "totalQuestions": 135,
+      "totalMarks": 360,
+      "negativeMarking": "1 mark per wrong answer in Sec-I & II",
+      "qualifyingNature": false,
+      "sections": [
+        {
+          "name": {
+            "en": "Sec-I Mod-I: Mathematical Abilities",
+            "hi": "खंड-I मॉड-I: गणितीय योग्यता"
+          },
+          "questions": 30,
+          "marks": 90,
+          "negativePerWrong": 1
+        },
+        {
+          "name": {
+            "en": "Sec-I Mod-II: Reasoning & General Intelligence",
+            "hi": "खंड-I मॉड-II: तर्कशक्ति"
+          },
+          "questions": 30,
+          "marks": 90,
+          "negativePerWrong": 1
+        },
+        {
+          "name": {
+            "en": "Sec-II Mod-I: English Language & Comprehension",
+            "hi": "खंड-II मॉड-I: अंग्रेजी भाषा"
+          },
+          "questions": 40,
+          "marks": 120,
+          "negativePerWrong": 1
+        },
+        {
+          "name": {
+            "en": "Sec-II Mod-II: General Awareness",
+            "hi": "खंड-II मॉड-II: सामान्य जागरूकता"
+          },
+          "questions": 20,
+          "marks": 60,
+          "negativePerWrong": 1
+        },
+        {
+          "name": {
+            "en": "Sec-III Mod-I: Computer Knowledge (Qualifying)",
+            "hi": "खंड-III मॉड-I: कंप्यूटर ज्ञान"
+          },
+          "questions": 15,
+          "marks": 45,
+          "negativePerWrong": 1
+        },
+        {
+          "name": {
+            "en": "Sec-III Mod-II: Skill Test / Typing Test",
+            "hi": "खंड-III मॉड-II: टाइपिंग/कौशल परीक्षा"
+          },
+          "questions": 1,
+          "marks": 0,
+          "negativePerWrong": 0
+        }
+      ]
+    }
+  ]
+}

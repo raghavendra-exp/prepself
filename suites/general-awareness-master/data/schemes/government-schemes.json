@@ -1,0 +1,191 @@
+{
+  "title": "Master Guide to Central Government Flagship Schemes for Banking Exams",
+  "total_schemes": 20,
+  "last_updated": "2026-09-13",
+  "schemes": [
+    {
+      "name": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+      "nodal_ministry": "Ministry of Finance (Department of Financial Services)",
+      "launch_date": "28 August 2014",
+      "motto": "'Mera Khata, Bhagya Vidhata'",
+      "eligibility": "Any individual aged 10 years and above",
+      "key_features": [
+        "Zero-balance Basic Savings Bank Deposit Account (BSBDA) with no minimum balance maintenance charges",
+        "Free RuPay Debit Card with inbuilt Accidental Insurance Cover of ₹2 Lakh (for accounts opened after 28.08.2018; ₹1 Lakh earlier)",
+        "Overdraft (OD) facility up to ₹10,000 (no conditions for OD up to ₹2,000; upper age limit 65 years)",
+        "Direct Benefit Transfer (DBT) linkage for Jan Suraksha, PM-KISAN, and LPG subsidies"
+      ],
+      "exam_relevance": "Top Priority. Invariably tested on OD limit (₹10,000) and RuPay accident insurance (₹2 Lakh)."
+    },
+    {
+      "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+      "nodal_ministry": "Ministry of Finance (Department of Financial Services)",
+      "launch_date": "9 May 2015 (Kolkata)",
+      "eligibility": "Bank / Post office account holders aged 18 to 50 years",
+      "premium": "₹436 per annum (auto-debited from bank account in one installment)",
+      "risk_coverage": "Life insurance cover of ₹2 Lakh in case of death due to any cause",
+      "coverage_period": "1st June to 31st May of the subsequent year",
+      "exam_relevance": "Very High. Premium ₹436, entry age 18-50, life cover ₹2 Lakh."
+    },
+    {
+      "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+      "nodal_ministry": "Ministry of Finance (Department of Financial Services)",
+      "launch_date": "9 May 2015 (Kolkata)",
+      "eligibility": "Bank / Post office account holders aged 18 to 70 years",
+      "premium": "₹20 per annum (auto-debited annually)",
+      "risk_coverage": "Accidental death or permanent total disability: ₹2 Lakh; Permanent partial disability: ₹1 Lakh",
+      "coverage_period": "1st June to 31st May",
+      "exam_relevance": "Very High. Premium ₹20, age 18-70, accidental cover ₹2 Lakh."
+    },
+    {
+      "name": "Atal Pension Yojana (APY)",
+      "nodal_ministry": "Ministry of Finance (Administered by PFRDA)",
+      "launch_date": "9 May 2015",
+      "eligibility": "All Indian citizens aged 18 to 40 years having a savings bank account (Income tax payers not eligible since 1 Oct 2022)",
+      "minimum_contribution_period": "Minimum 20 years (contributions till age 60)",
+      "guaranteed_pension": "Fixed monthly pension of ₹1,000, ₹2,000, ₹3,000, ₹4,000, or ₹5,000 after reaching age 60",
+      "death_benefit": "Spouse receives same pension; on demise of both, entire accumulated pension corpus returned to nominee",
+      "exam_relevance": "Very High. Age 18-40, pension slabs ₹1k-₹5k, PFRDA regulation."
+    },
+    {
+      "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+      "nodal_ministry": "Ministry of Finance (Department of Financial Services)",
+      "launch_date": "8 April 2015",
+      "institution": "Micro Units Development & Refinance Agency (MUDRA), subsidiary of SIDBI",
+      "categories": [
+        {
+          "category": "Shishu",
+          "loan_amount": "Loans up to ₹50,000"
+        },
+        {
+          "category": "Kishore",
+          "loan_amount": "Loans above ₹50,000 and up to ₹5 Lakh"
+        },
+        {
+          "category": "Tarun",
+          "loan_amount": "Loans above ₹5 Lakh and up to ₹10 Lakh"
+        },
+        {
+          "category": "Tarun Plus",
+          "loan_amount": "Loans up to ₹20 Lakh (for entrepreneurs who have successfully repaid previous Tarun loans)"
+        }
+      ],
+      "collateral": "Collateral-free loans; Credit Guarantee Fund for Micro Units (CGFMU) covers defaults",
+      "exam_relevance": "Extremely High. Shishu/Kishore/Tarun/Tarun Plus limits are classic bank exam questions."
+    },
+    {
+      "name": "Stand-Up India Scheme",
+      "nodal_ministry": "Ministry of Finance (Administered by SIDBI & NABARD)",
+      "launch_date": "5 April 2016 (extended up to 2025/2026)",
+      "objective": "Facilitate bank loans between ₹10 Lakh and ₹1 Crore to at least one SC or ST borrower and at least one woman borrower per bank branch for setting up a greenfield enterprise in manufacturing, services, agri-allied, or trading sector.",
+      "margin_money": "Up to 15% (borrower contribution)",
+      "repayment": "Repayable in 7 years with maximum moratorium period of 18 months",
+      "exam_relevance": "High. ₹10 Lakh to ₹1 Crore loan range, 1 SC/ST + 1 woman per branch."
+    },
+    {
+      "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+      "nodal_ministry": "Ministry of Agriculture and Farmers Welfare",
+      "launch_date": "24 February 2019 (Gorakhpur, UP; effective from 1 Dec 2018)",
+      "financial_benefit": "₹6,000 per year per eligible farmer family",
+      "payment_mode": "Direct Benefit Transfer (DBT) in three equal 4-monthly installments of ₹2,000 each",
+      "funding": "100% Central Sector Scheme fully funded by Government of India",
+      "exam_relevance": "Very High. ₹6,000 annual sum, 3 installments of ₹2,000."
+    },
+    {
+      "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+      "nodal_ministry": "Ministry of Agriculture and Farmers Welfare",
+      "launch_date": "18 February 2016 (effective Kharif 2016)",
+      "premium_rates": [
+        {
+          "crop_type": "Kharif Food & Oilseed crops",
+          "farmer_premium": "2.0% of Sum Insured"
+        },
+        {
+          "crop_type": "Rabi Food & Oilseed crops",
+          "farmer_premium": "1.5% of Sum Insured"
+        },
+        {
+          "crop_type": "Commercial & Horticultural crops",
+          "farmer_premium": "5.0% of Sum Insured"
+        }
+      ],
+      "subsidy": "Balance actuarial premium paid equally (50:50) by Central and State Governments (90:10 for North Eastern states)",
+      "technology": "Crop cutting experiments, Digi-Claim module, YES-TECH, WINDS portal",
+      "exam_relevance": "Very High. Kharif 2%, Rabi 1.5%, Commercial 5% premium rates."
+    },
+    {
+      "name": "Kisan Credit Card (KCC) Scheme",
+      "nodal_agency": "NABARD / RBI / Ministry of Agriculture",
+      "launch_date": "August 1998 (designed by R. V. Gupta Committee)",
+      "features": [
+        "Provides timely short-term credit to farmers for crop cultivation and post-harvest expenses",
+        "Extended to animal husbandry, dairy, and fisheries in 2018-19",
+        "Credit limit up to ₹3 Lakh at benchmark 7% simple interest",
+        "Interest Subvention Scheme (ISS): 1.5% subvention to lending institutions + 3% Prompt Repayment Incentive (PRI) to farmers, resulting in net 4% effective interest rate"
+      ],
+      "validity": "Card valid for 5 years subject to annual review",
+      "exam_relevance": "Extremely High. R. V. Gupta committee, ₹3 Lakh limit, net 4% interest with prompt repayment."
+    },
+    {
+      "name": "PM Surya Ghar: Muft Bijli Yojana",
+      "nodal_ministry": "Ministry of New and Renewable Energy (MNRE)",
+      "launch_date": "February 2024",
+      "total_outlay": "₹75,021 Crore",
+      "target": "1 Crore residential households to install rooftop solar units",
+      "benefit": "Up to 300 units of free electricity every month",
+      "subsidy_structure": "₹30,000 for 1 kW system; ₹60,000 for 2 kW system; ₹78,000 for 3 kW or larger systems",
+      "financing": "Concessional collateral-free bank loans up to ₹2 Lakh at around 7% interest rate through national portal",
+      "exam_relevance": "Top Priority Current Scheme. ₹75,021 Cr outlay, 1 Cr households, 300 units free."
+    },
+    {
+      "name": "PM Vishwakarma Yojana",
+      "nodal_ministry": "Ministry of Micro, Small and Medium Enterprises (MSME)",
+      "launch_date": "17 September 2023 (Vishwakarma Jayanti)",
+      "total_outlay": "₹13,000 Crore",
+      "target_beneficiaries": "Traditional artisans and craftspeople working with hands and tools across 18 traditional trades (e.g. Carpenter, Blacksmith, Potter, Cobbler, Tailor, Sculptor)",
+      "financial_support": [
+        "Collateral-free enterprise development loan: First tranche up to ₹1,00,000 (18 months repayment); Second tranche up to ₹2,00,000 (30 months repayment)",
+        "Concessional interest rate of 5% with interest subvention cap of 8% by Government",
+        "Skill training stipend of ₹500/day during basic & advanced training",
+        "Tool-kit incentive of ₹15,000 e-voucher"
+      ],
+      "exam_relevance": "Very High. Outlay ₹13,000 Cr, 18 trades, ₹1L + ₹2L loan tranches at 5% interest."
+    },
+    {
+      "name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+      "nodal_ministry": "Ministry of Housing and Urban Affairs (MoHUA)",
+      "launch_date": "1 June 2020",
+      "implementation_partner": "Small Industries Development Bank of India (SIDBI)",
+      "target": "Urban, peri-urban, and rural street vendors vending before 24 March 2020",
+      "tranches": "First Tranche: Collateral-free working capital loan up to ₹10,000 (1 year); Second Tranche: Up to ₹20,000 (on timely repayment); Third Tranche: Up to ₹50,000",
+      "incentive": "7% interest subsidy credited directly to bank account on timely repayment; cashback up to ₹1,200/year on digital transactions",
+      "exam_relevance": "High. Loan amounts ₹10k, ₹20k, ₹50k; 7% interest subsidy; SIDBI implementation."
+    },
+    {
+      "name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+      "nodal_agency": "National Health Authority (NHA), Ministry of Health and Family Welfare",
+      "launch_date": "23 September 2018 (Ranchi, Jharkhand)",
+      "health_cover": "₹5,00,000 per family per year for secondary and tertiary healthcare hospitalization",
+      "target_beneficiaries": "Bottom 40% vulnerable families identified based on SECC 2011 data (now expanded to include all senior citizens aged 70+ regardless of income)",
+      "features": "Cashless and paperless access at public and empaneled private hospitals nationwide. Covers 3 days pre-hospitalization and 15 days post-hospitalization.",
+      "exam_relevance": "Very High. ₹5 Lakh cover, NHA implementation, expansion to all citizens 70+."
+    },
+    {
+      "name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+      "nodal_ministry": "Ministry of Rural Development",
+      "launch_date": "20 November 2016 (restructured from Indira Awaas Yojana)",
+      "unit_cost_assistance": "₹1,20,000 in plain areas; ₹1,30,000 in hilly, difficult, and IAP districts",
+      "minimum_size": "25 sq. meters including a dedicated cooking area",
+      "cost_sharing": "60:40 between Centre and States in plain areas; 90:10 for North Eastern and Himalayan States",
+      "exam_relevance": "High. Assistance ₹1.2 Lakh (plains) / ₹1.3 Lakh (hills), 60:40 sharing."
+    },
+    {
+      "name": "Jal Jeevan Mission (JJM) - Har Ghar Jal",
+      "nodal_ministry": "Ministry of Jal Shakti (Department of Drinking Water and Sanitation)",
+      "launch_date": "15 August 2019",
+      "objective": "Provide Functional Household Tap Connection (FHTC) to every rural household with supply of 55 litres of water per capita per day (lpcd) of prescribed quality on regular basis",
+      "first_certified_state": "Goa became India's first 'Har Ghar Jal' certified state; Dadra & Nagar Haveli and Daman & Diu first certified UT; Burhanpur (MP) first certified district",
+      "exam_relevance": "High. 55 lpcd water quantity, Goa first certified state, Burhanpur first district."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "examId": "SSC-CPO-2025",
+  "examCode": "cpo",
+  "examName": {
+    "en": "SSC CPO",
+    "hi": "एसएससी सीपीओ"
+  },
+  "fullName": {
+    "en": "Sub-Inspector in Delhi Police and Central Armed Police Forces Examination",
+    "hi": "दिल्ली पुलिस एवं केंद्रीय सशस्त्र पुलिस बलों में उप-निरीक्षक परीक्षा"
+  },
+  "badge": "Graduation Level • Sub-Inspector (Pay Level 6)",
+  "year": 2025,
+  "duration": "Paper-I: 120 mins | Paper-II: 120 mins",
+  "questions": 200,
+  "marks": 200,
+  "negativeMarking": "0.25 marks per incorrect answer",
+  "subjects": [
+    "General Intelligence & Reasoning",
+    "General Awareness",
+    "Quantitative Aptitude",
+    "English Language",
+    "Physical Preparation"
+  ],
+  "eligibility": {
+    "education": {
+      "en": "Bachelor's degree from a recognized university. For SI in Delhi Police (Male): Valid Driving License for LMV (Motorcycle and Car) on the date fixed for Physical Endurance and Measurement Tests.",
+      "hi": "मान्यता प्राप्त विश्वविद्यालय से स्नातक डिग्री। दिल्ली पुलिस में पुरुष एसआई हेतु: पीईटी तिथि पर एलएमवी (मोटरसाइकिल व कार) का वैध ड्राइविंग लाइसेंस अनिवार्य।"
+    },
+    "ageMin": 20,
+    "ageMax": 25,
+    "ageRelaxation": {
+      "en": "OBC: 3 years, SC/ST: 5 years, Ex-Servicemen: 3 years.",
+      "hi": "ओबीसी: 3 वर्ष, एससी/एसटी: 5 वर्ष, भूतपूर्व सैनिक: 3 वर्ष।"
+    },
+    "physical": {
+      "en": "Height: Male 170 cm (Chest 80-85 cm); Female 157 cm. PET Male: 100m in 16s, 1.6 km in 6.5 mins, Long Jump 3.65m, High Jump 1.2m, Shot Put 4.5m.",
+      "hi": "ऊंचाई: पुरुष 170 सेमी (सीना 80-85 सेमी); महिला 157 सेमी। पुरुष पीईटी: 100 मी 16 से., 1.6 किमी 6.5 मिनट, लंबी कूद 3.65 मी, ऊंची कूद 1.2 मी, गोला फेंक 4.5 मी।"
+    },
+    "esmProvisions": {
+      "en": "Special quota for ESM in Delhi Police and CAPFs as officially notified.",
+      "hi": "दिल्ली पुलिस एवं सीएपीएफ में भूतपूर्व सैनिकों हेतु विशेष कोटा।"
+    }
+  },
+  "officialNotification": {
+    "notificationNumber": "F. No. HQ-PPI03/15/2026-PP_5",
+    "notificationDate": "2025-06-15",
+    "applicationStart": "2026-03-04",
+    "applicationEnd": "2026-03-29",
+    "examDate": "September 2025",
+    "url": "https://ssc.gov.in",
+    "tentativeVacancies": 4187,
+    "source": "SSC Official SI in DP & CAPFs Notice"
+  },
+  "lastVerified": "2026-09-28",
+  "postsOverview": "Sub-Inspector (Executive) in Delhi Police; Sub-Inspector (GD) in BSF, CISF, CRPF, ITBP, SSB.",
+  "stages": [
+    {
+      "stageId": "paper1",
+      "stageName": {
+        "en": "Paper-I (Computer Based Test)",
+        "hi": "पेपर-I (कंप्यूटर आधारित)"
+      },
+      "mode": "Objective Multiple Choice",
+      "duration": "2 Hours (120 minutes)",
+      "totalQuestions": 200,
+      "totalMarks": 200,
+      "negativeMarking": "0.25 marks per wrong answer",
+      "qualifyingNature": false,
+      "sections": [
+        {
+          "name": {
+            "en": "General Intelligence and Reasoning",
+            "hi": "सामान्य बुद्धिमत्ता एवं तर्कशक्ति"
+          },
+          "questions": 50,
+          "marks": 50,
+          "negativePerWrong": 0.25
+        },
+        {
+          "name": {
+            "en": "General Knowledge and General Awareness",
+            "hi": "सामान्य ज्ञान एवं जागरूकता"
+          },
+          "questions": 50,
+          "marks": 50,
+          "negativePerWrong": 0.25
+        },
+        {
+          "name": {
+            "en": "Quantitative Aptitude",
+            "hi": "मात्रात्मक अभिरुचि"
+          },
+          "questions": 50,
+          "marks": 50,
+          "negativePerWrong": 0.25
+        },
+        {
+          "name": {
+            "en": "English Comprehension",
+            "hi": "अंग्रेजी बोधगम्यता"
+          },
+          "questions": 50,
+          "marks": 50,
+          "negativePerWrong": 0.25
+        }
+      ]
+    },
+    {
+      "stageId": "paper2",
+      "stageName": {
+        "en": "Paper-II (English Language & Comprehension)",
+        "hi": "पेपर-II (अंग्रेजी भाषा एवं बोध)"
+      },
+      "mode": "Computer Based Test",
+      "duration": "2 Hours (120 minutes)",
+      "totalQuestions": 200,
+      "totalMarks": 200,
+      "negativeMarking": "0.25 marks per wrong answer",
+      "qualifyingNature": false,
+      "sections": [
+        {
+          "name": {
+            "en": "English Language & Comprehension",
+            "hi": "अंग्रेजी भाषा एवं बोधगम्यता"
+          },
+          "questions": 200,
+          "marks": 200,
+          "negativePerWrong": 0.25
+        }
+      ]
+    }
+  ]
+}

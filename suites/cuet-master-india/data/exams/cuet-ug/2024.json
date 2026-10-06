@@ -1,0 +1,17 @@
+{
+  "exam": "CUET-UG",
+  "year": 2024,
+  "duration": "45 minutes for general domain subjects & languages; 60 minutes for Accountancy, Economics, Physics, CS/IP, Chemistry, Mathematics / Applied Mathematics and General Test.",
+  "subjects": [
+    "33 Languages",
+    "29 Domain Specific Subjects",
+    "General Test"
+  ],
+  "questionCount": "Section IA & IB: 40 questions to be attempted out of 50. Section II: 40 questions to be attempted out of 50. Section III (General Test): 50 questions to be attempted out of 60.",
+  "markingScheme": "+5 for correct, -1 for incorrect, 0 for unattempted.",
+  "mode": "Hybrid Mode (Pen and Paper / OMR + CBT)",
+  "eligibility": "10+2 passed or appearing in 2024.",
+  "maxSubjectLimit": 6,
+  "officialSource": "https://exams.nta.ac.in/CUET-UG/",
+  "lastVerified": "2024-05-24"
+}

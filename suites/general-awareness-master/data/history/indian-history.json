@@ -1,0 +1,360 @@
+{
+  "title": "Master Guide to Indian History for Banking & Competitive Exams",
+  "version": "2026.09",
+  "ancient_india": [
+    {
+      "period": "Indus Valley Civilization (2500 BCE - 1750 BCE)",
+      "key_sites": [
+        {
+          "site": "Harappa",
+          "location": "Montgomery, Punjab (Pakistan) on Ravi River",
+          "excavated_by": "Daya Ram Sahni (1921)",
+          "findings": "Six granaries in a row, graveyard R-37, stone dancing Nataraja"
+        },
+        {
+          "site": "Mohenjo-daro",
+          "location": "Larkana, Sindh (Pakistan) on Indus River",
+          "excavated_by": "R. D. Banerjee (1922)",
+          "findings": "Great Bath, Great Granary, Bronze Dancing Girl, Bearded Priest, Pashupati Seal"
+        },
+        {
+          "site": "Lothal",
+          "location": "Ahmedabad, Gujarat on Bhogava River",
+          "excavated_by": "S. R. Rao (1954)",
+          "findings": "World's earliest artificial tidal dockyard, rice husk, terracotta model of ship, double burial"
+        },
+        {
+          "site": "Kalibangan",
+          "location": "Hanumangarh, Rajasthan on Ghaggar River",
+          "excavated_by": "A. Ghosh (1953)",
+          "findings": "Ploughed agricultural field surface, fire altars, camel bones, wooden furrow"
+        },
+        {
+          "site": "Dholavira",
+          "location": "Rann of Kutch, Gujarat",
+          "excavated_by": "J. P. Joshi & R. S. Bisht",
+          "findings": "UNESCO World Heritage Site (40th from India), unique water management & cascade reservoirs, city divided into three parts (Citadel, Middle town, Lower town)"
+        },
+        {
+          "site": "Rakhigarhi",
+          "location": "Hisar, Haryana",
+          "findings": "Largest Indus Valley site in the Indian subcontinent"
+        }
+      ]
+    },
+    {
+      "period": "Buddhism & Jainism (6th Century BCE)",
+      "buddhism": {
+        "founder": "Gautama Buddha (Siddhartha), born 563 BCE at Lumbini (Nepal), Sakya clan",
+        "milestones": "Enlightenment (Nirvana) at Bodh Gaya under Bodhi tree (Peepal) on banks of Niranjana River at age 35; First Sermon (Dharmachakrapravartana) at Sarnath (Deer Park); Mahaparinirvana at Kushinagar at age 80",
+        "four_councils": [
+          {
+            "council": "First Buddhist Council (483 BCE)",
+            "venue": "Sattapanni Cave, Rajgir",
+            "patron": "Ajatashatru (Haryanka Dynasty)",
+            "president": "Mahakassapa",
+            "outcome": "Compilation of Sutta Pitaka (by Ananda) and Vinaya Pitaka (by Upali)"
+          },
+          {
+            "council": "Second Buddhist Council (383 BCE)",
+            "venue": "Vaishali",
+            "patron": "Kalasoka (Shishunaga Dynasty)",
+            "president": "Sabbakami",
+            "outcome": "First schism into Sthaviravadins and Mahasanghikas"
+          },
+          {
+            "council": "Third Buddhist Council (250 BCE)",
+            "venue": "Pataliputra",
+            "patron": "Ashoka (Mauryan Dynasty)",
+            "president": "Moggaliputta Tissa",
+            "outcome": "Compilation of Abhidhamma Pitaka; decision to dispatch Buddhist missionaries abroad"
+          },
+          {
+            "council": "Fourth Buddhist Council (72 CE)",
+            "venue": "Kundalvana, Kashmir",
+            "patron": "Kanishka (Kushan Dynasty)",
+            "president": "Vasumitra (Vice-President: Ashvaghosha)",
+            "outcome": "Formal split of Buddhism into Hinayana (Theravada) and Mahayana"
+          }
+        ]
+      },
+      "jainism": {
+        "founder": "Rishabhanatha (Adinatha) was 1st Tirthankara (Symbol: Bull). 23rd Tirthankara was Parshvanatha (Symbol: Serpent). 24th Tirthankara was Vardhamana Mahavira (Symbol: Lion)",
+        "mahavira": "Born at Kundagrama near Vaishali (540 BCE), Jnatrika clan; Kaivalya (supreme omniscience) under Sal tree at Jimbhikagrama on banks of Rijupalika River; Parinirvana at Pavapuri (near Nalanda)",
+        "triratnas": "Samyak Darshana (Right Faith), Samyak Jnana (Right Knowledge), Samyak Charitra (Right Conduct)",
+        "councils": [
+          {
+            "council": "First Jain Council (300 BCE)",
+            "venue": "Pataliputra",
+            "president": "Sthulabhadra",
+            "outcome": "Compilation of 12 Angas; split into Digambaras (sky-clad, led by Bhadrabahu) and Svetambaras (white-clad, led by Sthulabhadra)"
+          },
+          {
+            "council": "Second Jain Council (512 CE)",
+            "venue": "Vallabhi (Gujarat)",
+            "president": "Devardhi Kshamasramana",
+            "outcome": "Final written compilation of Jain agamas"
+          }
+        ]
+      }
+    },
+    {
+      "period": "Mauryan Empire (322 BCE - 185 BCE)",
+      "rulers": [
+        {
+          "ruler": "Chandragupta Maurya (322-298 BCE)",
+          "notes": "Founded empire by overthrowing Dhanananda (Nanda dynasty) with guidance of Chanakya (Kautilya). Defeated Seleucus I Nicator (305 BCE); Megasthenes came to court and wrote 'Indica'. Embraced Jainism and fasted to death (Sallekhana) at Shravanabelagola with Bhadrabahu."
+        },
+        {
+          "ruler": "Bindusara (298-273 BCE)",
+          "notes": "Known to Greeks as 'Amitrochates' (Slayer of foes). Patronized the Ajivika sect."
+        },
+        {
+          "ruler": "Ashoka the Great (268-232 BCE)",
+          "notes": "Kalinga War in 261 BCE (9th year of his reign, described in Major Rock Edict XIII) led to renunciation of war (Bherighosha to Dhammaghosha). Embraced Buddhism influenced by Upagupta. Lion Capital at Sarnath adopted as India's National Emblem. Inscriptions deciphered by James Prinsep in 1837."
+        }
+      ]
+    },
+    {
+      "period": "Gupta Empire - The Golden Age (319 CE - 550 CE)",
+      "rulers": [
+        {
+          "ruler": "Chandragupta I (319-335 CE)",
+          "notes": "Adopted title 'Maharajadhiraja'. Started the Gupta Era in 319-320 CE. Married Licchavi princess Kumaradevi."
+        },
+        {
+          "ruler": "Samudragupta (335-375 CE)",
+          "notes": "Termed the 'Napoleon of India' by historian V. A. Smith for his military conquests. Prayag Prashasti (Allahabad Pillar Inscription) composed by his court poet Harishena in Sanskrit. Depicted on coins playing Veena (Kaviraja title)."
+        },
+        {
+          "ruler": "Chandragupta II Vikramaditya (375-415 CE)",
+          "notes": "Defeated Saka rulers of Western India. Chinese pilgrim Fa-Hien visited during his reign. Court adorned by 'Navratnas' (Nine Gems) including Kalidasa (Abhijnanasakuntalam, Meghaduta), Amarasimha, Varahamihira, Dhanvantari, and Aryabhata (astronomer who wrote Aryabhatiya, calculated value of pi, explained solar/lunar eclipses)."
+        },
+        {
+          "ruler": "Kumaragupta I (415-455 CE)",
+          "notes": "Founded the world-famous Nalanda University in Bihar."
+        }
+      ]
+    }
+  ],
+  "medieval_india": [
+    {
+      "period": "Delhi Sultanate (1206 - 1526 CE)",
+      "five_dynasties": [
+        {
+          "dynasty": "Slave / Mamluk Dynasty (1206-1290)",
+          "founder": "Qutb-ud-din Aibak (Lakh Baksh). Built Quwwat-ul-Islam mosque and began Qutub Minar. Iltutmish organized 'Turkan-i-Chahalgani' (The Forty) and completed Qutub Minar. Razia Sultan (1236-1240) was the first and only woman ruler of Delhi Sultanate. Ghiyasuddin Balban introduced 'Sijdah' and 'Paibos' and blood-and-iron policy."
+        },
+        {
+          "dynasty": "Khilji Dynasty (1290-1320)",
+          "founder": "Jalal-ud-din Khilji. Ala-ud-din Khilji introduced market control system, Dag (branding of horses) and Chehra (descriptive roll of soldiers), and built Alai Darwaza. General Malik Kafur led southern campaigns."
+        },
+        {
+          "dynasty": "Tughlaq Dynasty (1320-1414)",
+          "founder": "Ghiyas-ud-din Tughlaq. Muhammad bin Tughlaq ('Wise Fool') shifted capital from Delhi to Daulatabad (Devagiri) and issued token copper/brass currency. Moroccan traveler Ibn Battuta visited (wrote 'Rihla'). Firoz Shah Tughlaq built extensive irrigation canals, established Diwan-i-Khairat and cities like Hissar, Firozabad, Jaunpur."
+        },
+        {
+          "dynasty": "Sayyid Dynasty (1414-1451)",
+          "founder": "Khizr Khan (governor appointed by Timur who sacked Delhi in 1398)."
+        },
+        {
+          "dynasty": "Lodi Dynasty (1451-1526)",
+          "founder": "Bahlul Lodi (first Afghan dynasty in India). Sikandar Lodi founded Agra in 1504 and introduced 'Gaj-i-Sikandari'. Ibrahim Lodi was defeated by Babur in the First Battle of Panipat (21 April 1526), ending the Sultanate."
+        }
+      ]
+    },
+    {
+      "period": "Mughal Empire (1526 - 1857 CE)",
+      "key_rulers": [
+        {
+          "ruler": "Babur (1526-1530)",
+          "battles": "First Battle of Panipat (1526 - defeated Ibrahim Lodi with artillery and Tulghuma tactics), Battle of Khanwa (1527 - defeated Rana Sanga of Mewar; took title 'Ghazi'), Battle of Chanderi (1528 - defeated Medini Rai), Battle of Ghaghra (1529 - defeated Afghans). Autobiography: Tuzuk-i-Baburi (Baburnama) in Chagatai Turkish."
+        },
+        {
+          "ruler": "Humayun & Sher Shah Suri",
+          "notes": "Sher Shah Suri defeated Humayun at Battle of Chausa (1539) and Battle of Kannauj/Bilgram (1540). Sher Shah introduced the silver 'Rupiya' (origin of Rupee), built the Grand Trunk (GT) Road from Sonargaon to Peshawar, and constructed Purana Qila in Delhi. Tomb at Sasaram, Bihar."
+        },
+        {
+          "ruler": "Akbar the Great (1556-1605)",
+          "notes": "Crown crowned at Kalanaur (Punjab) at age 13 under regent Bairam Khan. Defeated Hemu at Second Battle of Panipat (1556). Abolished pilgrimage tax (1563) and Jizya (1564). Battle of Haldighati (1576) against Maharana Pratap led by Man Singh. Introduced Mansabdari system and Zabti/Bandobast revenue system (Raja Todar Mal). Founded Ibadat Khana (1575) and Din-i-Ilahi (1582). Built Fatehpur Sikri, Buland Darwaza (commemorating Gujarat conquest). Court historian Abul Fazl wrote 'Akbarnama' and 'Ain-i-Akbari'."
+        },
+        {
+          "ruler": "Shah Jahan (1628-1658)",
+          "notes": "Golden Age of Mughal Architecture. Built Taj Mahal (Agra, architect Ustad Ahmad Lahori), Red Fort (Delhi), Jama Masjid, and Peacock Throne (Takht-i-Taus, later looted by Nadir Shah of Persia in 1739)."
+        },
+        {
+          "ruler": "Aurangzeb (Alamgir) (1658-1707)",
+          "notes": "Re-imposed Jizya (1679). Executed 9th Sikh Guru, Guru Tegh Bahadur (1675). Built Bibi Ka Maqbara at Aurangabad. Long Deccan campaign drained empire."
+        }
+      ]
+    }
+  ],
+  "modern_india": [
+    {
+      "phase": "British Expansion & 1857 Revolt",
+      "battles": [
+        {
+          "battle": "Battle of Plassey (23 June 1757)",
+          "significance": "Robert Clive defeated Nawab Siraj-ud-Daulah of Bengal (due to treachery of Mir Jafar). Established British political foothold in Bengal."
+        },
+        {
+          "battle": "Battle of Buxar (22 October 1764)",
+          "significance": "Hector Munro defeated combined armies of Mir Qasim (Bengal), Shuja-ud-Daula (Awadh), and Mughal Emperor Shah Alam II. Resulted in Treaty of Allahabad (1765) granting British East India Company the Diwani rights (revenue collection) of Bengal, Bihar, and Orissa."
+        }
+      ],
+      "revolt_of_1857": {
+        "spark": "29 March 1857 at Barrackpore: Mangal Pandey (34th Bengal Native Infantry) fired at British officers over greased Enfield rifle cartridges (rumored to contain cow and pig fat).",
+        "outbreak": "10 May 1857 at Meerut; soldiers marched to Delhi and proclaimed Mughal Emperor Bahadur Shah II (Zafar) as Shahenshah-e-Hindustan.",
+        "centers_and_leaders": [
+          {
+            "center": "Delhi",
+            "leader": "General Bakht Khan & Bahadur Shah Zafar",
+            "british_suppressor": "John Nicholson & Hudson"
+          },
+          {
+            "center": "Kanpur",
+            "leader": "Nana Saheb (Dhondu Pant), Tantia Tope, Azimullah Khan",
+            "british_suppressor": "Colin Campbell"
+          },
+          {
+            "center": "Lucknow",
+            "leader": "Begum Hazrat Mahal & Birjis Qadr",
+            "british_suppressor": "Colin Campbell"
+          },
+          {
+            "center": "Jhansi",
+            "leader": "Rani Lakshmibai (Manikarnika)",
+            "british_suppressor": "Sir Hugh Rose (remarked she was 'the only man among the rebels')"
+          },
+          {
+            "center": "Bihar (Arrah/Jagdishpur)",
+            "leader": "Kunwar Singh (80-year-old zamindar) & Amar Singh",
+            "british_suppressor": "William Taylor & Vincent Eyre"
+          },
+          {
+            "center": "Faizabad",
+            "leader": "Maulvi Ahmadullah",
+            "british_suppressor": "Colin Campbell"
+          }
+        ],
+        "aftermath": "Government of India Act 1858 passed; East India Company rule abolished; British Crown assumed direct administration; Governor-General of India designated as Viceroy of India (Lord Canning became first Viceroy); Queen Victoria's Proclamation of 1 November 1858 read at Allahabad."
+      }
+    },
+    {
+      "phase": "Indian National Congress & National Movement",
+      "inc_founding": "Formed on 28 December 1885 at Gokuldas Tejpal Sanskrit College, Bombay by retired civil servant Allan Octavian (A. O.) Hume. First President: Womesh Chandra (W. C.) Bonnerjee, attended by 72 delegates. Viceroy at the time: Lord Dufferin.",
+      "key_inc_sessions": [
+        {
+          "year": 1896,
+          "place": "Calcutta",
+          "president": "Rahimtulla M. Sayani",
+          "importance": "National Song 'Vande Mataram' (composed by Bankim Chandra Chattopadhyay in novel Anandamath) sung for first time"
+        },
+        {
+          "year": 1906,
+          "place": "Calcutta",
+          "president": "Dadabhai Naoroji ('Grand Old Man of India')",
+          "importance": "The word 'Swaraj' was used for the first time from Congress platform"
+        },
+        {
+          "year": 1907,
+          "place": "Surat",
+          "president": "Rash Behari Ghosh",
+          "importance": "Surat Split between Moderates (Gokhale) and Extremists (Lal-Bal-Pal: Lala Lajpat Rai, Bal Gangadhar Tilak, Bipin Chandra Pal)"
+        },
+        {
+          "year": 1911,
+          "place": "Calcutta",
+          "president": "Bishan Narayan Dar",
+          "importance": "National Anthem 'Jana Gana Mana' (composed by Rabindranath Tagore) sung for first time"
+        },
+        {
+          "year": 1916,
+          "place": "Lucknow",
+          "president": "Ambica Charan Mazumdar",
+          "importance": "Lucknow Pact between Moderates and Extremists reunited; joint agreement between INC and Muslim League"
+        },
+        {
+          "year": 1917,
+          "place": "Calcutta",
+          "president": "Annie Besant",
+          "importance": "First woman President of Indian National Congress"
+        },
+        {
+          "year": 1924,
+          "place": "Belgaum (Karnataka)",
+          "president": "Mahatma Gandhi",
+          "importance": "The ONLY session presided over by Mahatma Gandhi"
+        },
+        {
+          "year": 1925,
+          "place": "Kanpur",
+          "president": "Sarojini Naidu ('Nightingale of India')",
+          "importance": "First Indian woman President of Indian National Congress"
+        },
+        {
+          "year": 1929,
+          "place": "Lahore",
+          "president": "Jawaharlal Nehru",
+          "importance": "Passed the historic 'Purna Swaraj' (Complete Independence) resolution. Decided to celebrate 26 January 1930 as Independence Day"
+        },
+        {
+          "year": 1931,
+          "place": "Karachi",
+          "president": "Sardar Vallabhbhai Patel",
+          "importance": "Endorsed Gandhi-Irwin Pact; passed resolutions on Fundamental Rights and National Economic Programme"
+        },
+        {
+          "year": 1938,
+          "place": "Haripura",
+          "president": "Subhas Chandra Bose",
+          "importance": "National Planning Committee formed under chairmanship of Jawaharlal Nehru"
+        },
+        {
+          "year": 1939,
+          "place": "Tripuri",
+          "president": "Subhas Chandra Bose",
+          "importance": "Bose defeated Pattabhi Sitaramayya (Gandhi's nominee); resigned due to differences and founded All India Forward Bloc (1939)"
+        }
+      ],
+      "gandhian_movements": [
+        {
+          "movement": "Champaran Satyagraha (1917)",
+          "location": "Bihar",
+          "cause": "First Civil Disobedience movement by Gandhi in India against the exploitative Tinkathia system (compulsory cultivation of indigo on 3/20th of land). Invited by Rajkumar Shukla."
+        },
+        {
+          "movement": "Ahmedabad Mill Strike (1918)",
+          "location": "Gujarat",
+          "cause": "First hunger strike by Gandhi over dispute between mill owners and workers demanding 35% plague bonus hike."
+        },
+        {
+          "movement": "Kheda Satyagraha (1918)",
+          "location": "Gujarat",
+          "cause": "First Non-Cooperation movement over revenue remission due to crop failure; supported by Sardar Vallabhbhai Patel."
+        },
+        {
+          "movement": "Rowlatt Act Satyagraha & Jallianwala Bagh Massacre (1919)",
+          "location": "Amritsar, Punjab",
+          "cause": "Rowlatt Act ('No Dalil, No Vakil, No Appeal') allowed detention without trial. On Baisakhi Day (13 April 1919), General Dyer ordered troops to fire on unarmed gathering protesting arrest of Dr. Saifuddin Kitchlew and Dr. Satyapal at Jallianwala Bagh. Rabindranath Tagore renounced his Knighthood; Hunter Commission appointed."
+        },
+        {
+          "movement": "Non-Cooperation Movement (1920-1922)",
+          "cause": "Launched along with Khilafat Movement (Ali Brothers: Shaukat Ali & Mohammad Ali). Boycott of foreign cloth, courts, and government schools. Called off by Gandhi on 12 February 1922 following the violent Chauri Chaura incident (Gorakhpur, UP on 4 February 1922 where 22 policemen were burnt inside a police station)."
+        },
+        {
+          "movement": "Civil Disobedience Movement & Dandi March (1930-1934)",
+          "cause": "Started on 12 March 1930 from Sabarmati Ashram with 78 chosen followers, covering 240 miles (385 km) to Dandi seashore on 6 April 1930 to break the Salt Law. Led to Round Table Conferences in London (Gandhi attended only the Second Round Table Conference 1931). Signed Gandhi-Irwin Pact on 5 March 1931."
+        },
+        {
+          "movement": "Poona Pact (24 September 1932)",
+          "cause": "Signed between Dr. B. R. Ambedkar and Mahatma Gandhi (represented by Madan Mohan Malaviya at Yerwada Jail, Pune) against British PM Ramsay MacDonald's Communal Award. Replaced separate electorates for depressed classes with reserved seats in joint electorates."
+        },
+        {
+          "movement": "Quit India Movement (August Kranti 1942)",
+          "cause": "Launched at Gowalia Tank Maidan (August Kranti Maidan), Bombay on 8 August 1942 following failure of Cripps Mission. Gandhi gave the clarion call: 'DO OR DIE' (Karo ya Maro). Aruna Asaf Ali hoisted the national flag. Underground radio operated by Usha Mehta."
+        }
+      ]
+    }
+  ]
+}

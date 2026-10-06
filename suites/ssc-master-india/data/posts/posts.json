@@ -1,0 +1,606 @@
+[
+  {
+    "id": "post-cgl-asocss",
+    "exam": "cgl",
+    "postName": {
+      "en": "Assistant Section Officer (CSS)",
+      "hi": "सहायक अनुभाग अधिकारी (सीएसएस)"
+    },
+    "department": "Central Secretariat Service (CSS)",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "group": "Group B (Non-Gazetted)",
+    "payLevel": 7,
+    "payScale": "Rs. 44,900 to 1,42,400 (Basic)",
+    "ageRequirement": "20 to 30 years",
+    "qualification": {
+      "en": "Bachelor's Degree from a recognized University or equivalent.",
+      "hi": "मान्यता प्राप्त विश्वविद्यालय से स्नातक डिग्री।"
+    },
+    "duties": [
+      {
+        "en": "Examining files, drafting office memorandums, notices, and parliamentary replies.",
+        "hi": "फाइलों का परीक्षण, कार्यालय ज्ञापनों, सूचनाओं और संसदीय उत्तरों का प्रारूप तैयार करना।"
+      },
+      {
+        "en": "Coordination between various ministries and inter-departmental policy monitoring.",
+        "hi": "विभिन्न मंत्रालयों के बीच समन्वय और अंतर-विभागीय नीति की निगरानी।"
+      }
+    ],
+    "workEnvironment": {
+      "en": "Desk-based in Central Secretariat (North Block, South Block, Shastri Bhawan, New Delhi). Regular office hours 9 AM to 5:30 PM.",
+      "hi": "केंद्रीय सचिवालय (नॉर्थ ब्लॉक, साउथ ब्लॉक, शास्त्री भवन, नई दिल्ली) में डेस्क कार्य। नियमित कार्यालय समय।"
+    },
+    "postingLocation": {
+      "en": "Exclusively in New Delhi (Permanent Delhi Posting). Highly preferred for administrative aspirants.",
+      "hi": "विशेष रूप से नई दिल्ली (स्थायी दिल्ली पोस्टिंग)। प्रशासनिक अभ्यर्थियों द्वारा अत्यंत पसंदीदा।"
+    },
+    "physicalRequirements": {
+      "en": "No specific physical endurance test required. General fitness.",
+      "hi": "कोई विशिष्ट शारीरिक परीक्षण आवश्यक नहीं। सामान्य स्वास्थ्य।"
+    },
+    "skillRequirements": {
+      "en": "DEST typing speed qualification mandatory.",
+      "hi": "DEST टाइपिंग गति अर्हता अनिवार्य।"
+    },
+    "careerProgression": [
+      {
+        "en": "Assistant Section Officer (Level 7)",
+        "hi": "सहायक अनुभाग अधिकारी (लेवल 7)"
+      },
+      {
+        "en": "Section Officer (Level 8/10)",
+        "hi": "अनुभाग अधिकारी (लेवल 8/10)"
+      },
+      {
+        "en": "Under Secretary (Level 11)",
+        "hi": "अवर सचिव (लेवल 11)"
+      },
+      {
+        "en": "Deputy Secretary / Director (Level 12/13)",
+        "hi": "उप सचिव / निदेशक (लेवल 12/13)"
+      }
+    ],
+    "officialSource": "SSC CGL Gazette Notification 2026 (DoPT)",
+    "colorBadge": "bg-blue-600 text-white"
+  },
+  {
+    "id": "post-cgl-itinspector",
+    "exam": "cgl",
+    "postName": {
+      "en": "Inspector of Income Tax",
+      "hi": "आयकर निरीक्षक"
+    },
+    "department": "Central Board of Direct Taxes (CBDT)",
+    "ministry": "Ministry of Finance",
+    "group": "Group B (Non-Gazetted)",
+    "payLevel": 7,
+    "payScale": "Rs. 44,900 to 1,42,400",
+    "ageRequirement": "18 to 30 years",
+    "qualification": {
+      "en": "Bachelor's degree in any discipline.",
+      "hi": "किसी भी संकाय में स्नातक डिग्री।"
+    },
+    "duties": [
+      {
+        "en": "Assessment of direct taxes, income verification, scrutiny of returns, and search & seizure actions.",
+        "hi": "प्रत्यक्ष करों का निर्धारण, आय सत्यापन, रिटर्न की जांच और तलाशी एवं जब्ती कार्रवाई।"
+      },
+      {
+        "en": "Handling tax dispute records, issuing summons, field inspection.",
+        "hi": "कर विवाद रिकॉर्ड संभालना, समन जारी करना, फील्ड निरीक्षण।"
+      }
+    ],
+    "workEnvironment": {
+      "en": "Hybrid of office assessment work and field investigation. Prestigious investigative executive role.",
+      "hi": "कार्यालय मूल्यांकन कार्य और फील्ड जांच का हाइब्रिड। प्रतिष्ठित कार्यकारी भूमिका।"
+    },
+    "postingLocation": {
+      "en": "Pan India (Zonal CCIT charges across India). State-level transfers as per CBDT transfer policy.",
+      "hi": "अखिल भारतीय (भारत भर में क्षेत्रीय सीसीआईटी प्रभार)।"
+    },
+    "physicalRequirements": {
+      "en": "General medical fitness; no rigorous physical running standard.",
+      "hi": "सामान्य मेडिकल फिटनेस; कोई कठिन दौड़ मानक नहीं।"
+    },
+    "careerProgression": [
+      {
+        "en": "Inspector of Income Tax (Level 7)",
+        "hi": "आयकर निरीक्षक (लेवल 7)"
+      },
+      {
+        "en": "Income Tax Officer - ITO (Level 8)",
+        "hi": "आयकर अधिकारी - आईटीओ (लेवल 8)"
+      },
+      {
+        "en": "Assistant Commissioner of Income Tax - ACIT (IRS cadre Level 10)",
+        "hi": "सहायक आयकर आयुक्त - एसीआईटी (लेवल 10)"
+      },
+      {
+        "en": "Deputy Commissioner of Income Tax - DCIT (Level 11)",
+        "hi": "उप आयकर आयुक्त - डीसीआईटी (लेवल 11)"
+      }
+    ],
+    "officialSource": "CBDT Cadre Restructuring & SSC CGL Notice",
+    "colorBadge": "bg-emerald-600 text-white"
+  },
+  {
+    "id": "post-cgl-gstinspector",
+    "exam": "cgl",
+    "postName": {
+      "en": "Inspector (Central Excise / GST)",
+      "hi": "निरीक्षक (केंद्रीय उत्पाद / जीएसटी)"
+    },
+    "department": "Central Board of Indirect Taxes and Customs (CBIC)",
+    "ministry": "Ministry of Finance",
+    "group": "Group B (Non-Gazetted)",
+    "payLevel": 7,
+    "payScale": "Rs. 44,900 to 1,42,400",
+    "ageRequirement": "18 to 30 years",
+    "qualification": {
+      "en": "Bachelor's Degree from a recognized university.",
+      "hi": "मान्यता प्राप्त विश्वविद्यालय से स्नातक डिग्री।"
+    },
+    "duties": [
+      {
+        "en": "Enforcement of Goods and Services Tax (GST) laws, factory audits, anti-evasion raids, and revenue monitoring.",
+        "hi": "जीएसटी कानूनों का प्रवर्तन, कारखाना ऑडिट, कर चोरी विरोधी छापे और राजस्व निगरानी।"
+      },
+      {
+        "en": "Verification of tax credits, documentation, and border/inland check-posts.",
+        "hi": "टैक्स क्रेडिट का सत्यापन, प्रलेखन और चेक-पोस्ट निगरानी।"
+      }
+    ],
+    "workEnvironment": {
+      "en": "Executive uniform post with field operations, factory audits, and office charge administration.",
+      "hi": "वर्दीधारी पद, फील्ड संचालन, कारखाना ऑडिट और कार्यालय प्रभार प्रशासन।"
+    },
+    "postingLocation": {
+      "en": "Pan-India CBIC Commissionerates and Zones (Mumbai, Delhi, Kolkata, Chennai, Bangalore, Hyderabad, etc.).",
+      "hi": "अखिल भारतीय सीबीआईसी कमिश्नरेट और जोन।"
+    },
+    "physicalRequirements": {
+      "en": "Physical Standards Mandatory: Male: Height 157.5 cm, Chest 81 cm (expanded 86 cm). PET: Walking 1600m in 15 mins, Cycling 8 km in 30 mins. Female: Height 152 cm, Weight 48 kg; Walking 1 km in 20 mins, Cycling 3 km in 25 mins.",
+      "hi": "शारीरिक मानक अनिवार्य: पुरुष: ऊंचाई 157.5 सेमी, सीना 81 सेमी। पीईटी: 15 मिनट में 1600 मी टहलना, 30 मिनट में 8 किमी साइकिल। महिला: ऊंचाई 152 सेमी, भार 48 किग्रा।"
+    },
+    "careerProgression": [
+      {
+        "en": "Inspector GST / Central Excise (Level 7)",
+        "hi": "निरीक्षक जीएसटी / केंद्रीय उत्पाद (लेवल 7)"
+      },
+      {
+        "en": "Superintendent of Central GST (Level 8/10)",
+        "hi": "अधीक्षक सेंट्रल जीएसटी (लेवल 8/10)"
+      },
+      {
+        "en": "Assistant Commissioner - IRS (Level 10)",
+        "hi": "सहायक आयुक्त - आईआरएस (लेवल 10)"
+      },
+      {
+        "en": "Deputy Commissioner (Level 11)",
+        "hi": "उप आयुक्त (लेवल 11)"
+      }
+    ],
+    "officialSource": "CBIC Recruitment Rules & SSC Official Notification",
+    "colorBadge": "bg-indigo-600 text-white"
+  },
+  {
+    "id": "post-cgl-aeo-ed",
+    "exam": "cgl",
+    "postName": {
+      "en": "Assistant Enforcement Officer (AEO)",
+      "hi": "सहायक प्रवर्तन अधिकारी (एईओ)"
+    },
+    "department": "Directorate of Enforcement (ED)",
+    "ministry": "Department of Revenue, Ministry of Finance",
+    "group": "Group B (Non-Gazetted)",
+    "payLevel": 7,
+    "payScale": "Rs. 44,900 to 1,42,400 (+ 20% Special Security Allowance)",
+    "ageRequirement": "18 to 30 years",
+    "qualification": {
+      "en": "Bachelor's Degree in any discipline.",
+      "hi": "किसी भी विषय में स्नातक डिग्री।"
+    },
+    "duties": [
+      {
+        "en": "Investigating money laundering (PMLA) and foreign exchange violations (FEMA). Intelligence gathering, searches, seizures, and summons.",
+        "hi": "धन शोधन (PMLA) और विदेशी मुद्रा उल्लंघन (FEMA) की जांच, खुफिया जानकारी जुटाना, तलाशी व जब्ती।"
+      },
+      {
+        "en": "Assisting in asset attachment proceedings and court representations.",
+        "hi": "संपत्ति कुर्की कार्यवाही और अदालती प्रस्तुतीकरण में सहायता।"
+      }
+    ],
+    "workEnvironment": {
+      "en": "High-profile economic investigative agency. Involves field raids, forensic financial audits, and confidential reports.",
+      "hi": "हाई-प्रोफाइल आर्थिक जांच एजेंसी। फील्ड छापे, फोरेंसिक वित्तीय ऑडिट और गोपनीय रिपोर्ट।"
+    },
+    "postingLocation": {
+      "en": "ED Head Office (New Delhi) and Regional/Zonal Offices in major cities across India.",
+      "hi": "प्रवर्तन निदेशालय मुख्यालय (नई दिल्ली) और भारत भर के प्रमुख शहरों में क्षेत्रीय/जोनल कार्यालय।"
+    },
+    "physicalRequirements": {
+      "en": "Good physical health, medical clearance.",
+      "hi": "अच्छा शारीरिक स्वास्थ्य, मेडिकल क्लीयरेंस।"
+    },
+    "careerProgression": [
+      {
+        "en": "Assistant Enforcement Officer (Level 7)",
+        "hi": "सहायक प्रवर्तन अधिकारी (लेवल 7)"
+      },
+      {
+        "en": "Enforcement Officer (Level 8)",
+        "hi": "प्रवर्तन अधिकारी (लेवल 8)"
+      },
+      {
+        "en": "Assistant Director - ED (Level 10)",
+        "hi": "सहायक निदेशक - ईडी (लेवल 10)"
+      },
+      {
+        "en": "Deputy Director (Level 11)",
+        "hi": "उप निदेशक (लेवल 11)"
+      }
+    ],
+    "officialSource": "Directorate of Enforcement Recruitment Rules",
+    "colorBadge": "bg-red-600 text-white"
+  },
+  {
+    "id": "post-cgl-subinspector-cbi",
+    "exam": "cgl",
+    "postName": {
+      "en": "Sub-Inspector in Central Bureau of Investigation (CBI)",
+      "hi": "केंद्रीय अन्वेषण ब्यूरो (सीबीआई) में उप-निरीक्षक"
+    },
+    "department": "Central Bureau of Investigation (CBI)",
+    "ministry": "Department of Personnel and Training (DoPT)",
+    "group": "Group B (Non-Gazetted)",
+    "payLevel": 7,
+    "payScale": "Rs. 44,900 to 1,42,400 (+ 25% Special Incentive Allowance + 13-month salary)",
+    "ageRequirement": "20 to 30 years",
+    "qualification": {
+      "en": "Bachelor's Degree from a recognized university.",
+      "hi": "मान्यता प्राप्त विश्वविद्यालय से स्नातक डिग्री।"
+    },
+    "duties": [
+      {
+        "en": "Investigating anti-corruption, economic offenses, special crimes, cybercrimes, and cases referred by Supreme Court / High Courts.",
+        "hi": "भ्रष्टाचार निवारण, आर्थिक अपराध, विशेष अपराध, साइबर अपराध और न्यायालय द्वारा संदर्भित मामलों की जांच।"
+      },
+      {
+        "en": "Conducting raids, witness interrogations, evidence gathering, preparing charge sheets, and prosecuting in Special CBI Courts.",
+        "hi": "छापे, गवाहों से पूछताछ, साक्ष्य संग्रह, आरोप पत्र तैयार करना और सीबीआई अदालतों में पैरवी।"
+      }
+    ],
+    "workEnvironment": {
+      "en": "Rigorous investigative agency. 32-week intensive training at CBI Academy, Ghaziabad. Demanding work hours with high operational exposure.",
+      "hi": "कठिन जांच एजेंसी। सीबीआई अकादमी, गाजियाबाद में 32 सप्ताह का गहन प्रशिक्षण।"
+    },
+    "postingLocation": {
+      "en": "CBI HQ (New Delhi) and branches across India (Anti-Corruption Branches, Economic Offences Wings).",
+      "hi": "सीबीआई मुख्यालय (नई दिल्ली) और भारत भर की शाखाएं।"
+    },
+    "physicalRequirements": {
+      "en": "Height: Male: 165 cm, Female: 150 cm (Relaxation: 5 cm for Hills/Tribals). Chest (Male): 76 cm with expansion. Vision: Distant: 6/6 in one and 6/9 in other.",
+      "hi": "ऊंचाई: पुरुष 165 सेमी, महिला 150 सेमी। सीना (पुरुष): 76 सेमी फुलाव सहित। दृष्टि: 6/6 और 6/9।"
+    },
+    "careerProgression": [
+      {
+        "en": "Sub-Inspector (Level 7)",
+        "hi": "उप-निरीक्षक (लेवल 7)"
+      },
+      {
+        "en": "Inspector (Level 8)",
+        "hi": "निरीक्षक (लेवल 8)"
+      },
+      {
+        "en": "Deputy Superintendent of Police - DySP (Level 10)",
+        "hi": "पुलिस उप-अधीक्षक - डीवाईएसपी (लेवल 10)"
+      },
+      {
+        "en": "Additional Superintendent of Police - Addl SP (Level 11)",
+        "hi": "अपर पुलिस अधीक्षक (लेवल 11)"
+      }
+    ],
+    "officialSource": "CBI Academy & SSC Notification",
+    "colorBadge": "bg-amber-600 text-white"
+  },
+  {
+    "id": "post-cgl-jso",
+    "exam": "cgl",
+    "postName": {
+      "en": "Junior Statistical Officer (JSO)",
+      "hi": "कनिष्ठ सांख्यिकी अधिकारी (जेएसओ)"
+    },
+    "department": "Subordinate Statistical Service (SSS)",
+    "ministry": "Ministry of Statistics and Programme Implementation (MoSPI)",
+    "group": "Group B (Non-Gazetted)",
+    "payLevel": 6,
+    "payScale": "Rs. 35,400 to 1,12,400",
+    "ageRequirement": "18 to 32 years (Relaxable for OBC/SC/ST)",
+    "qualification": {
+      "en": "Bachelor's Degree in any subject with at least 60% Marks in Mathematics at 12th standard level OR Bachelor's Degree in any subject with Statistics as one of the subjects at degree level.",
+      "hi": "12वीं में गणित में न्यूनतम 60% अंकों के साथ स्नातक या डिग्री स्तर पर सांख्यिकी विषय के साथ स्नातक।"
+    },
+    "duties": [
+      {
+        "en": "Field survey operations, socio-economic surveys, national sample surveys (NSSO), price data collection, and statistical compilation.",
+        "hi": "क्षेत्रीय सर्वेक्षण, सामाजिक-आर्थिक सर्वेक्षण, राष्ट्रीय प्रतिदर्श सर्वेक्षण (NSSO), मूल्य डेटा संग्रह।"
+      },
+      {
+        "en": "Data analysis and publication of official government statistics.",
+        "hi": "आधिकारिक सरकारी सांख्यिकी का डेटा विश्लेषण और प्रकाशन।"
+      }
+    ],
+    "workEnvironment": {
+      "en": "Field Operations Division (FOD) involves extensive travel and grassroots surveys; Headquarters posts involve data modeling and reporting.",
+      "hi": "फील्ड ऑपरेशंस डिवीजन (FOD) में व्यापक क्षेत्रीय भ्रमण और सर्वेक्षण; मुख्यालय में डेटा मॉडलिंग।"
+    },
+    "postingLocation": {
+      "en": "Pan-India NSSO regional offices and Central MoSPI headquarters.",
+      "hi": "अखिल भारतीय एनएसएसओ क्षेत्रीय कार्यालय और केंद्रीय एमओएसपीआई मुख्यालय।"
+    },
+    "physicalRequirements": {
+      "en": "Standard medical fitness.",
+      "hi": "मानक मेडिकल फिटनेस।"
+    },
+    "careerProgression": [
+      {
+        "en": "Junior Statistical Officer (Level 6)",
+        "hi": "कनिष्ठ सांख्यिकी अधिकारी (लेवल 6)"
+      },
+      {
+        "en": "Senior Statistical Officer - SSO (Level 7)",
+        "hi": "वरिष्ठ सांख्यिकी अधिकारी (लेवल 7)"
+      },
+      {
+        "en": "Assistant Director (Indian Statistical Service cadre Level 10)",
+        "hi": "सहायक निदेशक (लेवल 10)"
+      },
+      {
+        "en": "Deputy Director (Level 11)",
+        "hi": "उप निदेशक (लेवल 11)"
+      }
+    ],
+    "officialSource": "MoSPI SSS Cadre Rules",
+    "colorBadge": "bg-teal-600 text-white"
+  },
+  {
+    "id": "post-cpo-delhipolice-si",
+    "exam": "cpo",
+    "postName": {
+      "en": "Sub-Inspector (Executive) in Delhi Police",
+      "hi": "दिल्ली पुलिस में उप-निरीक्षक (कार्यकारी)"
+    },
+    "department": "Delhi Police",
+    "ministry": "Ministry of Home Affairs (MHA)",
+    "group": "Group C (Pay Level 6)",
+    "payLevel": 6,
+    "payScale": "Rs. 35,400 to 1,12,400",
+    "ageRequirement": "20 to 25 years",
+    "qualification": {
+      "en": "Bachelor's degree from a recognized university. Male candidates must possess a valid driving license for LMV (Motorcycle and Car) on the date of PET/PST.",
+      "hi": "स्नातक डिग्री। पुरुष अभ्यर्थियों के पास पीईटी/पीएसटी की तिथि पर एलएमवी (मोटरसाइकिल व कार) का वैध ड्राइविंग लाइसेंस होना अनिवार्य है।"
+    },
+    "duties": [
+      {
+        "en": "Law and order maintenance, crime investigation, registration of FIRs, patrolling, and VIP security in the National Capital Territory.",
+        "hi": "राष्ट्रीय राजधानी क्षेत्र में कानून व्यवस्था बनाए रखना, अपराध जांच, एफआईआर दर्ज करना, गश्त।"
+      },
+      {
+        "en": "Investigation officer (IO) in criminal cases, court presentation, crime prevention.",
+        "hi": "आपराधिक मामलों में जांच अधिकारी (आईओ), अदालती प्रस्तुति, अपराध रोकथाम।"
+      }
+    ],
+    "workEnvironment": {
+      "en": "Police Station / Specialized Units (Crime Branch, Special Cell, Traffic). 24x7 law enforcement responsibilities.",
+      "hi": "पुलिस स्टेशन / विशिष्ट इकाइयां (क्राइम ब्रांच, स्पेशल सेल, ट्रैफिक)। 24x7 कानून प्रवर्तन।"
+    },
+    "postingLocation": {
+      "en": "National Capital Territory of Delhi (Permanent Delhi Posting). Highly sought-after CPO post.",
+      "hi": "राष्ट्रीय राजधानी क्षेत्र दिल्ली (स्थायी दिल्ली पोस्टिंग)।"
+    },
+    "physicalRequirements": {
+      "en": "Height: Male 170 cm (Chest 80-85 cm); Female 157 cm. Rigorous PET: 100m sprint in 16s, 1.6 km in 6.5 mins, Long jump 3.65m, High jump 1.2m, Shot put 4.5m.",
+      "hi": "ऊंचाई: पुरुष 170 सेमी (सीना 80-85 सेमी); महिला 157 सेमी। कठिन पीईटी: 100 मी 16 सेकंड, 1.6 किमी 6.5 मिनट, लंबी कूद 3.65 मी, ऊंची कूद 1.2 मी।"
+    },
+    "careerProgression": [
+      {
+        "en": "Sub-Inspector (Level 6)",
+        "hi": "उप-निरीक्षक (लेवल 6)"
+      },
+      {
+        "en": "Inspector (Level 7)",
+        "hi": "निरीक्षक (लेवल 7)"
+      },
+      {
+        "en": "Assistant Commissioner of Police - ACP (DANIPS Level 10)",
+        "hi": "सहायक पुलिस आयुक्त - एसीपी (लेवल 10)"
+      },
+      {
+        "en": "Deputy Commissioner of Police - DCP (Level 11)",
+        "hi": "पुलिस उपायुक्त - डीसीपी (लेवल 11)"
+      }
+    ],
+    "officialSource": "Delhi Police Act & SSC CPO Notice",
+    "colorBadge": "bg-red-700 text-white"
+  },
+  {
+    "id": "post-chsl-ldc",
+    "exam": "chsl",
+    "postName": {
+      "en": "Lower Division Clerk (LDC) / Junior Secretariat Assistant (JSA)",
+      "hi": "अवर श्रेणी लिपिक (एलडीसी) / कनिष्ठ सचिवालय सहायक (जेएसए)"
+    },
+    "department": "Various Ministries, Departments & Subordinate Offices",
+    "ministry": "Central Government of India",
+    "group": "Group C",
+    "payLevel": 2,
+    "payScale": "Rs. 19,900 to 63,200",
+    "ageRequirement": "18 to 27 years",
+    "qualification": {
+      "en": "12th Standard Pass from a recognized Board.",
+      "hi": "मान्यता प्राप्त बोर्ड से 12वीं उत्तीर्ण।"
+    },
+    "duties": [
+      {
+        "en": "Clerical operations, diary and dispatch of official correspondence, maintaining file registers, and data entry.",
+        "hi": "लिपिकीय संचालन, पत्राचार की डायरी और प्रेषण, फाइल रजिस्टर और डेटा प्रविष्टि।"
+      },
+      {
+        "en": "Preparation of routine statements, salary bills, and RTI collation under supervision.",
+        "hi": "नेमी विवरण, वेतन बिल और आरटीआई सूचना संकलन।"
+      }
+    ],
+    "workEnvironment": {
+      "en": "Standard ministerial office environment. Mon-Fri 9:00 AM to 5:30 PM.",
+      "hi": "मानक मंत्रालय कार्यालय वातावरण। सोमवार से शुक्रवार 9:00 से 5:30।"
+    },
+    "postingLocation": {
+      "en": "Ministries in New Delhi (MoD, MHA, MoF, MoEF) and regional offices across all states/UTs.",
+      "hi": "नई दिल्ली में मंत्रालय और सभी राज्यों/केंद्रशासित प्रदेशों में क्षेत्रीय कार्यालय।"
+    },
+    "skillRequirements": {
+      "en": "Typing Test qualifying speed: English 35 WPM (10500 KDPH) OR Hindi 30 WPM (9000 KDPH).",
+      "hi": "टाइपिंग टेस्ट क्वालिफाइंग गति: अंग्रेजी 35 शब्द/मिनट या हिंदी 30 शब्द/मिनट।"
+    },
+    "careerProgression": [
+      {
+        "en": "Lower Division Clerk / JSA (Level 2)",
+        "hi": "अवर श्रेणी लिपिक / जेएसए (लेवल 2)"
+      },
+      {
+        "en": "Upper Division Clerk / SSA (Level 4)",
+        "hi": "प्रवर श्रेणी लिपिक / एसएसए (लेवल 4)"
+      },
+      {
+        "en": "Assistant Section Officer (Level 7 - through LDCE/Promotion)",
+        "hi": "सहायक अनुभाग अधिकारी (लेवल 7)"
+      },
+      {
+        "en": "Section Officer (Level 8)",
+        "hi": "अनुभाग अधिकारी (लेवल 8)"
+      }
+    ],
+    "officialSource": "DoPT Model RRs & SSC CHSL Notification",
+    "colorBadge": "bg-cyan-600 text-white"
+  },
+  {
+    "id": "post-mts-staff",
+    "exam": "mts",
+    "postName": {
+      "en": "Multi-Tasking Staff (Non-Technical)",
+      "hi": "मल्टी-टास्किंग स्टाफ (गैर-तकनीकी)"
+    },
+    "department": "Various Central Government Ministries and Departments",
+    "ministry": "Government of India",
+    "group": "Group C (Pay Level 1)",
+    "payLevel": 1,
+    "payScale": "Rs. 18,000 to 56,900",
+    "ageRequirement": "18 to 25 years / 18 to 27 years depending on cadre",
+    "qualification": {
+      "en": "Matriculation (10th Pass) from a recognized Board.",
+      "hi": "मान्यता प्राप्त बोर्ड से 10वीं कक्षा उत्तीर्ण।"
+    },
+    "duties": [
+      {
+        "en": "Physical maintenance of records of the section, general cleanliness, assisting in routine office work like diary, dispatch, photocopying, sending FAX etc.",
+        "hi": "अनुभाग के रिकॉर्ड का भौतिक रख-रखाव, सामान्य स्वच्छता, डायरी, प्रेषण, फोटोकॉपी में सहायता।"
+      },
+      {
+        "en": "Delivering files and papers inside and outside the building, opening and closing of rooms, IT assistance.",
+        "hi": "फाइलों और कागजातों को पहुंचाना, कमरे खोलना और बंद करना, आईटी सहायता।"
+      }
+    ],
+    "workEnvironment": {
+      "en": "Office environment in Central Government buildings across all Indian states and Union Territories.",
+      "hi": "भारत के सभी राज्यों और केंद्रशासित प्रदेशों में केंद्र सरकार के कार्यालय।"
+    },
+    "postingLocation": {
+      "en": "State/UT chosen during application preference (All India Service Liability).",
+      "hi": "आवेदन के दौरान चुनी गई राज्य/यूटी वरीयता।"
+    },
+    "physicalRequirements": {
+      "en": "General physical fitness.",
+      "hi": "सामान्य शारीरिक स्वास्थ्य।"
+    },
+    "careerProgression": [
+      {
+        "en": "Multi-Tasking Staff (Level 1)",
+        "hi": "मल्टी-टास्किंग स्टाफ (लेवल 1)"
+      },
+      {
+        "en": "Lower Division Clerk (Level 2 - via departmental LDCE)",
+        "hi": "अवर श्रेणी लिपिक (लेवल 2 - विभागीय परीक्षा)"
+      },
+      {
+        "en": "Upper Division Clerk (Level 4)",
+        "hi": "प्रवर श्रेणी लिपिक (लेवल 4)"
+      }
+    ],
+    "officialSource": "SSC MTS Recruitment Rules",
+    "colorBadge": "bg-emerald-700 text-white"
+  },
+  {
+    "id": "post-gd-bsf-constable",
+    "exam": "gd",
+    "postName": {
+      "en": "Constable (General Duty) - BSF",
+      "hi": "कांस्टेबल (जनरल ड्यूटी) - बीएसएफ"
+    },
+    "department": "Border Security Force (BSF)",
+    "ministry": "Ministry of Home Affairs (MHA)",
+    "group": "Group C",
+    "payLevel": 3,
+    "payScale": "Rs. 21,700 to 69,100",
+    "ageRequirement": "18 to 23 years",
+    "qualification": {
+      "en": "10th Class Pass from a recognized Board.",
+      "hi": "मान्यता प्राप्त बोर्ड से 10वीं पास।"
+    },
+    "duties": [
+      {
+        "en": "Guarding India-Pakistan and India-Bangladesh international borders, preventing smuggling, infiltration, and trans-border crimes.",
+        "hi": "भारत-पाकिस्तान और भारत-बांग्लादेश अंतरराष्ट्रीय सीमाओं की रक्षा, घुसपैठ और सीमा पार अपराधों की रोकथाम।"
+      },
+      {
+        "en": "Border outpost (BOP) patrolling, anti-tunneling operations, disaster response.",
+        "hi": "सीमा चौकी (बीओपी) गश्त, एंटी-टनलिंग ऑपरेशन, आपदा राहत।"
+      }
+    ],
+    "workEnvironment": {
+      "en": "Hard field postings along International Borders (Thar desert, Rann of Kutch, Kashmir LOC, riverine border in Bengal/Assam).",
+      "hi": "अंतरराष्ट्रीय सीमा पर कठिन फील्ड पोस्टिंग (थार मरुस्थल, कच्छ का रण, कश्मीर एलओसी आदि)।"
+    },
+    "postingLocation": {
+      "en": "Border battalions deployed on Western and Eastern frontiers.",
+      "hi": "पश्चिमी और पूर्वी सीमाओं पर तैनात सीमा बटालियन।"
+    },
+    "physicalRequirements": {
+      "en": "Height: Male 170 cm, Female 157 cm; Chest: Male 80-85 cm. PET: Male 5 km in 24 mins; Female 1.6 km in 8.5 mins.",
+      "hi": "ऊंचाई: पुरुष 170 सेमी, महिला 157 सेमी; सीना: पुरुष 80-85 सेमी। दौड़: पुरुष 24 मिनट में 5 किमी।"
+    },
+    "careerProgression": [
+      {
+        "en": "Constable (GD) (Level 3)",
+        "hi": "कांस्टेबल (जीडी) (लेवल 3)"
+      },
+      {
+        "en": "Head Constable (Level 4)",
+        "hi": "हेड कांस्टेबल (लेवल 4)"
+      },
+      {
+        "en": "Assistant Sub-Inspector - ASI (Level 5)",
+        "hi": "सहायक उप-निरीक्षक (लेवल 5)"
+      },
+      {
+        "en": "Sub-Inspector (Level 6)",
+        "hi": "उप-निरीक्षक (लेवल 6)"
+      },
+      {
+        "en": "Inspector (Level 7)",
+        "hi": "निरीक्षक (लेवल 7)"
+      }
+    ],
+    "officialSource": "MHA / BSF Act & SSC GD Notification",
+    "colorBadge": "bg-green-700 text-white"
+  }
+]

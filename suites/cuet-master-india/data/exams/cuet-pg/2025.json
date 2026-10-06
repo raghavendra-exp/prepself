@@ -1,0 +1,20 @@
+{
+  "exam": "CUET-PG",
+  "year": 2025,
+  "duration": "105 minutes (1 hour 45 minutes).",
+  "subjects": [
+    "COQP01 to COQP22 - Common Subjects",
+    "SCQP01 to SCQP30 - Science Subjects",
+    "HUQP01 to HUQP26 - Humanities Subjects",
+    "LAQP01 to LAQP41 - Language Subjects",
+    "MTQP01 to MTQP12 - M.Tech Subjects",
+    "ACQP01 to ACQP26 - Acharya Subjects"
+  ],
+  "questionCount": "75 questions per paper. General paper Part A removed to focus exclusively on subject domain.",
+  "markingScheme": "+4 for correct, -1 for incorrect, 0 for unattempted.",
+  "mode": "Computer Based Test (CBT).",
+  "eligibility": "Bachelor degree passed or appearing in 2025.",
+  "maxSubjectLimit": 4,
+  "officialSource": "https://exams.nta.ac.in/CUET-PG/",
+  "lastVerified": "2025-05-20"
+}

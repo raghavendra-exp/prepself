@@ -1,0 +1,119 @@
+{
+  "examId": "SSC-JHT-2024",
+  "examCode": "jht",
+  "examName": {
+    "en": "SSC JHT / SHT",
+    "hi": "एसएससी कनिष्ठ हिंदी अनुवादक"
+  },
+  "fullName": {
+    "en": "Junior Hindi Translator, Junior Translation Officer and Senior Hindi Translator Examination",
+    "hi": "कनिष्ठ हिंदी अनुवादक, कनिष्ठ अनुवाद अधिकारी एवं वरिष्ठ हिंदी अनुवादक परीक्षा"
+  },
+  "badge": "Master's Degree in Hindi/English • Pay Level 6 & 7",
+  "year": 2024,
+  "duration": "Paper-I: 120 mins | Paper-II: 120 mins",
+  "questions": 200,
+  "marks": 200,
+  "negativeMarking": "Paper-I: 0.25 marks per wrong answer",
+  "subjects": [
+    "General Hindi",
+    "English Language",
+    "Translation"
+  ],
+  "eligibility": {
+    "education": {
+      "en": "Master's Degree of a recognized University in Hindi with English as a compulsory or elective subject OR Master's Degree in English with Hindi + Recognized Diploma or Certificate Course in translation from Hindi to English & vice-versa OR 2 years experience of translation work.",
+      "hi": "मान्यता प्राप्त विश्वविद्यालय से हिंदी में परास्नातक (अंग्रेजी अनिवार्य/ऐच्छिक विषय सहित) या अंग्रेजी में परास्नातक (हिंदी सहित) + अनुवाद में डिप्लोमा/प्रमाणपत्र या 2 वर्ष का अनुवाद कार्य अनुभव।"
+    },
+    "ageMin": 18,
+    "ageMax": 30,
+    "ageRelaxation": {
+      "en": "OBC: 3 years, SC/ST: 5 years, PwBD: 10 years, ESM: 3 years.",
+      "hi": "ओबीसी: 3 वर्ष, एससी/एसटी: 5 वर्ष, दिव्यांग: 10 वर्ष, भूतपूर्व सैनिक: 3 वर्ष।"
+    },
+    "esmProvisions": {
+      "en": "ESM reservations in Group C and Group B non-gazetted posts as notified.",
+      "hi": "अधिसूचित अनुसार ग्रुप सी एवं ग्रुप बी गैर-राजपत्रित पदों में भूतपूर्व सैनिक आरक्षण।"
+    }
+  },
+  "officialNotification": {
+    "notificationNumber": "F. No. HQ-PPI03/19/2026-PP_9",
+    "notificationDate": "2024-06-24",
+    "applicationStart": "2026-08-02",
+    "applicationEnd": "2026-08-25",
+    "examDate": "September 2024",
+    "url": "https://ssc.gov.in",
+    "tentativeVacancies": 312,
+    "source": "Staff Selection Commission JHT Official Notification"
+  },
+  "lastVerified": "2026-09-28",
+  "postsOverview": "Junior Translation Officer (JTO) in Central Secretariat Official Language Service (CSOLS); JTO in Armed Forces Headquarters; Junior Hindi Translator in subordinate offices; Senior Hindi Translator in Ministries.",
+  "stages": [
+    {
+      "stageId": "paper1",
+      "stageName": {
+        "en": "Paper-I (Computer Based Test)",
+        "hi": "पेपर-I (कंप्यूटर आधारित)"
+      },
+      "mode": "Objective Multiple Choice",
+      "duration": "2 Hours (120 minutes)",
+      "totalQuestions": 200,
+      "totalMarks": 200,
+      "negativeMarking": "0.25 marks per wrong answer",
+      "qualifyingNature": false,
+      "sections": [
+        {
+          "name": {
+            "en": "General Hindi",
+            "hi": "सामान्य हिंदी"
+          },
+          "questions": 100,
+          "marks": 100,
+          "negativePerWrong": 0.25
+        },
+        {
+          "name": {
+            "en": "General English",
+            "hi": "सामान्य अंग्रेजी"
+          },
+          "questions": 100,
+          "marks": 100,
+          "negativePerWrong": 0.25
+        }
+      ]
+    },
+    {
+      "stageId": "paper2",
+      "stageName": {
+        "en": "Paper-II (Translation and Essay)",
+        "hi": "पेपर-II (अनुवाद एवं निबंध)"
+      },
+      "mode": "Descriptive Pen & Paper Test",
+      "duration": "2 Hours (120 minutes)",
+      "totalQuestions": 4,
+      "totalMarks": 200,
+      "negativeMarking": "None (Evaluated descriptively)",
+      "qualifyingNature": false,
+      "sections": [
+        {
+          "name": {
+            "en": "Translation (Hindi to English & English to Hindi)",
+            "hi": "अनुवाद (हिंदी से अंग्रेजी एवं अंग्रेजी से हिंदी)"
+          },
+          "questions": 2,
+          "marks": 100,
+          "negativePerWrong": 0
+        },
+        {
+          "name": {
+            "en": "Essay (One in Hindi & One in English)",
+            "hi": "निबंध (एक हिंदी में एवं एक अंग्रेजी में)"
+          },
+          "questions": 2,
+          "marks": 100,
+          "negativePerWrong": 0
+        }
+      ]
+    }
+  ]
+}

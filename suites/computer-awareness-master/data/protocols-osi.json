@@ -1,0 +1,328 @@
+{
+  "module": "OSI Reference Model, TCP/IP & Protocols",
+  "version": "2026.1",
+  "osiLayers": [
+    {
+      "layer": 7,
+      "name": "Application Layer",
+      "hindiName": "अनुप्रयोग स्तर",
+      "pdu": "Data",
+      "functions": "Provides network services directly to end-user software applications (Web browsers, Email clients). Human-computer interaction layer.",
+      "protocols": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP",
+        "DNS",
+        "DHCP",
+        "Telnet",
+        "SSH",
+        "SNMP"
+      ]
+    },
+    {
+      "layer": 6,
+      "name": "Presentation Layer",
+      "hindiName": "प्रस्तुति स्तर",
+      "pdu": "Data",
+      "functions": "Syntax and semantics translation, Data Representation, Encryption & Decryption (SSL/TLS), Compression & Decompression.",
+      "standards": "ASCII, EBCDIC, Unicode, JPEG, MPEG, GIF, SSL/TLS, MIME",
+      "examHighlight": "Responsible for Data Encryption and Compression. Very frequent question!"
+    },
+    {
+      "layer": 5,
+      "name": "Session Layer",
+      "hindiName": "सत्र स्तर",
+      "pdu": "Data",
+      "functions": "Establishes, manages, synchronizes, and terminates communication sessions between applications. Inserts synchronization checkpoints.",
+      "modes": "Simplex, Half-Duplex, Full-Duplex dialog management",
+      "protocols": [
+        "NetBIOS",
+        "RPC (Remote Procedure Call)",
+        "PPTP"
+      ]
+    },
+    {
+      "layer": 4,
+      "name": "Transport Layer",
+      "hindiName": "परिवहन स्तर",
+      "pdu": "Segments (TCP) / Datagrams (UDP)",
+      "functions": "End-to-end delivery of the entire message, process-to-process communication via Port Addressing, Flow Control (sliding window), Error Control, Congestion Control.",
+      "coreProtocols": [
+        {
+          "name": "TCP (Transmission Control Protocol)",
+          "type": "Connection-oriented, reliable, 3-way handshake (SYN, SYN-ACK, ACK), acknowledges receipt, retransmits lost packets.",
+          "headerSize": "20 to 60 bytes"
+        },
+        {
+          "name": "UDP (User Datagram Protocol)",
+          "type": "Connectionless, unreliable, lightweight, fast, no acknowledgements, no retransmission.",
+          "headerSize": "8 bytes (fixed)",
+          "usedFor": "VoIP, live streaming, DNS queries, online gaming"
+        }
+      ],
+      "examHighlight": "Heart of OSI Model. Port addressing happens at Transport Layer."
+    },
+    {
+      "layer": 3,
+      "name": "Network Layer",
+      "hindiName": "नेटवर्क स्तर",
+      "pdu": "Packets",
+      "functions": "Source-to-destination packet delivery across multiple network links (Host-to-Host). Logical Addressing (IP addresses), Routing path determination (Dijkstra, Bellman-Ford).",
+      "protocols": [
+        "IPv4",
+        "IPv6",
+        "ICMP (ping)",
+        "IGMP",
+        "ARP",
+        "RARP",
+        "OSPF",
+        "BGP",
+        "RIP"
+      ],
+      "devices": [
+        "Routers",
+        "Layer 3 Switches"
+      ]
+    },
+    {
+      "layer": 2,
+      "name": "Data Link Layer (DLL)",
+      "hindiName": "डेटा लिंक स्तर",
+      "pdu": "Frames",
+      "sublayers": [
+        {
+          "name": "LLC (Logical Link Control)",
+          "desc": "Flow control, error control, multiplexes network layer protocols."
+        },
+        {
+          "name": "MAC (Media Access Control)",
+          "desc": "Hardware addressing (48-bit MAC address), regulates medium access (CSMA/CD, CSMA/CA)."
+        }
+      ],
+      "functions": "Hop-to-hop (node-to-node) delivery, physical addressing (MAC), framing, error detection (CRC - Cyclic Redundancy Check), flow control.",
+      "devices": [
+        "Switches",
+        "Bridges",
+        "NIC (Network Interface Card)"
+      ]
+    },
+    {
+      "layer": 1,
+      "name": "Physical Layer",
+      "hindiName": "भौतिक स्तर",
+      "pdu": "Bits (0s and 1s)",
+      "functions": "Transmission of raw unstructured bitstream over physical transmission medium. Defines electrical voltages, pin configurations, cable types, signal bit duration.",
+      "devices": [
+        "Hubs",
+        "Repeaters",
+        "Cables",
+        "Modems"
+      ]
+    }
+  ],
+  "mnemonics": {
+    "topDown": "All People Seem To Need Data Processing (Application -> Physical)",
+    "bottomUp": "Please Do Not Throw Sausage Pizza Away (Physical -> Application)"
+  },
+  "ipAddressing": {
+    "ipv4": {
+      "size": "32 bits (4 bytes)",
+      "notation": "Dotted decimal (e.g. 192.168.1.1), 4 octets (0-255 each)",
+      "classes": [
+        {
+          "class": "Class A",
+          "range": "1.0.0.0 to 126.255.255.255",
+          "defaultMask": "255.0.0.0 (/8)",
+          "leadBits": "0",
+          "purpose": "Very large networks (16M hosts/network)"
+        },
+        {
+          "class": "Class B",
+          "range": "128.0.0.0 to 191.255.255.255",
+          "defaultMask": "255.255.0.0 (/16)",
+          "leadBits": "10",
+          "purpose": "Medium networks (65k hosts/network)"
+        },
+        {
+          "class": "Class C",
+          "range": "192.0.0.0 to 223.255.255.255",
+          "defaultMask": "255.255.255.0 (/24)",
+          "leadBits": "110",
+          "purpose": "Small networks (254 hosts/network)"
+        },
+        {
+          "class": "Class D",
+          "range": "224.0.0.0 to 239.255.255.255",
+          "defaultMask": "N/A",
+          "leadBits": "1110",
+          "purpose": "Multicasting"
+        },
+        {
+          "class": "Class E",
+          "range": "240.0.0.0 to 255.255.255.255",
+          "defaultMask": "N/A",
+          "leadBits": "1111",
+          "purpose": "Experimental and Research"
+        }
+      ],
+      "specialAddresses": [
+        {
+          "address": "127.0.0.1 (127.0.0.0/8)",
+          "purpose": "Loopback address (localhost testing of TCP/IP stack)"
+        },
+        {
+          "address": "169.254.x.x (APIPA)",
+          "purpose": "Automatic Private IP Addressing (assigned when DHCP server is unreachable)"
+        },
+        {
+          "address": "0.0.0.0",
+          "purpose": "Default route / unknown network"
+        },
+        {
+          "address": "255.255.255.255",
+          "purpose": "Limited broadcast address"
+        }
+      ],
+      "privateRanges": [
+        "Class A Private: 10.0.0.0 - 10.255.255.255 (10.0.0.0/8)",
+        "Class B Private: 172.16.0.0 - 172.31.255.255 (172.16.0.0/12)",
+        "Class C Private: 192.168.0.0 - 192.168.255.255 (192.168.0.0/16)"
+      ]
+    },
+    "ipv6": {
+      "size": "128 bits (16 bytes)",
+      "notation": "8 groups of 4 hexadecimal digits separated by colons (e.g. 2001:0db8:85a3:0000:0000:8a2e:0370:7334)",
+      "compression": "Leading zeroes in a group can be omitted; consecutive groups of zeroes replaced once by '::'",
+      "loopback": "::1",
+      "features": "Virtually inexhaustible address space (3.4 * 10^38 addresses), built-in IPsec, no broadcast (uses multicast and anycast), auto-configuration (SLAAC)."
+    },
+    "macAddress": {
+      "size": "48 bits (6 bytes)",
+      "notation": "6 hexadecimal pairs (e.g., 00:1A:2B:3C:4D:5E or 00-1A-2B-3C-4D-5E)",
+      "structure": "First 24 bits = OUI (Organizationally Unique Identifier assigned by IEEE to hardware manufacturer); Last 24 bits = Device identifier assigned by vendor."
+    }
+  },
+  "masterPortList": [
+    {
+      "port": 20,
+      "protocol": "FTP Data",
+      "transport": "TCP",
+      "desc": "File Transfer Protocol data transfer"
+    },
+    {
+      "port": 21,
+      "protocol": "FTP Control",
+      "transport": "TCP",
+      "desc": "File Transfer Protocol command control"
+    },
+    {
+      "port": 22,
+      "protocol": "SSH / SFTP",
+      "transport": "TCP",
+      "desc": "Secure Shell encrypted remote login"
+    },
+    {
+      "port": 23,
+      "protocol": "Telnet",
+      "transport": "TCP",
+      "desc": "Unencrypted remote terminal connection"
+    },
+    {
+      "port": 25,
+      "protocol": "SMTP",
+      "transport": "TCP",
+      "desc": "Simple Mail Transfer Protocol (sending email between servers)"
+    },
+    {
+      "port": 53,
+      "protocol": "DNS",
+      "transport": "UDP / TCP",
+      "desc": "Domain Name System (resolves domain name to IP address; UDP for queries <512B)"
+    },
+    {
+      "port": 67,
+      "protocol": "DHCP Server",
+      "transport": "UDP",
+      "desc": "Dynamic Host Configuration Protocol server listener"
+    },
+    {
+      "port": 68,
+      "protocol": "DHCP Client",
+      "transport": "UDP",
+      "desc": "Dynamic Host Configuration Protocol client port (DORA process)"
+    },
+    {
+      "port": 69,
+      "protocol": "TFTP",
+      "transport": "UDP",
+      "desc": "Trivial File Transfer Protocol (lightweight file transfer for bootstrapping)"
+    },
+    {
+      "port": 80,
+      "protocol": "HTTP",
+      "transport": "TCP",
+      "desc": "HyperText Transfer Protocol (unencrypted web traffic)"
+    },
+    {
+      "port": 110,
+      "protocol": "POP3",
+      "transport": "TCP",
+      "desc": "Post Office Protocol version 3 (downloads emails to client and deletes from server)"
+    },
+    {
+      "port": 123,
+      "protocol": "NTP",
+      "transport": "UDP",
+      "desc": "Network Time Protocol (clock synchronization)"
+    },
+    {
+      "port": 143,
+      "protocol": "IMAP4",
+      "transport": "TCP",
+      "desc": "Internet Message Access Protocol (syncs emails across multiple devices)"
+    },
+    {
+      "port": 161,
+      "protocol": "SNMP",
+      "transport": "UDP",
+      "desc": "Simple Network Management Protocol queries/monitoring"
+    },
+    {
+      "port": 162,
+      "protocol": "SNMP Trap",
+      "transport": "UDP",
+      "desc": "SNMP asynchronous notifications/traps"
+    },
+    {
+      "port": 443,
+      "protocol": "HTTPS",
+      "transport": "TCP",
+      "desc": "HyperText Transfer Protocol Secure (HTTP over SSL/TLS)"
+    },
+    {
+      "port": 465,
+      "protocol": "SMTPS",
+      "transport": "TCP",
+      "desc": "SMTP Secure over SSL"
+    },
+    {
+      "port": 993,
+      "protocol": "IMAPS",
+      "transport": "TCP",
+      "desc": "IMAP Secure over SSL/TLS"
+    },
+    {
+      "port": 995,
+      "protocol": "POP3S",
+      "transport": "TCP",
+      "desc": "POP3 Secure over SSL/TLS"
+    },
+    {
+      "port": 3389,
+      "protocol": "RDP",
+      "transport": "TCP",
+      "desc": "Remote Desktop Protocol (Microsoft Windows Remote Desktop)"
+    }
+  ]
+}

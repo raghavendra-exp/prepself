@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Knowledge Graph — Complete History of India</title>
+<link rel="stylesheet" href="css/style.css">
+  <!-- Google Analytics Tracking (G-B0Z2G21W4F) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B0Z2G21W4F');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="site-nav" id="siteNav"></nav>
+<main id="main">
+  <div class="wrap"><div class="breadcrumb" id="breadcrumb"></div></div>
+  <header class="section" style="padding-bottom:20px;">
+    <div class="wrap">
+      <span class="eyebrow">Knowledge Graph Explorer</span>
+      <h1 style="font-size:clamp(2rem,4.4vw,3rem);">Every Concept Is a Doorway</h1>
+      <p class="section-desc" style="font-size:1.05rem; margin-bottom:26px; max-width:70ch;">Type any person, event or movement from the atlas. The graph is computed live from the same structured data that powers the rest of the site — no hand-written link list — so it stays accurate as new periods are added.</p>
+      <div class="quick-search" style="max-width:640px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" id="graphSearch" placeholder="Try “Mahatma Gandhi”, “Battle of Plassey”, “Akbar”, “Quit India”…" autofocus>
+      </div>
+    </div>
+  </header>
+
+  <section class="section" style="padding-top:10px;">
+    <div class="wrap" id="graphResult">
+      <p class="loading-note">Search for an entity above to see its historical period, category, related events, related people, related themes, chronological neighbours, and external resources — all computed automatically.</p>
+    </div>
+  </section>
+</main>
+<footer id="siteFooter"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+<script src="js/graph.js"></script>
+<script>
+async function initGraphPage(){
+  renderNav('graph.html');
+  renderBreadcrumb([{label:'Home',href:'index.html'},{label:'Knowledge Graph'}]);
+  await KGraph.build();
+  await Search.build();
+  renderFooter();
+
+  const input = document.getElementById('graphSearch');
+  const out = document.getElementById('graphResult');
+  let t;
+  input.addEventListener('input', () => {
+    clearTimeout(t);
+    t = setTimeout(runSearch, 180);
+  });
+
+  const preset = new URLSearchParams(location.search).get('q');
+  if (preset){ input.value = preset; runSearch(); }
+
+  async function runSearch(){
+    const q = input.value.trim();
+    if (!q){ out.innerHTML = '<p class="loading-note">Search for an entity above.</p>'; return; }
+    const bundle = await KGraph.explain(q);
+    if (!bundle){
+      const hits = await Search.query(q);
+      out.innerHTML = hits.length
+        ? `<p class="section-desc" style="margin-bottom:16px;">No exact graph entity matched — here are search results instead:</p><div class="card-grid">${hits.map(h => `<a class="tablet" href="${h.href}"><span class="t-cat cat-ancient" style="background:var(--bg-sunken); color:var(--ink-soft);">${h.kind}</span><h3 style="font-size:1.1rem;">${h.title}</h3><p class="t-tag">${h.sub}</p></a>`).join('')}</div>`
+        : `<p class="loading-note">No matches for “${q}”.</p>`;
+      return;
+    }
+    out.innerHTML = renderBundle(bundle);
+    // wire external-link buttons for people
+    if (bundle.type === 'person'){
+      const btn = document.getElementById('gExtLink');
+      if (btn) {
+        extLink(bundle.name).then(html => { if (html.includes('ext-link')) btn.outerHTML = `<div style="margin-top:10px;">${html}</div>`; else btn.remove(); });
+      }
+    }
+  }
+
+  function renderBundle(b){
+    if (b.type === 'person'){
+      return `
+        <div class="two-col">
+          <div>
+            <span class="badge ${b.isWomen ? 'badge-women' : ''}" style="margin-bottom:12px; ${!b.isWomen ? 'background:var(--accent-tint); color:var(--accent-strong);' : ''}">${b.isWomen ? "Women's History" : 'Person'}</span>
+            <h2 class="mt0">${b.name}</h2>
+            <h3>Appears In (Historical Periods)</h3>
+            <div class="card-grid">
+              ${b.periods.map(p => `<a class="tablet" href="${p.href}"><span class="t-cat cat-${p.category}">${p.category}</span><span class="t-range">${p.dateRange}</span><h3 style="font-size:1.05rem;">${p.periodTitle}</h3></a>`).join('')}
+            </div>
+            <h3>Roles / Notes Across Periods</h3>
+            <div style="display:flex; flex-direction:column; gap:10px;">
+              ${b.occurrences.map(o => `<div style="border:1px solid var(--line-soft); border-radius:var(--radius); padding:12px 14px; background:var(--bg-raised);"><a href="${o.href}" style="font-weight:600; text-decoration:none; color:var(--seal);">${o.periodTitle}</a> — <span style="color:var(--ink-soft); font-size:.88rem;">${o.role || ''}${o.note ? ' — ' + o.note : ''}</span></div>`).join('')}
+            </div>
+          </div>
+          <aside>
+            <h3>Related Themes</h3>
+            <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px;">
+              ${b.themes.map(t => `<a class="filter-chip" href="themes.html#${t}">${HistoryData.THEME_LABELS[t]||t}</a>`).join('') || '<span style="color:var(--ink-faint); font-size:.85rem;">None tagged.</span>'}
+            </div>
+            <h3>A Few Related Events</h3>
+            <div style="display:flex; flex-direction:column; gap:8px;">
+              ${b.relatedEvents.slice(0,5).map(e => `<a href="${e.href}" style="text-decoration:none; font-size:.86rem;"><span style="font-family:var(--font-mono); color:var(--seal); font-weight:700;">${e.year}</span> — ${e.title}</a>`).join('')}
+            </div>
+            <div id="gExtLink"></div>
+          </aside>
+        </div>`;
+    }
+    if (b.type === 'event'){
+      const e = b.event;
+      return `
+        <div class="two-col">
+          <div>
+            <span class="t-cat cat-${b.period.category}" style="margin-bottom:12px; display:inline-block;">${b.period.category}</span>
+            <h2 class="mt0">${e.label}</h2>
+            <span class="event-year" style="font-size:1.1rem;">${e.year}</span>
+            <p style="font-size:1.02rem; color:var(--ink-soft); margin-top:10px;">${e.desc}</p>
+            <a class="btn btn-outline btn-sm" href="${e.href}">Open in Period: ${b.period.periodTitle} →</a>
+
+            <h3 style="margin-top:32px;">Chronological Neighbours (site-wide)</h3>
+            <div class="p-nav-prevnext">
+              ${b.prev ? `<a class="pn-link" href="${b.prev.href}"><span class="pn-lab">← Previous Event</span><span class="pn-title">${b.prev.label} (${b.prev.year})</span></a>` : `<span class="pn-link" style="opacity:.4;"><span class="pn-lab">← Previous</span><span class="pn-title">None</span></span>`}
+              ${b.next ? `<a class="pn-link next" href="${b.next.href}"><span class="pn-lab">Next Event →</span><span class="pn-title">${b.next.label} (${b.next.year})</span></a>` : `<span class="pn-link next" style="opacity:.4;"><span class="pn-lab">Next →</span><span class="pn-title">None</span></span>`}
+            </div>
+          </div>
+          <aside>
+            <h3>Related by Theme (${HistoryData.THEME_LABELS[e.theme]||e.theme})</h3>
+            <div style="display:flex; flex-direction:column; gap:8px;">
+              ${b.themeSiblings.length ? b.themeSiblings.map(s => `<a href="${s.href}" style="text-decoration:none; font-size:.86rem;"><span style="font-family:var(--font-mono); color:var(--seal); font-weight:700;">${s.year}</span> — ${s.label} <span style="color:var(--ink-faint);">(${s.periodTitle})</span></a>`).join('') : '<span style="color:var(--ink-faint); font-size:.85rem;">No other themed events yet.</span>'}
+            </div>
+          </aside>
+        </div>`;
+    }
+    return '<p class="loading-note">No structured relation found.</p>';
+  }
+}
+initGraphPage();
+</script>
+</body>
+</html>

@@ -1,0 +1,747 @@
+{
+  "title": "Comprehensive Directory of Indian States and Union Territories",
+  "total_states": 28,
+  "total_uts": 8,
+  "last_updated": "2026-09-13",
+  "records": [
+    {
+      "name": "Andhra Pradesh",
+      "type": "State",
+      "capital": "Amaravati",
+      "chief_minister": "N. Chandrababu Naidu",
+      "governor": "S. Abdul Nazeer",
+      "high_court": "Andhra Pradesh High Court (Amaravati)",
+      "state_animal": "Blackbuck",
+      "state_bird": "Rose-ringed Parakeet",
+      "folk_dances": [
+        "Kuchipudi (Classical)",
+        "Vilasini Natyam",
+        "Bhamakalpam",
+        "Dhimsa"
+      ],
+      "festivals": [
+        "Ugadi",
+        "Sankranti",
+        "Flamingo Festival (Pulicat Lake)"
+      ],
+      "national_parks": [
+        "Sri Venkateswara National Park",
+        "Papikonda National Park"
+      ],
+      "ramsar_sites": [
+        "Kolleru Lake"
+      ],
+      "key_facts": "First state formed on linguistic basis in 1953. Second longest coastline in India (974 km)."
+    },
+    {
+      "name": "Arunachal Pradesh",
+      "type": "State",
+      "capital": "Itanagar",
+      "chief_minister": "Pema Khandu",
+      "governor": "Lt. Gen. Kaiwalya Trivikram Parnaik",
+      "high_court": "Gauhati High Court (Itanagar Bench)",
+      "state_animal": "Gayal (Mithun)",
+      "state_bird": "Great Hornbill",
+      "folk_dances": [
+        "Bardo Chham",
+        "Wancho Dance",
+        "Buiya"
+      ],
+      "festivals": [
+        "Losar",
+        "Torgya (Tawang)",
+        "Mopin",
+        "Solung"
+      ],
+      "national_parks": [
+        "Namdapha National Park",
+        "Mouling National Park"
+      ],
+      "ramsar_sites": [],
+      "key_facts": "Land of Dawn-lit Mountains. Namdapha is only park hosting 4 big cats (tiger, leopard, snow leopard, clouded leopard)."
+    },
+    {
+      "name": "Assam",
+      "type": "State",
+      "capital": "Dispur",
+      "chief_minister": "Himanta Biswa Sarma",
+      "governor": "Lakshman Prasad Acharya",
+      "high_court": "Gauhati High Court",
+      "state_animal": "One-horned Rhinoceros",
+      "state_bird": "White-winged Wood Duck",
+      "folk_dances": [
+        "Bihu",
+        "Sattriya (Classical)",
+        "Bagurumba",
+        "Bhor Tal"
+      ],
+      "festivals": [
+        "Bhogali Bihu",
+        "Rongali Bihu",
+        "Ambubachi Mela (Kamakhya)"
+      ],
+      "national_parks": [
+        "Kaziranga National Park",
+        "Manas National Park",
+        "Dibru-Saikhowa",
+        "Nameri",
+        "Orang",
+        "Raimona",
+        "Dihing Patkai"
+      ],
+      "ramsar_sites": [
+        "Deepor Beel"
+      ],
+      "key_facts": "7 National Parks (third highest in India). Majuli is the world's largest inhabited river island (Brahmaputra river)."
+    },
+    {
+      "name": "Bihar",
+      "type": "State",
+      "capital": "Patna",
+      "chief_minister": "Nitish Kumar",
+      "governor": "Rajendra Arlekar",
+      "high_court": "Patna High Court",
+      "state_animal": "Gaur (Mithun/Bull)",
+      "state_bird": "House Sparrow",
+      "folk_dances": [
+        "Jat-Jatin",
+        "Bidesia",
+        "Jhumari",
+        "Kajari"
+      ],
+      "festivals": [
+        "Chhath Puja",
+        "Sama Chakeva",
+        "Sonepur Cattle Fair"
+      ],
+      "national_parks": [
+        "Valmiki National Park"
+      ],
+      "ramsar_sites": [
+        "Kanwar Lake (Kabartal Wetland)",
+        "Nagi Bird Sanctuary",
+        "Nakti Bird Sanctuary"
+      ],
+      "key_facts": "Valmiki is the only National Park and Tiger Reserve in Bihar. Nalanda Mahavihara is a UNESCO World Heritage site."
+    },
+    {
+      "name": "Chhattisgarh",
+      "type": "State",
+      "capital": "Raipur (Nava Raipur)",
+      "chief_minister": "Vishnu Deo Sai",
+      "governor": "Ramen Deka",
+      "high_court": "Chhattisgarh High Court (Bilaspur)",
+      "state_animal": "Wild Water Buffalo (Van Bhainsa)",
+      "state_bird": "Bastar Hill Myna",
+      "folk_dances": [
+        "Panthi",
+        "Raut Nacha",
+        "Karma",
+        "Pandwani"
+      ],
+      "festivals": [
+        "Bastar Dussehra",
+        "Hareli",
+        "Madai"
+      ],
+      "national_parks": [
+        "Guru Ghasidas (Sanjay) National Park",
+        "Indravati (Kutru) National Park",
+        "Kanger Valley National Park"
+      ],
+      "ramsar_sites": [],
+      "key_facts": "Known as Rice Bowl of Central India. Famous for Chitrakote Falls (Niagara of India) on Indravati river."
+    },
+    {
+      "name": "Goa",
+      "type": "State",
+      "capital": "Panaji",
+      "chief_minister": "Pramod Sawant",
+      "governor": "P. S. Sreedharan Pillai",
+      "high_court": "Bombay High Court (Goa Bench)",
+      "state_animal": "Gaur",
+      "state_bird": "Flame-throated Bulbul",
+      "folk_dances": [
+        "Fugdi",
+        "Dhalo",
+        "Dekhni",
+        "Kunbi"
+      ],
+      "festivals": [
+        "Goa Carnival",
+        "Shigmo Festival",
+        "Feast of St. Francis Xavier"
+      ],
+      "national_parks": [
+        "Mollem National Park (Bhagwan Mahavir Wildlife Sanctuary)"
+      ],
+      "ramsar_sites": [
+        "Nanda Lake"
+      ],
+      "key_facts": "Smallest state by area. Dudhsagar Falls on Mandovi river is one of India's tallest waterfalls."
+    },
+    {
+      "name": "Gujarat",
+      "type": "State",
+      "capital": "Gandhinagar",
+      "chief_minister": "Bhupendrabhai Patel",
+      "governor": "Acharya Devvrat",
+      "high_court": "Gujarat High Court (Ahmedabad)",
+      "state_animal": "Asiatic Lion",
+      "state_bird": "Greater Flamingo",
+      "folk_dances": [
+        "Garba",
+        "Dandiya Raas",
+        "Bhavai",
+        "Tippani"
+      ],
+      "festivals": [
+        "Rann Utsav",
+        "Uttarayan (International Kite Festival)",
+        "Navratri"
+      ],
+      "national_parks": [
+        "Gir National Park",
+        "Blackbuck National Park (Velavadar)",
+        "Marine National Park (Gulf of Kutch)",
+        "Vansda National Park"
+      ],
+      "ramsar_sites": [
+        "Nalsarovar Bird Sanctuary",
+        "Thol Lake",
+        "Wadhvana Wetland",
+        "Khijadia Bird Sanctuary"
+      ],
+      "key_facts": "Longest coastline in India (approx 1,600 km). Sole natural sanctuary of Asiatic Lions (Gir). GIFT City is India's first operational IFSC."
+    },
+    {
+      "name": "Haryana",
+      "type": "State",
+      "capital": "Chandigarh",
+      "chief_minister": "Nayab Singh Saini",
+      "governor": "Bandaru Dattatreya",
+      "high_court": "Punjab and Haryana High Court (Chandigarh)",
+      "state_animal": "Blackbuck",
+      "state_bird": "Black Francolin",
+      "folk_dances": [
+        "Dhamal",
+        "Ghoomar",
+        "Phag",
+        "Loor",
+        "Gugga"
+      ],
+      "festivals": [
+        "Surajkund International Crafts Mela",
+        "Gita Mahotsav (Kurukshetra)",
+        "Baisakhi"
+      ],
+      "national_parks": [
+        "Sultanpur National Park",
+        "Kalesar National Park"
+      ],
+      "ramsar_sites": [
+        "Sultanpur National Park",
+        "Bhindawas Wildlife Sanctuary"
+      ],
+      "key_facts": "Surrounded on three sides by Delhi. Hub of automobile manufacturing (Maruti Suzuki at Manesar/Gurugram)."
+    },
+    {
+      "name": "Himachal Pradesh",
+      "type": "State",
+      "capital": "Shimla (Summer) / Dharamshala (Winter)",
+      "chief_minister": "Sukhvinder Singh Sukhu",
+      "governor": "Shiv Pratap Shukla",
+      "high_court": "Himachal Pradesh High Court (Shimla)",
+      "state_animal": "Snow Leopard",
+      "state_bird": "Western Tragopan",
+      "folk_dances": [
+        "Nati",
+        "Dangi",
+        "Chham Dance"
+      ],
+      "festivals": [
+        "Kullu Dussehra",
+        "Minjar Fair",
+        "Halda"
+      ],
+      "national_parks": [
+        "Great Himalayan National Park (UNESCO WHS)",
+        "Pin Valley National Park",
+        "Inderkilla",
+        "Khirganga",
+        "Simbalbara"
+      ],
+      "ramsar_sites": [
+        "Pong Dam Lake",
+        "Chandertal Wetland",
+        "Renuka Lake (Smallest Ramsar site in India)"
+      ],
+      "key_facts": "Renuka Lake in Sirmaur is the smallest Ramsar wetland in India. Great Himalayan NP is a UNESCO Natural World Heritage site."
+    },
+    {
+      "name": "Karnataka",
+      "type": "State",
+      "capital": "Bengaluru",
+      "chief_minister": "Siddaramaiah",
+      "governor": "Thawar Chand Gehlot",
+      "high_court": "Karnataka High Court (Bengaluru)",
+      "state_animal": "Asian Elephant",
+      "state_bird": "Indian Roller",
+      "folk_dances": [
+        "Yakshagana",
+        "Dollu Kunitha",
+        "Kamsale",
+        "Veeragase"
+      ],
+      "festivals": [
+        "Mysuru Dasara",
+        "Kambala (Buffalo race)",
+        "Karaga",
+        "Hampi Utsav"
+      ],
+      "national_parks": [
+        "Bandipur National Park",
+        "Nagarhole (Kabini) NP",
+        "Anshi (Kali) NP",
+        "Kudremukh NP",
+        "Bannerghatta NP"
+      ],
+      "ramsar_sites": [
+        "Ranganathittu Bird Sanctuary",
+        "Aghanashini Estuary",
+        "Magadi Kere Conservation Reserve",
+        "Ankasamudra Bird Conservation Reserve"
+      ],
+      "key_facts": "Bengaluru is the 'Silicon Valley of India'. Second highest tiger population in India. Hampi and Pattadakal are UNESCO World Heritage Sites."
+    },
+    {
+      "name": "Kerala",
+      "type": "State",
+      "capital": "Thiruvananthapuram",
+      "chief_minister": "Pinarayi Vijayan",
+      "governor": "Arif Mohammed Khan",
+      "high_court": "Kerala High Court (Kochi)",
+      "state_animal": "Indian Elephant",
+      "state_bird": "Great Hornbill",
+      "folk_dances": [
+        "Kathakali (Classical)",
+        "Mohiniyattam (Classical)",
+        "Theyyam",
+        "Chakyar Koothu",
+        "Thiruvathirakali"
+      ],
+      "festivals": [
+        "Onam",
+        "Vishu",
+        "Thrissur Pooram",
+        "Nehru Trophy Boat Race (Punnamada Lake)"
+      ],
+      "national_parks": [
+        "Periyar National Park",
+        "Silent Valley National Park",
+        "Eravikulam National Park",
+        "Anamudi Shola",
+        "Mathikettan Shola",
+        "Pambadum Shola"
+      ],
+      "ramsar_sites": [
+        "Vembanad-Kol Wetland (Longest lake in India)",
+        "Ashtamudi Wetland",
+        "Sasthamkotta Lake"
+      ],
+      "key_facts": "Anamudi (2,695 m) in Kerala is the highest peak in South India / Western Ghats. Eravikulam NP protects the endangered Nilgiri Tahr."
+    },
+    {
+      "name": "Madhya Pradesh",
+      "type": "State",
+      "capital": "Bhopal",
+      "chief_minister": "Mohan Yadav",
+      "governor": "Mangubhai C. Patel",
+      "high_court": "Madhya Pradesh High Court (Jabalpur)",
+      "state_animal": "Barasingha (Swamp Deer)",
+      "state_bird": "Indian Paradise Flycatcher (Dudhraj)",
+      "folk_dances": [
+        "Matki",
+        "Jawari",
+        "Aada",
+        "Khada Nach"
+      ],
+      "festivals": [
+        "Khajuraho Dance Festival",
+        "Tansen Samaroh (Gwalior)",
+        "Lokrang"
+      ],
+      "national_parks": [
+        "Kanha National Park",
+        "Bandhavgarh NP",
+        "Panna NP",
+        "Pench NP",
+        "Satpura NP",
+        "Kuno National Park",
+        "Madhav NP",
+        "Sanjay NP",
+        "Van Vihar",
+        "Dinosaur Fossils NP",
+        "Fossil NP"
+      ],
+      "ramsar_sites": [
+        "Bhoj Wetland",
+        "Sakhya Sagar",
+        "Sirpur Wetland",
+        "Yashwant Sagar"
+      ],
+      "key_facts": "'Tiger State of India' (785 tigers) and 'Leopard State'. Kuno NP is the home of reintroduced African and Namibian cheetahs (Project Cheetah)."
+    },
+    {
+      "name": "Maharashtra",
+      "type": "State",
+      "capital": "Mumbai (Summer) / Nagpur (Winter)",
+      "chief_minister": "Eknath Shinde",
+      "governor": "C. P. Radhakrishnan",
+      "high_court": "Bombay High Court (Mumbai)",
+      "state_animal": "Indian Giant Squirrel (Shekru)",
+      "state_bird": "Yellow-footed Green Pigeon (Hariyal)",
+      "folk_dances": [
+        "Lavani",
+        "Koli Dance",
+        "Dhangari Gaja",
+        "Tamasha",
+        "Lezim"
+      ],
+      "festivals": [
+        "Ganesh Chaturthi",
+        "Gudi Padwa",
+        "Ellora-Ajanta Festival",
+        "Pola"
+      ],
+      "national_parks": [
+        "Tadoba-Andhari National Park",
+        "Sanjay Gandhi (Borivali) NP",
+        "Navegaon NP",
+        "Gugamal NP",
+        "Chandoli NP",
+        "Pench (Maharashtra) NP"
+      ],
+      "ramsar_sites": [
+        "Nandur Madhameshwar",
+        "Lonar Lake (Meteorite crater lake)",
+        "Thane Creek Flamingo Sanctuary"
+      ],
+      "key_facts": "Financial capital of India (Mumbai, hosting RBI, SEBI, SBI, BSE, NSE). Lonar lake is an internationally renowned meteor impact basalt lake."
+    },
+    {
+      "name": "Odisha",
+      "type": "State",
+      "capital": "Bhubaneswar",
+      "chief_minister": "Mohan Charan Majhi",
+      "governor": "Raghubar Das",
+      "high_court": "Orissa High Court (Cuttack)",
+      "state_animal": "Sambar",
+      "state_bird": "Indian Roller",
+      "folk_dances": [
+        "Odissi (Classical)",
+        "Chhau (Mayurbhanj)",
+        "Gotipua",
+        "Sambalpuri Dance",
+        "Ghumura"
+      ],
+      "festivals": [
+        "Ratha Yatra (Puri)",
+        "Nuakhai",
+        "Raja Parba",
+        "Konark Dance Festival"
+      ],
+      "national_parks": [
+        "Simlipal National Park (Biosphere Reserve)",
+        "Bhitarkanika National Park"
+      ],
+      "ramsar_sites": [
+        "Chilika Lake (First Ramsar site in India, 1981)",
+        "Bhitarkanika Mangroves",
+        "Satkosia Gorge",
+        "Tampara Lake",
+        "Hirakud Reservoir",
+        "Ansupa Lake"
+      ],
+      "key_facts": "Chilika Lake is Asia's largest brackish water lagoon and home to Irrawaddy dolphins. Bhitarkanika hosts largest population of saltwater crocodiles."
+    },
+    {
+      "name": "Punjab",
+      "type": "State",
+      "capital": "Chandigarh",
+      "chief_minister": "Bhagwant Mann",
+      "governor": "Gulab Chand Kataria",
+      "high_court": "Punjab and Haryana High Court (Chandigarh)",
+      "state_animal": "Blackbuck",
+      "state_bird": "Northern Goshawk (Baaj)",
+      "folk_dances": [
+        "Bhangra",
+        "Giddha",
+        "Jhumar",
+        "Kikli",
+        "Sammi"
+      ],
+      "festivals": [
+        "Baisakhi",
+        "Lohri",
+        "Hola Mohalla (Anandpur Sahib)",
+        "Gurpurab"
+      ],
+      "national_parks": [],
+      "ramsar_sites": [
+        "Harike Wetland (Confluence of Beas and Sutlej)",
+        "Kanjli Wetland",
+        "Ropar Wetland",
+        "Keshopur-Miani Community Reserve",
+        "Nangal Wildlife Sanctuary",
+        "Beas Conservation Reserve (Indus River Dolphin)"
+      ],
+      "key_facts": "Land of Five Rivers. Golden Temple (Harmandir Sahib) in Amritsar. Harike Barrage feeds the Indira Gandhi Canal."
+    },
+    {
+      "name": "Rajasthan",
+      "type": "State",
+      "capital": "Jaipur",
+      "chief_minister": "Bhajan Lal Sharma",
+      "governor": "Haribhau Kisanrao Bagde",
+      "high_court": "Rajasthan High Court (Jodhpur)",
+      "state_animal": "Chinkara & Camel (State Heritage Animal)",
+      "state_bird": "Great Indian Bustard (Godawan - Critically Endangered)",
+      "folk_dances": [
+        "Ghoomar",
+        "Kalbelia (UNESCO Intangible Cultural Heritage)",
+        "Chari",
+        "Kachhi Ghodi",
+        "Bhavai"
+      ],
+      "festivals": [
+        "Pushkar Camel Fair",
+        "Desert Festival (Jaisalmer)",
+        "Teej",
+        "Gangaur"
+      ],
+      "national_parks": [
+        "Ranthambore National Park",
+        "Keoladeo (Bharatpur) National Park",
+        "Desert National Park",
+        "Sariska National Park",
+        "Mukundra Hills NP"
+      ],
+      "ramsar_sites": [
+        "Keoladeo National Park (Montreux Record)",
+        "Sambhar Lake (India's largest inland salt lake)"
+      ],
+      "key_facts": "Largest state by land area (10.4% of India). Home to Thar Desert. Kalbelia dance is inscribed on UNESCO Representative List of Intangible Heritage."
+    },
+    {
+      "name": "Tamil Nadu",
+      "type": "State",
+      "capital": "Chennai",
+      "chief_minister": "M. K. Stalin",
+      "governor": "R. N. Ravi",
+      "high_court": "Madras High Court (Chennai)",
+      "state_animal": "Nilgiri Tahr",
+      "state_bird": "Emerald Dove",
+      "folk_dances": [
+        "Bharatanatyam (Classical)",
+        "Karagattam",
+        "Kavadi Aattam",
+        "Mayil Attam",
+        "Oyilattam"
+      ],
+      "festivals": [
+        "Pongal (Jallikattu)",
+        "Thaipusam",
+        "Natyanjali Dance Festival (Chidambaram)",
+        "Panguni Uthiram"
+      ],
+      "national_parks": [
+        "Guindy National Park",
+        "Gulf of Mannar Marine National Park",
+        "Indira Gandhi (Anamalai) NP",
+        "Mudumalai NP",
+        "Mukurthi NP"
+      ],
+      "ramsar_sites": [
+        "Point Calimere",
+        "Karikili Bird Sanctuary",
+        "Pallikaranai Marsh",
+        "Pichavaram Mangrove",
+        "Gulf of Mannar Marine Biosphere",
+        "Koonthankulam",
+        "Vembannur",
+        "Vellode",
+        "Vedanthangal",
+        "Udhayamarthandapuram",
+        "Chitrangudi",
+        "Suchindram Theroor",
+        "Vaduvur",
+        "Kanjirankulam",
+        "Longwood Shola",
+        "Karaivetti"
+      ],
+      "key_facts": "Highest number of Ramsar sites in India (16 sites). Highest number of operational factories in India. Gulf of Mannar is first Marine Biosphere in South Asia."
+    },
+    {
+      "name": "Uttar Pradesh",
+      "type": "State",
+      "capital": "Lucknow",
+      "chief_minister": "Yogi Adityanath",
+      "governor": "Anandiben Patel",
+      "high_court": "Allahabad High Court (Prayagraj)",
+      "state_animal": "Swamp Deer (Barasingha)",
+      "state_bird": "Sarus Crane",
+      "folk_dances": [
+        "Kathak (Classical)",
+        "Charkula (Braj)",
+        "Raslila",
+        "Ramlila",
+        "Nautanki",
+        "Kajari"
+      ],
+      "festivals": [
+        "Maha Kumbh Mela (Prayagraj)",
+        "Taj Mahotsav (Agra)",
+        "Dev Deepawali (Varanasi)",
+        "Lathmar Holi (Barsana)"
+      ],
+      "national_parks": [
+        "Dudhwa National Park"
+      ],
+      "ramsar_sites": [
+        "Upper Ganga River",
+        "Nawabganj Bird Sanctuary",
+        "Parvati Arga",
+        "Saman Bird Sanctuary",
+        "Samaspur",
+        "Sandi",
+        "Sarsai Nawar",
+        "Sur Sarovar (Keetham Lake)",
+        "Haiderpur Wetland",
+        "Bakhira Wildlife Sanctuary"
+      ],
+      "key_facts": "Most populous state of India (sends 80 Lok Sabha MPs). Dudhwa is the sole National Park. Prayagraj Kumbh Mela is UNESCO Intangible Cultural Heritage."
+    },
+    {
+      "name": "West Bengal",
+      "type": "State",
+      "capital": "Kolkata",
+      "chief_minister": "Mamata Banerjee",
+      "governor": "C. V. Ananda Bose",
+      "high_court": "Calcutta High Court (Oldest High Court in India, est. 1862)",
+      "state_animal": "Fishing Cat",
+      "state_bird": "White-throated Kingfisher",
+      "folk_dances": [
+        "Chhau (Purulia)",
+        "Baul dance & music",
+        "Brita Dance",
+        "Gambhira"
+      ],
+      "festivals": [
+        "Durga Puja (UNESCO Intangible Cultural Heritage)",
+        "Poush Mela (Shantiniketan)",
+        "Ganga Sagar Mela"
+      ],
+      "national_parks": [
+        "Sundarbans National Park (UNESCO WHS)",
+        "Buxa National Park",
+        "Gorumara NP",
+        "Jaldapara NP",
+        "Neora Valley NP",
+        "Singalila NP"
+      ],
+      "ramsar_sites": [
+        "East Kolkata Wetlands",
+        "Sundarban Wetland (Largest Ramsar site in India, 4,230 sq km)"
+      ],
+      "key_facts": "Sundarbans is the world's largest mangrove forest and delta (Ganga-Brahmaputra). Durga Puja is inscribed on UNESCO Intangible Cultural Heritage list."
+    },
+    {
+      "name": "Jammu and Kashmir",
+      "type": "Union Territory",
+      "capital": "Srinagar (Summer) / Jammu (Winter)",
+      "chief_minister": "Omar Abdullah",
+      "governor": "Manoj Sinha (Lt. Governor)",
+      "high_court": "High Court of Jammu & Kashmir and Ladakh (Srinagar/Jammu)",
+      "state_animal": "Hangul (Kashmir Stag)",
+      "state_bird": "Kalij Pheasant",
+      "folk_dances": [
+        "Rouf",
+        "Hikat",
+        "Kud Dance",
+        "Dumhal"
+      ],
+      "festivals": [
+        "Tulip Festival",
+        "Shikara Festival",
+        "Bahu Mela",
+        "Hemis (Ladakh)"
+      ],
+      "national_parks": [
+        "Dachigam National Park (sole home of Hangul)",
+        "Kishtwar National Park",
+        "Kazinaag National Park"
+      ],
+      "ramsar_sites": [
+        "Wular Lake (One of Asia's largest freshwater lakes)",
+        "Hokera Wetland",
+        "Surinsar-Mansar Lakes",
+        "Shallabugh Wetland",
+        "Hygam Wetland"
+      ],
+      "key_facts": "Dachigam is the only habitat of the critically endangered Hangul stag. Wular lake formed by tectonic activity on Jhelum river."
+    },
+    {
+      "name": "Ladakh",
+      "type": "Union Territory",
+      "capital": "Leh (Summer) / Kargil (Winter)",
+      "chief_minister": "N/A (UT without legislature)",
+      "governor": "Brig. (Dr.) B. D. Mishra (Retd.) (Lt. Governor)",
+      "high_court": "High Court of Jammu & Kashmir and Ladakh",
+      "state_animal": "Snow Leopard",
+      "state_bird": "Black-necked Crane",
+      "folk_dances": [
+        "Shondol Dance (Royal dance of Ladakh)",
+        "Chham (Mask dance)",
+        "Spao Dance"
+      ],
+      "festivals": [
+        "Hemis Festival",
+        "Losar",
+        "Sindhu Darshan",
+        "Dosmoche"
+      ],
+      "national_parks": [
+        "Hemis National Park (Largest National Park in India, 4,400 sq km)"
+      ],
+      "ramsar_sites": [
+        "Tso Moriri Lake",
+        "Tso Kar Wetland Complex"
+      ],
+      "key_facts": "Hemis National Park is India's largest national park and highest altitude protected reserve. Umling La pass (19,024 ft) is world's highest motorable pass."
+    },
+    {
+      "name": "Delhi (NCT)",
+      "type": "Union Territory",
+      "capital": "New Delhi",
+      "chief_minister": "Atishi Marlena",
+      "governor": "Vinai Kumar Saxena (Lt. Governor)",
+      "high_court": "Delhi High Court (Only UT with its own independent High Court)",
+      "state_animal": "Nilgai",
+      "state_bird": "House Sparrow",
+      "folk_dances": [
+        "Traditional fusion",
+        "Qawwali"
+      ],
+      "festivals": [
+        "Phool Walon Ki Sair",
+        "Qutub Festival"
+      ],
+      "national_parks": [
+        "Asola Bhatti Wildlife Sanctuary"
+      ],
+      "ramsar_sites": [],
+      "key_facts": "Article 239AA of Constitution grants special status to National Capital Territory of Delhi (69th Amendment Act 1991)."
+    }
+  ]
+}

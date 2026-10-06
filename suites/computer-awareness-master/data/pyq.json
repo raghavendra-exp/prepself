@@ -1,0 +1,181 @@
+{
+  "module": "Bank Exam Previous Year Questions (PYQ) Matrix & Shift Analytics",
+  "version": "2026.1",
+  "examPatterns": [
+    {
+      "exam": "IBPS RRB Office Assistant (Multipurpose) Mains",
+      "totalQuestions": 40,
+      "totalMarks": 20,
+      "markPerQuestion": 0.5,
+      "negativeMark": 0.125,
+      "recommendedTime": "15-20 minutes",
+      "scoringPotential": "17.5+ out of 20 (High scoring rank booster)",
+      "role": "MANDATORY dedicated section in Mains exam."
+    },
+    {
+      "exam": "IBPS RRB Officer Scale-I (PO) Mains",
+      "totalQuestions": 40,
+      "totalMarks": 20,
+      "markPerQuestion": 0.5,
+      "negativeMark": 0.125,
+      "recommendedTime": "15-20 minutes",
+      "scoringPotential": "16+ out of 20",
+      "role": "MANDATORY dedicated section in Mains exam."
+    },
+    {
+      "exam": "SBI Clerk & IBPS Clerk Mains",
+      "format": "Reasoning Ability & Computer Aptitude (Merged section: 50 Qs, 60 Marks, 45 Mins)",
+      "trend": "Questions are framed as binary logic/flowcharts, digital banking, cybersecurity, and emerging payment systems integrated with reasoning patterns."
+    }
+  ],
+  "yearlyTrends": [
+    {
+      "year": "2024-2025",
+      "difficulty": "Moderate",
+      "shiftInsights": "Increased weightage on Digital Banking (NPCI systems, UPI limits, e-Rupee CBDC), Ransomware/Phishing attacks, and MS Excel formula outputs. Classic shortcut keys remained consistent.",
+      "topicDistribution": [
+        {
+          "topic": "MS Office (Word, Excel, PPT)",
+          "weightage": "22%",
+          "questionCount": "8-10"
+        },
+        {
+          "topic": "Networking & Protocols (OSI, Ports, IP)",
+          "weightage": "20%",
+          "questionCount": "7-9"
+        },
+        {
+          "topic": "Digital Banking & Cybersecurity",
+          "weightage": "18%",
+          "questionCount": "6-8"
+        },
+        {
+          "topic": "Hardware & Memory Hierarchy",
+          "weightage": "15%",
+          "questionCount": "5-7"
+        },
+        {
+          "topic": "Operating Systems & Shortcuts",
+          "weightage": "12%",
+          "questionCount": "4-6"
+        },
+        {
+          "topic": "Database & Programming Basics",
+          "weightage": "8%",
+          "questionCount": "3-4"
+        },
+        {
+          "topic": "Emerging Tech & AI",
+          "weightage": "5%",
+          "questionCount": "2-3"
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "difficulty": "Easy to Moderate",
+      "shiftInsights": "Heavy focus on OSI layers, differences between Hub and Switch, FAT32 file size limit, and keyboard hotkeys (Ctrl+M, Shift+F7).",
+      "topicDistribution": [
+        {
+          "topic": "MS Office Suite",
+          "weightage": "25%",
+          "questionCount": "10"
+        },
+        {
+          "topic": "Networking & OSI Model",
+          "weightage": "22%",
+          "questionCount": "9"
+        },
+        {
+          "topic": "Hardware & Storage Units",
+          "weightage": "18%",
+          "questionCount": "7"
+        },
+        {
+          "topic": "Cybersecurity & Malware",
+          "weightage": "15%",
+          "questionCount": "6"
+        },
+        {
+          "topic": "Operating Systems",
+          "weightage": "10%",
+          "questionCount": "4"
+        },
+        {
+          "topic": "Database & SQL",
+          "weightage": "10%",
+          "questionCount": "4"
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "difficulty": "Easy",
+      "shiftInsights": "Fundamental definitions: ROM vs RAM, Compiler vs Interpreter, 1st-5th computer generations, binary addition, and full forms (MICR, RTGS, ASCII).",
+      "topicDistribution": [
+        {
+          "topic": "Fundamentals & History",
+          "weightage": "20%",
+          "questionCount": "8"
+        },
+        {
+          "topic": "MS Office & Shortcuts",
+          "weightage": "24%",
+          "questionCount": "10"
+        },
+        {
+          "topic": "Networking & Internet",
+          "weightage": "20%",
+          "questionCount": "8"
+        },
+        {
+          "topic": "Memory & Storage",
+          "weightage": "16%",
+          "questionCount": "6"
+        },
+        {
+          "topic": "Security & Viruses",
+          "weightage": "12%",
+          "questionCount": "5"
+        },
+        {
+          "topic": "DBMS",
+          "weightage": "8%",
+          "questionCount": "3"
+        }
+      ]
+    }
+  ],
+  "trapCategories": [
+    {
+      "trap": "Ctrl + N vs Ctrl + M in PowerPoint",
+      "trapDesc": "Aspirants assume Ctrl+N creates a new slide. Actually, Ctrl+N opens a new presentation file. Ctrl+M inserts a NEW SLIDE.",
+      "frequency": "High"
+    },
+    {
+      "trap": "SPOOLing vs Buffering Memory Device",
+      "trapDesc": "SPOOLing uses Hard Disk as the buffer, whereas Buffering uses RAM.",
+      "frequency": "Very High"
+    },
+    {
+      "trap": "Degree vs Cardinality in Databases",
+      "trapDesc": "Degree = Number of columns/attributes; Cardinality = Number of rows/tuples. Easily inverted under exam pressure.",
+      "frequency": "High"
+    },
+    {
+      "trap": "Trojan Horse Replicating Capability",
+      "trapDesc": "Unlike Viruses and Worms, a Trojan Horse CANNOT replicate or multiply on its own.",
+      "frequency": "High"
+    },
+    {
+      "trap": "IMPS vs RTGS Minimum Limit",
+      "trapDesc": "RTGS has a strict minimum limit of ₹2,00,000. NEFT and IMPS have a minimum limit of ₹1.",
+      "frequency": "Very High"
+    },
+    {
+      "trap": "Max Zoom in Word vs Excel/PowerPoint",
+      "trapDesc": "Word allows up to 500% zoom. Excel and PowerPoint allow up to 400% zoom.",
+      "frequency": "Moderate"
+    }
+  ]
+}

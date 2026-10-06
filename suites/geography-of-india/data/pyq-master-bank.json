@@ -1,0 +1,640 @@
+[
+  {
+    "id": "pyq_upsc_2024_01",
+    "exam": "UPSC CSE Prelims",
+    "year": 2024,
+    "topic": "Drainage & River Systems",
+    "question": "Consider the following pairs of waterfalls and rivers in India:\n1. Dhuandhar Falls — Narmada River\n2. Hundru Falls — Subarnarekha River\n3. Gersoppa (Jog) Falls — Sharavati River\nHow many of the above pairs are correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+    ],
+    "correctOption": 2,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 3: Drainage Systems, pp. 27-29",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 3: Drainage System, Peninsular Rivers Section",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 4: Water Resources & Waterfalls"
+    },
+    "plainExplanation": "All three pairs are completely correct. Dhuandhar Falls is located on the Narmada near Jabalpur (Bhedaghat Marble Rocks). Hundru Falls is on the Subarnarekha River on the Ranchi Plateau in Jharkhand. Gersoppa (Jog Falls) is located on the west-flowing Sharavati River in the Western Ghats of Karnataka.",
+    "optionElimination": {
+      "pair1": "CORRECT: Narmada drops 30 meters through marble gorge at Bhedaghat (Jabalpur, MP).",
+      "pair2": "CORRECT: Subarnarekha river drops 98 meters over the Ranchi plateau edge to form Hundru Falls.",
+      "pair3": "CORRECT: Sharavati river drops 253 meters in four cascades (Raja, Roarer, Rocket, Rani) at Jog Falls."
+    },
+    "topperTrick": "West-flowing rivers down the steep Western Ghats escarpment (like Sharavati) have tremendous fall gradients, forming India's highest plunge waterfalls."
+  },
+  {
+    "id": "pyq_upsc_2024_02",
+    "exam": "UPSC CSE Prelims",
+    "year": 2024,
+    "topic": "Soils & Agriculture",
+    "question": "Which one of the following states is the largest producer of Groundnut in India?",
+    "options": [
+      "Andhra Pradesh",
+      "Gujarat",
+      "Rajasthan",
+      "Tamil Nadu"
+    ],
+    "correctOption": 1,
+    "bookReference": {
+      "ncert": "NCERT Class 12 'India: People and Economy', Chapter 5: Agriculture, Oilseeds, pp. 48-50",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 8: Agriculture, Oilseeds of India",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 10: Cash Crops & Oilseeds"
+    },
+    "plainExplanation": "Gujarat is overwhelmingly the largest producer of groundnut in India, accounting for over 40-45% of total production, predominantly in the semi-arid Saurashtra tract (Junagadh, Rajkot, Jamnagar, Amreli).",
+    "optionElimination": {
+      "optionA": "Andhra Pradesh: Major producer (Rayalaseema), but far behind Gujarat.",
+      "optionB": "CORRECT: Gujarat leads India in groundnut production by a huge margin.",
+      "optionC": "Rajasthan: Second largest producer in recent years, but below Gujarat.",
+      "optionD": "Tamil Nadu: High yield per hectare, but lower total acreage."
+    },
+    "topperTrick": "Saurashtra (Gujarat) = India's Groundnut Capital. Gujarat also leads India in Cotton and Salt production."
+  },
+  {
+    "id": "pyq_upsc_2023_01",
+    "exam": "UPSC CSE Prelims",
+    "year": 2023,
+    "topic": "Drainage & River Systems",
+    "question": "Consider the following rivers:\n1. Jhelum\n2. Chenab\n3. Ravi\n4. Beas\nWhich one of the above rivers passes through Wular Lake?",
+    "options": [
+      "Jhelum only",
+      "Chenab only",
+      "Ravi only",
+      "Beas only"
+    ],
+    "correctOption": 0,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 3: Drainage Systems, p. 24",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 3: Drainage System, Indus River System",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 4: The Indus System"
+    },
+    "plainExplanation": "The Jhelum rises at Verinag spring at Pir Panjal foot in Kashmir. It flows through Srinagar and enters the tectonic Wular Lake before flowing into Baramulla and entering a deep gorge.",
+    "optionElimination": {
+      "optionA": "CORRECT: Jhelum flushes directly into Wular Lake, India's largest freshwater tectonic lake.",
+      "optionB": "INCORRECT: Chenab flows south of Pir Panjal through Jammu (Doda, Kishtwar).",
+      "optionC": "INCORRECT: Ravi originates west of Rohtang Pass and flows through Chamba valley.",
+      "optionD": "INCORRECT: Beas originates at Beas Kund and merges into Satluj at Harike."
+    },
+    "topperTrick": "Mental Map Check: Srinagar city and Wular Lake both sit squarely on the Jhelum axis in the Vale of Kashmir."
+  },
+  {
+    "id": "pyq_upsc_2023_02",
+    "exam": "UPSC CSE Prelims",
+    "year": 2023,
+    "topic": "Minerals & Economic Geography",
+    "question": "Consider the following statements regarding Ilmenite and Rutile, abundantly available in certain coastal tracts of India:\n1. They are rich sources of Titanium.\n2. They are classified as monazite and zircon beach sand minerals.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correctOption": 2,
+    "bookReference": {
+      "ncert": "NCERT Class 12 'India: People and Economy', Chapter 7: Mineral and Energy Resources, pp. 78-82",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 11: Mineral Resources, Beach Sand Minerals",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 13: Atomic and Rare Earth Minerals"
+    },
+    "plainExplanation": "Ilmenite (FeTiO3) and Rutile (TiO2) are primary ores of Titanium. They occur as heavy mineral placers in beach sands alongside monazite, zircon, garnet, and sillimanite in coastal Kerala (Chavara), Tamil Nadu, and Odisha.",
+    "optionElimination": {
+      "stmt1": "TRUE: Ilmenite and Rutile are the main mineral sources of Titanium metal.",
+      "stmt2": "TRUE: They co-occur as heavy beach placer minerals along with Monazite and Zircon."
+    },
+    "topperTrick": "Beach Sand Placer Association: Ilmenite + Rutile (Titanium), Monazite (Thorium), Zircon (Zirconium) occur together in coastal placers."
+  },
+  {
+    "id": "pyq_upsc_2022_01",
+    "exam": "UPSC CSE Prelims",
+    "year": 2022,
+    "topic": "Physiography & Relief",
+    "question": "Consider the following pairs of mountain peaks and their location ranges:\n1. Namcha Barwa — Garhwal Himalaya\n2. Nanda Devi — Kumaon Himalaya\n3. Nokrek — Sikkim Himalaya\nHow many of the pairs given above is/are correctly matched?",
+    "options": [
+      "Only one pair",
+      "Only two pairs",
+      "All three pairs",
+      "None of the pairs"
+    ],
+    "correctOption": 0,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 2: Structure and Physiography, pp. 11-15",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 2: Physiography, Regional Divisions of Himalayas",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 2: The Northern Mountain Wall"
+    },
+    "plainExplanation": "Only Pair 2 is correct. Nanda Devi (7,816 m) is in Chamoli, Uttarakhand (Kumaon/Garhwal). Namcha Barwa (7,782 m) is the eastern syntaxial bend in Arunachal/Tibet. Nokrek (1,412 m) is the highest peak of Garo Hills in Meghalaya, NOT Sikkim!",
+    "optionElimination": {
+      "pair1": "INCORRECT: Namcha Barwa is at the eastern syntaxial bend in Arunachal Pradesh / Tibet.",
+      "pair2": "CORRECT: Nanda Devi is the second highest peak in India located in Uttarakhand.",
+      "pair3": "INCORRECT: Nokrek is in Meghalaya (Garo Hills), part of the Peninsular plateau."
+    },
+    "topperTrick": "Anchor rule: Nanga Parbat (West anchor) and Namcha Barwa (East anchor). Nokrek is in Garo Hills (Meghalaya)!"
+  },
+  {
+    "id": "pyq_upsc_2022_02",
+    "exam": "UPSC CSE Prelims",
+    "year": 2022,
+    "topic": "Monsoon & Climate",
+    "question": "Which of the following are the primary causes behind the arid conditions in the Thar Desert?\n1. Alignment of Aravalli Range parallel to South-West monsoon winds\n2. Upper-air thermal inversion suppressing vertical atmospheric convection\n3. Absence of any major perennial river originating inside the desert\nSelect the correct answer:",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctOption": 1,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 4: Climate, pp. 44-48",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 4: Climate, Arid Zone Climatology",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 5: The Hot Desert Biome"
+    },
+    "plainExplanation": "Statements 1 and 2 are primary meteorological causes: Aravali alignment is parallel to SW monsoon (no orographic barrier), and upper-air thermal inversion suppresses convection. Statement 3 is an effect of aridity, not its cause!",
+    "optionElimination": {
+      "stmt1": "TRUE: Aravalis are parallel to rain-bearing winds, preventing orographic lift.",
+      "stmt2": "TRUE: Upper-air anti-cyclonic subsidence suppresses convective cloud development.",
+      "stmt3": "FALSE: Absence of rivers is an outcome/effect of aridity, not its atmospheric cause."
+    },
+    "topperTrick": "Separate Cause from Effect: River absence does not cause low rainfall; atmospheric dynamics cause low rainfall."
+  },
+  {
+    "id": "pyq_upsc_2021_01",
+    "exam": "UPSC CSE Prelims",
+    "year": 2021,
+    "topic": "Drainage & River Systems",
+    "question": "With reference to the Indus river system, of the following four rivers, three of them pour into one of them which joins the Indus direct. Among the following, which one is such river that joins the Indus direct?",
+    "options": [
+      "Chenab",
+      "Jhelum",
+      "Ravi",
+      "Sutlej"
+    ],
+    "correctOption": 0,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 3: Drainage Systems, p. 24",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 3: Drainage System, Indus River System",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 4: The Indus Basin"
+    },
+    "plainExplanation": "According to official NCERT geography, Jhelum and Ravi join Chenab. Satluj receives Beas and joins Chenab to form the Panjnad at Uch Sharif before emptying into the Indus at Mithankot. Official UPSC key accepted Chenab as the master tributary.",
+    "optionElimination": {
+      "optionA": "CORRECT (Official UPSC Key): Chenab is the master tributary gathering Jhelum and Ravi before joining Indus.",
+      "optionB": "INCORRECT: Jhelum joins Chenab at Trimmu.",
+      "optionC": "INCORRECT: Ravi joins Chenab near Rangpur.",
+      "optionD": "INCORRECT: Satluj and Chenab converge before reaching Indus."
+    },
+    "topperTrick": "Indus tributary tree: Jhelum + Ravi join Chenab. Chenab is the largest tributary of the Indus."
+  },
+  {
+    "id": "pyq_upsc_2021_02",
+    "exam": "UPSC CSE Prelims",
+    "year": 2021,
+    "topic": "Drainage & River Systems",
+    "question": "Consider the following rivers:\n1. Brahmani\n2. Nagavali\n3. Subarnarekha\n4. Vamsadhara\nWhich of the above rise from the Eastern Ghats?",
+    "options": [
+      "1 and 2",
+      "2 and 4",
+      "3 and 4",
+      "1 and 3"
+    ],
+    "correctOption": 1,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 3: Drainage Systems, pp. 30-31",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 3: Drainage, East Flowing Rivers",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 4: Minor Peninsular Rivers"
+    },
+    "plainExplanation": "Nagavali and Vamsadhara originate in Eastern Ghats (Kalahandi and Rayagada, Odisha). Brahmani is formed in Chota Nagpur Plateau (Ranchi/Rourkela). Subarnarekha rises in Ranchi plateau, NOT Eastern Ghats.",
+    "optionElimination": {
+      "item1": "Brahmani: Formed in Chota Nagpur Plateau (confluence of South Koel and Sankh).",
+      "item2": "Nagavali: Originates in Eastern Ghats (Odisha) — TRUE.",
+      "item3": "Subarnarekha: Originates near Ranchi in Chota Nagpur Plateau.",
+      "item4": "Vamsadhara: Rises in Eastern Ghats (Kalahandi/Rayagada) — TRUE."
+    },
+    "topperTrick": "Subarnarekha and Brahmani are famous Chota Nagpur rivers. Eliminate 1 and 3, and only (2 and 4) remains!"
+  },
+  {
+    "id": "pyq_upsc_2020_01",
+    "exam": "UPSC CSE Prelims",
+    "year": 2020,
+    "topic": "Physiography & Relief",
+    "question": "Siachen Glacier is situated to the:",
+    "options": [
+      "East of Aksai Chin",
+      "East of Leh",
+      "North of Gilgit",
+      "North of Nubra Valley"
+    ],
+    "correctOption": 3,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 2: Structure and Physiography",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 2: Physiography, Trans-Himalayas & Karakoram",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 2: Karakoram Glaciers"
+    },
+    "plainExplanation": "Siachen Glacier is in eastern Karakoram. The Nubra River originates directly from its snout and flows south to join Shyok. Hence, Siachen lies directly north of Nubra Valley.",
+    "optionElimination": {
+      "optionA": "INCORRECT: Aksai Chin is far to the east.",
+      "optionB": "INCORRECT: Leh is south across Khardung La.",
+      "optionC": "INCORRECT: Gilgit is far to the west.",
+      "optionD": "CORRECT: Siachen lies directly north of Nubra Valley."
+    },
+    "topperTrick": "Drainage logic: Siachen snout melts into Nubra River flowing south. Source is north of the valley."
+  },
+  {
+    "id": "pyq_upsc_2020_02",
+    "exam": "UPSC CSE Prelims",
+    "year": 2020,
+    "topic": "Soils & Natural Vegetation",
+    "question": "The black cotton soil of India has been formed due to the weathering of:",
+    "options": [
+      "Brown forest soil",
+      "Fissure volcanic rock (Basalt)",
+      "Granite and schist",
+      "Shale and limestone"
+    ],
+    "correctOption": 1,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 6: Soils, p. 70",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 5: Soils, Black Soil",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 7: Regur Soils"
+    },
+    "plainExplanation": "Black soil (Regur) formed by in-situ weathering of Deccan Cretaceous basaltic lava from fissure volcanic eruptions, giving it montmorillonite clay and high self-ploughing moisture retention.",
+    "optionElimination": {
+      "optionA": "INCORRECT: Brown forest soil occurs in temperate Himalayan woods.",
+      "optionB": "CORRECT: Basaltic volcanic lava weathered into Regur / Black soil.",
+      "optionC": "INCORRECT: Granite/schist yields Red and Yellow soils.",
+      "optionD": "INCORRECT: Limestone weathering produces terra rossa."
+    },
+    "topperTrick": "Deccan Trap = Basaltic Fissure Lava = Titano-magnetite clay = Regur Black Soil = Cotton."
+  },
+  {
+    "id": "pyq_upsc_2019_01",
+    "exam": "UPSC CSE Prelims",
+    "year": 2019,
+    "topic": "Protected Areas & Biodiversity",
+    "question": "Consider the following pairs of wildlife and their natural habitats:\n1. Blue-finned Mahseer — Cauvery River\n2. Irrawaddy Dolphin — Chambal River\n3. Rusty-spotted Cat — Eastern Ghats\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctOption": 2,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 5: Natural Vegetation & Wildlife",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 6: Biosphere Reserves & Endangered Fauna",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 6: Wildlife Distribution"
+    },
+    "plainExplanation": "Blue-finned Mahseer is native to Cauvery basin. Chambal is home to Gangetic River Dolphin and Gharials (Irrawaddy dolphin is in Chilika Lake and coastal estuaries). Rusty-spotted cat occurs in deciduous forests of Eastern and Western Ghats.",
+    "optionElimination": {
+      "pair1": "CORRECT: Blue-finned Mahseer is native to Cauvery river.",
+      "pair2": "INCORRECT: Chambal has Gangetic Dolphin, not Irrawaddy Dolphin (found in Chilika).",
+      "pair3": "CORRECT: Rusty-spotted cat inhabits Eastern Ghats and scrub forests."
+    },
+    "topperTrick": "Chambal = Gangetic Dolphin. Chilika = Irrawaddy Dolphin. Eliminating 2 instantly gives (1 and 3 only)."
+  },
+  {
+    "id": "pyq_upsc_2018_01",
+    "exam": "UPSC CSE Prelims",
+    "year": 2018,
+    "topic": "Monsoon & Climate",
+    "question": "With reference to the Indian Ocean Dipole (IOD), which of the following statements is/are correct?\n1. IOD phenomenon is characterised by a difference in sea surface temperature between tropical Western Indian Ocean and tropical Eastern Pacific Ocean.\n2. An IOD phenomenon can influence an El Niño's impact on the monsoon.\nSelect the correct answer:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correctOption": 1,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 4: Climate, pp. 38-42",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 4: Climate, ENSO & IOD Section",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 5: Dynamic Climatology & IOD"
+    },
+    "plainExplanation": "Statement 1 is false because IOD is confined entirely to the Indian Ocean (Western vs Eastern Indian Ocean), not Pacific. Statement 2 is true: Positive IOD neutralizes El Niño's drying effects on Indian monsoon.",
+    "optionElimination": {
+      "stmt1": "FALSE: IOD measures SST gradient between Western Indian Ocean and Eastern Indian Ocean.",
+      "stmt2": "TRUE: Warm Western Indian Ocean (Positive IOD) supplies moisture and rescues Indian monsoon during El Niño."
+    },
+    "topperTrick": "Read keywords: Indian Ocean Dipole is strictly between two poles in the Indian Ocean. Pacific mention is an obvious trap."
+  },
+  {
+    "id": "pyq_upsc_2017_01",
+    "exam": "UPSC CSE Prelims",
+    "year": 2017,
+    "topic": "Protected Areas & Biodiversity",
+    "question": "From the ecological point of view, which one of the following assumes importance in being a good link between the Eastern Ghats and the Western Ghats?",
+    "options": [
+      "Sathyamangalam Tiger Reserve",
+      "Nallamala Forest",
+      "Nagarhole National Park",
+      "Seshachalam Biosphere Reserve"
+    ],
+    "correctOption": 0,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 2: Physiography, Peninsular Plateau",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 2: Physiography, Junction of Ghats",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 2: Peninsular Hills"
+    },
+    "plainExplanation": "Sathyamangalam Tiger Reserve in Erode, Tamil Nadu is the strategic wildlife corridor connecting the Eastern Ghats to the Western Ghats (Nilgiri Biosphere Reserve).",
+    "optionElimination": {
+      "optionA": "CORRECT: Sathyamangalam connects Eastern Ghats to Western Ghats via BR Hills.",
+      "optionB": "INCORRECT: Nallamala Forest is purely within the Eastern Ghats in AP/Telangana.",
+      "optionC": "INCORRECT: Nagarhole NP is inside the Western Ghats / Nilgiri core.",
+      "optionD": "INCORRECT: Seshachalam is in southern Eastern Ghats (Tirupati, AP)."
+    },
+    "topperTrick": "Nilgiris are the physical knot where Eastern and Western Ghats meet; Sathyamangalam is the ecological corridor wrapping it."
+  },
+  {
+    "id": "pyq_upsc_2016_01",
+    "exam": "UPSC CSE Prelims",
+    "year": 2016,
+    "topic": "Drainage & River Systems",
+    "question": "Which of the following is/are tributary/tributaries of Brahmaputra?\n1. Dibang\n2. Kameng\n3. Lohit\nSelect the correct answer:",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctOption": 3,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 3: Drainage Systems, p. 26",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 3: Drainage, The Brahmaputra System",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 4: The Brahmaputra Basin"
+    },
+    "plainExplanation": "All three are tributaries. Dihang/Siang is joined by Dibang and Lohit near Sadiya to form the Brahmaputra. Kameng joins as a right-bank tributary near Tezpur.",
+    "optionElimination": {
+      "item1": "Dibang: Left bank tributary joining at Sadiya — TRUE.",
+      "item2": "Kameng: Right bank tributary from Arunachal — TRUE.",
+      "item3": "Lohit: Left bank tributary carrying red soils (Lohit = red) — TRUE."
+    },
+    "topperTrick": "NCERT verbatim: Dihang + Dibang + Lohit = Brahmaputra. Kameng, Manas, Subansiri, Sankosh are right-bank tributaries."
+  },
+  {
+    "id": "pyq_upsc_2015_01",
+    "exam": "UPSC CSE Prelims",
+    "year": 2015,
+    "topic": "Drainage & River Systems",
+    "question": "Consider the following rivers:\n1. Vamsadhara\n2. Indravati\n3. Pranahita\n4. Pennar\nWhich of the above are tributaries of Godavari?",
+    "options": [
+      "1, 2 and 3",
+      "2, 3 and 4",
+      "1, 2 and 4",
+      "2 and 3 only"
+    ],
+    "correctOption": 3,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 3: Drainage Systems, pp. 29-30",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 3: Drainage, Godavari Basin",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 4: The Godavari Basin"
+    },
+    "plainExplanation": "Indravati and Pranahita (Penganga + Wardha + Wainganga) are major left-bank tributaries of Godavari. Vamsadhara and Pennar are independent river basins flowing directly to the Bay of Bengal.",
+    "optionElimination": {
+      "item1": "Vamsadhara: Independent river originating in Odisha.",
+      "item2": "Indravati: Major left-bank tributary flowing through Bastar — TRUE.",
+      "item3": "Pranahita: Largest tributary of Godavari — TRUE.",
+      "item4": "Pennar: Independent river basin originating in Karnataka."
+    },
+    "topperTrick": "Pennar (4) is an independent basin. Knocking out 4 immediately eliminates B and C. Vamsadhara is also independent, leaving D (2 and 3 only)!"
+  },
+  {
+    "id": "pyq_upsc_2014_01",
+    "exam": "UPSC CSE Prelims",
+    "year": 2014,
+    "topic": "Protected Areas & Biodiversity",
+    "question": "Consider the following pairs of National Parks and rivers flowing through them:\n1. Corbett National Park — Ganga\n2. Kaziranga National Park — Manas\n3. Silent Valley National Park — Kaveri\nWhich of the pairs given above is/are correctly matched?",
+    "options": [
+      "1 and 2",
+      "3 only",
+      "1 and 3",
+      "None"
+    ],
+    "correctOption": 3,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 5: Natural Vegetation and Wildlife",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 6: Biosphere Reserves and National Parks",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 6: National Parks and River Overlaps"
+    },
+    "plainExplanation": "None of the pairs match! Ramganga flows through Corbett (not Ganga). Diphlu and Brahmaputra flow through Kaziranga (Manas flows through Manas NP). Kunthipuzha (west-flowing) flows through Silent Valley (not Kaveri).",
+    "optionElimination": {
+      "pair1": "INCORRECT: Ramganga flows through Corbett.",
+      "pair2": "INCORRECT: Diphlu/Brahmaputra flow through Kaziranga.",
+      "pair3": "INCORRECT: Kunthipuzha flows through Silent Valley into Arabian Sea."
+    },
+    "topperTrick": "Watershed direction: Silent Valley drains west to Arabian Sea via Kunthipuzha; Kaveri flows east to Bay of Bengal! Instant elimination of Pair 3."
+  },
+  {
+    "id": "pyq_upsc_2011_01",
+    "exam": "UPSC CSE Prelims",
+    "year": 2011,
+    "topic": "Physiography & Relief",
+    "question": "Between which of the following sets of hills is the Palghat Gap situated?",
+    "options": [
+      "Nilgiri Hills and Cardamom Hills",
+      "Nilgiri Hills and Anaimalai Hills",
+      "Anaimalai Hills and Cardamom Hills",
+      "Cardamom Hills and Palani Hills"
+    ],
+    "correctOption": 1,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 2: Structure and Physiography, p. 15",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 2: Physiography, Western Ghats Passes",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 2: Western Ghats Morphology"
+    },
+    "plainExplanation": "Palghat Gap (30 km wide) is located between Nilgiri Hills to the north and Anaimalai Hills to the south, linking Palakkad (Kerala) with Coimbatore (TN).",
+    "optionElimination": {
+      "optionA": "INCORRECT: Cardamom hills lie south of Anaimalai.",
+      "optionB": "CORRECT: Nilgiris to the north and Anaimalais to the south border Palghat Gap.",
+      "optionC": "INCORRECT: The gap between Anaimalai and Cardamom is not Palghat.",
+      "optionD": "INCORRECT: Palani and Cardamom diverge from Anamudi node."
+    },
+    "topperTrick": "North to South sequence: Nilgiris -> [Palghat Gap] -> Anaimalai -> Cardamom Hills."
+  },
+  {
+    "id": "pyq_uppsc_2024_01",
+    "exam": "UPPSC PCS",
+    "year": 2024,
+    "topic": "Physiography & Relief",
+    "question": "Which of the following mountain passes provides the primary road link connecting the Kashmir Valley with Kargil and Leh in Ladakh?",
+    "options": [
+      "Banihal Pass",
+      "Zoji La",
+      "Shipki La",
+      "Lipulekh"
+    ],
+    "correctOption": 1,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 2: Structure and Physiography, p. 11",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 2: Physiography, Himalayan Passes",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 2: Passes of Great Himalayas"
+    },
+    "plainExplanation": "Zoji La (3,528 m) carries NH-1 across Great Himalayas, linking Srinagar with Kargil and Leh. The 14.15 km Zoji La Tunnel will provide all-weather year-round connectivity.",
+    "optionElimination": {
+      "optionA": "Banihal Pass: Connects Jammu with Srinagar across Pir Panjal.",
+      "optionB": "CORRECT: Zoji La links Srinagar Valley directly with Kargil and Leh.",
+      "optionC": "Shipki La: Connects HP with Tibet (Satluj gorge).",
+      "optionD": "Lipulekh: Uttarakhand (Pithoragarh) to Tibet (Kailash Mansarovar)."
+    },
+    "topperTrick": "Route sequence: Jammu to Srinagar = Banihal. Srinagar to Leh = Zoji La. Manali to Leh = Rohtang + Bara-lacha."
+  },
+  {
+    "id": "pyq_uppsc_2023_01",
+    "exam": "UPPSC PCS",
+    "year": 2023,
+    "topic": "UPPSC State Special Geography",
+    "question": "Which of the following soils is locally known as 'Mar' and 'Kabar' in Uttar Pradesh?",
+    "options": [
+      "Alluvial Soil of Rohilkhand",
+      "Black Soils of Bundelkhand",
+      "Terai Soil of Lakhimpur",
+      "Saline Soil of Ganga-Yamuna Doab"
+    ],
+    "correctOption": 1,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 6: Soils, Black Soil Classification",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 5: Soils, Soil Taxonomy of UP",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 7: Soils of Uttar Pradesh"
+    },
+    "plainExplanation": "In Bundelkhand (UP), black soils are Mar and Kabar (clayey, moisture-retentive); red soils are Parwa (sandy loam) and Rakar (eroded coarse gravel).",
+    "optionElimination": {
+      "optionA": "INCORRECT: Rohilkhand has alluvial loams.",
+      "optionB": "CORRECT: Mar and Kabar are black soils of Bundelkhand.",
+      "optionC": "INCORRECT: Terai has silty marshy soil.",
+      "optionD": "INCORRECT: Doab saline soils are called Reh or Usar."
+    },
+    "topperTrick": "Bundelkhand soil formula: Black = Mar + Kabar; Red = Parwa + Rakar."
+  },
+  {
+    "id": "pyq_uppsc_2022_01",
+    "exam": "UPPSC PCS",
+    "year": 2022,
+    "topic": "UPPSC State Special Geography",
+    "question": "In which of the following districts of Uttar Pradesh is 'Fulhar Jheel' (Gomat Taal) situated?",
+    "options": [
+      "Pilibhit",
+      "Lakhimpur Kheri",
+      "Sitapur",
+      "Barabanki"
+    ],
+    "correctOption": 0,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 3: Drainage Systems (Gomti plain origin)",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 3: Ganga Plain Tributaries",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 4: Drainage of UP"
+    },
+    "plainExplanation": "Fulhar Jheel (Gomat Taal) is near Madho Tanda in Pilibhit district of UP. It is the origin of the Gomti River — the only major plain-origin Ganga tributary.",
+    "optionElimination": {
+      "optionA": "CORRECT: Fulhar Jheel is in Pilibhit district, origin of Gomti River.",
+      "optionB": "INCORRECT: Lakhimpur Kheri has Dudhwa NP.",
+      "optionC": "INCORRECT: Sitapur is downstream on Gomti.",
+      "optionD": "INCORRECT: Barabanki is traversed by Gomti downstream."
+    },
+    "topperTrick": "Gomti origin = Fulhar Jheel (Pilibhit). It does not originate in the Himalayas!"
+  },
+  {
+    "id": "pyq_upsc_2013_01",
+    "exam": "UPSC CSE Prelims",
+    "year": 2013,
+    "topic": "Physiography & Relief",
+    "question": "The Ten Degree Channel separates:",
+    "options": [
+      "Andaman from Nicobar",
+      "Nicobar from Sumatra",
+      "Maldives from Lakshadweep",
+      "Little Andaman from South Andaman"
+    ],
+    "correctOption": 0,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 2: Structure and Physiography, The Islands, p. 16",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 2: Physiography, Indian Island Groups",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 2: Bay of Bengal Islands"
+    },
+    "plainExplanation": "The 10° North latitude line (Ten Degree Channel) separates the Andaman Islands (specifically Little Andaman to the north) from the Nicobar Islands (specifically Car Nicobar to the south). In contrast, Duncan Passage separates South Andaman from Little Andaman, and Great Channel separates Great Nicobar from Sumatra (Indonesia).",
+    "optionElimination": {
+      "optionA": "CORRECT: 10° Channel separates the Andaman group from the Nicobar group.",
+      "optionB": "INCORRECT: Nicobar is separated from Sumatra by the Great Channel (6° Channel).",
+      "optionC": "INCORRECT: Maldives is separated from Minicoy/Lakshadweep by the 8° Channel (Eight Degree Channel).",
+      "optionD": "INCORRECT: Little Andaman is separated from South Andaman by the Duncan Passage."
+    },
+    "topperTrick": "Channel Cheat Sheet: 8° Channel = Maldives & Minicoy. 9° Channel = Minicoy & Lakshadweep main group. 10° Channel = Andaman & Nicobar. Duncan Passage = South Andaman & Little Andaman. Great Channel = Great Nicobar & Sumatra."
+  },
+  {
+    "id": "pyq_upsc_2019_02",
+    "exam": "UPSC CSE Prelims",
+    "year": 2019,
+    "topic": "Drainage & River Systems",
+    "question": "What is common to the places known as Aliyar, Isapur and Kangsabati?",
+    "options": [
+      "Recently discovered uranium deposits",
+      "Tropical rain forests",
+      "Underground cave systems",
+      "Water reservoirs"
+    ],
+    "correctOption": 3,
+    "bookReference": {
+      "ncert": "NCERT Class 12 'India: People and Economy', Chapter 6: Water Resources, Irrigation Projects",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 7: Water Resources and Irrigation Projects",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 4: Multi-Purpose Projects"
+    },
+    "plainExplanation": "Aliyar (Tamil Nadu, Coimbatore/Pollachi), Isapur (Maharashtra, Penganga River, Hingoli/Yavatmal), and Kangsabati (West Bengal, Mukutmanipur/Bankura) are all prominent water reservoirs / irrigation dam projects.",
+    "optionElimination": {
+      "optionA": "INCORRECT: Uranium deposits are at Tummalapalle (AP), Jaduguda (Jharkhand), and Rohil (Rajasthan).",
+      "optionB": "INCORRECT: They are not tropical rainforest zones.",
+      "optionC": "INCORRECT: Underground cave systems like Belum/Borra are in AP/Meghalaya.",
+      "optionD": "CORRECT: All three are key irrigation water reservoirs and dams."
+    },
+    "topperTrick": "UPSC frequently groups obscure reservoirs from different states. Aliyar Dam is part of the famous Parambikulam-Aliyar project!"
+  },
+  {
+    "id": "pyq_uppsc_2021_01",
+    "exam": "UPPSC PCS",
+    "year": 2021,
+    "topic": "Minerals & Economic Geography",
+    "question": "Match List-I (Coalfields of India) with List-II (States):\nList-I: A. Talcher, B. Jharia, C. Singrauli, D. Raniganj\nList-II: 1. Jharkhand, 2. Odisha, 3. West Bengal, 4. Madhya Pradesh / UP border\nSelect the correct code:",
+    "options": [
+      "A-2, B-1, C-4, D-3",
+      "A-1, B-2, C-3, D-4",
+      "A-2, B-3, C-1, D-4",
+      "A-4, B-1, C-2, D-3"
+    ],
+    "correctOption": 0,
+    "bookReference": {
+      "ncert": "NCERT Class 12 'India: People and Economy', Chapter 7: Mineral and Energy Resources, Coal, pp. 74-76",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 12: Energy Resources, Gondwana Coalfields",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 12: Coalfields of India"
+    },
+    "plainExplanation": "Talcher is in the Mahanadi Valley of Odisha (Angul district). Jharia is India's premier prime coking coalfield in Dhanbad, Jharkhand. Singrauli is located in MP/UP (Sonbhadra) in the Son Valley. Raniganj is India's oldest commercial coalfield (opened 1774) in the Damodar Valley of West Bengal.",
+    "optionElimination": {
+      "pairA": "Talcher -> Odisha (Mahanadi basin, Angul).",
+      "pairB": "Jharia -> Jharkhand (Damodar valley, Dhanbad).",
+      "pairC": "Singrauli -> Madhya Pradesh / UP (Son Valley, feeds NTPC super thermal plants).",
+      "pairD": "Raniganj -> West Bengal (Damodar valley, Asansol)."
+    },
+    "topperTrick": "Anchor points: Raniganj = West Bengal (Oldest). Jharia = Jharkhand (Coking coal). Talcher = Odisha. Singrauli = MP/UP border."
+  },
+  {
+    "id": "pyq_upsc_2017_02",
+    "exam": "UPSC CSE Prelims",
+    "year": 2017,
+    "topic": "Physiography & Relief",
+    "question": "At one of the places in India, if you stand on the seashore and watch the sea, you will find that the sea water recedes from the shore line a few kilometres and comes back to the shore, twice a day, and you can actually walk on the sea floor when the water recedes. This unique phenomenon is seen at:",
+    "options": [
+      "Bhavnagar",
+      "Bheemunipatnam",
+      "Chandipur",
+      "Nagapattinam"
+    ],
+    "correctOption": 2,
+    "bookReference": {
+      "ncert": "NCERT Class 11 'India: Physical Environment', Chapter 2: Physiography, Coastal Plains",
+      "majidHusain": "Majid Husain 'Geography of India', Chapter 2: Coastal Plains and Continental Shelves",
+      "khullar": "D.R. Khullar 'India: A Comprehensive Geography', Chapter 2: Eastern Coastal Geomorphology"
+    },
+    "plainExplanation": "Chandipur beach in Balasore district, Odisha features an extraordinarily wide, flat intertidal mudflat/sandflat where the sea water recedes up to 5 kilometres during low tide twice every single day, allowing visitors to walk on the exposed sea bed before the high tide returns. It is also adjacent to Wheeler Island (Dr. APJ Abdul Kalam Island integrated missile test range).",
+    "optionElimination": {
+      "optionA": "INCORRECT: Bhavnagar has Gulf of Khambhat high tidal bore, but not this walk-in intertidal flat.",
+      "optionB": "INCORRECT: Bheemunipatnam (Andhra Pradesh) is an open steep sandy beach.",
+      "optionC": "CORRECT: Chandipur-on-Sea in Odisha is globally unique for its 5 km receding tide phenomenon.",
+      "optionD": "INCORRECT: Nagapattinam is a Coromandel surf beach hit by 2004 tsunami."
+    },
+    "topperTrick": "Chandipur in Odisha is famously called 'The Hide and Seek Beach' because the sea disappears up to 5 km at low tide!"
+  }
+]

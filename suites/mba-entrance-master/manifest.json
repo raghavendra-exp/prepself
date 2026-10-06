@@ -1,0 +1,19 @@
+{
+  "short_name": "MBA Master",
+  "name": "MBA Entrance Master India — CAT • XAT • SNAP • NMAT",
+  "description": "Comprehensive preparation platform for CAT, XAT, SNAP, and NMAT. Syllabus, PYQs, Mock Tests, Labs, and College Guide.",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "./",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "categories": ["education", "productivity"]
+}

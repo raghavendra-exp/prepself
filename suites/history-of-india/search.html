@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search — Complete History of India</title>
+<link rel="stylesheet" href="css/style.css">
+  <!-- Google Analytics Tracking (G-B0Z2G21W4F) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B0Z2G21W4F');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="site-nav" id="siteNav"></nav>
+<main id="main">
+  <div class="wrap"><div class="breadcrumb" id="breadcrumb"></div></div>
+  <header class="section" style="padding-bottom:20px;">
+    <div class="wrap">
+      <span class="eyebrow">Search Everything</span>
+      <h1 style="font-size:clamp(2rem,4.4vw,3rem);">Search the Atlas</h1>
+      <p class="section-desc" style="font-size:1.05rem; margin-bottom:26px;">Search across years, events, people, women's history and themes — entirely in your browser, no server required.</p>
+      <div class="quick-search" style="max-width:640px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" id="fullSearch" placeholder="Try “Kalinga”, “1857”, “Chola”, “Razia”, “Bhakti”…" autofocus>
+      </div>
+    </div>
+  </header>
+  <section class="section" style="padding-top:10px;">
+    <div class="wrap" id="fullResults"></div>
+  </section>
+</main>
+<footer id="siteFooter"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+<script>
+async function initSearchPage(){
+  renderNav('search.html');
+  renderBreadcrumb([{label:'Home',href:'index.html'},{label:'Search'}]);
+  await Search.build();
+  const input = document.getElementById('fullSearch');
+  const results = document.getElementById('fullResults');
+  let t;
+  input.addEventListener('input', () => {
+    clearTimeout(t);
+    t = setTimeout(async () => {
+      const q = input.value.trim();
+      if (!q){ results.innerHTML = '<p class="loading-note">Start typing to search the full atlas.</p>'; return; }
+      const hits = await Search.query(q);
+      results.innerHTML = hits.length ? `<div class="card-grid">${hits.map(h => `
+        <a class="tablet" href="${h.href}">
+          <span class="t-cat cat-ancient" style="background:var(--bg-sunken); color:var(--ink-soft);">${h.kind}</span>
+          <h3 style="font-size:1.1rem;">${h.title}</h3>
+          <p class="t-tag">${h.sub}</p>
+        </a>`).join('')}</div>` : `<p class="loading-note">No matches for “${q}”.</p>`;
+    }, 150);
+  });
+  results.innerHTML = '<p class="loading-note">Start typing to search the full atlas.</p>';
+  renderFooter();
+}
+initSearchPage();
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "full-upsc-100",
+    "title": "UPSC Prelims Full Mock 100Q",
+    "hindi": "यूपीएससी प्रारंभिक परीक्षा संपूर्ण मॉक (100 प्रश्न)",
+    "questionCount": 100,
+    "durationMinutes": 120,
+    "marksPerQuestion": 2,
+    "negativeMarking": 0.66,
+    "totalMarks": 200,
+    "description": "Authentic UPSC Civil Services Examination standard covering Physical, Climatology, River Systems, Biogeography, Economic Geography, Disasters, and Current Affairs."
+  },
+  {
+    "id": "physical-drainage-50",
+    "title": "Physical Geography & River Basins 50Q",
+    "hindi": "भौतिक भूगोल एवं अपवाह तंत्र 50Q",
+    "questionCount": 50,
+    "durationMinutes": 60,
+    "marksPerQuestion": 2,
+    "negativeMarking": 0.66,
+    "totalMarks": 100,
+    "description": "Targeted section on Physiography, Himalayan/Peninsular River Tributaries, Confluences, Dams, and Passes."
+  },
+  {
+    "id": "climate-resources-50",
+    "title": "Climate, Soils & Mineral Resources 50Q",
+    "hindi": "जलवायु, मृदा एवं खनिज संसाधन 50Q",
+    "questionCount": 50,
+    "durationMinutes": 60,
+    "marksPerQuestion": 2,
+    "negativeMarking": 0.66,
+    "totalMarks": 100,
+    "description": "Deep test on Southwest Monsoon mechanism, Western Disturbances, ICAR soil classes, and metallic/energy mineral belts."
+  },
+  {
+    "id": "rapid-map-drill-30",
+    "title": "Rapid Map Pointing & Locations 30Q",
+    "hindi": "रैपिड मानचित्र एवं अवस्थिति अभ्यास 30Q",
+    "questionCount": 30,
+    "durationMinutes": 25,
+    "marksPerQuestion": 2,
+    "negativeMarking": 0.5,
+    "totalMarks": 60,
+    "description": "Fast-paced test on Ramsar sites, Biosphere Reserves, Tiger Reserves, Port sequences, and Himalayan passes."
+  }
+]

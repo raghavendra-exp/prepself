@@ -1,0 +1,219 @@
+{
+  "module": "Database Management Systems (DBMS) & SQL",
+  "version": "2026.1",
+  "sections": [
+    {
+      "id": "dbms-fundamentals",
+      "title": "DBMS Architecture & Relational Concepts",
+      "hindiTitle": "DBMS संरचना एवं रिलेशनल अवधारणाएँ",
+      "overview": "A Database Management System (DBMS) is software designed to store, retrieve, manage, and query structured data systematically.",
+      "coreTerms": [
+        {
+          "term": "Table / Relation",
+          "desc": "A two-dimensional grid composed of rows and columns."
+        },
+        {
+          "term": "Tuple (Row / Record)",
+          "desc": "A single row representing one complete data entity record."
+        },
+        {
+          "term": "Attribute (Column / Field)",
+          "desc": "A vertical column representing a specific characteristic or property of the entity."
+        },
+        {
+          "term": "Domain",
+          "desc": "The set of all permissible values that an attribute is allowed to hold."
+        },
+        {
+          "term": "Degree",
+          "desc": "The total NUMBER OF ATTRIBUTES (columns) in a relation. High-frequency exam question!"
+        },
+        {
+          "term": "Cardinality",
+          "desc": "The total NUMBER OF TUPLES (rows) in a relation. High-frequency exam question!"
+        }
+      ],
+      "keys": [
+        {
+          "name": "Super Key",
+          "desc": "Any set of one or more attributes that can uniquely identify a tuple within a relation."
+        },
+        {
+          "name": "Candidate Key",
+          "desc": "A minimal Super Key without redundant attributes. A table can have multiple candidate keys."
+        },
+        {
+          "name": "Primary Key",
+          "desc": "The candidate key specifically chosen by the database designer to uniquely identify records. MUST BE UNIQUE and CANNOT CONTAIN NULL VALUES."
+        },
+        {
+          "name": "Alternate Key",
+          "desc": "Any candidate key that was NOT chosen as the primary key (Secondary Key)."
+        },
+        {
+          "name": "Foreign Key",
+          "desc": "An attribute in a table that references the Primary Key of another table, establishing a relationship between the two and enforcing Referential Integrity."
+        },
+        {
+          "name": "Composite Key",
+          "desc": "A primary key composed of two or more attributes together to form a unique identifier."
+        }
+      ]
+    },
+    {
+      "id": "acid-properties",
+      "title": "ACID Properties in Transactions",
+      "hindiTitle": "ट्रांजैक्शन में ACID गुण",
+      "overview": "ACID properties ensure reliable processing of database transactions, especially critical in financial and banking software.",
+      "properties": [
+        {
+          "letter": "A",
+          "name": "Atomicity",
+          "motto": "'All or Nothing'",
+          "desc": "A transaction must execute completely or not at all. If any step fails (e.g. power loss during money transfer), the entire transaction rolls back to original state."
+        },
+        {
+          "letter": "C",
+          "name": "Consistency",
+          "motto": "'Valid States Only'",
+          "desc": "A transaction transforms database from one valid consistent state to another, satisfying all integrity constraints (e.g. Total account balances preserved)."
+        },
+        {
+          "letter": "I",
+          "name": "Isolation",
+          "motto": "'Independent Execution'",
+          "desc": "Concurrent execution of multiple transactions results in a system state as if they were executed sequentially. Uncommitted changes are hidden from other transactions."
+        },
+        {
+          "letter": "D",
+          "name": "Durability",
+          "motto": "'Permanent Changes'",
+          "desc": "Once a transaction is committed, its effects are permanently recorded in non-volatile storage and survive any subsequent system crash or power outage."
+        }
+      ]
+    },
+    {
+      "id": "normalization",
+      "title": "Database Normalization (1NF to BCNF)",
+      "hindiTitle": "डेटाबेस सामान्यीकरण (1NF से BCNF)",
+      "purpose": "Process of organizing relations to minimize data redundancy (duplicate storage) and eliminate insertion, update, and deletion anomalies.",
+      "levels": [
+        {
+          "form": "1NF (First Normal Form)",
+          "rule": "Each column must contain atomic (indivisible) values. No repeating groups or multi-valued attributes allowed."
+        },
+        {
+          "form": "2NF (Second Normal Form)",
+          "rule": "Must be in 1NF AND have NO Partial Functional Dependencies (no non-prime attribute should depend on a proper subset of candidate key). All non-key attributes must be fully functionally dependent on primary key."
+        },
+        {
+          "form": "3NF (Third Normal Form)",
+          "rule": "Must be in 2NF AND have NO Transitive Dependencies (no non-prime attribute should determine another non-prime attribute). If X -> Y, then either X is a super key or Y is a prime attribute."
+        },
+        {
+          "form": "BCNF (Boyce-Codd Normal Form)",
+          "rule": "Strict 3.5NF: For every non-trivial functional dependency X -> Y, X MUST be a Super Key."
+        }
+      ]
+    },
+    {
+      "id": "sql-categories",
+      "title": "SQL Sub-Languages & Core Commands",
+      "hindiTitle": "SQL श्रेणियाँ और प्रमुख कमांड",
+      "categories": [
+        {
+          "acronym": "DDL",
+          "name": "Data Definition Language",
+          "desc": "Defines and alters database schema and structure.",
+          "commands": [
+            {
+              "cmd": "CREATE",
+              "usage": "Creates database objects (tables, views, indexes, schemas)."
+            },
+            {
+              "cmd": "ALTER",
+              "usage": "Modifies structure of existing table (adds, modifies, or drops columns)."
+            },
+            {
+              "cmd": "DROP",
+              "usage": "Permanently deletes database object and its structure from disk."
+            },
+            {
+              "cmd": "TRUNCATE",
+              "usage": "Removes all rows from a table rapidly while retaining table structure. Cannot be rolled back in standard DDL."
+            }
+          ]
+        },
+        {
+          "acronym": "DML",
+          "name": "Data Manipulation Language",
+          "desc": "Manipulates data records stored within relations.",
+          "commands": [
+            {
+              "cmd": "INSERT",
+              "usage": "Inserts new rows into a table (`INSERT INTO table VALUES (...)`)."
+            },
+            {
+              "cmd": "UPDATE",
+              "usage": "Modifies existing data values in one or more rows (`UPDATE table SET col = val WHERE condition`)."
+            },
+            {
+              "cmd": "DELETE",
+              "usage": "Removes specific rows satisfying a condition (`DELETE FROM table WHERE condition`)."
+            }
+          ]
+        },
+        {
+          "acronym": "DQL",
+          "name": "Data Query Language",
+          "desc": "Queries and retrieves data.",
+          "commands": [
+            {
+              "cmd": "SELECT",
+              "usage": "Retrieves records matching criteria (`SELECT cols FROM table WHERE ... GROUP BY ... HAVING ... ORDER BY`)."
+            }
+          ]
+        },
+        {
+          "acronym": "DCL",
+          "name": "Data Control Language",
+          "desc": "Controls security, permissions, and rights.",
+          "commands": [
+            {
+              "cmd": "GRANT",
+              "usage": "Gives user access privileges to database objects."
+            },
+            {
+              "cmd": "REVOKE",
+              "usage": "Withdraws previously granted access privileges."
+            }
+          ]
+        },
+        {
+          "acronym": "TCL",
+          "name": "Transaction Control Language",
+          "desc": "Manages transactional boundaries in DML operations.",
+          "commands": [
+            {
+              "cmd": "COMMIT",
+              "usage": "Permanently saves all changes of the current transaction to disk."
+            },
+            {
+              "cmd": "ROLLBACK",
+              "usage": "Undoes all changes made since the last commit or savepoint."
+            },
+            {
+              "cmd": "SAVEPOINT",
+              "usage": "Sets an intermediate checkpoint within a transaction for partial rollback."
+            }
+          ]
+        }
+      ],
+      "dropVsTruncateVsDelete": {
+        "drop": "DDL command. Deletes entire table data AND table schema definition. Cannot be rolled back.",
+        "truncate": "DDL command. Deletes ALL rows at once by deallocating pages; keeps table schema intact. Faster than DELETE.",
+        "delete": "DML command. Deletes specific rows row-by-row based on WHERE clause. Can be rolled back if inside transaction."
+      }
+    }
+  ]
+}

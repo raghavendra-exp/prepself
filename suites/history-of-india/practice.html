@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UPSC Prelims &amp; Mains Practice Hub — 540+ MCQs &amp; 215+ Mains Questions</title>
+<meta name="description" content="Master Indian History for UPSC CSE &amp; UPPSC with 540+ authentic Prelims MCQs, timed test simulator, instant traps &amp; topper tips, and 215+ GS Paper-1 Mains model answer frameworks.">
+<link rel="stylesheet" href="css/style.css">
+<style>
+/* Practice Hub Styles */
+.practice-scoreboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+  margin: 24px 0 28px;
+}
+.practice-stat {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 16px 20px;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+.practice-stat .p-num {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.1;
+  display: block;
+}
+.practice-stat .p-lab {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 4px;
+  display: block;
+}
+.practice-mode-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--line-soft);
+  padding-bottom: 12px;
+  flex-wrap: wrap;
+}
+.mode-tab {
+  background: none;
+  border: none;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ink-faint);
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.mode-tab.active {
+  color: var(--seal);
+  background: var(--seal-tint);
+}
+.practice-controls-card {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 18px 22px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow);
+}
+.filter-row {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.search-input-wrap {
+  flex: 1 1 280px;
+  position: relative;
+}
+.search-input-wrap input {
+  width: 100%;
+  padding: 10px 14px 10px 38px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--ink);
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+.search-input-wrap input:focus {
+  outline: none;
+  border-color: var(--seal);
+  box-shadow: 0 0 0 2px var(--seal-tint);
+}
+.search-input-wrap .search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ink-faint);
+  pointer-events: none;
+}
+.filter-select {
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--ink);
+  font-size: 0.88rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+.filter-toggle-btn {
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--ink-soft);
+  font-size: 0.86rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+.filter-toggle-btn.active {
+  background: var(--seal);
+  color: #fff;
+  border-color: var(--seal);
+}
+.practice-q-card {
+  margin-bottom: 24px;
+  padding: 24px 28px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--bg-raised);
+  box-shadow: var(--shadow);
+  transition: border-color 0.2s ease;
+}
+.practice-q-card.q-correct {
+  border-color: #2b7a4b;
+  background: color-mix(in srgb, var(--accent-tint) 30%, var(--bg-raised));
+}
+.practice-q-card.q-incorrect {
+  border-color: var(--seal);
+  background: color-mix(in srgb, var(--seal-tint) 30%, var(--bg-raised));
+}
+.q-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+.q-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.q-year {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--ink-faint);
+}
+.q-book {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--seal);
+  background: var(--seal-tint);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.q-id {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--ink-faint);
+  letter-spacing: 0.05em;
+}
+.q-prompt {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--ink);
+  margin-bottom: 18px;
+  font-weight: 500;
+  white-space: pre-line;
+}
+.q-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.opt-btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  cursor: pointer;
+  color: var(--ink);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  transition: all 0.2s ease;
+}
+.opt-btn:hover:not(:disabled) {
+  border-color: var(--ink-soft);
+  background: var(--bg-raised);
+}
+.opt-label {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--ink-faint);
+  min-width: 22px;
+}
+.opt-btn.opt-correct {
+  background: #e8f5ed;
+  border-color: #2b7a4b;
+  color: #1a4d2e;
+  font-weight: 600;
+}
+.opt-btn.opt-wrong {
+  background: #fdf0f0;
+  border-color: #c93b3b;
+  color: #7d1c1c;
+}
+.opt-btn.opt-disabled {
+  cursor: default;
+}
+[data-theme="dark"] .opt-btn.opt-correct {
+  background: #172c1f;
+  border-color: #388e5a;
+  color: #8ce0aa;
+}
+[data-theme="dark"] .opt-btn.opt-wrong {
+  background: #2e1619;
+  border-color: #9e3636;
+  color: #f19a9a;
+}
+.q-explanation {
+  margin-top: 18px;
+  padding: 18px 22px;
+  background: var(--bg);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  animation: fadeIn 0.3s ease;
+}
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.exp-badge {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+.badge-correct { background: #d2f0dd; color: #166534; }
+.badge-wrong { background: #fae2e2; color: #991b1b; }
+[data-theme="dark"] .badge-correct { background: #1c3926; color: #86efac; }
+[data-theme="dark"] .badge-wrong { background: #3c1a1e; color: #fca5a5; }
+
+.trap-box {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: color-mix(in srgb, var(--seal-tint) 40%, var(--bg));
+  border-left: 3px solid var(--seal);
+  border-radius: 4px;
+  font-size: 0.88rem;
+  color: var(--ink);
+}
+.topper-box {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: color-mix(in srgb, var(--gold) 15%, var(--bg));
+  border-left: 3px solid var(--gold);
+  border-radius: 4px;
+  font-size: 0.88rem;
+  color: var(--ink);
+}
+
+/* Mains Cards */
+.mains-card {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 26px 30px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow);
+}
+.mains-prompt-box {
+  background: var(--bg-sunken);
+  padding: 18px 22px;
+  border-left: 4px solid var(--gold);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  margin: 16px 0 20px;
+  color: var(--ink);
+}
+.mains-toggle-btn {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  color: var(--seal);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+.mains-toggle-btn:hover {
+  background: var(--seal-tint);
+}
+.mains-framework-wrap {
+  margin-top: 18px;
+  padding: 20px;
+  background: var(--bg);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+}
+.framework-heading {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+.sketch-recommendation {
+  background: color-mix(in srgb, var(--accent-tint) 35%, var(--bg));
+  border-left: 3px solid var(--accent);
+  padding: 12px 16px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: var(--ink);
+  margin: 14px 0;
+}
+
+/* Pagination Bar */
+.pagination-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 32px 0 16px;
+  flex-wrap: wrap;
+}
+.page-btn {
+  padding: 7px 13px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg-raised);
+  color: var(--ink);
+  font-size: 0.88rem;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  transition: all 0.2s ease;
+}
+.page-btn:hover:not(:disabled) {
+  border-color: var(--seal);
+  color: var(--seal);
+}
+.page-btn.active {
+  background: var(--seal);
+  color: #fff;
+  border-color: var(--seal);
+}
+.page-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+/* Exam Simulator Bar */
+.exam-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-sunken);
+  padding: 12px 18px;
+  border-radius: var(--radius);
+  margin-bottom: 18px;
+  border: 1px solid var(--line);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.timer-display {
+  font-family: var(--font-mono);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--seal);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+</style>
+  <!-- Google Analytics Tracking (G-B0Z2G21W4F) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B0Z2G21W4F');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="site-nav" id="siteNav"></nav>
+
+<main id="main">
+  <div class="wrap"><div class="breadcrumb" id="breadcrumb"></div></div>
+
+  <header class="section" style="padding-bottom:10px;">
+    <div class="wrap">
+      <span class="eyebrow">UPSC CSE (Prelims &amp; Mains) &bull; UPPSC GS-1, 5, 6 &bull; 10 Canonical Textbooks</span>
+      <h1 style="font-size:clamp(2rem,4.4vw,3.1rem);">UPSC Prelims &amp; Mains Practice Hub</h1>
+      <p class="section-desc" style="font-size:1.05rem; max-width:78ch; margin-bottom:24px;">
+        Test your analytical mastery with <strong>540+ statement-based Prelims MCQs</strong> and <strong>215+ Mains GS Paper-1 analytical model frameworks</strong> synthesized from NCERTs, R.S. Sharma, Upinder Singh, Satish Chandra, Spectrum, Bipan Chandra, Nitin Singhania, and Norman Lowe. Features authentic 2011–2024 UPSC/UPPSC PYQs, timed exam simulator, instant elimination traps, and topper tips.
+      </p>
+
+      <div class="practice-scoreboard">
+        <div class="practice-stat">
+          <span class="p-num" id="statAttempted">0</span>
+          <span class="p-lab">Questions Attempted</span>
+        </div>
+        <div class="practice-stat">
+          <span class="p-num" id="statCorrect" style="color:var(--accent);">0</span>
+          <span class="p-lab">Correct Answers</span>
+        </div>
+        <div class="practice-stat">
+          <span class="p-num" id="statAccuracy" style="color:var(--gold);">0%</span>
+          <span class="p-lab">Accuracy Rate</span>
+        </div>
+        <div class="practice-stat">
+          <span class="p-num" id="statBankSize" style="color:var(--seal);">540</span>
+          <span class="p-lab">Total Questions Bank</span>
+        </div>
+        <div class="practice-stat" style="display:flex; flex-direction:column; justify-content:center; align-items:center;">
+          <button class="btn btn-outline btn-sm" onclick="HistoryPractice.resetQuiz()" style="width:100%;">Reset Score</button>
+        </div>
+      </div>
+
+      <div class="practice-mode-tabs">
+        <button class="mode-tab active" id="tabPrelims" onclick="HistoryPractice.setSection('prelims')">
+          🎯 Prelims Practice &amp; Simulator (<span id="countPrelimsBadge">540</span>)
+        </button>
+        <button class="mode-tab" id="tabMains" onclick="HistoryPractice.setSection('mains')">
+          ✍️ Mains Analytical Architect (<span id="countMainsBadge">215</span>)
+        </button>
+      </div>
+
+      <!-- Control Filters -->
+      <div class="practice-controls-card">
+        <div class="filter-row">
+          <div class="search-input-wrap">
+            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            <input type="text" id="practiceSearch" placeholder="Search questions, options, concepts, or book citations…" oninput="HistoryPractice.onSearchChange(this.value)">
+          </div>
+
+          <select class="filter-select" id="bookFilter" onchange="HistoryPractice.onBookChange(this.value)">
+            <option value="all">📚 All 10 Canonical Textbooks</option>
+            <option value="ncert">NCERTs (Class 6-12 Themes &amp; Contemporary World)</option>
+            <option value="rs-sharma">R.S. Sharma (India's Ancient Past)</option>
+            <option value="upinder-singh">Upinder Singh (Ancient &amp; Early Medieval)</option>
+            <option value="satish-chandra">Satish Chandra (History of Medieval India)</option>
+            <option value="spectrum">Spectrum (Brief History of Modern India)</option>
+            <option value="bipan-chandra">Bipan Chandra (India's Struggle for Independence)</option>
+            <option value="nitin-singhania">Nitin Singhania (Indian Art &amp; Culture)</option>
+            <option value="norman-lowe">Norman Lowe (Mastering Modern World History)</option>
+          </select>
+
+          <button class="filter-toggle-btn" id="pyqFilterBtn" onclick="HistoryPractice.togglePyqFilter()">
+            <span>🏆</span> Authentic PYQs Only
+          </button>
+
+          <div id="examModeToggleWrap" style="margin-left:auto; display:flex; gap:8px; align-items:center;">
+            <button class="filter-toggle-btn active" id="btnStudyMode" onclick="HistoryPractice.setExamMode(false)">
+              📖 Instant Study
+            </button>
+            <button class="filter-toggle-btn" id="btnExamMode" onclick="HistoryPractice.setExamMode(true)">
+              ⏱️ Timed Mock Test
+            </button>
+          </div>
+        </div>
+
+        <div class="filter-bar" id="practiceCategoryBar" style="margin-bottom:0;"></div>
+      </div>
+
+      <!-- Timed Exam Bar (visible when Exam Mode is active) -->
+      <div class="exam-bar" id="examStatusBar" style="display:none;">
+        <div style="display:flex; align-items:center; gap:16px;">
+          <span class="timer-display" id="examTimer">⏱️ 00:00</span>
+          <span style="font-size:0.88rem; color:var(--ink-soft);" id="examProgress">Question 0 of 25</span>
+        </div>
+        <div style="display:flex; gap:10px;">
+          <button class="btn btn-outline btn-sm" onclick="HistoryPractice.startExam(25)">25 Qs Mock</button>
+          <button class="btn btn-outline btn-sm" onclick="HistoryPractice.startExam(50)">50 Qs Full Mock</button>
+          <button class="btn btn-primary btn-sm" onclick="HistoryPractice.submitExam()">Finish &amp; Score Test</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section" style="padding-top:14px;">
+    <div class="wrap">
+      <div id="practiceContainer">
+        <p class="loading-note">Loading practice database…</p>
+      </div>
+
+      <div class="pagination-bar" id="practicePagination"></div>
+    </div>
+  </section>
+</main>
+
+<footer id="siteFooter"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+<script src="js/practice.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  HistoryPractice.init();
+});
+</script>
+</body>
+</html>

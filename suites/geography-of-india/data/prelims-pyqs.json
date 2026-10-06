@@ -1,0 +1,65 @@
+[
+  {
+    "exam": "UPSC CSE",
+    "stage": "Prelims",
+    "year": 2026,
+    "paper": "General Studies Paper I",
+    "officialPdfUrl": "https://www.upsc.gov.in/sites/default/files/QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf"
+  },
+  {
+    "exam": "UPSC CSE",
+    "stage": "Prelims",
+    "year": 2025,
+    "paper": "General Studies Paper I",
+    "officialPdfUrl": "https://www.upsc.gov.in/sites/default/files/QP-CSP-25-GENERAL-STUDIES-PAPER-I-26052025.pdf"
+  },
+  {
+    "exam": "UPSC CSE",
+    "stage": "Prelims",
+    "year": 2024,
+    "paper": "General Studies Paper I",
+    "officialPdfUrl": "https://www.upsc.gov.in/sites/default/files/QP-CSP-24-GENERAL-STUDIES-PAPER-I-180624.pdf"
+  },
+  {
+    "exam": "UPSC CSE",
+    "stage": "Mains",
+    "year": 2025,
+    "paper": "General Studies Paper I (Indian Geography)",
+    "officialPdfUrl": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER%20I-QP-CSM-25-010925.pdf"
+  },
+  {
+    "exam": "UPSC CSE",
+    "stage": "Mains",
+    "year": 2025,
+    "paper": "General Studies Paper III (Agriculture & Disasters)",
+    "officialPdfUrl": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-III-QP-CSM-25-010925.pdf"
+  },
+  {
+    "exam": "UPSC CSE",
+    "stage": "Mains",
+    "year": 2024,
+    "paper": "Geography Optional Paper I",
+    "officialPdfUrl": "https://www.upsc.gov.in/sites/default/files/QP-CSM-24-GEOGRAPHY-PAPER-I-031024.pdf"
+  },
+  {
+    "exam": "UPSC CSE",
+    "stage": "Mains",
+    "year": 2024,
+    "paper": "Geography Optional Paper II (Geography of India)",
+    "officialPdfUrl": "https://www.upsc.gov.in/sites/default/files/QP-CSM-24-GEOGRAPHY-PAPER-II-031024.pdf"
+  },
+  {
+    "exam": "UPPSC PCS",
+    "stage": "Prelims",
+    "year": 2024,
+    "paper": "General Studies Paper I",
+    "officialPdfUrl": "https://uppsc.up.nic.in/"
+  },
+  {
+    "exam": "BPSC",
+    "stage": "Prelims",
+    "year": 2024,
+    "paper": "General Studies (Bihar & Indian Geography)",
+    "officialPdfUrl": "https://bpsc.bih.nic.in/"
+  }
+]

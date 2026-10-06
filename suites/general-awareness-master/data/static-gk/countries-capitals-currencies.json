@@ -1,0 +1,423 @@
+{
+  "title": "Global Countries, Capitals, and Currencies Directory",
+  "total": 52,
+  "last_updated": "2026-09-13",
+  "records": [
+    {
+      "country": "India",
+      "capital": "New Delhi",
+      "currency": "Indian Rupee",
+      "code": "INR",
+      "continent": "Asia",
+      "notes": "Host of G20 in 2023, founding member of BRICS & SAARC"
+    },
+    {
+      "country": "Japan",
+      "capital": "Tokyo",
+      "currency": "Yen",
+      "code": "JPY",
+      "continent": "Asia",
+      "notes": "G7 member, bilateral swap arrangement with RBI"
+    },
+    {
+      "country": "United States",
+      "capital": "Washington, D.C.",
+      "currency": "US Dollar",
+      "code": "USD",
+      "continent": "North America",
+      "notes": "World's primary global reserve currency"
+    },
+    {
+      "country": "United Kingdom",
+      "capital": "London",
+      "currency": "Pound Sterling",
+      "code": "GBP",
+      "continent": "Europe",
+      "notes": "City of London financial hub, Bank of England"
+    },
+    {
+      "country": "China",
+      "capital": "Beijing",
+      "currency": "Renminbi (Yuan)",
+      "code": "CNY",
+      "continent": "Asia",
+      "notes": "Part of IMF's SDR currency basket since 2016"
+    },
+    {
+      "country": "Russia",
+      "capital": "Moscow",
+      "currency": "Russian Ruble",
+      "code": "RUB",
+      "continent": "Europe/Asia",
+      "notes": "BRICS member, Rupee-Ruble bilateral trade arrangement"
+    },
+    {
+      "country": "France",
+      "capital": "Paris",
+      "currency": "Euro",
+      "code": "EUR",
+      "continent": "Europe",
+      "notes": "HQ of OECD, UNESCO, and FATF"
+    },
+    {
+      "country": "Germany",
+      "capital": "Berlin",
+      "currency": "Euro",
+      "code": "EUR",
+      "continent": "Europe",
+      "notes": "Largest economy in EU, European Central Bank in Frankfurt"
+    },
+    {
+      "country": "Brazil",
+      "capital": "Brasilia",
+      "currency": "Brazilian Real",
+      "code": "BRL",
+      "continent": "South America",
+      "notes": "Founding BRICS member, G20 Presidency 2024"
+    },
+    {
+      "country": "South Africa",
+      "capital": "Pretoria (Exec) / Cape Town (Leg) / Bloemfontein (Jud)",
+      "currency": "South African Rand",
+      "code": "ZAR",
+      "continent": "Africa",
+      "notes": "Joined BRICS in 2010, G20 Presidency 2025"
+    },
+    {
+      "country": "Saudi Arabia",
+      "capital": "Riyadh",
+      "currency": "Saudi Riyal",
+      "code": "SAR",
+      "continent": "Asia",
+      "notes": "OPEC powerhouse, invited to BRICS+"
+    },
+    {
+      "country": "United Arab Emirates",
+      "capital": "Abu Dhabi",
+      "currency": "UAE Dirham",
+      "code": "AED",
+      "continent": "Asia",
+      "notes": "Joined BRICS 2024, CEPA trade agreement with India"
+    },
+    {
+      "country": "Australia",
+      "capital": "Canberra",
+      "currency": "Australian Dollar",
+      "code": "AUD",
+      "continent": "Oceania",
+      "notes": "Member of QUAD and Commonwealth"
+    },
+    {
+      "country": "Canada",
+      "capital": "Ottawa",
+      "currency": "Canadian Dollar",
+      "code": "CAD",
+      "continent": "North America",
+      "notes": "G7 member"
+    },
+    {
+      "country": "Switzerland",
+      "capital": "Bern",
+      "currency": "Swiss Franc",
+      "code": "CHF",
+      "continent": "Europe",
+      "notes": "Safe-haven currency, HQ of BIS in Basel & WEF in Cologny"
+    },
+    {
+      "country": "Singapore",
+      "capital": "Singapore",
+      "currency": "Singapore Dollar",
+      "code": "SGD",
+      "continent": "Asia",
+      "notes": "Top foreign direct investment (FDI) equity source for India"
+    },
+    {
+      "country": "South Korea",
+      "capital": "Seoul",
+      "currency": "South Korean Won",
+      "code": "KRW",
+      "continent": "Asia",
+      "notes": "CEPA partner with India"
+    },
+    {
+      "country": "Indonesia",
+      "capital": "Nusantara (new) / Jakarta",
+      "currency": "Indonesian Rupiah",
+      "code": "IDR",
+      "continent": "Asia",
+      "notes": "ASEAN largest economy, G20 2022 President"
+    },
+    {
+      "country": "Bangladesh",
+      "capital": "Dhaka",
+      "currency": "Taka",
+      "code": "BDT",
+      "continent": "Asia",
+      "notes": "SAARC & BIMSTEC member, border trade in INR"
+    },
+    {
+      "country": "Sri Lanka",
+      "capital": "Sri Jayawardenepura Kotte (Admin) / Colombo (Com)",
+      "currency": "Sri Lankan Rupee",
+      "code": "LKR",
+      "continent": "Asia",
+      "notes": "BIMSTEC & SAARC, recipient of Indian currency swap lines"
+    },
+    {
+      "country": "Nepal",
+      "capital": "Kathmandu",
+      "currency": "Nepalese Rupee",
+      "code": "NPR",
+      "continent": "Asia",
+      "notes": "Pegged to Indian Rupee, SAARC Secretariat host"
+    },
+    {
+      "country": "Bhutan",
+      "capital": "Thimphu",
+      "currency": "Ngultrum",
+      "code": "BTN",
+      "continent": "Asia",
+      "notes": "Pegged 1:1 with Indian Rupee, BIMSTEC member"
+    },
+    {
+      "country": "Maldives",
+      "capital": "Male",
+      "currency": "Maldivian Rufiyaa",
+      "code": "MVR",
+      "continent": "Asia",
+      "notes": "Indian Ocean archipelago, RBI currency swap partner"
+    },
+    {
+      "country": "Myanmar",
+      "capital": "Naypyidaw",
+      "currency": "Kyat",
+      "code": "MMK",
+      "continent": "Asia",
+      "notes": "BIMSTEC and ASEAN gateway to Southeast Asia"
+    },
+    {
+      "country": "Thailand",
+      "capital": "Bangkok",
+      "currency": "Thai Baht",
+      "code": "THB",
+      "continent": "Asia",
+      "notes": "BIMSTEC member, UN-ESCAP headquarters"
+    },
+    {
+      "country": "Malaysia",
+      "capital": "Kuala Lumpur",
+      "currency": "Malaysian Ringgit",
+      "code": "MYR",
+      "continent": "Asia",
+      "notes": "ASEAN member, bilateral INR settlement enabled"
+    },
+    {
+      "country": "Vietnam",
+      "capital": "Hanoi",
+      "currency": "Vietnamese Dong",
+      "code": "VND",
+      "continent": "Asia",
+      "notes": "Fastest growing Southeast Asian manufacturing exporter"
+    },
+    {
+      "country": "Philippines",
+      "capital": "Manila",
+      "currency": "Philippine Peso",
+      "code": "PHP",
+      "continent": "Asia",
+      "notes": "Headquarters of Asian Development Bank (ADB)"
+    },
+    {
+      "country": "Iran",
+      "capital": "Tehran",
+      "currency": "Iranian Rial",
+      "code": "IRR",
+      "continent": "Asia",
+      "notes": "Chabahar port agreement partner with India, BRICS+ member"
+    },
+    {
+      "country": "Israel",
+      "capital": "Jerusalem",
+      "currency": "New Israeli Shekel",
+      "code": "ILS",
+      "continent": "Asia",
+      "notes": "I2U2 grouping member (India, Israel, UAE, USA)"
+    },
+    {
+      "country": "Turkey",
+      "capital": "Ankara",
+      "currency": "Turkish Lira",
+      "code": "TRY",
+      "continent": "Europe/Asia",
+      "notes": "G20 member straddling Bosphorus Strait"
+    },
+    {
+      "country": "Egypt",
+      "capital": "Cairo",
+      "currency": "Egyptian Pound",
+      "code": "EGP",
+      "continent": "Africa",
+      "notes": "Suez Canal custodian, joined BRICS 2024"
+    },
+    {
+      "country": "Kenya",
+      "capital": "Nairobi",
+      "currency": "Kenyan Shilling",
+      "code": "KES",
+      "continent": "Africa",
+      "notes": "HQ of United Nations Environment Programme (UNEP)"
+    },
+    {
+      "country": "Nigeria",
+      "capital": "Abuja",
+      "currency": "Nigerian Naira",
+      "code": "NGN",
+      "continent": "Africa",
+      "notes": "Most populous African nation, major crude oil supplier"
+    },
+    {
+      "country": "Argentina",
+      "capital": "Buenos Aires",
+      "currency": "Argentine Peso",
+      "code": "ARS",
+      "continent": "South America",
+      "notes": "Part of Lithium Triangle along with Chile & Bolivia"
+    },
+    {
+      "country": "Chile",
+      "capital": "Santiago",
+      "currency": "Chilean Peso",
+      "code": "CLP",
+      "continent": "South America",
+      "notes": "World's largest copper producer, Lithium Triangle"
+    },
+    {
+      "country": "Mexico",
+      "capital": "Mexico City",
+      "currency": "Mexican Peso",
+      "code": "MXN",
+      "continent": "North America",
+      "notes": "G20 member, USMCA trade bloc"
+    },
+    {
+      "country": "Italy",
+      "capital": "Rome",
+      "currency": "Euro",
+      "code": "EUR",
+      "continent": "Europe",
+      "notes": "HQ of FAO, WFP, and IFAD in Rome"
+    },
+    {
+      "country": "Spain",
+      "capital": "Madrid",
+      "currency": "Euro",
+      "code": "EUR",
+      "continent": "Europe",
+      "notes": "HQ of UN World Tourism Organization (UN-Tourism)"
+    },
+    {
+      "country": "Netherlands",
+      "capital": "Amsterdam (Admin: The Hague)",
+      "currency": "Euro",
+      "code": "EUR",
+      "continent": "Europe",
+      "notes": "The Hague hosts International Court of Justice (ICJ)"
+    },
+    {
+      "country": "Belgium",
+      "capital": "Brussels",
+      "currency": "Euro",
+      "code": "EUR",
+      "continent": "Europe",
+      "notes": "HQ of European Union (EU) and NATO"
+    },
+    {
+      "country": "Austria",
+      "capital": "Vienna",
+      "currency": "Euro",
+      "code": "EUR",
+      "continent": "Europe",
+      "notes": "HQ of OPEC, IAEA, and UNODC"
+    },
+    {
+      "country": "Sweden",
+      "capital": "Stockholm",
+      "currency": "Swedish Krona",
+      "code": "SEK",
+      "continent": "Europe",
+      "notes": "Home of Nobel Prizes (except Peace Prize)"
+    },
+    {
+      "country": "Norway",
+      "capital": "Oslo",
+      "currency": "Norwegian Krone",
+      "code": "NOK",
+      "continent": "Europe",
+      "notes": "Nobel Peace Prize presented in Oslo"
+    },
+    {
+      "country": "Denmark",
+      "capital": "Copenhagen",
+      "currency": "Danish Krone",
+      "code": "DKK",
+      "continent": "Europe",
+      "notes": "Nordic nation, consistently high in Global Happiness Index"
+    },
+    {
+      "country": "Poland",
+      "capital": "Warsaw",
+      "currency": "Polish Zloty",
+      "code": "PLN",
+      "continent": "Europe",
+      "notes": "Key Central European economy"
+    },
+    {
+      "country": "Uzbekistan",
+      "capital": "Tashkent",
+      "currency": "Uzbekistani Som",
+      "code": "UZS",
+      "continent": "Asia",
+      "notes": "SCO member, Central Asian strategic partner"
+    },
+    {
+      "country": "Kazakhstan",
+      "capital": "Astana",
+      "currency": "Kazakhstani Tenge",
+      "code": "KZT",
+      "continent": "Asia",
+      "notes": "Largest uranium supplier to India, SCO member"
+    },
+    {
+      "country": "Mauritius",
+      "capital": "Port Louis",
+      "currency": "Mauritian Rupee",
+      "code": "MUR",
+      "continent": "Africa",
+      "notes": "Key foreign investment routing destination, DTAA treaty"
+    },
+    {
+      "country": "Oman",
+      "capital": "Muscat",
+      "currency": "Omani Rial",
+      "code": "OMR",
+      "continent": "Asia",
+      "notes": "Gulf strategic ally, Duqm port access agreement"
+    },
+    {
+      "country": "Qatar",
+      "capital": "Doha",
+      "currency": "Qatari Riyal",
+      "code": "QAR",
+      "continent": "Asia",
+      "notes": "India's largest Liquefied Natural Gas (LNG) supplier"
+    },
+    {
+      "country": "Ethiopia",
+      "capital": "Addis Ababa",
+      "currency": "Ethiopian Birr",
+      "code": "ETB",
+      "continent": "Africa",
+      "notes": "Joined BRICS 2024, HQ of African Union (AU)"
+    }
+  ]
+}

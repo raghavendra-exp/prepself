@@ -1,0 +1,125 @@
+{
+  "examId": "SSC-MTS-2026",
+  "examCode": "mts",
+  "examName": {
+    "en": "SSC MTS & Havaldar",
+    "hi": "एसएससी एमटीएस एवं हवलदार"
+  },
+  "fullName": {
+    "en": "Multi-Tasking (Non-Technical) Staff & Havaldar (CBIC & CBN) Examination",
+    "hi": "मल्टी-टास्किंग (गैर-तकनीकी) स्टाफ एवं हवलदार (CBIC और CBN) परीक्षा"
+  },
+  "badge": "10th Matric Pass • Group C",
+  "year": 2026,
+  "duration": "Session-I: 45 mins | Session-II: 45 mins",
+  "questions": 90,
+  "marks": 270,
+  "negativeMarking": "No negative marking in Session-I! 1 mark per wrong in Session-II",
+  "subjects": [
+    "Quantitative Aptitude",
+    "General Intelligence & Reasoning",
+    "English Language",
+    "General Awareness",
+    "Physical Preparation"
+  ],
+  "eligibility": {
+    "education": {
+      "en": "Matriculation (10th Pass) from a recognized Board.",
+      "hi": "मान्यता प्राप्त बोर्ड से 10वीं (मैट्रिक) उत्तीर्ण।"
+    },
+    "ageMin": 18,
+    "ageMax": 27,
+    "ageRelaxation": {
+      "en": "18-25 years for MTS and Havaldar in CBN; 18-27 years for Havaldar in CBIC and few MTS posts. Standard category relaxations apply.",
+      "hi": "एमटीएस एवं सीबीएन हवलदार हेतु 18-25 वर्ष; सीबीआईसी हवलदार व कुछ एमटीएस पदों हेतु 18-27 वर्ष। श्रेणीवार छूट मान्य।"
+    },
+    "physical": {
+      "en": "Mandatory PET/PST only for Havaldar in CBIC & CBN: Walking 1600m in 15 mins (Male), 1 km in 20 mins (Female). Height: Male 157.5 cm, Female 152 cm.",
+      "hi": "केवल सीबीआईसी व सीबीएन हवलदार हेतु शारीरिक परीक्षण: 15 मिनट में 1600 मी टहलना (पुरुष), 20 मिनट में 1 किमी (महिला)। ऊंचाई: पुरुष 157.5 सेमी, महिला 152 सेमी।"
+    },
+    "esmProvisions": {
+      "en": "Reservation for Ex-Servicemen across states/cadres as notified.",
+      "hi": "राज्यों और संवर्गों में भूतपूर्व सैनिकों हेतु अधिसूचित आरक्षण।"
+    }
+  },
+  "officialNotification": {
+    "notificationNumber": "F. No. HQ-PPI03/13/2026-PP_3",
+    "notificationDate": "2026-06-27",
+    "applicationStart": "2026-06-27",
+    "applicationEnd": "2026-07-31",
+    "examDate": "October - November 2026",
+    "url": "https://ssc.gov.in",
+    "tentativeVacancies": 9583,
+    "source": "Official Staff Selection Commission Notification"
+  },
+  "lastVerified": "2026-09-28",
+  "postsOverview": "Multi-Tasking Staff (Peon, Daftary, Jamadar, Farash, Chowkidar, Mali) across Ministries; Havaldar in CBIC and CBN.",
+  "stages": [
+    {
+      "stageId": "session1",
+      "stageName": {
+        "en": "Session-I (Math & Reasoning)",
+        "hi": "सत्र-I (गणित एवं तर्कशक्ति)"
+      },
+      "mode": "Computer Based Test",
+      "duration": "45 minutes (60 minutes for eligible scribes)",
+      "totalQuestions": 40,
+      "totalMarks": 120,
+      "negativeMarking": "NO NEGATIVE MARKING in Session-I (Official Rule)",
+      "qualifyingNature": true,
+      "sections": [
+        {
+          "name": {
+            "en": "Numerical and Mathematical Ability",
+            "hi": "संख्यात्मक एवं गणितीय योग्यता"
+          },
+          "questions": 20,
+          "marks": 60,
+          "negativePerWrong": 0
+        },
+        {
+          "name": {
+            "en": "Reasoning Ability and Problem Solving",
+            "hi": "तर्कशक्ति एवं समस्या समाधान"
+          },
+          "questions": 20,
+          "marks": 60,
+          "negativePerWrong": 0
+        }
+      ]
+    },
+    {
+      "stageId": "session2",
+      "stageName": {
+        "en": "Session-II (Merit Determining)",
+        "hi": "सत्र-II (मेरिट निर्धारक सत्र)"
+      },
+      "mode": "Computer Based Test",
+      "duration": "45 minutes (60 minutes for eligible scribes)",
+      "totalQuestions": 50,
+      "totalMarks": 150,
+      "negativeMarking": "1 mark negative for each incorrect response",
+      "qualifyingNature": false,
+      "sections": [
+        {
+          "name": {
+            "en": "General Awareness",
+            "hi": "सामान्य जागरूकता"
+          },
+          "questions": 25,
+          "marks": 75,
+          "negativePerWrong": 1
+        },
+        {
+          "name": {
+            "en": "English Language and Comprehension",
+            "hi": "अंग्रेजी भाषा एवं बोधगम्यता"
+          },
+          "questions": 25,
+          "marks": 75,
+          "negativePerWrong": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "year": 2026,
+  "available_months": [
+    "2026-09",
+    "2026-08"
+  ],
+  "categories": [
+    "ECONOMY & BANKING",
+    "NATIONAL",
+    "INTERNATIONAL",
+    "GOVERNMENT SCHEMES",
+    "SCIENCE & DEFENCE",
+    "APPOINTMENTS",
+    "AWARDS & HONOURS",
+    "REPORTS & INDEXES",
+    "SPORTS",
+    "ENVIRONMENT & ECOLOGY"
+  ],
+  "high_yield_themes": [
+    {
+      "theme": "Monetary Policy & Forex Milestones",
+      "why": "Frequently tested in SBI and IBPS Clerk Mains. Direct questions on repo rate, forex reserves rankings, and MPC composition.",
+      "sample_topic": "India crossing $700B Forex, MPC Section 45ZB"
+    },
+    {
+      "theme": "Flagship Central Schemes Outlays",
+      "why": "IBPS exams invariably test financial outlay, eligibility age, and ministry for PM-KISAN, PM Surya Ghar, and PMJDY.",
+      "sample_topic": "PM Surya Ghar (₹75,021 Cr, 1 Cr households), PM-KISAN (₹6000/yr)"
+    },
+    {
+      "theme": "Defence Indigenisation & Space",
+      "why": "INS Arighaat SSBN commissioning, GSAT-7R naval communications, Shukrayaan-1 Venus mission.",
+      "sample_topic": "LVM3 rocket, Nuclear Triad second-strike"
+    },
+    {
+      "theme": "Multilateral Institutions & Memberships",
+      "why": "NDB expansion (Algeria), World Bank WDR 3i framework, Ramsar wetlands (88 total).",
+      "sample_topic": "NDB HQ Shanghai, Ramsar Convention 1971"
+    }
+  ]
+}

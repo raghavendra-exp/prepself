@@ -1,0 +1,105 @@
+{
+  "examId": "SSC-SELECTION-POST-2024",
+  "examCode": "selection-post",
+  "examName": {
+    "en": "SSC Selection Post",
+    "hi": "एसएससी चयन पद"
+  },
+  "fullName": {
+    "en": "Phase-XII / Phase-XIII Selection Posts Examination",
+    "hi": "फेज-XII / फेज-XIII चयन पद परीक्षा"
+  },
+  "badge": "10th / 12th / Graduate Specific Posts",
+  "year": 2024,
+  "duration": "60 minutes",
+  "questions": 100,
+  "marks": 200,
+  "negativeMarking": "0.50 marks per wrong answer",
+  "subjects": [
+    "General Intelligence & Reasoning",
+    "General Awareness",
+    "Quantitative Aptitude",
+    "English Language"
+  ],
+  "eligibility": {
+    "education": {
+      "en": "Categorized into 3 levels: (1) Matriculation Level, (2) Higher Secondary (10+2) Level, (3) Graduation and Above Level. Each post has specific essential qualifications, experience, and trade certificates.",
+      "hi": "तीन स्तरों में विभाजित: (1) मैट्रिक स्तर, (2) उच्चतर माध्यमिक (10+2) स्तर, (3) स्नातक एवं उच्च स्तर। प्रत्येक पद हेतु विशिष्ट अनिवार्य योग्यता व अनुभव।"
+    },
+    "ageMin": 18,
+    "ageMax": 30,
+    "ageRelaxation": {
+      "en": "18-25, 18-27, 18-30 or up to 37 years depending on individual post code. Standard category relaxations apply.",
+      "hi": "पद कोड के आधार पर 18-25, 18-27, 18-30 या 37 वर्ष तक। श्रेणीवार नियमानुसार छूट।"
+    },
+    "esmProvisions": {
+      "en": "ESM reservations defined individually per post category.",
+      "hi": "प्रत्येक पद श्रेणी के अनुसार भूतपूर्व सैनिक आरक्षण निर्धारित।"
+    }
+  },
+  "officialNotification": {
+    "notificationNumber": "F. No. HQ-PPI03/18/2026-PP_8",
+    "notificationDate": "2024-06-24",
+    "applicationStart": "2026-02-26",
+    "applicationEnd": "2026-03-26",
+    "examDate": "September 2024",
+    "url": "https://ssc.gov.in",
+    "tentativeVacancies": 2049,
+    "source": "Staff Selection Commission Phase Selection Post Notification"
+  },
+  "lastVerified": "2026-09-28",
+  "postsOverview": "Technical Superintendent, Laboratory Assistant, Junior Seed Analyst, Research Associate, Data Processing Assistant, Store Keeper, Library Information Assistant across Northern, Central, Eastern, Western, Southern, MP, and North-Eastern regions.",
+  "stages": [
+    {
+      "stageId": "cbe",
+      "stageName": {
+        "en": "Computer Based Examination (Level-wise)",
+        "hi": "कंप्यूटर आधारित परीक्षा (स्तरवार)"
+      },
+      "mode": "Objective MCQ (Separate papers for Matric, 10+2, and Graduate levels)",
+      "duration": "60 minutes",
+      "totalQuestions": 100,
+      "totalMarks": 200,
+      "negativeMarking": "0.50 marks per wrong answer",
+      "qualifyingNature": false,
+      "sections": [
+        {
+          "name": {
+            "en": "General Intelligence",
+            "hi": "सामान्य बुद्धिमत्ता"
+          },
+          "questions": 25,
+          "marks": 50,
+          "negativePerWrong": 0.5
+        },
+        {
+          "name": {
+            "en": "General Awareness",
+            "hi": "सामान्य जागरूकता"
+          },
+          "questions": 25,
+          "marks": 50,
+          "negativePerWrong": 0.5
+        },
+        {
+          "name": {
+            "en": "Quantitative Aptitude",
+            "hi": "मात्रात्मक अभिरुचि"
+          },
+          "questions": 25,
+          "marks": 50,
+          "negativePerWrong": 0.5
+        },
+        {
+          "name": {
+            "en": "English Language (Basic Knowledge)",
+            "hi": "अंग्रेजी भाषा (मूल ज्ञान)"
+          },
+          "questions": 25,
+          "marks": 50,
+          "negativePerWrong": 0.5
+        }
+      ]
+    }
+  ]
+}

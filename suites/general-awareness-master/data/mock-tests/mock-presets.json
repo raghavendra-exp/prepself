@@ -1,0 +1,72 @@
+{
+  "title": "Full Exam Simulator Presets",
+  "presets": [
+    {
+      "id": "MOCK-SBI-CLERK",
+      "title": "SBI Clerk Mains GA Full Mock Test",
+      "target_exam": "SBI Clerk (Junior Associate) Mains",
+      "total_questions": 50,
+      "total_marks": 50,
+      "time_limit_seconds": 2100,
+      "negative_mark": 0.25,
+      "passing_percentile": 75,
+      "distribution": {
+        "current_affairs": 24,
+        "banking_awareness": 14,
+        "government_schemes": 6,
+        "static_gk": 4,
+        "reports_indexes": 2
+      },
+      "description": "Strict simulation of SBI Clerk Mains General/Financial Awareness. 50 questions, 35 minutes sectional time limit, -0.25 negative marking per incorrect answer."
+    },
+    {
+      "id": "MOCK-IBPS-CLERK",
+      "title": "IBPS Clerk / CSA Mains GA Full Mock Test",
+      "target_exam": "IBPS Clerk / Customer Service Associate Mains",
+      "total_questions": 50,
+      "total_marks": 50,
+      "time_limit_seconds": 2100,
+      "negative_mark": 0.25,
+      "passing_percentile": 70,
+      "distribution": {
+        "current_affairs": 22,
+        "banking_awareness": 12,
+        "government_schemes": 8,
+        "static_gk": 5,
+        "reports_indexes": 3
+      },
+      "description": "Official pattern for IBPS Clerk Mains GA. Balanced questions across government schemes, regulatory guidelines, and static GK links."
+    },
+    {
+      "id": "MOCK-RRB-OA",
+      "title": "IBPS RRB Office Assistant GA Mock Test",
+      "target_exam": "IBPS RRB Office Assistant (Multipurpose) Mains",
+      "total_questions": 40,
+      "total_marks": 40,
+      "time_limit_seconds": 1200,
+      "negative_mark": 0.25,
+      "passing_percentile": 65,
+      "distribution": {
+        "current_affairs": 18,
+        "static_gk": 10,
+        "agriculture_schemes": 7,
+        "banking_awareness": 5
+      },
+      "description": "Standard 40-question section for RRB Office Assistant. Heavy on rural banking, agriculture schemes, and direct static GK facts."
+    },
+    {
+      "id": "MOCK-RAPID-SPRINT",
+      "title": "Daily Rapid Fire 15-Question Speed Drill",
+      "target_exam": "Speed & Accuracy Booster",
+      "total_questions": 15,
+      "total_marks": 15,
+      "time_limit_seconds": 300,
+      "negative_mark": 0.25,
+      "passing_percentile": 80,
+      "distribution": {
+        "mixed": 15
+      },
+      "description": "Intense 5-minute drill to build fast instinctive recall and negative avoidance reflexes."
+    }
+  ]
+}

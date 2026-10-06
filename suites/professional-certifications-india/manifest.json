@@ -1,0 +1,17 @@
+{
+  "name": "Professional Certifications & Statutory Exams India — Master Platform",
+  "short_name": "ProCert India",
+  "description": "Comprehensive bilingual preparation platform for CA, CS, CMA, CFA, ACCA, FRM, CISA, Banking, Insurance, NISM, and Regulatory exams in India.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

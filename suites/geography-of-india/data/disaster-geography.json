@@ -1,0 +1,334 @@
+{
+  "frameworks": {
+    "ndma2005": {
+      "act": "Disaster Management Act, 2005",
+      "hindi": "आपदा प्रबंधन अधिनियम, 2005",
+      "structure": [
+        {
+          "level": "National Level",
+          "body": "National Disaster Management Authority (NDMA)",
+          "head": "Prime Minister of India (Ex-officio Chairperson)",
+          "role": "Lays down policies, national disaster management plan (NDMP), and national guidelines on hazards."
+        },
+        {
+          "level": "State Level",
+          "body": "State Disaster Management Authority (SDMA)",
+          "head": "Chief Minister of the State (Ex-officio Chairperson)",
+          "role": "Approves State Disaster Management Plan, coordinates relief and mitigation across state departments."
+        },
+        {
+          "level": "District Level",
+          "body": "District Disaster Management Authority (DDMA)",
+          "head": "District Magistrate / Collector / Deputy Commissioner (Chairperson) & Elected Local Body Head (Co-Chair)",
+          "role": "Primary on-ground execution body for disaster preparedness, response, evacuation, and rehabilitation."
+        }
+      ],
+      "operationalArms": [
+        {
+          "name": "National Disaster Response Force (NDRF)",
+          "desc": "Specialized multi-skilled force comprising 16 battalions drawn from CAPFs (CRPF, CISF, BSF, ITBP, SSB, Assam Rifles) trained for search, rescue, CBRN, and aquatic disasters."
+        },
+        {
+          "name": "National Institute of Disaster Management (NIDM)",
+          "desc": "Premier national institute for capacity building, human resource development, training, and research in disaster management."
+        },
+        {
+          "name": "Disaster Response & Mitigation Funds (SDRF / NDRF & SDMF / NDMF)",
+          "desc": "Institutional statutory financing mechanism under Section 46–48; 15th Finance Commission earmarked specific windows for mitigation (20%) and response/relief (80%)."
+        }
+      ]
+    },
+    "sendaiFramework": {
+      "name": "Sendai Framework for Disaster Risk Reduction (2015–2030)",
+      "adopted": "Third UN World Conference on DRR (Sendai, Japan, 2015)",
+      "shift": "Evolution from disaster management (reactive response under Hyogo) to disaster risk management (proactive resilience).",
+      "priorities": [
+        "Priority 1: Understanding disaster risk (hazard, exposure, vulnerability, and capacity).",
+        "Priority 2: Strengthening disaster risk governance to manage disaster risk.",
+        "Priority 3: Investing in disaster risk reduction for resilience (structural & non-structural).",
+        "Priority 4: Enhancing disaster preparedness for effective response and to 'Build Back Better' in recovery, rehabilitation and reconstruction."
+      ],
+      "targets": [
+        "Target A: Substantially reduce global disaster mortality by 2030.",
+        "Target B: Substantially reduce the number of affected people globally.",
+        "Target C: Reduce direct disaster economic loss in relation to global GDP.",
+        "Target D: Substantially reduce disaster damage to critical infrastructure and disruption of basic services.",
+        "Target E: Substantially increase the number of countries with national and local DRR strategies.",
+        "Target F: Substantially enhance international cooperation to developing countries.",
+        "Target G: Substantially increase the availability of and access to multi-hazard early warning systems and disaster risk info."
+      ]
+    },
+    "pm10PointAgenda": {
+      "name": "Prime Minister's 10-Point Agenda on Disaster Risk Reduction (AMCDRR 2016)",
+      "points": [
+        "1. All development projects must be built to disaster-resilient standards.",
+        "2. Risk coverage must extend from poor households to multi-national corporations.",
+        "3. Encourage women's leadership and participation in disaster risk management.",
+        "4. Invest in global mapping of risks for all types of hazards.",
+        "5. Leverage technology to enhance the efficiency of disaster risk management efforts.",
+        "6. Develop a network of universities to work on disaster management issues.",
+        "7. Utilize social media and mobile technologies for early warning and disaster response.",
+        "8. Build local capacities and initiatives for disaster response.",
+        "9. Ensure that the opportunity to learn from a disaster is not wasted (post-disaster forensic audit).",
+        "10. Bring about greater cohesion in international response to disasters."
+      ]
+    }
+  },
+  "hazards": [
+    {
+      "id": "earthquake",
+      "hazard": "Earthquakes & Seismic Zonation",
+      "hindi": "भूकंप एवं भूकंपीय क्षेत्रीकरण",
+      "vulnerabilityShare": "58.6% of India's landmass prone to moderate to very severe earthquakes",
+      "physicalCause": "The Indian tectonic plate is continuously colliding with the Eurasian plate at ~4–5 cm/year, subducting beneath it and creating enormous accumulated elastic strain energy along the Himalayan Arc (Main Central Thrust - MCT, Main Boundary Thrust - MBT, Himalayan Frontal Thrust - HFT). Inter-plate faults in the Himalayas and intra-plate rifts/faults (Narmada-Son lineament, Kutch rift basin, Killari fault) trigger major seismicity.",
+      "seismicZones": [
+        {
+          "zone": "Zone V (Very Severe / Zone Factor 0.36)",
+          "pga": ">0.36 g",
+          "regions": "Entire Northeast India (Assam, Meghalaya, Arunachal, etc.), parts of Jammu & Kashmir, Ladakh, Himachal Pradesh (Kangra, Chamba), Uttarakhand (Chamoli, Uttarkashi), Rann of Kutch (Gujarat), North Bihar (Darbhanga, Madhubani), Andaman & Nicobar Islands.",
+          "risk": "Highest vulnerability; capable of earthquakes of magnitude MSK IX or greater."
+        },
+        {
+          "zone": "Zone IV (Severe / Zone Factor 0.24)",
+          "pga": "0.24 g",
+          "regions": "Delhi-NCR, remaining Himalayan foothills (Dehradun, Shimla), northern Punjab, Haryana, Western Uttar Pradesh (Meerut, Ghaziabad, Saharanpur), parts of Gujarat, Sikkim, Koyna region of Maharashtra.",
+          "risk": "Destructive earthquakes of magnitude MSK VIII."
+        },
+        {
+          "zone": "Zone III (Moderate / Zone Factor 0.16)",
+          "pga": "0.16 g",
+          "regions": "Most of the Gangetic plain, Western Ghats, Chennai, Kolkata, Mumbai, Lakshadweep, Goa.",
+          "risk": "Damage to buildings of ordinary strength; MSK VII."
+        },
+        {
+          "zone": "Zone II (Low / Zone Factor 0.10)",
+          "pga": "0.10 g",
+          "regions": "Central peninsular shield (parts of Rajasthan, MP, Karnataka, Telangana, Odisha). Note: Zone I was merged into Zone II in the 2002/2016 revisions by BIS.",
+          "risk": "Minor damage; MSK VI or less."
+        }
+      ],
+      "landmarkEvents": [
+        "1950 Assam Earthquake (M8.6) — Great Himalayan quake altering the course of the Brahmaputra.",
+        "1993 Latur (Killari) Earthquake (M6.2) — Major intraplate stable shield earthquake in Maharashtra.",
+        "2001 Bhuj Earthquake (M7.7) — Devastating intra-cratonic fault rupture in Gujarat (led to NDMA enactment).",
+        "2005 Kashmir Earthquake (M7.6) — Massive rupture along the Balakot-Bagh fault."
+      ],
+      "mitigation": "Strict enforcement of Bureau of Indian Standards (BIS IS 1893:2016); National Building Code (NBC 2016); retrofitting of critical lifelines (hospitals, bridges); National Seismic Risk Mitigation Programme (NSRMP); earthquake-resistant vernacular architecture (e.g. Kath-Kuni in Himachal, Dhajji-Dewari in Kashmir)."
+    },
+    {
+      "id": "cyclone",
+      "hazard": "Tropical Cyclones & Coastal Surges",
+      "hindi": "उष्णकटिबंधीय चक्रवात एवं तटीय तूफान",
+      "vulnerabilityShare": "7,516 km coastline (approx 5,700 km highly vulnerable across 13 coastal states/UTs)",
+      "physicalCause": "Low-pressure systems originating in the inter-tropical convergence zone (ITCZ) over warm oceans (Sea Surface Temperature >= 26.5°C–27°C) with significant Coriolis force (latitude > 5°), low vertical wind shear, and upper-air divergence. The Bay of Bengal witnesses ~4 times more intense cyclones than the Arabian Sea due to: (1) warmer sea surface temperatures, (2) enclosed basin geometry funneling winds, (3) heavy freshwater influx from Ganga-Brahmaputra creating a stratified warm top layer, and (4) remnant typhoons crossing over from the South China Sea.",
+      "imdWarningStages": [
+        {
+          "stage": "1. Pre-Cyclone Watch (Yellow)",
+          "time": "72 hours before landfall",
+          "action": "Issued when a depression forms; alerts state emergency centers and coastal fisheries."
+        },
+        {
+          "stage": "2. Cyclone Alert (Orange)",
+          "time": "48 hours before landfall",
+          "action": "Issued when cyclone tracks toward coast; warns of gale winds, heavy rains, evacuation readiness."
+        },
+        {
+          "stage": "3. Cyclone Warning (Red)",
+          "time": "24 hours before landfall",
+          "action": "Precise landfall location, storm surge height, and wind speed; mass evacuation to cyclone shelters."
+        },
+        {
+          "stage": "4. Post-Landfall Outlook",
+          "time": "12 hours before landfall until dissipation",
+          "action": "Warns interior districts of cyclonic storm decay, inland flash flooding, and mudslides."
+        }
+      ],
+      "landmarkEvents": [
+        "1999 Odisha Super Cyclone (Category 5, 260 km/h) — Over 10,000 casualties; catalysed Odisha's disaster turnaround.",
+        "2013 Cyclone Phailin (Odisha/AP) — Successful million-person evacuation, landmark in DRR.",
+        "2019 Cyclone Fani (Odisha) — Summer cyclone; UN appreciated Odisha's zero-casualty target.",
+        "2020 Cyclone Amphan (Bengal/Odisha) — Super cyclonic storm during COVID-19 pandemic.",
+        "2023 Cyclone Biparjoy (Gujarat) — Longest-lived Arabian sea cyclone with zero casualty achievement."
+      ],
+      "mitigation": "National Cyclone Risk Mitigation Project (NCRMP); multi-purpose cyclone shelters; underground cabling in coastal cities; saline embankment construction; mangrove bio-shields (Sundarbans, Bhitarkanika, Pichavaram); Coastal Regulation Zone (CRZ) enforcement; INCOIS storm surge models."
+    },
+    {
+      "id": "riverflood",
+      "hazard": "Riverine Flooding & River Avulsion",
+      "hindi": "नदीय बाढ़ एवं जलप्लावन",
+      "vulnerabilityShare": "40 million hectares (~12% of total geographical area of India)",
+      "physicalCause": "Torrential monsoon rains concentrated over 3–4 months; severe sedimentation and siltation raising riverbeds; channel constriction and drainage congestion; sudden release of water from upstream barrages; river avulsion (sudden shifting of channel, e.g. Kosi River shifting >150 km westward over 250 years).",
+      "hotspots": [
+        "Brahmaputra and Barak Basins (Assam Valley: annual floods submerging up to 70% of Kaziranga NP; Majuli river island erosion).",
+        "North Bihar Plains (Kosi 'Sorrow of Bihar', Gandak, Bagmati, Kamla Balan, Burhi Gandak, Mahananda).",
+        "Ganga Basin in Eastern UP (Rapti, Ghaghara, Rohini affecting Gorakhpur, Bahraich, Shravasti, Maharajganj).",
+        "Mahanadi Delta (Odisha) & Damodar Basin ('Sorrow of Bengal' prior to DVC).",
+        "Surat / Lower Tapi & Narmada (Gujarat) due to steep peak catchment runoff."
+      ],
+      "landmarkEvents": [
+        "2008 Kosi Mega-Flood (breach at Kushaha, Nepal) — affected over 3 million people.",
+        "2018 Kerala Flood — 1-in-100-year event; simultaneous release from 35+ major dams.",
+        "2023 Delhi Yamuna Inundation — Highest recorded water level of 208.66 m at Old Railway Bridge."
+      ],
+      "mitigation": "Central Water Commission (CWC) telemetry flood forecasting network (>330 stations); multi-purpose flood storage dams (Hirakud, Tehri, DVC); embankment maintenance; watershed reforestation in Himalayas; interlinking of rivers (e.g. Ken-Betwa); dynamic reservoir operation policies (Rule Curves)."
+    },
+    {
+      "id": "urbanflood",
+      "hazard": "Urban Flooding & Drainage Collapse",
+      "hindi": "शहरी बाढ़ एवं जलनिकासी विफलता",
+      "vulnerabilityShare": "All tier-1 and tier-2 metropolitan centers across India",
+      "physicalCause": "Short-duration, intense convective cloudburst rainfall (>50–100 mm/hr) exceeding antiquated municipal stormwater drainage (often built for only 12–20 mm/hr); rampant concretization causing 80% surface runoff instead of natural 10% infiltration; encroachment of natural wetlands, lakes, and interconnecting stormwater channels (e.g. Rajakaluves in Bengaluru, Eri cascades in Chennai, Mithi river in Mumbai); solid waste clogging drains.",
+      "hotspots": [
+        "Mumbai (July 2005: 944 mm in 24 hours; Mithi river constriction).",
+        "Chennai (December 2015: Adyar/Cooum basin flooding; loss of Pallikaranai marshland).",
+        "Bengaluru (September 2022: IT corridors Bellandur/Varthur lake breaches).",
+        "Hyderabad (October 2020: Musi river overflow & Hussainsagar lake congestion).",
+        "Delhi (July 2023: Yamuna floodplain encroachment and stormwater drain reverse backflow)."
+      ],
+      "mitigation": "NDMA National Guidelines on Urban Flooding; development of 'Sponge Cities' (permeable pavements, bioswales, rain gardens); desilting and rejuvenation of historic lake cascades; Geographic Information System (GIS) contour mapping of stormwater catchments; stringent buffer protection around water bodies by National Green Tribunal (NGT)."
+    },
+    {
+      "id": "landslide",
+      "hazard": "Landslides & Mass Wasting",
+      "hindi": "भूस्खलन एवं ढलान संचलन",
+      "vulnerabilityShare": "Approx 12.6% of India's land area (0.42 million km²)",
+      "physicalCause": "Gravitational failure of rock, debris, or earth down a slope. Key difference between Himalayan vs Western Ghats landslides: (1) Himalayas: Tectonically active young fold mountains, highly sheared rock mass, steep tectonic slope breaks, seismic triggering, glacial melt lubrication, road cutting/blasting. (2) Western Ghats: Ancient stable escarpment, but prone to rapid debris flows and mudslides during torrential monsoon downpours (>2,500 mm) due to heavy lateritic soil saturation, deforestation, and monoculture plantations (tea/rubber).",
+      "hotspots": [
+        "Northwestern Himalayas (Uttarakhand, Himachal Pradesh, Jammu & Kashmir).",
+        "Northeastern Himalayas & Shillong Plateau (Assam, Meghalaya, Sikkim, Nagaland).",
+        "Western Ghats & Nilgiris (Wayanad, Idukki in Kerala; Kodagu in Karnataka; Konkan in Maharashtra)."
+      ],
+      "landmarkEvents": [
+        "1998 Malpa Landslide (Kumaon, Uttarakhand) — wiped out entire village and Kailash Mansarovar pilgrims.",
+        "2014 Malin Landslide (Pune, Maharashtra) — heavy mudflow burying 150+ villagers.",
+        "2024 Wayanad Landslides (Kerala) — catastrophic debris flows triggered by extreme monsoon downpour."
+      ],
+      "mitigation": "National Landslide Susceptibility Mapping (NLSM) by Geological Survey of India (GSI); early warning sensors using piezometers and rain gauges; bio-engineering slopes using vetiver grass and deep-rooted species; rock bolting, shotcreting, and retaining walls; ban on unscientific hill slope quarrying."
+    },
+    {
+      "id": "glof",
+      "hazard": "Glacial Lake Outburst Floods (GLOF)",
+      "hindi": "हिमनदी झील विस्फोट बाढ़ (जीएलओएफ)",
+      "vulnerabilityShare": "Entire High-Mountain Himalayan region (Ladakh, Himachal, Uttarakhand, Sikkim, Arunachal)",
+      "physicalCause": "Climate change and rapid global warming are causing accelerated retreat of Himalayan glaciers, forming large glacial lakes dammed by unstable, loose glacial moraines (gravel, ice, boulders). Sudden collapse of the moraine dam due to rock/ice avalanches, earthquakes, or heavy precipitation breaches the lake, releasing millions of cubic meters of water, boulders, and debris down steep river valleys in a matter of minutes.",
+      "hotspots": [
+        "Sikkim Himalayas (Teesta Basin — South Lhonak Lake, Gurudongmar Lake).",
+        "Uttarakhand Himalayas (Alaknanda & Dhauliganga catchments — Chorabari Lake, Rishiganga).",
+        "Himachal Pradesh (Chenab and Satluj catchments — Gepang Gath Lake).",
+        "Ladakh (Rongdo and Shyok tributaries)."
+      ],
+      "landmarkEvents": [
+        "2013 Kedarnath Disaster (Uttarakhand) — Chorabari Lake moraine breach following torrential cloudburst.",
+        "2021 Chamoli Disaster (Uttarakhand) — Ronti peak rock-ice avalanche triggering flash floods down Rishiganga and Dhauliganga, destroying Tapovan-Vishnugad hydro project.",
+        "2023 South Lhonak GLOF (Sikkim) — Moraine breach causing catastrophic flash flood along Teesta river, destroying Chungthang Dam (Teesta-III) and washing away NH-10."
+      ],
+      "mitigation": "National GLOF Risk Mitigation Project (NDMA); satellite monitoring by ISRO-NRSC; structural siphoning and controlled drainage to lower lake water levels; automated water-level sensors and sirens in downstream settlements; moratorium on major hydro-electric projects immediately downstream of vulnerable moraine lakes."
+    },
+    {
+      "id": "drought",
+      "hazard": "Droughts & Aridity",
+      "hindi": "सूखा एवं जल संकट",
+      "vulnerabilityShare": "Approx 68% of India's net sown area is vulnerable to varying degrees of drought",
+      "physicalCause": "Deficiency of monsoon precipitation caused by anomalies in the atmospheric-oceanic circulation (El Niño, negative Indian Ocean Dipole - IOD); delayed onset or prolonged 'breaks' in the southwest monsoon; overexploitation of groundwater in hard-rock aquifer terrains.",
+      "types": [
+        {
+          "type": "1. Meteorological Drought",
+          "def": "Rainfall deficit >25% of normal over an area (Moderate: 26–50% deficit; Severe: >50% deficit)."
+        },
+        {
+          "type": "2. Hydrological Drought",
+          "def": "Prolonged meteorological drought leading to depletion of surface water reservoirs, tanks, and groundwater tables."
+        },
+        {
+          "type": "3. Agricultural Drought",
+          "def": "Inadequate soil moisture failing to support crop growth during critical phenological stages, leading to crop withering."
+        },
+        {
+          "type": "4. Socio-Economic Drought",
+          "def": "Water scarcity affecting economic goods, food security, drinking water supply, and rural livelihoods."
+        }
+      ],
+      "hotspots": [
+        "Bundelkhand Region (7 districts of UP & 6 of MP — chronic semi-arid drought in granitic hard-rock terrain).",
+        "Marathwada & Vidarbha (Maharashtra — rain shadow of Western Ghats; cotton/soybean distress).",
+        "Rayalaseema (Andhra Pradesh — Anantapur, Kurnool).",
+        "Western Rajasthan & Northern Gujarat (arid Thar core)."
+      ],
+      "mitigation": "Manual for Drought Management (2016); Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) - 'Har Khet Ko Pani' & 'More Crop Per Drop'; check dams, Johads, Amrit Sarovar mission; watershed development; micro-irrigation (drip & sprinkler); promotion of climate-resilient millets (Shree Anna)."
+    },
+    {
+      "id": "forestfire",
+      "hazard": "Forest Fires (Wildfires)",
+      "hindi": "वनाग्नि (दावानल)",
+      "vulnerabilityShare": "Over 36% of India's forest cover is prone to frequent forest fires",
+      "physicalCause": "High summer temperatures (>40°C), low relative humidity, dry leaf litter accumulation (especially highly inflammable chir pine needle shedding in Western Himalayas); human ignition for mahua flower collection, grazing land regeneration, or discarded bidis/cigarettes.",
+      "hotspots": [
+        "Western Himalayas (Uttarakhand & Himachal Pradesh — Chir Pine / Pinus roxburghii belt).",
+        "Eastern Ghats & Central India (Similipal Biosphere in Odisha; Bastar in Chhattisgarh; Satpura range in MP).",
+        "Northeastern deciduous and jhum cultivation tracts.",
+        "Southern dry deciduous forests (Bandipur, Mudumalai in Western Ghats tri-junction)."
+      ],
+      "mitigation": "Forest Survey of India (FSI) Van Agni 2.0 portal using MODIS and SNPP-VIIRS satellite thermal alerts sent via SMS/email; construction of counter-fire lines; engagement of Van Panchayats and local communities; controlled winter burning of pine needles."
+    },
+    {
+      "id": "heatwave",
+      "hazard": "Heatwaves & Urban Heat Islands",
+      "hindi": "लू (हीटवेव) एवं नगरीय ऊष्मा द्वीप",
+      "vulnerabilityShare": "North, Central, and Eastern India plains & coastal belts",
+      "physicalCause": "Advection of scorching dry westerly winds from the Thar Desert and Pakistan (Loo) during April–June; persistent atmospheric high pressure causing air subsidence and compression heating; high humidity along coasts pushing the Heat Index to dangerous thresholds; urban concrete canyons and asphalt absorbing solar insolation.",
+      "imdCriteria": [
+        {
+          "region": "Plains",
+          "temp": "Maximum temperature >= 40°C (or >= 4.5°C departure from normal)."
+        },
+        {
+          "region": "Coastal Stations",
+          "temp": "Maximum temperature >= 37°C (or >= 4.5°C departure from normal)."
+        },
+        {
+          "region": "Hilly Regions",
+          "temp": "Maximum temperature >= 30°C (or >= 4.5°C departure from normal)."
+        },
+        {
+          "region": "Severe Heatwave",
+          "temp": "Maximum temperature >= 45°C (or >= 6.4°C departure from normal)."
+        }
+      ],
+      "mitigation": "Ahmedabad Heat Action Plan (HAP) — South Asia's first heat early warning and cool roofs initiative, replicated nationwide under NDMA; shifting outdoor work hours; drinking water kiosks; cool roof coatings in low-income settlements."
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "south_lhonak_2023",
+      "title": "2023 South Lhonak Glacial Lake Outburst Flood (Sikkim)",
+      "type": "GLOF & Cascade Infrastructure Failure",
+      "summary": "On October 4, 2023, the moraine dam of South Lhonak Lake (elevation 5,200 m) in North Sikkim breached, releasing a catastrophic torrent of water and boulders into the Teesta basin. The surge washed away the 1,200 MW Teesta-III (Chungthang) dam, severed the arterial NH-10 lifeline, and caused 100+ fatalities.",
+      "lessonsLearned": [
+        "Need for automated early warning siphoning stations at high-altitude moraine lakes.",
+        "Downstream hydro projects must factor GLOF flood peaks into dam safety design.",
+        "Multi-hazard cascading risk assessment must be mandatory for Himalayan infrastructure."
+      ]
+    },
+    {
+      "id": "chamoli_2021",
+      "title": "2021 Chamoli Rock-Ice Avalanche (Uttarakhand)",
+      "type": "Cryosphere Avalanche & Flash Flood",
+      "summary": "On February 7, 2021, a massive wedge of rock and hanging glacier detached from the Ronti peak (~5,500 m) in the Nanda Devi sanctuary, plunging into the Ronti Gad ravine. Frictional melting produced an immense slurry of water and debris that pulverized the Rishiganga hydro project and trapped workers in the Tapovan-Vishnugad tunnel.",
+      "lessonsLearned": [
+        "Himalayan permafrost degradation due to global warming destabilizes mountain peaks.",
+        "Early warning alarm systems must be linked directly to tunnel and dam worksites."
+      ]
+    },
+    {
+      "id": "fani_2019",
+      "title": "2019 Cyclone Fani & Odisha's Zero Casualty Model",
+      "type": "Extreme Tropical Cyclone Response",
+      "summary": "Extremely Severe Cyclonic Storm Fani struck Puri, Odisha with wind speeds of 215 km/h in May 2019. Despite severe physical damage to power and telecom infrastructure, casualties were restricted to under 65 because Odisha evacuated 1.2 million people into 900+ multi-purpose cyclone shelters within 24 hours.",
+      "lessonsLearned": [
+        "Clear institutional coordination between IMD, State SDMA, Panchayats, and ODRAF.",
+        "Community-owned cyclone shelters equipped with solar generators and drinking water.",
+        "Widely hailed by the United Nations as a global benchmark in disaster preparedness."
+      ]
+    }
+  ]
+}

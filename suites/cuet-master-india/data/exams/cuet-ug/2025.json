@@ -1,0 +1,17 @@
+{
+  "exam": "CUET-UG",
+  "year": 2025,
+  "duration": "45 minutes for normal domains, 60 minutes for Accountancy, Economics, Physics, CS/IP, Chemistry, Mathematics and General Test.",
+  "subjects": [
+    "English", "Hindi", "31 Other Languages",
+    "29 Domain Specific Subjects",
+    "General Test"
+  ],
+  "questionCount": "Domain: 40/50 questions; General Test: 50/60 questions.",
+  "markingScheme": "+5 for correct, -1 for incorrect, 0 for unattempted.",
+  "mode": "Hybrid Mode (OMR Pen-Paper + CBT)",
+  "eligibility": "10+2 passed or appearing in 2025.",
+  "maxSubjectLimit": 6,
+  "officialSource": "https://exams.nta.ac.in/CUET-UG/",
+  "lastVerified": "2025-05-30"
+}

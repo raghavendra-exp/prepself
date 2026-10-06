@@ -1,0 +1,119 @@
+{
+  "examId": "SSC-JE-2026",
+  "examCode": "je",
+  "examName": {
+    "en": "SSC JE",
+    "hi": "एसएससी जेई"
+  },
+  "fullName": {
+    "en": "Junior Engineer (Civil, Mechanical & Electrical) Examination",
+    "hi": "कनिष्ठ अभियंता (सिविल, मैकेनिकल एवं इलेक्ट्रिकल) परीक्षा"
+  },
+  "badge": "Engineering Degree / Diploma • Pay Level 6",
+  "year": 2026,
+  "duration": "Paper-I: 120 mins | Paper-II: 120 mins",
+  "questions": 200,
+  "marks": 200,
+  "negativeMarking": "Paper-I: 0.25 marks | Paper-II: 1.00 mark (out of 3)",
+  "subjects": [
+    "Engineering",
+    "General Intelligence & Reasoning",
+    "General Awareness"
+  ],
+  "eligibility": {
+    "education": {
+      "en": "Degree in Civil/Electrical/Mechanical Engineering OR 3-year Diploma in Civil/Electrical/Mechanical Engineering from a recognized Institute (with 2 years experience for MES/BRO).",
+      "hi": "सिविल/इलेक्ट्रिकल/मैकेनिकल में इंजीनियरिंग डिग्री अथवा 3 वर्षीय डिप्लोमा (एमईएस/बीआरओ हेतु 2 वर्ष का अनुभव)।"
+    },
+    "ageMin": 18,
+    "ageMax": 30,
+    "ageRelaxation": {
+      "en": "Up to 30 years (32 years for CPWD/CWC). SC/ST: 5 years, OBC: 3 years, PwBD: 10 years.",
+      "hi": "अधिकतम 30 वर्ष (सीपीडब्ल्यूडी/सीडब्ल्यूसी हेतु 32 वर्ष)। एससी/एसटी: 5 वर्ष, ओबीसी: 3 वर्ष।"
+    },
+    "esmProvisions": {
+      "en": "Age relaxation as per central government guidelines for Ex-Servicemen.",
+      "hi": "केंद्र सरकार के नियमों के अनुसार भूतपूर्व सैनिकों हेतु आयु सीमा में छूट।"
+    }
+  },
+  "officialNotification": {
+    "notificationNumber": "F. No. HQ-PPI03/16/2026-PP_6",
+    "notificationDate": "2026-03-28",
+    "applicationStart": "2026-03-28",
+    "applicationEnd": "2026-04-18",
+    "examDate": "June 2026",
+    "url": "https://ssc.gov.in",
+    "tentativeVacancies": 1765,
+    "source": "Staff Selection Commission JE Notification"
+  },
+  "lastVerified": "2026-09-28",
+  "postsOverview": "Junior Engineer (Civil/Electrical/Mechanical) in CPWD, MES, Border Roads Organisation (BRO), Central Water Commission (CWC), Farakka Barrage, DGQA, NTRO.",
+  "stages": [
+    {
+      "stageId": "paper1",
+      "stageName": {
+        "en": "Paper-I (Computer Based Test)",
+        "hi": "पेपर-I (कंप्यूटर आधारित)"
+      },
+      "mode": "Objective MCQ Test",
+      "duration": "2 Hours (120 minutes)",
+      "totalQuestions": 200,
+      "totalMarks": 200,
+      "negativeMarking": "0.25 marks per wrong answer",
+      "qualifyingNature": false,
+      "sections": [
+        {
+          "name": {
+            "en": "General Intelligence and Reasoning",
+            "hi": "सामान्य बुद्धिमत्ता एवं तर्कशक्ति"
+          },
+          "questions": 50,
+          "marks": 50,
+          "negativePerWrong": 0.25
+        },
+        {
+          "name": {
+            "en": "General Awareness",
+            "hi": "सामान्य जागरूकता"
+          },
+          "questions": 50,
+          "marks": 50,
+          "negativePerWrong": 0.25
+        },
+        {
+          "name": {
+            "en": "General Engineering (Civil/Electrical/Mechanical)",
+            "hi": "सामान्य इंजीनियरिंग (सिविल/इलेक्ट्रिकल/मैकेनिकल)"
+          },
+          "questions": 100,
+          "marks": 100,
+          "negativePerWrong": 0.25
+        }
+      ]
+    },
+    {
+      "stageId": "paper2",
+      "stageName": {
+        "en": "Paper-II (Computer Based Technical Test)",
+        "hi": "पेपर-II (तकनीकी सीबीटी)"
+      },
+      "mode": "Objective MCQ Test (Domain Specific)",
+      "duration": "2 Hours (120 minutes)",
+      "totalQuestions": 100,
+      "totalMarks": 300,
+      "negativeMarking": "1 mark per wrong answer (3 marks per question)",
+      "qualifyingNature": false,
+      "sections": [
+        {
+          "name": {
+            "en": "Core Engineering Domain (Civil & Structural / Electrical / Mechanical)",
+            "hi": "मूल इंजीनियरिंग शाखा (सिविल/इलेक्ट्रिकल/मैकेनिकल)"
+          },
+          "questions": 100,
+          "marks": 300,
+          "negativePerWrong": 1
+        }
+      ]
+    }
+  ]
+}

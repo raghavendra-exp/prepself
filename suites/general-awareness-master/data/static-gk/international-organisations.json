@@ -1,0 +1,238 @@
+{
+  "title": "Comprehensive Directory of International Financial, Political, and Regulatory Bodies",
+  "total": 32,
+  "last_updated": "2026-09-13",
+  "records": [
+    {
+      "name": "International Monetary Fund (IMF)",
+      "abbreviation": "IMF",
+      "headquarters": "Washington, D.C., United States",
+      "established": 1944,
+      "current_head": "Kristalina Georgieva (Managing Director)",
+      "members": 190,
+      "key_reports": [
+        "World Economic Outlook (WEO)",
+        "Global Financial Stability Report (GFSR)",
+        "Fiscal Monitor"
+      ],
+      "currency_basket": "Special Drawing Rights (SDR) basket: USD, EUR, CNY, JPY, GBP",
+      "exam_relevance": "High. Frequently tested on SDR basket currencies, WEO growth projections, and quota reforms."
+    },
+    {
+      "name": "World Bank Group",
+      "abbreviation": "WBG",
+      "headquarters": "Washington, D.C., United States",
+      "established": 1944,
+      "current_head": "Ajay Banga (President)",
+      "members": 189,
+      "key_reports": [
+        "Global Economic Prospects",
+        "World Development Report (WDR)",
+        "Remittance Prices Worldwide"
+      ],
+      "arms": [
+        "IBRD (Development Loans)",
+        "IDA (Soft Loans)",
+        "IFC (Private Sector Lending)",
+        "MIGA (Political Risk Insurance)",
+        "ICSID (Arbitration)"
+      ],
+      "exam_relevance": "Very High. Ajay Banga is the first Indian-American World Bank President."
+    },
+    {
+      "name": "Bank for International Settlements (BIS)",
+      "abbreviation": "BIS",
+      "headquarters": "Basel, Switzerland",
+      "established": 1930,
+      "current_head": "Agustin Carstens (General Manager)",
+      "members": "63 Central Banks (including RBI)",
+      "key_reports": [
+        "BIS Annual Economic Report",
+        "Triennial Central Bank Survey"
+      ],
+      "special_notes": "Known as the 'Central Bank of Central Banks'. Houses the Basel Committee on Banking Supervision (BCBS) which drafts Basel I, II, III capital norms.",
+      "exam_relevance": "High. Origin of CRAR, Capital Adequacy, Basel III framework."
+    },
+    {
+      "name": "Asian Development Bank (ADB)",
+      "abbreviation": "ADB",
+      "headquarters": "Mandaluyong (Manila), Philippines",
+      "established": 1966,
+      "current_head": "Masatsugu Asakawa (President)",
+      "members": "68 (49 from Asia-Pacific region)",
+      "key_reports": [
+        "Asian Development Outlook (ADO)"
+      ],
+      "special_notes": "Japan and United States are the two largest shareholders, followed by China and India. India is one of the top sovereign borrowers.",
+      "exam_relevance": "High. Invariably asked in bank exams for project loan amounts to Indian states."
+    },
+    {
+      "name": "Asian Infrastructure Investment Bank (AIIB)",
+      "abbreviation": "AIIB",
+      "headquarters": "Beijing, China",
+      "established": 2016,
+      "current_head": "Jin Liqun (President)",
+      "members": 109,
+      "special_notes": "China is the largest shareholder (26.6% voting share), followed by India as the second-largest shareholder (7.6% voting share). Urjit Patel served as Vice President.",
+      "exam_relevance": "Very High. Second largest shareholder question is a classic PYQ."
+    },
+    {
+      "name": "New Development Bank (NDB / BRICS Bank)",
+      "abbreviation": "NDB",
+      "headquarters": "Shanghai, China",
+      "established": 2014,
+      "current_head": "Dilma Rousseff (President)",
+      "members": "BRICS nations + Bangladesh, UAE, Egypt, Algeria",
+      "special_notes": "Formed via the Fortaleza Declaration (6th BRICS Summit in Brazil). Initial authorized capital was $100 Billion. K.V. Kamath was its inaugural President.",
+      "exam_relevance": "Very High. K.V. Kamath, Fortaleza declaration, and new members are top recurring topics."
+    },
+    {
+      "name": "Financial Action Task Force (FATF)",
+      "abbreviation": "FATF",
+      "headquarters": "Paris, France",
+      "established": 1989,
+      "current_head": "Elisa de Anda Madrazo (President)",
+      "members": "40 (38 jurisdictions + 2 regional organisations: EU and GCC)",
+      "special_notes": "Global money laundering and terrorist financing watchdog founded by G7. Maintains 'Grey List' (Increased Monitoring) and 'Black List' (High-Risk Jurisdictions). India mutual evaluation adopted in 2024.",
+      "exam_relevance": "High. Tested on Grey/Black list classifications and Anti-Money Laundering (PMLA) linkage."
+    },
+    {
+      "name": "World Trade Organization (WTO)",
+      "abbreviation": "WTO",
+      "headquarters": "Geneva, Switzerland",
+      "established": 1995,
+      "current_head": "Ngozi Okonjo-Iweala (Director-General)",
+      "members": 166,
+      "key_reports": [
+        "World Trade Report",
+        "Global Trade Outlook"
+      ],
+      "special_notes": "Established on 1 Jan 1995 by the Marrakesh Agreement, replacing GATT (General Agreement on Tariffs and Trade 1947). Ngozi Okonjo-Iweala is the first woman and first African to head WTO.",
+      "exam_relevance": "High. Marrakesh agreement and Director-General identity are frequent PYQ targets."
+    },
+    {
+      "name": "World Economic Forum (WEF)",
+      "abbreviation": "WEF",
+      "headquarters": "Cologny-Geneva, Switzerland",
+      "established": 1971,
+      "current_head": "Klaus Schwab (Founder & Chairman) / Borge Brende (President)",
+      "key_reports": [
+        "Global Gender Gap Report",
+        "Global Competitiveness Report",
+        "Global Risks Report",
+        "Energy Transition Index",
+        "Travel & Tourism Development Index"
+      ],
+      "special_notes": "Famous for its Annual Winter Meeting in Davos, Switzerland.",
+      "exam_relevance": "Very High. Reports published by WEF (Global Gender Gap, Global Risks) appear every year."
+    },
+    {
+      "name": "United Nations (UN)",
+      "abbreviation": "UN",
+      "headquarters": "New York City, United States",
+      "established": 1945,
+      "current_head": "Antonio Guterres (Secretary-General)",
+      "members": 193,
+      "special_notes": "UN Charter signed in San Francisco on 26 June 1945; entered into force on 24 October 1945 (United Nations Day celebrated on 24th Oct).",
+      "exam_relevance": "High. UN Day date, Secretary-General nationality (Portuguese), and 17 Sustainable Development Goals (SDGs 2015-2030)."
+    },
+    {
+      "name": "United Nations Educational, Scientific and Cultural Organization (UNESCO)",
+      "abbreviation": "UNESCO",
+      "headquarters": "Paris, France",
+      "established": 1945,
+      "current_head": "Audrey Azoulay (Director-General)",
+      "key_reports": [
+        "Global Education Monitoring Report (GEM)"
+      ],
+      "special_notes": "Designates World Heritage Sites and Intangible Cultural Heritage. India has 42 World Heritage Sites (including Santiniketan and Sacred Ensembles of the Hoysalas).",
+      "exam_relevance": "High. Heritage site additions and Paris headquarters."
+    },
+    {
+      "name": "World Health Organization (WHO)",
+      "abbreviation": "WHO",
+      "headquarters": "Geneva, Switzerland",
+      "established": 1948,
+      "current_head": "Tedros Adhanom Ghebreyesus (Director-General)",
+      "special_notes": "Founded on 7 April 1948 (celebrated annually as World Health Day). WHO Global Centre for Traditional Medicine (GCTM) established in Jamnagar, Gujarat.",
+      "exam_relevance": "High. Jamnagar GCTM location and World Health Day (7 April)."
+    },
+    {
+      "name": "International Labour Organization (ILO)",
+      "abbreviation": "ILO",
+      "headquarters": "Geneva, Switzerland",
+      "established": 1919,
+      "current_head": "Gilbert Houngbo (Director-General)",
+      "key_reports": [
+        "World Employment and Social Outlook (WESO)",
+        "Global Wage Report"
+      ],
+      "special_notes": "Oldest UN specialized agency, created under Treaty of Versailles in 1919. Won Nobel Peace Prize in 1969.",
+      "exam_relevance": "High. Reports and foundation under Treaty of Versailles."
+    },
+    {
+      "name": "Organisation for Economic Co-operation and Development (OECD)",
+      "abbreviation": "OECD",
+      "headquarters": "Paris, France",
+      "established": 1961,
+      "current_head": "Mathias Cormann (Secretary-General)",
+      "members": 38,
+      "special_notes": "Promotes policies for economic growth and world trade. Formulates Base Erosion and Profit Shifting (BEPS) global minimum tax rules.",
+      "exam_relevance": "Medium. Paris HQ and BEPS framework."
+    },
+    {
+      "name": "United Nations Environment Programme (UNEP)",
+      "abbreviation": "UNEP",
+      "headquarters": "Nairobi, Kenya",
+      "established": 1972,
+      "current_head": "Inger Andersen (Executive Director)",
+      "key_reports": [
+        "Emissions Gap Report",
+        "Global Environment Outlook (GEO)",
+        "Adaptation Gap Report"
+      ],
+      "special_notes": "Established following the 1972 Stockholm Conference on Human Environment. One of the few UN bodies headquartered in Africa.",
+      "exam_relevance": "High. Nairobi headquarters is a classic question; Emissions Gap Report publisher."
+    },
+    {
+      "name": "Association of Southeast Asian Nations (ASEAN)",
+      "abbreviation": "ASEAN",
+      "headquarters": "Jakarta, Indonesia",
+      "established": 1967,
+      "current_head": "Kao Kim Hourn (Secretary-General)",
+      "members": "10 Member States (Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Vietnam; Timor-Leste admitted in principle)",
+      "special_notes": "Established by the Bangkok Declaration on 8 August 1967. India is a Strategic Comprehensive Partner.",
+      "exam_relevance": "High. Secretariat in Jakarta and member nations."
+    },
+    {
+      "name": "Shanghai Cooperation Organisation (SCO)",
+      "abbreviation": "SCO",
+      "headquarters": "Beijing, China",
+      "established": 2001,
+      "current_head": "Zhang Ming (Secretary-General)",
+      "members": "10 Member States (China, Russia, Kazakhstan, Kyrgyzstan, Tajikistan, Uzbekistan, India, Pakistan, Iran, Belarus)",
+      "special_notes": "India and Pakistan joined in 2017 (Astana Summit). Iran joined in 2023, Belarus in 2024. RATS (Regional Anti-Terrorist Structure) HQ is in Tashkent, Uzbekistan.",
+      "exam_relevance": "Very High. New members (Iran, Belarus) and RATS Tashkent HQ."
+    },
+    {
+      "name": "South Asian Association for Regional Cooperation (SAARC)",
+      "abbreviation": "SAARC",
+      "headquarters": "Kathmandu, Nepal",
+      "established": 1985,
+      "current_head": "Golam Sarwar (Secretary-General)",
+      "members": "8 Member States (Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan, Sri Lanka)",
+      "special_notes": "Founded in Dhaka on 8 December 1985 (SAARC Charter Day). SAARC Development Fund (SDF) HQ is in Thimphu, Bhutan.",
+      "exam_relevance": "High. Member count, 1985 Dhaka foundation, Kathmandu Secretariat."
+    },
+    {
+      "name": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation (BIMSTEC)",
+      "abbreviation": "BIMSTEC",
+      "headquarters": "Dhaka, Bangladesh",
+      "established": 1997,
+      "current_head": "Indra Mani Pandey (Secretary-General)",
+      "members": "7 Member States (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand)",
+      "special_notes": "Formed via Bangkok Declaration on 6 June 1997. Indra Mani Pandey is the first Indian diplomat to head BIMSTEC as Secretary-General.",
+      "exam_relevance": "Very High. Indra Mani Pandey appointment and Dhaka Secretariat."
+    }
+  ]
+}

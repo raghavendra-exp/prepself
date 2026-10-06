@@ -1,0 +1,1807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Free AI study prompt generator for UPSC Civil Services (IAS), ESE, CDS, CAPF, NDA 2025-26. GS Prelims, GS Mains, Ethics, Essay, Optional subjects, Answer Writing. By Raghavbegins.">
+<meta name="keywords" content="UPSC preparation, IAS exam AI prompt, UPSC CSE study, GS Paper 1 2 3 4, UPSC Mains answer writing, UPSC optional, ESE IES, CDS NDA, Raghavbegins">
+<meta name="author" content="Raghavbegins">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="UPSC Civil Services AI Prompt Generator | Raghavbegins">
+<meta property="og:description" content="Generate AI study prompts for UPSC CSE, ESE, CDS, CAPF and NDA. GS Prelims to Interview — free, no login.">
+<meta property="og:type" content="website">
+  <meta property="og:url" content="https://raghavendra-exp.github.io/prepself/upsc_prompt_generator.html">
+  <meta property="og:description" content="UPSC Civil Services AI Prompt Generator | Raghavbegins. Free AI-powered study prompts, practice sets and PYQ analysis. No login required.">
+  <meta property="og:site_name" content="Raghavbegins — Indian Exam AI Prompt Generator">
+  <link rel="canonical" href="https://raghavendra-exp.github.io/prepself/upsc_prompt_generator.html">
+<title>UPSC AI Prompt Generator | IAS · ESE · CDS · CAPF · NDA | Raghavbegins</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-B0Z2G21W4F');</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --upsc1:#1A1209;--upsc2:#2D1F0A;--upsc3:#78350F;
+  --gold:#D97706;--gold2:#F59E0B;--gold3:#FCD34D;
+  --red:#B91C1C;--green:#065F46;--green2:#059669;
+  --blue:#1D4ED8;--blue2:#3B82F6;--teal:#0D9488;
+  --violet:#6D28D9;--orange:#C2410C;--rose:#9F1239;
+  --sf:#FFFFFF;--sf2:#FFFBF5;--sf3:#FEF3C7;
+  --bdr:#E7E0D5;--bdr2:#D4C5A9;
+  --txt:#1C1008;--txt2:#3D2B10;--txt3:#78634A;--txtm:#B8A88A;
+  --sh:0 2px 12px rgba(120,53,15,.06);--shm:0 8px 32px rgba(120,53,15,.1);--shl:0 20px 60px rgba(0,0,0,.15);
+  --r:12px;--rl:18px;
+}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:15px;line-height:1.6;color:var(--txt);background:var(--sf2);min-height:100vh;overflow-x:hidden}
+
+/* ─── HEADER ─── */
+.hdr{background:linear-gradient(160deg,var(--upsc1) 0%,var(--upsc2) 50%,#1C0F02 100%);position:sticky;top:0;z-index:400;box-shadow:0 2px 20px rgba(0,0,0,.4)}
+.hdr-top{max-width:1080px;margin:0 auto;padding:0 20px;height:62px;display:flex;align-items:center;gap:12px}
+.logo-wrap{display:flex;align-items:center;gap:10px;flex:1;min-width:0;text-decoration:none}
+.logo-ic{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,var(--gold),var(--gold3));display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;box-shadow:0 2px 8px rgba(217,119,6,.45)}
+.logo-txt h1{font-size:14px;font-weight:800;color:#fff;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.logo-txt p{font-size:10px;color:rgba(255,255,255,.45)}
+.hdr-back{display:flex;align-items:center;gap:6px;padding:7px 14px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:22px;color:rgba(255,255,255,.85);text-decoration:none;font-size:12px;font-weight:700;transition:all .15s;flex-shrink:0}
+.hdr-back:hover{background:rgba(255,255,255,.18);color:#fff}
+.srch-form{display:flex;align-items:center;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:24px;padding:0 5px 0 13px;width:190px;flex-shrink:0;transition:all .2s}
+.srch-form:focus-within{width:240px;background:rgba(255,255,255,.14);border-color:rgba(217,119,6,.5)}
+.srch-in{background:none;border:none;outline:none;font-size:13px;color:#fff;width:100%;padding:7px 0;font-family:inherit}
+.srch-in::placeholder{color:rgba(255,255,255,.35)}
+.srch-go{background:var(--gold);border:none;color:var(--upsc1);border-radius:18px;padding:5px 12px;font-size:11px;font-weight:800;cursor:pointer;white-space:nowrap;font-family:inherit}
+.srch-go:hover{background:var(--gold2)}
+
+/* ─── TAB NAV ─── */
+.tab-nav{background:rgba(0,0,0,.45);border-bottom:1px solid rgba(255,255,255,.07)}
+.tni{max-width:1080px;margin:0 auto;padding:0 20px;display:flex;overflow-x:auto;scrollbar-width:none}
+.tni::-webkit-scrollbar{display:none}
+.tnb{padding:0 16px;height:44px;font-size:12px;font-weight:700;color:rgba(255,255,255,.4);background:none;border:none;cursor:pointer;border-bottom:3px solid transparent;transition:all .18s;font-family:inherit;white-space:nowrap;display:flex;align-items:center;gap:6px}
+.tnb:hover{color:rgba(255,255,255,.8)}
+.tnb.act{color:#fff;border-bottom-color:var(--gold2)}
+
+/* ─── SEARCH OVERLAY ─── */
+.sov{position:fixed;inset:0;background:rgba(0,0,0,.75);backdrop-filter:blur(6px);z-index:700;display:none;justify-content:center;padding-top:80px}
+.sov.open{display:flex}
+.sov-box{background:var(--sf);border-radius:var(--rl);width:min(720px,95vw);max-height:72vh;overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shl)}
+.sov-hd{background:linear-gradient(135deg,var(--upsc1),var(--upsc2));padding:15px 20px;display:flex;align-items:center;justify-content:space-between}
+.sov-hd h3{font-size:14px;font-weight:700;color:#fff}
+.sov-cls{background:none;border:none;color:rgba(255,255,255,.6);font-size:22px;cursor:pointer;line-height:1}
+.sov-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;padding:18px;overflow-y:auto}
+.sov-item{display:flex;align-items:flex-start;gap:10px;padding:11px 13px;border-radius:var(--r);border:1px solid var(--bdr);background:var(--sf2);text-decoration:none;transition:all .13s}
+.sov-item:hover{border-color:var(--gold);background:rgba(217,119,6,.05)}
+.sov-ic{font-size:20px;flex-shrink:0}
+.sov-item h4{font-size:12.5px;font-weight:700;color:var(--txt);margin-bottom:2px}
+.sov-item p{font-size:11px;color:var(--txt3)}
+.sov-note{padding:10px 18px;border-top:1px solid var(--bdr);font-size:11px;color:var(--txtm);background:var(--sf3)}
+
+/* ─── LAYOUT ─── */
+.wrap{max-width:1080px;margin:0 auto;padding:24px 20px 80px}
+.tp{display:none}.tp.act{display:block}
+
+/* ─── INTRO CARD ─── */
+.intro-card{border-radius:var(--rl);padding:26px 30px;margin-bottom:18px;position:relative;overflow:hidden}
+.ic-upsc{background:linear-gradient(135deg,var(--upsc1) 0%,var(--upsc2) 50%,#3D2000 100%)}
+.ic-prelims{background:linear-gradient(135deg,#1E3A8A,#1D4ED8)}
+.ic-mains{background:linear-gradient(135deg,#14532D,#065F46)}
+.ic-essay{background:linear-gradient(135deg,#4C1D95,#6D28D9)}
+.ic-answer{background:linear-gradient(135deg,#7C2D12,#C2410C)}
+.ic-syllabus{background:linear-gradient(135deg,#0C4A6E,#0284C7)}
+.intro-card::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none'%3E%3Cg fill='%23ffffff' fill-opacity='0.025'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")}
+.intro-card h2{font-size:19px;font-weight:900;color:#fff;margin-bottom:7px;position:relative;letter-spacing:-.3px}
+.intro-card p{font-size:13px;color:rgba(255,255,255,.6);line-height:1.7;max-width:660px;position:relative}
+.intro-meta{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px;position:relative}
+.im-badge{display:flex;align-items:center;gap:6px;padding:5px 12px;border-radius:20px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);font-size:11px;font-weight:700;color:rgba(255,255,255,.85)}
+
+/* ─── CARD ─── */
+.card{background:var(--sf);border-radius:var(--rl);border:1px solid var(--bdr);box-shadow:var(--sh);overflow:hidden;margin-bottom:20px}
+.cs{padding:18px 22px;border-bottom:1px solid var(--bdr)}
+.cs-last{padding:18px 22px}
+.sec-lbl{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--txt3);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.sec-lbl::after{content:"";flex:1;height:1px;background:var(--bdr)}
+
+/* ─── PILLS ─── */
+.spills{display:flex;gap:7px;flex-wrap:wrap}
+.sp{padding:7px 14px;border-radius:22px;font-size:12.5px;font-weight:600;border:1.5px solid var(--bdr2);cursor:pointer;background:var(--sf);color:var(--txt3);transition:all .15s;user-select:none;font-family:inherit}
+.sp:hover{border-color:var(--gold);color:var(--gold)}
+.sp.on{color:#fff;border-color:transparent;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.sp-pre.on{background:#1D4ED8}.sp-m1.on{background:#065F46}.sp-m2.on{background:#0369A1}
+.sp-m3.on{background:#166534}.sp-m4.on{background:#7C2D12}.sp-es.on{background:#4338CA}
+.sp-aw.on{background:#C2410C}.sp-opt.on{background:#6D28D9}
+
+/* ─── TOPIC GRID ─── */
+.tgr{display:grid;grid-template-columns:repeat(auto-fill,minmax(188px,1fr));gap:7px;max-height:280px;overflow-y:auto;padding:2px}
+.tgr::-webkit-scrollbar{width:4px}
+.tgr::-webkit-scrollbar-thumb{background:var(--bdr2);border-radius:4px}
+.tbtn{padding:9px 11px;border-radius:10px;font-size:12px;border:1.5px solid var(--bdr);cursor:pointer;background:var(--sf2);color:var(--txt3);text-align:left;transition:all .12s;line-height:1.35;font-family:inherit;width:100%}
+.tbtn:hover{border-color:var(--bdr2);color:var(--txt);background:var(--sf)}
+.tbtn.sa{background:#EFF6FF;color:#1E40AF;border-color:#BFDBFE;font-weight:600}
+.tbtn.sb{background:#F0FDF4;color:#065F46;border-color:#BBF7D0;font-weight:600}
+.tbtn.sc{background:#F0F9FF;color:#0369A1;border-color:#BAE6FD;font-weight:600}
+.tbtn.sd{background:#F0FDF4;color:#166534;border-color:#BBF7D0;font-weight:600}
+.tbtn.se{background:#FFF7ED;color:#C2410C;border-color:#FED7AA;font-weight:600}
+.tbtn.sf{background:#FDF4FF;color:#7E22CE;border-color:#E9D5FF;font-weight:600}
+.tbtn.sg{background:#FFFBEB;color:#92400E;border-color:#FDE68A;font-weight:600}
+.t-empty{grid-column:1/-1;text-align:center;padding:28px;color:var(--txtm);font-size:13px}
+
+/* ─── SETTINGS ─── */
+.sg3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.sg2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.fld{display:flex;flex-direction:column;gap:5px}
+.fld label{font-size:10px;font-weight:700;color:var(--txt3);text-transform:uppercase;letter-spacing:.06em}
+select,input[type=date]{appearance:none;-webkit-appearance:none;padding:9px 30px 9px 12px;font-size:13px;border:1.5px solid var(--bdr2);border-radius:10px;background:var(--sf) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2378634A' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat right 10px center;color:var(--txt);cursor:pointer;width:100%;font-family:inherit;transition:border-color .15s}
+input[type=date]{background-image:none;padding-right:12px}
+select:hover,input[type=date]:hover{border-color:var(--gold)}
+select:focus,input[type=date]:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(217,119,6,.12)}
+
+/* ─── TOGGLES ─── */
+.tctrls{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:11px}
+.tcc{font-size:11px;padding:4px 11px;border-radius:20px;border:1px solid var(--bdr2);background:var(--sf);color:var(--txt3);cursor:pointer;font-family:inherit;transition:all .12s}
+.tcc:hover{color:var(--gold);border-color:var(--gold)}
+.togr{display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:7px}
+.togi{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:10px;border:1.5px solid var(--bdr);background:var(--sf2);cursor:pointer;transition:all .13s;user-select:none}
+.togi.on{border-color:var(--gold);background:#FFFBEB}
+.togi.on-g{border-color:var(--green2);background:#F0FDF4}
+.togi.on-b{border-color:var(--blue2);background:#EFF6FF}
+.togi.on-v{border-color:var(--violet);background:#FDF4FF}
+.togi.on-r{border-color:var(--red);background:#FFF1F2}
+.togi.on-t{border-color:var(--teal);background:#F0FDFA}
+.tsw{width:28px;height:16px;border-radius:8px;background:var(--bdr2);position:relative;flex-shrink:0;transition:background .15s}
+.tsw::after{content:"";position:absolute;width:10px;height:10px;border-radius:50%;background:#fff;top:3px;left:3px;transition:transform .15s;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.togi.on .tsw{background:var(--gold)}
+.togi.on-g .tsw{background:var(--green2)}
+.togi.on-b .tsw{background:var(--blue2)}
+.togi.on-v .tsw{background:var(--violet)}
+.togi.on-r .tsw{background:var(--red)}
+.togi.on-t .tsw{background:var(--teal)}
+.togi.on .tsw::after,.togi.on-g .tsw::after,.togi.on-b .tsw::after,.togi.on-v .tsw::after,.togi.on-r .tsw::after,.togi.on-t .tsw::after{transform:translateX(12px)}
+.tgl{font-size:11.5px;font-weight:500;color:var(--txt3);line-height:1.3;flex:1}
+.togi.on .tgl{color:#92400E}
+.togi.on-g .tgl{color:var(--green2)}
+.togi.on-b .tgl{color:var(--blue2)}
+.togi.on-v .tgl{color:var(--violet)}
+.togi.on-r .tgl{color:var(--red)}
+.togi.on-t .tgl{color:var(--teal)}
+.tic{font-size:13px;flex-shrink:0}
+
+/* ─── GEN BUTTONS ─── */
+.gbtn{width:100%;padding:13px 22px;font-size:14px;font-weight:700;border:none;border-radius:12px;cursor:pointer;color:#fff;transition:all .15s;font-family:inherit;display:flex;align-items:center;justify-content:center;gap:8px}
+.gbtn:hover{opacity:.91;transform:translateY(-1px)}.gbtn:active{transform:scale(.99)}.gbtn:disabled{opacity:.38;cursor:not-allowed;transform:none}
+.gb1{background:linear-gradient(135deg,#1E3A8A,#1D4ED8);box-shadow:0 4px 14px rgba(29,78,216,.35)}
+.gb2{background:linear-gradient(135deg,#14532D,#065F46);box-shadow:0 4px 14px rgba(6,95,70,.35)}
+.gb3{background:linear-gradient(135deg,#4C1D95,#6D28D9);box-shadow:0 4px 14px rgba(109,40,217,.35)}
+.gb4{background:linear-gradient(135deg,#7C2D12,#C2410C);box-shadow:0 4px 14px rgba(194,65,12,.35)}
+.gb5{background:linear-gradient(135deg,#0C4A6E,#0284C7);box-shadow:0 4px 14px rgba(2,132,199,.35)}
+.gb6{background:linear-gradient(135deg,var(--upsc1),var(--gold));box-shadow:0 4px 14px rgba(217,119,6,.35)}
+@keyframes pu1{0%,100%{box-shadow:0 4px 14px rgba(29,78,216,.35)}50%{box-shadow:0 4px 24px rgba(29,78,216,.6)}}
+@keyframes pu2{0%,100%{box-shadow:0 4px 14px rgba(6,95,70,.35)}50%{box-shadow:0 4px 24px rgba(6,95,70,.6)}}
+@keyframes pu3{0%,100%{box-shadow:0 4px 14px rgba(109,40,217,.35)}50%{box-shadow:0 4px 24px rgba(109,40,217,.6)}}
+@keyframes pu4{0%,100%{box-shadow:0 4px 14px rgba(194,65,12,.35)}50%{box-shadow:0 4px 24px rgba(194,65,12,.6)}}
+@keyframes pu5{0%,100%{box-shadow:0 4px 14px rgba(2,132,199,.35)}50%{box-shadow:0 4px 24px rgba(2,132,199,.6)}}
+@keyframes pu6{0%,100%{box-shadow:0 4px 14px rgba(217,119,6,.35)}50%{box-shadow:0 4px 24px rgba(217,119,6,.6)}}
+.gbtn.rd.gb1{animation:pu1 2s infinite}.gbtn.rd.gb2{animation:pu2 2s infinite}
+.gbtn.rd.gb3{animation:pu3 2s infinite}.gbtn.rd.gb4{animation:pu4 2s infinite}
+.gbtn.rd.gb5{animation:pu5 2s infinite}.gbtn.rd.gb6{animation:pu6 2s infinite}
+
+/* ─── OUTPUT ─── */
+.ocard{border-radius:var(--rl);overflow:hidden;display:none;margin-bottom:20px;box-shadow:var(--shl)}
+.oc1{border:2px solid #60A5FA}.oc2{border:2px solid #34D399}.oc3{border:2px solid #A78BFA}
+.oc4{border:2px solid #FB923C}.oc5{border:2px solid #38BDF8}.oc6{border:2px solid var(--gold2)}
+.ohdr{padding:13px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.oh1{background:linear-gradient(135deg,#1E3A8A,#1D4ED8)}.oh2{background:linear-gradient(135deg,#14532D,#065F46)}
+.oh3{background:linear-gradient(135deg,#4C1D95,#6D28D9)}.oh4{background:linear-gradient(135deg,#7C2D12,#C2410C)}
+.oh5{background:linear-gradient(135deg,#0C4A6E,#0284C7)}.oh6{background:linear-gradient(135deg,var(--upsc1),var(--gold))}
+.ohdr-m h3{font-size:13px;font-weight:700;color:#fff}.ohdr-m p{font-size:10px;color:rgba(255,255,255,.55);margin-top:1px}
+.ohdr-acts{display:flex;gap:6px}
+.oab{padding:6px 12px;border-radius:8px;font-size:11px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .14s;border:none}
+.oab-cp{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.28)}.oab-cp:hover{background:rgba(255,255,255,.28)}
+.ai-row{padding:10px 18px;border-top:1px solid rgba(255,255,255,.1);display:flex;align-items:center;gap:7px;flex-wrap:wrap;background:rgba(0,0,0,.2)}
+.ai-lbl{font-size:9px;font-weight:700;color:rgba(255,255,255,.45);text-transform:uppercase;letter-spacing:.08em;margin-right:2px;white-space:nowrap}
+.ai-btn{display:flex;align-items:center;gap:5px;padding:5px 11px;border-radius:20px;font-size:11px;font-weight:700;cursor:pointer;border:none;font-family:inherit;transition:all .15s;text-decoration:none;color:#fff;flex-shrink:0}
+.ai-btn:hover{transform:translateY(-1px);filter:brightness(1.1)}
+.ai-claude{background:#D97706}.ai-gpt{background:#10A37F}.ai-gem{background:linear-gradient(135deg,#4285F4,#EA4335)}.ai-pp{background:#6366F1}.ai-ms{background:#0078D4}.ai-meta{background:#0668E1}
+.ostats{display:flex;flex-wrap:wrap;border-bottom:1px solid var(--bdr);background:var(--sf3)}
+.osp{padding:7px 13px;font-size:10px;font-weight:700;color:var(--txt3);border-right:1px solid var(--bdr)}
+.osp span{color:var(--gold)}.osp-b span{color:var(--blue2)}.osp-g span{color:var(--green2)}.osp-v span{color:var(--violet)}.osp-r span{color:var(--red)}.osp-t span{color:var(--teal)}
+.parea{padding:22px;font-family:"JetBrains Mono","Fira Code","Courier New",monospace;font-size:12px;line-height:1.9;color:var(--txt2);white-space:pre-wrap;word-wrap:break-word;max-height:600px;overflow-y:auto;background:#FDFAF5}
+.parea::-webkit-scrollbar{width:4px}.parea::-webkit-scrollbar-thumb{background:var(--bdr2);border-radius:4px}
+
+/* ─── CALLOUT ─── */
+.cl{padding:11px 14px;border-radius:10px;border-left:4px solid;font-size:12px;line-height:1.6;margin-bottom:12px}
+.cl-g{background:#FFFBEB;border-color:var(--gold);color:#78350F}
+.cl-b{background:#EFF6FF;border-color:var(--blue2);color:#1E3A8A}
+.cl-gr{background:#F0FDF4;border-color:var(--green2);color:#065F46}
+.cl-v{background:#FDF4FF;border-color:var(--violet);color:#4C1D95}
+.cl-r{background:#FFF1F2;border-color:var(--red);color:#9F1239}
+
+/* ─── NEWSPAPER ─── */
+.npgr{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}
+.npi{display:flex;align-items:flex-start;gap:9px;padding:10px 12px;border-radius:var(--r);border:1.5px solid var(--bdr);background:var(--sf2);cursor:pointer;transition:all .13s;user-select:none}
+.npi.chk{background:#FFFBEB;border-color:var(--gold)}
+.npchk{width:16px;height:16px;border-radius:4px;border:2px solid var(--bdr2);background:#fff;flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center;font-size:9px;color:transparent;font-weight:700;transition:all .14s}
+.npi.chk .npchk{background:var(--gold);border-color:var(--gold);color:#fff}
+.npi-nm{font-size:12px;font-weight:700;color:var(--txt);line-height:1.2}
+.npi-sb{font-size:10px;color:var(--txt3);margin-top:2px}
+.npi.chk .npi-nm{color:#78350F}
+.cchips{display:flex;gap:7px;flex-wrap:wrap}
+.cch{padding:6px 12px;border-radius:20px;font-size:12px;font-weight:500;border:1.5px solid var(--bdr2);cursor:pointer;background:var(--sf);color:var(--txt3);transition:all .13s;font-family:inherit}
+.cch:hover{border-color:var(--gold);color:var(--gold)}
+.cch.on{background:var(--gold);color:#fff;border-color:var(--gold)}
+
+/* ─── STEPPER ─── */
+.stpr{display:flex;align-items:center;gap:9px}
+.spb{width:28px;height:28px;border-radius:50%;border:1.5px solid var(--bdr2);background:var(--sf);color:var(--txt);cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;transition:all .13s;font-family:inherit;line-height:1}
+.spb:hover{border-color:var(--gold);color:var(--gold)}
+.spv{font-size:16px;font-weight:700;color:var(--txt);min-width:26px;text-align:center}
+.dvd{height:1px;background:var(--bdr);margin:13px 0}
+
+/* ─── DAYBTN ─── */
+.daygr{display:flex;gap:6px;flex-wrap:wrap}
+.daybtn{width:38px;height:38px;border-radius:50%;font-size:10px;font-weight:700;border:1.5px solid var(--bdr2);cursor:pointer;background:var(--sf);color:var(--txt3);transition:all .13s;font-family:inherit}
+.daybtn.on{background:var(--gold);color:#fff;border-color:var(--gold)}
+.daybtn.wk{border-color:#FCA5A5}.daybtn.wk.on{background:var(--red);border-color:var(--red);color:#fff}
+
+/* ─── EXAM CHECKBOX GRID ─── */
+.exam-check-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px;margin-top:4px}
+.exam-chk{display:flex;align-items:center;gap:9px;padding:9px 12px;border-radius:10px;border:1.5px solid var(--bdr);background:var(--sf2);cursor:pointer;transition:all .13s;user-select:none}
+.exam-chk:hover{border-color:var(--bdr2)}
+.exam-chk.on{background:#FFFBEB;border-color:var(--gold)}
+.echk-box{width:16px;height:16px;border-radius:4px;border:2px solid var(--bdr2);background:#fff;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:9px;color:transparent;font-weight:700;transition:all .14s}
+.exam-chk.on .echk-box{background:var(--gold);border-color:var(--gold);color:#fff}
+.exam-chk-lbl{font-size:12px;font-weight:600;color:var(--txt)}
+.exam-chk.on .exam-chk-lbl{color:#78350F}
+
+/* ─── AD + EMPTY ─── */
+.adslot{width:100%;background:var(--sf3);border:1px dashed var(--bdr2);border-radius:var(--r);padding:18px;text-align:center;margin:16px 0;min-height:80px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:5px}
+.adslot-lbl{font-size:9px;font-weight:700;color:var(--txtm);text-transform:uppercase;letter-spacing:.1em}
+.adslot-ph{font-size:11px;color:var(--bdr2);font-style:italic}
+.emp{text-align:center;padding:50px 22px;background:var(--sf);border-radius:var(--rl);border:1px solid var(--bdr)}
+.emp h3{font-size:16px;font-weight:700;color:var(--txt);margin-bottom:6px}.emp p{font-size:13px;color:var(--txt3);max-width:360px;margin:0 auto}
+
+/* ─── SOCIAL FLOAT ─── */
+.soc-fl{position:fixed;left:0;top:50%;transform:translateY(-50%);z-index:300;display:flex;flex-direction:column;gap:2px}
+.sfl{display:flex;align-items:center;overflow:hidden;width:40px;transition:width .25s;border-radius:0 10px 10px 0;text-decoration:none;box-shadow:2px 2px 8px rgba(0,0,0,.2)}
+.sfl:hover{width:148px}
+.sfl-ic{width:40px;height:40px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.sfl-lb{font-size:11px;font-weight:700;color:#fff;white-space:nowrap;padding-right:14px;opacity:0;transition:opacity .18s .06s}
+.sfl:hover .sfl-lb{opacity:1}
+.sfl-fb{background:#1877F2}.sfl-ig{background:linear-gradient(180deg,#f09433,#dc2743,#bc1888)}.sfl-yt{background:#FF0000}
+
+/* ─── COOKIE + PRIVACY ─── */
+.ckbar{position:fixed;bottom:0;left:0;right:0;z-index:9000;background:var(--upsc1);border-top:1px solid rgba(255,255,255,.08);padding:13px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;box-shadow:0 -4px 20px rgba(0,0,0,.3);transform:translateY(0);transition:transform .3s}
+.ckbar.gone{transform:translateY(115%)}
+.ck-txt{flex:1;font-size:12px;color:rgba(255,255,255,.65);line-height:1.6}.ck-txt a{color:var(--gold2);cursor:pointer;text-decoration:underline}
+.ck-btns{display:flex;gap:8px;flex-shrink:0}
+.ck-acc{padding:8px 17px;border-radius:8px;background:var(--gold);color:var(--upsc1);border:none;font-size:12px;font-weight:800;cursor:pointer;font-family:inherit}
+.ck-dec{padding:8px 13px;border-radius:8px;background:rgba(255,255,255,.08);color:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.15);font-size:12px;cursor:pointer;font-family:inherit}
+.pmov{position:fixed;inset:0;background:rgba(0,0,0,.7);backdrop-filter:blur(4px);z-index:8000;display:none;justify-content:center;align-items:center;padding:20px}
+.pmov.open{display:flex}
+.pmbox{background:var(--sf);border-radius:var(--rl);width:min(700px,95vw);max-height:86vh;overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shl)}
+.pmhd{background:linear-gradient(135deg,var(--upsc1),var(--upsc2));padding:16px 22px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0}
+.pmhd h2{font-size:15px;font-weight:700;color:#fff}
+.pmcls{background:none;border:none;color:rgba(255,255,255,.6);font-size:22px;cursor:pointer;line-height:1;padding:0 4px}
+.pmbody{padding:24px 28px;overflow-y:auto;font-size:13px;line-height:1.8;color:var(--txt2)}
+.pmbody h3{font-size:14px;font-weight:700;color:var(--txt);margin:18px 0 8px}.pmbody h3:first-child{margin-top:0}
+.pmbody p{margin-bottom:10px;color:var(--txt3)}.pmbody ul{padding-left:18px;margin-bottom:10px}.pmbody li{margin-bottom:5px;color:var(--txt3)}.pmbody a{color:var(--blue2)}
+
+/* ─── FOOTER ─── */
+.ft{background:linear-gradient(180deg,var(--upsc2),var(--upsc1))}
+.ft-srow{padding:24px 20px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;border-bottom:1px solid rgba(255,255,255,.06)}
+.ftsb{display:flex;align-items:center;gap:7px;padding:9px 18px;border-radius:24px;font-size:12px;font-weight:700;text-decoration:none;color:#fff;transition:all .14s;border:none;cursor:pointer;font-family:inherit}
+.ftsb:hover{transform:translateY(-1px);filter:brightness(1.1)}
+.ftb-fb{background:#1877F2}.ftb-ig{background:linear-gradient(135deg,#f09433,#dc2743,#bc1888)}.ftb-yt{background:#FF0000}
+.ft-links{display:flex;justify-content:center;gap:18px;padding:12px 20px;flex-wrap:wrap;border-bottom:1px solid rgba(255,255,255,.04)}
+.ftlnk{color:rgba(255,255,255,.4);font-size:11px;text-decoration:none;cursor:pointer;transition:color .13s;border:none;background:none;font-family:inherit}
+.ftlnk:hover{color:rgba(255,255,255,.82)}
+.ft-bot{padding:14px 20px;text-align:center}
+.ft-bot p{font-size:11px;color:rgba(255,255,255,.35)}.ft-bot strong{color:rgba(255,255,255,.65)}
+.cr-ln{margin-top:5px;font-size:10px;color:rgba(255,255,255,.22)}
+.ft-ad-note{margin-top:5px;font-size:10px;color:rgba(255,255,255,.18)}.ft-ad-note a{color:rgba(255,255,255,.3);cursor:pointer;text-decoration:underline}
+
+/* ─── TOAST + AI TIP ─── */
+.toast{position:fixed;bottom:22px;right:20px;background:var(--upsc1);color:#fff;padding:11px 18px;border-radius:var(--r);font-size:13px;font-weight:600;box-shadow:var(--shl);transform:translateY(80px);opacity:0;transition:all .28s;z-index:9999;border-left:3px solid var(--gold2)}
+.toast.show{transform:translateY(0);opacity:1}
+.ai-tip{position:fixed;bottom:62px;right:20px;background:#111827;color:#fff;padding:9px 16px;border-radius:10px;font-size:12px;font-weight:500;z-index:10000;display:none;text-align:center;line-height:1.5;border:1px solid rgba(255,255,255,.1)}
+.ai-tip.show{display:block}
+.ai-tip kbd{background:rgba(255,255,255,.15);padding:1px 6px;border-radius:4px;font-size:11px}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:768px){.sg3{grid-template-columns:1fr 1fr}.srch-form{width:150px}.srch-form:focus-within{width:180px}}
+@media(max-width:540px){.sg3,.sg2{grid-template-columns:1fr}.soc-fl{display:none}}
+@media(max-width:480px){.sov-grid{grid-template-columns:1fr}}
+@media print {
+  header, .tab-nav, .adslot, footer, #examCountdownStrip, .noprint { display: none !important; }
+  .tp { display: none !important; }
+  .tp.act { display: block !important; }
+  body { background: #fff !important; color: #000 !important; }
+}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How many stages does the UPSC Civil Services Examination have?","acceptedAnswer":{"@type":"Answer","text":"Three stages: the Preliminary Examination (objective, screening only, marks not counted for final merit), the Main Examination (written, descriptive), and the Personality Test (interview)."}},
+{"@type":"Question","name":"Is there negative marking in UPSC Prelims?","acceptedAnswer":{"@type":"Answer","text":"Yes. One-third of the marks assigned to a question are deducted for each wrong answer in both GS Paper 1 and CSAT."}},
+{"@type":"Question","name":"What is the difference between GS Paper 1 and CSAT in Prelims?","acceptedAnswer":{"@type":"Answer","text":"GS Paper 1 covers History, Geography, Polity, Economy, Environment, and Science & Technology, and its score determines the Prelims merit list. CSAT (Paper 2) tests comprehension, reasoning, and basic numeracy, and is only qualifying — you need 33% to pass, but the score itself doesn't count toward ranking."}},
+{"@type":"Question","name":"Do I need to create an account to use this prompt generator?","acceptedAnswer":{"@type":"Answer","text":"No. The prompt generator, answer-writing practice, and flashcards all work without any sign-up."}}
+]}
+</script>
+  <link rel="stylesheet" href="css/modern.css">
+</head>
+<body>
+<script>try{var _rv=JSON.parse(localStorage.getItem('rb_recent_tools')||'[]');var _href=location.pathname.split('/').pop()||'index.html';_rv=_rv.filter(function(t){return t.href!==_href;});_rv.unshift({href:_href,ts:Date.now()});_rv=_rv.slice(0,6);localStorage.setItem('rb_recent_tools',JSON.stringify(_rv));}catch(e){}</script>
+<!-- FLOATING SOCIAL -->
+<div class="soc-fl">
+  <a class="sfl sfl-fb" href="https://www.facebook.com/Raghavbegins" target="_blank" rel="noopener"><div class="sfl-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.268h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg></div><span class="sfl-lb">Follow</span></a>
+  <a class="sfl sfl-ig" href="https://www.instagram.com/raghav3o" target="_blank" rel="noopener"><div class="sfl-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></div><span class="sfl-lb">@raghav3o</span></a>
+  <a class="sfl sfl-yt" href="https://www.youtube.com/@raghav_begins" target="_blank" rel="noopener"><div class="sfl-ic"><svg width="20" height="14" viewBox="0 0 24 17" fill="#fff"><path d="M23.495 2.205a3.02 3.02 0 0 0-2.126-2.138C19.505 0 12 0 12 0s-7.505 0-9.369.067A3.02 3.02 0 0 0 .505 2.205 31.247 31.247 0 0 0 0 8.07a31.247 31.247 0 0 0 .505 5.865 3.02 3.02 0 0 0 2.126 2.138C4.495 16.14 12 16.14 12 16.14s7.505 0 9.369-.067a3.02 3.02 0 0 0 2.126-2.138A31.247 31.247 0 0 0 24 8.07a31.247 31.247 0 0 0-.505-5.865zM9.609 11.545V4.594l6.264 3.476-6.264 3.475z"/></svg></div><span class="sfl-lb">Subscribe</span></a>
+</div>
+
+<!-- COOKIE BAR -->
+<div class="ckbar" id="ckbar"><div class="ck-txt">We use cookies and Google AdSense to keep these tools free. <a onclick="openPM()">Privacy Policy</a></div><div class="ck-btns"><button class="ck-acc" onclick="ckOk()">Accept All</button><button class="ck-dec" onclick="ckNo()">Essential Only</button></div></div>
+
+<!-- PRIVACY MODAL -->
+<div class="pmov" id="pmov" onclick="if(event.target===this)closePM()">
+  <div class="pmbox">
+    <div class="pmhd"><h2>Privacy &amp; Cookie Policy</h2><button class="pmcls" onclick="closePM()">&#x2715;</button></div>
+    <div class="pmbody">
+      <h3>About</h3><p><strong>UPSC AI Prompt Generator</strong> by <strong>Raghavbegins</strong> — free educational platform for UPSC CSE, ESE, CDS, CAPF and NDA preparation. No registration required.</p>
+      <h3>Cookies &amp; Data</h3><p>This site uses: essential cookies, Google AdSense advertising cookies (with your consent), and Google Analytics (anonymised). We do not sell your data.</p>
+      <ul><li>Opt out of personalised ads: <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">Google Ad Settings</a></li></ul>
+      <h3>Disclaimer</h3><p>This tool generates AI study prompts for educational purposes. Raghavbegins is not affiliated with UPSC or any government examination authority. Always verify from official sources: upsc.gov.in</p>
+      <h3>Contact</h3><p><a href="https://www.facebook.com/Raghavbegins" target="_blank" rel="noopener">Facebook</a> &middot; <a href="https://www.instagram.com/raghav3o" target="_blank" rel="noopener">Instagram @raghav3o</a> &middot; <a href="https://www.youtube.com/@raghav_begins" target="_blank" rel="noopener">YouTube @raghav_begins</a></p>
+      <p><strong>Email:</strong> <a href="mailto:raghavbegins@gmail.com">raghavbegins@gmail.com</a><br><strong>Location:</strong> India &middot; Educational platform</p>
+      <p style="margin-top:14px;font-size:10px;color:#94A3B8">Last updated March 2026 &middot; Raghavbegins</p>
+    </div>
+  </div>
+</div>
+
+<!-- SEARCH OVERLAY -->
+<div class="sov" id="sov" onclick="if(event.target===this)document.getElementById('sov').classList.remove('open')">
+  <div class="sov-box">
+    <div class="sov-hd"><h3 id="sov-title">Search results</h3><button class="sov-cls" onclick="document.getElementById('sov').classList.remove('open')">&#x2715;</button></div>
+    <div class="sov-grid" id="sov-grid"></div>
+    <div class="sov-note">Click any result to open in a new tab</div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="hdr">
+  <div class="hdr-top">
+    <a class="logo-wrap" href="./">
+      <div class="logo-ic">🏛️</div>
+      <div class="logo-txt">
+        <h1>UPSC Civil Services AI Prompt Generator</h1>
+        <p>IAS &middot; IPS &middot; IFS &middot; ESE &middot; CDS &middot; CAPF &middot; NDA &middot; 2025-26 &middot; Raghavbegins</p>
+      </div>
+    </a>
+    <div class="srch-form">
+      <input class="srch-in" id="srch-in" placeholder="Search any topic..." onkeydown="if(event.key==='Enter')doSearch()" autocomplete="off">
+      <button class="srch-go" onclick="doSearch()">Search</button>
+    </div>
+    <a class="hdr-back" href="./">&#8592; All Exams</a>
+    <a class="hdr-back" href="quiz-simulator.html" style="margin-left:6px;color:#10B981;font-weight:700">&#x1F3AF; <span>Mock Lab</span></a>
+    <div class="hdr-tools" style="margin-left:auto;display:flex;gap:6px;align-items:center">
+      <button class="be-btn-tool" onclick="BE_NAV.openSpotlight()" title="Search tools (Ctrl+K)">&#x1F50D; <span class="be-kbd-badge">Ctrl K</span></button>
+      <button class="be-btn-tool" onclick="BE_NAV.openCalc()" title="Exam Calculator">&#x1F9EE;</button>
+      <button class="be-btn-tool" onclick="BE_NAV.toggleTheme()" id="themeToggleBtn" title="Toggle dark/light theme">&#x1F319;</button>
+      <button class="be-btn-tool be-hamburger" onclick="BE_NAV.toggleDrawer()" title="Menu">&#x2630;</button>
+    </div>
+  </div>
+  <div class="hdr-top" style="padding-top:0;padding-bottom:6px;justify-content:space-between">
+    <span id="streakBadge" style="display:none;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;border:1px solid rgba(255,255,255,.25)">&#x1F525; streak</span>
+    <div id="examCountdownStrip" style="display:flex;gap:8px;flex-wrap:wrap;font-size:12px"></div>
+  </div>
+  <div class="tab-nav">
+    <div class="tni">
+      <button class="tnb act" onclick="swTab('t1',this)"><span>📐</span> Prelims GS</button>
+      <button class="tnb" onclick="swTab('t2',this)"><span>📚</span> Mains GS</button>
+      <button class="tnb" onclick="swTab('t3',this)"><span>✍️</span> Answer Writing</button>
+      <button class="tnb" onclick="swTab('t4',this)"><span>📰</span> Newspaper Prompt</button>
+      <button class="tnb" onclick="swTab('t5',this)"><span>📋</span> Syllabus Prompt</button>
+      <button class="tnb" onclick="swTab('t6',this)"><span>🎯</span> Other UPSC Exams</button>
+      <button class="tnb" onclick="swTab('t7',this)"><span>🗂️</span> Flashcards</button>
+    </div>
+  </div>
+</header>
+
+<!-- AD TOP -->
+<div class="noprint" style="max-width:1080px;margin:0 auto;padding:8px 20px 0;display:flex;justify-content:flex-end">
+  <button onclick="window.print()" style="background:none;border:1px solid currentColor;border-radius:8px;padding:6px 14px;font-size:13px;cursor:pointer;opacity:.85">&#x1F5A8;&#xFE0F; Print this tab as a cheat sheet</button>
+</div>
+<div style="background:var(--sf2)"><div style="max-width:1080px;margin:0 auto;padding:0 20px"><div class="adslot"><div class="adslot-lbl">Advertisement</div><span class="adslot-ph">Responsive banner ad</span></div></div></div>
+
+<div class="wrap noprint" style="padding-top:10px;padding-bottom:10px">
+  <div style="background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.25);border-radius:10px;padding:12px 18px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px">
+    <div style="font-size:13px;color:var(--txt)">
+      <strong>🏛️ Ready-Made UPSC Study Modules:</strong> Deep-dive into our interactive digital textbooks &mdash; 
+      <a href="study-modules.html?module=gs4" style="color:#D97706;font-weight:700">GS-IV Ethics</a> &middot; 
+      <a href="study-modules.html?module=gs3" style="color:#D97706;font-weight:700">GS-III Economy &amp; Tech</a> &middot; 
+      <a href="study-modules.html?module=gs2" style="color:#D97706;font-weight:700">GS-II Polity</a> &middot; 
+      <a href="study-modules.html?module=history" style="color:#D97706;font-weight:700">History Atlas</a> &middot; 
+      <a href="study-modules.html?module=geography" style="color:#D97706;font-weight:700">Geography Atlas</a> &middot; 
+      <a href="study-modules.html?module=india-world" style="color:#D97706;font-weight:700">India &amp; World</a>
+    </div>
+    <a href="study-modules.html" style="font-size:12px;font-weight:800;color:#D97706;white-space:nowrap">View All Modules &rarr;</a>
+  </div>
+</div>
+
+<main class="wrap">
+
+<!-- ══════ TAB 1 — PRELIMS GS ══════ -->
+<div class="tp act" id="tp-t1">
+  <div class="intro-card ic-prelims">
+    <h2>Prelims GS Paper 1 + CSAT Study Prompt Generator</h2>
+    <p>Generate in-depth study prompts for any topic from the complete UPSC Prelims syllabus. GS Paper 1 covers History, Geography, Polity, Economy, Environment and Science &amp; Technology. CSAT covers Comprehension, Reasoning and Maths.</p>
+    <div class="intro-meta">
+      <div class="im-badge"><span>📅</span> Year: <span id="t1-yr">--</span></div>
+      <div class="im-badge"><span>📖</span> GS Paper 1</div>
+      <div class="im-badge"><span>🧩</span> CSAT Paper 2</div>
+      <div class="im-badge"><span>📊</span> 40+ topics</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="cs"><div class="sec-lbl">Step 1 — Paper</div>
+      <div class="spills">
+        <button class="sp sp-pre" onclick="t1Subj(this,'prelims_gs')">📖 GS Paper 1</button>
+        <button class="sp sp-pre" onclick="t1Subj(this,'prelims_csat')">🧩 CSAT Paper 2</button>
+      </div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 2 — Topic</div>
+      <div class="tgr" id="t1-tgr"><div class="t-empty">👆 Select GS Paper 1 or CSAT above</div></div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 3 — Settings</div>
+      <div class="sg3">
+        <div class="fld"><label>Stage</label>
+          <select id="t1-ex"><option value="pre">Prelims focus</option><option value="both">Prelims + Mains integration</option></select></div>
+        <div class="fld"><label>Depth</label>
+          <select id="t1-dp"><option value="full">Complete (NCERT to Advanced)</option><option value="quick">Quick revision</option><option value="adv">Advanced — MCQ pattern focus</option></select></div>
+        <div class="fld"><label>Year</label>
+          <select id="t1-yr-sel"><option value="curr">Current year (auto)</option><option value="2025">2025</option><option value="2026">2026</option></select></div>
+      </div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 4 — Sections</div>
+      <div class="tctrls">
+        <button class="tcc" onclick="t1All(true)">All</button>
+        <button class="tcc" onclick="t1All(false)">None</button>
+        <button class="tcc" onclick="t1Pre(['concept','mindmap','facts','mcq','pyq','probable','mistakes'])">Exam-ready</button>
+        <button class="tcc" onclick="t1Pre(['concept','facts','timeline','maps','mcq','pyq'])">Factual topics</button>
+      </div>
+      <div class="togr" id="t1-togr"></div>
+    </div>
+    <div class="cs-last"><button class="gbtn gb1" id="t1-gbtn" onclick="t1Gen()" disabled>Select paper &amp; topic to generate prompt</button></div>
+  </div>
+  <div class="ocard oc1" id="t1-oc">
+    <div class="ohdr oh1"><div class="ohdr-m"><h3 id="t1-title">Prelims study prompt</h3><p id="t1-sub">GS Paper 1</p></div>
+      <div class="ohdr-acts"><button class="oab oab-cp" onclick="cpOut('t1-pa','t1-cb')" id="t1-cb">📋 Copy</button><button class="oab" style="background:#1D4ED8;color:#fff;padding:6px 12px;border-radius:8px;font-size:11px;font-weight:700;cursor:pointer;border:none" onclick="dlOut('t1-pa','upsc_prelims')">⬇ .txt</button></div></div>
+    <div class="ai-row" id="t1-air"><span class="ai-lbl">Open in →</span></div>
+    <div class="ostats" id="t1-stats"></div>
+    <div class="parea" id="t1-pa"></div>
+  </div>
+  <div class="emp" id="t1-emp"><div style="font-size:46px;margin-bottom:12px">🏛️</div><h3>Prelims prompt appears here</h3><p>Select paper and topic then generate.</p></div>
+</div>
+
+<!-- ══════ TAB 2 — MAINS GS ══════ -->
+<div class="tp" id="tp-t2">
+  <div class="intro-card ic-mains">
+    <h2>Mains GS Papers Study Prompt Generator</h2>
+    <p>Generate structured study prompts for all 4 GS papers, Essay Paper and Optional Subjects. Mains prompts include answer-writing perspective, multidimensional analysis frameworks, and case study approaches.</p>
+    <div class="intro-meta">
+      <div class="im-badge"><span>📖</span> GS Paper 1-4</div>
+      <div class="im-badge"><span>📝</span> Essay Paper</div>
+      <div class="im-badge"><span>📚</span> 25+ Optionals</div>
+      <div class="im-badge"><span>✍️</span> Mains perspective</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="cs"><div class="sec-lbl">Step 1 — Paper</div>
+      <div class="spills">
+        <button class="sp sp-m1" onclick="t2Subj(this,'gs1','sa')">📜 GS Paper 1</button>
+        <button class="sp sp-m2" onclick="t2Subj(this,'gs2','sb')">🏛️ GS Paper 2</button>
+        <button class="sp sp-m3" onclick="t2Subj(this,'gs3','sc')">💹 GS Paper 3</button>
+        <button class="sp sp-m4" onclick="t2Subj(this,'gs4','se')">⚖️ GS Paper 4</button>
+        <button class="sp sp-es" onclick="t2Subj(this,'essay','sf')">📝 Essay Paper</button>
+        <button class="sp sp-opt" onclick="t2Subj(this,'optional','sg')">📚 Optional Subject</button>
+      </div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 2 — Topic</div>
+      <div class="tgr" id="t2-tgr"><div class="t-empty">👆 Select a GS paper above</div></div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 3 — Settings</div>
+      <div class="sg3">
+        <div class="fld"><label>Mains year</label>
+          <select id="t2-yr"><option value="curr">Current year (auto)</option><option value="2025">UPSC Mains 2025</option><option value="2026">UPSC Mains 2026</option></select></div>
+        <div class="fld"><label>Answer focus</label>
+          <select id="t2-af"><option value="both">Theory + Answer writing</option><option value="theory">In-depth theory</option><option value="answer">Answer writing focus</option></select></div>
+        <div class="fld"><label>Word limit</label>
+          <select id="t2-wl"><option value="both">Both 150w (10m) + 250w (15m)</option><option value="150">150 words (10-mark Qs)</option><option value="250">250 words (15-mark Qs)</option></select></div>
+      </div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 4 — Sections</div>
+      <div class="tctrls">
+        <button class="tcc" onclick="t2All(true)">All</button>
+        <button class="tcc" onclick="t2All(false)">None</button>
+        <button class="tcc" onclick="t2Pre(['overview','dimensions','examples','model_ans','pyq_mains','probable'])">Mains-ready</button>
+        <button class="tcc" onclick="t2Pre(['overview','dimensions','current','model_ans','examtip'])">Answer focus</button>
+      </div>
+      <div class="togr" id="t2-togr"></div>
+    </div>
+    <div class="cs-last"><button class="gbtn gb2" id="t2-gbtn" onclick="t2Gen()" disabled>Select paper &amp; topic to generate Mains prompt</button></div>
+  </div>
+  <div class="ocard oc2" id="t2-oc">
+    <div class="ohdr oh2"><div class="ohdr-m"><h3 id="t2-title">Mains study prompt</h3><p id="t2-sub">Ready to launch</p></div>
+      <div class="ohdr-acts"><button class="oab oab-cp" onclick="cpOut('t2-pa','t2-cb')" id="t2-cb">📋 Copy</button><button class="oab" style="background:#065F46;color:#fff;padding:6px 12px;border-radius:8px;font-size:11px;font-weight:700;cursor:pointer;border:none" onclick="dlOut('t2-pa','upsc_mains')">⬇ .txt</button></div></div>
+    <div class="ai-row" id="t2-air"><span class="ai-lbl">Open in →</span></div>
+    <div class="ostats" id="t2-stats"></div>
+    <div class="parea" id="t2-pa"></div>
+  </div>
+  <div class="emp" id="t2-emp"><div style="font-size:46px;margin-bottom:12px">📜</div><h3>Mains prompt appears here</h3><p>Select a GS paper and topic then generate.</p></div>
+</div>
+
+<!-- ══════ TAB 3 — ANSWER WRITING ══════ -->
+<div class="tp" id="tp-t3">
+  <div class="intro-card ic-answer">
+    <h2>Answer Writing &amp; Interview Prep Prompt</h2>
+    <p>Master UPSC Mains answer writing — structure, multidimensional approach, diagrams, word limits, model answers with examiner comments. Also covers Interview / Personality Test preparation including DAF analysis and board questions.</p>
+    <div class="intro-meta">
+      <div class="im-badge"><span>✍️</span> 10-mark &amp; 15-mark</div>
+      <div class="im-badge"><span>📊</span> Multidimensional approach</div>
+      <div class="im-badge"><span>🎤</span> Interview prep</div>
+      <div class="im-badge"><span>📋</span> DAF-based Qs</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="cs"><div class="sec-lbl">Step 1 — Topic / Area</div>
+      <div class="spills">
+        <button class="sp sp-aw" onclick="t3Subj(this,'aw')">✍️ Answer Writing</button>
+        <button class="sp sp-aw" onclick="t3Subj(this,'interview')">🎤 Interview Prep</button>
+        <button class="sp sp-aw" onclick="t3Subj(this,'essay_writing')">📝 Essay Writing</button>
+      </div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 2 — Sub-topic</div>
+      <div class="tgr" id="t3-tgr"><div class="t-empty">👆 Select an area above</div></div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 3 — Settings</div>
+      <div class="sg3">
+        <div class="fld"><label>GS Paper focus</label>
+          <select id="t3-gs"><option value="all">All GS Papers</option><option value="gs1">GS Paper 1</option><option value="gs2">GS Paper 2</option><option value="gs3">GS Paper 3</option><option value="gs4">GS Paper 4 (Ethics)</option><option value="essay">Essay Paper</option></select></div>
+        <div class="fld"><label>Question type</label>
+          <select id="t3-qt"><option value="both">Both 10m and 15m</option><option value="10m">10 marks (150 words)</option><option value="15m">15 marks (250 words)</option><option value="20m">20 marks (250-300 words)</option></select></div>
+        <div class="fld"><label>Include model answers</label>
+          <select id="t3-ma"><option value="yes">Yes — with examiner comments</option><option value="no">No — framework only</option></select></div>
+      </div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 4 — Sections</div>
+      <div class="tctrls">
+        <button class="tcc" onclick="t3All(true)">All</button>
+        <button class="tcc" onclick="t3All(false)">None</button>
+        <button class="tcc" onclick="t3Pre(['structure','dimensions','intro_types','conclusion_types','model_ans','common_errors'])">Answer writing</button>
+        <button class="tcc" onclick="t3Pre(['interview_q','daf_q','current_q','board_types','self_intro','stress_q'])">Interview focus</button>
+      </div>
+      <div class="togr" id="t3-togr"></div>
+    </div>
+    <div class="cs-last"><button class="gbtn gb4" id="t3-gbtn" onclick="t3Gen()" disabled>Select area &amp; topic to generate prompt</button></div>
+  </div>
+  <div class="ocard oc4" id="t3-oc">
+    <div class="ohdr oh4"><div class="ohdr-m"><h3 id="t3-title">Answer writing prompt</h3><p id="t3-sub">UPSC Mains</p></div>
+      <div class="ohdr-acts"><button class="oab oab-cp" onclick="cpOut('t3-pa','t3-cb')" id="t3-cb">📋 Copy</button><button class="oab" style="background:#C2410C;color:#fff;padding:6px 12px;border-radius:8px;font-size:11px;font-weight:700;cursor:pointer;border:none" onclick="dlOut('t3-pa','upsc_answer_writing')">⬇ .txt</button></div></div>
+    <div class="ai-row" id="t3-air"><span class="ai-lbl">Open in →</span></div>
+    <div class="ostats" id="t3-stats"></div>
+    <div class="parea" id="t3-pa"></div>
+  </div>
+  <div class="emp" id="t3-emp"><div style="font-size:46px;margin-bottom:12px">✍️</div><h3>Answer writing prompt appears here</h3><p>Select area and topic then generate.</p></div>
+</div>
+
+<!-- ══════ TAB 4 — NEWSPAPER PROMPT ══════ -->
+<div class="tp" id="tp-t4">
+  <div class="intro-card" style="background:linear-gradient(135deg,#0C4A6E,#0369A1)">
+    <h2>Daily Newspaper Prompt — UPSC Focus</h2>
+    <p>Generate a daily editorial analysis prompt aligned with UPSC Prelims and Mains. Covers vocabulary, editorial analysis, government policy, international affairs, and ready-made GS-linkage Q&amp;As.</p>
+    <div class="intro-meta">
+      <div class="im-badge"><span>📰</span> UPSC-focused</div>
+      <div class="im-badge"><span>🔗</span> GS Paper linkage</div>
+      <div class="im-badge"><span>📚</span> Vocabulary</div>
+      <div class="im-badge"><span>❓</span> Prelims + Mains Qs</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="cs"><div class="sec-lbl">Step 1 — Newspapers</div>
+      <div class="cl cl-g" style="margin-bottom:12px">For UPSC, The Hindu and Indian Express editorials are the gold standard. PIB and PRS are critical for government schemes and legislation.</div>
+      <div class="npgr" id="np-gr"></div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 2 — Column types</div>
+      <div class="cchips" id="col-gr"></div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 3 — Analysis sections</div>
+      <div class="tctrls">
+        <button class="tcc" onclick="s4All(true)">All</button>
+        <button class="tcc" onclick="s4All(false)">None</button>
+        <button class="tcc" onclick="s4P(['summary','vocab','hindi_meaning','synonyms','prelims_link','mains_link'])">Prelims focus</button>
+        <button class="tcc" onclick="s4P(['summary','mains_link','gs_linkage','critical_analysis','answer_template'])">Mains focus</button>
+        <button class="tcc" onclick="s4All(true)">Full package</button>
+      </div>
+      <div class="togr" id="s4-togr"></div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 4 — Date &amp; settings</div>
+      <div class="sg3" style="margin-bottom:12px">
+        <div class="fld"><label>Date</label><input type="date" id="s4-dt"></div>
+        <div class="fld"><label>Exam focus</label>
+          <select id="s4-ex"><option value="both">Prelims + Mains both</option><option value="pre">Prelims only</option><option value="main">Mains only</option></select></div>
+        <div class="fld"><label>Language</label>
+          <select id="s4-ln"><option value="both">English + Hindi</option><option value="en">English only</option><option value="hi">Hindi only</option></select></div>
+      </div>
+      <div class="sg2" style="margin-bottom:12px">
+        <div class="fld"><label>Vocab words per source</label>
+          <div class="stpr"><button class="spb" onclick="sv(-1)">−</button><span class="spv" id="v-n">8</span><button class="spb" onclick="sv(1)">+</button><span style="font-size:11px;color:var(--txt3)">words</span></div></div>
+        <div class="fld"><label>MCQ Q&amp;A pairs</label>
+          <div class="stpr"><button class="spb" onclick="sq(-1)">−</button><span class="spv" id="q-n">10</span><button class="spb" onclick="sq(1)">+</button><span style="font-size:11px;color:var(--txt3)">Qs</span></div></div>
+      </div>
+    </div>
+    <div class="cs-last"><button class="gbtn" style="background:linear-gradient(135deg,#0C4A6E,#0369A1);box-shadow:0 4px 14px rgba(3,105,161,.35)" onclick="s4Gen()">🗞️ Generate Daily Newspaper Prompt</button></div>
+  </div>
+  <div class="ocard" id="s4-oc" style="display:none;border:2px solid #60A5FA;border-radius:18px;overflow:hidden;box-shadow:var(--shl);margin-bottom:20px">
+    <div class="ohdr" style="background:linear-gradient(135deg,#0C4A6E,#0369A1);padding:13px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+      <div class="ohdr-m"><h3 id="s4-title" style="font-size:13px;font-weight:700;color:#fff">Newspaper prompt</h3><p id="s4-sub" style="font-size:10px;color:rgba(255,255,255,.55);margin-top:1px">UPSC daily analysis</p></div>
+      <div class="ohdr-acts" style="display:flex;gap:6px"><button class="oab oab-cp" onclick="cpOut('s4-pa','s4-cb')" id="s4-cb">📋 Copy</button><button class="oab" style="background:#0369A1;color:#fff;padding:6px 12px;border-radius:8px;font-size:11px;font-weight:700;cursor:pointer;border:none" onclick="dlOut('s4-pa','upsc_newspaper')">⬇ .txt</button></div></div>
+    <div class="ai-row" id="s4-air" style="padding:10px 18px;border-top:1px solid rgba(255,255,255,.1);display:flex;align-items:center;gap:7px;flex-wrap:wrap;background:rgba(0,0,0,.2)"><span class="ai-lbl" style="font-size:9px;font-weight:700;color:rgba(255,255,255,.45);text-transform:uppercase;letter-spacing:.08em;margin-right:2px">Open in →</span></div>
+    <div id="s4-stats" style="display:flex;flex-wrap:wrap;border-bottom:1px solid var(--bdr);background:var(--sf3)"></div>
+    <div class="parea" id="s4-pa"></div>
+  </div>
+  <div class="emp" id="s4-emp"><div style="font-size:46px;margin-bottom:12px">🗞️</div><h3>Newspaper prompt appears here</h3><p>Select newspapers, date and settings then generate.</p></div>
+</div>
+
+<!-- ══════ TAB 5 — SYLLABUS PROMPT ══════ -->
+<div class="tp" id="tp-t5">
+  <div class="intro-card ic-syllabus">
+    <h2>Detailed Syllabus Prompt Generator</h2>
+    <p>Generate a comprehensive, up-to-date UPSC syllabus breakdown — with topic weightages, latest question trends, high-priority areas, cut-off analysis and a structured study plan calibrated to the current exam year.</p>
+    <div class="intro-meta">
+      <div class="im-badge"><span>📅</span> Year: <span id="t5-yr">--</span></div>
+      <div class="im-badge"><span>⚖️</span> Topic weightages</div>
+      <div class="im-badge"><span>📈</span> PYQ trends</div>
+      <div class="im-badge"><span>🗓</span> Study plan</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="cs"><div class="sec-lbl">Step 1 — Exam(s)</div>
+      <div class="exam-check-grid" id="t5-exam-grid">
+        <div class="exam-chk on" data-exam="UPSC CSE (IAS/IPS/IFS)" onclick="toggleUExam(this)"><div class="echk-box">✓</div><span class="exam-chk-lbl">UPSC CSE (IAS/IPS/IFS)</span></div>
+        <div class="exam-chk" data-exam="UPSC ESE (IES/Engineering Services)" onclick="toggleUExam(this)"><div class="echk-box"></div><span class="exam-chk-lbl">ESE — Engineering Services</span></div>
+        <div class="exam-chk" data-exam="UPSC CDS" onclick="toggleUExam(this)"><div class="echk-box"></div><span class="exam-chk-lbl">CDS — Combined Defence</span></div>
+        <div class="exam-chk" data-exam="UPSC CAPF AC" onclick="toggleUExam(this)"><div class="echk-box"></div><span class="exam-chk-lbl">CAPF AC</span></div>
+        <div class="exam-chk" data-exam="NDA & NA" onclick="toggleUExam(this)"><div class="echk-box"></div><span class="exam-chk-lbl">NDA &amp; NA</span></div>
+        <div class="exam-chk" data-exam="UPSC CMS" onclick="toggleUExam(this)"><div class="echk-box"></div><span class="exam-chk-lbl">CMS — Medical Services</span></div>
+      </div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 2 — Sections</div>
+      <div class="tctrls">
+        <button class="tcc" onclick="t5All(true)">All</button>
+        <button class="tcc" onclick="t5All(false)">None</button>
+        <button class="tcc" onclick="t5Pre(['exam_struct','topic_list','weightage','priority','pattern_change'])">Overview</button>
+        <button class="tcc" onclick="t5Pre(['topic_list','weightage','priority','ncert_map','study_plan'])">Study plan</button>
+        <button class="tcc" onclick="t5All(true)">Full analysis</button>
+      </div>
+      <div class="togr" id="t5-togr"></div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 3 — Settings</div>
+      <div class="sg3">
+        <div class="fld"><label>Stage</label>
+          <select id="t5-st"><option value="both">Prelims + Mains (full journey)</option><option value="pre">Prelims only</option><option value="main">Mains only</option><option value="interview">Interview / Personality Test</option></select></div>
+        <div class="fld"><label>Detail level</label>
+          <select id="t5-dl"><option value="full">Full (topic + sub-topic + weightage)</option><option value="overview">Overview only</option><option value="priority">Priority topics only</option></select></div>
+        <div class="fld"><label>Study timeline</label>
+          <select id="t5-tl"><option value="12m">12 months (full preparation)</option><option value="6m">6 months</option><option value="3m">3 months</option><option value="1m">1 month crash course</option><option value="none">No timeline</option></select></div>
+      </div>
+    </div>
+    <div class="cs-last"><button class="gbtn gb5" onclick="t5Gen()">📋 Generate UPSC Syllabus Prompt</button></div>
+  </div>
+  <div class="ocard oc5" id="t5-oc">
+    <div class="ohdr oh5"><div class="ohdr-m"><h3 id="t5-title">UPSC Syllabus prompt</h3><p id="t5-sub">Current year analysis</p></div>
+      <div class="ohdr-acts"><button class="oab oab-cp" onclick="cpOut('t5-pa','t5-cb')" id="t5-cb">📋 Copy</button><button class="oab" style="background:#0284C7;color:#fff;padding:6px 12px;border-radius:8px;font-size:11px;font-weight:700;cursor:pointer;border:none" onclick="dlOut('t5-pa','upsc_syllabus')">⬇ .txt</button></div></div>
+    <div class="ai-row" id="t5-air"><span class="ai-lbl">Open in →</span></div>
+    <div class="ostats" id="t5-stats"></div>
+    <div class="parea" id="t5-pa"></div>
+  </div>
+  <div class="emp" id="t5-emp"><div style="font-size:46px;margin-bottom:12px">📋</div><h3>Syllabus prompt appears here</h3><p>Select exam(s) and sections then generate.</p></div>
+</div>
+
+<!-- ══════ TAB 6 — OTHER UPSC EXAMS ══════ -->
+<div class="tp" id="tp-t6">
+  <div class="intro-card ic-upsc">
+    <h2>Other UPSC Exams — ESE, CDS, CAPF, NDA, CMS</h2>
+    <p>Generate study prompts for all other major UPSC examinations — Engineering Services Exam, Combined Defence Services, CAPF AC, NDA &amp; NA, and Combined Medical Services. Separate section-wise prompts with exam-specific content.</p>
+    <div class="intro-meta">
+      <div class="im-badge"><span>⚙️</span> ESE / IES</div>
+      <div class="im-badge"><span>🎖️</span> CDS</div>
+      <div class="im-badge"><span>🛡️</span> CAPF AC</div>
+      <div class="im-badge"><span>🎯</span> NDA &amp; NA</div>
+      <div class="im-badge"><span>🩺</span> CMS</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="cs"><div class="sec-lbl">Step 1 — Exam</div>
+      <div class="spills">
+        <button class="sp sp-es" onclick="t6Subj(this,'ese')">⚙️ ESE / IES</button>
+        <button class="sp sp-es" onclick="t6Subj(this,'cds')">🎖️ CDS</button>
+        <button class="sp sp-es" onclick="t6Subj(this,'capf')">🛡️ CAPF AC</button>
+        <button class="sp sp-es" onclick="t6Subj(this,'nda')">🎯 NDA &amp; NA</button>
+        <button class="sp sp-es" onclick="t6Subj(this,'cms')">🩺 CMS</button>
+      </div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 2 — Topic / Section</div>
+      <div class="tgr" id="t6-tgr"><div class="t-empty">👆 Select an exam above</div></div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 3 — Settings</div>
+      <div class="sg2">
+        <div class="fld"><label>Depth</label>
+          <select id="t6-dp"><option value="full">Complete (beginner to advanced)</option><option value="quick">Quick revision</option><option value="adv">Advanced / exam-level only</option></select></div>
+        <div class="fld"><label>Stage</label>
+          <select id="t6-st"><option value="both">All stages (Paper 1 + Paper 2)</option><option value="p1">Paper 1 only</option><option value="p2">Paper 2 only</option><option value="ssb">SSB / Personality Test</option></select></div>
+      </div>
+    </div>
+    <div class="cs"><div class="sec-lbl">Step 4 — Sections</div>
+      <div class="tctrls">
+        <button class="tcc" onclick="t6All(true)">All</button>
+        <button class="tcc" onclick="t6All(false)">None</button>
+        <button class="tcc" onclick="t6Pre(['concept','formulas','examples','mcq','pyq','examtip'])">Standard</button>
+      </div>
+      <div class="togr" id="t6-togr"></div>
+    </div>
+    <div class="cs-last"><button class="gbtn gb6" id="t6-gbtn" onclick="t6Gen()" disabled>Select exam &amp; topic to generate prompt</button></div>
+  </div>
+  <div class="ocard oc6" id="t6-oc">
+    <div class="ohdr oh6"><div class="ohdr-m"><h3 id="t6-title">UPSC exam prompt</h3><p id="t6-sub">ESE / CDS / CAPF / NDA / CMS</p></div>
+      <div class="ohdr-acts"><button class="oab oab-cp" onclick="cpOut('t6-pa','t6-cb')" id="t6-cb">📋 Copy</button><button class="oab" style="background:var(--gold);color:var(--upsc1);padding:6px 12px;border-radius:8px;font-size:11px;font-weight:700;cursor:pointer;border:none" onclick="dlOut('t6-pa','upsc_other')">⬇ .txt</button></div></div>
+    <div class="ai-row" id="t6-air"><span class="ai-lbl">Open in →</span></div>
+    <div class="ostats" id="t6-stats"></div>
+    <div class="parea" id="t6-pa"></div>
+  </div>
+  <div class="emp" id="t6-emp"><div style="font-size:46px;margin-bottom:12px">🎯</div><h3>Exam prompt appears here</h3><p>Select exam and topic then generate.</p></div>
+</div>
+
+<!-- ══════ TAB 7 — FLASHCARDS ══════ -->
+<div class="tp" id="tp-t7">
+  <div class="intro-card">
+    <h2>🗂️ Flashcards</h2>
+    <p>Quick-fire revision cards for UPSC Prelims polity and geography. Click a card to flip it, use Next/Prev to move through the deck, and Shuffle to re-order for spaced repetition.</p>
+  </div>
+  <div class="card">
+    <div class="cs">
+      <div class="sec-lbl">Deck</div>
+      <div class="spills">
+        <button class="sp on" id="fc-deck-polity" onclick="fcLoadDeck('polity')">🏛️ Polity</button>
+        <button class="sp" id="fc-deck-geo" onclick="fcLoadDeck('geo')">🗺️ Geography</button>
+      </div>
+    </div>
+    <div class="cs" style="text-align:center">
+      <div id="fcCard" onclick="fcFlip()" style="cursor:pointer;min-height:160px;border:1.5px solid var(--bdr2,#cbd5e1);border-radius:16px;display:flex;align-items:center;justify-content:center;padding:24px;font-size:17px;font-weight:600;user-select:none">
+        Loading deck…
+      </div>
+      <div style="margin-top:6px;font-size:12px;color:var(--txt3,#64748b)" id="fcHint">Click card to flip</div>
+      <div style="display:flex;gap:10px;justify-content:center;margin-top:16px">
+        <button class="sp" onclick="fcNav(-1)">&#8592; Prev</button>
+        <button class="sp" onclick="fcShuffle()">&#x1F500; Shuffle</button>
+        <button class="sp" onclick="fcNav(1)">Next &#8594;</button>
+      </div>
+      <div style="margin-top:10px;font-size:12px;color:var(--txt3,#64748b)" id="fcProgress"></div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<!-- SOCIAL + FOOTER AD -->
+<div style="max-width:1080px;margin:0 auto;padding:0 20px">
+  <div style="background:linear-gradient(135deg,var(--upsc1),var(--upsc2));border-radius:var(--rl);padding:30px;text-align:center;position:relative;overflow:hidden;margin-bottom:20px">
+    <div style="position:absolute;inset:0;background:radial-gradient(circle at 20% 50%,rgba(217,119,6,.2),transparent 60%),radial-gradient(circle at 80% 50%,rgba(120,53,15,.15),transparent 60%)"></div>
+    <div style="position:relative">
+      <h3 style="font-size:19px;font-weight:900;color:#fff;margin-bottom:7px">Follow Raghavbegins for Daily UPSC Updates</h3>
+      <p style="font-size:13px;color:rgba(255,255,255,.5);margin-bottom:24px">Daily editorial analysis · Current affairs · Answer writing tips · Free study material</p>
+      <div style="display:flex;justify-content:center;gap:12px;flex-wrap:wrap">
+        <a href="https://www.facebook.com/Raghavbegins" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:6px;padding:16px 22px;border-radius:14px;text-decoration:none;background:#1877F2;box-shadow:0 4px 16px rgba(24,119,242,.4);transition:transform .15s" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform=''"><svg width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.268h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg><span style="font-size:12px;font-weight:800;color:#fff">Facebook</span><span style="font-size:10px;color:rgba(255,255,255,.7)">Raghavbegins</span><span style="font-size:10px;font-weight:700;padding:3px 11px;border-radius:20px;background:rgba(255,255,255,.18);color:#fff">Follow</span></a>
+        <a href="https://www.instagram.com/raghav3o" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:6px;padding:16px 22px;border-radius:14px;text-decoration:none;background:linear-gradient(135deg,#f09433,#dc2743,#bc1888);box-shadow:0 4px 16px rgba(188,24,136,.4);transition:transform .15s" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform=''"><svg width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg><span style="font-size:12px;font-weight:800;color:#fff">Instagram</span><span style="font-size:10px;color:rgba(255,255,255,.7)">@raghav3o</span><span style="font-size:10px;font-weight:700;padding:3px 11px;border-radius:20px;background:rgba(255,255,255,.18);color:#fff">Follow</span></a>
+        <a href="https://www.youtube.com/@raghav_begins" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:6px;padding:16px 22px;border-radius:14px;text-decoration:none;background:#FF0000;box-shadow:0 4px 16px rgba(255,0,0,.4);transition:transform .15s" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform=''"><svg width="26" height="18" viewBox="0 0 24 17" fill="#fff"><path d="M23.495 2.205a3.02 3.02 0 0 0-2.126-2.138C19.505 0 12 0 12 0s-7.505 0-9.369.067A3.02 3.02 0 0 0 .505 2.205 31.247 31.247 0 0 0 0 8.07a31.247 31.247 0 0 0 .505 5.865 3.02 3.02 0 0 0 2.126 2.138C4.495 16.14 12 16.14 12 16.14s7.505 0 9.369-.067a3.02 3.02 0 0 0 2.126-2.138A31.247 31.247 0 0 0 24 8.07a31.247 31.247 0 0 0-.505-5.865zM9.609 11.545V4.594l6.264 3.476-6.264 3.475z"/></svg><span style="font-size:12px;font-weight:800;color:#fff">YouTube</span><span style="font-size:10px;color:rgba(255,255,255,.7)">@raghav_begins</span><span style="font-size:10px;font-weight:700;padding:3px 11px;border-radius:20px;background:rgba(255,255,255,.18);color:#fff">Subscribe</span></a>
+      </div>
+    </div>
+  </div>
+  <div class="adslot"><div class="adslot-lbl">Advertisement</div><span class="adslot-ph">Responsive banner ad</span></div>
+</div>
+
+<footer class="ft">
+  <div class="ft-srow">
+    <a class="ftsb" style="background:linear-gradient(135deg,#6366F1,#8B5CF6);color:#fff" href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener">&#x1F468;&#x200D;&#x1F4BB; Creator Profile</a>
+    <a class="ftsb ftb-fb" href="https://www.facebook.com/Raghavbegins" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="#fff"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.268h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg> Follow Raghavbegins</a>
+    <a class="ftsb ftb-ig" href="https://www.instagram.com/raghav3o" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="#fff"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg> @raghav3o</a>
+    <a class="ftsb ftb-yt" href="https://www.youtube.com/@raghav_begins" target="_blank" rel="noopener"><svg width="17" height="12" viewBox="0 0 24 17" fill="#fff"><path d="M23.495 2.205a3.02 3.02 0 0 0-2.126-2.138C19.505 0 12 0 12 0s-7.505 0-9.369.067A3.02 3.02 0 0 0 .505 2.205 31.247 31.247 0 0 0 0 8.07a31.247 31.247 0 0 0 .505 5.865 3.02 3.02 0 0 0 2.126 2.138C4.495 16.14 12 16.14 12 16.14s7.505 0 9.369-.067a3.02 3.02 0 0 0 2.126-2.138A31.247 31.247 0 0 0 24 8.07a31.247 31.247 0 0 0-.505-5.865zM9.609 11.545V4.594l6.264 3.476-6.264 3.475z"/></svg> @raghav_begins</a>
+  </div>
+  <div class="ft-links">
+    <a class="ftlnk" href="./">&#8592; All Exams</a>
+    <a class="ftlnk" href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener" style="color:#C084FC;font-weight:700">&#x1F468;&#x200D;&#x1F4BB; Creator Profile</a>
+    <a class="ftlnk" href="bank_exam_prompt_generator.html">Banking Exams</a>
+    <a class="ftlnk" href="railway_exam_prompt_generator.html">Railway Exams</a>
+    <a class="ft-lnk" href="net_jrf_exam_prompt_generator.html">NET/JRF</a>
+    <a class="ft-lnk" href="cuet_exam_prompt_generator.html">CUET</a>
+    <a class="ft-lnk" href="insurance_exam_prompt_generator.html">Insurance</a>
+    <a class="ft-lnk" href="cacs_exam_prompt_generator.html">CA/CS/CMA</a>
+    <a class="ft-lnk" href="judiciary_exam_prompt_generator.html">Judiciary</a>
+    <a class="ft-lnk" href="agriculture_exam_prompt_generator.html">Agriculture</a>
+    <a class="ft-lnk" href="study-modules.html">Study Modules</a>
+    <a class="ft-lnk" href="trend-analysis-generator.html">Trend Analysis</a>
+    <a class="ftlnk" href="privacy-policy.html">Privacy Policy</a>
+    <a class="ftlnk" href="contact.html">Contact Us</a>
+    <button class="ftlnk" onclick="openPM()">Cookie Policy</button>
+  </div>
+  <div style="padding:8px 20px;text-align:center;border-bottom:1px solid rgba(255,255,255,.04)"><p style="font-size:11px;color:rgba(255,255,255,.35)">&#x1F4E7; <a href="mailto:raghavbegins@gmail.com" style="color:rgba(255,255,255,.5);text-decoration:none">raghavbegins@gmail.com</a> &nbsp;|&nbsp; &#x1F1EE;&#x1F1F3; India</p></div><div class="ft-bot">
+    <p><strong>UPSC Civil Services AI Prompt Generator</strong> &middot; Raghavbegins &middot; IAS &middot; ESE &middot; CDS &middot; CAPF &middot; NDA &middot; 2025-26</p>
+    <div class="cr-ln" id="cr-ln"></div>
+    <div class="ft-ad-note">This site uses Google AdSense &amp; Analytics. <a onclick="openPM()">Learn more</a></div>
+  </div>
+</footer>
+<div class="toast" id="toast"></div>
+<div class="ai-tip" id="ai-tip">Prompt copied! Press <kbd>Ctrl+V</kbd> to paste</div>
+
+<script>
+// ══ DYNAMIC YEAR ════════════════════════════════════════
+(function setYears(){
+  const now=new Date(), y=now.getFullYear(), m=now.getMonth();
+  const eBase = m>=3 ? y : y-1;
+  window.CY       = y;
+  window.EY       = eBase+'-'+String(eBase+1).slice(-2);
+  window.PYQ      = (y-6)+'-'+y;
+  window.LAT      = (y-1)+'-'+y;
+  window.NXTCYCLE = 'upcoming '+y+'-'+String(y+1).slice(-2)+' exam cycle';
+  window.CURRPAT  = String(y-1)+' and '+y+' papers';
+})();
+
+// ══ TOPIC DATA ══════════════════════════════════════════
+const UPSC_TPS = {
+  prelims_gs:[
+    ["hist_ancient","Ancient India — Prehistoric to Gupta Period"],["hist_medieval","Medieval India — Sultanate, Mughal, Vijayanagara"],
+    ["hist_modern","Modern India — British Rule, Reforms, Movements"],["hist_freedom","Freedom Struggle — 1857 to Independence"],
+    ["hist_world","World History — Industrial Revolution to Cold War"],["art_culture","Art & Culture — Architecture, Painting, Music, Dance"],
+    ["geo_physical","Physical Geography — Geomorphology, Climatology, Oceanography"],["geo_india","Indian Geography — Physical, Drainage, Climate, Soils"],
+    ["geo_economic","Economic Geography — Resources, Agriculture, Industry"],["geo_world","World Geography — Continents, Oceans, Climate Zones"],
+    ["geo_map","Map-based Questions — Mountains, Rivers, Countries"],["polity_const","Constitution — Framing, Preamble, Parts & Schedules"],
+    ["polity_fr","Fundamental Rights, DPSP, Fundamental Duties"],["polity_union","Union Executive — President, PM, Council of Ministers"],
+    ["polity_parliament","Parliament — Rajya Sabha, Lok Sabha, Legislation"],["polity_judiciary","Judiciary — Supreme Court, High Courts, Tribunals"],
+    ["polity_state","State Government & Centre-State Relations"],["polity_local","Local Government — Panchayati Raj, Urban Bodies"],
+    ["polity_misc","Constitutional Bodies — CAG, UPSC, Election Commission"],["eco_basics","Economics — GDP, GNP, Inflation, Fiscal Policy"],
+    ["eco_planning","Economic Planning — NITI Aayog, Development Indices"],["eco_agriculture","Agriculture — Cropping Patterns, Green Revolution, Issues"],
+    ["eco_industry","Industries & Infrastructure — Sectors, FDI, Industrial Policy"],["eco_banking","Banking & Finance — RBI, SEBI, Monetary Policy"],
+    ["eco_int","International Trade & Organisations — WTO, IMF, World Bank"],["env_ecology","Ecology — Ecosystems, Biodiversity, Food Chains"],
+    ["env_biodiversity","Biodiversity Conservation — Protected Areas, IUCN, Conventions"],["env_climate","Climate Change — Greenhouse Effect, Kyoto, Paris Agreement"],
+    ["env_pollution","Pollution — Types, Sources, Acts, Remedies"],["env_reports","Environment Reports & Conventions — IPCC, CBD, CITES, Ramsar"],
+    ["sci_physics","Physics — Applications, Laws, Space, Defence Tech"],["sci_chemistry","Chemistry — Elements, Reactions, Everyday Applications"],
+    ["sci_biology","Biology — Human Body, Diseases, Biotechnology, GMO"],["sci_space","Space Technology — ISRO Missions, Satellites, Launch Vehicles"],
+    ["sci_defence","Defence Technology — Missiles, Nuclear, Cyber, UAV"],["sci_it","IT & Computer — Internet, AI, Cybersecurity, Blockchain"],
+    ["ca_national","Current Affairs — National (Last 12 months)"],["ca_international","Current Affairs — International & IR"],
+    ["ca_govt_schemes","Government Schemes & Programmes — Ministry-wise"],["ca_awards","Awards, Summits, Appointments & Indices"],["ca_sports","Sports & Games"],
+  ],
+  prelims_csat:[
+    ["csat_rc","Reading Comprehension — Passage Types, Inference, Tone"],
+    ["csat_reasoning","Logical Reasoning — Series, Analogy, Coding, Directions"],
+    ["csat_maths","Basic Mathematics — Number System, Ratio, %, Profit & Loss"],
+    ["csat_ds","Data Interpretation — Tables, Graphs, Charts"],
+    ["csat_dm","Decision Making & Problem Solving"],
+    ["csat_english","English Comprehension — Grammar, Usage, Sentence Structure"],
+  ],
+  gs1:[
+    ["m1_culture","Indian Culture — Art Forms, Literature, Architecture through Ages"],
+    ["m1_modern_hist","Modern Indian History — 1757 to 1947 in depth"],
+    ["m1_freedom","Freedom Struggle — Phases, Leaders, Movements, Ideologies"],
+    ["m1_post_ind","Post-Independence India — Integration, Reorganisation, Development"],
+    ["m1_world","World History — Industrial Rev, World Wars, Colonisation, Decolonisation"],
+    ["m1_women","Women in Indian Society — Role, Reform, Empowerment"],
+    ["m1_geo_phys","Physical Geography — Geomorphology, Glaciers, Tectonic Events"],
+    ["m1_geo_climate","Climate — Monsoon, ENSO, Indian Climate, Cyclones"],
+    ["m1_geo_water","Water Resources — Rivers, Dams, Groundwater, Glacial Melt"],
+    ["m1_geo_disaster","Natural Disasters — Earthquakes, Floods, Droughts, Mitigation"],
+    ["m1_geo_human","Human Geography — Population, Migration, Urbanisation, SHGs"],
+    ["m1_geo_distribution","Distribution of Resources — Minerals, Energy, Soils, Agriculture"],
+  ],
+  gs2:[
+    ["m2_const","Constitution — Key Articles, Amendments, Evolution"],
+    ["m2_parliament","Parliament & State Legislature — Functioning, Bills, Committees"],
+    ["m2_exec","Executive — President, PM, Cabinet, Bureaucracy, ADR"],
+    ["m2_judiciary","Judiciary — Independence, PIL, Judicial Review, Reforms"],
+    ["m2_federalism","Federalism — Centre-State Relations, Finance Commission, Disputes"],
+    ["m2_governance","Governance — E-governance, Good Governance, Transparency, RTI"],
+    ["m2_civil_services","Civil Services — Roles, Challenges, Reforms, Lateral Entry"],
+    ["m2_social","Social Justice — Vulnerable Sections, SCs/STs, Women, Children, Elderly"],
+    ["m2_welfare","Welfare Schemes — Education, Health, Housing, Poverty"],
+    ["m2_health","Health Issues — Nutrition, Immunisation, Mental Health, UHC, AYUSH"],
+    ["m2_education","Education — Quality, Access, Policy, NEP 2020, Higher Education"],
+    ["m2_ir","International Relations — India's Foreign Policy, Strategic Interests"],
+    ["m2_bilateral","Bilateral Relations — USA, China, Russia, EU, ASEAN, Middle East"],
+    ["m2_org","International Organisations — UN, SAARC, BRICS, G20, SCO, QUAD"],
+    ["m2_ir_issues","Global Issues — Terrorism, Climate, Refugee Crisis, Nuclear Non-Proliferation"],
+  ],
+  gs3:[
+    ["m3_eco_india","Indian Economy — Growth, Development, Employment, Inclusive Growth"],
+    ["m3_planning","Economic Planning — NITI Aayog, SDGs, Aspirational Districts"],
+    ["m3_agriculture","Agriculture — Reforms, MSP, Irrigation, Organic Farming, Food Security"],
+    ["m3_land","Land Reforms — Tenancy, Acquisition, Rural Livelihoods, Tribal Displacement"],
+    ["m3_industry","Industry & Infrastructure — Make in India, PLI, Industrial Corridors"],
+    ["m3_investment","Investment — FDI, FII, Public vs Private Investment, PPP"],
+    ["m3_budget","Budget & Fiscal Policy — Deficit, FRBM, Subsidies, Tax Reform"],
+    ["m3_banking","Banking — NPAs, Recapitalisation, Digital Banking, Financial Inclusion"],
+    ["m3_trade","Trade — Import/Export Policy, Trade Deficit, GATT/WTO, FTAs"],
+    ["m3_science","Science & Technology — R&D, IPR, Technology Missions, Innovation"],
+    ["m3_space","Space Technology — ISRO Missions, Commercial Space, GSLV, Gaganyaan"],
+    ["m3_bio","Biotechnology — GMOs, Gene Editing (CRISPR), Pharma, Biosafety"],
+    ["m3_energy","Energy — Renewable, Nuclear, Energy Security, Net Zero, Green Hydrogen"],
+    ["m3_environment","Environment — Pollution Control, Biodiversity, Environmental Laws"],
+    ["m3_disaster","Disaster Management — NDMA, Sendai Framework, Case Studies"],
+    ["m3_security","Internal Security — Terrorism, Naxalism, Insurgency, Cyber Threats"],
+    ["m3_border","Border Management — India's Borders, Cross-border Terrorism, Infiltration"],
+    ["m3_defence","Defence — Armed Forces, Defence Production, Modernisation, DRDO"],
+  ],
+  gs4:[
+    ["m4_ethics","Ethics — Essence, Determinants, Consequences, Ethical Theories"],
+    ["m4_attitude","Attitude — Formation, Functions, Prejudice, Emotional Intelligence"],
+    ["m4_civil_ethics","Ethics in Civil Services — Integrity, Dedication, Accountability, Impartiality"],
+    ["m4_values","Values & Moral Thinkers — Gandhian Values, Sarvodaya, Western Thinkers"],
+    ["m4_aptitude","Aptitude & Foundational Values — Service, Compassion, Tolerance, Objectivity"],
+    ["m4_emotional","Emotional Intelligence — Concepts, Utilities, Applications in Administration"],
+    ["m4_governance","Ethics in Governance — Corruption, Probity, Whistleblowing, RTI"],
+    ["m4_public_admin","Ethics in Public Admin — Citizen Charter, Code of Conduct, Accountability"],
+    ["m4_case_study","Case Studies — Analysis Framework, Stakeholder Approach, GS4 Qs"],
+    ["m4_dilemma","Ethical Dilemmas — Types, Resolution Approaches, Civil Service Context"],
+  ],
+  essay:[
+    ["essay_philosophical","Philosophical Essays — Abstract Concepts, Values, Society"],
+    ["essay_social","Social Issues — Gender, Poverty, Education, Public Health"],
+    ["essay_economic","Economic Essays — Development, Globalisation, Technology & Society"],
+    ["essay_political","Political Essays — Democracy, Governance, Federalism, Participation"],
+    ["essay_international","International Affairs — Global Order, Climate Justice, Security"],
+    ["essay_environment","Environmental Essays — Climate Change, Sustainability, Anthropocene"],
+    ["essay_culture","Cultural Essays — Heritage, Tradition vs Modernity, Diversity"],
+    ["essay_structure","Essay Writing Structure — Introduction, Body, Conclusion techniques"],
+    ["essay_quotes","Effective Use of Quotes, Examples, Statistics and Data in Essays"],
+  ],
+  optional:[
+    ["opt_history","History"],["opt_geography","Geography"],["opt_polsci","Political Science & IR"],
+    ["opt_sociology","Sociology"],["opt_public_admin","Public Administration"],["opt_economics","Economics"],
+    ["opt_philosophy","Philosophy"],["opt_psychology","Psychology"],["opt_anthropology","Anthropology"],
+    ["opt_law","Law"],["opt_hindi","Hindi Literature"],["opt_english","English Literature"],
+    ["opt_maths","Mathematics"],["opt_physics","Physics"],["opt_chemistry","Chemistry"],
+    ["opt_zoology","Zoology"],["opt_botany","Botany"],["opt_medical","Medical Science"],
+    ["opt_civil_eng","Civil Engineering"],["opt_electrical","Electrical Engineering"],
+    ["opt_mechanical","Mechanical Engineering"],["opt_agriculture","Agriculture"],
+    ["opt_management","Management"],["opt_commerce","Commerce & Accountancy"],
+  ]
+};
+
+const AW_TPS = {
+  aw:[
+    ["aw_structure","Answer Structure — Introduction, Body, Conclusion techniques"],
+    ["aw_dimensions","Multidimensional Approach — Political, Social, Economic, Ethical, Legal"],
+    ["aw_diagrams","Diagrams, Flowcharts, Maps & Tables in Answers"],
+    ["aw_current","Integrating Current Affairs & Examples in Answers"],
+    ["aw_case_study","Case Study Methodology — Ethics Paper approach"],
+    ["aw_10m","10-mark Question Writing (150 words) — Best practices"],
+    ["aw_15m","15-mark Question Writing (250 words) — Framework & practice"],
+    ["aw_directional","Directive Words — Analyse, Examine, Evaluate, Critically analyse, Discuss"],
+    ["aw_intro_types","Types of Introductions — Quote, Data, Context, Anecdote"],
+    ["aw_conclusion","Effective Conclusion Writing — Way-forward approach"],
+  ],
+  interview:[
+    ["interview_prep","UPSC Interview — Board structure, Process, Marking"],
+    ["interview_q","Commonly Asked Questions — Motivation, Strengths, Weaknesses"],
+    ["daf_q","DAF-based Questions — Hobbies, Native Place, Academic Background"],
+    ["current_q","Current Affairs in Interview — Recent events, Govt. policy"],
+    ["board_types","Different Board Types — Handling Stress, Tricky, Philosophical Qs"],
+    ["self_intro","Self Introduction & 'Tell me about yourself' — Perfect answer"],
+    ["stress_q","Stress Questions & How to Handle — Stay calm strategies"],
+    ["optional_qs","Optional Subject Questions — Depth & Cross-linkage"],
+    ["hobby_qs","Hobby & Extracurricular Questions — How to answer smartly"],
+  ],
+  essay_writing:[
+    ["essay_approach","Essay Approach — Understanding the theme, brainstorming"],
+    ["essay_intro","Essay Introduction — Types and techniques (Quote, Story, Question)"],
+    ["essay_body","Essay Body — Structuring arguments, transitions, depth"],
+    ["essay_conclusion","Essay Conclusion — Optimistic, forward-looking, impactful"],
+    ["essay_time","Essay Time Management — 90 minutes strategy for 2 essays"],
+    ["essay_language","Language & Vocabulary — Appropriate tone, avoiding jargon"],
+    ["essay_examples","Examples & Case Studies in Essays — How to use effectively"],
+    ["essay_practice","Essay Practice Topics — Trending themes for current year"],
+  ]
+};
+
+const OTHER_EXAMS_TPS = {
+  ese:[
+    ["ese_prelims_gk","ESE Prelims — General Studies & Engineering Aptitude"],
+    ["ese_civil","Civil Engineering — Structural Engineering, Geotechnical, Transportation"],
+    ["ese_mech","Mechanical Engineering — Thermodynamics, Fluid Mechanics, Manufacturing"],
+    ["ese_elec","Electrical Engineering — Power Systems, Machines, Control Systems"],
+    ["ese_electronics","Electronics & Telecommunication — Signals, Networks, VLSI"],
+    ["ese_strategy","ESE Strategy — Prelims to Personality Test"],
+  ],
+  cds:[
+    ["cds_english","CDS English — Comprehension, Grammar, Vocabulary"],
+    ["cds_gk","CDS General Knowledge — History, Polity, Geography, Science"],
+    ["cds_maths","CDS Mathematics — Arithmetic, Algebra, Geometry, Trigonometry"],
+    ["cds_ssb","SSB Interview — Intelligence Tests, Psych Tests, Group Testing, Conference"],
+    ["cds_strategy","CDS Strategy — IMA, INA, AFA, OTA selection process"],
+  ],
+  capf:[
+    ["capf_gk","CAPF Paper 1 — GS, Mental Ability, Comprehension"],
+    ["capf_essay","CAPF Paper 2 — Essay, Comprehension, Précis Writing"],
+    ["capf_physical","CAPF Physical & Medical Standards"],
+    ["capf_strategy","CAPF Strategy — CRPF, BSF, CISF, ITBP, SSF, AR"],
+  ],
+  nda:[
+    ["nda_maths","NDA Mathematics — Algebra, Trigonometry, Differential Calculus, Statistics"],
+    ["nda_gat","NDA General Ability Test — English + General Knowledge"],
+    ["nda_physics","NDA Physics — Mechanics, Optics, Waves, Electricity, Magnetism"],
+    ["nda_chemistry","NDA Chemistry — Physical, Organic, Inorganic"],
+    ["nda_ssb","NDA SSB — Screening Test, Psych Tests, GTO, Conference"],
+    ["nda_strategy","NDA Strategy — Army/Navy/Air Force — Eligibility to Selection"],
+  ],
+  cms:[
+    ["cms_paper1","CMS Paper 1 — General Medicine + Paediatrics"],
+    ["cms_paper2","CMS Paper 2 — Surgery + Gynaecology & Obstetrics + Preventive Medicine"],
+    ["cms_strategy","CMS Strategy — CGHS, Railways, MCD Doctors recruitment process"],
+  ]
+};
+
+const UPSC_NPS=[
+  {id:"hindu",nm:"The Hindu",sb:"Editorial / Opinion",url:"https://www.thehindu.com/opinion/editorial/",ic:"🔵"},
+  {id:"ie",nm:"Indian Express",sb:"Editorials / Opinion",url:"https://indianexpress.com/section/opinion/editorials/",ic:"🟠"},
+  {id:"pib",nm:"PIB Govt. News",sb:"Schemes & Policy",url:"https://pib.gov.in/newsite/PrintRelease.aspx",ic:"🇮🇳"},
+  {id:"prs",nm:"PRS Legislative",sb:"Bills & Legislation",url:"https://prsindia.org/",ic:"🏛️"},
+  {id:"livemint",nm:"Livemint / Mint",sb:"Economy & Markets",url:"https://www.livemint.com/opinion",ic:"🔴"},
+  {id:"bs",nm:"Business Standard",sb:"Economy & Policy",url:"https://www.business-standard.com/opinion/editorial",ic:"🟤"},
+  {id:"dwnews",nm:"Down to Earth",sb:"Environment & Science",url:"https://www.downtoearth.org.in/news",ic:"🌍"},
+  {id:"econ_survey",nm:"Economic Survey / Budget",sb:"Economic Data",url:"https://www.indiabudget.gov.in/",ic:"📊"},
+];
+const UPSC_COLS=[
+  {id:"editorial",lb:"Editorial"},{id:"govt_policy",lb:"Govt. Policy"},{id:"economy",lb:"Economy & Finance"},
+  {id:"ir",lb:"International Relations"},{id:"environment",lb:"Environment & Science"},{id:"social",lb:"Social Issues"},
+  {id:"security",lb:"Security & Defence"},{id:"science_tech",lb:"Science & Technology"},{id:"reports",lb:"Reports & Indices"},
+];
+
+const S4S_UPSC=[
+  {k:"summary",ic:"📌",lb:"Topic summary"},
+  {k:"vocab",ic:"📚",lb:"Vocabulary (IPA + Hindi)"},
+  {k:"synonyms",ic:"🔄",lb:"Synonyms & antonyms"},
+  {k:"prelims_link",ic:"🎯",lb:"Prelims MCQ angle"},
+  {k:"mains_link",ic:"✍️",lb:"Mains answer angle"},
+  {k:"gs_linkage",ic:"🔗",lb:"GS Paper linkage (1/2/3/4)"},
+  {k:"critical_analysis",ic:"🔬",lb:"Critical analysis points"},
+  {k:"answer_template",ic:"📝",lb:"Model answer template"},
+  {k:"current_link",ic:"⚡",lb:"Current affairs linkage"},
+  {k:"hindi_summary",ic:"📜",lb:"Hindi summary"},
+];
+
+const T1_SECS=[
+  {k:"concept",ic:"💡",lb:"Core concept explanation"},
+  {k:"mindmap",ic:"🗺️",lb:"Mind map / visual notes"},
+  {k:"timeline",ic:"📅",lb:"Timeline (for History)"},
+  {k:"maps",ic:"🗺️",lb:"Map-based notes"},
+  {k:"facts",ic:"📊",lb:"Key facts & figures"},
+  {k:"memory",ic:"🧠",lb:"Memory tricks & mnemonics"},
+  {k:"mcq",ic:"🎯",lb:"MCQ bank (25 Qs)"},
+  {k:"pyq",ic:"🔁",lb:"PYQ analysis ('+PYQ+')"},
+  {k:"probable",ic:"📈",lb:"Probable Qs for '+CY+'"},
+  {k:"mistakes",ic:"⚠️",lb:"Common mistakes"},
+  {k:"current",ic:"⚡",lb:"Current affairs linkage"},
+  {k:"mains_link",ic:"✍️",lb:"Prelims → Mains linkage"},
+  {k:"examtip",ic:"🏆",lb:"Exam-day strategy"},
+];
+
+const T2_SECS=[
+  {k:"overview",ic:"💡",lb:"Conceptual overview"},
+  {k:"dimensions",ic:"🔄",lb:"Multidimensional approach"},
+  {k:"current",ic:"⚡",lb:"Current affairs linkage"},
+  {k:"case_studies",ic:"📋",lb:"Case studies & examples"},
+  {k:"govt_initiatives",ic:"🏛️",lb:"Govt. initiatives & schemes"},
+  {k:"critical_issues",ic:"🔬",lb:"Critical issues & challenges"},
+  {k:"way_forward",ic:"🔮",lb:"Way forward / solutions"},
+  {k:"data_stats",ic:"📊",lb:"Data, statistics & reports"},
+  {k:"model_ans",ic:"✍️",lb:"Model answer (both word limits)"},
+  {k:"examiner_comments",ic:"💬",lb:"Examiner comments on answer"},
+  {k:"pyq_mains",ic:"🔁",lb:"PYQ Mains analysis"},
+  {k:"probable",ic:"📈",lb:"Probable Qs '+CY+' Mains"},
+  {k:"examtip",ic:"🏆",lb:"Mains strategy for this topic"},
+];
+
+const T3_SECS=[
+  {k:"structure",ic:"📐",lb:"Answer structure framework"},
+  {k:"dimensions",ic:"🔄",lb:"Dimensions to cover"},
+  {k:"intro_types",ic:"🎭",lb:"Introduction types & examples"},
+  {k:"conclusion_types",ic:"🎯",lb:"Conclusion styles"},
+  {k:"model_ans",ic:"✍️",lb:"Model answers (10m + 15m)"},
+  {k:"common_errors",ic:"⚠️",lb:"Common answer writing errors"},
+  {k:"interview_q",ic:"🎤",lb:"Common interview questions"},
+  {k:"daf_q",ic:"📋",lb:"DAF-based questions"},
+  {k:"current_q",ic:"⚡",lb:"Current affairs Qs for interview"},
+  {k:"board_types",ic:"👥",lb:"Board types & handling"},
+  {k:"self_intro",ic:"🙋",lb:"Self introduction structure"},
+  {k:"stress_q",ic:"😰",lb:"Stress question handling"},
+  {k:"directional_words",ic:"📖",lb:"Directive words analysis"},
+];
+
+const T5_SECS=[
+  {k:"exam_struct",ic:"📊",lb:"Exam structure & stages"},
+  {k:"topic_list",ic:"📚",lb:"Complete topic list"},
+  {k:"weightage",ic:"⚖️",lb:"Topic weightage (%)"},
+  {k:"subtopics",ic:"🔖",lb:"Sub-topics per chapter"},
+  {k:"priority",ic:"🎯",lb:"High-priority topics"},
+  {k:"pattern_change",ic:"🔄",lb:"Latest pattern changes"},
+  {k:"pyq_trend",ic:"📈",lb:"PYQ trend analysis"},
+  {k:"expected_qs",ic:"🔢",lb:"Expected question count"},
+  {k:"ncert_map",ic:"📗",lb:"NCERT & source mapping"},
+  {k:"cut_off",ic:"📉",lb:"Cut-off trend analysis"},
+  {k:"optional_guide",ic:"📚",lb:"Optional subject selection guide"},
+  {k:"study_plan",ic:"🗓",lb:"Topic-wise study plan"},
+  {k:"mock_strategy",ic:"🧪",lb:"Mock & test series strategy"},
+  {k:"comparison",ic:"🆚",lb:"Exam comparison table"},
+];
+
+const T6_SECS=[
+  {k:"concept",ic:"💡",lb:"Core concept / theory"},
+  {k:"formulas",ic:"📐",lb:"Formulas & equations"},
+  {k:"examples",ic:"✅",lb:"Solved examples"},
+  {k:"mcq",ic:"🎯",lb:"MCQ bank (20 Qs)"},
+  {k:"pyq",ic:"🔁",lb:"PYQ analysis"},
+  {k:"examtip",ic:"🏆",lb:"Exam strategy"},
+  {k:"ssb_guide",ic:"🎖️",lb:"SSB / Interview guidance"},
+  {k:"syllabus_map",ic:"📋",lb:"Syllabus mapping"},
+  {k:"study_plan",ic:"🗓",lb:"Study plan"},
+];
+
+const AI_PL=[
+  {nm:"Claude",url:"https://claude.ai/new",cls:"ai-claude",ic:"🤖"},
+  {nm:"ChatGPT",url:"https://chat.openai.com/",cls:"ai-gpt",ic:"💬"},
+  {nm:"Gemini",url:"https://gemini.google.com/",cls:"ai-gem",ic:"✨"},
+  {nm:"Perplexity",url:"https://www.perplexity.ai/",cls:"ai-pp",ic:"🔍"},
+  {nm:"Copilot",url:"https://copilot.microsoft.com/",cls:"ai-ms",ic:"🪟"},
+  {nm:"Meta AI",url:"https://www.meta.ai/",cls:"ai-meta",ic:"🌐"},
+];
+
+// ══ STATE ═══════════════════════════════════════════════
+let t1Sj=null,t1Kk=null,t1Lb=null,t1Cls=null;
+let t2Sj=null,t2Kk=null,t2Lb=null,t2Cls=null;
+let t3Sj=null,t3Kk=null,t3Lb=null;
+let t6Sj=null,t6Kk=null,t6Lb=null;
+let vN=8,qN=10;
+
+// ══ INIT ════════════════════════════════════════════════
+function todayISO(){return new Date().toISOString().split('T')[0]}
+function fmtDt(iso){try{const d=new Date(iso+'T00:00:00');return d.toLocaleDateString('en-IN',{weekday:'long',year:'numeric',month:'long',day:'numeric'})}catch(e){return iso}}
+
+(function init(){
+  const y=window.CY||new Date().getFullYear();
+  ['t1-yr','t5-yr'].forEach(id=>{const el=document.getElementById(id);if(el)el.textContent=y;});
+  document.getElementById('s4-dt').value=todayISO();
+  document.getElementById('t1-togr').innerHTML=T1_SECS.map(s=>`<div class="togi on" data-k="${s.k}" onclick="this.classList.toggle('on')"><div class="tsw"></div><span class="tic">${s.ic}</span><span class="tgl">${s.lb}</span></div>`).join('');
+  document.getElementById('t2-togr').innerHTML=T2_SECS.map(s=>`<div class="togi on-g" data-k="${s.k}" onclick="this.classList.toggle('on-g')"><div class="tsw"></div><span class="tic">${s.ic}</span><span class="tgl">${s.lb}</span></div>`).join('');
+  document.getElementById('t3-togr').innerHTML=T3_SECS.map(s=>`<div class="togi on-r" data-k="${s.k}" onclick="this.classList.toggle('on-r')"><div class="tsw"></div><span class="tic">${s.ic}</span><span class="tgl">${s.lb}</span></div>`).join('');
+  document.getElementById('s4-togr').innerHTML=S4S_UPSC.map(s=>`<div class="togi on-b" data-k="${s.k}" onclick="this.classList.toggle('on-b')"><div class="tsw"></div><span class="tic">${s.ic}</span><span class="tgl">${s.lb}</span></div>`).join('');
+  document.getElementById('t5-togr').innerHTML=T5_SECS.map(s=>`<div class="togi on-t" data-k="${s.k}" onclick="this.classList.toggle('on-t')"><div class="tsw"></div><span class="tic">${s.ic}</span><span class="tgl">${s.lb}</span></div>`).join('');
+  document.getElementById('t6-togr').innerHTML=T6_SECS.map(s=>`<div class="togi on-v" data-k="${s.k}" onclick="this.classList.toggle('on-v')"><div class="tsw"></div><span class="tic">${s.ic}</span><span class="tgl">${s.lb}</span></div>`).join('');
+  document.getElementById('np-gr').innerHTML=UPSC_NPS.map((n,i)=>`<div class="npi${i<2?' chk':''}" data-id="${n.id}" onclick="this.classList.toggle('chk');this.querySelector('.npchk').textContent=this.classList.contains('chk')?'✓':''"><div class="npchk">${i<2?'✓':''}</div><div><div class="npi-nm">${n.ic} ${n.nm}</div><div class="npi-sb">${n.sb}</div></div></div>`).join('');
+  document.getElementById('col-gr').innerHTML=UPSC_COLS.map(c=>`<button class="cch${['editorial','govt_policy','ir','environment'].includes(c.id)?' on':''}" data-id="${c.id}" onclick="this.classList.toggle('on')">${c.lb}</button>`).join('');
+  try{document.getElementById('cr-ln').textContent=atob('wqkgMjAyNeKAkzIwMjYgUmFnaGF2YmVnaW5zLiBBbGwgcmlnaHRzIHJlc2VydmVkLg==')}catch(e){}
+  if(localStorage.getItem('rb_ck_upsc')) document.getElementById('ckbar').classList.add('gone');
+})();
+
+// ══ UTILS ═══════════════════════════════════════════════
+function swTab(id,btn){document.querySelectorAll('.tp').forEach(p=>p.classList.remove('act'));document.querySelectorAll('.tnb').forEach(b=>b.classList.remove('act'));document.getElementById('tp-'+id).classList.add('act');btn.classList.add('act');window.scrollTo({top:0,behavior:'smooth'});try{localStorage.setItem('upsc_lasttab',id);}catch(e){}}
+
+/* ── Exam window widget ──
+   UPSC CSE 2026 Prelims (24 May) and Mains (21-30 Aug) have already
+   concluded as of this update. The 2027 cycle's exact dates are not yet
+   confirmed (notification typically ~Feb, Prelims typically ~May) —
+   shown as an estimate rather than a fabricated exact date. Replace with
+   a real countdown once UPSC confirms the 2027 notification. */
+(function examWindow(){
+  var WINDOWS = [
+    { name: "UPSC CSE 2027 Prelims", window: "Expected ~May 2027 (notification ~Feb 2027)" }
+  ];
+  var strip = document.getElementById('examCountdownStrip');
+  if(!strip) return;
+  strip.innerHTML = WINDOWS.map(function(w){
+    return '<a href="https://upsc.gov.in" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;background:rgba(255,255,255,.12);border-radius:8px;padding:4px 10px;display:inline-flex;gap:6px;align-items:center">' +
+             '<strong>' + w.name + ':</strong> ' + w.window + ' &rarr;' +
+           '</a>';
+  }).join('');
+})();
+
+/* ── Continue where you left off ── */
+(function restoreLastTab(){
+  try{
+    var last = localStorage.getItem('upsc_lasttab');
+    if(!last) return;
+    var btn = document.querySelector('.tnb[onclick*="\''+last+'\'"]');
+    var panel = document.getElementById('tp-'+last);
+    if(btn && panel){
+      document.querySelectorAll('.tp').forEach(function(p){p.classList.remove('act');});
+      document.querySelectorAll('.tnb').forEach(function(b){b.classList.remove('act');});
+      panel.classList.add('act');
+      btn.classList.add('act');
+    }
+  }catch(e){}
+})();
+
+/* ── Study streak tracker ── */
+(function studyStreak(){
+  try{
+    var todayStr = new Date().toDateString();
+    var lastVisit = localStorage.getItem('upsc_lastvisit');
+    var streak = parseInt(localStorage.getItem('upsc_streak') || '0', 10);
+    if(lastVisit !== todayStr){
+      var yesterday = new Date();
+      yesterday.setDate(yesterday.getDate() - 1);
+      streak = (lastVisit === yesterday.toDateString()) ? streak + 1 : 1;
+      localStorage.setItem('upsc_streak', String(streak));
+      localStorage.setItem('upsc_lastvisit', todayStr);
+    }
+    var el = document.getElementById('streakBadge');
+    if(el){ el.textContent = '\uD83D\uDD25 ' + streak + '-day streak'; el.style.display = ''; }
+  }catch(e){}
+})();
+
+/* ── Flashcards ── */
+var FC_DECKS = {
+  polity: [
+    { f: "Which Article of the Constitution deals with the Right to Constitutional Remedies?", b: "Article 32" },
+    { f: "How many Fundamental Duties are listed in the Constitution?", b: "11 (added by the 42nd and 86th Amendments)" },
+    { f: "Which Schedule of the Constitution deals with anti-defection?", b: "The Tenth Schedule" },
+    { f: "Who appoints the Chief Justice of India?", b: "The President of India" },
+    { f: "Which constitutional body conducts elections in India?", b: "The Election Commission of India" },
+    { f: "What is the minimum age to become a member of the Rajya Sabha?", b: "30 years" },
+    { f: "Which Article empowers the President to declare a National Emergency?", b: "Article 352" },
+    { f: "Who is the ex-officio Chairman of the Rajya Sabha?", b: "The Vice-President of India" }
+  ],
+  geo: [
+    { f: "Which is the longest mountain range in India?", b: "The Himalayas" },
+    { f: "Which river is known as the 'Sorrow of Bihar'?", b: "The Kosi River" },
+    { f: "Which is the largest coal-producing state in India?", b: "Jharkhand" },
+    { f: "What type of soil is best suited for cotton cultivation?", b: "Black soil (regur soil)" },
+    { f: "Which strait separates India from Sri Lanka?", b: "The Palk Strait" },
+    { f: "Which is the highest peak in India (excluding disputed territories)?", b: "Kangchenjunga" },
+    { f: "Which winds bring most of India's monsoon rainfall?", b: "The Southwest Monsoon winds" }
+  ]
+};
+var fcState = { deck: 'polity', idx: 0, flipped: false, order: [] };
+function fcLoadDeck(name){
+  fcState.deck = name;
+  fcState.order = FC_DECKS[name].map(function(_, i){ return i; });
+  fcState.idx = 0;
+  fcState.flipped = false;
+  document.getElementById('fc-deck-polity').classList.toggle('on', name === 'polity');
+  document.getElementById('fc-deck-geo').classList.toggle('on', name === 'geo');
+  fcRender();
+}
+function fcRender(){
+  var deck = FC_DECKS[fcState.deck];
+  var card = deck[fcState.order[fcState.idx]];
+  var el = document.getElementById('fcCard');
+  el.textContent = fcState.flipped ? card.b : card.f;
+  document.getElementById('fcHint').textContent = fcState.flipped ? 'Click to see question again' : 'Click card to flip';
+  document.getElementById('fcProgress').textContent = (fcState.idx + 1) + ' / ' + deck.length;
+}
+function fcFlip(){ fcState.flipped = !fcState.flipped; fcRender(); }
+function fcNav(dir){
+  var deck = FC_DECKS[fcState.deck];
+  fcState.idx = (fcState.idx + dir + deck.length) % deck.length;
+  fcState.flipped = false;
+  fcRender();
+}
+function fcShuffle(){
+  for(var i = fcState.order.length - 1; i > 0; i--){
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = fcState.order[i]; fcState.order[i] = fcState.order[j]; fcState.order[j] = tmp;
+  }
+  fcState.idx = 0;
+  fcState.flipped = false;
+  fcRender();
+}
+document.addEventListener('DOMContentLoaded', function(){ fcLoadDeck('polity'); });
+function buildAIRow(rid,pid){const r=document.getElementById(rid);r.innerHTML='<span class="ai-lbl">Open in →</span>'+AI_PL.map(a=>`<button class="ai-btn ${a.cls}" onclick="launchAI('${a.url}','${pid}')">${a.ic} ${a.nm}</button>`).join('');}
+function fallbackCopy(t){try{const ta=document.createElement('textarea');ta.value=t;ta.style.cssText='position:fixed;top:-9999px;opacity:0';document.body.appendChild(ta);ta.focus();ta.select();document.execCommand('copy');document.body.removeChild(ta);}catch(e){}}
+function launchAI(url,pid){const t=document.getElementById(pid).textContent;if(!t||!t.trim()){showToast('Generate a prompt first');return;}const open=()=>{const tip=document.getElementById('ai-tip');tip.classList.add('show');setTimeout(()=>tip.classList.remove('show'),3500);setTimeout(()=>window.open(url,'_blank'),400);};if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(t).then(open).catch(()=>{fallbackCopy(t);open();});}else{fallbackCopy(t);open();}if(typeof gtag!=='undefined')gtag('event','ai_launch',{event_category:'upsc',event_label:url.split('/')[2]});}
+function cpOut(pid,bid){const t=document.getElementById(pid).textContent;const b=document.getElementById(bid);if(!t||!t.trim()){showToast('Nothing to copy — generate a prompt first');return;}if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(t).then(()=>{b.textContent='✅ Copied!';showToast('Prompt copied!');setTimeout(()=>b.textContent='📋 Copy',2500);}).catch(()=>{fallbackCopy(t);b.textContent='✅ Copied!';setTimeout(()=>b.textContent='📋 Copy',2500);});}else{fallbackCopy(t);b.textContent='✅ Copied!';showToast('Prompt copied!');setTimeout(()=>b.textContent='📋 Copy',2500);}}
+function dlOut(pid,pfx){const t=document.getElementById(pid).textContent;if(!t||!t.trim()){showToast('Nothing to download');return;}try{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([t],{type:'text/plain;charset=utf-8'}));a.download=pfx+'_prompt_'+Date.now()+'.txt';document.body.appendChild(a);a.click();document.body.removeChild(a);setTimeout(()=>URL.revokeObjectURL(a.href),1000);showToast('Downloaded!');if(typeof gtag!=='undefined')gtag('event','download',{event_category:'upsc',event_label:pfx});}catch(e){showToast('Download failed: '+e.message);}}
+function showToast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3200);}
+function ckOk(){localStorage.setItem('rb_ck_upsc','a');document.getElementById('ckbar').classList.add('gone');showToast('Cookies accepted!');}
+function ckNo(){localStorage.setItem('rb_ck_upsc','e');document.getElementById('ckbar').classList.add('gone');}
+function openPM(){document.getElementById('pmov').classList.add('open');document.body.style.overflow='hidden';}
+function closePM(){document.getElementById('pmov').classList.remove('open');document.body.style.overflow='';}
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){document.getElementById('pmov').classList.remove('open');document.getElementById('sov').classList.remove('open');document.body.style.overflow='';}});
+function sv(d){vN=Math.max(5,Math.min(15,vN+d));document.getElementById('v-n').textContent=vN;}
+function sq(d){qN=Math.max(5,Math.min(20,qN+d));document.getElementById('q-n').textContent=qN;}
+function toggleUExam(el){el.classList.toggle('on');const b=el.querySelector('.echk-box');b.textContent=el.classList.contains('on')?'✓':'';}
+function s4All(on){document.querySelectorAll('#s4-togr .togi').forEach(t=>{on?t.classList.add('on-b'):t.classList.remove('on-b')});}
+function s4P(ks){document.querySelectorAll('#s4-togr .togi').forEach(t=>{ks.includes(t.dataset.k)?t.classList.add('on-b'):t.classList.remove('on-b')});}
+function t5All(on){document.querySelectorAll('#t5-togr .togi').forEach(t=>{on?t.classList.add('on-t'):t.classList.remove('on-t')});}
+function t5Pre(ks){document.querySelectorAll('#t5-togr .togi').forEach(t=>{ks.includes(t.dataset.k)?t.classList.add('on-t'):t.classList.remove('on-t')});}
+
+// ══ SEARCH ══════════════════════════════════════════════
+function doSearch(){const q=(document.getElementById('srch-in').value||'').trim();if(!q){showToast('Enter a topic to search');return;}const enc=encodeURIComponent('UPSC '+q);const res=[{ic:'🔍',h:'Google Search',p:'All UPSC resources',url:'https://www.google.com/search?q='+enc},{ic:'📺',h:'YouTube Videos',p:'Free lectures',url:'https://www.youtube.com/results?search_query='+encodeURIComponent('UPSC '+q)},{ic:'🗞️',h:'The Hindu',p:'Editorial analysis',url:'https://www.thehindu.com/search/?q='+encodeURIComponent(q)},{ic:'📰',h:'Indian Express',p:'Opinion & analysis',url:'https://indianexpress.com/?s='+encodeURIComponent(q)},{ic:'🏛️',h:'UPSC Official',p:'Official notifications',url:'https://www.upsc.gov.in/'},{ic:'📗',h:'NCERT Books',p:'Textbooks online',url:'https://ncert.nic.in/textbook.php'},{ic:'📊',h:'PRS Legislative',p:'Bills & Acts analysis',url:'https://prsindia.org/search?query='+encodeURIComponent(q)},{ic:'🌍',h:'Down to Earth',p:'Environment news',url:'https://www.downtoearth.org.in/?s='+encodeURIComponent(q)},{ic:'📋',h:'Drishti IAS',p:'GS notes & articles',url:'https://www.google.com/search?q=site:drishtiias.com+'+encodeURIComponent(q)},{ic:'📖',h:'Vision IAS',p:'Monthly current affairs',url:'https://www.google.com/search?q=site:visionias.in+'+encodeURIComponent(q)},{ic:'💡',h:'Insights IAS',p:'Daily answer writing',url:'https://www.google.com/search?q=site:insightsias.com+'+encodeURIComponent(q)},{ic:'📌',h:'Forum IAS',p:'Study material',url:'https://www.google.com/search?q=site:forumias.com+'+encodeURIComponent(q)}];document.getElementById('sov-title').textContent='Results: "'+q+'"';document.getElementById('sov-grid').innerHTML=res.map(r=>`<a class="sov-item" href="${r.url}" target="_blank" rel="noopener"><span class="sov-ic">${r.ic}</span><div><h4>${r.h}</h4><p>${r.p}</p></div></a>`).join('');document.getElementById('sov').classList.add('open');}
+
+// ══ TAB 1 — PRELIMS ═════════════════════════════════════
+function t1Subj(el,sj){
+  document.querySelectorAll('#tp-t1 .sp').forEach(p=>p.classList.remove('on'));el.classList.add('on');
+  t1Sj=sj;t1Kk=null;t1Lb=null;
+  const cls=sj==='prelims_gs'?'sa':'sb';t1Cls=cls;
+  document.getElementById('t1-tgr').innerHTML=(UPSC_TPS[sj]||[]).map(([k,n])=>`<button class="tbtn" onclick="t1Top(this,'${k}','${n.replace(/'/g,"&#39;")}')">${n}</button>`).join('');
+  t1Upd();
+}
+function t1Top(el,k,n){document.querySelectorAll('#t1-tgr .tbtn').forEach(b=>b.className='tbtn');el.className='tbtn '+t1Cls;t1Kk=k;t1Lb=n;t1Upd();}
+function t1Upd(){const b=document.getElementById('t1-gbtn');if(t1Sj&&t1Kk){b.disabled=false;b.textContent='Generate Prelims prompt for "'+t1Lb+'" →';b.classList.add('rd');}else if(t1Sj){b.disabled=true;b.textContent='Select a topic above';}else{b.disabled=true;b.textContent='Select GS Paper 1 or CSAT above';}}
+function t1All(on){document.querySelectorAll('#t1-togr .togi').forEach(t=>{on?t.classList.add('on'):t.classList.remove('on')});}
+function t1Pre(ks){document.querySelectorAll('#t1-togr .togi').forEach(t=>{ks.includes(t.dataset.k)?t.classList.add('on'):t.classList.remove('on')});}
+
+// ── TAB 2 subject/topic/toggle helpers ──
+function t2Subj(el,sj,cls){
+  document.querySelectorAll("#tp-t2 .sp").forEach(p=>p.classList.remove("on"));el.classList.add("on");
+  t2Sj=sj;t2Kk=null;t2Lb=null;t2Cls=cls;
+  const tps=UPSC_TPS[sj]||[];
+  document.getElementById("t2-tgr").innerHTML=tps.length?tps.map(([k,n])=>`<button class="tbtn" onclick="t2Top(this,'${k}','${n.replace(/'/g,"&#39;")}')">${n}</button>`).join(""):"<div class=\"t-empty\">Topics for this paper</div>";
+  t2Upd();
+}
+function t2Top(el,k,n){document.querySelectorAll("#t2-tgr .tbtn").forEach(b=>b.className="tbtn");el.className="tbtn "+t2Cls;t2Kk=k;t2Lb=n;t2Upd();}
+function t2Upd(){const b=document.getElementById("t2-gbtn");if(t2Sj&&t2Kk){b.disabled=false;b.textContent="Generate Mains prompt for \""+t2Lb+"\" \u2192";b.classList.add("rd");}else if(t2Sj){b.disabled=true;b.textContent="Select a topic above";b.classList.remove("rd");}else{b.disabled=true;b.textContent="Select a GS paper above";b.classList.remove("rd");}}
+function t2All(on){document.querySelectorAll("#t2-togr .togi").forEach(t=>{on?t.classList.add("on-g"):t.classList.remove("on-g")});}
+function t2Pre(ks){document.querySelectorAll("#t2-togr .togi").forEach(t=>{ks.includes(t.dataset.k)?t.classList.add("on-g"):t.classList.remove("on-g")});}
+
+// ── TAB 3 subject/topic/toggle helpers ──
+function t3Subj(el,sj){
+  document.querySelectorAll("#tp-t3 .sp").forEach(p=>p.classList.remove("on"));el.classList.add("on");
+  t3Sj=sj;t3Kk=null;t3Lb=null;
+  const tps=AW_TPS[sj]||[];
+  document.getElementById("t3-tgr").innerHTML=tps.map(([k,n])=>`<button class="tbtn" onclick="t3Top(this,'${k}','${n.replace(/'/g,"&#39;")}')">${n}</button>`).join("");
+  t3Upd();
+}
+function t3Top(el,k,n){document.querySelectorAll("#t3-tgr .tbtn").forEach(b=>b.className="tbtn");el.className="tbtn se";t3Kk=k;t3Lb=n;t3Upd();}
+function t3Upd(){const b=document.getElementById("t3-gbtn");if(t3Sj&&t3Kk){b.disabled=false;b.textContent="Generate answer writing prompt for \""+t3Lb+"\" \u2192";b.classList.add("rd");}else if(t3Sj){b.disabled=true;b.textContent="Select a topic above";b.classList.remove("rd");}else{b.disabled=true;b.textContent="Select area above";b.classList.remove("rd");}}
+function t3All(on){document.querySelectorAll("#t3-togr .togi").forEach(t=>{on?t.classList.add("on-r"):t.classList.remove("on-r")});}
+function t3Pre(ks){document.querySelectorAll("#t3-togr .togi").forEach(t=>{ks.includes(t.dataset.k)?t.classList.add("on-r"):t.classList.remove("on-r")});}
+
+// ── TAB 6 subject/topic/toggle helpers ──
+function t6Subj(el,sj){
+  document.querySelectorAll("#tp-t6 .sp").forEach(p=>p.classList.remove("on"));el.classList.add("on");
+  t6Sj=sj;t6Kk=null;t6Lb=null;
+  const tps=OTHER_EXAMS_TPS[sj]||[];
+  document.getElementById("t6-tgr").innerHTML=tps.map(([k,n])=>`<button class="tbtn" onclick="t6Top(this,'${k}','${n.replace(/'/g,"&#39;")}')">${n}</button>`).join("");
+  t6Upd();
+}
+function t6Top(el,k,n){document.querySelectorAll("#t6-tgr .tbtn").forEach(b=>b.className="tbtn");el.className="tbtn sg";t6Kk=k;t6Lb=n;t6Upd();}
+function t6Upd(){const b=document.getElementById("t6-gbtn");if(t6Sj&&t6Kk){b.disabled=false;b.textContent="Generate prompt for \""+t6Lb+"\" \u2192";b.classList.add("rd");}else if(t6Sj){b.disabled=true;b.textContent="Select a topic above";b.classList.remove("rd");}else{b.disabled=true;b.textContent="Select exam above";b.classList.remove("rd");}}
+function t6All(on){document.querySelectorAll("#t6-togr .togi").forEach(t=>{on?t.classList.add("on-v"):t.classList.remove("on-v")});}
+function t6Pre(ks){document.querySelectorAll("#t6-togr .togi").forEach(t=>{ks.includes(t.dataset.k)?t.classList.add("on-v"):t.classList.remove("on-v")});}
+
+function t1Gen(){
+  if(!t1Sj||!t1Kk){showToast("Select paper & topic first");return;}
+  const T={};document.querySelectorAll("#t1-togr .togi").forEach(t=>{T[t.dataset.k]=t.classList.contains("on");});
+  const act=T1_SECS.filter(s=>T[s.k]);if(!act.length){showToast("Enable at least one section");return;}
+  const yrSel=document.getElementById("t1-yr-sel").value;
+  const y=(yrSel==="curr"?(window.CY||new Date().getFullYear()):parseInt(yrSel));
+  const pyq=(y-6)+"-"+y, lat=(y-1)+"-"+y;
+  const EX={pre:"UPSC CSE Prelims",both:"UPSC CSE Prelims + Mains integration"}[document.getElementById("t1-ex").value]||"UPSC CSE Prelims";
+  const DP={full:"from NCERT/basic level to advanced UPSC Prelims level",quick:"quick revision of key points",adv:"advanced MCQ-oriented level — assume basics known"}[document.getElementById("t1-dp").value]||"full";
+  const paper=t1Sj==="prelims_gs"?"GS Paper 1 (100 marks, 100 Qs, 2 hours)":"CSAT Paper 2 (qualifying, 33% cut-off)";
+  const TOP=t1Lb;let n=1,p="";
+  p+="You are a top UPSC Civil Services Prelims expert tutor.\n";
+  p+="All content must be calibrated to UPSC CSE Prelims "+y+" standard.\n";
+  p+="Base pattern analysis on PYQs from "+pyq+" and latest shifts in "+lat+".\n\n";
+  p+="══════════════════════════════════════════════\n  UPSC PRELIMS STUDY MODULE — "+y+"\n══════════════════════════════════════════════\n\n";
+  p+="  PAPER    :  "+paper+"\n  TOPIC    :  "+TOP+"\n  EXAM     :  "+EX+"\n  YEAR     :  "+y+"\n  DEPTH    :  Teach this "+DP+"\n\n";
+  if(T.concept)p+=n++ +". CONCEPTUAL CLARITY\n   ▸ Explain \""+TOP+"\" clearly — start from NCERT level, build to UPSC standard\n   ▸ Cover every dimension: historical evolution, current status, significance\n   ▸ One-line summary for last-minute revision\n\n";
+  if(T.mindmap)p+=n++ +". MIND MAP / VISUAL NOTES\n   ▸ Text-based mind map or structured outline for \""+TOP+"\"\n   ▸ Central concept → Sub-branches → Key facts\n   ▸ Use symbols and connections to aid memory\n\n";
+  if(T.timeline)p+=n++ +". TIMELINE (for historical topics)\n   ▸ Chronological timeline of key events for \""+TOP+"\"\n   ▸ Format: Year | Event | Significance for UPSC\n   ▸ Highlight years frequently asked in Prelims "+pyq+"\n\n";
+  if(T.maps)p+=n++ +". MAP-BASED NOTES\n   ▸ Key locations, routes, regions related to \""+TOP+"\"\n   ▸ Text description for self-mapping practice\n   ▸ Frequently mapped elements in Prelims "+pyq+"\n\n";
+  if(T.facts)p+=n++ +". KEY FACTS & FIGURES\n   ▸ 20 most important, exam-verified facts about \""+TOP+"\"\n   ▸ Statistics, dates, names, ranks, records that UPSC tests\n   ▸ Mark [★ FREQUENTLY TESTED] on top 5 facts\n\n";
+  if(T.memory)p+=n++ +". MEMORY TRICKS & MNEMONICS\n   ▸ One mnemonic per complex list or sequence\n   ▸ Story-based or acronym-based memory aids\n   ▸ Association techniques for maps and timelines\n\n";
+  if(T.mcq)p+=n++ +". MCQ BANK (25 QUESTIONS)\n   ▸ Standard 4-option MCQs in UPSC Prelims style\n   ▸ Mix: 10 factual + 8 application + 4 statement-based + 3 match the column\n   ▸ Include \"Which of the statements is/are correct?\" type\n   ▸ Correct answer + 1-line explanation for each\n   ▸ Negative marking context: −1/3 marks per wrong answer\n\n";
+  if(T.pyq)p+=n++ +". PYQ ANALYSIS ("+pyq+")\n   ▸ 10 most representative PYQs from \""+TOP+"\"\n   ▸ Year | Question | Answer | Why it was asked\n   ▸ Identify the pattern: What aspect does UPSC repeatedly test?\n   ▸ Mark [★ RECURRING THEME] for patterns in 3+ years\n\n";
+  if(T.probable)p+=n++ +". PROBABLE QUESTIONS FOR "+y+"\n   ▸ 5 predicted MCQs for UPSC Prelims "+y+" based on:\n     — Recent events/changes related to \""+TOP+"\"\n     — Government initiatives "+lat+"\n     — International developments with India linkage\n   ▸ Model question + answer + reasoning\n\n";
+  if(T.mistakes)p+=n++ +". COMMON MISTAKES\n   ▸ 5 most common errors aspirants make on \""+TOP+"\"\n   ▸ Frequently confused facts, dates, or concepts\n   ▸ How to eliminate wrong options in MCQs\n\n";
+  if(T.current)p+=n++ +". CURRENT AFFAIRS LINKAGE\n   ▸ Recent news and events ("+lat+") directly related to \""+TOP+"\"\n   ▸ How to connect current events to this static topic\n   ▸ Prelims MCQ angles from recent developments\n\n";
+  if(T.mains_link)p+=n++ +". PRELIMS → MAINS BRIDGE\n   ▸ How \""+TOP+"\" extends from Prelims to Mains GS Papers\n   ▸ Which GS paper and question type this topic maps to\n   ▸ Key themes that need deeper Mains-level understanding\n\n";
+  if(T.examtip)p+=n++ +". EXAM STRATEGY\n   ▸ Time allocation for this topic type in 2-hour Prelims paper\n   ▸ When to attempt and when to skip with −1/3 marking\n   ▸ Last 10-day revision checklist for \""+TOP+"\"\n\n";
+  p+="FORMAT: Bullet points (▸) · Tables for comparisons · Mark ★ for frequently tested facts\n";
+  p+="All content current as of "+y+" — mention if source data is from "+String(y-1)+"\n\n";
+  p+="  Sections: "+act.map(s=>s.lb).join(" · ")+"\n";
+  p+="  [Generated by UPSC AI Prompt Generator — Raghavbegins | Prelims Module "+y+"]";
+  document.getElementById("t1-title").textContent=TOP+" — "+paper;
+  document.getElementById("t1-sub").textContent="UPSC Prelims "+y+" · MCQ focus";
+  document.getElementById("t1-stats").innerHTML=["<div class=\"osp osp-b\">Year: <span>"+y+"</span></div>","<div class=\"osp osp-b\">Paper: <span>"+(t1Sj==="prelims_gs"?"GS Paper 1":"CSAT")+"</span></div>","<div class=\"osp osp-b\">Sections: <span>"+act.length+"</span></div>","<div class=\"osp osp-b\">Est: <span>~"+Math.round(p.length/4)+" words</span></div>"].join("");
+  document.getElementById("t1-pa").textContent=p;
+  buildAIRow("t1-air","t1-pa");
+  document.getElementById("t1-oc").style.display="block";
+  document.getElementById("t1-emp").style.display="none";
+  setTimeout(()=>document.getElementById("t1-oc").scrollIntoView({behavior:"smooth",block:"start"}),120);
+  showToast("Prelims prompt generated for "+y+"!");
+  if(typeof gtag!=="undefined")gtag("event","generate_prompt",{event_category:"upsc_prelims",event_label:t1Lb});
+}
+
+function t2Gen(){
+  if(!t2Sj||!t2Kk){showToast("Select paper & topic first");return;}
+  const T={};document.querySelectorAll("#t2-togr .togi").forEach(t=>{T[t.dataset.k]=t.classList.contains("on-g");});
+  const act=T2_SECS.filter(s=>T[s.k]);if(!act.length){showToast("Enable at least one section");return;}
+  const yrSel=document.getElementById("t2-yr").value;
+  const y=(yrSel==="curr"?(window.CY||new Date().getFullYear()):parseInt(yrSel));
+  const pyq=(y-6)+"-"+y, lat=(y-1)+"-"+y;
+  const AF={both:"Both in-depth theory AND answer writing perspective",theory:"Deep conceptual understanding",answer:"Answer writing structure, model answers and examiner insights"}[document.getElementById("t2-af").value]||"both";
+  const WL={both:"Both 150-word (10-mark) and 250-word (15-mark) model answers","150":"150-word (10-mark) format","250":"250-word (15-mark) format","20m":"250-300 word (20-mark) format"}[document.getElementById("t2-wl").value]||"both";
+  const paperName={gs1:"GS Paper 1 (Heritage, History, Geography)",gs2:"GS Paper 2 (Governance, Polity, Social Justice, IR)",gs3:"GS Paper 3 (Economy, Environment, Technology, Security)",gs4:"GS Paper 4 (Ethics, Integrity, Aptitude)",essay:"Essay Paper",optional:"Optional Subject"}[t2Sj]||"GS Mains";
+  const TOP=t2Lb;let n=1,p="";
+  p+="You are a top UPSC Civil Services Mains expert tutor and answer writing coach.\n";
+  p+="All content must be calibrated to UPSC CSE Mains "+y+" standard.\n";
+  p+="Base on PYQ patterns from "+pyq+" and latest trends in "+lat+".\n\n";
+  p+="══════════════════════════════════════════════\n  UPSC MAINS STUDY MODULE — "+y+"\n══════════════════════════════════════════════\n\n";
+  p+="  PAPER    :  "+paperName+"\n  TOPIC    :  "+TOP+"\n  YEAR     :  "+y+"\n  FOCUS    :  "+AF+"\n  ANSWER   :  "+WL+"\n\n";
+  if(T.overview)p+=n++ +". CONCEPTUAL OVERVIEW (Mains depth)\n   ▸ Comprehensive understanding of \""+TOP+"\" for UPSC Mains\n   ▸ Historical evolution → current situation → future implications\n   ▸ Constitutional / Legal / Institutional framework (if applicable)\n   ▸ India's position and context\n\n";
+  if(T.dimensions)p+=n++ +". MULTIDIMENSIONAL ANALYSIS FRAMEWORK\n   ▸ Political dimensions of \""+TOP+"\"\n   ▸ Economic dimensions\n   ▸ Social dimensions\n   ▸ Environmental dimensions (if applicable)\n   ▸ Ethical / Governance dimensions\n   ▸ International / Strategic dimensions\n   (Cover all dimensions relevant to \""+TOP+"\")\n\n";
+  if(T.current)p+=n++ +". CURRENT AFFAIRS INTEGRATION ("+y+")\n   ▸ 5 recent developments ("+lat+") directly related to \""+TOP+"\"\n   ▸ How to weave these into Mains answers\n   ▸ Data points and reports from "+lat+" relevant to this topic\n\n";
+  if(T.case_studies)p+=n++ +". CASE STUDIES & EXAMPLES\n   ▸ 3-4 concrete Indian case studies / examples for \""+TOP+"\"\n   ▸ International comparisons / best practices\n   ▸ How to use these in 10-mark vs 15-mark answers\n\n";
+  if(T.govt_initiatives)p+=n++ +". GOVERNMENT INITIATIVES & SCHEMES\n   ▸ All relevant central/state government schemes for \""+TOP+"\"\n   ▸ Key data: launch year, ministry, objective, achievements, shortcomings\n   ▸ Recent "+lat+" updates on these schemes\n\n";
+  if(T.critical_issues)p+=n++ +". CRITICAL ISSUES & CHALLENGES\n   ▸ Major challenges in \""+TOP+"\" for India\n   ▸ Root causes, structural barriers, implementation gaps\n   ▸ Criticism from committees, reports and Supreme Court judgments\n\n";
+  if(T.way_forward)p+=n++ +". WAY FORWARD & SOLUTIONS\n   ▸ Short-term measures (1-2 years)\n   ▸ Medium-term structural reforms (2-5 years)\n   ▸ Long-term vision (beyond 5 years)\n   ▸ International best practices India can adopt\n   ▸ Conclude with an optimistic, forward-looking statement\n\n";
+  if(T.data_stats)p+=n++ +". KEY DATA, STATISTICS & REPORTS\n   ▸ Most cited statistics for \""+TOP+"\" in UPSC Mains\n   ▸ Relevant national / international reports and their key findings\n   ▸ Constitutional articles / legal provisions / landmark judgments\n\n";
+  if(T.model_ans)p+=n++ +". MODEL ANSWER(S)\n   "+WL+":\n   ▸ Full model answer with introduction, body paragraphs, conclusion\n   ▸ Introduction: Start with a compelling hook (quote/data/context)\n   ▸ Body: Multidimensional coverage with subheadings\n   ▸ Conclusion: Balanced, way-forward, optimistic\n   ▸ Indicate where diagrams/flowcharts can be inserted\n\n";
+  if(T.examiner_comments)p+=n++ +". EXAMINER'S PERSPECTIVE\n   ▸ What examiners look for in a top-scoring answer on \""+TOP+"\"\n   ▸ Common mistakes that reduce marks\n   ▸ How to differentiate a 7/10 answer from a 10/10 answer\n   ▸ Ideal keyword density and dimension coverage\n\n";
+  if(T.pyq_mains)p+=n++ +". UPSC MAINS PYQ ANALYSIS ("+pyq+")\n   ▸ 5 most representative Mains questions asked on \""+TOP+"\"\n   ▸ Year | Paper | Question | Key points expected in answer\n   ▸ Evolution of how this topic has been asked over years\n   ▸ Emerging sub-themes in recent papers\n\n";
+  if(T.probable)p+=n++ +". PROBABLE MAINS QUESTIONS "+y+"\n   ▸ 3 predicted Mains questions on \""+TOP+"\" for "+y+"\n   ▸ Based on: recent events + policy changes + global developments\n   ▸ Model answer outline for each\n\n";
+  if(T.examtip)p+=n++ +". MAINS STRATEGY FOR THIS TOPIC\n   ▸ Time management: how many minutes to spend on this topic type\n   ▸ Which sections to write first for maximum marks\n   ▸ How to handle unfamiliar questions — intelligent extrapolation\n   ▸ Subheading and diagram strategy\n\n";
+  p+="FORMAT: Clear section headings · Subheadings in answers · Tables for data · Note diagrams with [DIAGRAM: description]\n\n";
+  p+="  Sections: "+act.map(s=>s.lb).join(" · ")+"\n";
+  p+="  [Generated by UPSC AI Prompt Generator — Raghavbegins | Mains Module "+y+"]";
+  document.getElementById("t2-title").textContent=TOP+" — "+paperName.split("(")[0].trim();
+  document.getElementById("t2-sub").textContent="UPSC Mains "+y+" · "+WL.split(" (")[0];
+  document.getElementById("t2-stats").innerHTML=["<div class=\"osp osp-g\">Year: <span>"+y+"</span></div>","<div class=\"osp osp-g\">Paper: <span>"+paperName.split("(")[0].trim()+"</span></div>","<div class=\"osp osp-g\">Sections: <span>"+act.length+"</span></div>"].join("");
+  document.getElementById("t2-pa").textContent=p;
+  buildAIRow("t2-air","t2-pa");
+  document.getElementById("t2-oc").style.display="block";
+  document.getElementById("t2-emp").style.display="none";
+  setTimeout(()=>document.getElementById("t2-oc").scrollIntoView({behavior:"smooth",block:"start"}),120);
+  showToast("Mains prompt generated!");
+  if(typeof gtag!=="undefined")gtag("event","generate_prompt",{event_category:"upsc_mains",event_label:t2Lb});
+}
+
+function t3Gen(){
+  if(!t3Sj||!t3Kk){showToast("Select area & topic first");return;}
+  const T={};document.querySelectorAll("#t3-togr .togi").forEach(t=>{T[t.dataset.k]=t.classList.contains("on-r");});
+  const act=T3_SECS.filter(s=>T[s.k]);if(!act.length){showToast("Enable at least one section");return;}
+  const y=window.CY||new Date().getFullYear();
+  const GS={all:"All GS Papers",gs1:"GS Paper 1",gs2:"GS Paper 2",gs3:"GS Paper 3",gs4:"GS Paper 4 (Ethics)",essay:"Essay Paper"}[document.getElementById("t3-gs").value]||"All GS Papers";
+  const QT={both:"10-mark (150w) + 15-mark (250w)","10m":"10 marks (150 words)","15m":"15 marks (250 words)","20m":"20 marks (250-300 words)"}[document.getElementById("t3-qt").value]||"both";
+  const MA=document.getElementById("t3-ma").value==="yes";
+  const isInterview=t3Sj==="interview";
+  const isEssay=t3Sj==="essay_writing";
+  const TOP=t3Lb;let n=1,p="";
+  p+="You are a top UPSC Mains answer writing coach and interview mentor.\n";
+  p+="All guidance calibrated to UPSC CSE "+y+" standards and current examiner expectations.\n\n";
+  p+="══════════════════════════════════════════════\n  UPSC "+(isInterview?"INTERVIEW":"ANSWER WRITING")+" COACHING — "+y+"\n══════════════════════════════════════════════\n\n";
+  p+="  AREA     :  "+TOP+"\n  GS FOCUS  :  "+GS+"\n  YEAR      :  "+y+"\n";
+  if(!isInterview)p+="  FORMAT   :  "+QT+"\n  MODEL ANS :  "+(MA?"Yes — with examiner comments":"Framework only")+"\n";
+  p+="\n";
+  if(T.structure&&!isInterview){
+    p+=n++ +". ANSWER STRUCTURE FRAMEWORK\n";
+    p+="   Complete framework for a top-scoring UPSC Mains answer on \""+TOP+"\":\n\n";
+    p+="   INTRODUCTION (20-25 words for 150w / 30-40 words for 250w):\n";
+    p+="   ▸ Hook options: Quote | Data/statistic | Constitutional provision | Current event\n";
+    p+="   ▸ Provide 3 example introductions for \""+TOP+"\"\n\n";
+    p+="   BODY STRUCTURE:\n";
+    p+="   ▸ Ideal number of paragraphs/subheadings for "+QT+"\n";
+    p+="   ▸ Which dimensions to cover first and why\n";
+    p+="   ▸ How to use data and examples without over-explaining\n\n";
+    p+="   CONCLUSION (15-20 words for 150w / 25-35 words for 250w):\n";
+    p+="   ▸ Way-forward closing (not just summary)\n";
+    p+="   ▸ 3 example conclusion lines for \""+TOP+"\"\n\n";
+  }
+  if(T.dimensions&&!isInterview){
+    p+=n++ +". DIMENSIONS TO COVER FOR \""+TOP.toUpperCase()+"\"\n";
+    p+="   For each relevant dimension, provide:\n";
+    p+="   — 2 key points to include\n";
+    p+="   — One recent example or data point\n";
+    p+="   — One scheme/initiative/judgment to mention\n";
+    p+="   Dimensions: Political | Economic | Social | Environmental | Ethical | Legal | International\n\n";
+  }
+  if(T.directional_words&&!isInterview){
+    p+=n++ +". DIRECTIVE WORDS — HOW TO HANDLE\n";
+    p+="   For \""+TOP+"\", explain how to approach if the question says:\n";
+    p+="   ▸ \"Discuss\" → Cover all aspects, balanced, no strong opinion\n";
+    p+="   ▸ \"Analyse\" → Break down, examine each component\n";
+    p+="   ▸ \"Critically analyse/examine\" → Pros AND cons, balanced critique\n";
+    p+="   ▸ \"Evaluate\" → Judge effectiveness/impact with evidence\n";
+    p+="   ▸ \"Examine\" → Look closely, assess each element\n\n";
+  }
+  if(T.intro_types&&!isInterview){
+    p+=n++ +". INTRODUCTION TYPES & EXAMPLES FOR \""+TOP+"\"\n";
+    p+="   1. Quote-based introduction — provide 2 suitable quotes\n";
+    p+="   2. Data/Statistic-based — provide 2 relevant statistics\n";
+    p+="   3. Context-based — how to frame the current relevance\n";
+    p+="   4. Constitutional/Legal — relevant article or provision to cite\n\n";
+  }
+  if(T.conclusion_types&&!isInterview){
+    p+=n++ +". CONCLUSION STYLES FOR \""+TOP+"\"\n";
+    p+="   1. Way-forward conclusion — what needs to happen\n";
+    p+="   2. Quote-ending — relevant closing quote\n";
+    p+="   3. Constitutional aspiration — linking back to Preamble/DPSP\n";
+    p+="   4. Global context — India's role in the larger picture\n\n";
+  }
+  if(T.model_ans&&!isInterview&&MA){
+    p+=n++ +". MODEL ANSWER(S) FOR \""+TOP+"\"\n\n";
+    p+="   [10-MARK MODEL ANSWER — 150 words]\n";
+    p+="   Introduction (25w): ...\n";
+    p+="   Body paragraph 1 — [Main dimension]: ...\n";
+    p+="   Body paragraph 2 — [Second dimension]: ...\n";
+    p+="   Conclusion (20w): ...\n\n";
+    p+="   [15-MARK MODEL ANSWER — 250 words]\n";
+    p+="   Introduction (40w): ...\n";
+    p+="   Subheading 1: ...\n";
+    p+="   Subheading 2: ...\n";
+    p+="   Subheading 3: ...\n";
+    p+="   Conclusion (30w): ...\n\n";
+    p+="   EXAMINER COMMENTS: What makes this answer score 8-9/10 vs 6/10\n\n";
+  }
+  if(T.common_errors&&!isInterview){
+    p+=n++ +". COMMON ANSWER WRITING ERRORS — \""+TOP+"\"\n";
+    p+="   ▸ 5 most common mistakes aspirants make when writing on this topic\n";
+    p+="   ▸ For each: Wrong approach → Why marks are lost → Correct approach\n";
+    p+="   ▸ Words and phrases to avoid in UPSC Mains answers\n\n";
+  }
+  if(isInterview){
+    if(T.interview_q)p+=n++ +". COMMONLY ASKED INTERVIEW QUESTIONS — \""+TOP+"\"\n   ▸ 10 questions a UPSC board is likely to ask on \""+TOP+"\"\n   ▸ For each: Model answer structure + key points to include\n   ▸ Tone: confident, balanced, not opinionated on controversial issues\n\n";
+    if(T.daf_q)p+=n++ +". DAF-BASED QUESTIONS\n   ▸ How board uses DAF (native place, academics, hobbies, work experience)\n   ▸ Framework for answering \"Tell me about yourself\"\n   ▸ How to handle questions on your optional subject in interview\n\n";
+    if(T.current_q)p+=n++ +". CURRENT AFFAIRS IN INTERVIEW\n   ▸ 5 recent "+y+" events most likely to come up based on \""+TOP+"\"\n   ▸ For each: What the board might ask + ideal answer approach\n\n";
+    if(T.board_types)p+=n++ +". HANDLING DIFFERENT BOARD TYPES\n   ▸ Philosophical board — how to handle abstract/value questions\n   ▸ Factual board — precision, no bluffing\n   ▸ Stress board — staying composed, redirecting politely\n   ▸ Friendly board — avoiding complacency\n\n";
+    if(T.self_intro)p+=n++ +". SELF INTRODUCTION\n   ▸ Ideal 90-second introduction structure\n   ▸ What to include and what to avoid\n   ▸ 2 sample self-introductions (different backgrounds)\n\n";
+    if(T.stress_q)p+=n++ +". HANDLING STRESS QUESTIONS\n   ▸ Examples of stress questions related to \""+TOP+"\"\n   ▸ Framework: Pause → Acknowledge → Respond honestly → Redirect\n   ▸ How to say \"I do not know\" gracefully and turn it around\n\n";
+  }
+  if(isEssay){
+    if(T.structure)p+=n++ +". ESSAY WRITING STRUCTURE FOR \""+TOP+"\"\n   ▸ How to interpret and deconstruct this essay topic\n   ▸ Central thesis — how to develop one argument thread\n   ▸ Introduction → Philosophical context → Current situation → Examples → Conclusion\n   ▸ Length: 1000-1200 words in 90 minutes — pacing guide\n\n";
+    if(T.model_ans&&MA)p+=n++ +". MODEL ESSAY OUTLINE FOR \""+TOP+"\"\n   ▸ Complete outline: introduction, body sections, conclusion\n   ▸ Key quotes to use, data points, examples\n   ▸ Transitions between sections\n\n";
+  }
+  p+="  Sections: "+act.map(s=>s.lb).join(" · ")+"\n";
+  p+="  [Generated by UPSC AI Prompt Generator — Raghavbegins | Answer Writing Module "+y+"]";
+  document.getElementById("t3-title").textContent=TOP;
+  document.getElementById("t3-sub").textContent=isInterview?"Interview Prep · "+y:isEssay?"Essay Writing · "+y:"Answer Writing · "+GS+" · "+y;
+  document.getElementById("t3-stats").innerHTML=["<div class=\"osp osp-r\">Area: <span>"+(isInterview?"Interview":isEssay?"Essay":"Answer Writing")+"</span></div>","<div class=\"osp osp-r\">Year: <span>"+y+"</span></div>","<div class=\"osp osp-r\">Sections: <span>"+act.length+"</span></div>"].join("");
+  document.getElementById("t3-pa").textContent=p;
+  buildAIRow("t3-air","t3-pa");
+  document.getElementById("t3-oc").style.display="block";
+  document.getElementById("t3-emp").style.display="none";
+  setTimeout(()=>document.getElementById("t3-oc").scrollIntoView({behavior:"smooth",block:"start"}),120);
+  showToast("Answer writing prompt generated!");
+  if(typeof gtag!=="undefined")gtag("event","generate_prompt",{event_category:"upsc_answer_writing",event_label:t3Lb});
+}
+
+function s4Gen(){
+  const selNP=UPSC_NPS.filter(n=>document.querySelector(".npi[data-id=\""+n.id+"\"]").classList.contains("chk"));
+  const selCols=UPSC_COLS.filter(c=>document.querySelector(".cch[data-id=\""+c.id+"\"]").classList.contains("on"));
+  if(!selNP.length){showToast("Select at least one newspaper");return;}
+  const T4={};document.querySelectorAll("#s4-togr .togi").forEach(t=>{T4[t.dataset.k]=t.classList.contains("on-b");});
+  const act4=S4S_UPSC.filter(s=>T4[s.k]);if(!act4.length){showToast("Enable at least one section");return;}
+  const iso=document.getElementById("s4-dt").value||todayISO();
+  const dtStr=fmtDt(iso);
+  const dt=new Date(iso+"T00:00:00");
+  const dayNm=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"][dt.getDay()];
+  const y=window.CY||new Date().getFullYear();
+  const EX4={both:"UPSC CSE Prelims + Mains",pre:"UPSC CSE Prelims",main:"UPSC CSE Mains"}[document.getElementById("s4-ex").value]||"UPSC CSE Prelims + Mains";
+  const LN={both:"English + Hindi (Devanagari)",en:"English only",hi:"Hindi only"}[document.getElementById("s4-ln").value]||"English + Hindi";
+  let p="You are a top UPSC expert tutor providing daily editorial analysis.\n";
+  p+="Date: "+dtStr+" ("+dayNm+")\nFocus: "+EX4+" preparation "+y+"\nLanguage: "+LN+"\n\n";
+  p+="══════════════════════════════════════════════\n📰 UPSC DAILY EDITORIAL ANALYSIS — "+dtStr+"\n══════════════════════════════════════════════\n\n";
+  p+="Fetch and analyse the LATEST editorial content for "+iso+" from:\n\n";
+  selNP.forEach((nn,i)=>{p+=(i+1)+". "+nn.nm+"\n   URL: "+nn.url+"\n";});
+  p+="\nFocus on columns: "+selCols.map(c=>c.lb).join(", ")+"\n\n";
+  p+="For EACH source, provide:\n\n";
+  if(T4.summary)p+="📌 TOPIC SUMMARY (3-4 lines)\n   Issue raised · Author's stance · Key argument · Policy implication\n\n";
+  if(T4.vocab){
+    p+="📚 WORD POWER ("+vN+" words)\n   For EACH word:\n";
+    p+="   🔊 IPA pronunciation\n   📖 Meaning in context\n";
+    if(LN!=="en")p+="   🇮🇳 Hindi (Devanagari) translation + definition\n";
+    if(T4.synonyms)p+="   🔄 3 Synonyms · 2 Antonyms\n";
+    p+="   ✍️ One sentence in governance/public policy context\n\n";
+  }
+  if(T4.prelims_link)p+="🎯 PRELIMS MCQ ANGLE (3 Qs)\n   Frame 3 Prelims-style MCQs from this editorial\n   Answer + brief explanation for each\n\n";
+  if(T4.mains_link)p+="✍️ MAINS ANSWER ANGLE ("+qN+" Qs)\n   Frame "+qN+" potential Mains questions from this editorial\n   For each: GS Paper (1/2/3/4) | Question | Key points for answer | Word limit\n\n";
+  if(T4.gs_linkage)p+="🔗 GS PAPER LINKAGE\n   Which GS papers does this editorial connect to?\n   For each GS paper: How this topic would appear in the exam\n   Relevant past PYQ that this connects to\n\n";
+  if(T4.critical_analysis)p+="🔬 CRITICAL ANALYSIS POINTS\n   Arguments IN FAVOUR of the editorial's position\n   Arguments AGAINST / counter-perspectives\n   Middle ground / nuanced approach for UPSC answers\n\n";
+  if(T4.answer_template)p+="📝 READY-MADE ANSWER TEMPLATE\n   For the most exam-relevant angle from this editorial:\n   Provide a complete 250-word model answer template\n   (Introduction + 3 body points + conclusion)\n\n";
+  if(T4.current_link)p+="⚡ CURRENT AFFAIRS CONNECTION\n   How this editorial connects to other recent events\n   Ongoing issues in same domain\n   Government response / policy actions\n\n";
+  if(T4.hindi_summary&&LN!=="en")p+="🇮🇳 HINDI SUMMARY\n   4-5 lines summary in Hindi (Devanagari) — UPSC Hindi medium aspirants\n\n";
+  p+="[Generated by UPSC AI Prompt Generator — Raghavbegins | Daily Analysis "+y+"]";
+  document.getElementById("s4-title").textContent="UPSC Daily Analysis — "+dtStr.split(",").slice(0,2).join(",");
+  document.getElementById("s4-sub").textContent=selNP.map(n=>n.nm.split(" ")[0]).join(" · ")+" · "+EX4;
+  const s4stats=document.getElementById("s4-stats");
+  if(s4stats)s4stats.innerHTML="<div style=\"padding:7px 13px;font-size:10px;font-weight:700;color:var(--txt3);border-right:1px solid var(--bdr)\">Date: <span style=\"color:#0369A1\">"+dayNm+"</span></div><div style=\"padding:7px 13px;font-size:10px;font-weight:700;color:var(--txt3);border-right:1px solid var(--bdr)\">Sources: <span style=\"color:#0369A1\">"+selNP.length+"</span></div><div style=\"padding:7px 13px;font-size:10px;font-weight:700;color:var(--txt3)\">Sections: <span style=\"color:#0369A1\">"+act4.length+"</span></div>";
+  document.getElementById("s4-pa").textContent=p;
+  buildAIRow("s4-air","s4-pa");
+  document.getElementById("s4-oc").style.display="block";
+  document.getElementById("s4-emp").style.display="none";
+  setTimeout(()=>document.getElementById("s4-oc").scrollIntoView({behavior:"smooth",block:"start"}),120);
+  showToast("Newspaper prompt generated!");
+  if(typeof gtag!=="undefined")gtag("event","generate_prompt",{event_category:"upsc_newspaper",event_label:iso});
+}
+
+function t5Gen(){
+  const selEx=Array.from(document.querySelectorAll("#t5-exam-grid .exam-chk.on")).map(e=>e.dataset.exam);
+  if(!selEx.length){showToast("Select at least one exam");return;}
+  const T5={};document.querySelectorAll("#t5-togr .togi").forEach(t=>{T5[t.dataset.k]=t.classList.contains("on-t");});
+  const actS=T5_SECS.filter(s=>T5[s.k]);if(!actS.length){showToast("Enable at least one section");return;}
+  const y=window.CY||new Date().getFullYear();
+  const pyq=(y-6)+"-"+y, lat=(y-1)+"-"+y;
+  const ST={both:"Complete journey — Prelims → Mains → Interview",pre:"Prelims only",main:"Mains only",interview:"Interview / Personality Test only"}[document.getElementById("t5-st").value]||"Complete journey";
+  const DL={full:"Full detail — topic + sub-topic + weightage + source",overview:"Overview — subject-level only",priority:"Priority topics only — must-prepare list"}[document.getElementById("t5-dl").value]||"Full detail";
+  const tlMap={
+    "12m":"Provide a 12-month topic-wise study plan (month-by-month breakdown — ideal for fresh start)",
+    "6m":"Provide a 6-month intensive study plan",
+    "3m":"Provide a 3-month accelerated plan",
+    "1m":"Provide a 1-month crash course (for those already prepared)",
+    "none":""
+  };
+  const tlText=tlMap[document.getElementById("t5-tl").value]||"";
+  let p="You are an expert UPSC Civil Services exam analyst and preparation strategist.\n";
+  p+="Generate a comprehensive, up-to-date syllabus analysis as of "+y+".\n";
+  p+="Cross-reference all data with PYQs from "+pyq+" and pattern shifts in "+lat+".\n";
+  p+="Base on the LATEST official UPSC notification. If "+y+" notification not released, use "+String(y-1)+" data and flag it.\n\n";
+  p+="══════════════════════════════════════════════\n  UPSC SYLLABUS ANALYSIS — "+y+"\n══════════════════════════════════════════════\n\n";
+  p+="  EXAM(S)  :  "+selEx.join(" · ")+"\n  STAGE    :  "+ST+"\n  YEAR     :  "+y+"\n  DETAIL   :  "+DL+"\n\n";
+  if(T5.exam_struct){
+    p+="══════════════════════════════════════════\n📊 EXAM STRUCTURE & STAGES ("+y+")\n══════════════════════════════════════════\n\n";
+    selEx.forEach(ex=>{
+      p+="▶ "+ex.toUpperCase()+"\n";
+      p+="  Prelims: GS Paper 1 (200m) + CSAT Paper 2 (qualifying 33%)\n";
+      p+="  Mains: 9 papers (GS 1-4 + Essay + 2 Optionals + 2 Language papers)\n";
+      p+="  Interview/Personality Test: 275 marks\n";
+      p+="  Total: 2025 marks (Mains 1750 + Interview 275)\n";
+      p+="  Latest "+y+" update: [state any change from official notification]\n\n";
+    });
+  }
+  if(T5.topic_list){
+    p+="══════════════════════════════════════════\n📚 OFFICIAL TOPIC LIST ("+y+")\n══════════════════════════════════════════\n\n";
+    p+="UPSC CSE PRELIMS — GS Paper 1 Topics:\n";
+    p+="History (Ancient | Medieval | Modern | World) | Art & Culture | Geography (Indian | World) | Polity (Constitution | Executive | Legislature | Judiciary | Local Bodies) | Economy (Basics | Planning | Agriculture | Industry | Banking) | Environment (Ecology | Biodiversity | Climate Change | Pollution) | Science & Technology | Current Affairs\n\n";
+    p+="UPSC CSE MAINS — GS Paper Topics:\n";
+    p+="GS 1: Indian Heritage & Culture | Modern History | Post-Independence | World History | Geography | Social Issues\n";
+    p+="GS 2: Constitution | Governance | Civil Services | Social Justice | IR & Bilateral Relations\n";
+    p+="GS 3: Economic Development | Agriculture | Industry | S&T | Environment | Disaster Management | Security\n";
+    p+="GS 4: Ethics Theory | Attitude | Aptitude | Emotional Intelligence | Governance Ethics | Case Studies\n\n";
+    p+="Mark ★ NEW for any topic added/changed in "+y+" notification.\n\n";
+  }
+  if(T5.weightage){
+    p+="══════════════════════════════════════════\n⚖️ TOPIC WEIGHTAGE — "+pyq+" PYQ ANALYSIS\n══════════════════════════════════════════\n\n";
+    p+="Prelims GS Paper 1 — Average questions per topic:\n";
+    p+="| Subject | Avg Qs/Year | % of Paper | Trend ↑↓= | Priority |\n";
+    p+="Include: History, Geography, Polity, Economy, Environment, Science, Current Affairs\n\n";
+    p+="Mains — Average marks per GS paper topic:\n";
+    p+="| GS Paper | Sub-topic | Marks Weight | Frequency | Priority |\n\n";
+  }
+  if(T5.priority){
+    p+="══════════════════════════════════════════\n🎯 HIGH-PRIORITY TOPICS FOR "+y+"\n══════════════════════════════════════════\n\n";
+    p+="TIER 1 — MUST PREPARE (non-negotiable):\n";
+    p+="  Prelims: [List top 10 topics with reasoning]\n";
+    p+="  Mains: [List top 10 topics per GS paper]\n\n";
+    p+="TIER 2 — IMPORTANT:\n  [List with reasoning]\n\n";
+    p+="TIER 3 — OPTIONAL FOR ADVANCED ASPIRANTS:\n  [Topics after Tier 1+2 complete]\n\n";
+  }
+  if(T5.pattern_change){
+    p+="══════════════════════════════════════════\n🔄 PATTERN CHANGES — "+lat+"\n══════════════════════════════════════════\n\n";
+    p+="For "+selEx.join(" & ")+":\n";
+    p+="▸ New question types in "+lat+" papers\n";
+    p+="▸ Shift in difficulty or coverage area\n";
+    p+="▸ Topics that gained / lost prominence\n";
+    p+="▸ Comparison: "+String(y-3)+"-"+String(y-2)+" vs "+String(y-2)+"-"+String(y-1)+" vs "+String(y-1)+"-"+y+" patterns\n";
+    p+="▸ Expected "+y+" focus areas based on current events\n\n";
+  }
+  if(T5.pyq_trend){
+    p+="══════════════════════════════════════════\n📈 PYQ TREND ANALYSIS ("+pyq+")\n══════════════════════════════════════════\n\n";
+    p+="▸ Top 10 most repeatedly asked topics in Prelims "+pyq+"\n";
+    p+="▸ Topics asked in EVERY year (must-prepare)\n";
+    p+="▸ Mains — Topics that recur across GS papers\n";
+    p+="▸ New themes that appeared in the last 2 years\n\n";
+  }
+  if(T5.ncert_map){
+    p+="══════════════════════════════════════════\n📗 NCERT & SOURCE MAPPING\n══════════════════════════════════════════\n\n";
+    p+="| Topic | NCERT Class | Book Title | Chapter | Notes |\n";
+    p+="Include: Standard references for each GS subject\n";
+    p+="Beyond NCERTs — essential books for each topic\n\n";
+  }
+  if(T5.optional_guide){
+    p+="══════════════════════════════════════════\n📚 OPTIONAL SUBJECT SELECTION GUIDE ("+y+")\n══════════════════════════════════════════\n\n";
+    p+="Framework for choosing optional:\n";
+    p+="▸ High-scoring optionals in "+pyq+" (cut-off analysis)\n";
+    p+="▸ GS overlap — optionals that reinforce GS content\n";
+    p+="▸ Coaching/resource availability\n";
+    p+="▸ Background/interest suitability\n";
+    p+="▸ Comparison table: Top 10 most popular optionals\n\n";
+  }
+  if(T5.cut_off){
+    p+="══════════════════════════════════════════\n📉 CUT-OFF ANALYSIS ("+pyq+")\n══════════════════════════════════════════\n\n";
+    p+="▸ Prelims cut-off trend by category (GEN/OBC/SC/ST)\n";
+    p+="▸ Mains + Interview final cut-off trend\n";
+    p+="▸ Target score strategy for each stage\n";
+    p+="▸ Optional subject score strategy\n\n";
+  }
+  if(T5.study_plan&&tlText){
+    p+="══════════════════════════════════════════\n🗓 STUDY PLAN ("+y+")\n══════════════════════════════════════════\n\n";
+    p+=tlText+"\n\n";
+    p+="For: "+selEx.join(" & ")+"\n";
+    p+="Include: NCERT phase → Standard books → Current affairs integration → Revision → Mock tests\n\n";
+  }
+  if(T5.mock_strategy){
+    p+="══════════════════════════════════════════\n🧪 MOCK TEST & TEST SERIES STRATEGY\n══════════════════════════════════════════\n\n";
+    p+="▸ When to start test series (relative to exam)\n";
+    p+="▸ Sectional vs full-length test ratio\n";
+    p+="▸ Prelims mock analysis checklist\n";
+    p+="▸ Mains answer evaluation approach\n";
+    p+="▸ Interview mock: where and how many\n\n";
+  }
+  p+="FORMAT: Use tables for comparisons · Mark ★ NEW for "+y+" updates · State source year alongside all data\n\n";
+  p+="  Exams: "+selEx.join(" · ")+" | Sections: "+actS.map(s=>s.lb).join(" · ")+"\n";
+  p+="  [Generated by UPSC AI Prompt Generator — Raghavbegins | Syllabus Module "+y+"]";
+  document.getElementById("t5-title").textContent="UPSC Syllabus — "+selEx.join(" · ");
+  document.getElementById("t5-sub").textContent=y+" · "+ST.split(" ")[0]+" · "+selEx.length+" exam(s)";
+  document.getElementById("t5-stats").innerHTML="<div class=\"osp osp-t\">Year: <span>"+y+"</span></div><div class=\"osp osp-t\">Exams: <span>"+selEx.length+"</span></div><div class=\"osp osp-t\">Sections: <span>"+actS.length+"</span></div>";
+  document.getElementById("t5-pa").textContent=p;
+  buildAIRow("t5-air","t5-pa");
+  document.getElementById("t5-oc").style.display="block";
+  document.getElementById("t5-emp").style.display="none";
+  setTimeout(()=>document.getElementById("t5-oc").scrollIntoView({behavior:"smooth",block:"start"}),120);
+  showToast("UPSC Syllabus prompt generated for "+y+"!");
+  if(typeof gtag!=="undefined")gtag("event","generate_prompt",{event_category:"upsc_syllabus",event_label:selEx.join(",")});
+}
+
+function t6Gen(){
+  if(!t6Sj||!t6Kk){showToast("Select exam & topic first");return;}
+  const T6={};document.querySelectorAll("#t6-togr .togi").forEach(t=>{T6[t.dataset.k]=t.classList.contains("on-v");});
+  const act6=T6_SECS.filter(s=>T6[s.k]);if(!act6.length){showToast("Enable at least one section");return;}
+  const y=window.CY||new Date().getFullYear();
+  const pyq=(y-6)+"-"+y, lat=(y-1)+"-"+y;
+  const examNames={ese:"ESE / IES (Engineering Services Exam)",cds:"CDS (Combined Defence Services)",capf:"CAPF AC (Central Armed Police Forces)",nda:"NDA & NA (National Defence Academy)",cms:"CMS (Combined Medical Services)"};
+  const EX6=examNames[t6Sj]||t6Sj.toUpperCase();
+  const DP={full:"from basics to advanced exam level",quick:"quick revision of key points",adv:"advanced exam-level only"}[document.getElementById("t6-dp").value]||"full";
+  const ST={both:"All stages (Paper 1 + Paper 2)",p1:"Paper 1 only",p2:"Paper 2 only",ssb:"SSB / Personality Test focus"}[document.getElementById("t6-st").value]||"All stages";
+  const TOP=t6Lb;let n=1,p="";
+  p+="You are a top UPSC "+EX6+" expert tutor.\n";
+  p+="All content calibrated to "+EX6+" "+y+" standard.\n";
+  p+="Base on PYQs from "+pyq+" and latest changes in "+lat+".\n\n";
+  p+="══════════════════════════════════════════\n  "+EX6.toUpperCase()+" STUDY MODULE — "+y+"\n══════════════════════════════════════════\n\n";
+  p+="  EXAM    :  "+EX6+"\n  TOPIC   :  "+TOP+"\n  YEAR    :  "+y+"\n  DEPTH   :  Teach this "+DP+"\n  STAGE   :  "+ST+"\n\n";
+  if(T6.concept)p+=n++ +". CORE CONCEPT / THEORY\n   ▸ Explain \""+TOP+"\" for "+EX6+" standard\n   ▸ Key definitions, principles and frameworks\n   ▸ All sub-types and variants tested in "+EX6+"\n\n";
+  if(T6.formulas)p+=n++ +". FORMULAS & EQUATIONS\n   ▸ All relevant formulas: expression | unit | when to use\n   ▸ Mark [★ MOST TESTED IN "+EX6+"] on the key formula\n   ▸ Mini worked example after each formula\n\n";
+  if(T6.examples)p+=n++ +". SOLVED EXAMPLES\n   ▸ 5 examples: 1 Basic + 2 Medium + 2 Exam-level\n   ▸ Step-by-step solution with reasoning\n\n";
+  if(T6.mcq)p+=n++ +". MCQ BANK (20 QUESTIONS)\n   ▸ Standard 4-option MCQs in "+EX6+" paper style\n   ▸ Correct answer + 1-line explanation each\n\n";
+  if(T6.pyq)p+=n++ +". PYQ ANALYSIS ("+pyq+")\n   ▸ 8 most representative past questions from \""+TOP+"\"\n   ▸ Year | Question | Answer | Key insight\n\n";
+  if(T6.examtip)p+=n++ +". EXAM STRATEGY\n   ▸ Time allocation for \""+TOP+"\" in "+EX6+" paper\n   ▸ High-ROI sub-topics to focus on\n\n";
+  if(T6.ssb_guide&&(t6Sj==="cds"||t6Sj==="nda"||t6Sj==="capf"))p+=n++ +". SSB / SELECTION PROCESS GUIDANCE\n   ▸ What the "+EX6+" selection board tests in this area\n   ▸ OIR test, PPDT, GTO, psychological tests overview\n   ▸ How to prepare for the "+EX6+" personality assessment\n\n";
+  if(T6.syllabus_map)p+=n++ +". SYLLABUS MAPPING\n   ▸ Complete "+EX6+" syllabus for \""+TOP+"\"\n   ▸ Where it appears (Paper 1 / Paper 2 / Technical)\n   ▸ Weightage in "+pyq+" papers\n\n";
+  if(T6.study_plan)p+=n++ +". STUDY PLAN FOR \""+TOP+"\"\n   ▸ Recommended books / resources for "+EX6+"\n   ▸ Weekly preparation timeline\n   ▸ Practice paper strategy\n\n";
+  p+="  Sections: "+act6.map(s=>s.lb).join(" · ")+"\n";
+  p+="  [Generated by UPSC AI Prompt Generator — Raghavbegins | "+EX6+" Module "+y+"]";
+  document.getElementById("t6-title").textContent=TOP+" — "+EX6;
+  document.getElementById("t6-sub").textContent=EX6+" · "+y;
+  document.getElementById("t6-stats").innerHTML="<div class=\"osp osp-v\">Exam: <span>"+EX6.split("(")[0].trim()+"</span></div><div class=\"osp osp-v\">Year: <span>"+y+"</span></div><div class=\"osp osp-v\">Sections: <span>"+act6.length+"</span></div>";
+  document.getElementById("t6-pa").textContent=p;
+  buildAIRow("t6-air","t6-pa");
+  document.getElementById("t6-oc").style.display="block";
+  document.getElementById("t6-emp").style.display="none";
+  setTimeout(()=>document.getElementById("t6-oc").scrollIntoView({behavior:"smooth",block:"start"}),120);
+  showToast("Prompt generated for "+EX6+"!");
+  if(typeof gtag!=="undefined")gtag("event","generate_prompt",{event_category:"upsc_other",event_label:t6Lb});
+}
+
+</script>
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-analytics.js";
+    const firebaseConfig = {
+      apiKey: "AIzaSyCumDxKiDMd72dRmY6igXXxOypJe1JvD0g",
+      authDomain: "bharatexam-d477c.firebaseapp.com",
+      projectId: "bharatexam-d477c",
+      storageBucket: "bharatexam-d477c.firebasestorage.app",
+      messagingSenderId: "977099665337",
+      appId: "1:977099665337:web:6c9fc3e3abd15e67929068",
+      measurementId: "G-B0Z2G21W4F"
+    };
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+<script src="js/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+{
+  "plans": [
+    {
+      "id": "plan-30-days",
+      "title": "30-Day Comprehensive Foundation to Ranker Roadmap",
+      "target": "Aspirants targeting 18+ out of 20 marks in RRB Office Assistant / PO Mains",
+      "dailyCommitment": "45 - 60 minutes daily",
+      "weeks": [
+        {
+          "week": 1,
+          "title": "Computer Fundamentals, Architecture & Memory Hierarchy",
+          "days": [
+            {
+              "day": 1,
+              "topic": "Generations of Computers & Hardware Components",
+              "action": "Read Fundamentals module, inspect CPU Simulator."
+            },
+            {
+              "day": 2,
+              "topic": "CPU Architecture, Registers & Machine Cycle",
+              "action": "Run Fetch-Decode-Execute pipeline simulator."
+            },
+            {
+              "day": 3,
+              "topic": "Primary Memory (RAM, ROM, Cache L1-L3)",
+              "action": "Study Memory Hierarchy and solve 25 memory MCQs."
+            },
+            {
+              "day": 4,
+              "topic": "Secondary Storage & File Systems (FAT32 vs NTFS)",
+              "action": "Compare storage drives and write flashcards."
+            },
+            {
+              "day": 5,
+              "topic": "Number Systems & Binary Conversions",
+              "action": "Use Number System Converter tool (Dec, Bin, Oct, Hex)."
+            },
+            {
+              "day": 6,
+              "topic": "Ports, Buses (PCI, SATA) & Peripheral Devices",
+              "action": "Review I/O devices and connectors."
+            },
+            {
+              "day": 7,
+              "topic": "Weekly Revision & Milestone Quiz 1",
+              "action": "Take 30 questions quiz on Week 1 topics."
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "title": "Operating Systems & Microsoft Office Mastery",
+          "days": [
+            {
+              "day": 8,
+              "topic": "OS Functions & Types (RTOS, Time-Sharing)",
+              "action": "Read OS module and Spooling vs Buffering notes."
+            },
+            {
+              "day": 9,
+              "topic": "Booting Process (POST, BIOS vs UEFI, MBR vs GPT)",
+              "action": "Memorize 7 boot steps and cold vs warm boot."
+            },
+            {
+              "day": 10,
+              "topic": "MS Word: Ribbon Tabs, Mail Merge, Formatting",
+              "action": "Learn Word tab actions and margin definitions."
+            },
+            {
+              "day": 11,
+              "topic": "MS Excel: Grid Architecture & Core Functions",
+              "action": "Practice with Mini Excel Simulator (=SUM, =IF)."
+            },
+            {
+              "day": 12,
+              "topic": "MS Excel: Cell References ($A$1) & Error Codes",
+              "action": "Memorize 8 Excel error types (#DIV/0!, #REF!)."
+            },
+            {
+              "day": 13,
+              "topic": "MS PowerPoint & Universal Keyboard Shortcuts",
+              "action": "Drill top 50 shortcuts in Keyboard Shortcut Lab."
+            },
+            {
+              "day": 14,
+              "topic": "Weekly Revision & Milestone Quiz 2",
+              "action": "Take 35 questions quiz on Office & OS."
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "title": "Computer Networks, OSI Model & Cybersecurity",
+          "days": [
+            {
+              "day": 15,
+              "topic": "Network Types (LAN, MAN, WAN) & Topologies",
+              "action": "Build topologies in Network Topology Builder."
+            },
+            {
+              "day": 16,
+              "topic": "Network Hardware (Hub, Switch, Router, Gateway)",
+              "action": "Understand collision vs broadcast domains."
+            },
+            {
+              "day": 17,
+              "topic": "7 OSI Layers & TCP/IP Stack In-Depth",
+              "action": "Use OSI Layer Inspector interactive simulator."
+            },
+            {
+              "day": 18,
+              "topic": "Protocols & Port Numbers (80, 443, 21, 25, 110, 143)",
+              "action": "Memorize master port directory."
+            },
+            {
+              "day": 19,
+              "topic": "IP Addressing: IPv4 Classes & Subnetting Basics vs IPv6",
+              "action": "Review private IP ranges and loopback."
+            },
+            {
+              "day": 20,
+              "topic": "Malware Types (Virus, Worm, Trojan, Ransomware)",
+              "action": "Read cybersecurity taxonomy and mitigation."
+            },
+            {
+              "day": 21,
+              "topic": "Cyber Attacks & Cryptography (Symmetric vs Asymmetric)",
+              "action": "Run Phishing Attack Detector simulator."
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "title": "Database, Digital Banking & Full Exam Simulation",
+          "days": [
+            {
+              "day": 22,
+              "topic": "DBMS Concepts, Keys & Normalization (1NF - BCNF)",
+              "action": "Learn Candidate/Primary/Foreign Keys and ACID."
+            },
+            {
+              "day": 23,
+              "topic": "SQL Sub-Languages (DDL, DML, DQL, DCL, TCL)",
+              "action": "Review DROP vs TRUNCATE vs DELETE."
+            },
+            {
+              "day": 24,
+              "topic": "Programming Basics & Data Structures (Stack, Queue)",
+              "action": "Inspect Stack/Queue animations in DS Visualizer."
+            },
+            {
+              "day": 25,
+              "topic": "Digital Banking: RTGS, NEFT, IMPS, UPI, AePS, CTS",
+              "action": "Memorize timing, limits, and settlement matrix."
+            },
+            {
+              "day": 26,
+              "topic": "Card Tech, RBI Guidelines, IT Act 2000 & CERT-In",
+              "action": "Study Section 66, CISO, and SOC rules."
+            },
+            {
+              "day": 27,
+              "topic": "Abbreviations Dictionary & Flashcards Review",
+              "action": "Review Leitner 5-box spaced repetition deck."
+            },
+            {
+              "day": 28,
+              "topic": "Full Length Mock Test 1 (RRB Mains 40 Qs)",
+              "action": "Simulate real exam under 20 minutes timer."
+            },
+            {
+              "day": 29,
+              "topic": "Mistakes Notebook Analysis & Full Length Mock Test 2",
+              "action": "Review weak concepts and take Mock 2."
+            },
+            {
+              "day": 30,
+              "topic": "Final Exam Eve High-Yield Revision",
+              "action": "Review 50 Top Exam Traps & full forms."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plan-15-days",
+      "title": "15-Day High-Yield Sprint",
+      "target": "Candidates with basic knowledge wanting rapid revision and score maximization",
+      "dailyCommitment": "60 - 90 minutes daily",
+      "days": [
+        {
+          "day": 1,
+          "focus": "Fundamentals, CPU Architecture & Memory Hierarchy"
+        },
+        {
+          "day": 2,
+          "focus": "Operating Systems & Spooling/Buffering"
+        },
+        {
+          "day": 3,
+          "focus": "MS Word & Ribbon Tabs"
+        },
+        {
+          "day": 4,
+          "focus": "MS Excel Formulas, Errors & Cell References"
+        },
+        {
+          "day": 5,
+          "focus": "MS PowerPoint & Top 70 Keyboard Shortcuts"
+        },
+        {
+          "day": 6,
+          "focus": "Network Topologies & Network Hardware"
+        },
+        {
+          "day": 7,
+          "focus": "OSI 7 Layers & Master Port Numbers"
+        },
+        {
+          "day": 8,
+          "focus": "IPv4 vs IPv6 & Internet/DNS Architecture"
+        },
+        {
+          "day": 9,
+          "focus": "Cybersecurity, Malware Taxonomy & IT Act"
+        },
+        {
+          "day": 10,
+          "focus": "Database Concepts, Keys & SQL Sub-Languages"
+        },
+        {
+          "day": 11,
+          "focus": "Data Structures (Stack/Queue) & Translators"
+        },
+        {
+          "day": 12,
+          "focus": "Digital Banking Systems (RTGS/NEFT/IMPS/UPI/CTS)"
+        },
+        {
+          "day": 13,
+          "focus": "Full Abbreviations Dictionary & Speed Drills"
+        },
+        {
+          "day": 14,
+          "focus": "Full Mock Test 1 & Weakness Analysis"
+        },
+        {
+          "day": 15,
+          "focus": "Full Mock Test 2 & Mistakes Notebook Review"
+        }
+      ]
+    }
+  ]
+}

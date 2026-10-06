@@ -1,0 +1,17 @@
+{
+  "name": "UPPRPB MASTER - UP Police Preparation Ecosystem",
+  "short_name": "UPPRPB MASTER",
+  "description": "Complete preparation ecosystem for Uttar Pradesh Police recruitment examinations (Constable, Sub-Inspector, Computer Operator, Radio Police, Ministerial).",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#1e3a8a",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

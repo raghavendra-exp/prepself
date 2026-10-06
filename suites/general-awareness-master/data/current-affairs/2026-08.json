@@ -1,0 +1,287 @@
+{
+  "month": "August 2026",
+  "slug": "2026-08",
+  "total_records": 10,
+  "records": [
+    {
+      "id": "CA-2026-08-001",
+      "date": "2026-08-25",
+      "category": "BANKING & FINANCE",
+      "headline": "RBI Enhances Transaction Limit for UPI 123Pay and UPI Lite Wallet",
+      "summary": "To further boost digital payment penetration among feature phone users and small-value merchants, Reserve Bank of India raised per-transaction limit for UPI 123Pay from ₹5,000 to ₹10,000, and UPI Lite wallet limit to ₹5,000 with per-transaction cap raised to ₹1,000.",
+      "exam_fact": "UPI 123Pay was launched by RBI & NPCI in March 2022 for 400+ million feature phone users without internet connectivity.",
+      "why_important": "Accelerates financial inclusion in semi-urban and rural areas (Tier-4 to Tier-6 centers).",
+      "related_static_topic": "NPCI payment products (IMPS, UPI, RuPay, AePS, NETC FASTag)",
+      "related_banking_topic": "Payment and Settlement Systems Act, 2007 (PSS Act 2007)",
+      "source": "RBI Monetary Policy Statement / Regulatory Notifications",
+      "source_url": "https://rbi.org.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "Which entity operates and manages the Unified Payments Interface (UPI) infrastructure in India?",
+          "options": [
+            "Reserve Bank of India (RBI)",
+            "National Payments Corporation of India (NPCI)",
+            "State Bank of India (SBI)",
+            "NITI Aayog",
+            "Ministry of Electronics & IT (MeitY)"
+          ],
+          "answer": 1,
+          "explanation": "National Payments Corporation of India (NPCI), an umbrella organization for retail payment systems founded under PSS Act 2007, manages UPI."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-08-002",
+      "date": "2026-08-22",
+      "category": "INTERNATIONAL",
+      "headline": "World Bank Releases World Development Report 2026: Middle-Income Trap and Clean Transitions",
+      "summary": "The World Bank published its flagship World Development Report focusing on strategies for developing nations to transcend middle-income economic stagnation through the '3i' framework: Investment, Infusion, and Innovation.",
+      "exam_fact": "World Bank Group consists of 5 institutions: IBRD, IDA, IFC, MIGA, and ICSID. Headquartered in Washington D.C. Ajay Banga is the President.",
+      "why_important": "Guides developing nations like India on escaping the middle-income trap and scaling manufacturing and digital capabilities.",
+      "related_static_topic": "Bretton Woods Conference 1944, IBRD vs IDA (Soft Loan Window)",
+      "related_banking_topic": "External Commercial Borrowings (ECB) and Multilateral Project Financing",
+      "source": "World Bank Group (worldbank.org)",
+      "source_url": "https://www.worldbank.org",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "Which arm of the World Bank Group is widely known as the 'Soft Loan Window' for providing concessional zero-interest credits to the world's poorest countries?",
+          "options": [
+            "International Bank for Reconstruction and Development (IBRD)",
+            "International Development Association (IDA)",
+            "International Finance Corporation (IFC)",
+            "Multilateral Investment Guarantee Agency (MIGA)",
+            "International Centre for Settlement of Investment Disputes (ICSID)"
+          ],
+          "answer": 1,
+          "explanation": "The International Development Association (IDA), established in 1960, is known as the World Bank's 'Soft Loan Window' offering long-term zero or low-interest loans."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-08-003",
+      "date": "2026-08-19",
+      "category": "GOVERNMENT SCHEMES",
+      "headline": "Pradhan Mantri Jan Dhan Yojana (PMJDY) Completes 12 Years: Total Beneficiary Accounts Cross 53 Crore",
+      "summary": "PMJDY marked its 12th anniversary. Official data revealed total accounts crossed 53.5 Crore with over 55% held by women beneficiaries and cumulative deposits exceeding ₹2.35 Lakh Crore.",
+      "exam_fact": "PMJDY was launched nationwide on 28th August 2014 with 6 pillars: Universal banking access, Basic savings bank accounts with RuPay debit card & accident cover of ₹2 Lakh, Overdraft up to ₹10,000, Financial literacy, Credit guarantee fund, and Micro-insurance/pension.",
+      "why_important": "Formed the foundational JAM Trinity (Jan Dhan-Aadhaar-Mobile) enabling direct DBT transfers worth trillions.",
+      "related_static_topic": "Financial Inclusion Committees: Nachiket Mor Committee, Khan Committee",
+      "related_banking_topic": "Basic Savings Bank Deposit Account (BSBDA) guidelines issued by RBI",
+      "source": "Department of Financial Services, Ministry of Finance (pib.gov.in)",
+      "source_url": "https://pmjdy.gov.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "What is the maximum overdraft (OD) facility available to eligible PMJDY account holders?",
+          "options": [
+            "₹2,000",
+            "₹5,000",
+            "₹10,000",
+            "₹15,000",
+            "₹20,000"
+          ],
+          "answer": 2,
+          "explanation": "Eligible PMJDY account holders are entitled to an overdraft (OD) facility of up to ₹10,000 (with no conditions asked for OD up to ₹2,000)."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-08-004",
+      "date": "2026-08-15",
+      "category": "NATIONAL",
+      "headline": "Prime Minister Addresses Nation from Red Fort on 80th Independence Day: Roadmap for 'Viksit Bharat @2047'",
+      "summary": "On the 80th Independence Day, the PM laid down key economic and social targets including semiconductor self-reliance, green hydrogen energy independence, and creation of 75,000 new medical seats across India.",
+      "exam_fact": "India targets becoming a developed nation ('Viksit Bharat') by 2047, the centenary of India's independence.",
+      "why_important": "Sets policy priorities for infrastructure, domestic manufacturing, and high-tech capital goods.",
+      "related_static_topic": "National Symbols of India (National Flag, Anthem, Song, Emblem) & Constitutional History",
+      "related_banking_topic": "Capital expenditure loans to states for capex creation",
+      "source": "Press Information Bureau (PIB)",
+      "source_url": "https://pib.gov.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "The constitutional target year designated for achieving 'Viksit Bharat' (Developed Nation status for India) is:",
+          "options": [
+            "2030",
+            "2035",
+            "2040",
+            "2047",
+            "2050"
+          ],
+          "answer": 3,
+          "explanation": "'Viksit Bharat @2047' represents the Government of India's comprehensive vision to transform India into a developed nation by the centenary year of independence (2047)."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-08-005",
+      "date": "2026-08-12",
+      "category": "SCIENCE & TECH",
+      "headline": "India Launches First National Supercomputing Mission High-Performance Cluster 'PARAM Rudra'",
+      "summary": "The Ministry of Electronics and Information Technology (MeitY) and C-DAC deployed three new indigenously designed 'PARAM Rudra' supercomputing systems at Giant Metrewave Radio Telescope (Pune), Inter-University Accelerator Centre (Delhi), and S.N. Bose National Centre (Kolkata).",
+      "exam_fact": "C-DAC (Centre for Development of Advanced Computing) developed India's first indigenous supercomputer 'PARAM 8000' in 1991 led by Dr. Vijay Bhatkar.",
+      "why_important": "Empowers astrophysics research, atomic material simulations, and weather forecasting algorithms.",
+      "related_static_topic": "Supercomputing in India, C-DAC, Giant Metrewave Radio Telescope (GMRT)",
+      "related_banking_topic": "Cybersecurity frameworks for core banking solution (CBS) infrastructure",
+      "source": "MeitY / C-DAC",
+      "source_url": "https://meity.gov.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "India's first indigenous supercomputer, PARAM 8000, was developed in 1991 by which institution?",
+          "options": [
+            "ISRO",
+            "DRDO",
+            "BARC",
+            "C-DAC",
+            "IIT Bombay"
+          ],
+          "answer": 3,
+          "explanation": "Centre for Development of Advanced Computing (C-DAC) built India's first supercomputer PARAM 8000 in 1991."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-08-006",
+      "date": "2026-08-09",
+      "category": "ECONOMY",
+      "headline": "RBI Monetary Policy Committee (MPC) Keeps Repo Rate Unchanged at 6.50% with Focus on 'Withdrawal of Accommodation'",
+      "summary": "The six-member Monetary Policy Committee (MPC) of RBI voted with a 4:2 majority to keep the benchmark policy repo rate unchanged at 6.50%, retaining vigilance on food inflation while projecting FY27 real GDP growth at 7.2%.",
+      "exam_fact": "Under Section 45ZB of RBI Act 1934, MPC comprises 6 members: 3 from RBI (Governor as Ex-officio Chair, Deputy Governor in-charge of MP, and one officer) and 3 external members appointed by the Central Government. Inflation target is 4% with a tolerance band of +/- 2% (2% to 6%).",
+      "why_important": "Determines interest rate benchmark for floating-rate home loans, personal loans, and banking deposit rates.",
+      "related_static_topic": "Monetary Policy instruments (Repo, Reverse Repo, SDF, MSF, CRR, SLR)",
+      "related_banking_topic": "External Benchmark Lending Rate (EBLR) linked to RBI Repo Rate",
+      "source": "Reserve Bank of India Monetary Policy Statement",
+      "source_url": "https://rbi.org.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "Under the Flexible Inflation Targeting (FIT) framework established under the RBI Act, what is the mandated consumer inflation target band?",
+          "options": [
+            "3% (+/- 1%)",
+            "4% (+/- 2%)",
+            "5% (+/- 1%)",
+            "6% (+/- 2%)",
+            "2% to 4%"
+          ],
+          "answer": 1,
+          "explanation": "Under Section 45ZA of the RBI Act 1934, the Central Government in consultation with RBI has set the consumer inflation target at 4% with a tolerance band of +/- 2% (i.e. 2% to 6%)."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-08-007",
+      "date": "2026-08-07",
+      "category": "DEFENCE",
+      "headline": "Indian Air Force Participates in Multilateral Air Exercise 'Tarang Shakti 2026'",
+      "summary": "The Indian Air Force hosted 'Tarang Shakti', one of the largest multilateral air combat exercises in South Asia, at Suringar/Jodhpur featuring fighter jets and observers from over 15 partner nations including France, Germany, USA, and UK.",
+      "exam_fact": "Tarang Shakti is India's first indigenous multinational air exercise. Rafale, Su-30MKI, LCA Tejas, and Mirage 2000 participated.",
+      "why_important": "Demonstrates IAF's interoperability and power projection across the Indo-Pacific theatre.",
+      "related_static_topic": "Important Joint Military Exercises of India (Garuda, Varuna, Yudh Abhyas, Malabar, Mitra Shakti)",
+      "related_banking_topic": "Defence procurement offset policies and domestic aerospace MSMEs",
+      "source": "Indian Air Force (indianairforce.nic.in)",
+      "source_url": "https://indianairforce.nic.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "'Tarang Shakti' is a major multilateral military exercise hosted by which branch of the Indian Armed Forces?",
+          "options": [
+            "Indian Army",
+            "Indian Air Force",
+            "Indian Navy",
+            "Indian Coast Guard",
+            "Special Forces Command"
+          ],
+          "answer": 1,
+          "explanation": "Tarang Shakti is the largest multilateral air combat exercise organized and hosted by the Indian Air Force."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-08-008",
+      "date": "2026-08-05",
+      "category": "ENVIRONMENT",
+      "headline": "Project Tiger and Project Elephant Joint Review: India's Tiger Population Estimated at 3,682",
+      "summary": "The National Tiger Conservation Authority (NTCA) and Wildlife Institute of India (WII) released updated status report confirming India hosts 75% of the world's wild tiger population, with Madhya Pradesh retaining the 'Tiger State' title with 785 tigers.",
+      "exam_fact": "Project Tiger was launched on 1st April 1973 at Corbett National Park, Uttarakhand. International Tiger Day is celebrated on 29th July annually.",
+      "why_important": "Validates apex predator conservation and habitat restoration across 55+ designated Tiger Reserves.",
+      "related_static_topic": "Tiger Reserves of India, NTCA (Statutory body under Wildlife Protection Act 1972)",
+      "related_banking_topic": "Corporate Social Responsibility (CSR) funding for biodiversity conservation",
+      "source": "National Tiger Conservation Authority (NTCA)",
+      "source_url": "https://projecttiger.nic.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "Which state in India currently hosts the highest number of wild tigers according to NTCA census reports?",
+          "options": [
+            "Karnataka",
+            "Uttarakhand",
+            "Madhya Pradesh",
+            "Maharashtra",
+            "Assam"
+          ],
+          "answer": 2,
+          "explanation": "Madhya Pradesh has the highest number of wild tigers (785 tigers), closely followed by Karnataka (563 tigers)."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-08-009",
+      "date": "2026-08-03",
+      "category": "APPOINTMENTS",
+      "headline": "Justice Sanjiv Khanna Appointed as Chairperson of National Legal Services Authority (NALSA)",
+      "summary": "In accordance with tradition under the Legal Services Authorities Act 1987, the senior-most puisne judge of the Supreme Court was nominated as the Executive Chairman of NALSA.",
+      "exam_fact": "Chief Justice of India is the Patron-in-Chief of NALSA. Free legal aid is guaranteed under Article 39A (Directive Principles of State Policy) inserted via the 42nd Amendment Act 1976.",
+      "why_important": "Guarantees free, competent legal representation to marginalized citizens and organizes nationwide Lok Adalats.",
+      "related_static_topic": "Article 39A (Equal Justice & Free Legal Aid), Supreme Court of India, Legal Services Authorities Act 1987",
+      "related_banking_topic": "Lok Adalats for speedy recovery of non-performing assets (NPAs) up to ₹20 Lakh",
+      "source": "Ministry of Law and Justice",
+      "source_url": "https://nalsa.gov.in",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "Which Article of the Indian Constitution directs the State to provide free legal aid to ensure equal justice for poor citizens?",
+          "options": [
+            "Article 38",
+            "Article 39A",
+            "Article 41",
+            "Article 43A",
+            "Article 48A"
+          ],
+          "answer": 1,
+          "explanation": "Article 39A (inserted by the 42nd Amendment in 1976) obligates the state to provide free legal aid by suitable legislation or schemes."
+        }
+      ]
+    },
+    {
+      "id": "CA-2026-08-010",
+      "date": "2026-08-01",
+      "category": "REPORTS & INDEXES",
+      "headline": "UNDP Releases Global Multidimensional Poverty Index (MPI): 415 Million Indians Exited Poverty in 15 Years",
+      "summary": "United Nations Development Programme (UNDP) and Oxford Poverty and Human Development Initiative (OPHI) reported India's historic achievement of lifting 415 million people out of multidimensional poverty between 2005-06 and 2019-21.",
+      "exam_fact": "Global MPI evaluates poverty across 3 dimensions (Health, Education, Standard of living) and 10 indicators (Nutrition, Child mortality, Years of schooling, Attendance, Cooking fuel, Sanitation, Drinking water, Electricity, Housing, Assets).",
+      "why_important": "Proves substantial socioeconomic mobility through basic amenity saturation (water, sanitation, electricity, LPG).",
+      "related_static_topic": "UNDP (HQ New York), Human Development Index (HDI), Multidimensional Poverty Index (MPI)",
+      "related_banking_topic": "Priority sector credit impact on living standards and household micro-assets",
+      "source": "UNDP / OPHI Global MPI Report",
+      "source_url": "https://hdr.undp.org",
+      "last_verified": "2026-09-13",
+      "mcqs": [
+        {
+          "question": "The Global Multidimensional Poverty Index (MPI) assesses poverty across how many core dimensions?",
+          "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five",
+            "Six"
+          ],
+          "answer": 1,
+          "explanation": "Global MPI measures poverty across three equally-weighted dimensions: Health, Education, and Standard of Living (subdivided into 10 indicators)."
+        }
+      ]
+    }
+  ]
+}

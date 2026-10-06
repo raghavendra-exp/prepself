@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>History of Uttar Pradesh — For UPPSC | Complete History of India</title>
+<meta name="description" content="A dedicated Uttar Pradesh history track for UPPSC (GS Paper I & II) — from prehistoric settlements through the Vedic, Mauryan, Gupta, medieval Sultanate and Mughal periods, the Revolt of 1857, British rule, and socio-religious reform.">
+<link rel="stylesheet" href="css/style.css">
+  <!-- Google Analytics Tracking (G-B0Z2G21W4F) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B0Z2G21W4F');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="site-nav" id="siteNav"></nav>
+
+<main id="main">
+  <div class="wrap"><div class="breadcrumb" id="breadcrumb"></div></div>
+
+  <header class="hero" style="padding:48px 0 40px;">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="glyph-row">उत्तर प्रदेश उत्तर प्रदेश उत्तर प्रदेश उत्तर प्रदेश उत्तर प्रदेश उत्तर प्रदेश</div>
+    </div>
+    <div class="wrap">
+      <span class="eyebrow">A Dedicated Track · For UPPSC (Prelims + Mains) · GS Paper I &amp; II</span>
+      <h1>History of <em>Uttar Pradesh</em></h1>
+      <p class="lede">The land of Lord Ram, Lord Krishna, Buddha and Mahavira — from prehistoric settlements to the modern state. Exam-focused pages, fully cross-linked with the national chronology and knowledge graph.</p>
+      <div class="hero-ctas">
+        <a href="period.html?id=up-history-overview" class="btn btn-primary">Start with the Master Flow Chart</a>
+        <a href="#up-periods" class="btn btn-outline" id="upBrowseAllBtn">Browse All Pages</a>
+      </div>
+      <div class="stat-strip reveal" id="upStatStrip">
+        <div class="stat"><span class="num" id="upPageCount">—</span><span class="lab">UP-Specific Pages</span></div>
+        <div class="stat"><span class="num">—</span><span class="lab">Dated Events</span></div>
+        <div class="stat"><span class="num">—</span><span class="lab">Key Personalities</span></div>
+        <div class="stat"><span class="num">Prehistory</span><span class="lab">Coverage Begins</span></div>
+        <div class="stat"><span class="num">Present</span><span class="lab">Coverage Ends</span></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="tablet" style="padding:24px 28px;">
+        <span class="t-cat cat-up" style="margin-bottom:10px;">Why this exists</span>
+        <p style="margin:0; color:var(--ink-soft); font-size:1rem;">Uttar Pradesh has one of the longest, richest cultural sequences of any Indian state — six of the sixteen Mahajanapadas, the Mauryan and Gupta core, Kannauj's imperial centuries, the Delhi Sultanate's Doab heartland, the Mughal capital cities, and the strongest base of the 1857 revolt all sit within its present borders. UPPSC's GS papers draw heavily on this. Every page below follows the same structure as its national counterpart — chronological phases, aspect-wise tables, women's contributions, UPSC Prelims/Mains panels — and is fully wired into the site's search and knowledge graph, so a name like "Akbar" or "Ashoka" here links straight back to its national-level page.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="up-periods">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="kicker">The Complete UP Track</span>
+          <h2 class="mt0" id="upTrackHeading">One Continuous Regional Story</h2>
+        </div>
+      </div>
+      <div class="journey-rail">
+        <div class="journey-track" id="upJourneyTrack"></div>
+      </div>
+      <div class="card-grid" id="upPeriodGrid" style="margin-top:34px;"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="tablet" style="padding:28px 30px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
+        <div>
+          <span class="t-cat cat-world" style="margin-bottom:10px;">Knowledge Graph</span>
+          <h3 style="margin-bottom:6px;">Every UP-specific figure connects back to the national story</h3>
+          <p class="t-tag" style="margin:0; max-width:56ch;">Akbar, Ashoka, Xuanzang and dozens of others appear in both tracks — search them in the Knowledge Graph Explorer to see every appearance at once.</p>
+        </div>
+        <a href="graph.html" class="btn btn-primary" style="flex-shrink:0;">Open the Knowledge Graph →</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="siteFooter"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+<script src="js/graph.js"></script>
+<script>
+async function initUpHub(){
+  renderNav('up-history.html');
+  renderBreadcrumb([{label:'Home',href:'index.html'},{label:'Uttar Pradesh History (UPPSC)'}]);
+  const upPeriods = await HistoryData.byRegion('up');
+
+  document.getElementById('upJourneyTrack').innerHTML = upPeriods.map(p => `
+    <a class="j-node" href="period.html?id=${p.id}">
+      <span class="j-range">${p.dateRange.split(' ')[0]}</span>
+      <span class="dot"></span>
+      <span class="j-title">${p.title.replace(' in Uttar Pradesh','').replace('Uttar Pradesh ','').replace(' of Uttar Pradesh','')}</span>
+    </a>`).join('');
+
+  document.getElementById('upPeriodGrid').innerHTML = upPeriods.map(p => `
+    <a class="tablet reveal" href="period.html?id=${p.id}">
+      <span class="t-cat cat-up">UPPSC</span>
+      <span class="t-range">${p.dateRange}</span>
+      <h3>${p.title}</h3>
+      <p class="t-tag">${p.tagline}</p>
+      <span class="t-arrow">Explore period →</span>
+    </a>`).join('');
+
+  let events = 0, people = new Set();
+  upPeriods.forEach(p => {
+    events += (p.events||[]).length;
+    (p.people||[]).forEach(x => people.add(x.name));
+    (p.women||[]).forEach(x => people.add(x.name));
+  });
+  document.getElementById('upPageCount').textContent = upPeriods.length;
+  document.getElementById('upTrackHeading').textContent = `${upPeriods.length} Pages, One Continuous Regional Story`;
+  const stats = document.querySelectorAll('#upStatStrip .num');
+  stats[1].textContent = events + '+';
+  stats[2].textContent = people.size + '+';
+
+  renderFooter();
+  initReveal();
+}
+initUpHub();
+</script>
+</body>
+</html>
