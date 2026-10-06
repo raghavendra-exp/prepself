@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <!-- Core Landing & Hub -->
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://raghavendra-exp.github.io/prepself/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://raghavendra-exp.github.io/prepself/hi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://raghavendra-exp.github.io/prepself/"/>
     <image:image>
       <image:loc>https://raghavendra-exp.github.io/prepself/images/PrepSelf-og.png</image:loc>
       <image:title>PrepSelf - 80+ Indian Competitive Exams AI Preparation Hub</image:title>
     </image:image>
   </url>
 
-  <!-- About Us & Mission Hub -->
+  <!-- Complete HTML Sitemap & Directory -->
   <url>
-    <loc>https://raghavendra-exp.github.io/prepself/about.html</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-
-  <!-- User Guide & Platform Features Directory -->
-  <url>
-    <loc>https://raghavendra-exp.github.io/prepself/user-guide.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <loc>https://raghavendra-exp.github.io/prepself/sitemap.html</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
@@ -33,7 +29,7 @@
   <!-- Ready-Made Study Modules Hub -->
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/study-modules.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -41,362 +37,544 @@
   <!-- Interactive Mock Quiz Simulator & Roadmaps -->
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/quiz-simulator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/all-exam-roadmaps.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/IBPS_SBI_Free_Library.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/IBPS_SBI_Clerk_Roadmap.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/user-guide.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/trend-analysis-generator.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/about.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/contact.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/privacy-policy.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
 
-  <!-- Primary Exam AI Intelligence Engines -->
+  <!-- 18 Dedicated Exam AI Prompt Generators -->
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/bank_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/upsc_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/ssc_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/railway_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/defence_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/gate_psu_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/jee_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/neet_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/law_entrance_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/mba_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/cacs_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/cuet_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/insurance_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/judiciary_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/net_jrf_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/psc_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/teaching_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/agriculture_exam_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/more_exams_prompt_generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
-  <!-- Interactive Utilities & Analysis -->
-  <url>
-    <loc>https://raghavendra-exp.github.io/prepself/trend-analysis-generator.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <!-- Support & Policies -->
-  <url>
-    <loc>https://raghavendra-exp.github.io/prepself/contact.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-  <url>
-    <loc>https://raghavendra-exp.github.io/prepself/privacy-policy.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-
-  <!-- Static Dedicated Study Modules (Rankable Standalone URLs) -->
+  <!-- 27 Static Topic Syllabi & Guides (modules/*.html) -->
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/bank-quant.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/bank-reasoning.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/bank-english.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/banking-awareness.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/general-awareness.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/editorial-hub.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/computer-awareness.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/gs4.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/gs3.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/gs2.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/history.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/geography.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/india-world.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/up-teacher.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/uppsc-ro-aro.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/rrb.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/ssc.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/cuet.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/law.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/engineering.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/mba.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/neet.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/upsssc-pet.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/upprpb.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/defence.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/certifications.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/modules/science-teaching.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
+  </url>
+
+  <!-- 27 Full Interactive Master Suites (suites/*/index.html) -->
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/bank-quant/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/bank-reasoning-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/banking-awareness-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/computer-awareness-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/cuet-master-india/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/daily-editorial-hub/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/defence-exams-india/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/engineering-entrance-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/english-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/general-awareness-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/general-science-teaching-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/geography-of-india/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/gs2-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/gs3-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/gs4-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/history-of-india/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/india-n-world/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/law-entrance-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/mba-entrance-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/neet-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/professional-certifications-india/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/rrb-master-india/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/ssc-master-india/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/up-teacher-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/upprpb-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/uppsc-ro-aro-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://raghavendra-exp.github.io/prepself/suites/upsssc-pet-master/index.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
 
   <!-- Dedicated Hindi Language Exam Preparation Hub & Modules (lang="hi") -->
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/hi/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://raghavendra-exp.github.io/prepself/hi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://raghavendra-exp.github.io/prepself/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://raghavendra-exp.github.io/prepself/"/>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/hi/upprpb.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://raghavendra-exp.github.io/prepself/hi/upprpb.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://raghavendra-exp.github.io/prepself/modules/upprpb.html"/>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/hi/upsssc-pet.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://raghavendra-exp.github.io/prepself/hi/upsssc-pet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://raghavendra-exp.github.io/prepself/modules/upsssc-pet.html"/>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/hi/up-teacher.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://raghavendra-exp.github.io/prepself/hi/up-teacher.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://raghavendra-exp.github.io/prepself/modules/up-teacher.html"/>
   </url>
   <url>
     <loc>https://raghavendra-exp.github.io/prepself/hi/uppsc-ro-aro.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://raghavendra-exp.github.io/prepself/hi/uppsc-ro-aro.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://raghavendra-exp.github.io/prepself/modules/uppsc-ro-aro.html"/>
   </url>
 
 </urlset>

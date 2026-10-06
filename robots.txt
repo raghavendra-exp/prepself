@@ -1,6 +1,20 @@
+# PrepSelf Robots.txt - Search Engine Crawler Directives
 User-agent: *
 Allow: /
-Allow: /prepself/
+Allow: /suites/
+Allow: /modules/
+Allow: /hi/
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /icons/
+Allow: /*.html
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.svg
+Allow: /*.webp
 Disallow: /admin.html
 Disallow: /prepself/admin.html
 Disallow: /*admin.html
@@ -12,16 +26,21 @@ Disallow: /COPYRIGHT
 
 User-agent: Googlebot
 Allow: /
-Allow: /prepself/
+Allow: /suites/
+Allow: /modules/
+Allow: /hi/
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /icons/
 Disallow: /admin.html
 Disallow: /prepself/admin.html
 Disallow: /*admin.html
 
 User-agent: Googlebot-Image
 Allow: /
-Allow: /prepself/
-Allow: /icons/
 Allow: /images/
+Allow: /icons/
 Allow: /*.png
 Allow: /*.jpg
 Allow: /*.svg
@@ -29,10 +48,13 @@ Allow: /*.webp
 
 User-agent: Bingbot
 Allow: /
-Allow: /prepself/
+Allow: /suites/
+Allow: /modules/
+Allow: /hi/
 Disallow: /admin.html
 Disallow: /prepself/admin.html
 Disallow: /*admin.html
 
-Sitemap: https://prepself.in/sitemap.xml
+# XML Sitemaps
 Sitemap: https://raghavendra-exp.github.io/prepself/sitemap.xml
+Sitemap: https://prepself.in/sitemap.xml
