@@ -144,6 +144,13 @@ Open `http://localhost:8080` in your web browser.
 
 ---
 
+## 🌐 Google Search Console & Custom Domain (`prepself.in`)
+
+For complete step-by-step instructions on verifying the site in Google Search Console via DNS TXT records, configuring DNS (A and CNAME records), and linking `prepself.in` on GitHub Pages, refer to:
+👉 **[Google Search Console & Custom Domain Setup Guide](SEARCH_CONSOLE_AND_DOMAIN_SETUP.md)**
+
+---
+
 ## 📜 Copyright & Open Access
 
 Designed and maintained for self-studying aspirants across India. 100% free forever, zero sign-up walls, and zero advertising clutter.
