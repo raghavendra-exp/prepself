@@ -102,6 +102,40 @@
       "icon": "🧩"
     }
   ],
+  "exam_hubs": [
+    {
+      "label": "SBI Bank Exams Hub",
+      "href": "hubs/sbi-bank-exams.html",
+      "icon": "🏦"
+    },
+    {
+      "label": "SSC CGL & CHSL Hub",
+      "href": "hubs/ssc-cgl-exams.html",
+      "icon": "🏛️"
+    },
+    {
+      "label": "UPSC Civil Services Hub",
+      "href": "hubs/upsc-ias-exams.html",
+      "icon": "📜"
+    },
+    {
+      "label": "Railway RRB Exams Hub",
+      "href": "hubs/railway-rrb-exams.html",
+      "icon": "🚆"
+    }
+  ],
+  "daily_features": [
+    {
+      "label": "Daily 5-Question Speed Drill",
+      "href": "daily-quiz.html",
+      "icon": "⚡"
+    },
+    {
+      "label": "Current Affairs & Banking Capsule",
+      "href": "current-affairs-capsule.html",
+      "icon": "📰"
+    }
+  ],
   "footer": {
     "copyright": "© 2026 PrepSelf • Released under the MIT License • Maintained by Raghavendra (Raghavbegins).",
     "disclaimer": "PrepSelf is an independent, non-commercial open education platform. PrepSelf is not affiliated with, endorsed by, or representative of any government body, ministry, or public recruitment agency."
