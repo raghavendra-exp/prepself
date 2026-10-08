@@ -1,21 +1,115 @@
 rules_version = '2';
+
+// ===============================================================
+// Assumed Data Model
+// ===============================================================
+//
+// Collection: stats
+// Document ID: siteVisits
+// Fields:
+//   - total: int (required, must be incremented by exactly 1 on update)
+//
+// Collection: users
+// Document ID: {userId} (Firebase Auth UID)
+// Fields:
+//   - User preferences, streaks, and learning states scoped strictly to document owner
+//
+// Collection: history
+// Document ID: {historyId} (auto-generated ID)
+// Fields:
+//   - uid: string (required, must match request.auth.uid)
+//   - tool: string (required, max 100 characters)
+//   - url: string (required, max 200 characters)
+//   - email: string (required, max 120 characters)
+//   - displayName: string (required, max 100 characters)
+//   - timestamp: timestamp (required, event log timestamp)
+//   - expiresAt: timestamp (optional, TTL document expiration timestamp)
+//
+// ===============================================================
+
 service cloud.firestore {
   match /databases/{database}/documents {
-    
-    // Public site statistics (visitor counter)
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+
+    // Check if the request is from an authenticated user
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Check if the authenticated user is the owner of the user resource
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Check if the user is a verified administrator via trusted token email
+    function isAdmin() {
+      return isAuthenticated() &&
+        'email' in request.auth.token &&
+        request.auth.token.email in ['raghavbegins@gmail.com', 'admin@prepself.in'];
+    }
+
+    // ===============================================================
+    // Domain Validators
+    // ===============================================================
+
+    // Validate atomic visitor counter increments (+1 only, total is int, no other keys altered)
+    function isValidSiteVisitUpdate() {
+      return request.resource.data.diff(resource.data).affectedKeys().hasOnly(['total']) &&
+        request.resource.data.total is int &&
+        request.resource.data.total == resource.data.total + 1;
+    }
+
+    // Validate history log schema on create
+    function isValidHistoryEntry(data) {
+      return data.keys().hasAll(['uid', 'tool', 'url', 'email', 'displayName', 'timestamp']) &&
+        data.keys().hasOnly(['uid', 'tool', 'url', 'email', 'displayName', 'timestamp', 'expiresAt']) &&
+        data.uid is string &&
+        data.uid == request.auth.uid &&
+        data.tool is string &&
+        data.tool.size() <= 100 &&
+        data.url is string &&
+        data.url.size() <= 200 &&
+        data.email is string &&
+        data.email.size() <= 120 &&
+        data.displayName is string &&
+        data.displayName.size() <= 100 &&
+        data.timestamp is timestamp &&
+        (!('expiresAt' in data) || data.expiresAt is timestamp);
+    }
+
+    // ===============================================================
+    // Collection Rules
+    // ===============================================================
+
+    // 1. Public visitor counter (stats/siteVisits)
     match /stats/siteVisits {
       allow read: if true;
       allow create: if false;
-      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['total'])
-                    && request.resource.data.total is int;
+      allow update: if isValidSiteVisitUpdate();
+      allow delete: if false;
     }
-    
-    // Authenticated user data (streaks, preferences, history)
+
+    // 2. User profile & study state (users/{userId})
     match /users/{userId} {
-      allow read, write: if request.auth != null && request.auth.uid == userId;
+      allow read, write: if isOwner(userId);
     }
-    
-    // Default lock down for all other collections
+
+    // 3. Activity / tool history logs (history/{historyId})
+    match /history/{historyId} {
+      // Read allowed ONLY for verified admins or the document owner (prevents email harvesting)
+      allow read: if isAdmin() || (isAuthenticated() && resource.data.uid == request.auth.uid);
+
+      // Create allowed only for authenticated user logging their own activity with valid schema
+      allow create: if isAuthenticated() && isValidHistoryEntry(request.resource.data);
+
+      // Append-only audit log: no updates or deletes permitted
+      allow update, delete: if false;
+    }
+
+    // 4. Global default deny for all unmatched paths
     match /{document=**} {
       allow read, write: if false;
     }

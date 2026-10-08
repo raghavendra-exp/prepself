@@ -1,19 +1,19 @@
 # PrepSelf — Premier Indian Competitive Exam Preparation Platform
 
 [![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub_Pages-blue?logo=github)](https://raghavendra-exp.github.io/prepself/)
-[![Zero External Dependencies](https://img.shields.io/badge/Dependencies-0_External-success)](https://github.com/raghavendra-exp/prepself)
+[![Vanilla Web Platform](https://img.shields.io/badge/Architecture-Vanilla_Web_No_Build-success)](https://github.com/raghavendra-exp/prepself)
 [![Custom Domain Ready](https://img.shields.io/badge/Domain-prepself.in-purple)](https://prepself.in)
 [![Open Access](https://img.shields.io/badge/Cost-100%25_Free_%26_Open-brightgreen)](#)
 
-> **PrepSelf** (`prepself.in`) is an all-in-one, unified self-study ecosystem for 80+ Indian competitive exams. Instant AI study prompts, 27 integrated interactive master suites, CBT mock test simulators, 4-phase preparation roadmaps, and statutory reference texts — unified in a **single repository with zero external dependencies**.
+> **PrepSelf** (`prepself.in`) is an all-in-one, unified self-study ecosystem for 80+ Indian competitive exams. Instant AI study prompts, 27 integrated interactive master suites, CBT mock test simulators, 4-phase preparation roadmaps, and statutory reference texts — unified in a **single repository with zero build steps or bundlers**.
 
 ---
 
 ## 🌟 Key Highlights & Unified Capabilities
 
-1. **Zero External Dependencies in a Single Repository**:
+1. **Pure Vanilla Web Architecture in a Single Repository**:
    - All 27 specialized exam suites (previously hosted across 26 separate GitHub Pages repositories) are now embedded directly in `./suites/`.
-   - 100% self-contained: works out of the box on GitHub Pages, Vercel, Netlify, Cloudflare Pages, Firebase Hosting, Apache/Nginx, or running directly from local disk (`file://`).
+   - Requires zero node_modules, webpack, or compiler steps: works natively on GitHub Pages, Vercel, Netlify, Cloudflare Pages, Firebase Hosting, Apache/Nginx, or running directly from local disk (`file://`).
 
 2. **27 Integrated Interactive Master Suites (`study-modules.html`)**:
    - In-app interactive viewer with responsive catalog, instant search, quick filters, and direct standalone launchers.

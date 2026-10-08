@@ -95,21 +95,15 @@ strong{color:var(--txt)}
       <thead><tr><th>Service</th><th>Data Processed</th><th>Purpose</th><th>Requirement</th></tr></thead>
       <tbody>
         <tr>
-          <td><strong>Firebase Authentication (Optional)</strong></td>
-          <td>Google Display Name, Email address, Profile avatar URL, anonymous UID</td>
-          <td>Sync personal study history &amp; bookmarks across devices (Only if user chooses to sign in)</td>
+          <td><strong>Firebase Authentication &amp; Firestore (Optional)</strong></td>
+          <td>Google Display Name, Email address, anonymous UID, and recent tool activity records</td>
+          <td>Sync personal study streaks &amp; cross-device history (strictly 30-day automated TTL expiration; only active if user signs in)</td>
           <td><span class="badge b-opt">100% Optional</span></td>
         </tr>
         <tr>
           <td><strong>Google Analytics 4</strong></td>
           <td>Pages viewed, session duration, browser/device type, approximate city-level location</td>
           <td>Understand platform usage to improve study tools</td>
-          <td><span class="badge b-opt">Optional</span></td>
-        </tr>
-        <tr>
-          <td><strong>Google AdSense</strong></td>
-          <td>Browsing interests (via cookies), approximate location, ad interaction</td>
-          <td>Deliver relevant ads to keep the entire platform free forever</td>
           <td><span class="badge b-opt">Optional</span></td>
         </tr>
         <tr>
@@ -126,6 +120,7 @@ strong{color:var(--txt)}
       <li>Your generated study prompts (prompt generation runs locally in client-side JavaScript)</li>
       <li>Sensitive personal data (caste, religion, biometric, or health data)</li>
       <li>Commercial user profiling or reselling of student data to coaching telemarketers</li>
+      <li>Zero third-party advertising cookies (PrepSelf runs zero third-party ads)</li>
     </ul>
   </div>
 
@@ -135,7 +130,8 @@ strong{color:var(--txt)}
     <p>PrepSelf complies with the provisions of the <strong>Digital Personal Data Protection Act, 2023 (DPDP Act)</strong> of the Republic of India regarding the processing of digital personal data:</p>
     <ul>
       <li><strong>Data Fiduciary:</strong> Raghavbegins (Raghavendra), Bengaluru, Karnataka, India. Contact: <a href="contact.html">Platform Contact Desk</a>.</li>
-      <li><strong>Lawful Basis &amp; Notice:</strong> Personal data (email and name via Firebase) is processed solely upon explicit user consent during optional Google Sign-in to sync study history. You can use 100% of study modules, roadmaps, formulas, and prompt tools without signing in.</li>
+      <li><strong>Lawful Basis &amp; Notice:</strong> Personal data (email and name via Firebase) and tool history are processed solely upon explicit user consent during optional Google Sign-in to sync study history. You can use 100% of study modules, roadmaps, formulas, and prompt tools without signing in.</li>
+      <li><strong>Automated 30-Day Retention (TTL):</strong> User activity logs are strictly transient. Every activity entry carries an automated 30-day Time-To-Live expiration timestamp (`expiresAt`), after which records are automatically and permanently deleted from our database.</li>
       <li><strong>Right to Access &amp; Correction:</strong> Data principals have the right to request a summary of personal data processed and request correction of inaccurate data.</li>
       <li><strong>Right to Erasure (Account Deletion):</strong> You may withdraw consent and request immediate deletion of your synced study history by emailing support or using the in-app Sign Out control.</li>
       <li><strong>Protection of Children:</strong> PrepSelf does not track behavioral profiling of children or serve harmful targeted advertisements to minors.</li>
@@ -150,14 +146,12 @@ strong{color:var(--txt)}
       <tbody>
         <tr><td>rb_ck_*</td><td>This site</td><td>Stores your cookie consent (accept/essential only)</td><td>1 year</td></tr>
         <tr><td>_ga, _gid</td><td>Google Analytics</td><td>Tracks anonymous sessions and page views</td><td>2 years / 24 hrs</td></tr>
-        <tr><td>_gads, IDE</td><td>Google AdSense</td><td>Ad targeting and frequency capping</td><td>2 years</td></tr>
       </tbody>
     </table>
     <h3>Managing Your Cookies</h3>
     <ul>
       <li>Click <strong>"Essential Only"</strong> in our cookie banner to decline non-essential cookies</li>
       <li>Clear all cookies via your browser: Settings &rsaquo; Privacy &rsaquo; Clear browsing data</li>
-      <li>Opt out of Google personalised ads: <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">google.com/settings/ads</a></li>
       <li>Opt out of Google Analytics tracking: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics Opt-out</a></li>
       <li>General cookie information: <a href="https://www.aboutcookies.org" target="_blank" rel="noopener">aboutcookies.org</a></li>
     </ul>

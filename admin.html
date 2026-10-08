@@ -172,16 +172,50 @@ tr:hover td{background:var(--sf2)}
       if (rows.length === 0) {
         tbody.innerHTML = '<tr><td colspan="4"><div class="empty">No history entries yet — they will appear here once signed-in visitors start using the tools.</div></td></tr>';
       } else {
-        tbody.innerHTML = rows.map((d) => {
+        tbody.replaceChildren();
+        rows.forEach((d) => {
+          const tr = document.createElement("tr");
+
+          const tdUser = document.createElement("td");
           const who = d.displayName || d.email || d.uid || "Unknown";
+          tdUser.appendChild(document.createTextNode(who + " "));
+          if (d.email) {
+            const badge = document.createElement("span");
+            badge.className = "badge";
+            badge.textContent = d.email;
+            tdUser.appendChild(badge);
+          }
+          tr.appendChild(tdUser);
+
+          const tdTool = document.createElement("td");
+          tdTool.textContent = d.tool || "";
+          tr.appendChild(tdTool);
+
+          const tdTs = document.createElement("td");
           const ts = d.timestamp && d.timestamp.toDate ? d.timestamp.toDate().toLocaleString("en-IN") : "—";
+          tdTs.textContent = ts;
+          tr.appendChild(tdTs);
+
+          const tdExp = document.createElement("td");
           const exp = d.expiresAt && d.expiresAt.toDate ? d.expiresAt.toDate().toLocaleDateString("en-IN") : (d.expiresAt ? new Date(d.expiresAt.seconds ? d.expiresAt.seconds*1000 : d.expiresAt).toLocaleDateString("en-IN") : "—");
-          return "<tr><td>" + who + ' <span class="badge">' + (d.email || "") + "</span></td><td>" + (d.tool || "") + "</td><td>" + ts + "</td><td>" + exp + "</td></tr>";
-        }).join("");
+          tdExp.textContent = exp;
+          tr.appendChild(tdExp);
+
+          tbody.appendChild(tr);
+        });
       }
     } catch (err) {
       console.error("[admin] failed to load history:", err.message);
-      dataArea.innerHTML = '<div class="denied"><h2>&#x26A0;&#xFE0F; Could not load history</h2><p>' + err.message + '</p></div>';
+      dataArea.replaceChildren();
+      const div = document.createElement("div");
+      div.className = "denied";
+      const h2 = document.createElement("h2");
+      h2.textContent = "⚠️ Could not load history";
+      const p = document.createElement("p");
+      p.textContent = err.message || "An error occurred while fetching history.";
+      div.appendChild(h2);
+      div.appendChild(p);
+      dataArea.appendChild(div);
     }
   });
 </script>

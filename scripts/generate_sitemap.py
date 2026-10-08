@@ -1,100 +1,98 @@
 #!/usr/bin/env python3
 """
-PrepSelf XML Sitemap Generator
-Crawls all public HTML pages in the repository and outputs a valid sitemap.xml.
-Includes hreflang alternate tags for bilingual/Hindi pages.
+Generate PrepSelf sitemap.xml grounded in git history.
+- Real lastmod dates from `git log -1 --format=%cs`
+- Clean URLs: root / and hi/, and /suites/<name>/ (no index.html)
+- Clean non-duplicated canonical locs
 """
 
+import subprocess
 import pathlib
-import xml.etree.ElementTree as ET
+import datetime
 
 ROOT_DIR = pathlib.Path(__file__).resolve().parent.parent
 BASE_ORIGIN = "https://prepself.in/"
-TODAY = "2026-10-08"
+TODAY = datetime.date.today().isoformat()
 
-EXCLUDE_DIRS = {".git", "scratch", ".system_generated"}
-IGNORE_FILES = {"admin.html", "404.html"}
+def get_git_lastmod(file_path: pathlib.Path) -> str:
+    try:
+        res = subprocess.run(
+            ["git", "log", "-1", "--format=%cs", str(file_path)],
+            capture_output=True,
+            text=True,
+            cwd=str(ROOT_DIR),
+            check=True
+        )
+        date_str = res.stdout.strip()
+        if date_str and len(date_str) == 10:
+            return date_str
+    except Exception:
+        pass
+    return TODAY
 
-def get_canonical(file_path: pathlib.Path) -> str:
-    rel = file_path.relative_to(ROOT_DIR).as_posix()
-    if rel == "index.html":
-        return BASE_ORIGIN
-    if rel == "hi/index.html":
-        return BASE_ORIGIN + "hi/"
-    return BASE_ORIGIN + rel
+def main():
+    entries = []
 
-def get_priority_and_freq(rel: str) -> tuple[str, str]:
-    if rel == "index.html":
-        return "1.0", "daily"
-    if rel in {"study-modules.html", "quiz-simulator.html", "daily-quiz.html", "current-affairs-capsule.html"}:
-        return "0.95", "daily"
-    if rel.startswith("hubs/"):
-        return "0.90", "weekly"
-    if rel in {"negative-marking-calculator.html", "percentile-cutoff-predictor.html", "eligibility-age-checker.html", "all-exam-roadmaps.html", "sitemap.html"}:
-        return "0.90", "weekly"
-    if rel.startswith("practice/"):
-        return "0.85", "weekly"
-    if rel.startswith("hi/"):
-        return "0.85", "weekly"
-    if rel.startswith("prompts-"):
-        return "0.85", "weekly"
-    if "prompt_generator" in rel:
-        return "0.80", "weekly"
-    if rel.startswith("modules/"):
-        return "0.80", "weekly"
-    if rel.startswith("suites/"):
-        return "0.75", "monthly"
-    return "0.60", "monthly"
+    # 1. Homepage
+    index_file = ROOT_DIR / "index.html"
+    entries.append((BASE_ORIGIN, get_git_lastmod(index_file)))
 
-def generate_sitemap():
-    print("=== Generating PrepSelf sitemap.xml ===")
-    html_files = []
-    for f in sorted(ROOT_DIR.rglob("*.html")):
-        parts = set(f.relative_to(ROOT_DIR).parts)
-        if parts & EXCLUDE_DIRS or f.name in IGNORE_FILES:
+    # 2. Root HTML files
+    ignore_files = {"index.html", "admin.html", "exam-mentor-chatbot.html"}
+    for f in sorted(ROOT_DIR.glob("*.html")):
+        if f.name in ignore_files:
             continue
-        html_files.append(f)
+        entries.append((f"{BASE_ORIGIN}{f.name}", get_git_lastmod(f)))
 
+    # 3. Hubs
+    hubs_dir = ROOT_DIR / "hubs"
+    if hubs_dir.exists():
+        for f in sorted(hubs_dir.glob("*.html")):
+            entries.append((f"{BASE_ORIGIN}hubs/{f.name}", get_git_lastmod(f)))
+
+    # 4. Modules
+    modules_dir = ROOT_DIR / "modules"
+    if modules_dir.exists():
+        for f in sorted(modules_dir.glob("*.html")):
+            entries.append((f"{BASE_ORIGIN}modules/{f.name}", get_git_lastmod(f)))
+
+    # 5. Hindi Hub and pages
+    hi_dir = ROOT_DIR / "hi"
+    if hi_dir.exists():
+        hi_index = hi_dir / "index.html"
+        if hi_index.exists():
+            entries.append((f"{BASE_ORIGIN}hi/", get_git_lastmod(hi_index)))
+        for f in sorted(hi_dir.glob("*.html")):
+            if f.name == "index.html":
+                continue
+            entries.append((f"{BASE_ORIGIN}hi/{f.name}", get_git_lastmod(f)))
+
+    # 6. Suites (use /suites/<name>/ without index.html)
+    suites_dir = ROOT_DIR / "suites"
+    if suites_dir.exists():
+        for d in sorted(suites_dir.iterdir()):
+            if d.is_dir():
+                suite_index = d / "index.html"
+                if suite_index.exists():
+                    entries.append((f"{BASE_ORIGIN}suites/{d.name}/", get_git_lastmod(suite_index)))
+
+    # Build XML
     xml_lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
-        '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"',
-        '        xmlns:xhtml="http://www.w3.org/1999/xhtml">'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     ]
 
-    for f in html_files:
-        rel = f.relative_to(ROOT_DIR).as_posix()
-        loc = get_canonical(f)
-        priority, freq = get_priority_and_freq(rel)
+    for loc, lastmod in entries:
+        xml_lines.append("  <url>")
+        xml_lines.append(f"    <loc>{loc}</loc>")
+        xml_lines.append(f"    <lastmod>{lastmod}</lastmod>")
+        xml_lines.append("  </url>")
 
-        xml_lines.append('  <url>')
-        xml_lines.append(f'    <loc>{loc}</loc>')
-        xml_lines.append(f'    <lastmod>{TODAY}</lastmod>')
-        xml_lines.append(f'    <changefreq>{freq}</changefreq>')
-        xml_lines.append(f'    <priority>{priority}</priority>')
+    xml_lines.append("</urlset>\n")
 
-        # Bimodal hreflang links
-        if rel == "index.html":
-            xml_lines.append('    <xhtml:link rel="alternate" hreflang="en" href="https://prepself.in/"/>')
-            xml_lines.append('    <xhtml:link rel="alternate" hreflang="hi" href="https://prepself.in/hi/"/>')
-            xml_lines.append('    <xhtml:link rel="alternate" hreflang="x-default" href="https://prepself.in/"/>')
-            xml_lines.append('    <image:image>')
-            xml_lines.append('      <image:loc>https://prepself.in/images/PrepSelf-og.png</image:loc>')
-            xml_lines.append('      <image:title>PrepSelf - 80+ Indian Competitive Exams AI Preparation Hub</image:title>')
-            xml_lines.append('    </image:image>')
-        elif rel.startswith("hi/"):
-            xml_lines.append(f'    <xhtml:link rel="alternate" hreflang="hi" href="{loc}"/>')
-            xml_lines.append('    <xhtml:link rel="alternate" hreflang="en" href="https://prepself.in/"/>')
-            xml_lines.append(f'    <xhtml:link rel="alternate" hreflang="x-default" href="{loc}"/>')
-
-        xml_lines.append('  </url>')
-
-    xml_lines.append('</urlset>')
-    content = "\n".join(xml_lines) + "\n"
-
-    sitemap_path = ROOT_DIR / "sitemap.xml"
-    sitemap_path.write_text(content, encoding="utf-8")
-    print(f"[DONE] Wrote {len(html_files)} URLs to sitemap.xml ({len(content)} bytes).")
+    output_path = ROOT_DIR / "sitemap.xml"
+    output_path.write_text("\n".join(xml_lines), encoding="utf-8")
+    print(f"Generated {output_path} with {len(entries)} verified URLs from git history.")
 
 if __name__ == "__main__":
-    generate_sitemap()
+    main()
