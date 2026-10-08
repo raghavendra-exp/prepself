@@ -54,6 +54,17 @@ def sync_html_content(file_path: pathlib.Path, content: str) -> tuple[str, list[
         content = stale_year_sub
         changes.append("Updated stale 2025-26 references to 2026–2027")
 
+    # 1b. Stale copyright year range check: 2025-2027 or 2026-2027 -> YEAR
+    stale_cr_sub = re.sub(r'(&copy;|©)\s*(?:2025|2026)\s*(?:&ndash;|[–-])\s*2027', rf'\1 {YEAR}', content)
+    if stale_cr_sub != content:
+        content = stale_cr_sub
+        changes.append(f"Updated copyright year range to {YEAR}")
+
+    # 1c. Remove any remaining visitor-counter.js script tags
+    if "visitor-counter.js" in content:
+        content = re.sub(r'\s*<script[^>]*src=["\'][^"\']*visitor-counter\.js["\'][^>]*>\s*</script>', '', content)
+        changes.append("Removed visitor-counter.js script tag")
+
     # 2. GA Tag Placeholder check
     if "G-XXXXXXXXXX" in content:
         content = content.replace("G-XXXXXXXXXX", GA_ID)

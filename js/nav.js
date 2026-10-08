@@ -5,7 +5,7 @@
   window.BE_STATS = {
     promptEngines: 18,
     studyModules: 27,
-    companionTools: 6,
+    companionTools: 9,
     examsCovered: "80+"
   };
 

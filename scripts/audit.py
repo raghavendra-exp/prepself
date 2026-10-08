@@ -72,6 +72,10 @@ for f in sorted(ROOT_DIR.rglob("*.html")):
         bad.append("GA placeholder")
     if re.search(r"2025\s?[–-]\s?(20)?26", s):
         bad.append("stale 2025-26")
+    if re.search(r"(?:&copy;|©)\s*(?:2025|2026)\s*(?:&ndash;|[–-])\s*2027", s):
+        bad.append("stale copyright range (2025-2027)")
+    if "visitor-counter.js" in s or 'id="ftActiveCount"' in s or 'id="ftVisitorCount"' in s:
+        bad.append("simulated visitor counter remnant")
     if "og:image" not in s:
         bad.append("no og:image")
 

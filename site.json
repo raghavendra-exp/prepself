@@ -14,9 +14,8 @@
   "license": "MIT",
   "storage_prefix": "ps:v1:",
   "counts": {
-    "master_suites": 27,
-    "ai_study_tools": 21,
     "exam_prompt_generators": 18,
+    "master_suites": 27,
     "companion_tools": 9,
     "exams_covered": "80+",
     "free_study_materials": "100%"

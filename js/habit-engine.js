@@ -1393,6 +1393,9 @@
   function closeModal() {
     const container = document.getElementById('prephabitModalContainer');
     if (container) container.innerHTML = '';
+    if (typeof window.triggerQuizCompletionPlea === 'function') {
+      window.triggerQuizCompletionPlea();
+    }
   }
 
   /* ═════════════════════════════════════════════════════════════
