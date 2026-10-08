@@ -1,5 +1,5 @@
 /* PrepSelf Service Worker for Chrome PWA Installation & Offline Support */
-const CACHE_NAME = 'prepself-pwa-v2';
+const CACHE_NAME = 'prepself-pwa-v3';
 const CORE_ASSETS = [
   './',
   'index.html',

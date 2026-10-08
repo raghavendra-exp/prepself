@@ -1,0 +1,24 @@
+{
+  "brand": "PrepSelf",
+  "custom_domain": "prepself.in",
+  "canonical_origin": "https://raghavendra-exp.github.io/prepself/",
+  "year": 2026,
+  "license": "MIT",
+  "storage_prefix": "ps:v1:",
+  "counts": {
+    "master_suites": 27,
+    "ai_study_tools": 21,
+    "exam_prompt_generators": 19,
+    "exams_covered": "80+",
+    "companion_tools": 6
+  },
+  "navigation": [
+    { "label": "27 Suites", "href": "study-modules.html" },
+    { "label": "Mock Lab", "href": "quiz-simulator.html" },
+    { "label": "Roadmaps", "href": "all-exam-roadmaps.html" },
+    { "label": "Free Library", "href": "IBPS_SBI_Free_Library.html" },
+    { "label": "Directory", "href": "sitemap.html" },
+    { "label": "🇮🇳 हिंदी हब", "href": "hi/" }
+  ],
+  "disclaimer": "PrepSelf is an independent, non-commercial open education platform. PrepSelf is not affiliated with, endorsed by, or representative of any government body, ministry, or public recruitment agency."
+}
