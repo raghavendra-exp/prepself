@@ -34,6 +34,46 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- High-Yield Interactive Calculators & Cutoff Utilities -->
+  <url>
+    <loc>https://prepself.in/negative-marking-calculator.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://prepself.in/percentile-cutoff-predictor.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://prepself.in/eligibility-age-checker.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Static Informational AI Prompt Guides -->
+  <url>
+    <loc>https://prepself.in/prompts-ssc-cgl-quant.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://prepself.in/prompts-upsc-mains.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://prepself.in/prompts-bank-exam-reasoning.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
   <!-- Interactive Mock Quiz Simulator & Roadmaps -->
   <url>
     <loc>https://prepself.in/quiz-simulator.html</loc>

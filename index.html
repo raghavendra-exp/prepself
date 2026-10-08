@@ -71,11 +71,18 @@
         }
       },
       {
-        "@type": "EducationalOrganization",
+        "@type": ["Organization", "EducationalOrganization"],
         "@id": "https://prepself.in/#organization",
-        "name": "PrepSelf by Raghavbegins",
+        "name": "PrepSelf",
+        "legalName": "PrepSelf Open Education Initiative",
         "url": "https://prepself.in/",
         "logo": "https://prepself.in/images/PrepSelf-logo.png",
+        "founder": {
+          "@type": "Person",
+          "name": "Raghavendra",
+          "alternateName": "Raghavbegins",
+          "url": "https://raghavfolio-8op53xas.manus.space/"
+        },
         "sameAs": [
           "https://www.youtube.com/@raghav_begins",
           "https://www.facebook.com/Raghavbegins",
@@ -83,10 +90,13 @@
         ]
       },
       {
-        "@type": "SoftwareApplication",
+        "@type": ["WebApplication", "SoftwareApplication"],
+        "@id": "https://prepself.in/#webapp",
         "name": "PrepSelf Exam Preparation Engine",
-        "operatingSystem": "All modern browsers (Web, iOS, Android, Windows, macOS)",
+        "url": "https://prepself.in/",
         "applicationCategory": "EducationalApplication",
+        "operatingSystem": "All modern browsers (Web, iOS, Android, Windows, macOS)",
+        "browserRequirements": "Requires JavaScript and HTML5",
         "offers": {
           "@type": "Offer",
           "price": "0",
@@ -2698,6 +2708,70 @@
             </div>
           </div>
 
+          <!-- Tool 7: Negative Marking Calculator -->
+          <a href="negative-marking-calculator.html" class="comp-card">
+            <div class="comp-icon-box" style="background:rgba(239,68,68,.12);color:#EF4444">&#x2696;&#xFE0F;</div>
+            <div class="comp-card-content">
+              <div class="comp-title">Negative Marking Calculator</div>
+              <p class="comp-desc">Calculate gross score, negative deductions, and accuracy percentage across Banking (0.25), SSC (0.50), UPSC (0.66) &amp; RRB.</p>
+              <div class="comp-link">Calculate Marks &rarr;</div>
+            </div>
+          </div>
+
+          <!-- Tool 8: Percentile & Cutoff Predictor -->
+          <a href="percentile-cutoff-predictor.html" class="comp-card">
+            <div class="comp-icon-box" style="background:rgba(16,185,129,.12);color:#10B981">&#x1F4CA;</div>
+            <div class="comp-card-content">
+              <div class="comp-title">Percentile &amp; Cutoff Predictor</div>
+              <p class="comp-desc">Predict shift-normalized percentile score, category rank, and safe cutoff target for competitive exams.</p>
+              <div class="comp-link">Predict Cutoff &rarr;</div>
+            </div>
+          </div>
+
+          <!-- Tool 9: Exam Eligibility & Age Checker -->
+          <a href="eligibility-age-checker.html" class="comp-card">
+            <div class="comp-icon-box" style="background:rgba(245,158,11,.12);color:#D97706">&#x1F382;</div>
+            <div class="comp-card-content">
+              <div class="comp-title">Exam Eligibility &amp; Age Checker</div>
+              <p class="comp-desc">Calculate exact age as of official cutoff dates with reservation category relaxations (OBC, SC/ST, PwBD).</p>
+              <div class="comp-link">Check Eligibility &rarr;</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Curated AI Prompt Guides Section -->
+        <div style="margin-top:24px">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:14px">
+            <span style="font-size:13px;font-weight:800;color:var(--txt);text-transform:uppercase;letter-spacing:.04em">Curated AI Prompt Guides &amp; Frameworks</span>
+            <span style="font-size:11px;padding:2px 8px;border-radius:10px;background:rgba(56,189,248,.1);color:#38BDF8;font-weight:700">Self-Study Guides</span>
+          </div>
+          <div class="comp-tools-grid">
+            <a href="prompts-ssc-cgl-quant.html" class="comp-card">
+              <div class="comp-icon-box" style="background:rgba(56,189,248,.12);color:#38BDF8">&#x1F4D0;</div>
+              <div class="comp-card-content">
+                <div class="comp-title">30 Best ChatGPT Prompts for SSC CGL Quant</div>
+                <p class="comp-desc">Arithmetic shortcuts, geometry proofs, algebra value-putting, and TCS trap diagnostics.</p>
+                <div class="comp-link">Explore 30 Prompts &rarr;</div>
+              </div>
+            </a>
+            <a href="prompts-upsc-mains.html" class="comp-card">
+              <div class="comp-icon-box" style="background:rgba(168,85,247,.12);color:#A855F7">&#x1F3DB;&#xFE0F;</div>
+              <div class="comp-card-content">
+                <div class="comp-title">30 Best AI Prompts for UPSC Mains Writing</div>
+                <p class="comp-desc">GS 1-4 answer structures, ethical case studies, and strict 10-marker evaluation rubrics.</p>
+                <div class="comp-link">Explore 30 Prompts &rarr;</div>
+              </div>
+            </a>
+            <a href="prompts-bank-exam-reasoning.html" class="comp-card">
+              <div class="comp-icon-box" style="background:rgba(34,197,94,.12);color:#22C55E">&#x1F9E9;</div>
+              <div class="comp-card-content">
+                <div class="comp-title">30 Best AI Prompts for Banking Puzzles &amp; DI</div>
+                <p class="comp-desc">Floor/flat arrangements, circular blood relations, missing DI, and machine input-output.</p>
+                <div class="comp-link">Explore 30 Prompts &rarr;</div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -3454,6 +3528,9 @@
         <a href="quiz-simulator.html" style="color:#34D399;font-weight:700">Mock Lab</a>
         <a href="all-exam-roadmaps.html" style="color:#FCD34D;font-weight:700">Roadmaps</a>
         <a href="IBPS_SBI_Free_Library.html">Free Library</a>
+        <a href="negative-marking-calculator.html" style="color:#EF4444;font-weight:700">Marks Calculator</a>
+        <a href="percentile-cutoff-predictor.html" style="color:#10B981;font-weight:700">Cutoff Predictor</a>
+        <a href="eligibility-age-checker.html" style="color:#F59E0B;font-weight:700">Age Checker</a>
         <a href="sitemap.html" style="color:#A78BFA;font-weight:700">Site Directory</a>
         <a href="user-guide.html" style="color:#38BDF8;font-weight:700">User Guide</a>
         <a href="about.html">About Us</a>

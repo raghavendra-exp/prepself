@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Percentile &amp; Cutoff Predictor for All Exams | PrepSelf</title>
+  <meta name="description" content="Calculate your exam percentile, normalized rank, and estimate safe cutoff marks for SBI PO, IBPS, SSC CGL, RRB NTPC, CAT and competitive exams.">
+  <meta name="author" content="Raghavbegins">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://prepself.in/percentile-cutoff-predictor.html">
+  <link rel="alternate" hreflang="en" href="https://prepself.in/percentile-cutoff-predictor.html">
+  <link rel="alternate" hreflang="hi" href="https://prepself.in/hi/">
+  <link rel="alternate" hreflang="x-default" href="https://prepself.in/percentile-cutoff-predictor.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Percentile &amp; Cutoff Predictor for Competitive Exams | PrepSelf">
+  <meta property="og:description" content="Calculate your exact percentile score, category rank, and analyze safe cutoffs for major competitive exams.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://prepself.in/percentile-cutoff-predictor.html">
+  <meta property="og:image" content="https://prepself.in/images/PrepSelf-og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Percentile &amp; Cutoff Predictor | PrepSelf">
+  <meta name="twitter:description" content="Free online percentile and safe score cutoff estimator for Indian exams.">
+  <meta name="twitter:image" content="https://prepself.in/images/PrepSelf-og.png">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["WebApplication", "SoftwareApplication"],
+        "name": "PrepSelf Percentile & Cutoff Predictor",
+        "url": "https://prepself.in/percentile-cutoff-predictor.html",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "All modern browsers",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the difference between percentage and percentile in exams?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Percentage represents your raw marks out of total available marks (e.g. 75/100 = 75%). Percentile indicates the proportion of total test-takers who scored equal to or lower than you (e.g. 99th percentile means you scored higher than 99% of candidates)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is percentile calculated?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Percentile is calculated using the formula: ((Total Candidates - Candidate Rank) / Total Candidates) * 100."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google Analytics Tracking -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-B0Z2G21W4F");</script>
+
+  <link rel="stylesheet" href="css/modern.css">
+  <style>
+    .pred-card {
+      background: var(--card-bg, #0B132B);
+      border: 1px solid var(--border, rgba(255,255,255,0.12));
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    }
+    .form-group { margin-bottom: 18px; }
+    .form-label { display: block; font-size: 13.5px; font-weight: 700; color: #F8FAFC; margin-bottom: 6px; }
+    .form-input, .form-select {
+      width: 100%;
+      padding: 12px 14px;
+      background: rgba(255,255,255,0.05);
+      border: 1.5px solid rgba(255,255,255,0.15);
+      border-radius: 10px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      outline: none;
+    }
+    .res-hero {
+      background: linear-gradient(135deg, rgba(99,102,241,0.15), rgba(79,70,229,0.25));
+      border: 1px solid rgba(99,102,241,0.3);
+      border-radius: 14px;
+      padding: 24px;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .res-big { font-size: 44px; font-weight: 900; color: #818CF8; line-height: 1.1; }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="hdr">
+    <div class="hdr-inner" style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:12px 20px">
+      <a href="./" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff">
+        <span style="font-size:24px">📘</span>
+        <span style="font-size:18px;font-weight:900">PrepSelf</span>
+      </a>
+      <nav style="display:flex;align-items:center;gap:16px">
+        <a href="./" style="color:#CBD5E1;text-decoration:none;font-weight:600;font-size:13.5px">Home</a>
+        <a href="study-modules.html" style="color:#CBD5E1;text-decoration:none;font-weight:600;font-size:13.5px">27 Suites</a>
+        <a href="quiz-simulator.html" style="color:#CBD5E1;text-decoration:none;font-weight:600;font-size:13.5px">Mock Lab</a>
+        <a href="negative-marking-calculator.html" style="color:#CBD5E1;text-decoration:none;font-weight:600;font-size:13.5px">Negative Marking</a>
+        <a href="sitemap.html" style="color:#CBD5E1;text-decoration:none;font-weight:600;font-size:13.5px">Directory</a>
+      </nav>
+    </div>
+  </header>
+
+  <main style="max-width:900px;margin:30px auto;padding:0 20px">
+    
+    <div style="text-align:center;margin-bottom:30px">
+      <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(99,102,241,0.12);color:#818CF8;padding:4px 14px;border-radius:20px;font-size:12px;font-weight:800;border:1px solid rgba(99,102,241,0.3);margin-bottom:12px">
+        📊 RANK &amp; PERCENTILE ENGINE
+      </div>
+      <h1 style="font-size:32px;font-weight:900;color:#fff;margin-bottom:10px">Percentile &amp; Cutoff Predictor</h1>
+      <p style="font-size:15px;color:rgba(255,255,255,0.7);max-width:650px;margin:0 auto">
+        Calculate your exact percentile score from your test rank or evaluate your chances against expected category cutoffs.
+      </p>
+    </div>
+
+    <div class="pred-card">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+        
+        <div>
+          <div class="form-group">
+            <label class="form-label">Total Test-Takers (Candidates)</label>
+            <input type="number" id="inpCandidates" class="form-input" value="125000" min="10" oninput="calcPercentile()">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Your Overall Rank</label>
+            <input type="number" id="inpRank" class="form-input" value="1420" min="1" oninput="calcPercentile()">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Exam Type (For Cutoff Analysis)</label>
+            <select id="selExam" class="form-select" onchange="calcPercentile()">
+              <option value="sbi_po">SBI PO Prelims (Cutoff ~58-63 / 100)</option>
+              <option value="ibps_po">IBPS PO Prelims (Cutoff ~54-59 / 100)</option>
+              <option value="ssc_cgl">SSC CGL Tier 1 (Cutoff ~145-155 / 200)</option>
+              <option value="rrb_ntpc">RRB NTPC CBT 1 (Cutoff ~68-76 / 100)</option>
+              <option value="upsc_csat">UPSC CSAT Qualifying (Cutoff 66.67 / 200)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="res-hero">
+          <div style="font-size:12px;font-weight:800;color:#A5B4FC;text-transform:uppercase;letter-spacing:1px">YOUR ESTIMATED PERCENTILE</div>
+          <div class="res-big" id="resPercentile">98.86 %ile</div>
+          <div style="font-size:13.5px;color:rgba(255,255,255,0.85);margin-top:10px" id="resSummary">
+            You scored higher than <strong>1,23,580</strong> candidates out of 1,25,000!
+          </div>
+          <div style="margin-top:14px;padding:10px;background:rgba(255,255,255,0.06);border-radius:8px;font-size:12.5px;color:#34D399;font-weight:700" id="resZone">
+            ✅ Strong Qualifying Zone for Next Stage
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Educational Guide on Normalization -->
+    <section style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px;margin-bottom:30px">
+      <h3 style="font-size:18px;font-weight:800;color:#fff;margin-bottom:12px">🔬 How Normalization Works in Multi-Shift Exams</h3>
+      <p style="font-size:14px;color:rgba(255,255,255,0.8);line-height:1.6;margin-bottom:10px">
+        In exams conducted across multiple shifts (like SSC CGL, RRB NTPC, and IBPS), paper difficulty varies. Commissions use standard deviation formulas or percentile equi-percentile equi-percentile methods to ensure fair parity:
+      </p>
+      <ul style="font-size:13px;color:rgba(255,255,255,0.7);line-height:1.6;padding-left:20px">
+        <li>Tougher shifts receive score increments to compensate for difficulty.</li>
+        <li>Easier shifts see moderation in raw scores.</li>
+        <li>Accuracy plays a vital role in tie-breaking in normalization algorithms.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer style="border-top:1px solid rgba(255,255,255,0.1);padding:24px 20px;text-align:center;font-size:12px;color:rgba(255,255,255,0.5)">
+    &copy; 2026 PrepSelf &bull; Open-source under MIT License &bull; Free Educational Platform
+  </footer>
+
+  <script>
+    function calcPercentile() {
+      const candidates = parseInt(document.getElementById('inpCandidates').value, 10) || 1;
+      const rank = parseInt(document.getElementById('inpRank').value, 10) || 1;
+
+      const scoredBelow = Math.max(0, candidates - rank);
+      const percentile = ((scoredBelow / candidates) * 100).toFixed(2);
+
+      document.getElementById('resPercentile').textContent = percentile + ' %ile';
+      document.getElementById('resSummary').innerHTML = 'You scored higher than <strong>' + Number(scoredBelow).toLocaleString('en-IN') + '</strong> candidates out of ' + Number(candidates).toLocaleString('en-IN') + '!';
+
+      const zone = document.getElementById('resZone');
+      if (percentile >= 95) {
+        zone.textContent = '✅ Safe Cutoff Zone: Strong Probability of Shortlisting';
+        zone.style.color = '#34D399';
+      } else if (percentile >= 80) {
+        zone.textContent = '⚖️ Borderline Zone: Cutoff Dependent on Category & Normalization';
+        zone.style.color = '#FBBF24';
+      } else {
+        zone.textContent = '⚠️ High Competition Zone: Focus on Sectional Accuracy';
+        zone.style.color = '#F87171';
+      }
+    }
+
+    calcPercentile();
+  </script>
+</body>
+</html>
