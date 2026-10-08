@@ -56,5 +56,4 @@ Disallow: /prepself/admin.html
 Disallow: /*admin.html
 
 # XML Sitemaps
-Sitemap: https://raghavendra-exp.github.io/prepself/sitemap.xml
 Sitemap: https://prepself.in/sitemap.xml
