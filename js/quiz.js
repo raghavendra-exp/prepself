@@ -332,6 +332,10 @@ const BankQuiz = (() => {
     stats.attempted++;
     if (selectedIdx === q.correctIndex) {
       stats.correct++;
+    } else {
+      if (window.PrepHabit && typeof window.PrepHabit.addMistake === 'function') {
+        window.PrepHabit.addMistake(q, selectedIdx);
+      }
     }
 
     renderScoreboard();

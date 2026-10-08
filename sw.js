@@ -1,5 +1,5 @@
 /* PrepSelf Service Worker for Chrome PWA Installation & Offline Support */
-const CACHE_NAME = 'prepself-pwa-v3';
+const CACHE_NAME = 'prepself-pwa-v4';
 const CORE_ASSETS = [
   './',
   'index.html',
@@ -7,6 +7,8 @@ const CORE_ASSETS = [
   'quiz-simulator.html',
   'all-exam-roadmaps.html',
   'js/nav.js',
+  'js/habit-engine.js',
+  'js/quiz.js',
   'manifest.webmanifest',
   'icons/icon.svg',
   'icons/icon-192.png',

@@ -631,6 +631,19 @@ footer{background:var(--d1);color:#fff;padding:40px 20px;border-top:1px solid rg
     </p>
   </div>
 
+  <!-- ════ HABIT ENGINE: DAILY-10 & CHALLENGE BANNER ════ -->
+  <div style="background:linear-gradient(135deg,rgba(16,185,129,0.12),rgba(56,189,248,0.12));border:1.5px solid #10B981;border-radius:14px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:24px">
+    <div>
+      <div style="font-size:11px;font-weight:800;color:#10B981;text-transform:uppercase;letter-spacing:.05em">🔥 Today's Official Challenge</div>
+      <div style="font-size:16px;font-weight:900;color:var(--txt)">Daily-10 Question Set (Fixed 6:00 AM IST Release)</div>
+      <div style="font-size:12.5px;color:var(--txt3)">10 mixed high-yield questions with shareable result card, streak freeze &amp; challenge links.</div>
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <button onclick="PrepHabit.openDaily10Modal()" style="background:#10B981;color:#fff;border:none;padding:10px 18px;border-radius:10px;font-weight:800;font-size:13px;cursor:pointer">Launch Today's Daily-10 ⚡</button>
+      <button onclick="PrepHabit.showMistakeModal()" style="background:rgba(255,255,255,0.06);border:1px solid var(--bdr);color:var(--txt);padding:10px 14px;border-radius:10px;font-weight:700;font-size:13px;cursor:pointer">📓 Mistake Notebook</button>
+    </div>
+  </div>
+
   <div class="mock-control-strip">
     <div class="stat-box timer-box">
       <div>
@@ -687,6 +700,7 @@ footer{background:var(--d1);color:#fff;padding:40px 20px;border-top:1px solid rg
   </div>
 </footer>
 
+<script src="js/habit-engine.js"></script>
 <script src="js/quiz.js"></script>
 <script src="js/nav.js"></script>
 <script>
