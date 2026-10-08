@@ -1,42 +1,109 @@
 {
   "brand": "PrepSelf",
+  "tagline": "Free Mock Tests & AI Prompts for 80+ Exams",
   "custom_domain": "prepself.in",
   "canonical_origin": "https://prepself.in/",
+  "author": "Raghavendra",
+  "founder": "Raghavbegins",
+  "creator_portfolio": "https://raghavfolio-8op53xas.manus.space/",
+  "youtube_channel": "https://www.youtube.com/@raghav_begins",
+  "telegram_channel": "https://t.me/raghav_begins",
+  "ga_id": "G-B0Z2G21W4F",
+  "og_image": "https://prepself.in/images/PrepSelf-og.png",
   "year": 2026,
   "license": "MIT",
   "storage_prefix": "ps:v1:",
   "counts": {
     "master_suites": 27,
     "ai_study_tools": 21,
-    "exam_prompt_generators": 19,
+    "exam_prompt_generators": 18,
+    "companion_tools": 9,
     "exams_covered": "80+",
-    "companion_tools": 6
+    "free_study_materials": "100%"
   },
   "navigation": [
     {
-      "label": "27 Suites",
-      "href": "study-modules.html"
+      "label": "Home",
+      "href": "./",
+      "icon": "🏠"
+    },
+    {
+      "label": "27 Master Suites",
+      "href": "study-modules.html",
+      "icon": "⚡"
     },
     {
       "label": "Mock Lab",
-      "href": "quiz-simulator.html"
+      "href": "quiz-simulator.html",
+      "icon": "🎯"
     },
     {
       "label": "Roadmaps",
-      "href": "all-exam-roadmaps.html"
+      "href": "all-exam-roadmaps.html",
+      "icon": "🗺️"
     },
     {
       "label": "Free Library",
-      "href": "IBPS_SBI_Free_Library.html"
+      "href": "IBPS_SBI_Free_Library.html",
+      "icon": "📚"
     },
     {
-      "label": "Directory",
-      "href": "sitemap.html"
+      "label": "Site Directory",
+      "href": "sitemap.html",
+      "icon": "🗺️"
     },
     {
-      "label": "\ud83c\uddee\ud83c\uddf3 \u0939\u093f\u0902\u0926\u0940 \u0939\u092c",
-      "href": "hi/"
+      "label": "User Guide",
+      "href": "user-guide.html",
+      "icon": "📘"
+    },
+    {
+      "label": "About Us",
+      "href": "about.html",
+      "icon": "📖"
+    },
+    {
+      "label": "🇮🇳 हिंदी हब",
+      "href": "hi/",
+      "icon": "🇮🇳"
     }
   ],
-  "disclaimer": "PrepSelf is an independent, non-commercial open education platform. PrepSelf is not affiliated with, endorsed by, or representative of any government body, ministry, or public recruitment agency."
+  "calculators": [
+    {
+      "label": "Negative Marking Calculator",
+      "href": "negative-marking-calculator.html",
+      "icon": "⚖️"
+    },
+    {
+      "label": "Percentile & Cutoff Predictor",
+      "href": "percentile-cutoff-predictor.html",
+      "icon": "📊"
+    },
+    {
+      "label": "Exam Eligibility & Age Checker",
+      "href": "eligibility-age-checker.html",
+      "icon": "🎂"
+    }
+  ],
+  "prompt_guides": [
+    {
+      "label": "30 Best Prompts for SSC CGL Quant",
+      "href": "prompts-ssc-cgl-quant.html",
+      "icon": "📐"
+    },
+    {
+      "label": "30 Best Prompts for UPSC Mains",
+      "href": "prompts-upsc-mains.html",
+      "icon": "🏛️"
+    },
+    {
+      "label": "30 Best Prompts for Banking Puzzles & DI",
+      "href": "prompts-bank-exam-reasoning.html",
+      "icon": "🧩"
+    }
+  ],
+  "footer": {
+    "copyright": "© 2026 PrepSelf • Released under the MIT License • Maintained by Raghavendra (Raghavbegins).",
+    "disclaimer": "PrepSelf is an independent, non-commercial open education platform. PrepSelf is not affiliated with, endorsed by, or representative of any government body, ministry, or public recruitment agency."
+  }
 }

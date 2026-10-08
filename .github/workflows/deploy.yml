@@ -1,7 +1,9 @@
-name: Deploy PrepSelf to GitHub Pages
+name: Quality Audit & GitHub Pages Deploy
 
 on:
   push:
+    branches: ["main"]
+  pull_request:
     branches: ["main"]
   workflow_dispatch:
 
@@ -15,7 +17,47 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # ════ 1. PRE-DEPLOYMENT QUALITY & SEO AUDIT ════
+  audit:
+    name: SEO & Quality Audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: JavaScript Syntax Validation
+        run: |
+          echo "Checking JavaScript syntax across js/ and sw.js..."
+          for file in js/*.js sw.js; do
+            if [ -f "$file" ]; then
+              node --check "$file"
+              echo "✓ Syntax OK: $file"
+            fi
+          done
+
+      - name: SEO, Canonicals & Quality Audit
+        run: |
+          python scripts/audit.py
+
+      - name: Single Source of Truth Check (site.json)
+        run: |
+          python scripts/stamp_site.py --check
+
+  # ════ 2. GITHUB PAGES DEPLOYMENT (Only after Audit Passes) ════
   deploy:
+    name: Deploy to GitHub Pages
+    needs: audit
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -30,7 +72,7 @@ jobs:
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: "."
 
       - name: Deploy to GitHub Pages
         id: deployment
