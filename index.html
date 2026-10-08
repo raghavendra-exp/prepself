@@ -340,7 +340,7 @@
     .timer-digit{font-size:52px;font-weight:900;font-variant-numeric:tabular-nums;line-height:1;margin:10px 0 8px;color:var(--txt)}
 
     /* ── HOW IT WORKS ── */
-    .how-strip{background:#fff;border-radius:var(--rl);border:1.5px solid var(--bdr);padding:28px 24px;margin-bottom:44px;box-shadow:var(--sh)}
+    .how-strip{background:var(--sf);border-radius:var(--rl);border:1.5px solid var(--bdr);padding:28px 24px;margin-bottom:44px;box-shadow:var(--sh)}
     .how-inner{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
     .how-step{display:flex;align-items:center;gap:12px;flex:1;min-width:180px}
     .how-num{width:34px;height:34px;border-radius:50%;background:rgba(79,70,229,.1);color:var(--pr);font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
@@ -380,7 +380,7 @@
     .tool-pill.active{background:var(--pr);border-color:var(--pr);color:#fff}
 
     .cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%, 280px),1fr));gap:16px;margin-bottom:44px}
-    .cat-card{background:#fff;border-radius:var(--rl);border:1.5px solid var(--bdr);box-shadow:var(--sh);overflow:hidden;transition:all .2s ease;display:flex;flex-direction:column;cursor:pointer;text-decoration:none;position:relative}
+    .cat-card{background:var(--sf);border-radius:var(--rl);border:1.5px solid var(--bdr);box-shadow:var(--sh);overflow:hidden;transition:all .2s ease;display:flex;flex-direction:column;cursor:pointer;text-decoration:none;position:relative}
     .cat-card:hover{box-shadow:var(--shm);transform:translateY(-3px);border-color:var(--pr2)}
     .card-top{padding:18px 18px 12px;display:flex;align-items:flex-start;gap:12px}
     .card-ic-wrap{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0}
@@ -397,7 +397,7 @@
 
     /* ── FEATURE STRIP ── */
     .feat-strip{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-bottom:44px}
-    .feat-item{background:#fff;border:1.5px solid var(--bdr);border-radius:var(--r);padding:18px 16px;display:flex;align-items:flex-start;gap:12px}
+    .feat-item{background:var(--sf);border:1.5px solid var(--bdr);border-radius:var(--r);padding:18px 16px;display:flex;align-items:flex-start;gap:12px}
     .feat-ic{font-size:26px;flex-shrink:0}
     .feat-txt strong{font-size:13.5px;font-weight:800;color:var(--txt);display:block;margin-bottom:2px}
     .feat-txt span{font-size:12px;color:var(--txt3);line-height:1.5}
@@ -431,7 +431,7 @@
     .cov-link:hover{text-decoration:underline}
 
     /* ── COMPARISON TABLE ── */
-    .cmp-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%;width:100%;box-sizing:border-box;border-radius:var(--r);border:1.5px solid var(--bdr);background:#fff;margin-bottom:44px}
+    .cmp-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%;width:100%;box-sizing:border-box;border-radius:var(--r);border:1.5px solid var(--bdr);background:var(--sf);margin-bottom:44px}
     .cmp-tbl{width:100%;border-collapse:collapse;font-size:13px}
     .cmp-tbl thead tr{background:linear-gradient(135deg,var(--d2),var(--d3));color:#fff}
     .cmp-tbl th{padding:14px 16px;text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:.05em}
@@ -439,12 +439,12 @@
 
     /* ── AI PLATFORMS ── */
     .ai-strip{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:32px 0 44px}
-    .ai-pill{display:flex;align-items:center;gap:8px;padding:10px 18px;border-radius:30px;font-size:13px;font-weight:700;text-decoration:none;border:1px solid var(--bdr);background:#fff;box-shadow:var(--sh);color:var(--txt)}
+    .ai-pill{display:flex;align-items:center;gap:8px;padding:10px 18px;border-radius:30px;font-size:13px;font-weight:700;text-decoration:none;border:1px solid var(--bdr);background:var(--sf);box-shadow:var(--sh);color:var(--txt)}
     .ai-pill:hover{transform:translateY(-2px)}
 
     /* ── FAQ ACCORDION ── */
     .faq-list{display:grid;gap:10px;margin-bottom:44px}
-    .faq-item{background:#fff;border:1.5px solid var(--bdr);border-radius:var(--r);overflow:hidden;transition:border-color .15s}
+    .faq-item{background:var(--sf);border:1.5px solid var(--bdr);border-radius:var(--r);overflow:hidden;transition:border-color .15s}
     .faq-q{padding:16px 20px;font-size:14px;font-weight:800;color:var(--txt);cursor:pointer;display:flex;justify-content:space-between;align-items:center}
     .faq-a{padding:0 20px 16px;font-size:13px;color:var(--txt2);line-height:1.6;display:none}
     .faq-item.open .faq-a{display:block}
@@ -1127,29 +1127,33 @@
 
 
   <!-- ════ HEADER ════ -->
+  <!-- ════ HEADER ════ -->
   <header class="hdr">
     <div class="hdr-inner">
-      <a class="logo-wrap" href="./" title="PrepSelf — All India Exam Prep Engine">
-        <div class="logo-badge">&#x26A1;</div>
-        <div class="logo-txt">
-          <h1 class="logo-title-full"><span style="background:linear-gradient(135deg,#60A5FA,#38BDF8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-weight:900">PrepSelf</span><span style="font-size:13px;font-weight:800;color:rgba(255,255,255,0.7)">.in</span></h1>
-          <p>Self-Study Platform &middot; 27 Master Suites &middot; 80+ Exams</p>
-        </div>
-      </a>
+      <div class="hdr-left">
+        <button class="be-btn-tool be-nav-drawer-toggle" onclick="window.BE_NAV.toggleMobileDrawer()" title="Open Navigation Menu &amp; Breadcrumb Slider" aria-label="Open Navigation Directory">
+          <span class="be-tool-icon">&#x2630;</span>
+          <span class="be-tool-text">Menu</span>
+        </button>
+        <a class="logo-wrap" href="./" title="PrepSelf — All India Exam Prep Engine">
+          <div class="logo-badge">&#x26A1;</div>
+          <div class="logo-txt">
+            <div class="logo-title-full"><span style="background:linear-gradient(135deg,#60A5FA,#38BDF8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-weight:900">PrepSelf</span><span style="font-size:13px;font-weight:800;color:rgba(255,255,255,0.7)">.in</span></div>
+            <p>Self-Study Platform &middot; 27 Master Suites &middot; 80+ Exams</p>
+          </div>
+        </a>
+      </div>
 
-      <!-- Primary Nav Links (7 Clean Core Items) -->
-      <nav class="hdr-links">
-        <a href="about.html" style="color:#A78BFA;font-weight:800">&#x1F4D6; About</a>
-        <a href="user-guide.html" style="color:#38BDF8;font-weight:800">&#x1F4D6; User Guide</a>
-        <a href="study-modules.html" style="color:#60A5FA;font-weight:800">&#x1F4DA; Study Modules</a>
-        <a href="quiz-simulator.html" style="color:#34D399;font-weight:800">&#x1F3AF; Mock Lab</a>
-        <a href="#promptStudio">&#x2728; AI Studio</a>
-        <a href="all-exam-roadmaps.html" style="color:#FCD34D;font-weight:800">&#x1F5FA;&#xFE0F; Roadmaps &amp; Books</a>
-        <a href="IBPS_SBI_Free_Library.html">Free Library</a>
-        <a href="hi/" style="color:#F472B6;font-weight:800;border:1px solid rgba(244,114,182,0.35);padding:4px 12px;border-radius:14px;background:rgba(244,114,182,0.1);text-decoration:none;display:inline-flex;align-items:center;gap:4px" title="हिंदी माध्यम तैयारी हब (Hindi Hub)">🌐 हिंदी</a>
+      <!-- Left-to-Center Breadcrumb Slider & Location Tracker -->
+      <nav class="hdr-breadcrumbs" aria-label="Breadcrumb Trail">
+        <ol class="hdr-bc-list">
+          <li><a href="./" class="hdr-bc-link">🏠 PrepSelf</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li class="hdr-bc-active" aria-current="page">Exam Prep Portal</li>
+        </ol>
       </nav>
 
-      <!-- Top Tools Action Toolbar (Search, Calculator, Theme, Mobile Drawer) -->
+      <!-- Action Toolbar (Search, Formulas, Calculator, Theme, Hindi, Auth) -->
       <div class="hdr-tools">
         <button class="be-btn-tool" onclick="window.BE_NAV.openSpotlight()" title="Search all tools (Ctrl+K)" aria-label="Search all tools (Ctrl+K)">
           <span class="be-tool-icon">&#x1F50D;</span>
@@ -1168,8 +1172,8 @@
         </button>
 
         <button class="be-btn-tool be-btn-with-label" id="themeToggleBtn" onclick="window.BE_NAV.toggleTheme()" title="Toggle Dark/Light Theme" aria-label="Toggle Dark or Light Theme">
-          <span class="be-tool-icon">&#x1F319;</span>
-          <span class="be-tool-text">Theme</span>
+          <span class="be-tool-icon" id="themeIcon">&#x1F319;</span>
+          <span class="be-tool-text" id="themeText">Theme</span>
         </button>
 
         <a href="hi/" class="be-btn-tool be-hide-xs" style="background:rgba(244,114,182,0.12);color:#F472B6;border-color:rgba(244,114,182,0.3);text-decoration:none" title="हिंदी में तैयारी (Hindi Hub)" aria-label="Switch to Hindi Hub">
@@ -1188,16 +1192,6 @@
             <button id="signOutBtn" class="hdr-signout" title="Sign out" aria-label="Sign out">&#x2715;</button>
           </div>
         </div>
-
-        <!-- Modules Quick Nav Shortcut -->
-        <a href="study-modules.html" class="be-btn-tool" style="background:rgba(59,130,246,0.15);color:#60A5FA;border-color:rgba(59,130,246,0.3)" title="Browse All 27 Interactive Study Suites" aria-label="Browse All 27 Interactive Study Suites">
-          <span class="be-tool-icon">&#x1F4DA;</span>
-          <span class="be-tool-text">27 Suites</span>
-        </a>
-
-        <button class="be-btn-tool be-hamburger" onclick="window.BE_NAV.toggleMobileDrawer()" title="Menu" aria-label="Open Navigation Drawer">
-          &#x2630;
-        </button>
       </div>
     </div>
   </header>
@@ -1217,11 +1211,11 @@
       </div>
 
       <h1 class="hero-hd" style="font-size:clamp(30px, 4.4vw, 48px);font-weight:900;letter-spacing:-.8px;line-height:1.2;margin-bottom:14px;color:#fff">
-        Free Mock Tests &amp; AI Prompts for 80+ Exams
+        Free Mock Tests &amp; AI Study Engines for 80+ Exams
       </h1>
 
-      <p class="hero-sub" style="max-width:620px;margin:0 auto 24px;font-size:16px;color:rgba(255,255,255,0.85);line-height:1.55">
-        Self-study engine for SBI PO, IBPS, SSC CGL, UPSC, Railways &amp; State exams. Practice timed CBT mock tests, speed math drills, and exam-calibrated AI prompts with zero paywalls.
+      <p class="hero-sub" style="max-width:640px;margin:0 auto 24px;font-size:16px;color:rgba(255,255,255,0.88);line-height:1.55">
+        All-India self-study platform for SBI PO, IBPS, SSC CGL, UPSC, Railways &amp; State PSCs. Practice timed CBT mock tests, speed math drills, and exam-calibrated prompts with zero paywalls and zero ads.
       </p>
 
       <!-- ── TARGET EXAM PICKER (ABOVE THE FOLD) ── -->
@@ -1249,17 +1243,21 @@
         </div>
       </div>
 
-      <!-- ── SINGLE PRIMARY CTA (ABOVE THE FOLD) ── -->
-      <div class="hero-single-cta" style="margin-bottom:14px">
+      <!-- ── PRIMARY CTA & SECONDARY ACTION ── -->
+      <div class="hero-single-cta" style="margin-bottom:16px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
         <a href="quiz-simulator.html" id="heroPrimaryCta" class="btn-hero-primary" style="display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 36px;border-radius:14px;font-size:16px;font-weight:900;text-decoration:none;color:#fff;background:linear-gradient(135deg,#3B82F6 0%,#1D4ED8 100%);box-shadow:0 8px 24px rgba(37,99,235,0.45);transition:all .18s ease;cursor:pointer">
           <span>⚡ Start Free Practice (Daily-10 Set)</span>
           <span style="font-size:18px">&rarr;</span>
         </a>
+        <a href="study-modules.html" class="btn-hero-secondary" style="display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:15px 28px;border-radius:14px;font-size:15px;font-weight:800;text-decoration:none;color:#fff;background:rgba(255,255,255,0.08);border:1.5px solid rgba(255,255,255,0.2);backdrop-filter:blur(8px);transition:all .18s ease">
+          <span>📚 Browse 27 Study Suites</span>
+        </a>
       </div>
 
-      <div style="font-size:12px;color:rgba(255,255,255,0.65);display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap">
+      <div style="font-size:12px;color:rgba(255,255,255,0.7);display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap">
         <span>✓ Zero Sign-Up Required</span>
         <span>✓ Instant CBT Simulation</span>
+        <span>✓ 100% Free Forever</span>
         <a href="hi/" style="color:#FDBA74;text-decoration:none;font-weight:700">🇮🇳 हिंदी माध्यम पोर्टल &rarr;</a>
       </div>
     </div>
@@ -1271,17 +1269,7 @@
     <!-- ════ HABIT ENGINE: PERSONALIZED EXAM COMMAND CENTER ════ -->
     <div id="personalizedCommandCenter"></div>
 
-    <!-- ════ BROWSE ALL 80+ EXAMS & 27 STUDY SUITES (COLLAPSIBLE CATALOG) ════ -->
-    <details class="all-exams-tray" id="allExamsTray" style="background:#fff;border:1.5px solid var(--bdr);border-radius:18px;margin:20px 0 36px;overflow:hidden;box-shadow:var(--sh)">
-      <summary style="padding:18px 22px;font-size:15px;font-weight:800;color:var(--txt);cursor:pointer;display:flex;align-items:center;justify-content:space-between;user-select:none;list-style:none">
-        <div style="display:flex;align-items:center;gap:10px">
-          <span style="font-size:20px">📚</span>
-          <span>Explore All Other 80+ Exams, 27 Study Suites &amp; Companion Tools</span>
-        </div>
-        <span style="font-size:12px;font-weight:700;color:var(--pr);background:rgba(79,70,229,0.08);padding:4px 12px;border-radius:14px">Browse Full Catalog ▾</span>
-      </summary>
-      <div style="padding:0 22px 28px;border-top:1px solid var(--bdr);padding-top:22px">
-<!-- ════ QUICK STREAM & JUMP NAV BAR ════ -->
+    <!-- ════ QUICK STREAM & JUMP NAV BAR ════ -->
     <div class="stream-quick-bar" style="margin-bottom:32px">
       <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
         <div style="display:flex;align-items:center;gap:8px">
@@ -1299,35 +1287,189 @@
         <a href="#studyModules" class="quick-pill" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:24px;font-size:13px;font-weight:800;background:linear-gradient(135deg,#2563EB,#1D4ED8);color:#fff;white-space:nowrap;box-shadow:0 3px 12px rgba(37,99,235,.28)">
           <span>⚡</span> 27 Master Suites
         </a>
-        <a href="hubs/sbi-bank-exams.html" class="quick-pill" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:24px;font-size:13px;font-weight:700;background:var(--sf);border:1.5px solid var(--bdr);color:var(--txt);white-space:nowrap">
-          <span>🏦</span> Banking &amp; Insurance Hub
+        <a href="quiz-simulator.html" class="quick-pill" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:24px;font-size:13px;font-weight:700;background:rgba(16,185,129,.1);border:1.5px solid rgba(16,185,129,.28);color:#059669;white-space:nowrap">
+          <span>🎯</span> Mock Quiz Lab
         </a>
-        <a href="hubs/upsc-ias-exams.html" class="quick-pill" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:24px;font-size:13px;font-weight:700;background:var(--sf);border:1.5px solid var(--bdr);color:var(--txt);white-space:nowrap">
-          <span>🏛️</span> UPSC &amp; Civil Services Hub
-        </a>
-        <a href="hubs/ssc-cgl-exams.html" class="quick-pill" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:24px;font-size:13px;font-weight:700;background:var(--sf);border:1.5px solid var(--bdr);color:var(--txt);white-space:nowrap">
-          <span>🚆</span> SSC &amp; Railways Hub
-        </a>
-        <a href="jee_exam_prompt_generator.html" class="quick-pill" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:24px;font-size:13px;font-weight:700;background:var(--sf);border:1.5px solid var(--bdr);color:var(--txt);white-space:nowrap">
-          <span>⚙️</span> Engineering &amp; Medical
-        </a>
-        <a href="law_entrance_exam_prompt_generator.html" class="quick-pill" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:24px;font-size:13px;font-weight:700;background:var(--sf);border:1.5px solid var(--bdr);color:var(--txt);white-space:nowrap">
-          <span>⚖️</span> Law &amp; Management
-        </a>
-        <a href="#promptStudio" class="quick-pill" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:24px;font-size:13px;font-weight:700;background:rgba(99,102,241,.12);border:1.5px solid rgba(99,102,241,.3);color:#818CF8;white-space:nowrap">
-          <span>✨</span> AI Prompt Studio
+        <a href="#calculatorSuiteSection" class="quick-pill" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:24px;font-size:13px;font-weight:700;background:rgba(239,68,68,.1);border:1.5px solid rgba(239,68,68,.28);color:#DC2626;white-space:nowrap">
+          <span>🧮</span> Score Calculators
         </a>
         <a href="#examRoadmaps" class="quick-pill" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:24px;font-size:13px;font-weight:700;background:rgba(245,158,11,.1);border:1.5px solid rgba(245,158,11,.28);color:#D97706;white-space:nowrap">
           <span>🗺️</span> 4-Phase Roadmaps
         </a>
-        <a href="quiz-simulator.html" class="quick-pill" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:24px;font-size:13px;font-weight:700;background:rgba(16,185,129,.1);border:1.5px solid rgba(16,185,129,.28);color:#059669;white-space:nowrap">
-          <span>🎯</span> Mock Quiz Lab
+        <a href="#tools" class="quick-pill" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:24px;font-size:13px;font-weight:700;background:rgba(99,102,241,.12);border:1.5px solid rgba(99,102,241,.3);color:#818CF8;white-space:nowrap">
+          <span>✨</span> 18 AI Engines
         </a>
         <button onclick="window.openFormulaVault()" class="quick-pill" style="display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:24px;font-size:13px;font-weight:700;background:rgba(236,72,153,.1);border:1.5px solid rgba(236,72,153,.28);color:#DB2777;white-space:nowrap;cursor:pointer">
-          <span>⚡</span> Speed Formula Vault
+          <span>⚡</span> Speed Formulas
         </button>
       </div>
     </div>
+
+    <!-- ══════════════════════════════════════════════════════════
+         STAGE 2: DAILY STUDY ROUTINE, FOCUS STATION & SPEED DRILLS
+         ══════════════════════════════════════════════════════════ -->
+    <section id="studentHub" class="below-fold-sec student-hub-sec" style="margin-bottom:48px;scroll-margin-top:100px">
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px;margin-bottom:20px">
+        <div>
+          <div class="sec-eyebrow">&#x26A1; Stage 1 &middot; Daily Study Routine &amp; Habit Cockpit</div>
+          <h2 class="sec-hd">Daily Habit Tracker, Focus Timer &amp; Speed Math</h2>
+          <p class="sec-sub" style="margin-bottom:0">Track your daily preparation streak, focus in timed Pomodoro study blocks, and master daily mental math tricks before starting practice.</p>
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <a href="https://forms.gle/CPRAsEb7NmuniD2m8" target="_blank" rel="noopener" class="hub-pill-btn" style="background:linear-gradient(135deg,#DC2626,#EF4444);color:#fff;border:none;box-shadow:0 3px 12px rgba(239,68,68,.35)">
+            &#x1F381; Free Study Kit Form &rarr;
+          </a>
+          <button onclick="window.openFormulaVault()" class="hub-pill-btn" style="background:linear-gradient(135deg,var(--pr),var(--cy));color:#fff;border:none">
+            &#x1F4D6; Full Formula Vault
+          </button>
+          <a href="quiz-simulator.html" class="hub-pill-btn" style="background:rgba(16,185,129,.12);color:#059669;border:1px solid rgba(16,185,129,.3)">
+            &#x1F3AF; Mock Simulator &rarr;
+          </a>
+        </div>
+      </div>
+
+      <!-- STUDY FOCUS TIMER (POMODORO) -->
+      <div class="card timer-card" style="margin:0 0 28px;max-width:100%">
+        <div style="font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--txt3);margin-bottom:6px">&#x23F1;&#xFE0F; Speed Study &amp; Focus Timer</div>
+        <div class="timer-digit" id="timerDisplay">25:00</div>
+        <div id="timerMode" style="font-size:13px;color:var(--txt3);margin-bottom:14px">Focus session &middot; <span id="timerSessionsCompleted">0</span> completed today</div>
+
+        <div id="timerControls" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;align-items:center">
+          <button id="timerStartBtn" onclick="timerToggle()" class="btn-hero btn-hero-p" style="padding:10px 22px;font-size:14px">&#x25B6;&#xFE0F; Start Focus</button>
+          <button onclick="timerReset()" class="btn-hero btn-hero-s" style="padding:10px 22px;font-size:14px;color:var(--txt2);background:var(--sf2);border:1px solid var(--bdr)">&#x21BA; Reset</button>
+          <select id="timerLength" onchange="timerSetLength(this.value)" style="border-radius:12px;border:1px solid var(--bdr);padding:10px 14px;font-size:13px;font-family:inherit;background:var(--sf2);color:var(--txt)">
+            <option value="25">25 min Focus</option>
+            <option value="45">45 min Deep Work</option>
+            <option value="50">50 min Mock Test</option>
+            <option value="15">15 min Speed Drill</option>
+          </select>
+          <button id="timerSoundBtn" onclick="toggleTimerSound()" title="Toggle Audio Chime on Completion" style="border-radius:12px;border:1px solid var(--bdr);padding:10px 14px;font-size:13px;font-weight:700;font-family:inherit;background:var(--sf2);color:var(--txt);cursor:pointer;display:inline-flex;align-items:center;gap:6px">
+            &#x1F514; <span id="timerSoundTxt">Sound ON</span>
+          </button>
+        </div>
+
+        <div id="quoteBox" style="margin-top:16px;padding-top:14px;border-top:1px solid var(--bdr);font-style:italic;font-size:13px;color:var(--txt2)">
+          <span id="quoteText">&#x201C;Success is the sum of small efforts, repeated day in and day out.&#x201D;</span>
+          <span id="quoteAuthor" style="font-style:normal;font-size:11.5px;color:var(--txt3);display:block;margin-top:4px">&mdash; Robert Collier</span>
+        </div>
+      </div>
+
+      <!-- Two-Column Routine Dashboard: Daily Streak / Goals + Speed Math of the Day -->
+      <div class="hub-dashboard-grid">
+        
+        <!-- CARD A: Daily Study Streak & Target Tracker -->
+        <div class="hub-card streak-card">
+          <div class="hub-card-hd">
+            <div style="display:flex;align-items:center;gap:10px">
+              <span class="hub-card-badge" style="background:rgba(234,88,12,.15);color:#EA580C;border:1px solid rgba(234,88,12,.3)">
+                &#x1F525; Streak
+              </span>
+              <h3 style="font-size:16px;font-weight:800;color:var(--txt);margin:0">Daily Target Tracker</h3>
+            </div>
+            <span id="streakCountBadge" style="font-size:12px;font-weight:800;color:#EA580C;background:rgba(234,88,12,.1);padding:3px 10px;border-radius:14px">
+              Day 1 Active
+            </span>
+          </div>
+
+          <p style="font-size:12.5px;color:var(--txt3);margin:8px 0 14px;line-height:1.5">
+            Consistency is the #1 predictor of selection. Complete today's 4 core targets:
+          </p>
+
+          <!-- Interactive Goals Checklist -->
+          <div class="goal-list">
+            <label class="goal-item" id="goalItem1">
+              <input type="checkbox" id="goalCheckSpeedMath" onchange="toggleStudentGoal('speedMath', this.checked)">
+              <span class="goal-custom-check"></span>
+              <div class="goal-txt">
+                <strong>&#x26A1; Speed Math &amp; Formula Drill</strong>
+                <span>Review squares up to 50 &amp; fractional percentages (15 min)</span>
+              </div>
+            </label>
+
+            <label class="goal-item" id="goalItem2">
+              <input type="checkbox" id="goalCheckAiPrompt" onchange="toggleStudentGoal('aiPrompt', this.checked)">
+              <span class="goal-custom-check"></span>
+              <div class="goal-txt">
+                <strong>&#x1F916; AI Study Session</strong>
+                <span>Generate 1 custom AI prompt for your weakest topic</span>
+              </div>
+            </label>
+
+            <label class="goal-item" id="goalItem3">
+              <input type="checkbox" id="goalCheckCaQuiz" onchange="toggleStudentGoal('caQuiz', this.checked)">
+              <span class="goal-custom-check"></span>
+              <div class="goal-txt">
+                <strong>&#x1F4F0; Daily Headline Drill</strong>
+                <span>Attempt today's 5-Q live current affairs notification quiz</span>
+              </div>
+            </label>
+
+            <label class="goal-item" id="goalItem4">
+              <input type="checkbox" id="goalCheckDeepStudy" onchange="toggleStudentGoal('deepStudy', this.checked)">
+              <span class="goal-custom-check"></span>
+              <div class="goal-txt">
+                <strong>&#x23F1;&#xFE0F; Focused Study Block</strong>
+                <span>Finish at least one 25-minute uninterrupted study timer cycle</span>
+              </div>
+            </label>
+          </div>
+
+          <!-- Progress Bar -->
+          <div style="margin-top:14px">
+            <div style="display:flex;justify-content:space-between;font-size:11.5px;font-weight:700;margin-bottom:6px">
+              <span id="goalProgressLabel" style="color:var(--txt3)">0 / 4 Targets Completed</span>
+              <span id="goalProgressPct" style="color:var(--pr)">0%</span>
+            </div>
+            <div class="hub-prog-track">
+              <div id="goalProgressBar" class="hub-prog-bar" style="width:0%"></div>
+            </div>
+            <div id="goalCheerMsg" style="font-size:11px;font-weight:700;color:var(--gr);margin-top:6px;min-height:16px"></div>
+          </div>
+        </div>
+
+        <!-- CARD B: Speed Math & Shortcut of the Day -->
+        <div class="hub-card formula-card">
+          <div class="hub-card-hd">
+            <div style="display:flex;align-items:center;gap:10px">
+              <span class="hub-card-badge" style="background:rgba(99,102,241,.15);color:var(--pr2);border:1px solid rgba(99,102,241,.3)">
+                &#x26A1; Exam Shortcut
+              </span>
+              <h3 style="font-size:16px;font-weight:800;color:var(--txt);margin:0">Formula of the Day</h3>
+            </div>
+            <button onclick="nextFormulaTrick()" class="hub-icon-btn" title="Shuffle / Next High-Yield Shortcut">
+              &#x1F500; Next
+            </button>
+          </div>
+
+          <!-- Dynamic Rotating Content Box -->
+          <div id="trickContainer" class="trick-box">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+              <span id="trickSubject" class="trick-sub-tag">QUANTITATIVE APTITUDE</span>
+              <span id="trickIndex" style="font-size:11px;font-family:monospace;color:var(--txt3);font-weight:700">1 of 8</span>
+            </div>
+            <div id="trickTitle" class="trick-hd">Multiplication by 5, 25, 125 in Mental Math</div>
+            <div id="trickFormula" class="trick-formula">N &times; 25 = (N &times; 100) &divide; 4</div>
+            <p id="trickExample" class="trick-desc">
+              <strong>Example:</strong> 48 &times; 25 &rarr; 4800 &divide; 4 = <strong>1,200</strong> in under 2 seconds! For &times;125, divide by 8 and add 000.
+            </p>
+            <div id="trickExamNote" class="trick-exam-note">
+              &#x1F4A1; Saves 35+ seconds per calculation in SBI PO &amp; SSC CGL Simplification/DI.
+            </div>
+          </div>
+
+          <!-- Action Buttons for Shortcut Card -->
+          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap">
+            <button onclick="copyCurrentTrick()" class="btn-hero btn-hero-s" style="flex:1;padding:8px 14px;font-size:12px;color:var(--txt);background:var(--sf);border:1px solid var(--bdr);justify-content:center">
+              &#x1F4CB; Copy Shortcut
+            </button>
+            <button onclick="window.openFormulaVault()" class="btn-hero btn-hero-p" style="flex:1;padding:8px 14px;font-size:12px;justify-content:center">
+              &#x26A1; Open Formula Vault
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
 
     <!-- ══════════════════════════════════════════════════════════
          READY-MADE INTERACTIVE STUDY MODULES (13 MASTER SUITES)
@@ -1473,11 +1615,241 @@
       </div>
 
       <!-- Large Call to Action linking to all 27 suites -->
-      <div style="text-align:center;margin-top:32px;background:rgba(255,255,255,0.7);backdrop-filter:blur(10px);border:1.5px solid var(--bdr);border-radius:18px;padding:24px 20px">
+      <div style="text-align:center;margin-top:32px;background:var(--sf);backdrop-filter:blur(10px);border:1.5px solid var(--bdr);border-radius:18px;padding:24px 20px">
         <h4 style="font-size:17px;font-weight:800;color:var(--txt);margin-bottom:6px">Looking for UPSC Mains GS 1–3, History Atlas, Law (CLAT), or NEET?</h4>
         <p style="font-size:13.5px;color:var(--txt2);max-width:620px;margin:0 auto 16px">Explore our complete catalog of 27 dedicated digital textbooks and interactive labs across all major streams.</p>
         <a href="study-modules.html" class="btn-hero" style="background:linear-gradient(135deg,var(--pr),#1D4ED8);color:#fff;padding:13px 28px;font-size:14.5px;display:inline-flex;align-items:center;gap:8px">
           <span>📚</span> Browse All 27 Interactive Master Study Suites &rarr;
+        </a>
+      </div>
+
+      <!-- Collapsible Directory of all 27 Study Suites & Major Exam Streams -->
+      <details class="all-exams-tray" id="allExamsTray" style="background:var(--sf);border:1.5px solid var(--bdr);border-radius:18px;margin-top:24px;overflow:hidden;box-shadow:var(--sh)">
+        <summary style="padding:18px 22px;font-size:15px;font-weight:800;color:var(--txt);cursor:pointer;display:flex;align-items:center;justify-content:space-between;user-select:none;list-style:none">
+          <div style="display:flex;align-items:center;gap:10px">
+            <span style="font-size:20px">📚</span>
+            <span>Explore All 27 Interactive Suites &amp; Stream Hubs</span>
+          </div>
+          <span style="font-size:12px;font-weight:700;color:var(--pr);background:rgba(79,70,229,0.08);padding:4px 12px;border-radius:14px">Browse Full Directory ▾</span>
+        </summary>
+        <div style="padding:20px 22px 24px;border-top:1px solid var(--bdr)">
+          <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:14px">
+            <a href="modules/bank-quant.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">📐</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">Bank Quant Suite</strong><span style="font-size:12px;color:var(--txt3)">32 Topics &bull; Speed Math Lab</span></div>
+            </a>
+            <a href="modules/bank-reasoning.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">🧩</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">Bank Reasoning Suite</strong><span style="font-size:12px;color:var(--txt3)">Puzzles &bull; Seating &bull; Syllogism</span></div>
+            </a>
+            <a href="modules/bank-english.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">📖</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">Banking English Language</strong><span style="font-size:12px;color:var(--txt3)">24 Grammar Chapters &bull; RC Speed Reader</span></div>
+            </a>
+            <a href="modules/banking-awareness.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">🏦</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">Banking Awareness Master</strong><span style="font-size:12px;color:var(--txt3)">18 Modules &bull; RBI Monetary Policy</span></div>
+            </a>
+            <a href="modules/general-awareness.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">🌍</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">General Awareness &amp; CA</strong><span style="font-size:12px;color:var(--txt3)">Monthly Capsules &bull; Govt Schemes</span></div>
+            </a>
+            <a href="modules/editorial-hub.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">📰</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">Daily Editorial &amp; Vocab Hub</strong><span style="font-size:12px;color:var(--txt3)">The Hindu &bull; Indian Express Reader</span></div>
+            </a>
+            <a href="modules/computer-awareness.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">💻</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">Computer Awareness Master</strong><span style="font-size:12px;color:var(--txt3)">Architecture &bull; 600+ MCQs</span></div>
+            </a>
+            <a href="modules/gs4.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">⚖️</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">UPSC GS-IV Ethics Lab</strong><span style="font-size:12px;color:var(--txt3)">40+ Dilemma Case Studies</span></div>
+            </a>
+            <a href="modules/gs3.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">📊</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">UPSC GS-III Economy &amp; Tech</strong><span style="font-size:12px;color:var(--txt3)">Economy, Agriculture, Security</span></div>
+            </a>
+            <a href="modules/gs2.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">🏛️</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">UPSC GS-II Polity &amp; Governance</strong><span style="font-size:12px;color:var(--txt3)">Constitution, Polity, Social Justice</span></div>
+            </a>
+            <a href="modules/history.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">📜</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">History of India Atlas</strong><span style="font-size:12px;color:var(--txt3)">Ancient to Modern &bull; Art &amp; Culture</span></div>
+            </a>
+            <a href="modules/geography.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">🗺️</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">Geography &amp; Bharat Atlas</strong><span style="font-size:12px;color:var(--txt3)">Rivers, Monsoon Simulator, Soils</span></div>
+            </a>
+            <a href="modules/ssc.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">🎯</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">SSC CGL &amp; CHSL Master</strong><span style="font-size:12px;color:var(--txt3)">Advance Math, Reasoning, Tier 1 &amp; 2</span></div>
+            </a>
+            <a href="modules/railways.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">🚆</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">Railways RRB NTPC &amp; Group D</strong><span style="font-size:12px;color:var(--txt3)">General Science &bull; Math &bull; Stage 1 &amp; 2</span></div>
+            </a>
+            <a href="modules/defence.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">🎖️</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">Defence Exams Master</strong><span style="font-size:12px;color:var(--txt3)">NDA, CDS, AFCAT, SSB Guide</span></div>
+            </a>
+            <a href="modules/certifications.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">💼</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">Professional Certifications</strong><span style="font-size:12px;color:var(--txt3)">CA, CS, CMA, Banking Compliance</span></div>
+            </a>
+            <a href="modules/science-teaching.html" class="comp-card" style="text-decoration:none">
+              <span style="font-size:20px">🔬</span> <div><strong style="color:var(--txt);display:block;font-size:13.5px">Science &amp; Teaching Master</strong><span style="font-size:12px;color:var(--txt3)">CSIR NET, CTET, NCERT Labs</span></div>
+            </a>
+          </div>
+          <div style="text-align:center;margin-top:16px">
+            <a href="study-modules.html" style="font-weight:800;color:var(--pr);font-size:13px;text-decoration:none">
+              Open Full 27 Interactive Suites Hub &rarr;
+            </a>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════
+         STAGE 4: TIMED CBT MOCK TEST SIMULATOR LAB
+         ══════════════════════════════════════════════════════════ -->
+    <section id="mockLabSection" class="below-fold-sec" style="margin-bottom:52px;scroll-margin-top:100px">
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px;margin-bottom:20px">
+        <div>
+          <div class="sec-eyebrow">🎯 Stage 3 &middot; Timed Exam Simulation</div>
+          <h2 class="sec-hd">Interactive CBT Mock Test Simulator Lab</h2>
+          <p class="sec-sub" style="margin-bottom:0">Experience real-time sectional countdown timers, authentic 5-option Indian exam patterns (A, B, C, D, E), step-by-step Vedic solutions, and live accuracy scorecards.</p>
+        </div>
+        <div>
+          <a href="quiz-simulator.html" class="hub-pill-btn" style="background:linear-gradient(135deg,#059669,#10B981);color:#fff;border:none;box-shadow:0 3px 12px rgba(16,185,129,.35)">
+            ⚡ Launch Full CBT Mock Lab &rarr;
+          </a>
+        </div>
+      </div>
+
+      <div class="cat-card tb-b" style="border:2px solid #10B981;background:linear-gradient(135deg,rgba(16,185,129,0.06),rgba(37,99,235,0.06));padding:20px">
+        <div class="card-top" style="padding:0 0 14px">
+          <span style="background:#10B981;color:#fff;font-size:11px;font-weight:800;padding:4px 10px;border-radius:12px">FEATURED SIMULATOR</span>
+          <div class="card-ic-wrap" style="background:rgba(16,185,129,0.15);font-size:26px">&#x1F3AF;</div>
+          <div style="flex:1;min-width:0">
+            <h3 class="card-title" style="font-size:18px;margin-bottom:4px">Full-Pattern Computer Based Test (CBT) Simulator <span class="live-dot" style="background:#10B981">Interactive</span></h3>
+            <div class="card-meta">SBI PO &bull; IBPS PO &bull; RRB Officer &bull; RBI Grade B &bull; Quantitative Aptitude, Reasoning, English &amp; GA</div>
+          </div>
+        </div>
+        <p class="card-desc" style="padding:0 0 14px;font-size:13.5px;line-height:1.6">
+          Calibrated with official 2026–2027 negative marking (0.25 per wrong answer), 20-minute sectional countdown clocks, instant topper elimination shortcuts, and detailed step-by-step explanations for each question.
+        </p>
+        <div class="card-tags" style="padding:0 0 16px">
+          <span class="tag">&#x23F1;&#xFE0F; 20-Min Sectional Timers</span>
+          <span class="tag">&#x26A1; Speed Math &amp; Vedic Tricks</span>
+          <span class="tag">&#x1F4CA; Live Scoreboard &amp; Accuracy</span>
+          <span class="tag">&#x1F4A1; 5-Option Standard Pattern</span>
+          <span class="tag">&#x2696;&#xFE0F; Exact Negative Marking Calibration</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;padding-top:14px;border-top:1px solid var(--bdr)">
+          <div style="font-size:12.5px;color:var(--txt3);font-weight:600">Zero Sign-Up &bull; Instant Results &bull; 100% Free</div>
+          <a href="quiz-simulator.html" class="hub-pill-btn" style="background:linear-gradient(135deg,#059669,#10B981);color:#fff;border:none">
+            Start Live 10-Question Test &rarr;
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════
+         STAGE 5: HIGH-YIELD EXAM CALCULATORS & PREDICTORS
+         ══════════════════════════════════════════════════════════ -->
+    <section id="calculatorSuiteSection" class="below-fold-sec" style="margin-bottom:52px;scroll-margin-top:100px">
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px;margin-bottom:20px">
+        <div>
+          <div class="sec-eyebrow">🧮 Stage 4 &middot; Score Calibration &amp; Analytics</div>
+          <h2 class="sec-hd">High-Yield Exam Calculators &amp; Cutoff Predictors</h2>
+          <p class="sec-sub" style="margin-bottom:0">Calculate net negative scores, forecast shift-normalized percentiles, verify eligibility age cutoffs, and consult speed-math tables.</p>
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button onclick="window.BE_NAV.openCalculator()" class="hub-pill-btn" style="background:linear-gradient(135deg,var(--pr),var(--cy));color:#fff;border:none">
+            🧮 On-Screen Speed Calc
+          </button>
+          <button onclick="window.openFormulaVault()" class="hub-pill-btn" style="background:rgba(236,72,153,.12);color:#DB2777;border:1px solid rgba(236,72,153,.3)">
+            ⚡ Formula Vault
+          </button>
+        </div>
+      </div>
+
+      <div class="comp-tools-grid">
+        <!-- Calc 1: Negative Marking -->
+        <a href="negative-marking-calculator.html" class="comp-card">
+          <div class="comp-icon-box" style="background:rgba(239,68,68,.12);color:#EF4444">&#x2696;&#xFE0F;</div>
+          <div class="comp-card-content">
+            <div class="comp-title">Negative Marking Calculator</div>
+            <p class="comp-desc">Calculate gross score, negative deductions, and accuracy percentage across Banking (0.25), SSC (0.50), UPSC (0.66) &amp; RRB.</p>
+            <div class="comp-link">Calculate Marks &rarr;</div>
+          </div>
+        </a>
+
+        <!-- Calc 2: Percentile & Cutoff Predictor -->
+        <a href="percentile-cutoff-predictor.html" class="comp-card">
+          <div class="comp-icon-box" style="background:rgba(16,185,129,.12);color:#10B981">&#x1F4CA;</div>
+          <div class="comp-card-content">
+            <div class="comp-title">Percentile &amp; Cutoff Predictor</div>
+            <p class="comp-desc">Predict shift-normalized percentile score, category rank, and safe cutoff target for competitive exams.</p>
+            <div class="comp-link">Predict Cutoff &rarr;</div>
+          </div>
+        </a>
+
+        <!-- Calc 3: Eligibility & Age Checker -->
+        <a href="eligibility-age-checker.html" class="comp-card">
+          <div class="comp-icon-box" style="background:rgba(245,158,11,.12);color:#D97706">&#x1F382;</div>
+          <div class="comp-card-content">
+            <div class="comp-title">Exam Eligibility &amp; Age Checker</div>
+            <p class="comp-desc">Calculate exact age as of official cutoff dates with reservation category relaxations (OBC, SC/ST, PwBD).</p>
+            <div class="comp-link">Check Eligibility &rarr;</div>
+          </div>
+        </a>
+
+        <!-- Calc 4: Trend & Weightage Engine -->
+        <a href="trend-analysis-generator.html" class="comp-card">
+          <div class="comp-icon-box" style="background:rgba(6,182,212,.12);color:#0891B2">&#x1F4CA;</div>
+          <div class="comp-card-content">
+            <div class="comp-title">Cutoff &amp; Weightage Trend Engine</div>
+            <p class="comp-desc">Historical shift analysis, safe attempt targets, recurring question clusters, and difficulty calibration across 5 years.</p>
+            <div class="comp-link">Explore Trends &rarr;</div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+<!-- ══════════════════════════════════════════════════════════
+         ALL-EXAM ROADMAPS, PREPARATION STRATEGY & BEST BOOKS
+         ══════════════════════════════════════════════════════════ -->
+    <section id="examRoadmaps" class="below-fold-sec" style="margin-bottom:48px;scroll-margin-top:120px">
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px;margin-bottom:20px">
+        <div>
+          <div class="sec-eyebrow">&#x1F5FA;&#xFE0F; Stage 6 &middot; 4-Phase Roadmaps, Strategy &amp; Free Digital Library</div>
+          <h2 class="sec-hd">All-Exam Roadmaps, Strategy &amp; Best Books</h2>
+          <p class="sec-sub" style="margin-bottom:0">Select your target exam stream to view 4-phase preparation timelines, day-wise topper timetables, and authoritative textbook recommendations.</p>
+        </div>
+        <div>
+          <a href="all-exam-roadmaps.html" class="hub-pill-btn" style="background:linear-gradient(135deg,var(--pr),var(--cy));color:#fff;border:none">
+            &#x1F4D6; Full Master Guide (All Streams) &rarr;
+          </a>
+        </div>
+      </div>
+
+      <!-- Stream Selector Tab Pills -->
+      <div class="stream-jump-bar" style="border-radius:var(--r);margin-bottom:20px;border:1.5px solid var(--bdr);position:static">
+        <button class="s-jump-pill active" onclick="switchHomeRoadmap('bank', this)">&#x1F3E6; Banking &amp; Insurance</button>
+        <button class="s-jump-pill" onclick="switchHomeRoadmap('upsc', this)">&#x1F3DB;&#xFE0F; UPSC Civil Services</button>
+        <button class="s-jump-pill" onclick="switchHomeRoadmap('ssc', this)">&#x26A1; SSC Exams</button>
+        <button class="s-jump-pill" onclick="switchHomeRoadmap('rail', this)">&#x1F686; Railways RRB</button>
+        <button class="s-jump-pill" onclick="switchHomeRoadmap('gate', this)">&#x2699;&#xFE0F; GATE &amp; PSUs</button>
+        <button class="s-jump-pill" onclick="switchHomeRoadmap('def', this)">&#x2694;&#xFE0F; Defence (NDA/CDS)</button>
+        <button class="s-jump-pill" onclick="switchHomeRoadmap('law', this)">&#x2696;&#xFE0F; Law (CLAT/PCS-J)</button>
+        <button class="s-jump-pill" onclick="switchHomeRoadmap('mba', this)">&#x1F4C8; MBA / CAT</button>
+        <button class="s-jump-pill" onclick="switchHomeRoadmap('med_eng', this)">&#x1FA7A; NEET &amp; JEE</button>
+        <button class="s-jump-pill" onclick="switchHomeRoadmap('teach', this)">&#x1F393; State PSC &amp; Teaching</button>
+      </div>
+
+      <!-- Dynamic Roadmap Content Container -->
+      <div id="homeRoadmapContainer" class="stream-sec" style="margin-bottom:0">
+        <!-- Injected via JavaScript -->
+      </div>
+    
+      <!-- Free Digital Library & Open References Banner inside Stage 6 -->
+      <div style="margin-top:24px;background:var(--sf);border:1.5px solid var(--bdr);border-radius:18px;padding:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;box-shadow:var(--sh)">
+        <div style="display:flex;align-items:center;gap:14px">
+          <div style="width:48px;height:48px;border-radius:12px;background:rgba(16,185,129,0.12);color:#059669;display:flex;align-items:center;justify-content:center;font-size:24px">&#x1F4DA;</div>
+          <div>
+            <h3 style="font-size:16px;font-weight:800;color:var(--txt);margin:0 0 4px">Free Digital Library &amp; Open References</h3>
+            <p style="font-size:13px;color:var(--txt2);margin:0">Access open textbooks, standard syllabus references, previous year question pattern analysis, and speed-math formula sheets.</p>
+          </div>
+        </div>
+        <a href="IBPS_SBI_Free_Library.html" class="hub-pill-btn" style="background:linear-gradient(135deg,#059669,#10B981);color:#fff;border:none">
+          &#x1F4D6; Browse Free Library &rarr;
         </a>
       </div>
     </section>
@@ -1766,352 +2138,47 @@
         <p class="sec-sub">Customize your target exam, subject topic, and learning goal in real time. Generate syllabus-calibrated study prompts with 1-click clipboard copy and direct launches into ChatGPT, Claude, and Gemini.</p>
       </div>
       <div id="promptStudioContainer"></div>
-    </section>
-
-    <!-- ══════════════════════════════════════════════════════════
-         ALL-EXAM ROADMAPS, PREPARATION STRATEGY & BEST BOOKS
-         ══════════════════════════════════════════════════════════ -->
-    <section id="examRoadmaps" class="below-fold-sec" style="margin-bottom:48px;scroll-margin-top:120px">
-      <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px;margin-bottom:20px">
-        <div>
-          <div class="sec-eyebrow">&#x1F5FA;&#xFE0F; Step-by-Step Guides &middot; 2026&ndash;2027 Cycle</div>
-          <h2 class="sec-hd">All-Exam Roadmaps, Strategy &amp; Best Books</h2>
-          <p class="sec-sub" style="margin-bottom:0">Select your target exam stream to view 4-phase preparation timelines, day-wise topper timetables, and authoritative textbook recommendations.</p>
-        </div>
-        <div>
-          <a href="all-exam-roadmaps.html" class="hub-pill-btn" style="background:linear-gradient(135deg,var(--pr),var(--cy));color:#fff;border:none">
-            &#x1F4D6; Full Master Guide (All Streams) &rarr;
-          </a>
-        </div>
-      </div>
-
-      <!-- Stream Selector Tab Pills -->
-      <div class="stream-jump-bar" style="border-radius:var(--r);margin-bottom:20px;border:1.5px solid var(--bdr);position:static">
-        <button class="s-jump-pill active" onclick="switchHomeRoadmap('bank', this)">&#x1F3E6; Banking &amp; Insurance</button>
-        <button class="s-jump-pill" onclick="switchHomeRoadmap('upsc', this)">&#x1F3DB;&#xFE0F; UPSC Civil Services</button>
-        <button class="s-jump-pill" onclick="switchHomeRoadmap('ssc', this)">&#x26A1; SSC Exams</button>
-        <button class="s-jump-pill" onclick="switchHomeRoadmap('rail', this)">&#x1F686; Railways RRB</button>
-        <button class="s-jump-pill" onclick="switchHomeRoadmap('gate', this)">&#x2699;&#xFE0F; GATE &amp; PSUs</button>
-        <button class="s-jump-pill" onclick="switchHomeRoadmap('def', this)">&#x2694;&#xFE0F; Defence (NDA/CDS)</button>
-        <button class="s-jump-pill" onclick="switchHomeRoadmap('law', this)">&#x2696;&#xFE0F; Law (CLAT/PCS-J)</button>
-        <button class="s-jump-pill" onclick="switchHomeRoadmap('mba', this)">&#x1F4C8; MBA / CAT</button>
-        <button class="s-jump-pill" onclick="switchHomeRoadmap('med_eng', this)">&#x1FA7A; NEET &amp; JEE</button>
-        <button class="s-jump-pill" onclick="switchHomeRoadmap('teach', this)">&#x1F393; State PSC &amp; Teaching</button>
-      </div>
-
-      <!-- Dynamic Roadmap Content Container -->
-      <div id="homeRoadmapContainer" class="stream-sec" style="margin-bottom:0">
-        <!-- Injected via JavaScript -->
-      </div>
-    </section>
-
-    <!-- STUDY FOCUS TIMER (POMODORO) -->
-    <div class="card timer-card">
-      <div style="font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--txt3);margin-bottom:6px">&#x23F1;&#xFE0F; Speed Study &amp; Focus Timer</div>
-      <div class="timer-digit" id="timerDisplay">25:00</div>
-      <div id="timerMode" style="font-size:13px;color:var(--txt3);margin-bottom:14px">Focus session &middot; <span id="timerSessionsCompleted">0</span> completed today</div>
-
-      <div id="timerControls" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;align-items:center">
-        <button id="timerStartBtn" onclick="timerToggle()" class="btn-hero btn-hero-p" style="padding:10px 22px;font-size:14px">&#x25B6;&#xFE0F; Start Focus</button>
-        <button onclick="timerReset()" class="btn-hero btn-hero-s" style="padding:10px 22px;font-size:14px;color:var(--txt2);background:var(--sf2);border:1px solid var(--bdr)">&#x21BA; Reset</button>
-        <select id="timerLength" onchange="timerSetLength(this.value)" style="border-radius:12px;border:1px solid var(--bdr);padding:10px 14px;font-size:13px;font-family:inherit;background:var(--sf2);color:var(--txt)">
-          <option value="25">25 min Focus</option>
-          <option value="45">45 min Deep Work</option>
-          <option value="50">50 min Mock Test</option>
-          <option value="15">15 min Speed Drill</option>
-        </select>
-        <button id="timerSoundBtn" onclick="toggleTimerSound()" title="Toggle Audio Chime on Completion" style="border-radius:12px;border:1px solid var(--bdr);padding:10px 14px;font-size:13px;font-weight:700;font-family:inherit;background:var(--sf2);color:var(--txt);cursor:pointer;display:inline-flex;align-items:center;gap:6px">
-          &#x1F514; <span id="timerSoundTxt">Sound ON</span>
-        </button>
-      </div>
-
-      <div id="quoteBox" style="margin-top:16px;padding-top:14px;border-top:1px solid var(--bdr);font-style:italic;font-size:13px;color:var(--txt2)">
-        <span id="quoteText">&#x201C;Success is the sum of small efforts, repeated day in and day out.&#x201D;</span>
-        <span id="quoteAuthor" style="font-style:normal;font-size:11.5px;color:var(--txt3);display:block;margin-top:4px">&mdash; Robert Collier</span>
-      </div>
-    </div>
-
-    <!-- ══════════════════════════════════════════════════════════
-         STUDENT DAILY SUCCESS HUB & HIGH-YIELD COMMAND CENTER
-         ══════════════════════════════════════════════════════════ -->
-    <section id="studentHub" class="below-fold-sec" class="student-hub-sec" style="margin-bottom:44px">
-      <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px;margin-bottom:20px">
-        <div>
-          <div class="sec-eyebrow">&#x26A1; Student Command Center &middot; 2026&ndash;2027 Cycle</div>
-          <h2 class="sec-hd">Daily Study Routine, Speed Math &amp; Companion Tools</h2>
-          <p class="sec-sub" style="margin-bottom:0">Track your daily preparation streak, practice high-yield mental math shortcuts, and access companion preparation suites.</p>
-        </div>
-        <div style="display:flex;gap:8px;flex-wrap:wrap">
-          <a href="https://forms.gle/CPRAsEb7NmuniD2m8" target="_blank" rel="noopener" class="hub-pill-btn" style="background:linear-gradient(135deg,#DC2626,#EF4444);color:#fff;border:none;box-shadow:0 3px 12px rgba(239,68,68,.35)">
-            &#x1F381; Free Study Kit Form &rarr;
-          </a>
-          <button onclick="window.openFormulaVault()" class="hub-pill-btn" style="background:linear-gradient(135deg,var(--pr),var(--cy));color:#fff;border:none">
-            &#x1F4D6; Full Formula Vault
-          </button>
-          <a href="quiz-simulator.html" class="hub-pill-btn" style="background:rgba(16,185,129,.12);color:#059669;border:1px solid rgba(16,185,129,.3)">
-            &#x1F3AF; Mock Simulator &rarr;
-          </a>
-        </div>
-      </div>
-
-      <!-- Two-Column Routine Dashboard: Daily Streak / Goals + Speed Math of the Day -->
-      <div class="hub-dashboard-grid">
-        
-        <!-- CARD A: Daily Study Streak & Target Tracker -->
-        <div class="hub-card streak-card">
-          <div class="hub-card-hd">
-            <div style="display:flex;align-items:center;gap:10px">
-              <span class="hub-card-badge" style="background:rgba(234,88,12,.15);color:#EA580C;border:1px solid rgba(234,88,12,.3)">
-                &#x1F525; Streak
-              </span>
-              <h3 style="font-size:16px;font-weight:800;color:var(--txt);margin:0">Daily Target Tracker</h3>
-            </div>
-            <span id="streakCountBadge" style="font-size:12px;font-weight:800;color:#EA580C;background:rgba(234,88,12,.1);padding:3px 10px;border-radius:14px">
-              Day 1 Active
-            </span>
-          </div>
-
-          <p style="font-size:12.5px;color:var(--txt3);margin:8px 0 14px;line-height:1.5">
-            Consistency is the #1 predictor of selection. Complete today's 4 core targets:
-          </p>
-
-          <!-- Interactive Goals Checklist -->
-          <div class="goal-list">
-            <label class="goal-item" id="goalItem1">
-              <input type="checkbox" id="goalCheckSpeedMath" onchange="toggleStudentGoal('speedMath', this.checked)">
-              <span class="goal-custom-check"></span>
-              <div class="goal-txt">
-                <strong>&#x26A1; Speed Math &amp; Formula Drill</strong>
-                <span>Review squares up to 50 &amp; fractional percentages (15 min)</span>
-              </div>
-            </label>
-
-            <label class="goal-item" id="goalItem2">
-              <input type="checkbox" id="goalCheckAiPrompt" onchange="toggleStudentGoal('aiPrompt', this.checked)">
-              <span class="goal-custom-check"></span>
-              <div class="goal-txt">
-                <strong>&#x1F916; AI Study Session</strong>
-                <span>Generate 1 custom AI prompt for your weakest topic</span>
-              </div>
-            </label>
-
-            <label class="goal-item" id="goalItem3">
-              <input type="checkbox" id="goalCheckCaQuiz" onchange="toggleStudentGoal('caQuiz', this.checked)">
-              <span class="goal-custom-check"></span>
-              <div class="goal-txt">
-                <strong>&#x1F4F0; Daily Headline Drill</strong>
-                <span>Attempt today's 5-Q live current affairs notification quiz</span>
-              </div>
-            </label>
-
-            <label class="goal-item" id="goalItem4">
-              <input type="checkbox" id="goalCheckDeepStudy" onchange="toggleStudentGoal('deepStudy', this.checked)">
-              <span class="goal-custom-check"></span>
-              <div class="goal-txt">
-                <strong>&#x23F1;&#xFE0F; Focused Study Block</strong>
-                <span>Finish at least one 25-minute uninterrupted study timer cycle</span>
-              </div>
-            </label>
-          </div>
-
-          <!-- Progress Bar -->
-          <div style="margin-top:14px">
-            <div style="display:flex;justify-content:space-between;font-size:11.5px;font-weight:700;margin-bottom:6px">
-              <span id="goalProgressLabel" style="color:var(--txt3)">0 / 4 Targets Completed</span>
-              <span id="goalProgressPct" style="color:var(--pr)">0%</span>
-            </div>
-            <div class="hub-prog-track">
-              <div id="goalProgressBar" class="hub-prog-bar" style="width:0%"></div>
-            </div>
-            <div id="goalCheerMsg" style="font-size:11px;font-weight:700;color:var(--gr);margin-top:6px;min-height:16px"></div>
-          </div>
-        </div>
-
-        <!-- CARD B: Speed Math & Shortcut of the Day -->
-        <div class="hub-card formula-card">
-          <div class="hub-card-hd">
-            <div style="display:flex;align-items:center;gap:10px">
-              <span class="hub-card-badge" style="background:rgba(99,102,241,.15);color:var(--pr2);border:1px solid rgba(99,102,241,.3)">
-                &#x26A1; Exam Shortcut
-              </span>
-              <h3 style="font-size:16px;font-weight:800;color:var(--txt);margin:0">Formula of the Day</h3>
-            </div>
-            <button onclick="nextFormulaTrick()" class="hub-icon-btn" title="Shuffle / Next High-Yield Shortcut">
-              &#x1F500; Next
-            </button>
-          </div>
-
-          <!-- Dynamic Rotating Content Box -->
-          <div id="trickContainer" class="trick-box">
-            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
-              <span id="trickSubject" class="trick-sub-tag">QUANTITATIVE APTITUDE</span>
-              <span id="trickIndex" style="font-size:11px;font-family:monospace;color:var(--txt3);font-weight:700">1 of 8</span>
-            </div>
-            <div id="trickTitle" class="trick-hd">Multiplication by 5, 25, 125 in Mental Math</div>
-            <div id="trickFormula" class="trick-formula">N &times; 25 = (N &times; 100) &divide; 4</div>
-            <p id="trickExample" class="trick-desc">
-              <strong>Example:</strong> 48 &times; 25 &rarr; 4800 &divide; 4 = <strong>1,200</strong> in under 2 seconds! For &times;125, divide by 8 and add 000.
-            </p>
-            <div id="trickExamNote" class="trick-exam-note">
-              &#x1F4A1; Saves 35+ seconds per calculation in SBI PO &amp; SSC CGL Simplification/DI.
-            </div>
-          </div>
-
-          <!-- Action Buttons for Shortcut Card -->
-          <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap">
-            <button onclick="copyCurrentTrick()" class="btn-hero btn-hero-s" style="flex:1;padding:8px 14px;font-size:12px;color:var(--txt);background:var(--sf);border:1px solid var(--bdr);justify-content:center">
-              &#x1F4CB; Copy Shortcut
-            </button>
-            <button onclick="window.openFormulaVault()" class="btn-hero btn-hero-p" style="flex:1;padding:8px 14px;font-size:12px;justify-content:center">
-              &#x26A1; Open Formula Vault
-            </button>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- 9 Essential Student Companion Tools Cards Grid -->
+    
+      <!-- Curated AI Prompt Guides Section inside Stage 7 -->
       <div style="margin-top:28px">
         <div style="display:flex;align-items:center;gap:8px;margin-bottom:14px">
-          <span style="font-size:13px;font-weight:800;color:var(--txt);text-transform:uppercase;letter-spacing:.04em">9 Essential Student Companion Tools</span>
-          <span style="font-size:11px;padding:2px 8px;border-radius:10px;background:rgba(79,70,229,.1);color:var(--pr);font-weight:700">100% Free Forever</span>
+          <span style="font-size:13px;font-weight:800;color:var(--txt);text-transform:uppercase;letter-spacing:.04em">Curated AI Prompt Frameworks &middot; Self-Study Guides</span>
+          <span style="font-size:11px;padding:2px 8px;border-radius:10px;background:rgba(56,189,248,.1);color:#0284C7;font-weight:700">100% Free</span>
         </div>
-
         <div class="comp-tools-grid">
-          
-          <!-- Tool 1: Mock Simulator -->
-          <a href="quiz-simulator.html" class="comp-card">
-            <div class="comp-icon-box" style="background:rgba(59,130,246,.12);color:#2563EB">&#x1F3AF;</div>
+          <a href="prompts-ssc-cgl-quant.html" class="comp-card">
+            <div class="comp-icon-box" style="background:rgba(56,189,248,.12);color:#38BDF8">&#x1F4D0;</div>
             <div class="comp-card-content">
-              <div class="comp-title">Interactive Mock Simulator</div>
-              <p class="comp-desc">5-option question simulator with sectional timer, negative marking, instant topper elimination shortcuts &amp; accuracy tracker.</p>
-              <div class="comp-link">Launch Simulator &rarr;</div>
+              <div class="comp-title">30 Best ChatGPT Prompts for SSC CGL Quant</div>
+              <p class="comp-desc">Arithmetic shortcuts, geometry proofs, algebra value-putting, and TCS trap diagnostics.</p>
+              <div class="comp-link">Explore 30 Prompts &rarr;</div>
             </div>
           </a>
-
-          <!-- Tool 2: Ready-Made Study Modules -->
-          <a href="study-modules.html" class="comp-card">
-            <div class="comp-icon-box" style="background:rgba(37,99,235,.12);color:#2563EB">&#x26A1;</div>
+          <a href="prompts-upsc-mains.html" class="comp-card">
+            <div class="comp-icon-box" style="background:rgba(168,85,247,.12);color:#A855F7">&#x1F3DB;&#xFE0F;</div>
             <div class="comp-card-content">
-              <div class="comp-title">27 Exam Master Suites</div>
-              <p class="comp-desc">Comprehensive digital study modules, topic laboratories, and official free NCERT/Govt textbooks across 8 exam verticals.</p>
-              <div class="comp-link">Launch Modules &rarr;</div>
+              <div class="comp-title">30 Best AI Prompts for UPSC Mains Writing</div>
+              <p class="comp-desc">GS 1-4 answer structures, ethical case studies, and strict 10-marker evaluation rubrics.</p>
+              <div class="comp-link">Explore 30 Prompts &rarr;</div>
             </div>
           </a>
-
-          <!-- Tool 3: Free Digital Library -->
-          <a href="IBPS_SBI_Free_Library.html" class="comp-card">
-            <div class="comp-icon-box" style="background:rgba(16,185,129,.12);color:#059669">&#x1F4DA;</div>
+          <a href="prompts-bank-exam-reasoning.html" class="comp-card">
+            <div class="comp-icon-box" style="background:rgba(34,197,94,.12);color:#22C55E">&#x1F9E9;</div>
             <div class="comp-card-content">
-              <div class="comp-title">Free Digital Library &amp; Open References</div>
-              <p class="comp-desc">Curated index of standard reference reading lists, concept notes, previous year exam patterns, and speed math formula books.</p>
-              <div class="comp-link">Browse Library &rarr;</div>
+              <div class="comp-title">30 Best AI Prompts for Banking Puzzles &amp; DI</div>
+              <p class="comp-desc">Floor/flat arrangements, circular blood relations, missing DI, and machine input-output.</p>
+              <div class="comp-link">Explore 30 Prompts &rarr;</div>
             </div>
           </a>
-
-          <!-- Tool 4: Preparation Roadmap & Best Books -->
-          <a href="all-exam-roadmaps.html" class="comp-card">
-            <div class="comp-icon-box" style="background:rgba(245,158,11,.12);color:#D97706">&#x1F5FA;&#xFE0F;</div>
-            <div class="comp-card-content">
-              <div class="comp-title">All-Exam Roadmaps &amp; Best Books</div>
-              <p class="comp-desc">Step-by-step 4-phase timelines, day-wise topper routines, and standard reference booklists for all 10 exam streams.</p>
-              <div class="comp-link">Explore Master Roadmaps &rarr;</div>
-            </div>
-          </a>
-
-          <!-- Tool 5: Trend & Cutoff Analysis -->
-          <a href="trend-analysis-generator.html" class="comp-card">
-            <div class="comp-icon-box" style="background:rgba(6,182,212,.12);color:#0891B2">&#x1F4CA;</div>
-            <div class="comp-card-content">
-              <div class="comp-title">Cutoff &amp; Weightage Trend Engine</div>
-              <p class="comp-desc">Historical shift analysis, safe attempt targets, recurring question clusters, and difficulty calibration across 5 years.</p>
-              <div class="comp-link">Explore Trends &rarr;</div>
-            </div>
-          </a>
-
-          <!-- Tool 6: Formula Vault -->
-          <div onclick="window.openFormulaVault()" class="comp-card" style="cursor:pointer">
-            <div class="comp-icon-box" style="background:rgba(236,72,153,.12);color:#DB2777">&#x26A1;</div>
-            <div class="comp-card-content">
-              <div class="comp-title">Speed Math Formula Vault</div>
-              <p class="comp-desc">Quick-access tables of squares (1&ndash;50), cubes (1&ndash;30), fraction-to-percentage rules, and quadratic sign shortcuts.</p>
-              <div class="comp-link">Open Vault (Modal) &rarr;</div>
-            </div>
-          </div>
-
-          <!-- Tool 7: Negative Marking Calculator -->
-          <a href="negative-marking-calculator.html" class="comp-card">
-            <div class="comp-icon-box" style="background:rgba(239,68,68,.12);color:#EF4444">&#x2696;&#xFE0F;</div>
-            <div class="comp-card-content">
-              <div class="comp-title">Negative Marking Calculator</div>
-              <p class="comp-desc">Calculate gross score, negative deductions, and accuracy percentage across Banking (0.25), SSC (0.50), UPSC (0.66) &amp; RRB.</p>
-              <div class="comp-link">Calculate Marks &rarr;</div>
-            </div>
-          </a>
-
-          <!-- Tool 8: Percentile & Cutoff Predictor -->
-          <a href="percentile-cutoff-predictor.html" class="comp-card">
-            <div class="comp-icon-box" style="background:rgba(16,185,129,.12);color:#10B981">&#x1F4CA;</div>
-            <div class="comp-card-content">
-              <div class="comp-title">Percentile &amp; Cutoff Predictor</div>
-              <p class="comp-desc">Predict shift-normalized percentile score, category rank, and safe cutoff target for competitive exams.</p>
-              <div class="comp-link">Predict Cutoff &rarr;</div>
-            </div>
-          </a>
-
-          <!-- Tool 9: Exam Eligibility & Age Checker -->
-          <a href="eligibility-age-checker.html" class="comp-card">
-            <div class="comp-icon-box" style="background:rgba(245,158,11,.12);color:#D97706">&#x1F382;</div>
-            <div class="comp-card-content">
-              <div class="comp-title">Exam Eligibility &amp; Age Checker</div>
-              <p class="comp-desc">Calculate exact age as of official cutoff dates with reservation category relaxations (OBC, SC/ST, PwBD).</p>
-              <div class="comp-link">Check Eligibility &rarr;</div>
-            </div>
-          </a>
-
-        </div>
-
-        <!-- Curated AI Prompt Guides Section -->
-        <div style="margin-top:24px">
-          <div style="display:flex;align-items:center;gap:8px;margin-bottom:14px">
-            <span style="font-size:13px;font-weight:800;color:var(--txt);text-transform:uppercase;letter-spacing:.04em">Curated AI Prompt Guides &amp; Frameworks</span>
-            <span style="font-size:11px;padding:2px 8px;border-radius:10px;background:rgba(56,189,248,.1);color:#38BDF8;font-weight:700">Self-Study Guides</span>
-          </div>
-          <div class="comp-tools-grid">
-            <a href="prompts-ssc-cgl-quant.html" class="comp-card">
-              <div class="comp-icon-box" style="background:rgba(56,189,248,.12);color:#38BDF8">&#x1F4D0;</div>
-              <div class="comp-card-content">
-                <div class="comp-title">30 Best ChatGPT Prompts for SSC CGL Quant</div>
-                <p class="comp-desc">Arithmetic shortcuts, geometry proofs, algebra value-putting, and TCS trap diagnostics.</p>
-                <div class="comp-link">Explore 30 Prompts &rarr;</div>
-              </div>
-            </a>
-            <a href="prompts-upsc-mains.html" class="comp-card">
-              <div class="comp-icon-box" style="background:rgba(168,85,247,.12);color:#A855F7">&#x1F3DB;&#xFE0F;</div>
-              <div class="comp-card-content">
-                <div class="comp-title">30 Best AI Prompts for UPSC Mains Writing</div>
-                <p class="comp-desc">GS 1-4 answer structures, ethical case studies, and strict 10-marker evaluation rubrics.</p>
-                <div class="comp-link">Explore 30 Prompts &rarr;</div>
-              </div>
-            </a>
-            <a href="prompts-bank-exam-reasoning.html" class="comp-card">
-              <div class="comp-icon-box" style="background:rgba(34,197,94,.12);color:#22C55E">&#x1F9E9;</div>
-              <div class="comp-card-content">
-                <div class="comp-title">30 Best AI Prompts for Banking Puzzles &amp; DI</div>
-                <p class="comp-desc">Floor/flat arrangements, circular blood relations, missing DI, and machine input-output.</p>
-                <div class="comp-link">Explore 30 Prompts &rarr;</div>
-              </div>
-            </a>
-          </div>
         </div>
       </div>
     </section>
 
     <!-- ════ LIVE EXAM NOTIFICATIONS & UPDATES (RSS2FEED & FIREBASE POWERED) ════ -->
-    <section class="signal-section" id="liveExamUpdates" class="below-fold-sec">
+    <section class="signal-section below-fold-sec" id="liveExamUpdates">
       <div class="signal-head">
         <div>
-          <div class="signal-eyebrow"><span class="dot"></span> Official Cycle Schedules &middot; 2026&ndash;2027 Academic Year</div>
+          <div class="signal-eyebrow"><span class="dot"></span> Stage 8 &middot; Official Examination Timelines &middot; 2026&ndash;2027 Academic Year</div>
           <h2>Official Examination Timelines &amp; 2026&ndash;2027 Blueprints</h2>
           <p style="font-size:13px;color:rgba(255,255,255,.75);margin-top:4px">
             Exam cycle schedules, notification timelines, CBT formats, and syllabus guides grounded in official commission blueprints.
@@ -2225,8 +2292,7 @@
       </div>
     </div>
 
-      </div>
-    </details>
+
 
     <!-- ════ VALUE COMPARISON: COACHING VS GENERIC AI VS PREPSELF ════ -->
     <div style="margin:44px 0 16px">
@@ -2338,8 +2404,8 @@
     </div>
 
     <!-- ════ FAQ SECTION ════ -->
-    <div style="margin-bottom:48px">
-      <div class="sec-eyebrow">Frequently Asked Questions</div>
+    <section id="faqSection" class="below-fold-sec" style="margin-bottom:48px;scroll-margin-top:80px">
+      <div class="sec-eyebrow">&#x2753; Stage 9 &middot; Frequently Asked Questions</div>
       <h2 class="sec-hd">Got Questions? We've Got Answers.</h2>
       <div class="faq-list">
         <div class="faq-item">
@@ -2366,6 +2432,9 @@
           <div class="faq-q" onclick="toggleFaq(this)">Which competitive exams are covered on PrepSelf? <span>+</span></div>
           <div class="faq-a">Over 80 exams are covered across 10 major domains: Banking &amp; Insurance (SBI PO/Clerk, IBPS PO/Clerk/RRB, RBI Grade B), UPSC Civil Services (Prelims &amp; Mains GS), SSC (CGL, CHSL, MTS, CPO), Railways RRB (NTPC, Group D, ALP), GATE &amp; PSUs, Defence (NDA, CDS, AFCAT), Law (CLAT), Management (CAT), NEET/JEE, and State PSCs.</div>
         </div>
+      </div>
+    </section>
+
     <!-- ════ TRENDING SEARCH TOPICS & SYLLABI (2026-2027) ════ -->
     <div style="margin-bottom:48px;background:linear-gradient(135deg,#0F172A,#1E293B);border-radius:18px;padding:32px 28px;color:#fff;box-shadow:0 10px 30px rgba(0,0,0,0.15)">
       <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:16px">

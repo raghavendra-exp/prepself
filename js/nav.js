@@ -444,37 +444,35 @@
     const saved = localStorage.getItem('be-theme');
     const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     const theme = saved || (prefersDark ? 'dark' : 'light');
-    if (theme === 'dark') {
-      document.documentElement.setAttribute('data-theme', 'dark');
-    }
+    document.documentElement.setAttribute('data-theme', theme);
     updateThemeButtons();
   }
 
   function toggleTheme(){
     const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-    if (isDark) {
-      document.documentElement.removeAttribute('data-theme');
-      localStorage.setItem('be-theme', 'light');
-    } else {
-      document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('be-theme', 'dark');
-    }
+    const nextTheme = isDark ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', nextTheme);
+    localStorage.setItem('be-theme', nextTheme);
     updateThemeButtons();
   }
 
   function updateThemeButtons(){
     const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-    const icon = isDark
-      ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>'
-      : '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+    const sunIcon = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>';
+    const moonIcon = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
 
+    const icon = isDark ? sunIcon : moonIcon;
     const labelText = isDark ? 'Light' : 'Dark';
     const tooltip = isDark ? 'Switch to light theme' : 'Switch to dark theme';
 
     document.querySelectorAll('.theme-icon-btn, #themeToggleBtn, .be-theme-btn').forEach(btn => {
-      const hasText = btn.classList.contains('be-btn-with-label');
-      if (hasText) {
-        btn.innerHTML = `${icon} <span>${labelText}</span>`;
+      const textEl = btn.querySelector('.be-tool-text, span');
+      const iconEl = btn.querySelector('.be-tool-icon');
+      if (iconEl && textEl) {
+        iconEl.innerHTML = icon;
+        textEl.textContent = labelText;
+      } else if (btn.classList.contains('be-btn-with-label') || btn.classList.contains('be-btn-theme')) {
+        btn.innerHTML = `${icon} <span class="be-tool-text">${labelText}</span>`;
       } else {
         btn.innerHTML = icon;
       }
@@ -484,7 +482,9 @@
 
     const dTheme = document.getElementById('drawerThemeToggle');
     if (dTheme) {
-      dTheme.innerHTML = `${icon} <span>${isDark ? 'Light Mode' : 'Dark Mode'}</span>`;
+      dTheme.innerHTML = `${icon} <span>${isDark ? '☀️ Light Mode' : '🌙 Dark Mode'}</span>`;
+      dTheme.title = tooltip;
+      dTheme.setAttribute('aria-label', tooltip);
     }
   }
 
@@ -705,106 +705,229 @@
     if (modal) modal.classList.remove('open');
   };
 
-  /* ---------- MOBILE DRAWER & BOTTOM RIBBON ---------- */
+  /* ---------- LEFT SIDE BREADCRUMB SLIDER & DRAWER ---------- */
   function initMobileNav(){
-    // 1. Mobile Drawer
     let drawer = document.getElementById('mobileDrawer');
     if (!drawer) {
       drawer = document.createElement('div');
       drawer.id = 'mobileDrawer';
       drawer.className = 'mobile-drawer';
+      drawer.setAttribute('role', 'dialog');
+      drawer.setAttribute('aria-modal', 'true');
+      drawer.setAttribute('aria-label', 'PrepSelf Navigation Drawer & Directory');
       drawer.innerHTML = `
         <div class="drawer-backdrop" onclick="window.closeMobileDrawer()"></div>
-        <div class="drawer-panel">
+        <aside class="drawer-panel" id="navDrawerPanel">
           <div class="drawer-hd">
-            <div class="drawer-logo">
-              <span>&#x1F4DA;</span>
-              <span>PrepSelf</span>
+            <div class="drawer-bc-track">
+              <a href="./" class="drawer-bc-home" onclick="window.closeMobileDrawer()">🏠 PrepSelf</a>
+              <span class="drawer-bc-sep">/</span>
+              <span class="drawer-bc-current">Menu Explorer</span>
             </div>
-            <button class="drawer-close" onclick="window.closeMobileDrawer()">&times;</button>
+            <button class="drawer-close" onclick="window.closeMobileDrawer()" title="Close menu (Esc)" aria-label="Close menu">&times;</button>
           </div>
-          <div class="drawer-links">
-            <button class="drawer-link app-install-ui drawer-app-install" id="drawerChromeInstall" onclick="window.triggerChromeInstall(); window.closeMobileDrawer();" style="background:rgba(6,182,212,0.12);color:#38BDF8;font-weight:800;border:1px solid rgba(6,182,212,0.25);width:100%;text-align:left;display:flex;align-items:center;cursor:pointer">
+          <div class="drawer-search-box">
+            <span class="drawer-search-icon" aria-hidden="true">&#x1F50D;</span>
+            <input type="text" id="drawerSearchInput" class="drawer-search-input" placeholder="Quick filter suites &amp; tools..." autocomplete="off" oninput="window.filterDrawerLinks(this.value)" aria-label="Filter navigation suites and tools">
+          </div>
+          <div class="drawer-links" id="drawerLinksContainer">
+            <button class="drawer-link app-install-ui drawer-app-install" id="drawerChromeInstall" onclick="window.triggerChromeInstall(); window.closeMobileDrawer();" style="background:rgba(6,182,212,0.12);color:#0284C7;font-weight:800;border:1px solid rgba(6,182,212,0.3);width:100%;text-align:left;display:flex;align-items:center;cursor:pointer">
               <span class="drawer-icon">⚡</span> <span>Install Web App (PWA)</span>
             </button>
-            <a href="./" class="drawer-link" onclick="window.closeMobileDrawer()">
-              <span class="drawer-icon">🏠</span> <span>Home Portal</span>
-            </a>
-            <a href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener" class="drawer-link" onclick="window.closeMobileDrawer()" style="background:linear-gradient(135deg,rgba(99,102,241,0.18),rgba(168,85,247,0.18));color:#C084FC;font-weight:800;border:1px solid rgba(168,85,247,0.35)">
-              <span class="drawer-icon">👨‍💻</span> <span>Creator Profile &amp; Portfolio</span>
-            </a>
-            <a href="study-modules.html" class="drawer-link" onclick="window.closeMobileDrawer()" style="background:rgba(96,165,250,0.12);color:#60A5FA;font-weight:800">
-              <span class="drawer-icon">📚</span> <span>27 Ready-Made Study Modules</span>
-            </a>
-            <a href="hi/" class="drawer-link" onclick="window.closeMobileDrawer()" style="background:rgba(234,88,12,0.16);color:#FB923C;font-weight:800;border:1px solid rgba(234,88,12,0.3)">
-              <span class="drawer-icon">🇮🇳</span> <span>हिंदी परीक्षा केंद्र (UP Police, PET, TET)</span>
-            </a>
-            <a href="user-guide.html" class="drawer-link" onclick="window.closeMobileDrawer()" style="background:rgba(56,189,248,0.14);color:#38BDF8;font-weight:800">
-              <span class="drawer-icon">📘</span> <span>User Guide &amp; Features</span>
-            </a>
-            <a href="bank_exam_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
-              <span class="drawer-icon">🏦</span> <span>Banking Hub (SBI/IBPS)</span>
-            </a>
-            <a href="quiz-simulator.html" class="drawer-link" onclick="window.closeMobileDrawer()" style="color:var(--gr2); font-weight:700;">
-              <span class="drawer-icon">🎯</span> <span>Mock Quiz Simulator (New)</span>
-            </a>
-            <a href="./#coverage" class="drawer-link" onclick="window.closeMobileDrawer()">
-              <span class="drawer-icon">📑</span> <span>What Each Tool Covers</span>
-            </a>
-            <a href="./#promptStudio" class="drawer-link" onclick="window.closeMobileDrawer()">
-              <span class="drawer-icon">⚡</span> <span>Live AI Prompt Studio</span>
-            </a>
-            <a href="all-exam-roadmaps.html" class="drawer-link" onclick="window.closeMobileDrawer()" style="background:rgba(245,158,11,.1);color:#D97706;font-weight:800">
-              <span class="drawer-icon">🗺️</span> <span>All-Exam Roadmaps &amp; Books</span>
-            </a>
-            <a href="IBPS_SBI_Clerk_Roadmap.html" class="drawer-link" onclick="window.closeMobileDrawer()">
-              <span class="drawer-icon">🧭</span> <span>12-Week Banking Roadmap</span>
-            </a>
-            <a href="IBPS_SBI_Free_Library.html" class="drawer-link" onclick="window.closeMobileDrawer()">
-              <span class="drawer-icon">📖</span> <span>Free Study Library</span>
-            </a>
-            <a href="upsc_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
-              <span class="drawer-icon">🏛️</span> <span>UPSC / IAS Prompts</span>
-            </a>
-            <a href="ssc_exam_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
-              <span class="drawer-icon">📋</span> <span>SSC CGL / CHSL</span>
-            </a>
-            <a href="railway_exam_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
-              <span class="drawer-icon">🚆</span> <span>Railway RRB NTPC</span>
-            </a>
-            <a href="trend-analysis-generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
-              <span class="drawer-icon">📈</span> <span>Trend Analysis Tool</span>
-            </a>
-            <a href="more_exams_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
-              <span class="drawer-icon">⚡</span> <span>More Exams AI (NET/Judiciary)</span>
-            </a>
-            <a href="about.html" class="drawer-link" onclick="window.closeMobileDrawer()" style="background:rgba(99,102,241,0.14);color:#818CF8;font-weight:700">
-              <span class="drawer-icon">📖</span> <span>About PrepSelf</span>
-            </a>
-            <a href="contact.html" class="drawer-link" onclick="window.closeMobileDrawer()">
-              <span class="drawer-icon">📞</span> <span>Contact Us</span>
-            </a>
-            <a href="privacy-policy.html" class="drawer-link" onclick="window.closeMobileDrawer()">
-              <span class="drawer-icon">🛡️</span> <span>Privacy Policy</span>
-            </a>
+            <div class="drawer-group">
+              <div class="drawer-group-title">⚡ 1. Daily Habit &amp; Practice</div>
+              <a href="./" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🏠</span> <span>Home Dashboard &amp; Cockpit</span>
+              </a>
+              <a href="daily-quiz.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">⚡</span> <span>Daily 5-Q Speed Drill</span>
+              </a>
+              <a href="current-affairs-capsule.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">📰</span> <span>Current Affairs &amp; Banking Capsule</span>
+              </a>
+              <button class="drawer-link" onclick="window.closeMobileDrawer(); window.openFormulaVault();" style="background:transparent;border:none;width:100%;text-align:left;cursor:pointer;font-family:inherit">
+                <span class="drawer-icon">📐</span> <span>Speed Math Formula Vault</span>
+              </button>
+            </div>
+            <div class="drawer-group">
+              <div class="drawer-group-title">🎯 2. Timed CBT Mock Lab</div>
+              <a href="quiz-simulator.html" class="drawer-link" onclick="window.closeMobileDrawer()" style="font-weight:800;color:var(--gr2)">
+                <span class="drawer-icon">🎯</span> <span>Mock Quiz Simulator (5-Option Drills)</span>
+              </a>
+            </div>
+            <div class="drawer-group">
+              <div class="drawer-group-title">📚 3. 27 Subject Master Suites</div>
+              <a href="study-modules.html" class="drawer-link" onclick="window.closeMobileDrawer()" style="font-weight:800;color:var(--pr)">
+                <span class="drawer-icon">📚</span> <span>Browse All 27 Study Suites &rarr;</span>
+              </a>
+              <a href="modules/bank-quant.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">📐</span> <span>Bank Quantitative Aptitude</span>
+              </a>
+              <a href="modules/bank-reasoning.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🧩</span> <span>Bank Reasoning Master</span>
+              </a>
+              <a href="modules/bank-english.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">📖</span> <span>Banking English Language</span>
+              </a>
+              <a href="modules/banking-awareness.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">💰</span> <span>Banking &amp; Financial Awareness</span>
+              </a>
+              <a href="modules/general-awareness.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🌍</span> <span>General Awareness &amp; Current Affairs</span>
+              </a>
+              <a href="modules/editorial-hub.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">📰</span> <span>Daily Editorial Hub &amp; Vocab</span>
+              </a>
+              <a href="modules/gs4.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">⚖️</span> <span>UPSC GS-IV Ethics &amp; Integrity</span>
+              </a>
+              <a href="modules/ssc.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">📋</span> <span>SSC Master India (CGL, CHSL, MTS)</span>
+              </a>
+              <a href="modules/rrb.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🚆</span> <span>Railways RRB Master (NTPC, Group D)</span>
+              </a>
+              <a href="modules/history.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">📜</span> <span>History of India &amp; Atlas</span>
+              </a>
+              <a href="modules/geography.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🗺️</span> <span>Geography of India Atlas</span>
+              </a>
+              <a href="modules/cuet.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🎓</span> <span>CUET Master India</span>
+              </a>
+              <a href="modules/engineering.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🧪</span> <span>Engineering (JEE Main &amp; Adv)</span>
+              </a>
+              <a href="modules/neet.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🩺</span> <span>NEET Master India</span>
+              </a>
+              <a href="modules/law.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">⚖️</span> <span>Law Entrance (CLAT &amp; AILET)</span>
+              </a>
+              <a href="modules/mba.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">💼</span> <span>MBA Entrance (CAT &amp; XAT)</span>
+              </a>
+              <a href="modules/defence.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🎖️</span> <span>Defence Exams (NDA, CDS, AFCAT)</span>
+              </a>
+              <a href="modules/certifications.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">📊</span> <span>Professional Certifications (CA/CS)</span>
+              </a>
+              <a href="modules/science-teaching.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🔬</span> <span>General Science &amp; CSIR NET</span>
+              </a>
+              <a href="hi/index.html" class="drawer-link" onclick="window.closeMobileDrawer()" style="background:rgba(244,114,182,0.12);color:#DB2777;font-weight:800;border:1px solid rgba(244,114,182,0.3)">
+                <span class="drawer-icon">🇮🇳</span> <span>हिंदी परीक्षा केंद्र (UP Police, PET, TET)</span>
+              </a>
+            </div>
+            <div class="drawer-group">
+              <div class="drawer-group-title">🧮 4. Exam Calculators &amp; Predictors</div>
+              <a href="negative-marking-calculator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">⚖️</span> <span>Negative Marking Calculator</span>
+              </a>
+              <a href="percentile-cutoff-predictor.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">📊</span> <span>Percentile &amp; Cutoff Predictor</span>
+              </a>
+              <a href="eligibility-age-checker.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🎂</span> <span>Exam Eligibility &amp; Age Checker</span>
+              </a>
+            </div>
+            <div class="drawer-group">
+              <div class="drawer-group-title">🗺️ 5. Roadmaps &amp; Free Library</div>
+              <a href="all-exam-roadmaps.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🗺️</span> <span>All-Exam 4-Phase Roadmaps</span>
+              </a>
+              <a href="IBPS_SBI_Clerk_Roadmap.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🧭</span> <span>12-Week Banking Prep Roadmap</span>
+              </a>
+              <a href="IBPS_SBI_Free_Library.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">📖</span> <span>Free Digital Library &amp; PDF Books</span>
+              </a>
+              <a href="trend-analysis-generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">📈</span> <span>Exam Trend &amp; Pattern Analysis</span>
+              </a>
+            </div>
+            <div class="drawer-group">
+              <div class="drawer-group-title">✨ 6. 18 Dedicated AI Prompt Engines</div>
+              <a href="bank_exam_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🏦</span> <span>Banking Prompt Generator (SBI/IBPS)</span>
+              </a>
+              <a href="upsc_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🏛️</span> <span>UPSC / IAS Prompt Generator</span>
+              </a>
+              <a href="ssc_exam_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">📋</span> <span>SSC CGL / CHSL Prompt Generator</span>
+              </a>
+              <a href="railway_exam_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🚆</span> <span>Railway RRB NTPC Generator</span>
+              </a>
+              <a href="defence_exam_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🎖️</span> <span>Defence Exams Prompt Generator</span>
+              </a>
+              <a href="gate_psu_exam_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">⚙️</span> <span>GATE &amp; PSU Prompt Generator</span>
+              </a>
+              <a href="neet_exam_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🩺</span> <span>NEET Medical Prompt Generator</span>
+              </a>
+              <a href="jee_exam_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🧪</span> <span>JEE Main &amp; Adv Prompt Generator</span>
+              </a>
+              <a href="law_entrance_exam_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">⚖️</span> <span>Law (CLAT / AILET) Generator</span>
+              </a>
+              <a href="mba_exam_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">💼</span> <span>MBA / CAT Prompt Generator</span>
+              </a>
+              <a href="teaching_exam_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">📚</span> <span>Teaching (CTET &amp; State) Generator</span>
+              </a>
+              <a href="psc_exam_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🗺️</span> <span>State PSC Prompt Generator</span>
+              </a>
+              <a href="more_exams_prompt_generator.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">⚡</span> <span>More Exams AI (NET/Judiciary)</span>
+              </a>
+            </div>
+            <div class="drawer-group">
+              <div class="drawer-group-title">ℹ️ 7. Guides, About &amp; Support</div>
+              <a href="user-guide.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">📘</span> <span>User Guide &amp; Features Directory</span>
+              </a>
+              <a href="about.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">📖</span> <span>About PrepSelf &amp; Mission</span>
+              </a>
+              <a href="sitemap.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🗺️</span> <span>Site Directory &amp; Sitemap</span>
+              </a>
+              <a href="contact.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">📞</span> <span>Contact Us &amp; Corrections</span>
+              </a>
+              <a href="privacy-policy.html" class="drawer-link" onclick="window.closeMobileDrawer()">
+                <span class="drawer-icon">🛡️</span> <span>Privacy Policy</span>
+              </a>
+              <a href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener" class="drawer-link" onclick="window.closeMobileDrawer()" style="background:rgba(99,102,241,0.12);color:#818CF8;font-weight:700">
+                <span class="drawer-icon">👨‍💻</span> <span>Creator Profile (Raghavendra) ↗</span>
+              </a>
+            </div>
           </div>
           <div class="drawer-footer">
             <button class="drawer-tool-btn" id="drawerThemeToggle" onclick="window.toggleTheme()">
               <span>Toggle Theme</span>
             </button>
             <button class="drawer-tool-btn" onclick="window.closeMobileDrawer(); window.openFormulaVault();">
-              <span>⚡ Formula Vault</span>
+              <span>⚡ Formulas</span>
             </button>
             <button class="drawer-tool-btn" onclick="window.closeMobileDrawer(); window.openCalculator();">
               <span>🧮 Calculator</span>
             </button>
           </div>
-        </div>`;
+        </aside>`;
       document.body.appendChild(drawer);
     }
 
     // 2. Mobile Bottom Ribbon
-
     let bnav = document.getElementById('mobileBottomNav');
     if (!bnav) {
       bnav = document.createElement('nav');
@@ -818,17 +941,17 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
           <span>Home</span>
         </a>
-        <a href="bank_exam_prompt_generator.html" class="bnav-item ${p==='bank_exam_prompt_generator.html'?'active':''}">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
-          <span>Bank Hub</span>
-        </a>
+        <button class="bnav-item" onclick="window.toggleMobileDrawer()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          <span>Menu</span>
+        </button>
         <a href="quiz-simulator.html" class="bnav-item ${p==='quiz-simulator.html'?'active':''}">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          <span>Mock Quiz</span>
+          <span>Mock Lab</span>
         </a>
-        <a href="./#promptStudio" class="bnav-item">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-          <span>AI Studio</span>
+        <a href="study-modules.html" class="bnav-item ${p==='study-modules.html'?'active':''}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          <span>Suites</span>
         </a>
         <button class="bnav-item" onclick="window.openSpotlight()">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
@@ -840,12 +963,43 @@
 
   window.toggleMobileDrawer = function(){
     const drawer = document.getElementById('mobileDrawer');
-    if (drawer) drawer.classList.toggle('open');
+    if (!drawer) return;
+    const isOpen = drawer.classList.toggle('open');
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+    const toggleBtn = document.getElementById('drawerToggleBtn');
+    if (toggleBtn) toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    if (isOpen) {
+      const search = document.getElementById('drawerSearchInput');
+      if (search) {
+        search.value = '';
+        setTimeout(() => search.focus(), 150);
+      }
+    }
   };
 
   window.closeMobileDrawer = function(){
     const drawer = document.getElementById('mobileDrawer');
     if (drawer) drawer.classList.remove('open');
+    document.body.style.overflow = '';
+    const toggleBtn = document.getElementById('drawerToggleBtn');
+    if (toggleBtn) toggleBtn.setAttribute('aria-expanded', 'false');
+  };
+
+  window.filterDrawerLinks = function(q){
+    const filter = (q || '').trim().toLowerCase();
+    const links = document.querySelectorAll('#drawerLinksContainer .drawer-link');
+    const groups = document.querySelectorAll('#drawerLinksContainer .drawer-group');
+
+    links.forEach(lnk => {
+      const text = lnk.textContent.toLowerCase();
+      const match = !filter || text.includes(filter);
+      lnk.style.display = match ? 'flex' : 'none';
+    });
+
+    groups.forEach(grp => {
+      const visibleLinks = grp.querySelectorAll('.drawer-link:not([style*="display: none"])');
+      grp.style.display = (!filter || visibleLinks.length > 0) ? 'block' : 'none';
+    });
   };
 
   window.toggleTheme = toggleTheme;
