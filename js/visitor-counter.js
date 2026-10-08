@@ -1,57 +1,43 @@
 /**
- * PrepSelf Live Visitor Counter & Active Community Tracker
- * Resilient multi-tier counter: Firestore + Public API + Local Baseline Sync
- * Features: Session deduplication, smooth count-up animation, live active learner pulse.
+ * PrepSelf Transparent Visitor & Study Session Counter
+ * Zero-seeded, honest telemetry: Firestore Live Sync + Session Deduplication + GA4 Event Tracking
+ * Uses namespaced storage: ps:v1:*
  */
 
 (function () {
   'use strict';
 
-  // Base epoch: 2025-01-15. Calculates realistic, organic platform visits baseline
-  const LAUNCH_DATE = new Date('2025-01-15T00:00:00Z').getTime();
-  const BASE_VISITS = 128450;
-  const AVG_DAILY_VISITS = 240;
+  const STORAGE_PREFIX = 'ps:v1:';
+  const KEY_TOTAL = STORAGE_PREFIX + 'total_visits';
+  const KEY_TODAY_PREFIX = STORAGE_PREFIX + 'today_visits_';
+  const SESSION_KEY = STORAGE_PREFIX + 'session_counted';
 
-  function calculateBaseline() {
-    const now = Date.now();
-    const daysElapsed = Math.max(1, Math.floor((now - LAUNCH_DATE) / (1000 * 60 * 60 * 24)));
-    // Hour of day variance (peaks in evening 18:00 - 22:00 IST)
-    const currentHour = new Date().getHours();
-    const hourlyFactor = 0.8 + (Math.sin((currentHour / 24) * Math.PI) * 0.4);
-    const estimated = Math.floor(BASE_VISITS + (daysElapsed * AVG_DAILY_VISITS * hourlyFactor));
-    return estimated;
-  }
-
-  function getStoredCount() {
-    const saved = localStorage.getItem('prepself_total_visits');
-    const base = calculateBaseline();
-    if (!saved || isNaN(parseInt(saved, 10)) || parseInt(saved, 10) < base) {
-      localStorage.setItem('prepself_total_visits', base.toString());
-      return base;
-    }
-    return parseInt(saved, 10);
-  }
-
-  function getTodayVisits() {
-    const todayKey = 'prepself_today_' + new Date().toISOString().slice(0, 10);
-    let today = parseInt(localStorage.getItem(todayKey) || '0', 10);
-    if (!today) {
-      // Realistic today initial baseline based on current hour
-      const hour = new Date().getHours();
-      today = Math.floor(180 + (hour * 95) + (Math.random() * 40));
-      localStorage.setItem(todayKey, today.toString());
-    }
-    return today;
+  function getTodayKey() {
+    return KEY_TODAY_PREFIX + new Date().toISOString().slice(0, 10);
   }
 
   function formatIndianNumber(num) {
-    if (!num || isNaN(num)) return '0';
+    if (!num || isNaN(num)) return '--';
     return Number(num).toLocaleString('en-IN');
+  }
+
+  function getStoredTotal() {
+    const val = localStorage.getItem(KEY_TOTAL);
+    return val ? parseInt(val, 10) : 0;
+  }
+
+  function getStoredToday() {
+    const val = localStorage.getItem(getTodayKey());
+    return val ? parseInt(val, 10) : 0;
   }
 
   function animateValue(el, start, end, duration) {
     if (!el) return;
-    if (start === end) {
+    if (isNaN(end)) {
+      el.textContent = '--';
+      return;
+    }
+    if (start === end || duration <= 0) {
       el.textContent = formatIndianNumber(end);
       return;
     }
@@ -61,7 +47,6 @@
     function update(currentTime) {
       const elapsed = currentTime - startTime;
       const progress = Math.min(elapsed / duration, 1);
-      // Easing out cubic
       const ease = 1 - Math.pow(1 - progress, 3);
       const current = Math.floor(start + (range * ease));
       el.textContent = formatIndianNumber(current);
@@ -74,87 +59,67 @@
     requestAnimationFrame(update);
   }
 
-  // Active learners simulation (peaks 54 - 88 during daytime/evening in India)
-  let activeLearners = 58;
-  function updateActiveLearners() {
-    const hour = new Date().getHours();
-    // Peak study hours in India: 07:00-11:00 and 17:00-23:00
-    let minRange = 42;
-    let maxRange = 78;
-    if ((hour >= 7 && hour <= 11) || (hour >= 18 && hour <= 23)) {
-      minRange = 64;
-      maxRange = 94;
-    } else if (hour >= 1 && hour <= 5) {
-      minRange = 22;
-      maxRange = 45;
+  function updateDOM(total, today) {
+    if (total !== undefined && total !== null) {
+      document.querySelectorAll('#visitorCount, .visitor-count, #ftVisitorCount').forEach(el => {
+        const currentVal = parseInt(el.textContent.replace(/[^0-9]/g, ''), 10) || 0;
+        animateValue(el, currentVal, total, 600);
+      });
     }
 
-    const delta = Math.floor(Math.random() * 7) - 3; // -3 to +3
-    activeLearners = Math.max(minRange, Math.min(maxRange, activeLearners + delta));
+    if (today !== undefined && today !== null) {
+      document.querySelectorAll('#todayVisitsCount, .today-visits-count').forEach(el => {
+        el.textContent = formatIndianNumber(today);
+      });
+    }
 
+    // Status indicator
     document.querySelectorAll('#activeLearnersCount, .active-learners-count, #ftActiveCount').forEach(el => {
-      el.textContent = activeLearners;
+      el.textContent = 'Active';
     });
   }
 
-  // Record a new visit if not already counted in this session
-  function recordVisit() {
-    let currentTotal = getStoredCount();
-    let currentToday = getTodayVisits();
-    const isNewSession = !sessionStorage.getItem('prepself_session_visited');
+  function recordSession() {
+    let total = getStoredTotal();
+    let today = getStoredToday();
+    const isNewSession = !sessionStorage.getItem(SESSION_KEY);
 
     if (isNewSession) {
-      currentTotal += 1;
-      currentToday += 1;
-      localStorage.setItem('prepself_total_visits', currentTotal.toString());
-      const todayKey = 'prepself_today_' + new Date().toISOString().slice(0, 10);
-      localStorage.setItem(todayKey, currentToday.toString());
-      sessionStorage.setItem('prepself_session_visited', '1');
+      total += 1;
+      today += 1;
+      localStorage.setItem(KEY_TOTAL, total.toString());
+      localStorage.setItem(getTodayKey(), today.toString());
+      sessionStorage.setItem(SESSION_KEY, '1');
 
-      // Attempt async ping to free global Hit Counter API (silent failover)
-      try {
-        fetch('https://api.counterapi.dev/v1/prepself_global_hub/visits/up', { method: 'GET', mode: 'cors' })
-          .then(res => res.json())
-          .then(data => {
-            if (data && data.count && data.count > currentTotal) {
-              localStorage.setItem('prepself_total_visits', data.count.toString());
-              updateDOM(data.count, currentToday);
-            }
-          })
-          .catch(() => {});
-      } catch (e) {}
+      // Dispatch GA4 event if present
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'study_session_visit', {
+          session_type: 'direct_study',
+          today_count: today
+        });
+      }
     }
 
-    return { total: currentTotal, today: currentToday };
-  }
-
-  function updateDOM(total, today) {
-    document.querySelectorAll('#visitorCount, .visitor-count, #ftVisitorCount').forEach(el => {
-      const currentVal = parseInt(el.textContent.replace(/[^0-9]/g, ''), 10) || 0;
-      animateValue(el, Math.max(0, currentVal || total - 45), total, 1000);
-    });
-
-    document.querySelectorAll('#todayVisitsCount, .today-visits-count').forEach(el => {
-      el.textContent = formatIndianNumber(today);
-    });
+    updateDOM(total, today);
+    return { total: total, today: today };
   }
 
   function initCounter() {
-    const stats = recordVisit();
-    updateDOM(stats.total, stats.today);
-    updateActiveLearners();
-
-    // Pulse active learners every 9 seconds
-    setInterval(updateActiveLearners, 9000);
+    recordSession();
   }
 
-  // Export to window
+  // Export clean API for Firestore real-time listener hook
   window.PrepSelfCounter = {
     init: initCounter,
-    updateDOM: updateDOM,
+    updateDOM: function(firestoreTotal, firestoreToday) {
+      if (firestoreTotal && !isNaN(firestoreTotal)) {
+        localStorage.setItem(KEY_TOTAL, firestoreTotal.toString());
+      }
+      updateDOM(firestoreTotal || getStoredTotal(), firestoreToday || getStoredToday());
+    },
     formatNumber: formatIndianNumber,
-    getActiveCount: () => activeLearners,
-    getTotalCount: getStoredCount
+    getTotalCount: getStoredTotal,
+    getTodayCount: getStoredToday
   };
 
   if (document.readyState === 'loading') {
