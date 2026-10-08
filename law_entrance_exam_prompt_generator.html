@@ -177,9 +177,6 @@ select:focus{outline:none;border-color:var(--pur2);box-shadow:0 0 0 3px rgba(124
 .osp span{color:var(--pur2)}.osp-t span{color:#0D9488}.osp-y span{color:#B45309}.osp-r span{color:var(--mar2)}.osp-b span{color:#2563EB}.osp-g span{color:#059669}
 .parea{padding:22px;font-family:"JetBrains Mono","Fira Code","Courier New",monospace;font-size:12px;line-height:1.9;color:#2D1052;white-space:pre-wrap;word-wrap:break-word;max-height:600px;overflow-y:auto;background:#FAF5FF}
 .parea::-webkit-scrollbar{width:4px}.parea::-webkit-scrollbar-thumb{background:var(--bdr2);border-radius:4px}
-.adslot{width:100%;background:var(--sf3);border:1px dashed var(--bdr2);border-radius:var(--r);padding:18px;text-align:center;margin:16px 0;min-height:80px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:5px}
-.adslot-lbl{font-size:9px;font-weight:700;color:var(--txtm);text-transform:uppercase;letter-spacing:.1em}
-.adslot-ph{font-size:11px;color:var(--bdr2);font-style:italic}
 .emp{text-align:center;padding:50px 22px;background:var(--sf);border-radius:var(--rl);border:1px solid var(--bdr)}
 .emp h3{font-size:16px;font-weight:700;color:var(--txt);margin-bottom:6px}.emp p{font-size:13px;color:var(--txt3);max-width:360px;margin:0 auto}
 .soc-fl{position:fixed;left:0;top:50%;transform:translateY(-50%);z-index:300;display:flex;flex-direction:column;gap:2px}
@@ -223,7 +220,7 @@ select:focus{outline:none;border-color:var(--pur2);box-shadow:0 0 0 3px rgba(124
 @media(max-width:540px){.sg3,.sg2{grid-template-columns:1fr}.soc-fl{display:none}}
 @media(max-width:480px){.sov-grid{grid-template-columns:1fr}}
 @media print {
-  header, .tab-nav, .adslot, footer, #examCountdownStrip, .noprint { display: none !important; }
+  header, .tab-nav, footer, #examCountdownStrip, .noprint { display: none !important; }
   .tp { display: none !important; }
   .tp.act { display: block !important; }
   body { background: #fff !important; color: #000 !important; }
@@ -245,12 +242,6 @@ select:focus{outline:none;border-color:var(--pur2);box-shadow:0 0 0 3px rgba(124
 </head>
 <body>
 <script>try{var _rv=JSON.parse(localStorage.getItem('rb_recent_tools')||'[]');var _href=location.pathname.split('/').pop()||'index.html';_rv=_rv.filter(function(t){return t.href!==_href;});_rv.unshift({href:_href,ts:Date.now()});_rv=_rv.slice(0,6);localStorage.setItem('rb_recent_tools',JSON.stringify(_rv));}catch(e){}</script>
-<div class="soc-fl">
-  <a class="sfl sfl-fb" href="https://www.facebook.com/Raghavbegins" target="_blank" rel="noopener"><div class="sfl-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.268h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg></div><span class="sfl-lb">Raghavbegins</span></a>
-  <a class="sfl sfl-ig" href="https://www.instagram.com/raghav3o" target="_blank" rel="noopener"><div class="sfl-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></div><span class="sfl-lb">@raghav3o</span></a>
-  <a class="sfl sfl-yt" href="https://www.youtube.com/@raghav_begins" target="_blank" rel="noopener"><div class="sfl-ic"><svg width="20" height="14" viewBox="0 0 24 17" fill="#fff"><path d="M23.495 2.205a3.02 3.02 0 0 0-2.126-2.138C19.505 0 12 0 12 0s-7.505 0-9.369.067A3.02 3.02 0 0 0 .505 2.205 31.247 31.247 0 0 0 0 8.07a31.247 31.247 0 0 0 .505 5.865 3.02 3.02 0 0 0 2.126 2.138C4.495 16.14 12 16.14 12 16.14s7.505 0 9.369-.067a3.02 3.02 0 0 0 2.126-2.138A31.247 31.247 0 0 0 24 8.07a31.247 31.247 0 0 0-.505-5.865zM9.609 11.545V4.594l6.264 3.476-6.264 3.475z"/></svg></div><span class="sfl-lb">@raghav_begins</span></a>
-</div>
-<div class="ckbar" id="ckbar"><div class="ck-txt">We use cookies &amp; Google AdSense to keep these tools free. <a onclick="openPM()">Privacy Policy</a></div><div style="display:flex;gap:8px;flex-shrink:0"><button class="ck-acc" onclick="ckOk()">Accept All</button><button class="ck-dec" onclick="ckNo()">Essential Only</button></div></div>
 <div class="pmov" id="pmov" onclick="if(event.target===this)closePM()">
   <div class="pmbox"><div class="pmhd"><h2>Privacy &amp; Cookie Policy</h2><button class="pmcls" onclick="closePM()">&#x2715;</button></div>
     <div class="pmbody">
@@ -299,7 +290,8 @@ select:focus{outline:none;border-color:var(--pur2);box-shadow:0 0 0 3px rgba(124
 <div class="wrap noprint" style="padding-bottom:0;display:flex;justify-content:flex-end">
   <button onclick="window.print()" style="background:none;border:1px solid currentColor;border-radius:8px;padding:6px 14px;font-size:13px;cursor:pointer;opacity:.85">&#x1F5A8;&#xFE0F; Print this tab as a cheat sheet</button>
 </div>
-<div style="background:var(--sf2)"><div class="wrap"><div class="adslot"><div class="adslot-lbl">Advertisement</div><span class="adslot-ph">Responsive banner ad</span></div></div></div>
+<div style="background:var(--sf2)"><div class="wrap">
+</div></div></div>
 <main class="wrap">
 <!-- TAB 1: STUDY PROMPT -->
 <div class="tp act" id="tp-t1">
@@ -572,7 +564,7 @@ select:focus{outline:none;border-color:var(--pur2);box-shadow:0 0 0 3px rgba(124
       </div>
     </div>
   </div>
-  <div class="adslot"><div class="adslot-lbl">Advertisement</div><span class="adslot-ph">Leaderboard ad</span></div>
+</div>
 </div>
 <footer class="ft">
   <div class="ft-sr">
@@ -600,7 +592,8 @@ select:focus{outline:none;border-color:var(--pur2);box-shadow:0 0 0 3px rgba(124
     <a class="ft-lnk" href="cacs_exam_prompt_generator.html">CA/CS/CMA</a>
     <a class="ft-lnk" href="judiciary_exam_prompt_generator.html">Judiciary</a>
     <a class="ft-lnk" href="agriculture_exam_prompt_generator.html">Agriculture</a>
-    <a class="ft-lnk" href="study-modules.html">27 Master Suites</a>`n    <a class="ft-lnk" href="sitemap.html" style="color:#A78BFA;font-weight:700">Site Directory</a>
+    <a class="ft-lnk" href="study-modules.html">27 Master Suites</a>
+    <a class="ft-lnk" href="sitemap.html" style="color:#A78BFA;font-weight:700">Site Directory</a>
     <a class="ft-lnk" href="trend-analysis-generator.html">Trend Analysis</a>
     <a class="ftlnk" href="privacy-policy.html">Privacy Policy</a>
     <a class="ftlnk" href="contact.html">Contact Us</a>

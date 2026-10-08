@@ -69,189 +69,189 @@
   {
     "title": "Bank Quant Master (Ready-Made Module)",
     "sub": "32 Topics, Speed Math Visualizers, Arithmetic & DI",
-    "href": "study-modules.html?module=bank-quant",
+    "href": "modules/bank-quant.html",
     "cat": "bank",
     "tags": "bank quant quantitative aptitude arithmetic speed math di sbi ibps"
   },
   {
     "title": "Bank Reasoning Master (Ready-Made Module)",
     "sub": "Floor & Box Puzzles, Seating Arrangement & Syllogism",
-    "href": "study-modules.html?module=bank-reasoning",
+    "href": "modules/bank-reasoning.html",
     "cat": "bank",
     "tags": "reasoning puzzles seating arrangement syllogism bank sbi ibps"
   },
   {
     "title": "Banking English Language Master (Ready-Made Module)",
     "sub": "24 Grammar Chapters, Error Scanner & RC Speed Reader",
-    "href": "study-modules.html?module=bank-english",
+    "href": "modules/bank-english.html",
     "cat": "bank",
     "tags": "english grammar error detection cloze reading comprehension vocab"
   },
   {
     "title": "Banking & Financial Awareness Master (Ready-Made Module)",
     "sub": "18 Interactive Modules, RBI Policy & Banking Systems",
-    "href": "study-modules.html?module=banking-awareness",
+    "href": "modules/banking-awareness.html",
     "cat": "bank",
     "tags": "banking awareness financial awareness rbi monetary policy npa upi"
   },
   {
     "title": "General Awareness & Current Affairs (Ready-Made Module)",
     "sub": "Monthly Current Affairs, Static GK & Schemes",
-    "href": "study-modules.html?module=general-awareness",
+    "href": "modules/general-awareness.html",
     "cat": "bank",
     "tags": "general awareness current affairs static gk polity history economy schemes"
   },
   {
     "title": "Daily Editorial Hub & Vocab Builder (Ready-Made Module)",
     "sub": "The Hindu & Indian Express Editorials with Audio Reader",
-    "href": "study-modules.html?module=editorial-hub",
+    "href": "modules/editorial-hub.html",
     "cat": "bank",
     "tags": "daily editorial the hindu indian express vocabulary newspaper reader"
   },
   {
     "title": "Computer Awareness Master (Ready-Made Module)",
     "sub": "Architecture Visualizer, Cyber Security & 600+ MCQs",
-    "href": "study-modules.html?module=computer-awareness",
+    "href": "modules/computer-awareness.html",
     "cat": "bank",
     "tags": "computer awareness keyboard shortcuts networking cyber security rrb rbi"
   },
   {
     "title": "UPSC GS-IV Ethics Master (Ready-Made Module)",
     "sub": "Ethical Reasoning Lab, 50+ Dilemma Case Studies & Probity",
-    "href": "study-modules.html?module=gs4",
+    "href": "modules/gs4.html",
     "cat": "upsc",
     "tags": "upsc ethics gs4 integrity aptitude case studies probity governance"
   },
   {
     "title": "UPSC GS-III Master (Ready-Made Module)",
     "sub": "Technology, Economy, Agriculture, Environment & Security",
-    "href": "study-modules.html?module=gs3",
+    "href": "modules/gs3.html",
     "cat": "upsc",
     "tags": "upsc gs3 economy agriculture science tech disaster internal security"
   },
   {
     "title": "UPSC GS-II Master (Ready-Made Module)",
     "sub": "Governance, Constitution, Polity & Social Justice",
-    "href": "study-modules.html?module=gs2",
+    "href": "modules/gs2.html",
     "cat": "upsc",
     "tags": "upsc gs2 polity constitution governance social justice international relations"
   },
   {
     "title": "Complete History of India Atlas (Ready-Made Module)",
     "sub": "Prehistory to Modern India, Art & Culture, Knowledge Graph",
-    "href": "study-modules.html?module=history",
+    "href": "modules/history.html",
     "cat": "upsc",
     "tags": "history of india ancient medieval modern art culture atlas upsc uppsc"
   },
   {
     "title": "Geography of India & Bharat Atlas (Ready-Made Module)",
     "sub": "River Basins, Monsoon Simulator, Soils & Map Drills",
-    "href": "study-modules.html?module=geography",
+    "href": "modules/geography.html",
     "cat": "upsc",
     "tags": "geography of india bharat atlas rivers climate monsoon minerals map drills"
   },
   {
     "title": "India & World: IR & Schemes (Ready-Made Module)",
     "sub": "Bilateral Relations, Global Groupings & Govt Schemes",
-    "href": "study-modules.html?module=india-world",
+    "href": "modules/india-world.html",
     "cat": "upsc",
     "tags": "international relations bilateral schemes foreign policy upsc gs2"
   },
   {
     "title": "Defence Exams India Master (Ready-Made Module)",
     "sub": "NDA, CDS, AFCAT, Agniveer, SSB Interview & Medical Guide",
-    "href": "study-modules.html?module=defence",
+    "href": "modules/defence.html",
     "cat": "defence",
     "tags": "defence nda cds afcat agniveer ssb interview military armed forces"
   },
   {
     "title": "Professional Certifications India (Ready-Made Module)",
     "sub": "CA, CS, CMA, CFA, FRM, Banking & Statutory Compliance",
-    "href": "study-modules.html?module=certifications",
+    "href": "modules/certifications.html",
     "cat": "prof",
     "tags": "professional certifications ca cs cma cfa frm accounting finance audit"
   },
   {
     "title": "General Science & Teaching Master (Ready-Made Module)",
     "sub": "CSIR NET, IIT JAM, CTET, NCERT Class 6-10 Lab Experiments",
-    "href": "study-modules.html?module=science-teaching",
+    "href": "modules/science-teaching.html",
     "cat": "science",
     "tags": "general science teaching csir net iit jam ctet ncert physics chemistry biology"
   },
   {
     "title": "UP Teacher Master (Super TET & UP TGT)",
     "sub": "1,160+ Questions, Child Pedagogy & UP Special GK",
-    "href": "study-modules.html?module=up-teacher",
+    "href": "modules/up-teacher.html",
     "cat": "state",
     "tags": "up teacher super tet prt tgt uptet pedagogy cdp shikshak bharti"
   },
   {
     "title": "UPPSC RO/ARO Master (समीक्षा अधिकारी)",
     "sub": "1,000+ Questions, Official Drafting & Hindi Essay Lab",
-    "href": "study-modules.html?module=uppsc-ro-aro",
+    "href": "modules/uppsc-ro-aro.html",
     "cat": "state",
     "tags": "uppsc ro aro samiksha adhikari hindi drafting essay prelims mains"
   },
   {
     "title": "Railways RRB Master India (Ready-Made Module)",
     "sub": "RRB NTPC, Group D, ALP, Technician & JE Science & Math",
-    "href": "study-modules.html?module=rrb",
+    "href": "modules/rrb.html",
     "cat": "rrb",
     "tags": "rrb railways ntpc group d alp technician je science math reasoning"
   },
   {
     "title": "SSC Master India (Ready-Made Module)",
     "sub": "CGL, CHSL, MTS, CPO & GD Constable Drills",
-    "href": "study-modules.html?module=ssc",
+    "href": "modules/ssc.html",
     "cat": "ssc",
     "tags": "ssc cgl chsl mts cpo gd constable reasoning general awareness quant"
   },
   {
     "title": "CUET Master India (Ready-Made Module)",
     "sub": "Languages, 27 Domain Subjects & General Aptitude Test",
-    "href": "study-modules.html?module=cuet",
+    "href": "modules/cuet.html",
     "cat": "entrance",
     "tags": "cuet ug pg central universities nta general test domain subjects"
   },
   {
     "title": "Law Entrance Master (Ready-Made Module)",
     "sub": "CLAT & AILET Passage Legal Reasoning & Constitutional Law",
-    "href": "study-modules.html?module=law",
+    "href": "modules/law.html",
     "cat": "law",
     "tags": "clat ailet law legal reasoning constitution torts maxims nlu"
   },
   {
     "title": "Engineering Entrance Master (Ready-Made Module)",
     "sub": "JEE Main & Advanced Physics, Chemistry & Higher Math",
-    "href": "study-modules.html?module=engineering",
+    "href": "modules/engineering.html",
     "cat": "entrance",
     "tags": "jee iit main advanced engineering physics chemistry calculus math"
   },
   {
     "title": "MBA Entrance Master (Ready-Made Module)",
     "sub": "CAT, XAT, SNAP & NMAT VARC, DILR & QA",
-    "href": "study-modules.html?module=mba",
+    "href": "modules/mba.html",
     "cat": "entrance",
     "tags": "cat mba iim xat snap nmat varc dilr quantitative aptitude"
   },
   {
     "title": "NEET Medical Master (Ready-Made Module)",
     "sub": "NCERT Biology 360/360, Chemistry & Physics Numerical Drills",
-    "href": "study-modules.html?module=neet",
+    "href": "modules/neet.html",
     "cat": "entrance",
     "tags": "neet medical biology botany zoology physics chemistry mbbs bds"
   },
   {
     "title": "UPSSSC PET Master (Ready-Made Module)",
     "sub": "UP State Preliminary Eligibility Test Complete Syllabus",
-    "href": "study-modules.html?module=upsssc-pet",
+    "href": "modules/upsssc-pet.html",
     "cat": "state",
     "tags": "upsssc pet up state preliminary eligibility test gk math hindi"
   },
   {
     "title": "UPPRPB Police Constable & SI (Ready-Made Module)",
     "sub": "UP Police Law, Hindi, General Knowledge & Mental Ability",
-    "href": "study-modules.html?module=upprpb",
+    "href": "modules/upprpb.html",
     "cat": "state",
     "tags": "upprpb up police constable sub inspector si mool vidhi law hindi gk"
   },

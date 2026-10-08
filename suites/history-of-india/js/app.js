@@ -701,7 +701,7 @@ function renderFooter(){
         <div>
           <h5>About</h5>
           <a href="about.html">Sources &amp; Method</a>
-          <a href="https://github.com/raghavendra-exp/history-of-india" target="_blank" rel="noopener noreferrer">GitHub Repository ↗</a>
+          <a href="https://github.com/raghavendra-exp/prepself" target="_blank" rel="noopener noreferrer">GitHub Repository ↗</a>
         </div>
       </div>
       <div class="footer-bottom">
