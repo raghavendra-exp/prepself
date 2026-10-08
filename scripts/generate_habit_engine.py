@@ -1,4 +1,8 @@
-/**
+"""
+Build the upgraded PrepSelf Habit-Forming & Retention Engine (PrepHabit)
+"""
+
+content = r'''/**
  * PrepSelf Habit-Forming & Retention Engine (PrepHabit)
  * Genuine, authentic habit formation: zero fake counters, zero manufactured urgency.
  * 
@@ -1664,3 +1668,9 @@
   }
 
 })(window, document);
+'''
+
+import pathlib
+path = pathlib.Path(__file__).resolve().parent.parent / "js" / "habit-engine.js"
+path.write_text(content.strip(), encoding="utf-8")
+print("Successfully generated js/habit-engine.js!")

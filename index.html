@@ -1372,16 +1372,7 @@
   <main class="wrap">
 
     <!-- ════ HABIT ENGINE: PERSONALIZED EXAM COMMAND CENTER ════ -->
-        <!-- ════ TRANSPARENT COMMUNITY STUDY COUNTER WIDGET ════ -->
-    <div class="visitor-counter-card" id="visitorCounterCard" title="Study Sessions Tracked" style="margin-top:-20px;margin-bottom:28px">
-      <div class="vcc-col">
-        <div class="vcc-icon-wrap" style="background:rgba(59,130,246,0.18);color:#60A5FA">
-          <span class="vcc-icon">👥</span>
-        </div>
-        <div>
-          <div class="vcc-num"><span id="visitorCount">--</span></div>
-          <div class="vcc-label">Study Visits Tracked</div>
-        </div>
+        
       </div>
 
       <div class="vcc-divider"></div>
@@ -1424,7 +1415,17 @@
 
     <div id="personalizedCommandCenter"></div>
 
-    <!-- ════ QUICK STREAM & JUMP NAV BAR ════ -->
+    <!-- ════ BROWSE ALL 80+ EXAMS & 27 STUDY SUITES (COLLAPSIBLE CATALOG) ════ -->
+    <details class="all-exams-tray" id="allExamsTray" style="background:#fff;border:1.5px solid var(--bdr);border-radius:18px;margin:20px 0 36px;overflow:hidden;box-shadow:var(--sh)">
+      <summary style="padding:18px 22px;font-size:15px;font-weight:800;color:var(--txt);cursor:pointer;display:flex;align-items:center;justify-content:space-between;user-select:none;list-style:none">
+        <div style="display:flex;align-items:center;gap:10px">
+          <span style="font-size:20px">📚</span>
+          <span>Explore All Other 80+ Exams, 27 Study Suites &amp; Companion Tools</span>
+        </div>
+        <span style="font-size:12px;font-weight:700;color:var(--pr);background:rgba(79,70,229,0.08);padding:4px 12px;border-radius:14px">Browse Full Catalog ▾</span>
+      </summary>
+      <div style="padding:0 22px 28px;border-top:1px solid var(--bdr);padding-top:22px">
+<!-- ════ QUICK STREAM & JUMP NAV BAR ════ -->
     <div class="stream-quick-bar" style="margin-bottom:32px">
       <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
         <div style="display:flex;align-items:center;gap:8px">
@@ -2375,8 +2376,8 @@
     </div>
 
     <!-- ════ LIVE EXAM NOTIFICATIONS & UPDATES (DEDUPLICATED & 2026-27 CYCLE) ════ -->
-
-    
+      </div>
+    </details>
 
     <!-- ════ VALUE COMPARISON: COACHING VS GENERIC AI VS PREPSELF ════ -->
     <div style="margin:44px 0 16px">
@@ -2617,7 +2618,7 @@
     </div>
     <div style="max-width:1200px;margin:16px auto 0;padding:10px 16px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:10px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:12px;color:rgba(255,255,255,.7)">
       <div style="display:flex;align-items:center;gap:12px">
-        <span>👥 <strong>All-India Platform Reach:</strong> <span id="ftVisitorCount">--</span>+ visits</span>
+        <span>⚡ <strong>Free Open Education:</strong> Zero paywalls &bull; MIT Licensed &bull; Built for All-India Aspirants</span>
         <span style="display:inline-flex;align-items:center;gap:6px;background:rgba(16,185,129,0.15);padding:2px 8px;border-radius:12px;color:#34D399;font-weight:700;font-size:11px">
           <span style="width:6px;height:6px;border-radius:50%;background:#34D399;box-shadow:0 0 6px #34D399;display:inline-block"></span>
           <span id="ftActiveCount">64</span> studying now

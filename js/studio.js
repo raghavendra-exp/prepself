@@ -1,6 +1,6 @@
 /* Live AI Study Prompt Studio Playground
-   Interactive real-time prompt customizer with 1-click clipboard copy
-   and direct links to ChatGPT, Claude, and Gemini */
+   Interactive real-time prompt customizer with on-site interactive testing
+   and optional external AI export */
 
 const PromptStudio = (() => {
   const EXAMS = [
@@ -75,11 +75,19 @@ Begin now with clear formatting, bold key takeaways, and zero filler text.`;
     textarea.select();
     navigator.clipboard.writeText(textarea.value).then(() => {
       if (window.showToast) {
-        window.showToast('AI Prompt copied to clipboard! Paste into ChatGPT, Claude or Gemini.');
+        window.showToast('AI Prompt copied to clipboard!');
       } else {
         alert('Prompt copied to clipboard!');
       }
     });
+  }
+
+  function practiceOnSite() {
+    if (window.PrepHabit && typeof window.PrepHabit.openDaily10Modal === 'function') {
+      window.PrepHabit.openDaily10Modal();
+    } else {
+      window.location.href = 'quiz-simulator.html';
+    }
   }
 
   function openExternalAI(platform) {
@@ -97,10 +105,10 @@ Begin now with clear formatting, bold key takeaways, and zero filler text.`;
       <div class="studio-card reveal in">
         <div class="studio-hd">
           <span style="font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:0.06em; color:var(--pr2); background:rgba(99,102,241,0.1); padding:4px 10px; border-radius:20px; display:inline-block; margin-bottom:8px;">
-            ⚡ Live Interactive Tool &bull; Free Forever
+            ⚡ On-Site AI Practice &bull; 100% Free
           </span>
           <h3>AI Study Prompt Studio Playground</h3>
-          <p>Customize your exam, topic, and learning goal. Get an optimized study prompt generated in real-time with one-click copy.</p>
+          <p>Practice calibrated questions directly inside PrepSelf, or copy custom prompts for external AI tools.</p>
         </div>
 
         <div class="studio-controls">
@@ -140,20 +148,26 @@ Begin now with clear formatting, bold key takeaways, and zero filler text.`;
             <span style="font-size:11px; font-weight:700; color:var(--txt3); text-transform:uppercase; letter-spacing:0.04em;">Generated Prompt (Editable)</span>
             <span style="font-size:11px; color:var(--txt3);">Ready to run</span>
           </div>
-          <textarea id="studioPromptText" class="studio-textarea" rows="6"></textarea>
+          <textarea id="studioPromptText" class="studio-textarea" rows="5"></textarea>
         </div>
 
-        <div class="studio-actions">
-          <button class="btn-copy-prompt" onclick="PromptStudio.copyPrompt()">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-            <span>📋 Copy Prompt</span>
-          </button>
+        <div class="studio-actions" style="display:flex; flex-direction:column; gap:12px; margin-top:14px;">
+          <div style="display:flex; gap:10px; flex-wrap:wrap;">
+            <button class="btn-practice-onsite" onclick="PromptStudio.practiceOnSite()" style="flex:1; min-width:260px; background:linear-gradient(135deg,#10B981,#059669); color:#fff; border:none; padding:13px 20px; border-radius:12px; font-size:14.5px; font-weight:900; cursor:pointer; display:inline-flex; align-items:center; justify-content:center; gap:8px; box-shadow:0 4px 14px rgba(16,185,129,0.35);">
+              <span>⚡ Practice Questions On-Site (Zero Login)</span>
+            </button>
+            <button class="btn-copy-prompt" onclick="PromptStudio.copyPrompt()" style="background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.2); color:#fff; padding:13px 18px; border-radius:12px; font-size:13.5px; font-weight:700; cursor:pointer; display:inline-flex; align-items:center; gap:6px;">
+              <span>📋 Copy Prompt</span>
+            </button>
+          </div>
 
-          <div class="studio-launchers">
-            <span style="font-size:12px; font-weight:700; color:var(--txt3); align-self:center;">Launch in:</span>
-            <button class="launcher-btn" onclick="PromptStudio.openExternalAI('chatgpt')">ChatGPT ↗</button>
-            <button class="launcher-btn" onclick="PromptStudio.openExternalAI('claude')">Claude ↗</button>
-            <button class="launcher-btn" onclick="PromptStudio.openExternalAI('gemini')">Gemini ↗</button>
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; padding-top:8px; border-top:1px solid rgba(255,255,255,0.08);">
+            <span style="font-size:12px; color:var(--txt3);">Optional External Launch:</span>
+            <div class="studio-launchers" style="display:flex; gap:6px;">
+              <button class="launcher-btn" onclick="PromptStudio.openExternalAI('chatgpt')">ChatGPT ↗</button>
+              <button class="launcher-btn" onclick="PromptStudio.openExternalAI('claude')">Claude ↗</button>
+              <button class="launcher-btn" onclick="PromptStudio.openExternalAI('gemini')">Gemini ↗</button>
+            </div>
           </div>
         </div>
       </div>
@@ -162,5 +176,5 @@ Begin now with clear formatting, bold key takeaways, and zero filler text.`;
     update();
   }
 
-  return { render, update, copyPrompt, openExternalAI };
+  return { render, update, copyPrompt, practiceOnSite, openExternalAI };
 })();
