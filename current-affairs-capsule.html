@@ -60,71 +60,58 @@
 
   <link rel="stylesheet" href="css/modern.css">
   <style>
-    :root {
-      --bg: #070B19;
-      --card-bg: #0E1630;
-      --card-border: rgba(255,255,255,0.08);
-      --txt-dim: #94A3B8;
-      --accent-blue: #38BDF8;
-      --accent-green: #34D399;
-      --accent-orange: #FB923C;
-    }
-    body {
-      background: var(--bg);
-      color: #F8FAFC;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      line-height: 1.7;
-    }
     .capsule-wrap {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 30px 20px 80px;
+      max-width: 920px;
+      margin: 10px auto 40px;
+      padding: 0 20px;
     }
     .pill {
       display: inline-block;
-      padding: 4px 12px;
+      padding: 4px 14px;
       border-radius: 20px;
       font-size: 12px;
       font-weight: 800;
-      background: rgba(56,189,248,0.12);
-      color: var(--accent-blue);
-      border: 1px solid rgba(56,189,248,0.3);
+      background: rgba(79,70,229,0.12);
+      color: var(--pr);
+      border: 1px solid rgba(79,70,229,0.3);
       margin-bottom: 12px;
     }
-    h1 {
-      font-size: 28px;
+    .capsule-wrap h1 {
+      font-size: clamp(24px, 4vw, 34px);
       font-weight: 900;
-      color: #fff;
+      color: var(--txt);
       line-height: 1.3;
       margin-bottom: 12px;
     }
     .meta-bar {
       font-size: 13px;
-      color: var(--txt-dim);
+      color: var(--txt2);
       display: flex;
       gap: 16px;
       flex-wrap: wrap;
       margin-bottom: 24px;
       padding-bottom: 14px;
-      border-bottom: 1px solid var(--card-border);
+      border-bottom: 1px solid var(--bdr);
     }
     .digest-card {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 14px;
+      background: var(--sf);
+      border: 1.5px solid var(--bdr);
+      border-radius: var(--r);
       padding: 24px;
       margin-bottom: 24px;
+      box-shadow: var(--sh);
     }
     .digest-card h2 {
       font-size: 19px;
-      color: #fff;
+      font-weight: 800;
+      color: var(--txt);
       margin-bottom: 14px;
       display: flex;
       align-items: center;
       gap: 8px;
     }
     .digest-item {
-      border-left: 2px solid var(--accent-blue);
+      border-left: 3px solid var(--pr);
       padding-left: 14px;
       margin-bottom: 16px;
     }
@@ -132,17 +119,18 @@
     .digest-item h3 {
       font-size: 15px;
       font-weight: 700;
-      color: #F1F5F9;
+      color: var(--txt);
       margin-bottom: 4px;
     }
     .digest-item p {
       font-size: 14px;
-      color: #CBD5E1;
+      color: var(--txt2);
+      line-height: 1.6;
       margin: 0;
     }
     .q-box {
-      background: rgba(15,23,42,0.8);
-      border: 1px solid var(--card-border);
+      background: var(--sf2);
+      border: 1px solid var(--bdr);
       border-radius: 12px;
       padding: 18px;
       margin-bottom: 16px;
@@ -150,89 +138,108 @@
     .q-text {
       font-size: 15px;
       font-weight: 700;
-      color: #fff;
+      color: var(--txt);
       margin-bottom: 12px;
+      line-height: 1.5;
     }
     .opt-btn {
       display: block;
       width: 100%;
       text-align: left;
-      background: rgba(255,255,255,0.04);
-      border: 1px solid var(--card-border);
-      padding: 10px 14px;
+      background: var(--sf);
+      border: 1px solid var(--bdr);
+      padding: 11px 15px;
       border-radius: 8px;
-      color: #E2E8F0;
+      color: var(--txt);
       font-size: 14px;
+      font-weight: 600;
       cursor: pointer;
       margin-bottom: 8px;
       transition: all 0.15s;
     }
     .opt-btn:hover:not(:disabled) {
-      background: rgba(56,189,248,0.12);
-      border-color: var(--accent-blue);
+      background: rgba(79,70,229,0.08);
+      border-color: var(--pr);
     }
     .opt-btn.correct {
-      background: rgba(52,211,153,0.2) !important;
-      border-color: var(--accent-green) !important;
-      color: #A7F3D0 !important;
+      background: rgba(16,185,129,0.15) !important;
+      border-color: #10B981 !important;
+      color: #10B981 !important;
       font-weight: 800;
     }
     .opt-btn.wrong {
-      background: rgba(239,68,68,0.2) !important;
+      background: rgba(239,68,68,0.15) !important;
       border-color: #EF4444 !important;
-      color: #FCA5A5 !important;
+      color: #EF4444 !important;
+      font-weight: 800;
     }
     .sol-text {
       display: none;
-      background: rgba(15,23,42,0.95);
-      border-left: 3px solid var(--accent-green);
-      padding: 10px 14px;
+      background: var(--sf);
+      border-left: 3px solid #10B981;
+      padding: 12px 14px;
       border-radius: 0 8px 8px 0;
-      margin-top: 8px;
+      margin-top: 10px;
       font-size: 13.5px;
-      color: #CBD5E1;
+      color: var(--txt2);
+      line-height: 1.55;
     }
-    footer {
-      margin-top: 60px;
-      padding-top: 24px;
-      border-top: 1px solid var(--card-border);
-      text-align: center;
-      font-size: 13px;
-      color: var(--txt-dim);
-    }
-    footer a { color: var(--accent-blue); text-decoration: none; }
   </style>
 </head>
 <body>
 
-<header class="hdr" style="background:#070B19;border-bottom:1px solid rgba(255,255,255,0.08);padding:14px 20px">
-  <div style="max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between">
-    <a href="./" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff">
-      <span style="font-size:22px">&#x1F4DA;</span>
-      <strong style="font-size:16px">PrepSelf</strong>
-    </a>
-    <div style="display:flex;gap:12px;align-items:center">
-      <a href="daily-quiz.html" style="font-size:13px;color:#34D399;text-decoration:none;font-weight:700">&#x26A1; Daily Quiz</a>
-      <a href="study-modules.html" style="font-size:13px;color:#38BDF8;text-decoration:none;font-weight:700">&#x1F4DA; 27 Master Suites</a>
-      <a href="hi/" style="font-size:12px;color:#FB923C;background:rgba(251,146,60,0.1);padding:4px 10px;border-radius:6px;text-decoration:none;font-weight:700">&#x1F1EE;&#x1F1F3; हिंदी</a>
+  <!-- ════ UNIFIED PREPSELF HEADER ════ -->
+  <header class="hdr">
+    <div class="hdr-inner">
+      <div class="hdr-left">
+        <a class="logo-wrap" href="./" title="PrepSelf — All India Exam Prep Engine">
+          <div class="logo-badge">⚡</div>
+          <div class="logo-txt">
+            <div class="logo-title-full"><span class="logo-brand">PrepSelf</span><span class="logo-domain">.in</span></div>
+            <p class="logo-tagline">Self-Study Platform &middot; 27 Master Suites</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="hdr-breadcrumbs" aria-label="Breadcrumb Trail">
+        <ol class="hdr-bc-list">
+          <li><a href="./" class="hdr-bc-link">🏠 Home</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li class="hdr-bc-active" aria-current="page">Current Affairs Capsule</li>
+        </ol>
+      </nav>
+
+      <div class="hdr-tools">
+        <button class="be-btn-tool" onclick="window.openSpotlight && window.openSpotlight()" title="Search all tools (Ctrl+K)" aria-label="Search tools">
+          <span class="be-tool-icon">&#x1F50D;</span>
+          <span class="be-tool-text">Search</span>
+        </button>
+        <button class="be-btn-tool be-btn-with-label" id="themeToggleBtn" onclick="window.toggleTheme ? window.toggleTheme() : (window.BE_NAV && window.BE_NAV.toggleTheme())" title="Toggle Theme" aria-label="Toggle Dark or Light Theme">
+          <span class="be-tool-icon" id="themeIcon">&#x1F319;</span>
+          <span class="be-tool-text" id="themeText">Theme</span>
+        </button>
+        <a href="hi/" class="be-btn-tool be-hide-xs" style="background:rgba(244,114,182,0.12);color:#F472B6;border-color:rgba(244,114,182,0.3);text-decoration:none" title="हिंदी हब">
+          <span class="be-tool-icon">🌐</span>
+          <span class="be-tool-text">हिंदी</span>
+        </a>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
 <main class="capsule-wrap">
-  <div class="pill">&#x1F4C6; High-Yield Monthly Capsule &bull; October 2026</div>
+  <div class="pill">📅 High-Yield Monthly Capsule &bull; October 2026</div>
   <h1>Current Affairs Capsule &amp; Banking Awareness (2026–2027)</h1>
 
   <div class="meta-bar">
-    <span>&#x1F4C5; Edition: October 2026</span>
-    <span>&#x1F3AF; Target: SBI PO, IBPS, SSC CGL &amp; UPSC</span>
-    <span>&#x2705; Curated by Raghavbegins</span>
-    <span>&#x1F4D6; 10-Minute Read</span>
+    <span>📅 Edition: October 2026</span>
+    <span>🎯 Target: SBI PO, IBPS, SSC CGL &amp; UPSC</span>
+    <span>✅ Curated by Raghavbegins</span>
+    <span>📖 10-Minute Read</span>
   </div>
 
   <!-- Sector 1: Banking & RBI -->
   <section class="digest-card">
-    <h2>&#x1F3E6; 1. Banking, RBI Directives &amp; Financial Sector</h2>
+    <h2>🏦 1. Banking, RBI Directives &amp; Financial Sector</h2>
     <div class="digest-item">
       <h3>RBI Monetary Policy Committee (MPC) Bi-Monthly Review</h3>
       <p>The MPC maintained the benchmark Policy Repo Rate at 6.50% to align headline retail inflation with the 4% medium-term target. Standing Deposit Facility (SDF) rate stands at 6.25% and Marginal Standing Facility (MSF) rate at 6.75%.</p>
@@ -249,7 +256,7 @@
 
   <!-- Sector 2: National & Schemes -->
   <section class="digest-card">
-    <h2>&#x1F3DB;&#xFE0F; 2. National Initiatives &amp; Government Schemes</h2>
+    <h2>🏛️ 2. National Initiatives &amp; Government Schemes</h2>
     <div class="digest-item">
       <h3>PM-Surya Ghar: Muft Bijli Yojana Milestone</h3>
       <p>The rooftop solar installation scheme surpassed 1.5 million household registrations, offering collateral-free low-interest bank financing up to ₹2,00,000 subsidized by the Ministry of New and Renewable Energy.</p>
@@ -262,7 +269,7 @@
 
   <!-- Sector 3: Economy & Budget -->
   <section class="digest-card">
-    <h2>&#x1F4C8; 3. Economy, Trade &amp; Multilateral Agreements</h2>
+    <h2>📈 3. Economy, Trade &amp; Multilateral Agreements</h2>
     <div class="digest-item">
       <h3>Goods and Services Tax (GST) Collection Milestones</h3>
       <p>Gross GST revenue averaged ₹1.85 lakh crore monthly, driven by intensified electronic invoicing compliance and robust domestic consumption during festive quarters.</p>
@@ -275,8 +282,8 @@
 
   <!-- Revision Quiz -->
   <section class="digest-card">
-    <h2>&#x1F3AF; 5-Question Capsule Revision Drill</h2>
-    <p style="color:var(--txt-dim);font-size:14px;margin-bottom:20px">Test your retention of this month's critical policy and economic milestones.</p>
+    <h2>🎯 5-Question Capsule Revision Drill</h2>
+    <p style="color:var(--txt2);font-size:14px;margin-bottom:20px">Test your retention of this month's critical policy and economic milestones.</p>
 
     <div class="q-box" id="cq-0" data-correct="1">
       <div class="q-text">1. What is the current spread between the Standing Deposit Facility (SDF) and the Marginal Standing Facility (MSF) under RBI's LAF corridor?</div>
@@ -324,11 +331,39 @@
     </div>
   </section>
 
-  <footer>
-    <p>&copy; 2026 PrepSelf &bull; Open Educational Resource &bull; Maintained by <a href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener">Raghavbegins (Raghavendra)</a>.</p>
-    <p style="margin-top:6px;font-size:12px"><a href="./">Home</a> &bull; <a href="daily-quiz.html">Daily Speed Drill</a> &bull; <a href="study-modules.html">27 Master Suites</a> &bull; <a href="sitemap.html">Directory</a></p>
-  </footer>
+  <!-- Relevant Exam Tools Callouts -->
+  <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:16px;margin-top:24px">
+    <a href="daily-quiz.html" style="display:flex;align-items:center;gap:12px;background:var(--sf);border:1.5px solid var(--bdr);border-radius:12px;padding:16px;text-decoration:none;color:var(--txt)">
+      <span style="font-size:28px">⚡</span>
+      <div>
+        <div style="font-weight:800;font-size:14px">Daily Speed Drill</div>
+        <div style="font-size:12px;color:var(--txt2)">5 mixed practice questions daily</div>
+      </div>
+    </a>
+    <a href="study-modules.html" style="display:flex;align-items:center;gap:12px;background:var(--sf);border:1.5px solid var(--bdr);border-radius:12px;padding:16px;text-decoration:none;color:var(--txt)">
+      <span style="font-size:28px">📚</span>
+      <div>
+        <div style="font-weight:800;font-size:14px">27 Master Suites</div>
+        <div style="font-size:12px;color:var(--txt2)">Deep-dive interactive textbooks</div>
+      </div>
+    </a>
+  </div>
+
 </main>
+
+<footer style="background:var(--d1);color:#fff;padding:28px 20px;text-align:center;font-size:12.5px">
+  <div style="max-width:1000px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;color:rgba(255,255,255,0.6)">
+    <div>&copy; 2026 PrepSelf &bull; Web Engine: MIT License &bull; Study Material: CC BY-NC 4.0</div>
+    <div style="display:flex;gap:14px;flex-wrap:wrap">
+      <a href="./" style="color:rgba(255,255,255,0.8)">Home</a>
+      <a href="daily-quiz.html" style="color:rgba(255,255,255,0.8)">Daily Drill</a>
+      <a href="study-modules.html" style="color:rgba(255,255,255,0.8)">27 Master Suites</a>
+      <a href="sitemap.html" style="color:rgba(255,255,255,0.8)">Directory</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/nav.js"></script>
 
 <script>
   function checkCapsule(qIdx, optIdx, isCorrect) {

@@ -340,11 +340,59 @@ const BankQuiz = (() => {
 
     renderScoreboard();
     renderQuestionCard(questionId);
+
+    const filtered = getFilteredQuestions();
+    const answeredCount = filtered.filter(item => userAnswers[item.id] !== undefined).length;
+    if (answeredCount === filtered.length && answeredCount > 0) {
+      showCompletionCard(filtered.length);
+    }
+  }
+
+  function showCompletionCard(total) {
+    let compBox = document.getElementById('quizCompletionBox');
+    if (!compBox) {
+      compBox = document.createElement('div');
+      compBox.id = 'quizCompletionBox';
+      const container = document.getElementById('quizQuestionsContainer');
+      if (container) container.prepend(compBox);
+    }
+    const acc = Math.round((stats.correct / total) * 100);
+    const shareMsg = `🎯 I scored ${stats.correct}/${total} (${acc}% accuracy) on PrepSelf CBT Mock Simulator! Can you beat my score? Try here: https://prepself.in/quiz-simulator.html`;
+    const shareText = encodeURIComponent(shareMsg);
+
+    compBox.innerHTML = `
+      <div style="background:var(--sf);border:2px solid var(--pr);border-radius:16px;padding:26px 20px;text-align:center;margin-bottom:28px;box-shadow:var(--sh);">
+        <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(16,185,129,0.12);color:#10B981;padding:4px 14px;border-radius:20px;font-size:12px;font-weight:800;margin-bottom:10px;">
+          🎉 PRACTICE SECTION COMPLETED!
+        </div>
+        <h2 style="font-size:26px;font-weight:900;color:var(--txt);margin-bottom:6px;">Your Score: ${stats.correct} / ${total} (${acc}%)</h2>
+        <p style="font-size:14px;color:var(--txt2);max-width:550px;margin:0 auto 16px;">
+          ${acc >= 80 ? '🌟 Outstanding performance! Your accuracy is within the topper safe-zone.' : acc >= 60 ? '👍 Solid attempt! Review incorrect questions in your Mistake Notebook.' : '⚠️ Focus on accuracy over guesswork. Check the step-by-step rationales below.'}
+        </p>
+        <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
+          <a href="https://api.whatsapp.com/send?text=${shareText}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:#25D366;color:#072612;font-weight:800;font-size:13.5px;padding:10px 20px;border-radius:25px;text-decoration:none;">
+            💬 Share on WhatsApp
+          </a>
+          <button onclick="navigator.clipboard.writeText('https://prepself.in/quiz-simulator.html').then(() => { if (window.showToast) window.showToast('Challenge link copied!'); else alert('Challenge link copied to clipboard!'); })" style="display:inline-flex;align-items:center;gap:8px;background:var(--pr);color:#fff;font-weight:800;font-size:13.5px;padding:10px 20px;border-radius:25px;border:none;cursor:pointer;">
+            ⚔️ Challenge Friend
+          </button>
+          <button onclick="window.PrepHabit && window.PrepHabit.showMistakeModal && window.PrepHabit.showMistakeModal()" style="display:inline-flex;align-items:center;gap:8px;background:var(--sf2);border:1px solid var(--bdr);color:var(--txt);font-weight:700;font-size:13.5px;padding:10px 20px;border-radius:25px;cursor:pointer;">
+            📓 Mistake Notebook
+          </button>
+          <button onclick="BankQuiz.resetQuiz()" style="display:inline-flex;align-items:center;gap:8px;background:transparent;border:1px solid var(--bdr);color:var(--txt2);font-weight:700;font-size:13.5px;padding:10px 18px;border-radius:25px;cursor:pointer;">
+            ⟲ Retake
+          </button>
+        </div>
+      </div>
+    `;
+    compBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
 
   function resetQuiz() {
     userAnswers = {};
     stats = { attempted: 0, correct: 0 };
+    const compBox = document.getElementById('quizCompletionBox');
+    if (compBox) compBox.remove();
     resetTimer();
     render();
   }

@@ -14,7 +14,7 @@
 
   <!-- Open Graph -->
   <meta property="og:title" content="Daily 5-Question Speed Drill for Govt Exams | PrepSelf">
-  <meta property="og:description" content="5 multi-subject practice questions daily. Quant, Reasoning, English & GA with explanations and shareable score card.">
+  <meta property="og:description" content="5 multi-subject practice questions daily. Quant, Reasoning, English &amp; GA with explanations and shareable score card.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://prepself.in/daily-quiz.html">
   <meta property="og:image" content="https://prepself.in/images/PrepSelf-og.png">
@@ -58,133 +58,147 @@
 
   <link rel="stylesheet" href="css/modern.css">
   <style>
-    :root {
-      --bg: #070B19;
-      --card-bg: #0E1630;
-      --card-border: rgba(255,255,255,0.08);
-      --txt-dim: #94A3B8;
-      --accent-green: #34D399;
-      --accent-blue: #38BDF8;
-      --accent-orange: #FB923C;
-    }
-    body {
-      background: var(--bg);
-      color: #F8FAFC;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      line-height: 1.7;
-    }
     .drill-wrap {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 30px 20px 80px;
+      max-width: 880px;
+      margin: 10px auto 40px;
+      padding: 0 20px;
     }
     .drill-hero {
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 28px;
     }
     .date-pill {
       display: inline-flex;
       align-items: center;
       gap: 6px;
       padding: 5px 14px;
-      background: rgba(52,211,153,0.12);
-      border: 1px solid rgba(52,211,153,0.3);
+      background: rgba(16,185,129,0.12);
+      border: 1px solid rgba(16,185,129,0.3);
       border-radius: 20px;
-      color: var(--accent-green);
-      font-size: 13px;
-      font-weight: 700;
+      color: #10B981;
+      font-size: 12.5px;
+      font-weight: 800;
       margin-bottom: 12px;
     }
-    h1 {
-      font-size: 30px;
+    .streak-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 14px;
+      background: rgba(245,158,11,0.12);
+      border: 1px solid rgba(245,158,11,0.3);
+      border-radius: 20px;
+      color: #F59E0B;
+      font-size: 12.5px;
+      font-weight: 800;
+      margin-bottom: 12px;
+      margin-left: 8px;
+    }
+    .drill-hero h1 {
+      font-size: clamp(24px, 4vw, 34px);
       font-weight: 900;
-      color: #fff;
+      color: var(--txt);
       line-height: 1.25;
       margin-bottom: 10px;
     }
     .drill-sub {
-      color: var(--txt-dim);
+      color: var(--txt2);
       font-size: 15px;
-      max-width: 620px;
+      max-width: 650px;
       margin: 0 auto;
+      line-height: 1.6;
     }
     .q-card {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 14px;
+      background: var(--sf);
+      border: 1.5px solid var(--bdr);
+      border-radius: var(--r);
       padding: 22px;
-      margin-bottom: 22px;
+      margin-bottom: 20px;
+      box-shadow: var(--sh);
+      transition: border-color 0.2s;
     }
     .q-tag {
       font-size: 11px;
       font-weight: 800;
       text-transform: uppercase;
-      color: var(--accent-blue);
+      color: var(--pr);
       letter-spacing: 0.05em;
       margin-bottom: 6px;
     }
     .q-title {
       font-size: 16px;
       font-weight: 700;
-      color: #fff;
+      color: var(--txt);
       margin-bottom: 14px;
+      line-height: 1.5;
     }
     .opt-grid {
       display: grid;
       gap: 8px;
     }
     .opt-btn {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid var(--card-border);
-      color: #E2E8F0;
-      padding: 10px 16px;
-      border-radius: 8px;
+      background: var(--sf2);
+      border: 1px solid var(--bdr);
+      color: var(--txt);
+      padding: 12px 16px;
+      border-radius: 10px;
       font-size: 14px;
+      font-weight: 600;
       text-align: left;
       cursor: pointer;
       transition: all 0.15s ease;
       width: 100%;
     }
     .opt-btn:hover:not(:disabled) {
-      background: rgba(56,189,248,0.12);
-      border-color: var(--accent-blue);
+      background: rgba(79,70,229,0.08);
+      border-color: var(--pr);
     }
     .opt-btn.correct {
-      background: rgba(52,211,153,0.2) !important;
-      border-color: var(--accent-green) !important;
-      color: #A7F3D0 !important;
-      font-weight: 700;
+      background: rgba(16,185,129,0.15) !important;
+      border-color: #10B981 !important;
+      color: #10B981 !important;
+      font-weight: 800;
     }
     .opt-btn.wrong {
-      background: rgba(239,68,68,0.2) !important;
+      background: rgba(239,68,68,0.15) !important;
       border-color: #EF4444 !important;
-      color: #FCA5A5 !important;
+      color: #EF4444 !important;
+      font-weight: 800;
     }
     .sol-box {
       display: none;
-      background: rgba(15,23,42,0.9);
-      border-left: 3px solid var(--accent-blue);
-      padding: 12px 16px;
-      border-radius: 0 8px 8px 0;
-      margin-top: 12px;
+      background: var(--sf2);
+      border-left: 3px solid var(--pr);
+      padding: 14px 16px;
+      border-radius: 0 10px 10px 0;
+      margin-top: 14px;
       font-size: 13.5px;
-      color: #CBD5E1;
+      color: var(--txt2);
+      line-height: 1.6;
     }
     .score-card {
-      background: linear-gradient(135deg, rgba(52,211,153,0.12), rgba(56,189,248,0.08));
-      border: 1.5px solid rgba(52,211,153,0.3);
-      border-radius: 14px;
-      padding: 24px;
+      background: var(--sf);
+      border: 1.5px solid var(--bdr);
+      border-radius: var(--r);
+      padding: 26px;
       text-align: center;
       margin-top: 30px;
+      box-shadow: var(--sh);
     }
     .score-title {
-      font-size: 20px;
+      font-size: 22px;
       font-weight: 800;
-      color: #fff;
+      color: var(--txt);
       margin-bottom: 6px;
     }
-    .btn-share {
+    .share-actions {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+    .btn-share-wa {
       display: inline-flex;
       align-items: center;
       gap: 8px;
@@ -195,40 +209,71 @@
       padding: 10px 22px;
       border-radius: 25px;
       text-decoration: none;
-      margin-top: 14px;
       transition: transform 0.15s;
     }
-    .btn-share:hover { transform: scale(1.03); }
-    footer {
-      margin-top: 60px;
-      padding-top: 24px;
-      border-top: 1px solid var(--card-border);
-      text-align: center;
-      font-size: 13px;
-      color: var(--txt-dim);
+    .btn-share-native {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--pr);
+      color: #fff;
+      font-weight: 800;
+      font-size: 14px;
+      padding: 10px 22px;
+      border-radius: 25px;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.15s;
     }
-    footer a { color: var(--accent-blue); text-decoration: none; }
+    .btn-share-wa:hover, .btn-share-native:hover { transform: scale(1.03); }
   </style>
 </head>
 <body>
 
-<header class="hdr" style="background:#070B19;border-bottom:1px solid rgba(255,255,255,0.08);padding:14px 20px">
-  <div style="max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between">
-    <a href="./" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff">
-      <span style="font-size:22px">&#x1F4DA;</span>
-      <strong style="font-size:16px">PrepSelf</strong>
-    </a>
-    <div style="display:flex;gap:12px;align-items:center">
-      <a href="quiz-simulator.html" style="font-size:13px;color:#34D399;text-decoration:none;font-weight:700">&#x1F3AF; Mock Lab</a>
-      <a href="study-modules.html" style="font-size:13px;color:#38BDF8;text-decoration:none;font-weight:700">&#x26A1; 27 Master Suites</a>
-      <a href="hi/" style="font-size:12px;color:#FB923C;background:rgba(251,146,60,0.1);padding:4px 10px;border-radius:6px;text-decoration:none;font-weight:700">&#x1F1EE;&#x1F1F3; हिंदी</a>
+  <!-- ════ UNIFIED PREPSELF HEADER ════ -->
+  <header class="hdr">
+    <div class="hdr-inner">
+      <div class="hdr-left">
+        <a class="logo-wrap" href="./" title="PrepSelf — All India Exam Prep Engine">
+          <div class="logo-badge">⚡</div>
+          <div class="logo-txt">
+            <div class="logo-title-full"><span class="logo-brand">PrepSelf</span><span class="logo-domain">.in</span></div>
+            <p class="logo-tagline">Self-Study Platform &middot; 27 Master Suites</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="hdr-breadcrumbs" aria-label="Breadcrumb Trail">
+        <ol class="hdr-bc-list">
+          <li><a href="./" class="hdr-bc-link">🏠 Home</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li class="hdr-bc-active" aria-current="page">Daily Speed Drill</li>
+        </ol>
+      </nav>
+
+      <div class="hdr-tools">
+        <button class="be-btn-tool" onclick="window.openSpotlight && window.openSpotlight()" title="Search all tools (Ctrl+K)" aria-label="Search tools">
+          <span class="be-tool-icon">&#x1F50D;</span>
+          <span class="be-tool-text">Search</span>
+        </button>
+        <button class="be-btn-tool be-btn-with-label" id="themeToggleBtn" onclick="window.toggleTheme ? window.toggleTheme() : (window.BE_NAV && window.BE_NAV.toggleTheme())" title="Toggle Theme" aria-label="Toggle Dark or Light Theme">
+          <span class="be-tool-icon" id="themeIcon">&#x1F319;</span>
+          <span class="be-tool-text" id="themeText">Theme</span>
+        </button>
+        <a href="hi/" class="be-btn-tool be-hide-xs" style="background:rgba(244,114,182,0.12);color:#F472B6;border-color:rgba(244,114,182,0.3);text-decoration:none" title="हिंदी हब">
+          <span class="be-tool-icon">🌐</span>
+          <span class="be-tool-text">हिंदी</span>
+        </a>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
 <main class="drill-wrap">
   <div class="drill-hero">
-    <div class="date-pill" id="live-date">&#x1F5D3;&#xFE0F; Daily Speed Drill &bull; Fresh Every 24h</div>
+    <div>
+      <span class="date-pill" id="live-date">📅 Daily Speed Drill &bull; Fresh Every 24h</span>
+      <span class="streak-badge" id="streak-badge">🔥 <span id="streakDays">1</span>-Day Habit Streak</span>
+    </div>
     <h1>Daily 5-Question Speed Drill for Govt Exams</h1>
     <p class="drill-sub">Build a genuine daily habit without burnout. 5 mixed questions across Quant, Reasoning, English, General Awareness, and Computer Aptitude.</p>
   </div>
@@ -239,12 +284,12 @@
     <div class="q-title">If A's salary is 20% more than B's salary, by what percentage is B's salary less than A's salary?</div>
     <div class="opt-grid">
       <button class="opt-btn" onclick="answerDrill(0, 0, false)">A. 20%</button>
-      <button class="opt-btn" onclick="answerDrill(0, 1, true)">B. 16.66% (16 2/3%)</button>
+      <button class="opt-btn" onclick="answerDrill(0, 1, true)">B. 16.66% (16 ⅔%)</button>
       <button class="opt-btn" onclick="answerDrill(0, 2, false)">C. 25%</button>
       <button class="opt-btn" onclick="answerDrill(0, 3, false)">D. 18.25%</button>
     </div>
     <div class="sol-box" id="dsol-0">
-      💡 <strong>Shortcut Formula:</strong> [R / (100 + R)] × 100% = [20 / (100 + 20)] × 100% = 20 / 120 × 100% = 1/6 = 16.66%.
+      💡 <strong>Shortcut Formula:</strong> [R / (100 + R)] × 100% = [20 / (100 + 20)] × 100% = 20 / 120 × 100% = ⅙ = 16.66%.
     </div>
   </div>
 
@@ -310,21 +355,68 @@
 
   <div class="score-card" id="score-section" style="display:none">
     <div class="score-title" id="final-score-text">Drill Completed! 🎯</div>
-    <p style="color:var(--txt-dim);font-size:14px" id="final-score-sub">Your answers are saved into your Mistake Notebook.</p>
-    <a href="#" class="btn-share" id="whatsapp-share-btn" target="_blank" rel="noopener">
-      &#x1F4AC; Share Score on WhatsApp
+    <p style="color:var(--txt2);font-size:14px" id="final-score-sub">Great job! Your answers are saved into your Mistake Notebook.</p>
+    <div class="share-actions">
+      <a href="#" class="btn-share-wa" id="whatsapp-share-btn" target="_blank" rel="noopener">
+        💬 Share on WhatsApp
+      </a>
+      <button class="btn-share-native" onclick="shareNative()">
+        🚀 Share Score Card
+      </button>
+    </div>
+  </div>
+
+  <!-- Relevant Exam Tools Callouts -->
+  <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:16px;margin-top:30px">
+    <a href="quiz-simulator.html" style="display:flex;align-items:center;gap:12px;background:var(--sf);border:1.5px solid var(--bdr);border-radius:12px;padding:16px;text-decoration:none;color:var(--txt)">
+      <span style="font-size:28px">🎯</span>
+      <div>
+        <div style="font-weight:800;font-size:14px">Full Mock Test Simulator</div>
+        <div style="font-size:12px;color:var(--txt2)">20-minute timed sectional practice</div>
+      </div>
+    </a>
+    <a href="current-affairs-capsule.html" style="display:flex;align-items:center;gap:12px;background:var(--sf);border:1.5px solid var(--bdr);border-radius:12px;padding:16px;text-decoration:none;color:var(--txt)">
+      <span style="font-size:28px">📰</span>
+      <div>
+        <div style="font-weight:800;font-size:14px">Current Affairs Capsule</div>
+        <div style="font-size:12px;color:var(--txt2)">Monthly digest &amp; RBI banking policies</div>
+      </div>
     </a>
   </div>
 
-  <footer>
-    <p>&copy; 2026 PrepSelf &bull; Open Educational Initiative &bull; Maintained by <a href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener">Raghavbegins (Raghavendra)</a>.</p>
-    <p style="margin-top:6px;font-size:12px"><a href="./">Home</a> &bull; <a href="study-modules.html">27 Master Suites</a> &bull; <a href="sitemap.html">Directory</a> &bull; <a href="current-affairs-capsule.html">Current Affairs Capsule</a></p>
-  </footer>
 </main>
+
+<footer style="background:var(--d1);color:#fff;padding:28px 20px;text-align:center;font-size:12.5px">
+  <div style="max-width:1000px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;color:rgba(255,255,255,0.6)">
+    <div>&copy; 2026 PrepSelf &bull; Web Engine: MIT License &bull; Study Material: CC BY-NC 4.0</div>
+    <div style="display:flex;gap:14px;flex-wrap:wrap">
+      <a href="./" style="color:rgba(255,255,255,0.8)">Home</a>
+      <a href="study-modules.html" style="color:rgba(255,255,255,0.8)">27 Master Suites</a>
+      <a href="sitemap.html" style="color:rgba(255,255,255,0.8)">Directory</a>
+      <a href="quiz-simulator.html" style="color:rgba(255,255,255,0.8)">Mock Lab</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/nav.js"></script>
+<script src="js/habit-engine.js"></script>
 
 <script>
   let drillSolved = 0;
   let drillCorrect = 0;
+
+  // Streak logic
+  function updateStreakUI() {
+    try {
+      const today = new Date().toISOString().split('T')[0];
+      const lastDate = localStorage.getItem('ps:drill:lastDate');
+      let streak = parseInt(localStorage.getItem('ps:drill:streak') || '1', 10);
+      
+      const streakEl = document.getElementById('streakDays');
+      if (streakEl) streakEl.textContent = streak;
+    } catch(e) {}
+  }
+  updateStreakUI();
 
   function answerDrill(qIdx, optIdx, isCorrect) {
     const card = document.getElementById('dq-' + qIdx);
@@ -366,13 +458,44 @@
     }
 
     if (drillSolved === 5) {
+      // Update streak on completion
+      try {
+        const today = new Date().toISOString().split('T')[0];
+        const lastDate = localStorage.getItem('ps:drill:lastDate');
+        let streak = parseInt(localStorage.getItem('ps:drill:streak') || '0', 10);
+        if (lastDate !== today) {
+          streak++;
+          localStorage.setItem('ps:drill:streak', streak);
+          localStorage.setItem('ps:drill:lastDate', today);
+        }
+        updateStreakUI();
+      } catch(e) {}
+
       const scoreSec = document.getElementById('score-section');
       scoreSec.style.display = 'block';
       const pct = Math.round((drillCorrect / 5) * 100);
       document.getElementById('final-score-text').textContent = 'Your Score: ' + drillCorrect + ' / 5 (' + pct + '%)';
       
-      const shareText = encodeURIComponent('🎯 I scored ' + drillCorrect + '/5 in today\'s PrepSelf Daily Speed Drill! Beat my score: https://prepself.in/daily-quiz.html');
+      const shareMsg = '🎯 I scored ' + drillCorrect + '/5 in today\'s PrepSelf Daily Speed Drill! Beat my score: https://prepself.in/daily-quiz.html';
+      const shareText = encodeURIComponent(shareMsg);
       document.getElementById('whatsapp-share-btn').href = 'https://api.whatsapp.com/send?text=' + shareText;
+    }
+  }
+
+  function shareNative() {
+    const pct = Math.round((drillCorrect / 5) * 100);
+    const text = '🎯 I scored ' + drillCorrect + '/5 (' + pct + '%) in today\'s PrepSelf Daily Speed Drill! Beat my score: https://prepself.in/daily-quiz.html';
+    if (navigator.share) {
+      navigator.share({
+        title: 'PrepSelf Daily Drill Score Card',
+        text: text,
+        url: 'https://prepself.in/daily-quiz.html'
+      }).catch(() => {});
+    } else {
+      navigator.clipboard.writeText(text).then(() => {
+        if (window.showToast) window.showToast('Score card copied to clipboard!');
+        else alert('Score card copied to clipboard!');
+      });
     }
   }
 </script>
