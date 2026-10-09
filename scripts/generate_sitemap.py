@@ -54,6 +54,8 @@ def main():
     modules_dir = ROOT_DIR / "modules"
     if modules_dir.exists():
         for f in sorted(modules_dir.glob("*.html")):
+            if f.name == "railways.html":
+                continue  # Redirects to rrb.html; do not index redirect target
             entries.append((f"{BASE_ORIGIN}modules/{f.name}", get_git_lastmod(f)))
 
     # 5. Practice Problem Sets

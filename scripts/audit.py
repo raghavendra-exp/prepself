@@ -46,6 +46,8 @@ for f in sorted(ROOT_DIR.rglob("*.html")):
 
     total_checked += 1
     s = f.read_text(encoding="utf-8", errors="ignore")
+    if 'http-equiv="refresh"' in s.lower():
+        continue  # Skip redirect stubs
     t = g(r"<title>(.*?)</title>", s)
     d = g(r'name=["\']description["\'][^>]*content=["\'](.*?)["\']', s)
     c = g(r'rel=["\']canonical["\'][^>]*href=["\'](.*?)["\']', s)

@@ -118,6 +118,8 @@ def main():
 
     for f in html_files:
         original = f.read_text(encoding="utf-8", errors="ignore")
+        if 'http-equiv="refresh"' in original.lower():
+            continue  # Skip redirect stubs
         updated, changes = sync_html_content(f, original)
 
         if changes:
