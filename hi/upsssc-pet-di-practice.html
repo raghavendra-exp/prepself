@@ -59,19 +59,20 @@
     gtag("config","G-B0Z2G21W4F");
   </script>
 
-  <style>
+    <link rel="stylesheet" href="../css/modern.css">
+<style>
     :root {
-      --bg: #070B19;
-      --card-bg: #0E1630;
-      --card-border: rgba(255,255,255,0.08);
-      --txt-dim: #94A3B8;
-      --accent-orange: #FB923C;
-      --accent-green: #34D399;
-      --accent-blue: #38BDF8;
+      --bg: var(--body-bg);
+      --card-bg: var(--sf);
+      --card-border: var(--bdr);
+      --txt-dim: var(--txt2);
+      --accent-orange: #EA580C;
+      --accent-green: #10B981;
+      --accent-blue: #0284C7;
     }
     body {
-      background: var(--bg);
-      color: #F8FAFC;
+      background: var(--body-bg);
+      color: var(--txt);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans Devanagari", sans-serif;
       line-height: 1.8;
       margin: 0; padding: 0;
@@ -112,13 +113,7 @@
       border: 1px solid rgba(251,146,60,0.3);
       margin-bottom: 12px;
     }
-    h1 {
-      font-size: 28px;
-      font-weight: 900;
-      color: #FFFFFF;
-      margin-bottom: 12px;
-      line-height: 1.35;
-    }
+    h1 { font-size: 28px; font-weight: 900; color: var(--txt); margin-bottom: 12px; line-height: 1.35; }
     .meta {
       font-size: 13px;
       color: var(--txt-dim);
@@ -129,35 +124,16 @@
       padding-bottom: 14px;
       border-bottom: 1px solid var(--card-border);
     }
-    .card {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 14px;
-      padding: 24px;
-      margin-bottom: 26px;
-    }
-    .card h2 {
-      font-size: 20px;
-      color: #fff;
-      margin-bottom: 14px;
-    }
-    .card p {
-      color: #CBD5E1;
-      font-size: 15.5px;
-      margin-bottom: 14px;
-    }
+    .card { background: var(--sf); border: 1.5px solid var(--bdr); border-radius: 14px; padding: 24px; margin-bottom: 26px; box-shadow: var(--sh); }
+    .card h2 { font-size: 20px; color: var(--txt); margin-bottom: 14px; }
+    .card p { color: var(--txt2); font-size: 15.5px; margin-bottom: 14px; }
     .formula-row {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 12px;
       margin: 18px 0;
     }
-    .f-box {
-      background: rgba(15,23,42,0.8);
-      border: 1px solid rgba(56,189,248,0.25);
-      border-radius: 10px;
-      padding: 12px 16px;
-    }
+    .f-box { background: var(--sf2); border: 1px solid var(--bdr); border-radius: 10px; padding: 12px 16px; }
     .f-title {
       font-size: 12px;
       font-weight: 800;
@@ -165,61 +141,18 @@
       text-transform: uppercase;
       margin-bottom: 4px;
     }
-    .f-body {
-      font-size: 13.5px;
-      color: #fff;
-    }
-    .data-table-box {
-      background: rgba(15,23,42,0.9);
-      border: 1px solid var(--card-border);
-      border-radius: 10px;
-      padding: 16px;
-      margin: 20px 0;
-      overflow-x: auto;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 14px;
-      color: #E2E8F0;
-    }
+    .f-body { font-size: 13.5px; color: var(--txt); }
+    .data-table-box { background: var(--sf); border: 1.5px solid var(--bdr); border-radius: 10px; padding: 16px; margin: 20px 0; overflow-x: auto; box-shadow: var(--sh); }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; color: var(--txt); }
     th, td {
       padding: 10px 14px;
       border: 1px solid var(--card-border);
       text-align: center;
     }
-    th {
-      background: rgba(30,41,59,0.9);
-      color: var(--accent-orange);
-      font-weight: 800;
-    }
-    .q-box {
-      background: rgba(15,23,42,0.8);
-      border: 1px solid var(--card-border);
-      border-radius: 12px;
-      padding: 18px;
-      margin-bottom: 18px;
-    }
-    .q-text {
-      font-size: 15.5px;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 12px;
-    }
-    .opt-btn {
-      display: block;
-      width: 100%;
-      text-align: left;
-      background: rgba(255,255,255,0.04);
-      border: 1px solid var(--card-border);
-      padding: 10px 14px;
-      border-radius: 8px;
-      color: #E2E8F0;
-      font-size: 14px;
-      cursor: pointer;
-      margin-bottom: 8px;
-      transition: all 0.15s;
-    }
+    th { background: var(--sf2); color: var(--txt); font-weight: 800; }
+    .q-box { background: var(--sf2); border: 1px solid var(--bdr); border-radius: 12px; padding: 18px; margin-bottom: 18px; }
+    .q-text { font-size: 15.5px; font-weight: 700; color: var(--txt); margin-bottom: 12px; }
+    .opt-btn { display: block; width: 100%; text-align: left; background: var(--sf); border: 1px solid var(--bdr); padding: 10px 14px; border-radius: 8px; color: var(--txt); font-size: 14px; cursor: pointer; margin-bottom: 8px; transition: all 0.15s; }
     .opt-btn:hover:not(:disabled) {
       background: rgba(251,146,60,0.12);
       border-color: var(--accent-orange);
@@ -258,18 +191,45 @@
 </head>
 <body>
 
-<header class="hdr">
-  <div class="hdr-inner">
-    <a href="index.html" class="logo">
-      <span style="font-size:24px">🇮🇳</span>
-      <span>PrepSelf हिंदी</span>
-    </a>
-    <div style="display:flex;gap:12px;align-items:center">
-      <a href="upsssc-pet.html" style="color:var(--accent-orange);font-size:13px;text-decoration:none;font-weight:700">← UPSSSC PET सिलेबस</a>
-      <a href="../" style="color:#fff;font-size:12px;background:rgba(255,255,255,0.08);padding:5px 12px;border-radius:6px;text-decoration:none">English</a>
+  <!-- ════ UNIFIED PREPSELF HEADER ════ -->
+  <header class="hdr">
+    <div class="hdr-inner">
+      <div class="hdr-left">
+        <a class="logo-wrap" href="./" title="PrepSelf — All India Exam Prep Engine">
+          <div class="logo-badge">⚡</div>
+          <div class="logo-txt">
+            <div class="logo-title-full"><span class="logo-brand">PrepSelf</span><span class="logo-domain"> हिंदी</span></div>
+            <p class="logo-tagline">उत्तर प्रदेश एवं राज्य प्रतियोगी परीक्षा हब</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="hdr-breadcrumbs" aria-label="Breadcrumb Trail">
+        <ol class="hdr-bc-list">
+          <li><a href="../" class="hdr-bc-link">🏠 Home</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li><a href="index.html" class="hdr-bc-link">हिंदी</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li class="hdr-bc-active" aria-current="page">UPSSSC PET ग्राफ एवं तालिका अभ्यास</li>
+        </ol>
+      </nav>
+
+      <div class="hdr-tools">
+        <button class="be-btn-tool" onclick="window.openSpotlight && window.openSpotlight()" title="Search all tools (Ctrl+K)" aria-label="Search tools">
+          <span class="be-tool-icon">&#x1F50D;</span>
+          <span class="be-tool-text">Search</span>
+        </button>
+        <button class="be-btn-tool be-btn-with-label" id="themeToggleBtn" onclick="window.toggleTheme ? window.toggleTheme() : (window.BE_NAV && window.BE_NAV.toggleTheme())" title="Toggle Theme" aria-label="Toggle Dark or Light Theme">
+          <span class="be-tool-icon" id="themeIcon">&#x1F319;</span>
+          <span class="be-tool-text" id="themeText">Theme</span>
+        </button>
+        <a href="../" class="be-btn-tool be-hide-xs" style="text-decoration:none" title="English Site">
+          <span class="be-tool-icon">🇬🇧</span>
+          <span class="be-tool-text">English</span>
+        </a>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
 <main class="wrap">
   <div class="pill">UPSSSC PET 2026 विशेष मॉड्यूल</div>
@@ -419,10 +379,20 @@
     </div>
   </section>
 
-  <footer class="ft">
-    <p>© 2026 PrepSelf • 100% निशुल्क शिक्षा पहल • रचयिता: <a href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener">Raghavbegins (Raghavendra)</a></p>
-    <p style="margin-top:6px;font-size:12px"><a href="index.html">हिंदी हब मुख्य पृष्ठ</a> &nbsp;|&nbsp; <a href="../">English Home</a> &nbsp;|&nbsp; <a href="../sitemap.html">साइट डायरेक्टरी</a></p>
+    <footer style="background:var(--d1);color:#fff;padding:28px 20px;text-align:center;font-size:12.5px;margin-top:40px">
+    <div style="max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;color:rgba(255,255,255,0.6)">
+      <div>&copy; 2026 PrepSelf &bull; वेब इंजन: MIT License &bull; अध्ययन सामग्री: CC BY-NC 4.0</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap">
+        <a href="../" style="color:rgba(255,255,255,0.8)">Home (English)</a>
+        <a href="index.html" style="color:#F472B6;font-weight:700">हिंदी हब</a>
+        <a href="upprpb.html" style="color:rgba(255,255,255,0.8)">यूपी पुलिस</a>
+        <a href="upsssc-pet.html" style="color:rgba(255,255,255,0.8)">UPSSSC PET</a>
+        <a href="../quiz-simulator.html" style="color:rgba(255,255,255,0.8)">Mock Lab</a>
+      </div>
+    </div>
   </footer>
+
+  <script src="../js/nav.js"></script>
 </main>
 
 <script>

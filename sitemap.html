@@ -8,6 +8,7 @@
   <meta name="author" content="Raghavbegins">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="canonical" href="https://prepself.in/sitemap.html">
+  <link rel="stylesheet" href="css/modern.css">
 
   <!-- Open Graph -->
   <meta property="og:title" content="PrepSelf Site Directory &amp; Complete HTML Sitemap">
@@ -72,24 +73,24 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --bg: #0A0F1E;
-      --card: #111D38;
-      --card-hover: #19284D;
-      --border: rgba(255, 255, 255, 0.08);
-      --border-accent: rgba(96, 165, 250, 0.25);
-      --txt: #F8FAFC;
-      --txt2: #94A3B8;
-      --txt3: #64748B;
-      --blue: #38BDF8;
+      --bg: var(--body-bg);
+      --card: var(--sf);
+      --card-hover: var(--sf2);
+      --border: var(--bdr);
+      --border-accent: var(--pr);
+      --txt: var(--txt);
+      --txt2: var(--txt2);
+      --txt3: var(--txt3);
+      --blue: var(--pr);
       --blue-grad: linear-gradient(135deg, #2563EB, #0284C7);
-      --green: #34D399;
-      --amber: #FCD34D;
-      --purple: #C084FC;
-      --rose: #FB7185;
-      --orange: #FB923C;
+      --green: #10B981;
+      --amber: #D97706;
+      --purple: #8B5CF6;
+      --rose: #F43F5E;
+      --orange: #EA580C;
     }
     body {
-      background: var(--bg);
+      background: var(--body-bg);
       color: var(--txt);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       line-height: 1.6;
@@ -204,7 +205,7 @@
     .hero h1 {
       font-size: 32px;
       font-weight: 900;
-      color: #fff;
+      color: var(--txt);
       margin-bottom: 12px;
       letter-spacing: -0.5px;
     }
@@ -227,7 +228,7 @@
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 14px 20px 14px 46px;
-      color: #fff;
+      color: var(--txt);
       font-size: 15px;
       outline: none;
       transition: border-color 0.2s, box-shadow 0.2s;
@@ -278,8 +279,8 @@
       gap: 16px;
     }
     .dir-card {
-      background: var(--card);
-      border: 1px solid var(--border);
+      background: var(--sf);
+      border: 1.5px solid var(--bdr);
       border-radius: 12px;
       padding: 16px;
       display: flex;
@@ -288,6 +289,7 @@
       transition: transform 0.15s, border-color 0.15s, background 0.15s;
       text-decoration: none;
       color: inherit;
+      box-shadow: var(--sh);
     }
     .dir-card:hover {
       transform: translateY(-2px);
@@ -309,7 +311,7 @@
     .dir-card-title {
       font-size: 14.5px;
       font-weight: 700;
-      color: #fff;
+      color: var(--txt);
       line-height: 1.35;
       margin-bottom: 4px;
     }
@@ -380,25 +382,41 @@
 </head>
 <body>
 
-  <!-- Header -->
+    <!-- ════ UNIFIED PREPSELF HEADER ════ -->
   <header class="hdr">
     <div class="hdr-inner">
-      <a class="logo-wrap" href="./" title="PrepSelf — All India Exam Prep Engine">
-        <div class="logo-badge">⚡</div>
-        <div class="logo-txt">
-          <h1>PrepSelf<span style="font-size:12px;color:rgba(255,255,255,.6)">.in</span></h1>
-          <p>Complete Site Directory &amp; Sitemap</p>
-        </div>
-      </a>
-      <nav class="nav-links">
-        <a href="./">Home</a>
-        <a href="study-modules.html">27 Master Suites</a>
-        <a href="quiz-simulator.html">Mock Lab</a>
-        <a href="all-exam-roadmaps.html">Roadmaps</a>
-        <a href="user-guide.html">User Guide</a>
-        <a href="hi/">🇮🇳 हिंदी</a>
-        <a href="study-modules.html" class="btn-nav-primary">Launch Suites ⚡</a>
+      <div class="hdr-left">
+        <a class="logo-wrap" href="./" title="PrepSelf — All India Exam Prep Engine">
+          <div class="logo-badge">⚡</div>
+          <div class="logo-txt">
+            <div class="logo-title-full"><span class="logo-brand">PrepSelf</span><span class="logo-domain">.in</span></div>
+            <p class="logo-tagline">Self-Study Platform &middot; 27 Master Suites</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="hdr-breadcrumbs" aria-label="Breadcrumb Trail">
+        <ol class="hdr-bc-list">
+          <li><a href="./" class="hdr-bc-link">🏠 Home</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li class="hdr-bc-active" aria-current="page">Site Directory &amp; Sitemap</li>
+        </ol>
       </nav>
+
+      <div class="hdr-tools">
+        <button class="be-btn-tool" onclick="window.openSpotlight && window.openSpotlight()" title="Search all tools (Ctrl+K)" aria-label="Search tools">
+          <span class="be-tool-icon">&#x1F50D;</span>
+          <span class="be-tool-text">Search</span>
+        </button>
+        <button class="be-btn-tool be-btn-with-label" id="themeToggleBtn" onclick="window.toggleTheme ? window.toggleTheme() : (window.BE_NAV && window.BE_NAV.toggleTheme())" title="Toggle Theme" aria-label="Toggle Dark or Light Theme">
+          <span class="be-tool-icon" id="themeIcon">&#x1F319;</span>
+          <span class="be-tool-text" id="themeText">Theme</span>
+        </button>
+        <a href="hi/" class="be-btn-tool be-hide-xs" style="background:rgba(244,114,182,0.12);color:#F472B6;border-color:rgba(244,114,182,0.3);text-decoration:none" title="हिंदी हब">
+          <span class="be-tool-icon">🌐</span>
+          <span class="be-tool-text">हिंदी</span>
+        </a>
+      </div>
     </div>
   </header>
 
@@ -2165,5 +2183,6 @@
       });
     }
   </script>
+  <script src="js/nav.js"></script>
 </body>
 </html>

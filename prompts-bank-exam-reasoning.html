@@ -70,12 +70,12 @@
   <link rel="stylesheet" href="css/modern.css">
   <style>
     .prompt-box {
-      background: var(--card-bg, #0B132B);
-      border: 1px solid var(--border, rgba(255,255,255,0.12));
+      background: var(--sf);
+      border: 1.5px solid var(--bdr);
       border-radius: 12px;
       padding: 18px 20px;
       margin-bottom: 20px;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+      box-shadow: var(--sh);
     }
     .prompt-head {
       display: flex;
@@ -86,26 +86,29 @@
     .prompt-tag {
       font-size: 11.5px;
       font-weight: 800;
-      color: #38BDF8;
-      background: rgba(56,189,248,0.12);
+      color: #0284C7;
+      background: rgba(2,132,199,0.12);
       padding: 3px 10px;
       border-radius: 6px;
-      border: 1px solid rgba(56,189,248,0.25);
+      border: 1px solid rgba(2,132,199,0.25);
+    }
+    .prompt-head span:last-child {
+      color: var(--txt3) !important;
     }
     .prompt-title {
       font-size: 16px;
       font-weight: 800;
-      color: #fff;
+      color: var(--txt);
       margin-bottom: 8px;
     }
     .prompt-text {
-      background: rgba(15,23,42,0.8);
-      border: 1px solid rgba(255,255,255,0.08);
+      background: var(--sf2);
+      border: 1px solid var(--bdr);
       border-radius: 8px;
       padding: 14px;
       font-family: monospace;
       font-size: 13px;
-      color: #E2E8F0;
+      color: var(--txt);
       line-height: 1.55;
       white-space: pre-wrap;
       word-break: break-word;
@@ -127,9 +130,9 @@
     }
     .btn-copy-p:hover { filter: brightness(1.15); }
     .btn-ai-launch {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      color: #fff;
+      background: var(--sf2);
+      border: 1px solid var(--bdr);
+      color: var(--txt);
       text-decoration: none;
       padding: 7px 12px;
       border-radius: 8px;
@@ -138,47 +141,74 @@
       display: inline-flex;
       align-items: center;
       gap: 6px;
+      transition: all 0.15s ease;
+    }
+    .btn-ai-launch:hover {
+      border-color: var(--pr);
+      color: var(--pr);
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
 
-  <!-- Header -->
+  <!-- ════ UNIFIED PREPSELF HEADER ════ -->
   <header class="hdr">
-    <div class="hdr-inner" style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:12px 20px">
-      <a href="./" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff">
-        <span style="font-size:24px">📘</span>
-        <span style="font-size:18px;font-weight:900">PrepSelf</span>
-      </a>
-      <nav style="display:flex;align-items:center;gap:16px">
-        <a href="./" style="color:#CBD5E1;text-decoration:none;font-weight:600;font-size:13.5px">Home</a>
-        <a href="bank_exam_prompt_generator.html" style="color:#38BDF8;text-decoration:none;font-weight:700;font-size:13.5px">Bank Generator</a>
-        <a href="modules/sbi-po.html" style="color:#CBD5E1;text-decoration:none;font-weight:600;font-size:13.5px">SBI PO Guide</a>
-        <a href="study-modules.html" style="color:#CBD5E1;text-decoration:none;font-weight:600;font-size:13.5px">27 Suites</a>
+    <div class="hdr-inner">
+      <div class="hdr-left">
+        <a class="logo-wrap" href="./" title="PrepSelf — All India Exam Prep Engine">
+          <div class="logo-badge">⚡</div>
+          <div class="logo-txt">
+            <div class="logo-title-full"><span class="logo-brand">PrepSelf</span><span class="logo-domain">.in</span></div>
+            <p class="logo-tagline">Self-Study Platform &middot; 27 Master Suites</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="hdr-breadcrumbs" aria-label="Breadcrumb Trail">
+        <ol class="hdr-bc-list">
+          <li><a href="./" class="hdr-bc-link">🏠 Home</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li><a href="bank_exam_prompt_generator.html" class="hdr-bc-link">Bank Tools</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li class="hdr-bc-active" aria-current="page">Bank Reasoning &amp; DI Prompts</li>
+        </ol>
       </nav>
+
+      <div class="hdr-tools">
+        <button class="be-btn-tool" onclick="window.openSpotlight && window.openSpotlight()" title="Search all tools (Ctrl+K)" aria-label="Search tools">
+          <span class="be-tool-icon">&#x1F50D;</span>
+          <span class="be-tool-text">Search</span>
+        </button>
+        <button class="be-btn-tool be-btn-with-label" id="themeToggleBtn" onclick="window.toggleTheme ? window.toggleTheme() : (window.BE_NAV && window.BE_NAV.toggleTheme())" title="Toggle Theme" aria-label="Toggle Dark or Light Theme">
+          <span class="be-tool-icon" id="themeIcon">&#x1F319;</span>
+          <span class="be-tool-text" id="themeText">Theme</span>
+        </button>
+        <a href="hi/" class="be-btn-tool be-hide-xs" style="background:rgba(244,114,182,0.12);color:#F472B6;border-color:rgba(244,114,182,0.3);text-decoration:none" title="हिंदी हब">
+          <span class="be-tool-icon">🌐</span>
+          <span class="be-tool-text">हिंदी</span>
+        </a>
+      </div>
     </div>
   </header>
 
-  <main style="max-width:960px;margin:30px auto;padding:0 20px">
+  <main style="max-width:960px;margin:24px auto;padding:0 20px">
     
-    <div style="margin-bottom:32px">
-      <div style="font-size:12px;color:rgba(255,255,255,0.5);margin-bottom:8px">
-        <a href="./" style="color:inherit">Home</a> &rsaquo; <a href="bank_exam_prompt_generator.html" style="color:inherit">Bank Exam Tools</a> &rsaquo; <span>ChatGPT Prompts for Bank Puzzles &amp; DI</span>
-      </div>
-      <h1 style="font-size:32px;font-weight:900;color:#fff;line-height:1.25;margin-bottom:12px">
+    <div style="margin-bottom:28px">
+      <h1 style="font-size:clamp(24px, 4vw, 32px);font-weight:900;color:var(--txt);line-height:1.25;margin-bottom:12px">
         30 Best ChatGPT &amp; AI Prompts for Banking Puzzles &amp; DI (2026–2027)
       </h1>
-      <p style="font-size:15px;color:rgba(255,255,255,0.75);line-height:1.6">
+      <p style="font-size:15px;color:var(--txt2);line-height:1.6">
         Crack tricky Floor &amp; Flat arrangements, Blood Relation circular seating, Missing Data Interpretation, and Mains-level Critical Reasoning with calibrated prompt templates.
       </p>
     </div>
 
     <!-- Creator Video & Explanation Card -->
-    <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:20px;margin-bottom:32px;display:flex;align-items:center;gap:20px;flex-wrap:wrap">
+    <div style="background:var(--sf);border:1.5px solid var(--bdr);border-radius:14px;padding:20px;margin-bottom:32px;display:flex;align-items:center;gap:20px;flex-wrap:wrap;box-shadow:var(--sh)">
       <div style="font-size:40px">📺</div>
       <div style="flex:1">
-        <h3 style="font-size:16px;font-weight:800;color:#fff;margin-bottom:4px">Bank Exam Speed &amp; Strategy Tutorials</h3>
-        <p style="font-size:13px;color:rgba(255,255,255,0.7);line-height:1.5;margin-bottom:10px">
+        <h3 style="font-size:16px;font-weight:800;color:var(--txt);margin-bottom:4px">Bank Exam Speed &amp; Strategy Tutorials</h3>
+        <p style="font-size:13px;color:var(--txt2);line-height:1.5;margin-bottom:10px">
           Learn how to eliminate puzzle possibilities in under 3 minutes and tackle Mains DI sets on the Raghav Begins official channel.
         </p>
         <a href="https://www.youtube.com/@raghav_begins" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:#EF4444;color:#fff;text-decoration:none;padding:7px 14px;border-radius:8px;font-size:12px;font-weight:700">
@@ -331,19 +361,19 @@ Explain using rigorous formal set theory and Euler Venn logic:
     </div>
 
     <!-- Related Links & Tools -->
-    <div style="margin-top:40px;padding:24px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.08);border-radius:14px">
-      <h3 style="font-size:18px;font-weight:800;color:#fff;margin-bottom:12px">More Banking Prep Tools</h3>
+    <div style="margin-top:40px;padding:24px;background:var(--sf);border:1.5px solid var(--bdr);border-radius:14px;box-shadow:var(--sh)">
+      <h3 style="font-size:18px;font-weight:800;color:var(--txt);margin-bottom:12px">More Banking Prep Tools</h3>
       <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));gap:12px">
-        <a href="negative-marking-calculator.html" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);padding:12px;border-radius:10px;text-decoration:none;color:#fff;font-size:13px;font-weight:600">
+        <a href="negative-marking-calculator.html" style="background:var(--sf2);border:1px solid var(--bdr);padding:12px;border-radius:10px;text-decoration:none;color:var(--txt);font-size:13px;font-weight:600;display:block">
           ⚖️ Negative Marking Calculator &rarr;
         </a>
-        <a href="eligibility-age-checker.html" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);padding:12px;border-radius:10px;text-decoration:none;color:#fff;font-size:13px;font-weight:600">
+        <a href="eligibility-age-checker.html" style="background:var(--sf2);border:1px solid var(--bdr);padding:12px;border-radius:10px;text-decoration:none;color:var(--txt);font-size:13px;font-weight:600;display:block">
           🎂 Bank PO Age &amp; Eligibility &rarr;
         </a>
-        <a href="percentile-cutoff-predictor.html" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);padding:12px;border-radius:10px;text-decoration:none;color:#fff;font-size:13px;font-weight:600">
+        <a href="percentile-cutoff-predictor.html" style="background:var(--sf2);border:1px solid var(--bdr);padding:12px;border-radius:10px;text-decoration:none;color:var(--txt);font-size:13px;font-weight:600;display:block">
           📊 SBI PO Cutoff Predictor &rarr;
         </a>
-        <a href="bank_exam_prompt_generator.html" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);padding:12px;border-radius:10px;text-decoration:none;color:#fff;font-size:13px;font-weight:600">
+        <a href="bank_exam_prompt_generator.html" style="background:var(--sf2);border:1px solid var(--bdr);padding:12px;border-radius:10px;text-decoration:none;color:var(--txt);font-size:13px;font-weight:600;display:block">
           ⚡ Interactive Bank Prompt Generator &rarr;
         </a>
       </div>
@@ -351,9 +381,16 @@ Explain using rigorous formal set theory and Euler Venn logic:
 
   </main>
 
-  <footer style="margin-top:60px;padding:30px 20px;border-top:1px solid rgba(255,255,255,0.08);text-align:center;color:rgba(255,255,255,0.5);font-size:13px">
-    <p>&copy; 2026 PrepSelf &bull; Open Free Educational Utility &bull; MIT Licensed</p>
-    <p style="margin-top:6px">Empowering independent banking aspirants across India.</p>
+  <footer style="background:var(--d1);color:#fff;padding:28px 20px;text-align:center;font-size:12.5px">
+    <div style="max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;color:rgba(255,255,255,0.6)">
+      <div>&copy; 2026 PrepSelf &bull; Open-source under MIT License &bull; Free Educational Platform</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap">
+        <a href="./" style="color:rgba(255,255,255,0.8)">Home</a>
+        <a href="bank_exam_prompt_generator.html" style="color:#38BDF8">Bank Generator</a>
+        <a href="study-modules.html" style="color:rgba(255,255,255,0.8)">Study Modules</a>
+        <a href="quiz-simulator.html" style="color:rgba(255,255,255,0.8)">Mock Lab</a>
+      </div>
+    </div>
   </footer>
 
   <script>
@@ -371,5 +408,6 @@ Explain using rigorous formal set theory and Euler Venn logic:
       });
     }
   </script>
+  <script src="js/nav.js"></script>
 </body>
 </html>

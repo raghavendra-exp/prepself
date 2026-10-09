@@ -11,24 +11,30 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://prepself.in/more_exams_prompt_generator.html">
 <link rel="canonical" href="https://prepself.in/more_exams_prompt_generator.html">
+<link rel="stylesheet" href="css/modern.css">
 <title>Specialist Exam AI Prompt Hub & Multi-Domain | PrepSelf</title>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-B0Z2G21W4F");</script>
 <style>
 *,*::before,*::after{box-sizing:border-box}
-:root{
-  --d1:#050912;--d2:#0A1120;--d3:#111B2E;
-  --pr:#4F46E5;--pr2:#6366F1;--pr3:#818CF8;
-  --cy:#06B6D4;--cy2:#22D3EE;
-  --gr:#10B981;--gr2:#34D399;
-  --ac:#F59E0B;--rd:#EF4444;
-  --txt:#0F172A;--txt2:#475569;--txt3:#94A3B8;
-  --bdr:#E2E8F0;--sf:#fff;--sf2:#F8FAFC;
-  --r:14px;--rl:20px;
-  --font-mono:ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;
+:root {
+  --d1: #050912; --d2: #0A1120; --d3: #111B2E;
+  --pr: #4F46E5; --pr2: #6366F1; --pr3: #818CF8;
+  --cy: #06B6D4; --cy2: #22D3EE;
+  --gr: #10B981; --gr2: #34D399;
+  --ac: #F59E0B; --rd: #EF4444;
+  --txt: var(--txt); --txt2: var(--txt2); --txt3: var(--txt3);
+  --bdr: var(--bdr); --sf: var(--sf); --sf2: var(--sf2);
+  --r: 14px; --rl: 20px;
+  --font-mono: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
 }
 html{scroll-behavior:smooth}
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--sf2);color:var(--txt2)}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--body-bg);
+  color: var(--txt2);
+}
 a{color:inherit}
 @keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.4)}}
 
@@ -149,13 +155,41 @@ select:focus,input:focus{outline:none;border-color:var(--pr3)}
 <body>
 <script>try{var _rv=JSON.parse(localStorage.getItem('rb_recent_tools')||'[]');var _href=location.pathname.split('/').pop()||'index.html';_rv=_rv.filter(function(t){return t.href!==_href;});_rv.unshift({href:_href,ts:Date.now()});_rv=_rv.slice(0,6);localStorage.setItem('rb_recent_tools',JSON.stringify(_rv));}catch(e){}</script>
 
+<!-- ════ UNIFIED PREPSELF HEADER ════ -->
 <header class="hdr">
   <div class="hdr-inner">
-    <a class="logo" href="./">
-      <div class="logo-badge">&#x1F393;</div>
-      <h1>Specialist Competitive Exam AI Prompt Hub</h1>
-    </a>
-    <a class="hdr-back" href="./">&#8592; All Tools</a>
+    <div class="hdr-left">
+      <a class="logo-wrap" href="./" title="PrepSelf — All India Exam Prep Engine">
+        <div class="logo-badge">⚡</div>
+        <div class="logo-txt">
+          <div class="logo-title-full"><span class="logo-brand">PrepSelf</span><span class="logo-domain">.in</span></div>
+          <p class="logo-tagline">Self-Study Platform &middot; 27 Master Suites</p>
+        </div>
+      </a>
+    </div>
+
+    <nav class="hdr-breadcrumbs" aria-label="Breadcrumb Trail">
+      <ol class="hdr-bc-list">
+        <li><a href="./" class="hdr-bc-link">🏠 Home</a></li>
+        <li class="hdr-bc-sep">/</li>
+        <li class="hdr-bc-active" aria-current="page">Specialist Exams AI Hub</li>
+      </ol>
+    </nav>
+
+    <div class="hdr-tools">
+      <button class="be-btn-tool" onclick="window.openSpotlight && window.openSpotlight()" title="Search all tools (Ctrl+K)" aria-label="Search tools">
+        <span class="be-tool-icon">&#x1F50D;</span>
+        <span class="be-tool-text">Search</span>
+      </button>
+      <button class="be-btn-tool be-btn-with-label" id="themeToggleBtn" onclick="window.toggleTheme ? window.toggleTheme() : (window.BE_NAV && window.BE_NAV.toggleTheme())" title="Toggle Theme" aria-label="Toggle Dark or Light Theme">
+        <span class="be-tool-icon" id="themeIcon">&#x1F319;</span>
+        <span class="be-tool-text" id="themeText">Theme</span>
+      </button>
+      <a href="hi/" class="be-btn-tool be-hide-xs" style="background:rgba(244,114,182,0.12);color:#F472B6;border-color:rgba(244,114,182,0.3);text-decoration:none" title="हिंदी हब">
+        <span class="be-tool-icon">🌐</span>
+        <span class="be-tool-text">हिंदी</span>
+      </a>
+    </div>
   </div>
 </header>
 <div style="background:rgba(5,9,18,.95);padding:8px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;max-width:1100px;margin:0 auto">
@@ -636,5 +670,6 @@ points.join("\n\n") + "\n\n" +
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
 </script>
+  <script src="js/nav.js"></script>
 </body>
 </html>

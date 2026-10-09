@@ -59,28 +59,29 @@
 
   <!-- Google Analytics Tracking -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-B0Z2G21W4F");</script>
+    <link rel="stylesheet" href="../css/modern.css">
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-B0Z2G21W4F");</script>
 
   <style>
     :root {
-      --bg: #0A0F1E;
-      --card: #111D38;
-      --card2: #162447;
-      --txt: #F8FAFC;
-      --txt2: #94A3B8;
-      --txt3: #64748B;
-      --bdr: rgba(255,255,255,0.08);
-      --bdr2: rgba(255,255,255,0.15);
-      --pr: #3B82F6;
+      --bg: var(--body-bg);
+      --card: var(--sf);
+      --card2: var(--sf2);
+      --txt: var(--txt);
+      --txt2: var(--txt2);
+      --txt3: var(--txt3);
+      --bdr: var(--bdr);
+      --bdr2: var(--bdr);
+      --pr: #2563EB;
       --pr-dk: #1D4ED8;
       --teal: #0D9488;
-      --gold: #F59E0B;
+      --gold: #D97706;
       --r: 14px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-      background: var(--bg);
+      background: var(--body-bg);
       color: var(--txt);
       line-height: 1.6;
       font-size: 15px;
@@ -118,11 +119,11 @@
       max-width: 1200px; margin: 20px auto 36px; padding: 0 20px;
     }
     .hero-card {
-      background: linear-gradient(135deg, #131E3A, #0C1428);
-      border: 1.5px solid var(--bdr2);
+      background: var(--sf);
+      border: 1.5px solid var(--bdr);
       border-radius: var(--r);
       padding: 32px 28px;
-      box-shadow: 0 12px 36px rgba(0,0,0,0.35);
+      box-shadow: var(--sh);
     }
     .hero-top { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
     .hero-icon { font-size: 36px; }
@@ -131,10 +132,10 @@
       background: rgba(59,130,246,0.15); color: #60A5FA; border: 1px solid rgba(59,130,246,0.3);
       text-transform: uppercase; letter-spacing: 0.05em;
     }
-    .hero-title { font-size: 28px; font-weight: 900; color: #fff; line-height: 1.25; margin-bottom: 12px; }
+    .hero-title { font-size: 28px; font-weight: 900; color: var(--txt); line-height: 1.25; margin-bottom: 12px; }
     .hero-desc { font-size: 15px; color: var(--txt2); max-width: 820px; line-height: 1.6; margin-bottom: 22px; }
     .hero-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
-    .meta-chip { font-size: 12px; font-weight: 700; background: rgba(255,255,255,0.06); padding: 4px 12px; border-radius: 20px; color: #E2E8F0; }
+    .meta-chip { font-size: 12px; font-weight: 700; background: var(--sf2); border: 1px solid var(--bdr); padding: 4px 12px; border-radius: 20px; color: var(--txt); }
     .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
     .btn-cta {
       padding: 12px 22px; border-radius: 10px; font-size: 14px; font-weight: 800; text-decoration: none;
@@ -142,41 +143,37 @@
     }
     .btn-cta:hover { transform: translateY(-2px); text-decoration: none; }
     .btn-pr { background: linear-gradient(135deg, var(--pr), var(--pr-dk)); color: #fff; }
-    .btn-sec { background: rgba(255,255,255,0.08); border: 1px solid var(--bdr2); color: #fff; }
+    .btn-sec { background: var(--sf2); border: 1px solid var(--bdr); color: var(--txt); }
 
     /* Content Layout */
     .main-wrap { max-width: 1200px; margin: 0 auto 60px; padding: 0 20px; display: grid; grid-template-columns: 1fr; gap: 40px; }
-    .sec-block {
-      background: var(--card); border: 1.5px solid var(--bdr); border-radius: var(--r); padding: 28px 24px;
-    }
-    .sec-hd { font-size: 20px; font-weight: 800; color: #fff; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+    .sec-block { background: var(--sf); border: 1.5px solid var(--bdr); border-radius: var(--r); padding: 28px 24px; box-shadow: var(--sh); }
+    .sec-hd { font-size: 20px; font-weight: 800; color: var(--txt); margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
     .sec-sub { font-size: 13.5px; color: var(--txt2); margin-bottom: 20px; }
 
     /* Tables */
     .tbl-wrap { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 10px; border: 1px solid var(--bdr); }
     table { width: 100%; border-collapse: collapse; text-align: left; font-size: 13.5px; }
-    th { background: rgba(255,255,255,0.05); padding: 12px 14px; font-weight: 700; color: #CBD5E1; border-bottom: 1px solid var(--bdr); white-space: nowrap; }
+    th { background: var(--sf2); padding: 12px 14px; font-weight: 700; color: var(--txt); border-bottom: 1px solid var(--bdr); white-space: nowrap; }
     td { padding: 12px 14px; border-bottom: 1px solid var(--bdr); color: var(--txt2); }
     tr:last-child td { border-bottom: none; }
-    tr:hover td { background: rgba(255,255,255,0.02); }
+    tr:hover td { background: var(--sf2); }
     .stage-tag { font-size: 11px; padding: 2px 7px; border-radius: 5px; background: rgba(59,130,246,0.12); color: #60A5FA; }
-    .diff-tag { font-size: 11.5px; color: #E2E8F0; }
+    .diff-tag { font-size: 11.5px; color: var(--txt); }
     .weight-tag { font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; }
     .w-crucial { background: rgba(239,68,68,0.15); color: #F87171; border: 1px solid rgba(239,68,68,0.3); }
     .w-high { background: rgba(245,158,11,0.15); color: #FBBF24; border: 1px solid rgba(245,158,11,0.3); }
     .tip-cell { font-size: 12.5px; color: #94A3B8; }
 
     /* PYQ Box */
-    .pyq-box {
-      background: var(--card2); border: 1px solid rgba(59,130,246,0.25); border-radius: 12px; padding: 20px; margin-top: 14px;
-    }
+    .pyq-box { background: var(--sf2); border: 1px solid var(--bdr); border-radius: 12px; padding: 20px; margin-top: 14px; }
     .pyq-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; flex-wrap: wrap; gap: 8px; }
     .pyq-exam { font-size: 11.5px; font-weight: 800; color: #F59E0B; background: rgba(245,158,11,0.12); padding: 3px 9px; border-radius: 5px; }
-    .pyq-q { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 14px; line-height: 1.5; }
+    .pyq-q { font-size: 15px; font-weight: 700; color: var(--txt); margin-bottom: 14px; line-height: 1.5; }
     .pyq-steps { margin-left: 20px; font-size: 13.5px; color: var(--txt2); margin-bottom: 14px; }
     .pyq-steps li { margin-bottom: 6px; }
     .pyq-tip {
-      background: rgba(16,185,129,0.08); border-left: 3px solid #10B981; padding: 10px 14px; font-size: 13px; color: #D1FAE5; border-radius: 0 8px 8px 0;
+      background: rgba(16,185,129,0.08); border-left: 3px solid #10B981; padding: 10px 14px; font-size: 13px; color: var(--txt); border-radius: 0 8px 8px 0;
     }
 
     /* Books Grid */
@@ -185,7 +182,7 @@
       background: var(--card2); border: 1px solid var(--bdr); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between;
     }
     .book-badge { font-size: 11px; font-weight: 800; color: #60A5FA; text-transform: uppercase; margin-bottom: 6px; }
-    .book-title { font-size: 14.5px; font-weight: 800; color: #fff; margin-bottom: 6px; line-height: 1.4; }
+    .book-title { font-size: 14.5px; font-weight: 800; color: var(--txt); margin-bottom: 6px; line-height: 1.4; }
     .book-meta { font-size: 12px; color: var(--txt3); margin-bottom: 8px; }
     .book-desc { font-size: 12.5px; color: var(--txt2); line-height: 1.5; margin-bottom: 14px; }
     .book-link { font-size: 12.5px; font-weight: 700; color: #38BDF8; text-decoration: none; margin-top: auto; }
@@ -193,7 +190,7 @@
     /* FAQs */
     .faq-list { display: flex; flex-direction: column; gap: 14px; margin-top: 16px; }
     .faq-item { background: var(--card2); border: 1px solid var(--bdr); border-radius: 10px; padding: 16px 18px; }
-    .faq-q { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+    .faq-q { font-size: 15px; font-weight: 700; color: var(--txt); margin-bottom: 6px; }
     .faq-a p { font-size: 13.5px; color: var(--txt2); line-height: 1.55; }
 
     /* Footer */
@@ -209,31 +206,45 @@
 </head>
 <body>
 
-  <!-- Header -->
+    <!-- ════ UNIFIED PREPSELF HEADER ════ -->
   <header class="hdr">
     <div class="hdr-inner">
-      <a class="logo-wrap" href="../">
-        <div class="logo-badge">📘</div>
-        <div class="logo-txt">
-          <h1>PrepSelf</h1>
-          <p>Free AI Exam Preparation</p>
-        </div>
-      </a>
-      <nav class="hdr-nav">
-        <a href="../about.html">About</a>
-        <a href="../user-guide.html">User Guide</a>
-        <a href="../study-modules.html" style="color:var(--pr)">All 27 Modules</a>
-        <a href="../quiz-simulator.html">Mock Lab</a>
+      <div class="hdr-left">
+        <a class="logo-wrap" href="../" title="PrepSelf — All India Exam Prep Engine">
+          <div class="logo-badge">⚡</div>
+          <div class="logo-txt">
+            <div class="logo-title-full"><span class="logo-brand">PrepSelf</span><span class="logo-domain">.in</span></div>
+            <p class="logo-tagline">Self-Study Platform &middot; 27 Master Suites</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="hdr-breadcrumbs" aria-label="Breadcrumb Trail">
+        <ol class="hdr-bc-list">
+          <li><a href="../" class="hdr-bc-link">🏠 Home</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li><a href="../study-modules.html" class="hdr-bc-link">Modules</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li class="hdr-bc-active" aria-current="page">Engineering Entrance Master (JEE Main & Advanced)</li>
+        </ol>
       </nav>
+
+      <div class="hdr-tools">
+        <button class="be-btn-tool" onclick="window.openSpotlight && window.openSpotlight()" title="Search all tools (Ctrl+K)" aria-label="Search tools">
+          <span class="be-tool-icon">&#x1F50D;</span>
+          <span class="be-tool-text">Search</span>
+        </button>
+        <button class="be-btn-tool be-btn-with-label" id="themeToggleBtn" onclick="window.toggleTheme ? window.toggleTheme() : (window.BE_NAV && window.BE_NAV.toggleTheme())" title="Toggle Theme" aria-label="Toggle Dark or Light Theme">
+          <span class="be-tool-icon" id="themeIcon">&#x1F319;</span>
+          <span class="be-tool-text" id="themeText">Theme</span>
+        </button>
+        <a href="../hi/" class="be-btn-tool be-hide-xs" style="background:rgba(244,114,182,0.12);color:#F472B6;border-color:rgba(244,114,182,0.3);text-decoration:none" title="हिंदी हब">
+          <span class="be-tool-icon">🌐</span>
+          <span class="be-tool-text">हिंदी</span>
+        </a>
+      </div>
     </div>
   </header>
-
-  <!-- Breadcrumbs -->
-  <div class="crumb-bar">
-    <a href="../">Home</a> &rsaquo;
-    <a href="../study-modules.html">Study Modules</a> &rsaquo;
-    <span>Engineering Entrance Master (JEE Main & Advanced)</span>
-  </div>
 
   <!-- Hero Section -->
   <section class="hero">
@@ -440,19 +451,21 @@
 
   </main>
 
-  <!-- Footer -->
-  <footer class="ft">
-    <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:12px;font-size:13px">
-      <a href="../" style="color:#94A3B8">Home</a>
-      <a href="../study-modules.html" style="color:#60A5FA;font-weight:700">27 Master Suites</a>
-      <a href="../sitemap.html" style="color:#A78BFA;font-weight:700">Site Directory</a>
-      <a href="../quiz-simulator.html" style="color:#34D399;font-weight:700">Mock Lab</a>
-      <a href="../all-exam-roadmaps.html" style="color:#FCD34D;font-weight:700">Roadmaps</a>
-      <a href="../user-guide.html" style="color:#94A3B8">User Guide</a>
+    <!-- Footer -->
+  <footer style="background:var(--d1);color:#fff;padding:28px 20px;text-align:center;font-size:12.5px">
+    <div style="max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;color:rgba(255,255,255,0.6)">
+      <div>&copy; 2026 PrepSelf &bull; Open-source under MIT License &bull; Free Educational Platform</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap">
+        <a href="../" style="color:rgba(255,255,255,0.8)">Home</a>
+        <a href="../study-modules.html" style="color:#60A5FA;font-weight:700">All 27 Modules</a>
+        <a href="../quiz-simulator.html" style="color:rgba(255,255,255,0.8)">Mock Lab</a>
+        <a href="../hi/" style="color:#F472B6;font-weight:700">हिंदी हब</a>
+        <a href="../sitemap.html" style="color:rgba(255,255,255,0.8)">Sitemap</a>
+      </div>
     </div>
-    <p>&copy; 2026 <a href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener">Raghavbegins</a>. PrepSelf Free Open Education Initiative.</p>
-    <p style="margin-top:6px">Not affiliated with any government testing authority. Designed for self-studying aspirants across India.</p>
   </footer>
+
+  <script src="../js/nav.js"></script>
 
 </body>
 </html>
