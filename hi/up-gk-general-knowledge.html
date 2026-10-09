@@ -87,49 +87,58 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-B0Z2G21W4F");</script>
 
+  <link rel="stylesheet" href="../css/modern.css">
   <style>
-    :root {
-      --bg: #0A0F1E;
-      --card: #111D38;
-      --card2: #162447;
-      --txt: #F8FAFC;
-      --txt2: #94A3B8;
-      --txt3: #64748B;
-      --bdr: rgba(255,255,255,0.08);
-      --orange: #EA580C;
-      --orange-light: #FB923C;
-      --r: 14px;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans Devanagari", sans-serif;
-      background: var(--bg); color: var(--txt); line-height: 1.7; font-size: 15.5px;
     }
-    a { color: #60A5FA; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .hdr { background: rgba(10, 15, 30, 0.94); border-bottom: 1px solid var(--bdr); padding: 14px 20px; }
-    .hdr-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
     .main-wrap { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
-    .sec-card { background: var(--card); border: 1.5px solid var(--bdr); border-radius: var(--r); padding: 26px; margin-bottom: 24px; }
-    .sec-hd { font-size: 21px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+    .sec-card { background: var(--sf); border: 1.5px solid var(--bdr); border-radius: var(--r); padding: 26px; margin-bottom: 24px; box-shadow: var(--sh); }
+    .sec-hd { font-size: 21px; font-weight: 800; color: var(--txt); margin-bottom: 14px; }
     .fact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 16px 0; }
-    .fact-item { background: var(--card2); border: 1px solid var(--bdr); border-radius: 10px; padding: 14px; }
-    .q-card { background: var(--card2); border: 1px solid var(--bdr); border-radius: 12px; padding: 18px; margin-bottom: 14px; }
-    .ft { border-top: 1px solid var(--bdr); padding: 32px 20px; text-align: center; font-size: 13px; color: var(--txt3); }
+    .fact-item { background: var(--sf2); border: 1px solid var(--bdr); border-radius: 10px; padding: 14px; }
+    .q-card { background: var(--sf2); border: 1px solid var(--bdr); border-radius: 12px; padding: 18px; margin-bottom: 14px; }
+    .q-title { font-size: 15px; font-weight: 700; color: var(--txt); margin-bottom: 8px; }
   </style>
 </head>
 <body>
 
-  <!-- Header -->
+  <!-- ════ UNIFIED PREPSELF HEADER ════ -->
   <header class="hdr">
     <div class="hdr-inner">
-      <a href="./" style="display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none">
-        <span style="font-size:24px">🇮🇳</span>
-        <div><strong style="color:#fff;font-size:16px">PrepSelf हिंदी</strong></div>
-      </a>
-      <div style="display:flex;gap:12px;align-items:center">
-        <a href="../" style="font-size:13px;color:#CBD5E1">English Site</a>
-        <a href="index.html" style="font-size:13px;color:#FB923C;font-weight:700">हिंदी हब &rarr;</a>
+      <div class="hdr-left">
+        <a class="logo-wrap" href="./" title="PrepSelf — All India Exam Prep Engine">
+          <div class="logo-badge">⚡</div>
+          <div class="logo-txt">
+            <div class="logo-title-full"><span class="logo-brand">PrepSelf</span><span class="logo-domain"> हिंदी</span></div>
+            <p class="logo-tagline">उत्तर प्रदेश एवं राज्य प्रतियोगी परीक्षा हब</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="hdr-breadcrumbs" aria-label="Breadcrumb Trail">
+        <ol class="hdr-bc-list">
+          <li><a href="../" class="hdr-bc-link">🏠 Home</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li><a href="index.html" class="hdr-bc-link">हिंदी</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li class="hdr-bc-active" aria-current="page">UP GK स्पेशल</li>
+        </ol>
+      </nav>
+
+      <div class="hdr-tools">
+        <button class="be-btn-tool" onclick="window.openSpotlight && window.openSpotlight()" title="Search all tools (Ctrl+K)" aria-label="Search tools">
+          <span class="be-tool-icon">&#x1F50D;</span>
+          <span class="be-tool-text">Search</span>
+        </button>
+        <button class="be-btn-tool be-btn-with-label" id="themeToggleBtn" onclick="window.toggleTheme ? window.toggleTheme() : (window.BE_NAV && window.BE_NAV.toggleTheme())" title="Toggle Theme" aria-label="Toggle Dark or Light Theme">
+          <span class="be-tool-icon" id="themeIcon">&#x1F319;</span>
+          <span class="be-tool-text" id="themeText">Theme</span>
+        </button>
+        <a href="../" class="be-btn-tool be-hide-xs" style="text-decoration:none" title="English Site">
+          <span class="be-tool-icon">🇬🇧</span>
+          <span class="be-tool-text">English</span>
+        </a>
       </div>
     </div>
   </header>
@@ -138,13 +147,13 @@
     
     <!-- Hero Banner -->
     <div style="text-align:center;margin-bottom:32px">
-      <div style="display:inline-block;font-size:11.5px;font-weight:800;color:#F97316;background:rgba(249,115,22,0.12);padding:4px 14px;border-radius:20px;border:1px solid rgba(249,115,22,0.3);margin-bottom:10px">
+      <div style="display:inline-block;font-size:11.5px;font-weight:800;color:#EA580C;background:rgba(234,88,12,0.1);padding:4px 14px;border-radius:20px;border:1px solid rgba(234,88,12,0.25);margin-bottom:10px">
         ⚡ उत्तर प्रदेश विशेष अध्ययन गाइड
       </div>
-      <h1 style="font-size:clamp(24px, 4vw, 36px);font-weight:900;color:#fff;line-height:1.25;margin-bottom:12px">
+      <h1 style="font-size:clamp(24px, 4vw, 36px);font-weight:900;color:var(--txt);line-height:1.25;margin-bottom:12px">
         उत्तर प्रदेश सामान्य ज्ञान एवं करंट अफेयर्स 2026
       </h1>
-      <p style="font-size:15.5px;color:var(--txt2);max-width:760px;margin:0 auto">
+      <p style="font-size:15.5px;color:var(--txt2);max-width:760px;margin:0 auto;line-height:1.6">
         यूपी पुलिस कांस्टेबल/SI, UPSSSC PET, सुपर TET और UPPSC RO/ARO के लिए उत्तर प्रदेश के भूगोल, इतिहास, संस्कृति, प्रमुख योजनाओं एवं परीक्षा में बार-बार पूछे जाने वाले प्रश्नों का संकलन।
       </p>
     </div>
@@ -154,20 +163,20 @@
       <h2 class="sec-hd">🏛️ उत्तर प्रदेश एक नजर में (महत्वपूर्ण सांख्यिकी)</h2>
       <div class="fact-grid">
         <div class="fact-item">
-          <div style="font-size:12px;color:var(--txt3);font-weight:700">राजधानी</div>
-          <div style="font-size:16px;font-weight:800;color:#fff">लखनऊ (गोमती नदी तट)</div>
+          <div style="font-size:12px;color:var(--txt2);font-weight:700">राजधानी</div>
+          <div style="font-size:16px;font-weight:800;color:var(--txt)">लखनऊ (गोमती नदी तट)</div>
         </div>
         <div class="fact-item">
-          <div style="font-size:12px;color:var(--txt3);font-weight:700">जिले एवं मंडल</div>
-          <div style="font-size:16px;font-weight:800;color:#38BDF8">75 जिले &bull; 18 मंडल</div>
+          <div style="font-size:12px;color:var(--txt2);font-weight:700">जिले एवं मंडल</div>
+          <div style="font-size:16px;font-weight:800;color:var(--pr)">75 जिले &bull; 18 मंडल</div>
         </div>
         <div class="fact-item">
-          <div style="font-size:12px;color:var(--txt3);font-weight:700">राजकीय भाषा</div>
-          <div style="font-size:16px;font-weight:800;color:#34D399">हिंदी (प्रथम) &bull; उर्दू (1989 से)</div>
+          <div style="font-size:12px;color:var(--txt2);font-weight:700">राजकीय भाषा</div>
+          <div style="font-size:16px;font-weight:800;color:#10B981">हिंदी (प्रथम) &bull; उर्दू (1989 से)</div>
         </div>
         <div class="fact-item">
-          <div style="font-size:12px;color:var(--txt3);font-weight:700">सीमावर्ती राज्य</div>
-          <div style="font-size:16px;font-weight:800;color:#FBBF24">8 राज्य + 1 UT + नेपाल</div>
+          <div style="font-size:12px;color:var(--txt2);font-weight:700">सीमावर्ती राज्य</div>
+          <div style="font-size:16px;font-weight:800;color:#F59E0B">8 राज्य + 1 UT + नेपाल</div>
         </div>
       </div>
     </section>
@@ -177,52 +186,52 @@
       <h2 class="sec-hd">🎯 परीक्षा में बार-बार पूछे जाने वाले महत्वपूर्ण प्रश्न</h2>
 
       <div class="q-card">
-        <div style="font-size:12px;font-weight:800;color:#F97316;margin-bottom:4px">प्रश्न 1 (भूगोल व नदियां)</div>
-        <div style="font-size:15px;font-weight:700;color:#fff;margin-bottom:8px">उत्तर प्रदेश में गंगा नदी किस जिले से प्रवेश करती है और किस जिले से बिहार में निकलती है?</div>
-        <div style="font-size:13.5px;color:#D1FAE5;background:rgba(16,185,129,0.1);padding:10px 14px;border-radius:8px;border-left:3px solid #10B981">
-          <strong>सही उत्तर:</strong> गंगा नदी <strong>बिजनौर</strong> जिले से उत्तर प्रदेश में प्रवेश करती है तथा <strong>बलिया</strong> जिले से होकर बिहार में प्रवेश करती है। यह प्रदेश के 28 जिलों से होकर बहती है।
+        <div style="font-size:12px;font-weight:800;color:#EA580C;margin-bottom:4px">प्रश्न 1 (भूगोल व नदियां)</div>
+        <div class="q-title">उत्तर प्रदेश में गंगा नदी किस जिले से प्रवेश करती है और किस जिले से बिहार में निकलती है?</div>
+        <div style="font-size:13.5px;color:var(--txt);background:rgba(16,185,129,0.1);padding:12px 14px;border-radius:8px;border-left:3px solid #10B981;line-height:1.6">
+          <strong style="color:#10B981">सही उत्तर:</strong> गंगा नदी <strong>बिजनौर</strong> जिले से उत्तर प्रदेश में प्रवेश करती है तथा <strong>बलिया</strong> जिले से होकर बिहार में प्रवेश करती है। यह प्रदेश के 28 जिलों से होकर बहती है।
         </div>
       </div>
 
       <div class="q-card">
-        <div style="font-size:12px;font-weight:800;color:#F97316;margin-bottom:4px">प्रश्न 2 (संस्कृति व मेले)</div>
-        <div style="font-size:15px;font-weight:700;color:#fff;margin-bottom:8px">प्रसिद्ध नौचंदी मेला उत्तर प्रदेश के किस जिले में आयोजित होता है?</div>
-        <div style="font-size:13.5px;color:#D1FAE5;background:rgba(16,185,129,0.1);padding:10px 14px;border-radius:8px;border-left:3px solid #10B981">
-          <strong>सही उत्तर:</strong> <strong>मेरठ</strong> जिले में। यह हिंदू-मुस्लिम एकता का प्रतीक मेला माना जाता है। (अन्य प्रमुख मेले: बटेश्वर मेला - आगरा, शाकंभरी देवी मेला - सहारनपुर)।
+        <div style="font-size:12px;font-weight:800;color:#EA580C;margin-bottom:4px">प्रश्न 2 (संस्कृति व मेले)</div>
+        <div class="q-title">प्रसिद्ध नौचंदी मेला उत्तर प्रदेश के किस जिले में आयोजित होता है?</div>
+        <div style="font-size:13.5px;color:var(--txt);background:rgba(16,185,129,0.1);padding:12px 14px;border-radius:8px;border-left:3px solid #10B981;line-height:1.6">
+          <strong style="color:#10B981">सही उत्तर:</strong> <strong>मेरठ</strong> जिले में। यह हिंदू-मुस्लिम एकता का प्रतीक मेला माना जाता है। (अन्य प्रमुख मेले: बटेश्वर मेला - आगरा, शाकंभरी देवी मेला - सहारनपुर)।
         </div>
       </div>
 
       <div class="q-card">
-        <div style="font-size:12px;font-weight:800;color:#F97316;margin-bottom:4px">प्रश्न 3 (उद्योग व ODOP)</div>
-        <div style="font-size:15px;font-weight:700;color:#fff;margin-bottom:8px">'एक जिला एक उत्पाद' (ODOP) योजना के तहत भदोही और मुरादाबाद किसके लिए प्रसिद्ध हैं?</div>
-        <div style="font-size:13.5px;color:#D1FAE5;background:rgba(16,185,129,0.1);padding:10px 14px;border-radius:8px;border-left:3px solid #10B981">
-          <strong>सही उत्तर:</strong> भदोही कालीन (Carpet) उद्योग के लिए तथा मुरादाबाद पीतल के बर्तनों (Brassware) व हस्तशिल्प के लिए प्रसिद्ध है।
+        <div style="font-size:12px;font-weight:800;color:#EA580C;margin-bottom:4px">प्रश्न 3 (उद्योग व ODOP)</div>
+        <div class="q-title">'एक जिला एक उत्पाद' (ODOP) योजना के तहत भदोही और मुरादाबाद किसके लिए प्रसिद्ध हैं?</div>
+        <div style="font-size:13.5px;color:var(--txt);background:rgba(16,185,129,0.1);padding:12px 14px;border-radius:8px;border-left:3px solid #10B981;line-height:1.6">
+          <strong style="color:#10B981">सही उत्तर:</strong> भदोही कालीन (Carpet) उद्योग के लिए तथा मुरादाबाद पीतल के बर्तनों (Brassware) व हस्तशिल्प के लिए प्रसिद्ध है।
         </div>
       </div>
 
       <div style="text-align:center;margin-top:20px">
-        <a href="up-police-hindi-practice.html" style="display:inline-block;background:#F97316;color:#fff;padding:12px 24px;border-radius:10px;font-weight:800;font-size:14px;text-decoration:none">
+        <a href="up-police-hindi-practice.html" style="display:inline-block;background:var(--pr);color:#fff;padding:12px 24px;border-radius:10px;font-weight:800;font-size:14px;text-decoration:none">
           यूपी पुलिस 37 प्रश्नों का सामान्य हिंदी टेस्ट दें &rarr;
         </a>
       </div>
     </section>
 
     <!-- Author & Trust -->
-    <div style="background:var(--card);border:1px solid var(--bdr);border-radius:var(--r);padding:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;margin-bottom:24px">
+    <div style="background:var(--sf);border:1.5px solid var(--bdr);border-radius:var(--r);padding:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;margin-bottom:24px;box-shadow:var(--sh)">
       <div style="display:flex;align-items:center;gap:12px">
-        <div style="width:44px;height:44px;border-radius:50%;background:#F97316;display:flex;align-items:center;justify-content:center;font-size:22px;color:#fff">👨‍💻</div>
+        <div style="width:44px;height:44px;border-radius:50%;background:var(--pr);display:flex;align-items:center;justify-content:center;font-size:22px;color:#fff">👨‍💻</div>
         <div>
-          <div style="font-size:14.5px;font-weight:800;color:#fff">राघवेंद्र (Raghavbegins) द्वारा संकलित</div>
-          <div style="font-size:12px;color:var(--txt3)">PrepSelf ओपन एजुकेशन &bull; अंतिम अपडेट: अक्टूबर 2026</div>
+          <div style="font-size:14.5px;font-weight:800;color:var(--txt)">राघवेंद्र (Raghavbegins) द्वारा संकलित</div>
+          <div style="font-size:12px;color:var(--txt2)">PrepSelf ओपन एजुकेशन &bull; अंतिम अपडेट: अक्टूबर 2026</div>
         </div>
       </div>
-      <a href="upprpb.html" style="font-size:13px;font-weight:700;color:#FB923C;text-decoration:none">
+      <a href="upprpb.html" style="font-size:13px;font-weight:700;color:var(--pr);text-decoration:none">
         यूपी पुलिस संपूर्ण पाठ्यक्रम &rarr;
       </a>
     </div>
 
     <!-- Legal Disclaimer -->
-    <div style="background:rgba(239,68,68,0.06);border:1px solid rgba(239,68,68,0.2);border-radius:10px;padding:12px 16px;font-size:12px;color:#FCA5A5;line-height:1.5;margin-bottom:30px">
+    <div style="background:rgba(239,68,68,0.06);border:1px solid rgba(239,68,68,0.2);border-radius:10px;padding:12px 16px;font-size:12px;color:#EF4444;line-height:1.5;margin-bottom:30px">
       <strong>अस्वीकरण (Disclaimer):</strong> PrepSelf एक स्वतंत्र एवं निशुल्क शैक्षणिक पोर्टल है। यह उत्तर प्रदेश पुलिस भर्ती एवं प्रोन्नति बोर्ड (UPPRPB), UPSSSC, UPPSC या किसी भी अन्य सरकारी आयोग से संबद्ध नहीं है।
     </div>
 
@@ -230,33 +239,36 @@
     <section class="sec-card">
       <h2 class="sec-hd">❓ अक्सर पूछे जाने वाले प्रश्न (FAQs)</h2>
       <div style="display:flex;flex-direction:column;gap:12px">
-        <div style="background:var(--card2);padding:14px 18px;border-radius:10px">
-          <strong style="color:#fff;font-size:14.5px;display:block;margin-bottom:4px">यूपी पुलिस कांस्टेबल परीक्षा में यूपी स्पेशल जीके से कितने प्रश्न आते हैं?</strong>
-          <span style="color:var(--txt2);font-size:13px;line-height:1.5;display:block">यूपी पुलिस कांस्टेबल की 38 प्रश्नों की सामान्य ज्ञान शाखा में से 8 से 12 प्रश्न सीधे उत्तर प्रदेश के भूगोल, इतिहास, संस्कृति, पुलिस व्यवस्था और सरकारी योजनाओं से पूछे जाते हैं।</span>
+        <div style="background:var(--sf2);padding:14px 18px;border-radius:10px;border:1px solid var(--bdr)">
+          <strong style="color:var(--txt);font-size:14.5px;display:block;margin-bottom:4px">यूपी पुलिस कांस्टेबल परीक्षा में यूपी स्पेशल जीके से कितने प्रश्न आते हैं?</strong>
+          <span style="color:var(--txt2);font-size:13px;line-height:1.55;display:block">यूपी पुलिस कांस्टेबल की 38 प्रश्नों की सामान्य ज्ञान शाखा में से 8 से 12 प्रश्न सीधे उत्तर प्रदेश के भूगोल, इतिहास, संस्कृति, पुलिस व्यवस्था और सरकारी योजनाओं से पूछे जाते हैं।</span>
         </div>
-        <div style="background:var(--card2);padding:14px 18px;border-radius:10px">
-          <strong style="color:#fff;font-size:14.5px;display:block;margin-bottom:4px">उत्तर प्रदेश का राजकीय पक्षी, पशु एवं वृक्ष क्या हैं?</strong>
-          <span style="color:var(--txt2);font-size:13px;line-height:1.5;display:block">उत्तर प्रदेश का राजकीय पशु बारहसिंगा, राजकीय पक्षी सारस (क्रौंच), राजकीय वृक्ष अशोक और राजकीय पुष्प पलाश (ढाक) है।</span>
+        <div style="background:var(--sf2);padding:14px 18px;border-radius:10px;border:1px solid var(--bdr)">
+          <strong style="color:var(--txt);font-size:14.5px;display:block;margin-bottom:4px">उत्तर प्रदेश का राजकीय पक्षी, पशु एवं वृक्ष क्या हैं?</strong>
+          <span style="color:var(--txt2);font-size:13px;line-height:1.55;display:block">उत्तर प्रदेश का राजकीय पशु बारहसिंगा, राजकीय पक्षी सारस (क्रौंच), राजकीय वृक्ष अशोक और राजकीय पुष्प पलाश (ढाक) है।</span>
         </div>
-        <div style="background:var(--card2);padding:14px 18px;border-radius:10px">
-          <strong style="color:#fff;font-size:14.5px;display:block;margin-bottom:4px">उत्तर प्रदेश की सबसे लंबी नहर प्रणाली कौन सी है?</strong>
-          <span style="color:var(--txt2);font-size:13px;line-height:1.5;display:block">शारदा नहर उत्तर प्रदेश की सबसे बड़ी नहर प्रणाली है, जो पीलीभीत जिले के वनबसा से निकलती है।</span>
+        <div style="background:var(--sf2);padding:14px 18px;border-radius:10px;border:1px solid var(--bdr)">
+          <strong style="color:var(--txt);font-size:14.5px;display:block;margin-bottom:4px">उत्तर प्रदेश की सबसे लंबी नहर प्रणाली कौन सी है?</strong>
+          <span style="color:var(--txt2);font-size:13px;line-height:1.55;display:block">शारदा नहर उत्तर प्रदेश की सबसे बड़ी नहर प्रणाली है, जो पीलीभीत जिले के वनबसा से निकलती है।</span>
         </div>
       </div>
     </section>
 
   </main>
 
-  <footer class="ft">
-    <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:12px;font-size:13px">
-      <a href="../" style="color:#94A3B8">Home (English)</a>
-      <a href="index.html" style="color:#FB923C;font-weight:700">हिंदी हब</a>
-      <a href="upprpb.html" style="color:#94A3B8">यूपी पुलिस</a>
-      <a href="upsssc-pet.html" style="color:#94A3B8">UPSSSC PET</a>
-      <a href="up-police-hindi-practice.html" style="color:#94A3B8">हिंदी टेस्ट</a>
+  <footer style="background:var(--d1);color:#fff;padding:28px 20px;text-align:center;font-size:12.5px">
+    <div style="max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;color:rgba(255,255,255,0.6)">
+      <div>&copy; 2026 PrepSelf &bull; वेब इंजन: MIT License &bull; अध्ययन सामग्री: CC BY-NC 4.0</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap">
+        <a href="../" style="color:rgba(255,255,255,0.8)">Home (English)</a>
+        <a href="index.html" style="color:#F472B6;font-weight:700">हिंदी हब</a>
+        <a href="upprpb.html" style="color:rgba(255,255,255,0.8)">यूपी पुलिस</a>
+        <a href="upsssc-pet.html" style="color:rgba(255,255,255,0.8)">UPSSSC PET</a>
+        <a href="up-police-hindi-practice.html" style="color:rgba(255,255,255,0.8)">हिंदी टेस्ट</a>
+      </div>
     </div>
-    <p>&copy; 2026 PrepSelf &bull; वेब इंजन: MIT License &bull; अध्ययन सामग्री: CC BY-NC 4.0</p>
   </footer>
 
+  <script src="../js/nav.js"></script>
 </body>
 </html>

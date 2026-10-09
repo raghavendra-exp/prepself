@@ -25,55 +25,148 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-B0Z2G21W4F");</script>
 
+  <link rel="stylesheet" href="../css/modern.css">
   <style>
-    :root {
-      --bg: #0A0F1E;
-      --card: #111D38;
-      --txt: #F8FAFC;
-      --txt2: #94A3B8;
-      --bdr: rgba(255,255,255,0.08);
-      --orange: #EA580C;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans Devanagari", sans-serif;
-      background: var(--bg); color: var(--txt); line-height: 1.7; font-size: 15.5px;
     }
-    a { color: #60A5FA; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .hdr { background: rgba(10, 15, 30, 0.94); border-bottom: 1px solid var(--bdr); padding: 14px 20px; }
-    .hdr-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
-    .logo-wrap { display: flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; }
-    .hero { max-width: 1200px; margin: 30px auto; padding: 0 20px; text-align: center; }
-    .hero h1 { font-size: 32px; font-weight: 900; margin-bottom: 12px; color: #fff; }
-    .hero p { font-size: 16px; color: var(--txt2); max-width: 720px; margin: 0 auto 30px; }
-    .grid { max-width: 1200px; margin: 0 auto 60px; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
-    .card { background: var(--card); border: 1.5px solid var(--bdr); border-radius: 14px; padding: 24px; display: flex; flex-direction: column; justify-content: space-between; }
-    .card-tag { font-size: 11px; font-weight: 800; color: #F97316; text-transform: uppercase; margin-bottom: 8px; }
-    .card-title { font-size: 19px; font-weight: 800; color: #fff; margin-bottom: 8px; }
-    .card-desc { font-size: 13.5px; color: var(--txt2); margin-bottom: 16px; line-height: 1.55; }
-    .card-link { font-size: 14px; font-weight: 800; color: #FB923C; }
-    .ft { border-top: 1px solid var(--bdr); padding: 30px 20px; text-align: center; font-size: 13px; color: #64748B; }
+    .hindi-hero {
+      max-width: 1100px;
+      margin: 20px auto 28px;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .hindi-hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(249,115,22,0.12);
+      color: #EA580C;
+      padding: 4px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 800;
+      border: 1px solid rgba(249,115,22,0.3);
+      margin-bottom: 12px;
+    }
+    .hindi-hero h1 {
+      font-size: clamp(24px, 4vw, 36px);
+      font-weight: 900;
+      color: var(--txt);
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+    .hindi-hero p {
+      font-size: 15.5px;
+      color: var(--txt2);
+      max-width: 740px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .hindi-grid {
+      max-width: 1200px;
+      margin: 0 auto 50px;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .hindi-card {
+      background: var(--sf);
+      border: 1.5px solid var(--bdr);
+      border-radius: var(--r);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: var(--sh);
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+    .hindi-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--pr);
+    }
+    .card-tag {
+      font-size: 11px;
+      font-weight: 800;
+      color: #EA580C;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 8px;
+    }
+    .card-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--txt);
+      margin-bottom: 8px;
+    }
+    .card-desc {
+      font-size: 13.5px;
+      color: var(--txt2);
+      margin-bottom: 16px;
+      line-height: 1.55;
+    }
+    .card-link {
+      font-size: 13.5px;
+      font-weight: 800;
+      color: var(--pr);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
   </style>
 </head>
 <body>
+
+  <!-- ════ UNIFIED PREPSELF HEADER ════ -->
   <header class="hdr">
     <div class="hdr-inner">
-      <a class="logo-wrap" href="../">
-        <span style="font-size:24px">🇮🇳</span>
-        <div><strong style="color:#fff;font-size:16px">PrepSelf हिंदी</strong></div>
-      </a>
-      <div><a href="../" style="font-size:13px;color:#fff;background:rgba(255,255,255,0.08);padding:6px 14px;border-radius:8px">English Site &rarr;</a></div>
+      <div class="hdr-left">
+        <a class="logo-wrap" href="./" title="PrepSelf — All India Exam Prep Engine">
+          <div class="logo-badge">⚡</div>
+          <div class="logo-txt">
+            <div class="logo-title-full"><span class="logo-brand">PrepSelf</span><span class="logo-domain"> हिंदी</span></div>
+            <p class="logo-tagline">उत्तर प्रदेश एवं राज्य प्रतियोगी परीक्षा हब</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="hdr-breadcrumbs" aria-label="Breadcrumb Trail">
+        <ol class="hdr-bc-list">
+          <li><a href="../" class="hdr-bc-link">🏠 Home</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li class="hdr-bc-active" aria-current="page">हिंदी हब</li>
+        </ol>
+      </nav>
+
+      <div class="hdr-tools">
+        <button class="be-btn-tool" onclick="window.openSpotlight && window.openSpotlight()" title="Search all tools (Ctrl+K)" aria-label="Search tools">
+          <span class="be-tool-icon">&#x1F50D;</span>
+          <span class="be-tool-text">Search</span>
+        </button>
+        <button class="be-btn-tool be-btn-with-label" id="themeToggleBtn" onclick="window.toggleTheme ? window.toggleTheme() : (window.BE_NAV && window.BE_NAV.toggleTheme())" title="Toggle Theme" aria-label="Toggle Dark or Light Theme">
+          <span class="be-tool-icon" id="themeIcon">&#x1F319;</span>
+          <span class="be-tool-text" id="themeText">Theme</span>
+        </button>
+        <a href="../" class="be-btn-tool be-hide-xs" style="text-decoration:none" title="English Site">
+          <span class="be-tool-icon">🇬🇧</span>
+          <span class="be-tool-text">English</span>
+        </a>
+      </div>
     </div>
   </header>
 
-  <section class="hero">
-    <h1>🇮🇳 सरकारी परीक्षा हिंदी अध्ययन केंद्र</h1>
+  <section class="hindi-hero">
+    <div class="hindi-hero-badge">
+      🇮🇳 100% निशुल्क हिंदी अध्ययन केंद्र &bull; 80+ परीक्षाएं
+    </div>
+    <h1>सरकारी परीक्षा हिंदी अध्ययन केंद्र</h1>
     <p>उत्तर प्रदेश एवं राष्ट्रीय स्तर की सभी प्रमुख प्रतियोगी परीक्षाओं के लिए निशुल्क पाठ्यक्रम, परीक्षा पैटर्न, विषयवार अंक विभाजन एवं अध्ययन सामग्री।</p>
   </section>
 
-  <main class="grid">
-    <div class="card">
+  <main class="hindi-grid">
+    <div class="hindi-card">
       <div>
         <div class="card-tag">UP POLICE 2026</div>
         <h2 class="card-title">यूपी पुलिस कांस्टेबल एवं SI भर्ती</h2>
@@ -82,7 +175,7 @@
       <a href="upprpb.html" class="card-link">संपूर्ण पाठ्यक्रम देखें &rarr;</a>
     </div>
 
-    <div class="card">
+    <div class="hindi-card">
       <div>
         <div class="card-tag">UPSSSC PET 2026</div>
         <h2 class="card-title">यूपीएसएसएससी पीईटी (Group C)</h2>
@@ -91,7 +184,7 @@
       <a href="upsssc-pet.html" class="card-link">संपूर्ण पाठ्यक्रम देखें &rarr;</a>
     </div>
 
-    <div class="card">
+    <div class="hindi-card">
       <div>
         <div class="card-tag">UP TEACHER / SUPER TET</div>
         <h2 class="card-title">यूपी सुपर टीईटी (प्राथमिक शिक्षक)</h2>
@@ -100,7 +193,7 @@
       <a href="up-teacher.html" class="card-link">संपूर्ण पाठ्यक्रम देखें &rarr;</a>
     </div>
 
-    <div class="card">
+    <div class="hindi-card">
       <div>
         <div class="card-tag">UPPSC RO / ARO</div>
         <h2 class="card-title">यूपीपीएससी समीक्षा अधिकारी (RO/ARO)</h2>
@@ -109,52 +202,56 @@
       <a href="uppsc-ro-aro.html" class="card-link">संपूर्ण पाठ्यक्रम देखें &rarr;</a>
     </div>
 
-    <div class="card" style="border-color:rgba(251,146,60,0.35);background:linear-gradient(145deg,#111D38,#162548)">
+    <div class="hindi-card">
       <div>
-        <div class="card-tag" style="color:#34D399">🎯 विशेष अभ्यास सेट</div>
+        <div class="card-tag" style="color:#10B981">🎯 विशेष अभ्यास सेट</div>
         <h2 class="card-title">यूपी पुलिस सामान्य हिंदी (37 प्रश्न)</h2>
         <p class="card-desc">रस, छंद, अलंकार, समास, मुहावरे एवं संधि के नियम तथा 10 बहुविकल्पीय प्रश्नों का तुरंत स्कोर देने वाला टेस्ट।</p>
       </div>
-      <a href="up-police-hindi-practice.html" class="card-link" style="color:#34D399">हिंदी टेस्ट शुरू करें &rarr;</a>
+      <a href="up-police-hindi-practice.html" class="card-link" style="color:#10B981">हिंदी टेस्ट शुरू करें &rarr;</a>
     </div>
 
-    <div class="card" style="border-color:rgba(56,189,248,0.35);background:linear-gradient(145deg,#111D38,#13284C)">
+    <div class="hindi-card">
       <div>
-        <div class="card-tag" style="color:#38BDF8">📊 20 अंक मास्टर क्लास</div>
+        <div class="card-tag" style="color:#3B82F6">📊 20 अंक मास्टर क्लास</div>
         <h2 class="card-title">UPSSSC PET ग्राफ एवं तालिका</h2>
         <p class="card-desc">20 अंकों के 4 डीआई सेट्स (बार ग्राफ, पाई चार्ट, तालिका व्याख्या) के 3 स्वर्णिम सूत्र एवं 5 प्रश्नों की केस स्टडी।</p>
       </div>
-      <a href="upsssc-pet-di-practice.html" class="card-link" style="color:#38BDF8">डीआई अभ्यास करें &rarr;</a>
+      <a href="upsssc-pet-di-practice.html" class="card-link" style="color:#3B82F6">डीआई अभ्यास करें &rarr;</a>
     </div>
 
-    <div class="card" style="border-color:rgba(249,115,22,0.35);background:linear-gradient(145deg,#111D38,#1E1B4B)">
+    <div class="hindi-card">
       <div>
-        <div class="card-tag" style="color:#FB923C">🏛️ यूपी स्पेशल जीके</div>
+        <div class="card-tag" style="color:#F59E0B">🏛️ यूपी स्पेशल जीके</div>
         <h2 class="card-title">उत्तर प्रदेश सामान्य ज्ञान 2026</h2>
         <p class="card-desc">75 जिलों का भूगोल, प्रमुख नदियां, ऐतिहासिक स्थल, मेले व ODOP योजना के महत्वपूर्ण सॉल्व्ड प्रश्न।</p>
       </div>
-      <a href="up-gk-general-knowledge.html" class="card-link" style="color:#FB923C">यूपी जीके पढ़ें &rarr;</a>
+      <a href="up-gk-general-knowledge.html" class="card-link" style="color:#F59E0B">यूपी जीके पढ़ें &rarr;</a>
     </div>
 
-    <div class="card" style="border-color:rgba(16,185,129,0.35);background:linear-gradient(145deg,#111D38,#064E3B)">
+    <div class="hindi-card">
       <div>
-        <div class="card-tag" style="color:#34D399">📖 35+ अंक स्कोरर</div>
+        <div class="card-tag" style="color:#10B981">📖 35+ अंक स्कोरर</div>
         <h2 class="card-title">सामान्य हिंदी व्याकरण गाइड</h2>
         <p class="card-desc">संधि, समास, रस, छंद, अलंकार के त्वरित नियम एवं विगत वर्षों के मॉडल प्रश्नों का अभ्यास सेट।</p>
       </div>
-      <a href="samanya-hindi-grammar.html" class="card-link" style="color:#34D399">व्याकरण नियम देखें &rarr;</a>
+      <a href="samanya-hindi-grammar.html" class="card-link" style="color:#10B981">व्याकरण नियम देखें &rarr;</a>
     </div>
   </main>
 
-  <footer class="ft">
-    <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:12px;font-size:13px">
-      <a href="../" style="color:#94A3B8">Home (English)</a>
-      <a href="index.html" style="color:#FB923C;font-weight:700">हिंदी हब</a>
-      <a href="../study-modules.html" style="color:#60A5FA;font-weight:700">27 Master Suites</a>
-      <a href="../sitemap.html" style="color:#A78BFA;font-weight:700">Site Directory</a>
-      <a href="../quiz-simulator.html" style="color:#34D399;font-weight:700">Mock Lab</a>
+  <footer style="background:var(--d1);color:#fff;padding:28px 20px;text-align:center;font-size:12.5px">
+    <div style="max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;color:rgba(255,255,255,0.6)">
+      <div>&copy; 2026 PrepSelf &bull; Web Engine: MIT License &bull; Study Material: CC BY-NC 4.0</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap">
+        <a href="../" style="color:rgba(255,255,255,0.8)">Home (English)</a>
+        <a href="index.html" style="color:#F472B6;font-weight:700">हिंदी हब</a>
+        <a href="../study-modules.html" style="color:rgba(255,255,255,0.8)">27 Master Suites</a>
+        <a href="../quiz-simulator.html" style="color:rgba(255,255,255,0.8)">Mock Lab</a>
+        <a href="../topics.html" style="color:rgba(255,255,255,0.8)">Topics</a>
+      </div>
     </div>
-    <p>&copy; 2026 <a href="https://raghavfolio-8op53xas.manus.space/" target="_blank" rel="noopener">Raghavbegins</a>. PrepSelf निशुल्क शिक्षा पहल।</p>
   </footer>
+
+  <script src="../js/nav.js"></script>
 </body>
 </html>

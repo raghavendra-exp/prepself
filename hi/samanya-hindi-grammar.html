@@ -79,45 +79,55 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0Z2G21W4F"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-B0Z2G21W4F");</script>
 
+  <link rel="stylesheet" href="../css/modern.css">
   <style>
-    :root {
-      --bg: #0A0F1E;
-      --card: #111D38;
-      --card2: #162447;
-      --txt: #F8FAFC;
-      --txt2: #94A3B8;
-      --txt3: #64748B;
-      --bdr: rgba(255,255,255,0.08);
-      --r: 14px;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans Devanagari", sans-serif;
-      background: var(--bg); color: var(--txt); line-height: 1.7; font-size: 15.5px;
     }
-    a { color: #60A5FA; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .hdr { background: rgba(10, 15, 30, 0.94); border-bottom: 1px solid var(--bdr); padding: 14px 20px; }
-    .hdr-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
     .main-wrap { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
-    .sec-card { background: var(--card); border: 1.5px solid var(--bdr); border-radius: var(--r); padding: 26px; margin-bottom: 24px; }
-    .sec-hd { font-size: 21px; font-weight: 800; color: #fff; margin-bottom: 12px; }
-    .rule-box { background: var(--card2); border: 1px solid var(--bdr); border-radius: 10px; padding: 16px; margin-bottom: 14px; }
-    .ft { border-top: 1px solid var(--bdr); padding: 32px 20px; text-align: center; font-size: 13px; color: var(--txt3); }
+    .sec-card { background: var(--sf); border: 1.5px solid var(--bdr); border-radius: var(--r); padding: 26px; margin-bottom: 24px; box-shadow: var(--sh); }
+    .sec-hd { font-size: 21px; font-weight: 800; color: var(--txt); margin-bottom: 14px; }
+    .rule-box { background: var(--sf2); border: 1px solid var(--bdr); border-radius: 10px; padding: 16px; margin-bottom: 14px; }
   </style>
 </head>
 <body>
 
-  <!-- Header -->
+  <!-- ════ UNIFIED PREPSELF HEADER ════ -->
   <header class="hdr">
     <div class="hdr-inner">
-      <a href="./" style="display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none">
-        <span style="font-size:24px">🇮🇳</span>
-        <div><strong style="color:#fff;font-size:16px">PrepSelf हिंदी</strong></div>
-      </a>
-      <div style="display:flex;gap:12px;align-items:center">
-        <a href="../" style="font-size:13px;color:#CBD5E1">English Site</a>
-        <a href="index.html" style="font-size:13px;color:#FB923C;font-weight:700">हिंदी हब &rarr;</a>
+      <div class="hdr-left">
+        <a class="logo-wrap" href="./" title="PrepSelf — All India Exam Prep Engine">
+          <div class="logo-badge">⚡</div>
+          <div class="logo-txt">
+            <div class="logo-title-full"><span class="logo-brand">PrepSelf</span><span class="logo-domain"> हिंदी</span></div>
+            <p class="logo-tagline">उत्तर प्रदेश एवं राज्य प्रतियोगी परीक्षा हब</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="hdr-breadcrumbs" aria-label="Breadcrumb Trail">
+        <ol class="hdr-bc-list">
+          <li><a href="../" class="hdr-bc-link">🏠 Home</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li><a href="index.html" class="hdr-bc-link">हिंदी</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li class="hdr-bc-active" aria-current="page">सामान्य हिंदी व्याकरण</li>
+        </ol>
+      </nav>
+
+      <div class="hdr-tools">
+        <button class="be-btn-tool" onclick="window.openSpotlight && window.openSpotlight()" title="Search all tools (Ctrl+K)" aria-label="Search tools">
+          <span class="be-tool-icon">&#x1F50D;</span>
+          <span class="be-tool-text">Search</span>
+        </button>
+        <button class="be-btn-tool be-btn-with-label" id="themeToggleBtn" onclick="window.toggleTheme ? window.toggleTheme() : (window.BE_NAV && window.BE_NAV.toggleTheme())" title="Toggle Theme" aria-label="Toggle Dark or Light Theme">
+          <span class="be-tool-icon" id="themeIcon">&#x1F319;</span>
+          <span class="be-tool-text" id="themeText">Theme</span>
+        </button>
+        <a href="../" class="be-btn-tool be-hide-xs" style="text-decoration:none" title="English Site">
+          <span class="be-tool-icon">🇬🇧</span>
+          <span class="be-tool-text">English</span>
+        </a>
       </div>
     </div>
   </header>
@@ -126,13 +136,13 @@
     
     <!-- Hero Banner -->
     <div style="text-align:center;margin-bottom:32px">
-      <div style="display:inline-block;font-size:11.5px;font-weight:800;color:#34D399;background:rgba(52,211,153,0.12);padding:4px 14px;border-radius:20px;border:1px solid rgba(52,211,153,0.3);margin-bottom:10px">
+      <div style="display:inline-block;font-size:11.5px;font-weight:800;color:#10B981;background:rgba(16,185,129,0.1);padding:4px 14px;border-radius:20px;border:1px solid rgba(16,185,129,0.25);margin-bottom:10px">
         ⚡ 35+ अंक स्कोरिंग फॉर्मूला
       </div>
-      <h1 style="font-size:clamp(24px, 4vw, 36px);font-weight:900;color:#fff;line-height:1.25;margin-bottom:12px">
+      <h1 style="font-size:clamp(24px, 4vw, 36px);font-weight:900;color:var(--txt);line-height:1.25;margin-bottom:12px">
         सामान्य हिंदी व्याकरण एवं मॉक टेस्ट
       </h1>
-      <p style="font-size:15.5px;color:var(--txt2);max-width:760px;margin:0 auto">
+      <p style="font-size:15.5px;color:var(--txt2);max-width:760px;margin:0 auto;line-height:1.6">
         यूपी पुलिस कांस्टेबल (37 प्रश्न), UPPSC RO/ARO (60 अंक प्रीलिम्स) और UPSSSC PET के लिए संधि, समास, रस, छंद, अलंकार के नियम व अभ्यास।
       </p>
     </div>
@@ -142,20 +152,20 @@
       <h2 class="sec-hd">📖 प्रमुख व्याकरण नियम एवं शॉर्टकट ट्रिक्स</h2>
 
       <div class="rule-box">
-        <strong style="color:#38BDF8;display:block;font-size:15px;margin-bottom:4px">1. संधि विच्छेद की मास्टर ट्रिक:</strong>
-        <p style="font-size:14px;color:var(--txt2);margin:0">
-          <strong>गुण संधि:</strong> शब्द के बीच में 'ए' (े) या 'ओ' (ो) की मात्रा दिखे (जैसे- रमेश = रमा + ईश, महोदय = महा + उदय)। <br>
-          <strong>वृद्धि संधि:</strong> शब्द के बीच में 'ऐ' (ै) या 'औ' (ौ) की मात्रा दिखे (जैसे- एकैक = एक + एक, सदैव = सदा + एव)। <br>
-          <strong>यण संधि:</strong> य, व, र से पहले आधा अक्षर आए (जैसे- अत्यधिक = अति + अधिक, स्वागत = सु + आगत)।
+        <strong style="color:var(--pr);display:block;font-size:15px;margin-bottom:6px">1. संधि विच्छेद की मास्टर ट्रिक:</strong>
+        <p style="font-size:14px;color:var(--txt2);line-height:1.6;margin:0">
+          <strong style="color:var(--txt)">गुण संधि:</strong> शब्द के बीच में 'ए' (े) या 'ओ' (ो) की मात्रा दिखे (जैसे- रमेश = रमा + ईश, महोदय = महा + उदय)। <br>
+          <strong style="color:var(--txt)">वृद्धि संधि:</strong> शब्द के बीच में 'ऐ' (ै) या 'औ' (ौ) की मात्रा दिखे (जैसे- एकैक = एक + एक, सदैव = सदा + एव)। <br>
+          <strong style="color:var(--txt)">यण संधि:</strong> य, व, र से पहले आधा अक्षर आए (जैसे- अत्यधिक = अति + अधिक, स्वागत = सु + आगत)।
         </p>
       </div>
 
       <div class="rule-box">
-        <strong style="color:#FBBF24;display:block;font-size:15px;margin-bottom:4px">2. समास पहचानने का 10-सेकंड नियम:</strong>
-        <p style="font-size:14px;color:var(--txt2);margin:0">
-          <strong>अव्ययीभाव:</strong> पहला पद उपसर्ग या अव्यय (यथा, प्रति, आ, बे, भर) जैसे- प्रतिदिन, आजन्म। <br>
-          <strong>द्वंद्व:</strong> दोनों पद प्रधान एवं बीच में योजक चिह्न या 'और/या' का लोप (माता-पिता, दिन-रात)। <br>
-          <strong>द्विगु:</strong> पहला पद संख्यावाचक विशेषण (चौराहा, त्रिकोण, पंचवटी)।
+        <strong style="color:#F59E0B;display:block;font-size:15px;margin-bottom:6px">2. समास पहचानने का 10-सेकंड नियम:</strong>
+        <p style="font-size:14px;color:var(--txt2);line-height:1.6;margin:0">
+          <strong style="color:var(--txt)">अव्ययीभाव:</strong> पहला पद उपसर्ग या अव्यय (यथा, प्रति, आ, बे, भर) जैसे- प्रतिदिन, आजन्म। <br>
+          <strong style="color:var(--txt)">द्वंद्व:</strong> दोनों पद प्रधान एवं बीच में योजक चिह्न या 'और/या' का लोप (माता-पिता, दिन-रात)। <br>
+          <strong style="color:var(--txt)">द्विगु:</strong> पहला पद संख्यावाचक विशेषण (चौराहा, त्रिकोण, पंचवटी)।
         </p>
       </div>
     </section>
@@ -164,49 +174,49 @@
     <section class="sec-card">
       <h2 class="sec-hd">🎯 सॉल्व्ड मॉडल प्रश्न (विगत वर्षों पर आधारित)</h2>
 
-      <div style="background:var(--card2);border:1px solid var(--bdr);border-radius:10px;padding:16px;margin-bottom:14px">
-        <div style="font-size:12px;font-weight:800;color:#34D399;margin-bottom:4px">प्रश्न 1 (अलंकार पहचान)</div>
-        <div style="font-size:15px;font-weight:700;color:#fff;margin-bottom:8px">
+      <div style="background:var(--sf2);border:1px solid var(--bdr);border-radius:10px;padding:16px;margin-bottom:14px">
+        <div style="font-size:12px;font-weight:800;color:#10B981;margin-bottom:4px">प्रश्न 1 (अलंकार पहचान)</div>
+        <div style="font-size:15px;font-weight:700;color:var(--txt);margin-bottom:8px">
           "कनक कनक ते सौगुनी, मादकता अधिकाय। वा खाय बौराय जग, या पाय बौराय॥" इसमें कौन सा अलंकार है?
         </div>
-        <div style="font-size:13.5px;color:#D1FAE5;background:rgba(16,185,129,0.1);padding:10px 14px;border-radius:8px;border-left:3px solid #10B981">
-          <strong>सही उत्तर:</strong> <strong>यमक अलंकार</strong>। यहाँ 'कनक' शब्द दो बार आया है, प्रथम 'कनक' का अर्थ धतूरा तथा द्वितीय 'कनक' का अर्थ सोना (स्वर्ण) है। जब एक ही शब्द भिन्न अर्थों में दोहराया जाए तो यमक अलंकार होता है।
+        <div style="font-size:13.5px;color:var(--txt);background:rgba(16,185,129,0.1);padding:10px 14px;border-radius:8px;border-left:3px solid #10B981;line-height:1.6">
+          <strong style="color:#10B981">सही उत्तर:</strong> <strong>यमक अलंकार</strong>। यहाँ 'कनक' शब्द दो बार आया है, प्रथम 'कनक' का अर्थ धतूरा तथा द्वितीय 'कनक' का अर्थ सोना (स्वर्ण) है। जब एक ही शब्द भिन्न अर्थों में दोहराया जाए तो यमक अलंकार होता है।
         </div>
       </div>
 
-      <div style="background:var(--card2);border:1px solid var(--bdr);border-radius:10px;padding:16px">
-        <div style="font-size:12px;font-weight:800;color:#38BDF8;margin-bottom:4px">प्रश्न 2 (वर्तनी शुद्धि)</div>
-        <div style="font-size:15px;font-weight:700;color:#fff;margin-bottom:8px">
+      <div style="background:var(--sf2);border:1px solid var(--bdr);border-radius:10px;padding:16px">
+        <div style="font-size:12px;font-weight:800;color:var(--pr);margin-bottom:4px">प्रश्न 2 (वर्तनी शुद्धि)</div>
+        <div style="font-size:15px;font-weight:700;color:var(--txt);margin-bottom:8px">
           निम्न में से शुद्ध वर्तनी वाला शब्द चुनिए: (A) कवियत्री (B) कवयित्री (C) कविइत्री (D) कवयीत्री
         </div>
-        <div style="font-size:13.5px;color:#D1FAE5;background:rgba(16,185,129,0.1);padding:10px 14px;border-radius:8px;border-left:3px solid #10B981">
-          <strong>सही उत्तर:</strong> <strong>(B) कवयित्री</strong>। यह यूपी पुलिस और RO/ARO में सर्वाधिक बार पूछा जाने वाला वर्तनी शुद्धि प्रश्न है।
+        <div style="font-size:13.5px;color:var(--txt);background:rgba(16,185,129,0.1);padding:10px 14px;border-radius:8px;border-left:3px solid #10B981;line-height:1.6">
+          <strong style="color:#10B981">सही उत्तर:</strong> <strong>(B) कवयित्री</strong>। यह यूपी पुलिस और RO/ARO में सर्वाधिक बार पूछा जाने वाला वर्तनी शुद्धि प्रश्न है।
         </div>
       </div>
 
       <div style="text-align:center;margin-top:20px">
-        <a href="up-police-hindi-practice.html" style="display:inline-block;background:#34D399;color:#0F172A;padding:12px 24px;border-radius:10px;font-weight:800;font-size:14px;text-decoration:none">
+        <a href="up-police-hindi-practice.html" style="display:inline-block;background:var(--pr);color:#fff;padding:12px 24px;border-radius:10px;font-weight:800;font-size:14px;text-decoration:none">
           संपूर्ण 37 प्रश्नों का मॉक टेस्ट दें &rarr;
         </a>
       </div>
     </section>
 
     <!-- Author & Trust -->
-    <div style="background:var(--card);border:1px solid var(--bdr);border-radius:var(--r);padding:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;margin-bottom:24px">
+    <div style="background:var(--sf);border:1.5px solid var(--bdr);border-radius:var(--r);padding:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;margin-bottom:24px;box-shadow:var(--sh)">
       <div style="display:flex;align-items:center;gap:12px">
-        <div style="width:44px;height:44px;border-radius:50%;background:#3B82F6;display:flex;align-items:center;justify-content:center;font-size:22px;color:#fff">👨‍💻</div>
+        <div style="width:44px;height:44px;border-radius:50%;background:var(--pr);display:flex;align-items:center;justify-content:center;font-size:22px;color:#fff">👨‍💻</div>
         <div>
-          <div style="font-size:14.5px;font-weight:800;color:#fff">राघवेंद्र (Raghavbegins) द्वारा प्रस्तुत</div>
-          <div style="font-size:12px;color:var(--txt3)">PrepSelf ओपन एजुकेशन &bull; अंतिम अपडेट: अक्टूबर 2026</div>
+          <div style="font-size:14.5px;font-weight:800;color:var(--txt)">राघवेंद्र (Raghavbegins) द्वारा प्रस्तुत</div>
+          <div style="font-size:12px;color:var(--txt2)">PrepSelf ओपन एजुकेशन &bull; अंतिम अपडेट: अक्टूबर 2026</div>
         </div>
       </div>
-      <a href="up-gk-general-knowledge.html" style="font-size:13px;font-weight:700;color:#38BDF8;text-decoration:none">
+      <a href="up-gk-general-knowledge.html" style="font-size:13px;font-weight:700;color:var(--pr);text-decoration:none">
         उत्तर प्रदेश सामान्य ज्ञान पढ़ें &rarr;
       </a>
     </div>
 
     <!-- Disclaimer -->
-    <div style="background:rgba(239,68,68,0.06);border:1px solid rgba(239,68,68,0.2);border-radius:10px;padding:12px 16px;font-size:12px;color:#FCA5A5;line-height:1.5;margin-bottom:30px">
+    <div style="background:rgba(239,68,68,0.06);border:1px solid rgba(239,68,68,0.2);border-radius:10px;padding:12px 16px;font-size:12px;color:#EF4444;line-height:1.5;margin-bottom:30px">
       <strong>अस्वीकरण (Disclaimer):</strong> PrepSelf एक गैर-व्यावसायिक शैक्षणिक मंच है और किसी भी सरकारी परीक्षा आयोग (UPPRPB/UPPSC/UPSSSC) से संबद्ध नहीं है।
     </div>
 
@@ -214,29 +224,32 @@
     <section class="sec-card">
       <h2 class="sec-hd">❓ अक्सर पूछे जाने वाले प्रश्न</h2>
       <div style="display:flex;flex-direction:column;gap:12px">
-        <div style="background:var(--card2);padding:14px 18px;border-radius:10px">
-          <strong style="color:#fff;font-size:14.5px;display:block;margin-bottom:4px">यूपी पुलिस में हिंदी के 37 प्रश्नों का पाठ्यक्रम क्या है?</strong>
-          <span style="color:var(--txt2);font-size:13px;line-height:1.5;display:block">वर्णमाला, संधि, समास, उपसर्ग-प्रत्यय, तद्भव-तत्सम, पर्यायवाची, विलोम शब्द, रस-छंद-अलंकार, प्रसिद्ध कवि व लेखक, और अपठित गद्यांश।</span>
+        <div style="background:var(--sf2);padding:14px 18px;border-radius:10px;border:1px solid var(--bdr)">
+          <strong style="color:var(--txt);font-size:14.5px;display:block;margin-bottom:4px">यूपी पुलिस में हिंदी के 37 प्रश्नों का पाठ्यक्रम क्या है?</strong>
+          <span style="color:var(--txt2);font-size:13px;line-height:1.55;display:block">वर्णमाला, संधि, समास, उपसर्ग-प्रत्यय, तद्भव-तत्सम, पर्यायवाची, विलोम शब्द, रस-छंद-अलंकार, प्रसिद्ध कवि व लेखक, और अपठित गद्यांश।</span>
         </div>
-        <div style="background:var(--card2);padding:14px 18px;border-radius:10px">
-          <strong style="color:#fff;font-size:14.5px;display:block;margin-bottom:4px">कर्मधारय और बहुव्रीहि समास में क्या मुख्य अंतर है?</strong>
-          <span style="color:var(--txt2);font-size:13px;line-height:1.5;display:block">कर्मधारय समास में विशेषण-विशेष्य या उपमेय-उपमान का संबंध होता है (जैसे- नीलगगन = नीला है जो गगन)। बहुव्रीहि में दोनों पद अप्रधान होते हैं और किसी तीसरे अर्थ का बोध कराते हैं (जैसे- नीलकंठ = शिव)।</span>
+        <div style="background:var(--sf2);padding:14px 18px;border-radius:10px;border:1px solid var(--bdr)">
+          <strong style="color:var(--txt);font-size:14.5px;display:block;margin-bottom:4px">कर्मधारय और बहुव्रीहि समास में क्या मुख्य अंतर है?</strong>
+          <span style="color:var(--txt2);font-size:13px;line-height:1.55;display:block">कर्मधारय समास में विशेषण-विशेष्य या उपमेय-उपमान का संबंध होता है (जैसे- नीलगगन = नीला है जो गगन)। बहुव्रीहि में दोनों पद अप्रधान होते हैं और किसी तीसरे अर्थ का बोध कराते हैं (जैसे- नीलकंठ = शिव)।</span>
         </div>
       </div>
     </section>
 
   </main>
 
-  <footer class="ft">
-    <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:12px;font-size:13px">
-      <a href="../" style="color:#94A3B8">Home (English)</a>
-      <a href="index.html" style="color:#FB923C;font-weight:700">हिंदी हब</a>
-      <a href="up-gk-general-knowledge.html" style="color:#94A3B8">यूपी सामान्य ज्ञान</a>
-      <a href="upprpb.html" style="color:#94A3B8">यूपी पुलिस</a>
-      <a href="up-police-hindi-practice.html" style="color:#94A3B8">हिंदी टेस्ट</a>
+  <footer style="background:var(--d1);color:#fff;padding:28px 20px;text-align:center;font-size:12.5px">
+    <div style="max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;color:rgba(255,255,255,0.6)">
+      <div>&copy; 2026 PrepSelf &bull; वेब इंजन: MIT License &bull; अध्ययन सामग्री: CC BY-NC 4.0</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap">
+        <a href="../" style="color:rgba(255,255,255,0.8)">Home (English)</a>
+        <a href="index.html" style="color:#F472B6;font-weight:700">हिंदी हब</a>
+        <a href="up-gk-general-knowledge.html" style="color:rgba(255,255,255,0.8)">यूपी सामान्य ज्ञान</a>
+        <a href="upprpb.html" style="color:rgba(255,255,255,0.8)">यूपी पुलिस</a>
+        <a href="up-police-hindi-practice.html" style="color:rgba(255,255,255,0.8)">हिंदी टेस्ट</a>
+      </div>
     </div>
-    <p>&copy; 2026 PrepSelf &bull; वेब इंजन: MIT License &bull; अध्ययन सामग्री: CC BY-NC 4.0</p>
   </footer>
 
+  <script src="../js/nav.js"></script>
 </body>
 </html>

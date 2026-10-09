@@ -140,27 +140,40 @@
   </style>
 </head>
 <body>
-  <!-- Header -->
+  <!-- ════ UNIFIED PREPSELF HEADER ════ -->
   <header class="hdr">
     <div class="hdr-inner">
       <div class="hdr-left">
-        <a href="./" class="logo" style="text-decoration:none">
-          <div class="logo-ic">⚡</div>
+        <a class="logo-wrap" href="./" title="PrepSelf — All India Exam Prep Engine">
+          <div class="logo-badge">⚡</div>
           <div class="logo-txt">
-            <div class="logo-title-full">PrepSelf</div>
-            <div class="logo-sub">Exam Prep Portal</div>
+            <div class="logo-title-full"><span class="logo-brand">PrepSelf</span><span class="logo-domain">.in</span></div>
+            <p class="logo-tagline">Self-Study Platform &middot; 27 Master Suites</p>
           </div>
         </a>
       </div>
-      <div class="hdr-breadcrumbs" aria-label="Breadcrumb">
-        <a href="./" class="bc-crumb">🏠 Home</a>
-        <span class="bc-sep">/</span>
-        <span class="bc-crumb active">Topics Directory</span>
-      </div>
-      <div class="hdr-actions">
-        <a href="study-modules.html" class="tb-btn" title="27 Master Suites">📚 Suites</a>
-        <a href="quiz-simulator.html" class="tb-btn" title="CBT Mock Lab">🎯 Mock Lab</a>
-        <button id="themeToggleBtn" onclick="window.toggleTheme && window.toggleTheme()" class="tb-btn" title="Toggle Theme" aria-label="Toggle Theme">🌙</button>
+
+      <nav class="hdr-breadcrumbs" aria-label="Breadcrumb Trail">
+        <ol class="hdr-bc-list">
+          <li><a href="./" class="hdr-bc-link">🏠 Home</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li class="hdr-bc-active" aria-current="page">Topics Directory</li>
+        </ol>
+      </nav>
+
+      <div class="hdr-tools">
+        <button class="be-btn-tool" onclick="window.openSpotlight && window.openSpotlight()" title="Search all tools (Ctrl+K)" aria-label="Search tools">
+          <span class="be-tool-icon">&#x1F50D;</span>
+          <span class="be-tool-text">Search</span>
+        </button>
+        <button class="be-btn-tool be-btn-with-label" id="themeToggleBtn" onclick="window.toggleTheme ? window.toggleTheme() : (window.BE_NAV && window.BE_NAV.toggleTheme())" title="Toggle Theme" aria-label="Toggle Dark or Light Theme">
+          <span class="be-tool-icon" id="themeIcon">&#x1F319;</span>
+          <span class="be-tool-text" id="themeText">Theme</span>
+        </button>
+        <a href="hi/" class="be-btn-tool be-hide-xs" style="background:rgba(244,114,182,0.12);color:#F472B6;border-color:rgba(244,114,182,0.3);text-decoration:none" title="हिंदी हब">
+          <span class="be-tool-icon">🌐</span>
+          <span class="be-tool-text">हिंदी</span>
+        </a>
       </div>
     </div>
   </header>

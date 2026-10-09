@@ -319,31 +319,6 @@
 <link rel="stylesheet" href="css/modern.css">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --d1:#050C1A;--d2:#091428;--d3:#0D1D3E;
-  --pr:#4F46E5;--pr2:#6366F1;--pr3:#818CF8;
-  --ac:#F59E0B;--ac2:#FCD34D;
-  --gr:#10B981;--gr2:#34D399;
-  --cy:#06B6D4;--cy2:#67E8F9;
-  --rd:#EF4444;--rd2:#FCA5A5;
-  --txt:#0F172A;--txt2:#334155;--txt3:#64748B;
-  --bdr:#E2E8F0;--sf:#fff;--sf2:#F8FAFC;--sf3:#F1F5F9;
-  --r:12px;--rl:18px;
-  --sh:0 1px 6px rgba(15,23,42,.06);--shm:0 4px 20px rgba(15,23,42,.08);--shl:0 18px 50px rgba(0,0,0,.15);
-}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:15px;line-height:1.6;color:var(--txt2);background:var(--sf2);overflow-x:hidden}
-a{color:var(--pr);text-decoration:none}
-
-/* ── HEADER ── */
-.hdr{background:rgba(5,12,26,.97);backdrop-filter:blur(12px);position:sticky;top:0;z-index:500;border-bottom:1px solid rgba(255,255,255,.06)}
-.hdr-inner{max-width:1160px;margin:0 auto;padding:0 20px;height:58px;display:flex;align-items:center;justify-content:space-between;gap:12px}
-.logo-wrap{display:flex;align-items:center;gap:10px;text-decoration:none}
-.logo-badge{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--pr),var(--cy));display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;box-shadow:0 0 0 2px rgba(99,102,241,.3)}
-.logo-txt h1{font-size:14px;font-weight:800;color:#fff;letter-spacing:-.2px}
-.logo-txt p{font-size:9px;color:rgba(255,255,255,.35);margin-top:1px}
-.hdr-links{display:flex;gap:6px;align-items:center}
-.hdr-links a{padding:6px 12px;border-radius:18px;font-size:11px;font-weight:700;color:rgba(255,255,255,.65);text-decoration:none;border:1px solid rgba(255,255,255,.1);transition:all .15s}
-.hdr-links a:hover{background:rgba(255,255,255,.08);color:#fff}
 
 .wrap{max-width:1100px;margin:0 auto;padding:24px 20px 80px}
 
@@ -582,41 +557,43 @@ footer{background:var(--d1);color:#fff;padding:40px 20px;border-top:1px solid rg
 </head>
 <body>
 
-<header class="hdr">
-  <div class="hdr-inner">
-    <a class="logo-wrap" href="./">
-      <div class="logo-badge">&#x1F4DA;</div>
-      <div class="logo-txt">
-        <h1>Indian Exam AI &bull; Mock Lab</h1>
-        <p>5-Option Practice Drills &middot; Speed Math &middot; Raghavbegins</p>
+  <!-- ════ UNIFIED PREPSELF HEADER ════ -->
+  <header class="hdr">
+    <div class="hdr-inner">
+      <div class="hdr-left">
+        <a class="logo-wrap" href="./" title="PrepSelf — All India Exam Prep Engine">
+          <div class="logo-badge">⚡</div>
+          <div class="logo-txt">
+            <div class="logo-title-full"><span class="logo-brand">PrepSelf</span><span class="logo-domain">.in</span></div>
+            <p class="logo-tagline">Self-Study Platform &middot; 27 Master Suites</p>
+          </div>
+        </a>
       </div>
-    </a>
-    <nav class="hdr-links">
-      <a href="./">Home</a>
-      <a href="user-guide.html" style="color:#60A5FA;font-weight:700">User Guide</a>
-      <a href="study-modules.html">Study Modules</a>
-      <a href="bank_exam_prompt_generator.html">Banking Hub</a>
-      <a href="IBPS_SBI_Clerk_Roadmap.html">Roadmap</a>
-      <a href="IBPS_SBI_Free_Library.html">Library</a>
-    </nav>
-    <div class="hdr-tools">
-      <button class="spotlight-btn" onclick="window.openSpotlight()" title="Search tools (Ctrl+K)">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-        <span>Search</span>
-        <kbd class="spotlight-kbd">⌘K</kbd>
-      </button>
-      <button class="calc-icon-btn" onclick="window.openCalculator()" title="Speed Calculator" aria-label="Open Calculator">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="16" y1="14" x2="16" y2="18"/><path d="M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M8 18h.01M12 18h.01"/></svg>
-      </button>
-      <button class="theme-icon-btn" onclick="window.toggleTheme()" title="Toggle Theme" aria-label="Toggle Theme">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-      </button>
-      <button class="hamburger-btn" onclick="window.toggleMobileDrawer()" aria-label="Toggle Menu">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-      </button>
+
+      <nav class="hdr-breadcrumbs" aria-label="Breadcrumb Trail">
+        <ol class="hdr-bc-list">
+          <li><a href="./" class="hdr-bc-link">🏠 Home</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li class="hdr-bc-active" aria-current="page">Mock Test Simulator</li>
+        </ol>
+      </nav>
+
+      <div class="hdr-tools">
+        <button class="be-btn-tool" onclick="window.openSpotlight && window.openSpotlight()" title="Search all tools (Ctrl+K)" aria-label="Search tools">
+          <span class="be-tool-icon">&#x1F50D;</span>
+          <span class="be-tool-text">Search</span>
+        </button>
+        <button class="be-btn-tool be-btn-with-label" id="themeToggleBtn" onclick="window.toggleTheme ? window.toggleTheme() : (window.BE_NAV && window.BE_NAV.toggleTheme())" title="Toggle Theme" aria-label="Toggle Dark or Light Theme">
+          <span class="be-tool-icon" id="themeIcon">&#x1F319;</span>
+          <span class="be-tool-text" id="themeText">Theme</span>
+        </button>
+        <a href="hi/" class="be-btn-tool be-hide-xs" style="background:rgba(244,114,182,0.12);color:#F472B6;border-color:rgba(244,114,182,0.3);text-decoration:none" title="हिंदी हब">
+          <span class="be-tool-icon">🌐</span>
+          <span class="be-tool-text">हिंदी</span>
+        </a>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
 <main class="wrap">
   <div style="margin-bottom:20px;">

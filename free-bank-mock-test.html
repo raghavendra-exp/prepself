@@ -107,12 +107,13 @@
     .mock-hero {
       background: linear-gradient(135deg, #0F172A 0%, #1E1B4B 50%, #0F172A 100%);
       border-bottom: 1px solid var(--bdr);
-      padding: 44px 20px 32px;
+      padding: 44px 20px 36px;
       text-align: center;
+      color: #fff;
     }
     .badge-cbt {
       display: inline-flex; align-items: center; gap: 6px;
-      background: rgba(99,102,241,0.15); border: 1px solid rgba(99,102,241,0.35);
+      background: rgba(99,102,241,0.2); border: 1px solid rgba(99,102,241,0.4);
       color: #A5B4FC; font-size: 11.5px; font-weight: 800; padding: 4px 14px;
       border-radius: 20px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px;
     }
@@ -122,73 +123,98 @@
     .feature-card {
       background: var(--sf); border: 1.5px solid var(--bdr); border-radius: var(--r);
       padding: 22px; display: flex; flex-direction: column; justify-content: space-between;
+      box-shadow: var(--sh);
     }
     .feature-card h3 { font-size: 17px; font-weight: 800; color: var(--txt); margin-bottom: 8px; }
     .feature-card p { font-size: 13.5px; color: var(--txt2); line-height: 1.55; }
     .pattern-table {
       width: 100%; border-collapse: collapse; font-size: 13.5px; margin: 16px 0;
+      background: var(--sf); border-radius: 10px; overflow: hidden;
     }
     .pattern-table th, .pattern-table td {
       padding: 12px 14px; border: 1px solid var(--bdr); text-align: left;
     }
-    .pattern-table th { background: rgba(255,255,255,0.04); color: var(--txt); font-weight: 700; }
+    .pattern-table th { background: var(--sf2); color: var(--txt); font-weight: 700; }
     .pattern-table td { color: var(--txt2); }
     .faq-sec { margin: 40px 0; }
     .faq-card {
-      background: var(--sf); border: 1px solid var(--bdr); border-radius: 12px;
-      padding: 18px 22px; margin-bottom: 12px;
+      background: var(--sf); border: 1.5px solid var(--bdr); border-radius: 12px;
+      padding: 18px 22px; margin-bottom: 12px; box-shadow: var(--sh);
     }
-    .faq-card h3 { font-size: 15px; font-weight: 800; color: var(--txt); margin-bottom: 6px; }
+    .faq-card h3 { font-size: 15.5px; font-weight: 800; color: var(--txt); margin-bottom: 6px; }
     .faq-card p { font-size: 13.5px; color: var(--txt2); line-height: 1.55; }
     .author-card {
-      background: rgba(15,23,42,0.6); border: 1.5px solid var(--bdr); border-radius: var(--r);
+      background: var(--sf); border: 1.5px solid var(--bdr); border-radius: var(--r);
       padding: 24px; display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin: 36px 0;
+      box-shadow: var(--sh);
     }
     .author-avatar {
-      width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg,#3B82F6,#8B5CF6);
+      width: 56px; height: 56px; border-radius: 50%; background: linear-gradient(135deg,#3B82F6,#8B5CF6);
       display: flex; align-items: center; justify-content: center; font-size: 26px; color: #fff;
     }
     .disclaimer-box {
       background: rgba(239,68,68,0.06); border: 1px solid rgba(239,68,68,0.25); border-radius: 10px;
-      padding: 14px 18px; font-size: 12.5px; color: #FCA5A5; line-height: 1.5; margin: 28px 0;
+      padding: 14px 18px; font-size: 12.5px; color: #EF4444; line-height: 1.5; margin: 28px 0;
     }
   </style>
 </head>
 <body>
 
-  <!-- Navigation -->
+  <!-- ════ UNIFIED PREPSELF HEADER ════ -->
   <header class="hdr">
-    <div class="hdr-inner" style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:12px 20px">
-      <a href="./" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff">
-        <span style="font-size:24px">📘</span>
-        <span style="font-size:18px;font-weight:900">PrepSelf</span>
-      </a>
-      <nav style="display:flex;align-items:center;gap:16px">
-        <a href="./" style="color:#CBD5E1;text-decoration:none;font-weight:600;font-size:13.5px">Home</a>
-        <a href="quiz-simulator.html" style="color:#38BDF8;text-decoration:none;font-weight:700;font-size:13.5px">Mock Simulator</a>
-        <a href="study-modules.html" style="color:#CBD5E1;text-decoration:none;font-weight:600;font-size:13.5px">27 Suites</a>
-        <a href="negative-marking-calculator.html" style="color:#CBD5E1;text-decoration:none;font-weight:600;font-size:13.5px">Score Calculator</a>
-        <a href="topics.html" style="color:#CBD5E1;text-decoration:none;font-weight:600;font-size:13.5px">Topics Directory</a>
-        <a href="hi/" hreflang="hi" style="color:#F97316;text-decoration:none;font-weight:700;font-size:13.5px">🇮🇳 हिंदी</a>
+    <div class="hdr-inner">
+      <div class="hdr-left">
+        <a class="logo-wrap" href="./" title="PrepSelf — All India Exam Prep Engine">
+          <div class="logo-badge">⚡</div>
+          <div class="logo-txt">
+            <div class="logo-title-full"><span class="logo-brand">PrepSelf</span><span class="logo-domain">.in</span></div>
+            <p class="logo-tagline">Self-Study Platform &middot; 27 Master Suites</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="hdr-breadcrumbs" aria-label="Breadcrumb Trail">
+        <ol class="hdr-bc-list">
+          <li><a href="./" class="hdr-bc-link">🏠 Home</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li><a href="quiz-simulator.html" class="hdr-bc-link">Mock Lab</a></li>
+          <li class="hdr-bc-sep">/</li>
+          <li class="hdr-bc-active" aria-current="page">Free Bank Mock Test</li>
+        </ol>
       </nav>
+
+      <div class="hdr-tools">
+        <button class="be-btn-tool" onclick="window.openSpotlight && window.openSpotlight()" title="Search all tools (Ctrl+K)" aria-label="Search tools">
+          <span class="be-tool-icon">&#x1F50D;</span>
+          <span class="be-tool-text">Search</span>
+        </button>
+        <button class="be-btn-tool be-btn-with-label" id="themeToggleBtn" onclick="window.toggleTheme ? window.toggleTheme() : (window.BE_NAV && window.BE_NAV.toggleTheme())" title="Toggle Theme" aria-label="Toggle Dark or Light Theme">
+          <span class="be-tool-icon" id="themeIcon">&#x1F319;</span>
+          <span class="be-tool-text" id="themeText">Theme</span>
+        </button>
+        <a href="hi/" class="be-btn-tool be-hide-xs" style="background:rgba(244,114,182,0.12);color:#F472B6;border-color:rgba(244,114,182,0.3);text-decoration:none" title="हिंदी हब">
+          <span class="be-tool-icon">🌐</span>
+          <span class="be-tool-text">हिंदी</span>
+        </a>
+      </div>
     </div>
   </header>
 
-  <!-- Hero Section -->
+  <!-- Hero Section (Isolate crisp dark presentation) -->
   <section class="mock-hero">
     <div style="max-width:880px;margin:0 auto">
       <div class="badge-cbt">⚡ Authentic CBT Engine &bull; Zero Login &bull; 100% Free</div>
       <h1 style="font-size:clamp(28px, 4vw, 42px);font-weight:900;color:#fff;line-height:1.2;margin-bottom:12px">
         Free Bank Mock Test 2026: SBI PO &amp; IBPS Clerk CBT Lab
       </h1>
-      <p style="font-size:16px;color:rgba(255,255,255,0.75);line-height:1.6;margin-bottom:24px">
+      <p style="font-size:16px;color:rgba(255,255,255,0.85);line-height:1.6;margin-bottom:24px">
         Practice full-length 5-option banking mock tests modeled after authentic TCS-iON CBT patterns. Includes 20-minute sectional countdowns, automated negative mark deduction (-0.25), and step-by-step topper shortcut rationales.
       </p>
       <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
         <a href="quiz-simulator.html" style="background:linear-gradient(135deg,#3B82F6,#2563EB);color:#fff;padding:14px 28px;border-radius:10px;font-weight:800;font-size:15px;text-decoration:none;box-shadow:0 8px 24px rgba(37,99,235,0.35)">
           🚀 Launch Active Mock Test Simulator &rarr;
         </a>
-        <a href="negative-marking-calculator.html" style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.2);color:#fff;padding:14px 24px;border-radius:10px;font-weight:700;font-size:15px;text-decoration:none">
+        <a href="negative-marking-calculator.html" style="background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.25);color:#fff;padding:14px 24px;border-radius:10px;font-weight:700;font-size:15px;text-decoration:none">
           🧮 Calibrate Negative Penalty
         </a>
       </div>
@@ -219,32 +245,32 @@
           </thead>
           <tbody>
             <tr>
-              <td><strong>English Language</strong></td>
+              <td><strong style="color:var(--txt)">English Language</strong></td>
               <td>30 Questions</td>
               <td>30 Marks</td>
               <td>20 Minutes</td>
               <td>22–26 Attempts (85%+ accuracy)</td>
             </tr>
             <tr>
-              <td><strong>Quantitative Aptitude</strong></td>
+              <td><strong style="color:var(--txt)">Quantitative Aptitude</strong></td>
               <td>35 Questions</td>
               <td>35 Marks</td>
               <td>20 Minutes</td>
               <td>26–30 Attempts (Speed Math first)</td>
             </tr>
             <tr>
-              <td><strong>Reasoning Ability</strong></td>
+              <td><strong style="color:var(--txt)">Reasoning Ability</strong></td>
               <td>35 Questions</td>
               <td>35 Marks</td>
               <td>20 Minutes</td>
               <td>28–32 Attempts (Puzzles + Miscellany)</td>
             </tr>
-            <tr style="background:rgba(79,70,229,0.05);font-weight:800">
-              <td><strong>Total Prelims CBT Composite</strong></td>
-              <td><strong>100 Questions</strong></td>
-              <td><strong>100 Marks</strong></td>
-              <td><strong>60 Minutes</strong></td>
-              <td><strong>Safe Score: 72–78+ Marks</strong></td>
+            <tr style="background:var(--sf2);font-weight:800">
+              <td><strong style="color:var(--pr)">Total Prelims CBT Composite</strong></td>
+              <td style="color:var(--txt)"><strong>100 Questions</strong></td>
+              <td style="color:var(--txt)"><strong>100 Marks</strong></td>
+              <td style="color:var(--txt)"><strong>60 Minutes</strong></td>
+              <td style="color:#10B981"><strong>Safe Score: 72–78+ Marks</strong></td>
             </tr>
           </tbody>
         </table>
@@ -282,7 +308,7 @@
     </section>
 
     <!-- Section 3: High-Yield Practice Drill (Curated Sample Set) -->
-    <section style="background:var(--sf);border:1.5px solid var(--bdr);border-radius:var(--r);padding:24px;margin:32px 0">
+    <section style="background:var(--sf);border:1.5px solid var(--bdr);border-radius:var(--r);padding:24px;margin:32px 0;box-shadow:var(--sh)">
       <div style="font-size:11px;font-weight:800;color:#10B981;text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px">⚡ Free Solved Sample Questions</div>
       <h2 style="font-size:20px;font-weight:900;color:var(--txt);margin-bottom:12px">Sample High-Yield Bank Quant &amp; Reasoning Questions</h2>
       
@@ -290,15 +316,15 @@
       <div style="background:var(--sf2);border:1px solid var(--bdr);border-radius:10px;padding:18px;margin-bottom:16px">
         <div style="font-size:12px;font-weight:800;color:#F59E0B;margin-bottom:6px">Q1. Quadratic Equation Comparison (SBI PO Prelims Standard)</div>
         <div style="font-size:14.5px;color:var(--txt);font-weight:700;margin-bottom:10px">
-          Equation I: \(x^2 - 15x + 56 = 0\) <br>
-          Equation II: \(y^2 - 19y + 90 = 0\)
+          Equation I: <code>x² - 15x + 56 = 0</code> <br>
+          Equation II: <code>y² - 19y + 90 = 0</code>
         </div>
         <div style="font-size:13.5px;color:var(--txt2);line-height:1.6">
-          <strong>Step 1 (Root Extraction):</strong> <br>
-          For Equation I: Roots add to \(+15\) and multiply to \(+56\). Factor pair is \((7, 8)\). Roots: \(x = +7, +8\). <br>
-          For Equation II: Roots add to \(+19\) and multiply to \(+90\). Factor pair is \((9, 10)\). Roots: \(y = +9, +10\). <br>
-          <strong>Step 2 (Comparison):</strong> Both \(+7\) and \(+8\) are strictly less than both \(+9\) and \(+10\). <br>
-          <strong>Topper Verdict:</strong> \(x &lt; y\) in 12 seconds flat.
+          <strong style="color:var(--txt)">Step 1 (Root Extraction):</strong> <br>
+          For Equation I: Roots add to +15 and multiply to +56. Factor pair is (7, 8). Roots: x = +7, +8. <br>
+          For Equation II: Roots add to +19 and multiply to +90. Factor pair is (9, 10). Roots: y = +9, +10. <br>
+          <strong style="color:var(--txt)">Step 2 (Comparison):</strong> Both +7 and +8 are strictly less than both +9 and +10. <br>
+          <strong style="color:#10B981">Topper Verdict:</strong> x &lt; y in 12 seconds flat.
         </div>
       </div>
 
@@ -310,11 +336,11 @@
           Conclusions: I. Some Laptops are not Mobiles. II. All Laptops can never be Tablets.
         </div>
         <div style="font-size:13.5px;color:var(--txt2);line-height:1.6">
-          <strong>Rule &amp; Analysis:</strong> <br>
+          <strong style="color:var(--txt)">Rule &amp; Analysis:</strong> <br>
           "Only a few A are B" means two things simultaneously: (1) Some A are B, and (2) Some A are NOT B. <br>
           Conclusion I: Directly follows from definition! (True). <br>
           Conclusion II: Since all Mobiles are Tablets, can all Laptops fit inside Tablets? Yes, as long as Laptops don't fit entirely inside Mobiles. Therefore, Conclusion II is False. <br>
-          <strong>Topper Verdict:</strong> Only Conclusion I follows.
+          <strong style="color:#10B981">Topper Verdict:</strong> Only Conclusion I follows.
         </div>
       </div>
 
@@ -330,13 +356,13 @@
       <div class="author-avatar">👨‍💻</div>
       <div style="flex:1">
         <div style="font-size:16px;font-weight:900;color:var(--txt)">Curated by Raghavendra (Raghavbegins)</div>
-        <div style="font-size:12.5px;color:#38BDF8;font-weight:700;margin-bottom:4px">Creator of PrepSelf &bull; Open Education Architect</div>
+        <div style="font-size:12.5px;color:var(--pr);font-weight:700;margin-bottom:4px">Creator of PrepSelf &bull; Open Education Architect</div>
         <p style="font-size:13.5px;color:var(--txt2);line-height:1.55;margin:0">
           Designed to provide every Indian student equal access to high-yield speed math formulas, cognitive reasoning visualizers, and authentic timed CBT mock practice without subscription paywalls or coaching fees.
         </p>
       </div>
       <div style="text-align:right">
-        <span style="font-size:12px;font-weight:700;color:var(--txt3);display:block">Last Updated</span>
+        <span style="font-size:12px;font-weight:700;color:var(--txt2);display:block">Last Updated</span>
         <span style="font-size:13px;font-weight:800;color:#10B981">October 2026</span>
       </div>
     </div>
@@ -376,7 +402,7 @@
 
   <!-- Footer -->
   <footer style="background:var(--d1);color:#fff;padding:36px 20px;border-top:1px solid rgba(255,255,255,.08);font-size:12.5px;text-align:center">
-    <div style="max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;color:rgba(255,255,255,.5)">
+    <div style="max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;color:rgba(255,255,255,.6)">
       <div>&copy; 2026 PrepSelf &bull; Web Engine: MIT License &bull; Study Materials: CC BY-NC 4.0</div>
       <div style="display:flex;gap:14px;flex-wrap:wrap">
         <a href="./" style="color:#CBD5E1">Home</a>
@@ -390,5 +416,6 @@
     </div>
   </footer>
 
+  <script src="js/nav.js"></script>
 </body>
 </html>
