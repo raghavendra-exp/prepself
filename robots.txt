@@ -3,6 +3,8 @@ User-agent: *
 Allow: /
 Allow: /suites/
 Allow: /modules/
+Allow: /hubs/
+Allow: /practice/
 Allow: /hi/
 Allow: /css/
 Allow: /js/
@@ -28,6 +30,8 @@ User-agent: Googlebot
 Allow: /
 Allow: /suites/
 Allow: /modules/
+Allow: /hubs/
+Allow: /practice/
 Allow: /hi/
 Allow: /css/
 Allow: /js/
@@ -50,6 +54,8 @@ User-agent: Bingbot
 Allow: /
 Allow: /suites/
 Allow: /modules/
+Allow: /hubs/
+Allow: /practice/
 Allow: /hi/
 Disallow: /admin.html
 Disallow: /prepself/admin.html

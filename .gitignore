@@ -1,5 +1,19 @@
-# Node modules
+# Dependencies
 node_modules/
+.pnp
+.pnp.js
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.pytest_cache/
 
 # Logs
 logs/
@@ -8,15 +22,40 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Build output
+# Build and deployment output
 /dist/
 /build/
+_site/
+.sass-cache/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
 
 # OS files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+desktop.ini
 
-# Editor folders
-/.vscode/
-/.idea/
-/.sass-cache/
+# Editor & IDE configurations
+.vscode/
+!.vscode/settings.json.example
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Scratch and internal temporary files
+scratch/
+.system_generated/
+*.tmp

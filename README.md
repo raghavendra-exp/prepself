@@ -144,13 +144,46 @@ Open `http://localhost:8080` in your web browser.
 
 ---
 
-## 🌐 Google Search Console & Custom Domain (`prepself.in`)
+## 🧪 Quality, SEO & Automated CI/CD Pipeline
 
-For complete step-by-step instructions on verifying the site in Google Search Console via DNS TXT records, configuring DNS (A and CNAME records), and linking `prepself.in` on GitHub Pages, refer to:
-👉 **[Google Search Console & Custom Domain Setup Guide](SEARCH_CONSOLE_AND_DOMAIN_SETUP.md)**
+The repository includes a strict pre-deployment audit pipeline that runs on every `push` and `pull_request` via GitHub Actions (`.github/workflows/deploy.yml`):
+
+```bash
+# 1. Run SEO, Canonicals & Quality Audit (titles, descriptions, OpenGraph, tags)
+python scripts/audit.py
+
+# 2. Verify Single Source of Truth Synchronization (site.json)
+python scripts/stamp_site.py --check
+
+# 3. Generate & Verify git-history-backed sitemap.xml (116 verified URLs)
+python scripts/generate_sitemap.py
+
+# 4. Validate JavaScript Syntax across all scripts
+node --check js/nav.js js/quiz.js js/studio.js sw.js
+```
+
+---
+
+## ♿ Accessibility (A11y) & Performance Standards
+
+- **Semantic HTML5**: Strict single `<h1>` hierarchy per page with logical `<h2>`/`<h3>` nesting, `<section>`, `<nav>`, `<aside>`, and `<footer>`.
+- **WCAG AAA/AA Contrast**: High-contrast theme tokens for both light and dark modes with dedicated styling for native form controls (`<select>`, `<option>`).
+- **Zero Cumulative Layout Shift (CLS)**: All SVGs and images declare explicit dimensions (`width`, `height`).
+- **Keyboard Navigation**: Universal Spotlight (<kbd>Ctrl+K</kbd> / <kbd>⌘K</kbd>), modal dismissal (<kbd>Esc</kbd>), and explicit `aria-label` attributes on icon-only controls.
+- **Portability**: 100% relative paths (`./css/...`, `js/...`), ensuring zero broken assets whether deployed on a subpath (`raghavendra-exp.github.io/prepself/`) or custom domain (`prepself.in`).
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions from educators, students, and open-source developers!
+1. Fork the repository and create your feature branch (`git checkout -b feature/topic-mastery`).
+2. Adhere to the pure vanilla web standard (no `npm` bundlers or build frameworks).
+3. Run `python scripts/audit.py` to ensure zero SEO, canonical, or markup regressions.
+4. Submit a Pull Request. Detailed guidelines are in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
 ## 📜 Copyright & Open Access
 
-Designed and maintained for self-studying aspirants across India. 100% free forever, zero sign-up walls, and zero advertising clutter.
+Designed and maintained for self-studying aspirants across India. 100% free forever, zero sign-up walls, and zero advertising clutter. Released under the [MIT License](LICENSE).

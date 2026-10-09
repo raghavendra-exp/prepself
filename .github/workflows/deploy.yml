@@ -53,6 +53,10 @@ jobs:
         run: |
           python scripts/stamp_site.py --check
 
+      - name: Generate & Verify Sitemap (sitemap.xml)
+        run: |
+          python scripts/generate_sitemap.py
+
   # ════ 2. GITHUB PAGES DEPLOYMENT (Only after Audit Passes) ════
   deploy:
     name: Deploy to GitHub Pages

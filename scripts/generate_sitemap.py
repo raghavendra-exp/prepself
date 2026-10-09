@@ -56,6 +56,12 @@ def main():
         for f in sorted(modules_dir.glob("*.html")):
             entries.append((f"{BASE_ORIGIN}modules/{f.name}", get_git_lastmod(f)))
 
+    # 5. Practice Problem Sets
+    practice_dir = ROOT_DIR / "practice"
+    if practice_dir.exists():
+        for f in sorted(practice_dir.glob("*.html")):
+            entries.append((f"{BASE_ORIGIN}practice/{f.name}", get_git_lastmod(f)))
+
     # 5. Hindi Hub and pages
     hi_dir = ROOT_DIR / "hi"
     if hi_dir.exists():
