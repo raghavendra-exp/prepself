@@ -426,11 +426,11 @@
     gtag('js', new Date());
     gtag('config', 'G-B0Z2G21W4F');
   </script>
-
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+    <link rel="canonical" href="https://prepself.in/suites/history-of-india/practice.html">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 </head>
 <body>
+    <noscript><div style="padding:14px;background:#1E293B;color:#F8FAFC;text-align:center;font-size:13px;font-family:sans-serif">JavaScript is required to run this interactive exam suite. Return to <a href="../../study-modules.html" style="color:#60A5FA;text-decoration:underline">PrepSelf 27 Master Suites</a> or <a href="../../index.html" style="color:#60A5FA;text-decoration:underline">Homepage</a>.</div></noscript>
 <a href="#main" class="skip-link">Skip to content</a>
 <nav class="site-nav" id="siteNav"></nav>
 
@@ -439,10 +439,10 @@
 
   <header class="section" style="padding-bottom:10px;">
     <div class="wrap">
-      <span class="eyebrow">UPSC CSE (Prelims &amp; Mains) &bull; UPPSC GS-1, 5, 6 &bull; 10 Canonical Textbooks</span>
-      <h1 style="font-size:clamp(2rem,4.4vw,3.1rem);">UPSC Prelims &amp; Mains Practice Hub</h1>
+      <span class="eyebrow">UPSC CSE &bull; UPPSC PCS &bull; UP RO/ARO &bull; Bank (IBPS/SBI) &bull; Railway (RRB NTPC) &bull; 8,400+ Questions</span>
+      <h1 style="font-size:clamp(2rem,4.4vw,3.1rem);">All-India Competitive Examination Practice Hub</h1>
       <p class="section-desc" style="font-size:1.05rem; max-width:78ch; margin-bottom:24px;">
-        Test your analytical mastery with <strong>540+ statement-based Prelims MCQs</strong> and <strong>215+ Mains GS Paper-1 analytical model frameworks</strong> synthesized from NCERTs, R.S. Sharma, Upinder Singh, Satish Chandra, Spectrum, Bipan Chandra, Nitin Singhania, and Norman Lowe. Features authentic 2011–2024 UPSC/UPPSC PYQs, timed exam simulator, instant elimination traps, and topper tips.
+        Master your examinations with <strong>8,000+ statement-based &amp; factual Prelims MCQs</strong> and <strong>265+ Mains GS Paper-1 analytical model frameworks</strong> customized for <strong>UPSC Civil Services</strong>, <strong>UPPSC PCS</strong>, <strong>UP RO/ARO (Samiksha Adhikari)</strong>, <strong>Banking (IBPS PO/Clerk, SBI PO, RBI Grade B)</strong>, and <strong>Railway Recruitment Board (RRB NTPC, Group D, ALP)</strong>. Features authentic PYQs, multi-exam filters, timed mock simulator, instant elimination traps, and topper tips.
       </p>
 
       <div class="practice-scoreboard">
@@ -459,7 +459,7 @@
           <span class="p-lab">Accuracy Rate</span>
         </div>
         <div class="practice-stat">
-          <span class="p-num" id="statBankSize" style="color:var(--seal);">540</span>
+          <span class="p-num" id="statBankSize" style="color:var(--seal);">8425</span>
           <span class="p-lab">Total Questions Bank</span>
         </div>
         <div class="practice-stat" style="display:flex; flex-direction:column; justify-content:center; align-items:center;">
@@ -469,10 +469,10 @@
 
       <div class="practice-mode-tabs">
         <button class="mode-tab active" id="tabPrelims" onclick="HistoryPractice.setSection('prelims')">
-          🎯 Prelims Practice &amp; Simulator (<span id="countPrelimsBadge">540</span>)
+          🎯 Prelims &amp; Objective Simulator (<span id="countPrelimsBadge">8160</span>)
         </button>
         <button class="mode-tab" id="tabMains" onclick="HistoryPractice.setSection('mains')">
-          ✍️ Mains Analytical Architect (<span id="countMainsBadge">215</span>)
+          ✍️ Mains Analytical Architect (<span id="countMainsBadge">265</span>)
         </button>
       </div>
 
@@ -481,19 +481,39 @@
         <div class="filter-row">
           <div class="search-input-wrap">
             <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-            <input type="text" id="practiceSearch" placeholder="Search questions, options, concepts, or book citations…" oninput="HistoryPractice.onSearchChange(this.value)">
+            <input type="text" id="practiceSearch" placeholder="Search 8,000+ questions, concepts, topics, or book citations…" oninput="HistoryPractice.onSearchChange(this.value)">
           </div>
 
+          <select class="filter-select" id="examFilter" onchange="HistoryPractice.onExamChange(this.value)">
+            <option value="all">🎯 All Competitive Exams (UPSC, UPPSC, RO/ARO, Bank, RRB)</option>
+            <option value="upsc">🏛️ UPSC Civil Services (CSE / IAS / IPS)</option>
+            <option value="uppsc">🏛️ UPPSC Combined State Services (PCS)</option>
+            <option value="ro-aro">📜 UP RO/ARO (Samiksha Adhikari Exam)</option>
+            <option value="bank">🏦 Banking (IBPS PO, SBI PO, RBI Grade B)</option>
+            <option value="rrb">🚆 Railway Recruitment Board (RRB NTPC, Group D)</option>
+          </select>
+
           <select class="filter-select" id="bookFilter" onchange="HistoryPractice.onBookChange(this.value)">
-            <option value="all">📚 All 10 Canonical Textbooks</option>
+            <option value="all">📚 All Textbooks &amp; Exam Compendiums</option>
             <option value="ncert">NCERTs (Class 6-12 Themes &amp; Contemporary World)</option>
             <option value="rs-sharma">R.S. Sharma (India's Ancient Past)</option>
             <option value="upinder-singh">Upinder Singh (Ancient &amp; Early Medieval)</option>
             <option value="satish-chandra">Satish Chandra (History of Medieval India)</option>
             <option value="spectrum">Spectrum (Brief History of Modern India)</option>
             <option value="bipan-chandra">Bipan Chandra (India's Struggle for Independence)</option>
+            <option value="bl-grover">B.L. Grover (A New Look at Modern Indian History)</option>
+            <option value="james-tod">James Tod (Annals and Antiquities of Rajasthan)</option>
+            <option value="harari">Yuval Noah Harari (Sapiens)</option>
+            <option value="gandhi">M.K. Gandhi (Experiments with Truth)</option>
+            <option value="pratik-nayak">Pratik Nayak (Visual History Compendiums)</option>
             <option value="nitin-singhania">Nitin Singhania (Indian Art &amp; Culture)</option>
             <option value="norman-lowe">Norman Lowe (Mastering Modern World History)</option>
+            <option value="basham">A.L. Basham (A Cultural History of India)</option>
+            <option value="dube">Prof. S.C. Dube (Indian Society &amp; Tribal Dynamics)</option>
+            <option value="ishani-pandya">Ishani Pandya (Art &amp; Culture Visual Compendiums)</option>
+            <option value="ghatna-chakra">Ghatna Chakra Purvavalokan (UPPSC &amp; RO/ARO)</option>
+            <option value="banking-awareness">RBI &amp; Banking Awareness Compendium</option>
+            <option value="rrb-kiran">Railway RRB General Awareness Archive</option>
           </select>
 
           <button class="filter-toggle-btn" id="pyqFilterBtn" onclick="HistoryPractice.togglePyqFilter()">

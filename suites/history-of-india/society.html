@@ -231,11 +231,11 @@
     gtag('js', new Date());
     gtag('config', 'G-B0Z2G21W4F');
   </script>
-
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+    <link rel="canonical" href="https://prepself.in/suites/history-of-india/society.html">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 </head>
 <body>
+    <noscript><div style="padding:14px;background:#1E293B;color:#F8FAFC;text-align:center;font-size:13px;font-family:sans-serif">JavaScript is required to run this interactive exam suite. Return to <a href="../../study-modules.html" style="color:#60A5FA;text-decoration:underline">PrepSelf 27 Master Suites</a> or <a href="../../index.html" style="color:#60A5FA;text-decoration:underline">Homepage</a>.</div></noscript>
 <a href="#main" class="skip-link">Skip to content</a>
 <nav class="site-nav" id="siteNav"></nav>
 
@@ -261,7 +261,8 @@
           • <strong>M.N. Srinivas</strong> (Social Change in Modern India, Castes in Modern India &amp; Other Essays) &bull;
           • <strong>Amartya Sen</strong> (Development as Freedom, The Argumentative Indian) &bull;
           • <strong>Bipan Chandra</strong> (Communalism in Modern India) &bull;
-          • <strong>Yogendra Singh</strong> (Modernization of Indian Tradition)
+          • <strong>Yogendra Singh</strong> (Modernization of Indian Tradition) &bull;
+          • <strong>Prof. S.C. Dube</strong> (Indian Society, National Book Trust &bull; Village &amp; Tribal Structural Studies)
         </div>
         <div style="display:flex; gap:8px; flex-wrap:wrap; font-size:.82rem; padding-top:10px; border-top:1px dashed var(--line-soft);">
           <a href="https://ncert.nic.in/textbook.php?lesy1=0-7" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size:0.78rem; padding:6px 12px; background:var(--seal); border-color:var(--seal-strong);">👥 NCERT Class 12 Indian Society PDF ↗</a>
@@ -459,6 +460,24 @@
 <script>
 // Master Data Store for Indian Society Module
 const SOCIETY_DATA = [
+  {
+    id: 'village-tribal-social-system',
+    category: 'diversity',
+    type: 'Sociological System',
+    title: 'The Indian Village Community & Tribal Social Systems',
+    subtitle: 'Structural Reality, Little & Great Traditions, Jajmani Ties, and Transformation (Prof. S.C. Dube Synthesis)',
+    desc: 'The traditional Indian village and tribal communities represent the foundational social laboratories of Indian civilization. As analyzed by Prof. S.C. Dube in his landmark Shamirpet village study and classical sociology, the village was neither an isolated self-sufficient republic nor a stagnant fossil, but a dynamic web of caste interdependence, ritual hierarchies, and regional linkages.',
+    features: [
+      'Deconstructing Colonial Myths: Colonial administrators (Charles Metcalfe) characterized Indian villages as immutable "little republics that last where nothing else lasts". S.C. Dube proved that Indian villages were deeply integrated into wider regional trading networks, pilgrimage circuits, and matrimonial alliances.',
+      'Inter-Caste Interdependence (Jajmani System): Hereditary economic and ritual ties where landowning patron castes (Jajmans) received institutionalized services from artisan and service castes (Kamins/Prajas) paid in customary harvest shares rather than cash.',
+      'Little Tradition vs Great Tradition (Robert Redfield & McKim Marriott): Constant interaction between local folk village customs (Little Tradition) and pan-Indian Sanskritic scriptural traditions (Great Tradition) through processes of Universalization and Parochialization.',
+      'Tribal Social Structure & Contemporary Dynamics: North-Eastern zone (Tibeto-Burman, matrilineal traits in Khasi/Garo); Central/Middle zone (Munda and Dravidian, Santhal, Gond, Bhil, Oraon); Southern zone (Toda, Kadar).',
+      'Isolation vs Assimilation Historiographical Debate: Verrier Elwin advocated protection and tribal reserves (National Parks approach); G.S. Ghurye viewed tribes as "imperfectly integrated Hindus" (Backward Hindus); Jawaharlal Nehru formulated the Tribal Panchsheel (1958) promoting development along indigenous genius without cultural imposition.',
+      'Contemporary Tribal Realities: Land alienation, displacement due to mineral extraction and dam building, depletion of Minor Forest Produce (MFP), and the protective constitutional mechanisms of Fifth and Sixth Schedules paired with FRA 2006.'
+    ],
+    upscFact: 'Mains GS-1 Question Trend: Evaluates whether the Indian village community is disintegrating under market economy and democratic politics, or mutating into new assertive caste and class configurations (2011 Census: 68.8% rural; 705 ST groups comprising 8.6% of population).',
+    bookRef: 'Prof. S.C. Dube, Indian Society (NBT); Ram Ahuja; NCERT Class 12 Indian Society Ch. 3'
+  },
   // --- 1. SALIENT FEATURES & DIVERSITY ---
   {
     id: 'society-diversity-features',
@@ -665,25 +684,35 @@ const SOCIETY_DATA = [
 // Tab Switching
 function switchSocietyTab(tab, btn) {
   document.querySelectorAll('#societyNavPills .society-tab-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
+  if (btn) {
+    btn.classList.add('active');
+  } else {
+    const matchingBtn = document.querySelector(`#societyNavPills button[data-tab="${tab}"]`) ||
+                        document.querySelector(`#societyNavPills button[onclick*="${tab}"]`);
+    if (matchingBtn) matchingBtn.classList.add('active');
+  }
 
   const cardsSec = document.getElementById('societyCardsSection');
   const compSec = document.getElementById('societyComparisonsSection');
   const mainsSec = document.getElementById('societyMainsSection');
 
   if (tab === 'mains-models') {
-    cardsSec.style.display = 'none';
-    compSec.style.display = 'none';
-    mainsSec.style.display = 'block';
-    mainsSec.scrollIntoView({ behavior: 'smooth' });
+    if (cardsSec) cardsSec.style.display = 'none';
+    if (compSec) compSec.style.display = 'none';
+    if (mainsSec) {
+      mainsSec.style.display = 'block';
+      mainsSec.scrollIntoView({ behavior: 'smooth' });
+    }
     return;
   }
 
-  cardsSec.style.display = 'block';
-  compSec.style.display = 'block';
-  mainsSec.style.display = 'block';
+  if (cardsSec) cardsSec.style.display = 'block';
+  if (compSec) compSec.style.display = (tab === 'all') ? 'block' : 'none';
+  if (mainsSec) mainsSec.style.display = (tab === 'all') ? 'block' : 'none';
 
-  renderSocietyCards(tab, document.getElementById('societySearchInput').value.trim());
+  const searchInput = document.getElementById('societySearchInput');
+  const query = searchInput ? searchInput.value.trim() : '';
+  renderSocietyCards(tab, query);
 }
 
 // Search handling
@@ -734,7 +763,7 @@ function renderSocietyCards(categoryFilter = 'all', searchQuery = '') {
   container.innerHTML = filtered.map(item => `
     <article class="society-card" id="${item.id}">
       <div class="card-header-badge">
-        <span class="card-type-tag">${item.type}</span>
+        <span class="card-type-tag">${item.type || 'Sociological System'}</span>
       </div>
       <h3>${item.title}</h3>
       <div class="card-subtitle">${item.subtitle}</div>
@@ -743,7 +772,7 @@ function renderSocietyCards(categoryFilter = 'all', searchQuery = '') {
       <div class="feature-list">
         <h5>Core Dimensions &amp; Empirical Findings</h5>
         <ul>
-          ${item.features.map(f => `<li>${f}</li>`).join('')}
+          ${(item.features || []).map(f => `<li>${f}</li>`).join('')}
         </ul>
       </div>
 

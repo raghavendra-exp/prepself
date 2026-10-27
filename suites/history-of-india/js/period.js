@@ -62,13 +62,19 @@ async function renderPeriodPage(){
         </div>
 
         <aside>
-          <div class="upsc-panel upsc-only" style="margin-bottom:24px;">
-            <h4>UPSC Prelims Facts</h4>
+          <div class="upsc-panel" style="margin-bottom:24px;">
+            <h4>🎯 High-Yield Prelims Exam Facts</h4>
             <ul id="upscPrelims"></ul>
+            <div style="margin-top:14px; text-align:center;">
+              <a href="practice.html?category=${period.category}" class="btn btn-primary btn-sm" style="display:inline-block; width:100%; text-decoration:none;">🎯 Practice Prelims Questions →</a>
+            </div>
           </div>
-          <div class="upsc-panel upsc-only" style="margin-bottom:24px; border-color:var(--accent); background:var(--accent-tint);">
-            <h4 style="color:var(--accent-strong);">UPSC Mains Themes</h4>
+          <div class="upsc-panel" style="margin-bottom:24px; border-color:var(--accent); background:var(--accent-tint);">
+            <h4 style="color:var(--accent-strong);">📝 Mains Analytical Frameworks</h4>
             <ul id="upscMains"></ul>
+            <div style="margin-top:14px; text-align:center;">
+              <a href="syllabus.html" class="btn btn-outline btn-sm" style="display:inline-block; width:100%; text-decoration:none;">📋 Complete Syllabus Blueprint →</a>
+            </div>
           </div>
 
           <h3>Quick Facts</h3>

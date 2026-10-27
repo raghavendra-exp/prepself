@@ -9068,5 +9068,1618 @@
       "conclusion": "The 21st-century global consensus has gravitated toward a calibrated synthesis: harnessing the productive power of competitive markets while embedding robust social-democratic public investments to protect human dignity and planetary boundaries.",
       "diagramMapIdea": "Comparative triangle diagram linking Capitalism (Market Efficiency), Communism (State Equality), and Democratic Socialism (Balance of Liberty & Welfare)."
     }
+  },
+  {
+    "id": "mains-pn-001",
+    "question": "Lord Dalhousie is celebrated by imperial historians as the 'maker of modern India' but regarded by nationalists as the aggressive liquidator of Indian sovereignty. Critically examine his policies and dual legacy.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Pratik Nayak HFS5P4; B.L. Grover, Ch. 12; Spectrum Modern India",
+    "framework": {
+      "intro": "Lord Dalhousie (Governor-General 1848–1856) occupies a paradoxically dual position in Indian historiography: as an energetic utilitarian modernizer who introduced railways, telegraphs, and postal systems, and as an aggressive imperial expansionist whose Doctrine of Lapse and annexationist drive dismantled native sovereignty and provoked the explosion of 1857.",
+      "body": [
+        {
+          "heading": "The Expansionist Destroyer of Sovereignty",
+          "points": [
+            "Doctrine of Lapse: Denied the traditional Hindu right of adopted heirs to inherit governance in subordinate states, annexing Satara (1848), Sambalpur (1849), Jhansi (1853), and Nagpur (1854).",
+            "Military Conquests: Annexed Punjab after the 2nd Anglo-Sikh War (1849) and Lower Burma (Pegu) after the 2nd Burmese War (1852).",
+            "Annexation of Awadh (1856): Deposed Nawab Wajid Ali Shah on the subjective pretext of 'misgovernance' based on Outram's report, alienating the Company's sepoy army (sepoys in Awadh were called 'peasants in uniform').",
+            "Abolition of Titles & Pensions: Withdrew titles and pensions of Nana Sahib (adopted son of Peshwa Baji Rao II), the Nawab of Carnatic, and the Raja of Tanjore, creating deep discontent among traditional elites."
+          ]
+        },
+        {
+          "heading": "The Utilitarian 'Maker of Modern India' & Imperial Infrastructure",
+          "points": [
+            "Railway Revolution: Authored the landmark Railway Minute of 1853; opened the first railway line from Bombay to Thane (1853), accelerating commercial integration.",
+            "Electric Telegraph & Postal System: Laid over 4,000 miles of telegraph lines under O'Shaughnessy; passed the Post Office Act of 1854 introducing uniform 2-pice postage across India.",
+            "Public Works Department (PWD): Established a separate central and provincial PWD, undertaking construction of the Grand Trunk Road and the Ganges Canal (opened 1854 under Proby Cautley).",
+            "Social & Educational Reforms: Enacted the Hindu Widows' Remarriage Act (1856) championed by Ishwar Chandra Vidyasagar; implemented Wood's Educational Despatch (1854) laying the architecture for Indian university education."
+          ]
+        },
+        {
+          "heading": "Historiographical Critique & Dual Purpose",
+          "points": [
+            "Marxist & Nationalist Critique: Modernizing infrastructure was designed to serve British metropolitan capitalism — extracting raw materials, opening markets for Manchester textiles, and enabling rapid troop mobility.",
+            "Direct Catalyst to 1857: His ruthless disregard for native political treaties and religious sensibilities directly ignited the widespread civil, peasant, and military rebellion of 1857."
+          ]
+        }
+      ],
+      "conclusion": "Dalhousie did not build modern institutions for the welfare of Indians, but to forge an integrated, administratively coherent British imperial apparatus. In doing so, he ironically forged the material and communicative infrastructure that enabled Indians to build a unified nationwide anti-colonial national movement.",
+      "diagramMapIdea": "Dual Flowchart: Left column showing Annexationist Policies (Doctrine of Lapse, Awadh) leading to 1857; Right column showing Infrastructure Modernization (Railways, Telegraph, PWD, Wood's Despatch) leading to National Unification."
+    }
+  },
+  {
+    "id": "mains-pn-002",
+    "question": "Analyze the 'Safety Valve' theory regarding the origin of the Indian National Congress. How does modern historiography refute this myth in favor of the 'Lightning Conductor' perspective?",
+    "marks": 10,
+    "wordLimit": 150,
+    "bookRef": "Pratik Nayak HFS7P1; Bipan Chandra, Ch. 4; B.L. Grover",
+    "framework": {
+      "intro": "The foundation of the Indian National Congress (INC) in December 1885 at Bombay has been the subject of intense historiographical debate, centered on whether it was a British-engineered 'Safety Valve' to preempt peasant rebellion or the conscious culmination of nascent Indian political consciousness.",
+      "body": [
+        {
+          "heading": "The 'Safety Valve' Myth & Its Proponents",
+          "points": [
+            "Origin of the Theory: Propounded by Extremist leader Lala Lajpat Rai (1916) in 'Young India' and Marxist historian R. Palme Dutt ('India Today').",
+            "The Argument: Claimed that retired British civil servant Allan Octavian Hume acted as a tool of Viceroy Lord Dufferin to create a harmless debating forum that would vent boiling Indian peasant discontent, purportedly documented in seven secret CID volume reports.",
+            "Flaws in the Theory: Modern archival research by Bipan Chandra revealed that Dufferin had never sanctioned Hume's political scheme, and the mysterious 'seven volumes of secret police reports' existed nowhere in the official archives."
+          ]
+        },
+        {
+          "heading": "The 'Lightning Conductor' Reality of Early Nationalists",
+          "points": [
+            "Gokhale's Clarification: Gopal Krishna Gokhale remarked in 1913 that if an Indian had initiated an all-India political movement in 1885, the colonial state would have suppressed it instantly; Hume was consciously utilized as a 'lightning conductor' to deflect imperial hostility.",
+            "Dufferin's Rapid Estrangement: Within three years, Dufferin grew openly hostile, ridiculing the Congress at the 1888 St. Andrew's Day dinner as a 'microscopic minority' of babus and barring government servants from attending."
+          ]
+        }
+      ],
+      "conclusion": "The INC was not the conspiratorial byproduct of British statecraft but the natural convergence of earlier political associations (Indian Association, Poona Sarvajanik Sabha, Madras Mahajana Sabha). Hume was the catalyst, but Indian political maturity was the substance.",
+      "diagramMapIdea": "Comparative Diagram: Left side 'Safety Valve Myth' (British Bureaucracy -> Hume -> Congress -> Dissipation of Peasant Anger); Right side 'Lightning Conductor Reality' (Pre-Congress Associations -> Nationalist Leaders using Hume to deflect State Wrath -> All-India Organization)."
+    }
+  },
+  {
+    "id": "mains-pn-003",
+    "question": "Examine the economic critique of British rule propounded by early nationalists. How did the 'Drain of Wealth' theory awaken national consciousness and dismantle the moral legitimacy of the colonial Raj?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Pratik Nayak HFS4P1; Dadabhai Naoroji; Bipan Chandra, Ch. 7",
+    "framework": {
+      "intro": "The early Moderate nationalists (1885–1905), led by Dadabhai Naoroji, Romesh Chunder Dutt, M.G. Ranade, and G.V. Joshi, pioneered a devastating, statistically grounded economic critique of British colonialism. By formulating the 'Drain of Wealth' theory, they laid the intellectual foundation of modern Indian anti-imperialist nationalism.",
+      "body": [
+        {
+          "heading": "Conceptual Architecture of the 'Drain of Wealth'",
+          "points": [
+            "Dadabhai Naoroji's Formulation: In 'Poverty and Un-British Rule in India' (1867 paper 'England's Debt to India'), Naoroji conceptualized the drain as the unrequited export of India's national product for which India received no financial or economic returns.",
+            "Components of the Drain: Home Charges (salaries/pensions of India Office officials, interest on public debt, guaranteed 5% return on railways), remittance of private profits by British merchants, and foreign military expenditure.",
+            "R.C. Dutt's Agrarian Analysis: In 'Economic History of India', Dutt calculated that over one-third of India's annual net revenues flowed out to Britain, bleeding India's capital formation dry.",
+            "Mechanisms of Impoverishment: The drain prevented internal capital reinvestment, destroyed indigenous handicraft industries (de-industrialization), forced commercialization of agriculture, and precipitated catastrophic recurring famines."
+          ]
+        },
+        {
+          "heading": "Political Impact: Awakening National Consciousness",
+          "points": [
+            "Dismantling the 'Benevolent Despotism' Myth: The British claimed their rule was bringing civilizing peace, good governance, and development. The economic critique exposed that the Raj was fundamentally an extractive colonial vampire ('bleeding India white').",
+            "Unifying Pan-Indian Sentiment: Economic exploitation affected peasants, artisans, middle classes, and native merchants alike, providing an all-India material commonality that transcended caste, religious, and linguistic fault lines.",
+            "Shifting Nationalist Demands: Transformed politics from early piecemeal petitions into structural demands for fiscal autonomy, protectionist tariffs, and Swaraj (self-rule declared by Naoroji at Calcutta in 1906)."
+          ]
+        }
+      ],
+      "conclusion": "The economic critique was the early nationalists' greatest contribution. Though the Moderates lacked a mass agitation strategy, their economic exposure destroyed the moral hegemony of the British Raj and provided the ideological ammunition for the Gandhian mass movements that followed.",
+      "diagramMapIdea": "Concentric Flowchart: Central Hub 'Indian Agrarian & Craft Production' -> Three Drainage Pipes (Home Charges, Guaranteed Railway Interest, Commodity Surplus) -> Outflow to London Metropolis -> Consequence Hub (Pauperization, Famines, De-industrialization) -> Catalyst to National Awaking."
+    }
+  },
+  {
+    "id": "mains-pn-004",
+    "question": "Compare and contrast the ideological orientations, operational methods, and social base of Revolutionary Terrorism in Phase I (1907–1917) and Revolutionary Socialism in Phase II (1920s–1930s).",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Pratik Nayak HFS10P2; B.L. Grover; Bipan Chandra, Ch. 12 & 20",
+    "framework": {
+      "intro": "The Indian revolutionary movement erupted in two distinct temporal waves: Phase I (1907–1917) following the partition of Bengal, and Phase II (1920s–1930s) following the suspension of the Non-Cooperation Movement. While both shared supreme patriotism and self-sacrifice, they differed fundamentally in ideology, social program, and operational strategy.",
+      "body": [
+        {
+          "heading": "Ideological Divergence: Revivalist Patriotism vs. Scientific Socialism",
+          "points": [
+            "Phase I Ideology: Strongly influenced by religious nationalism and heroic self-immolation. Secret societies (Anushilan Samiti, Abhinav Bharat) drew inspiration from the Bhagavad Gita, Bankim Chandra's Anandamath, and Kali worship, occasionally alienating non-Hindu minorities.",
+            "Phase II Ideology: Embraced Marxist-Leninist scientific socialism, working-class solidarity, and internationalism. Bhagat Singh's essay 'Why I Am an Atheist' (1930) broke decisively with religious symbolism. HRA was renamed HSRA (1928) to declare the goal of ending all forms of human exploitation (man by man, nation by nation)."
+          ]
+        },
+        {
+          "heading": "Operational Strategy: Individual Assassination vs. Mass Consciousness",
+          "points": [
+            "Phase I Methods: Secret conspiracies, bomb manufacturing, targeted assassination of oppressive British officials (Kingsford, Curzon Wyllie, Jackson), and dacoities (Swadeshi dacoities) to fund weapons; overseas international ties (Ghadar Party in US/Canada, Berlin Committee).",
+            "Phase II Methods: Propagandist actions designed to awaken the masses. Central Assembly Bombing (1929) used harmless smoke bombs and leaflets 'to make the deaf hear'. Court trials were utilized as national political rostrums to propagate socialist manifestos. Mass mobilization of youth, workers, and peasants through organizations like the Naujawan Bharat Sabha and Kirti Kisan Party."
+          ]
+        },
+        {
+          "heading": "Role of Women Revolutionaries",
+          "points": [
+            "Phase I: Women largely played auxiliary roles (sheltering absconders, carrying secret couriers, e.g., Sarala Devi Chaudhurani, Madam Bhikaji Cama).",
+            "Phase II: Women actively participated in direct combat and guerrilla raids (Pritilata Waddedar leading the Pahartali Club raid, Kalpana Datta, Bina Das shooting Governor Jackson, Suniti Choudhury and Santi Ghosh)."
+          ]
+        }
+      ],
+      "conclusion": "Phase I demonstrated that Indians were prepared to die for freedom, shattering the myth of passive submissiveness; Phase II infused the national consciousness with a vision of sovereign socio-economic equality, fundamentally shaping the socialist orientation of the post-independence Indian Republic.",
+      "diagramMapIdea": "Comparative Table Matrix contrasting Phase I vs Phase II across: Ideology (Religious Nationalism vs Scientific Socialism), Primary Target (Tyrannical Officials vs Imperialist System), Role of Religion, Role of Women, and Mass Outreach."
+    }
+  },
+  {
+    "id": "mains-pn-005",
+    "question": "Discuss the strategy of the Swarajists within the Indian National Congress. Were they mere constitutional obstructionists, or did they effectively bridge the political vacuum between mass movements?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Pratik Nayak HFS10P1; Bipan Chandra, Ch. 19; Spectrum Modern India",
+    "framework": {
+      "intro": "Following Mahatma Gandhi's sudden withdrawal of the Non-Cooperation Movement in February 1922 and his subsequent imprisonment, the nationalist movement faced acute demoralization and a political vacuum. In this context, C.R. Das and Motilal Nehru formed the Congress-Khilafat Swarajya Party (1923) to carry the struggle into legislative councils.",
+      "body": [
+        {
+          "heading": "The Swarajist Rationale: 'End or Mend' the Councils",
+          "points": [
+            "Boycott of Boycott: Swarajists argued that council boycott during an ebb of mass movement allowed loyalist and communal elements to capture legislative power unchallenged.",
+            "Wrecking from Within: Proposed entering the councils under the 1919 Act to throw out budgets, obstruct reactionary bills, expose the sham nature of dyarchy, and transform councils into rostrums of anti-colonial agitation."
+          ]
+        },
+        {
+          "heading": "Major Achievements of the Swaraj Party",
+          "points": [
+            "Legislative Deadlocks: Repeatedly outvoted the government on budget demands, rejected repressive bills (Public Safety Bill), and appointed the Muddiman Committee (1924) to expose dyarchy's administrative failures.",
+            "Symbolic Parliamentary Triumph: Elected Vithalbhai J. Patel as the first Indian President (Speaker) of the Central Legislative Assembly in 1925, asserting parliamentary dignity.",
+            "Keeping National Agitation Alive: Kept public enthusiasm, press debate, and political confrontation burning at a time when the masses were exhausted and incapable of immediate civil disobedience."
+          ]
+        },
+        {
+          "heading": "Inherent Limitations & Degeneration",
+          "points": [
+            "Inability to Sustain Total Obstruction: Parliamentary rules and bureaucratic vetoes limited disruption; without an active mass movement outside, parliamentary politics became an end in itself.",
+            "Rise of Responsivism: Internal splits emerged with leaders like N.C. Kelkar, M.R. Jayakar, and Madan Mohan Malaviya forming the Responsivist faction to accept government offices and defend Hindu communal interests."
+          ]
+        }
+      ],
+      "conclusion": "The Swarajists were far more than obstructionists; they functioned as an indispensable tactical rearguard. By carrying the anti-colonial banner into the legislative arena, they prevented apathy, sustained political momentum, and paved the way for the radical resurgence of the Simon Commission boycott and Civil Disobedience.",
+      "diagramMapIdea": "Cycle Diagram showing: Ebb of Mass Struggle (1922) -> Political Vacuum -> Swarajist Council Entry Strategy -> Exposing Dyarchy & Defeating Official Bills -> Sustaining Momentum until Simon Commission Boycott (1927) & Purna Swaraj."
+    }
+  },
+  {
+    "id": "mains-pn-006",
+    "question": "The Karachi Resolution of 1931 was a defining milestone that transitioned the Indian national movement from a purely political struggle for transfer of power into a radical socio-economic program. Elaborate.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Pratik Nayak HFS10P4; B.L. Grover; Bipan Chandra, Ch. 22",
+    "framework": {
+      "intro": "The Karachi Session of the Indian National Congress (March 1931), presided over by Sardar Vallabhbhai Patel in the immediate shadow of Bhagat Singh's martyrdom and the Gandhi-Irwin Pact, is universally acknowledged as the ideological watershed of modern Indian constitutionalism, articulating for the first time what 'Swaraj' would mean for the starving millions.",
+      "body": [
+        {
+          "heading": "Socio-Economic Commitments of the Karachi Resolution",
+          "points": [
+            "Pioneered by Jawaharlal Nehru: Drafted by Nehru in consultation with Gandhi, the Resolution on Fundamental Rights and Economic Programme gave concrete socio-economic flesh to political independence.",
+            "Charter of Fundamental Rights: Free speech, free press, freedom of assembly, universal adult franchise, equality before law irrespective of caste, creed, or sex, and religious neutrality of the State (secularism).",
+            "Labor Rights & Welfare: Legal protection of trade unions, living wages, limitation of working hours, healthy working conditions, abolition of child labor, and state protection against old age and unemployment.",
+            "Agrarian Relief: Substantial reduction in land revenue and agricultural rent, exemption of uneconomic holdings from rent, abolition of feudal levies, and relief from rural agricultural indebtedness."
+          ]
+        },
+        {
+          "heading": "Economic Vision & Foundation of Independent India's Constitution",
+          "points": [
+            "State Ownership of Key Resources: Mandated that the state shall own or control key industries, mines, railways, waterways, shipping, and mineral resources (laying the blueprint for the post-1947 Mixed Economy and Five-Year Plans).",
+            "Precursor to the Indian Constitution: The Karachi Resolution formed the direct foundational draft for both Part III (Fundamental Rights) and Part IV (Directive Principles of State Policy) of the Constitution of India."
+          ]
+        }
+      ],
+      "conclusion": "Karachi 1931 redefined the freedom struggle from a transfer-of-power arrangement between British and Indian elites into a transformative social contract. It assured peasants and workers that Swaraj would mean the eradication of hunger, inequality, and exploitation.",
+      "diagramMapIdea": "Mind Map connecting 'Karachi Resolution 1931' to three pillars: Civil Liberties (Part III Fundamental Rights), Agrarian/Labor Welfare (Part IV Directive Principles), and State Economic Control (Mixed Economy & Planning Commission)."
+    }
+  },
+  {
+    "id": "mains-pn-007",
+    "question": "Why did the nationwide rebellion of 1857 fail to overthrow British power, whereas the Quit India Movement of 1942, despite the arrest of its top leadership within hours, shattered the foundations of the colonial state?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Pratik Nayak HFS6P2 & HFS11P1; B.L. Grover; Bipan Chandra",
+    "framework": {
+      "intro": "Both the Revolt of 1857 and the Quit India Movement of 1942 represented monumental, spontaneous mass uprisings that shook the British Empire to its core. Yet while 1857 was crushed by colonial military forces, 1942 inflicted an irreparable structural blow that compelled the British to depart within five years.",
+      "body": [
+        {
+          "heading": "Structural Weaknesses of 1857",
+          "points": [
+            "Lack of All-India Scope & Social Unity: Confined largely to North and Central India; Bengal, Bombay, Madras, and Punjab remained passive or actively assisted the British (Sikh and Gurkha regiments).",
+            "Traditional Backward-Looking Leadership: Led by deposed feudal princes and taluqdars looking backward to restore past feudal privileges, lacking a unified forward-looking socio-political vision.",
+            "Modern Intelligentsia's Alienation: The newly educated Indian middle class viewed the rebels as feudal reactionaries and supported the British, believing the Raj was modernizing India.",
+            "Military & Technological Asymmetry: Rebels were equipped with archaic weapons, lacked telegraph coordination, unified command, and logistical depth compared to British reinforcements."
+          ]
+        },
+        {
+          "heading": "Transformative Strengths of Quit India 1942",
+          "points": [
+            "Pan-Indian Nationalist Consciousness: Decades of Gandhian mass mobilization (Non-Cooperation, Civil Disobedience) had forged an irreversible all-India national consciousness across urban and rural masses.",
+            "Decentralized Organic Leadership: Operation Zero Hour arrested Gandhi and the Congress Working Committee overnight, but the masses took the initiative, operating under local leadership, socialist youth (Aruna Asaf Ali, JP, Lohia), and parallel governments (Ballia, Tamluk, Satara).",
+            "Erosion of the State's Coercive Loyalty: The police, civil bureaucracy, and Indian army began demonstrating sympathy for the nationalists, culminating in the 1946 INA trials and RIN Mutiny.",
+            "Global Geopolitical Weakness: Britain was economically ruined by World War II, international pressure from the US mounted, and post-war Britain lacked the military willpower or financial resources to hold 400 million hostile subjects by force."
+          ]
+        }
+      ],
+      "conclusion": "1857 was a heroic but fragmented revolt of a dying feudal order against an advancing colonial power; 1942 was the conscious, unstoppable rebellion of an awakened modern nation against a fatally weakened imperial master.",
+      "diagramMapIdea": "Comparative Flowchart contrasting 1857 (Feudal leadership, regional fragmentation, technological inferiority -> Military suppression) vs 1942 (Modern national consciousness, decentralized masses, post-WWII imperial exhaustion -> Transfer of power)."
+    }
+  },
+  {
+    "id": "mains-tod-001",
+    "question": "Col. James Tod's 'Annals and Antiquities of Rajasthan' immortalized the Rajput chivalric ethos, yet modern historians note the limitations of clan-based feudal polities. Critically analyze the nature of Rajput statecraft and resistance.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Col. James Tod, Annals and Antiquities of Rajasthan; Satish Chandra, Ch. 12; Upinder Singh",
+    "framework": {
+      "intro": "Lieut.-Col. James Tod's monumental work 'Annals and Antiquities of Rajasthan' (1829–1832) romanticized the Rajput clans as knights of chivalry, immortalizing the resistance of Mewar under Maharana Pratap against imperial hegemony. However, modern historical scholarship critically unpacks both the strengths of their martial ethos and the structural vulnerabilities of clan-based feudal statecraft.",
+      "body": [
+        {
+          "heading": "The Heroic Dimensions: Martial Ethos & Resistance",
+          "points": [
+            "Uncompromising Independence of Mewar: Under Bappa Rawal, Rana Kumbha, Rana Sanga, and Maharana Pratap, the Guhila-Sisodias maintained heroic resistance against Delhi Sultanate and Mughal dominance.",
+            "Rituals of Honor: The traditions of Jauhar (collective female self-immolation) and Saka (saffron death-charge) in sieges of Chittorgarh (1303, 1535, 1568) symbolized a cultural code that prioritized honor over subjugation.",
+            "Architectural & Defensive Masterpieces: Rana Kumbha's fortification of 32 hill forts (Kumbhalgarh's impenetrable 36-km wall, Chittor's Vijay Stambha) provided strategic depth against imperial cavalry."
+          ]
+        },
+        {
+          "heading": "Structural Vulnerabilities: Clan Fractures & Feudal Instability",
+          "points": [
+            "Clan Particularism: Rajput states were based on bloodline clans (Guhila, Rathore, Kachwaha, Chauhan) rather than a centralized territorial state. Intense inter-clan rivalry and blood feuds prevented the formation of a permanent unified Rajput confederacy.",
+            "Feudal Independence of Thakurs: The Patta land tenure granted near-autonomous power to feudal barons, weakening royal central authority and preventing cohesive military modernizations (such as infantry discipline and field artillery).",
+            "Mughal Integration vs. Rajput Disunity: Akbar capitalized on these fractures by offering mansabdari alliances to the Kachwahas of Amber, Rathores of Marwar, and Bhattis, isolating Mewar and deploying Rajput generals (Raja Man Singh) against fellow Rajputs (Maharana Pratap at Haldighati)."
+          ]
+        }
+      ],
+      "conclusion": "Tod's chronicle rightfully celebrated the unmatched individual valour and moral integrity of Rajput warriors. Yet their inability to transcend clan particularism and institutionalize modern bureaucratic and military structures ultimately rendered their feudal polities subordinate to centralized imperial powers.",
+      "diagramMapIdea": "Structural Matrix: Upper quadrant showing Martial Strengths (Heroic Chivalry, Mountain Fortresses, Mewar Ideology); Lower quadrant showing Feudal Flaws (Clan Rivalries, Decentralized Patta system, Lack of Artillery integration -> Imperial Vassalage)."
+    }
+  },
+  {
+    "id": "mains-har-001",
+    "question": "In his work 'Sapiens', Yuval Noah Harari characterizes the Agricultural Revolution as 'history's biggest fraud'. Evaluate this assessment in the context of the Neolithic transition in South Asia, drawing on archaeological evidence from Mehrgarh.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Yuval Noah Harari, Sapiens; Upinder Singh, Ch. 3; R.S. Sharma, Ch. 6",
+    "framework": {
+      "intro": "In 'Sapiens: A Brief History of Humankind', Yuval Noah Harari provokes conventional wisdom by describing the Agricultural Revolution (c. 10,000 BCE) as 'history's biggest fraud' — arguing that while it drastically expanded the collective biomass and population of Homo sapiens, it severely degraded the physical health, dietary variety, and individual liberty of the average farmer compared to the Paleolithic forager.",
+      "body": [
+        {
+          "heading": "The 'Fraud' Argument: Nutritional & Social Costs",
+          "points": [
+            "Monotonous Diet & Health Degradation: Foragers consumed dozens of diverse wild plants, berries, and game; early farmers subsisted predominantly on a single carbohydrate crop (wheat, barley, or rice), resulting in nutritional deficiencies, rickets, and tooth decay.",
+            "Back-breaking Repetitive Labor: Skeletal analysis of Neolithic populations demonstrates spinal degeneration, arthritis, and slipped discs caused by constant bending, tilling, weeding, and pestle-grinding.",
+            "Zoonotic Diseases & Vulnerability: Living in permanent crowded mud-brick settlements adjacent to domesticated livestock exposed humans to zoonotic epidemics (smallpox, tuberculosis, malaria), while monsoonal crop failures caused catastrophic famines.",
+            "Emergence of Inequality: Private ownership of land, granaries, and cattle generated rigid socio-economic stratification, patriarchy, and predatory ruling elites extracting surpluses from impoverished cultivators."
+          ]
+        },
+        {
+          "heading": "Archaeological Evidence from Mehrgarh (Balochistan)",
+          "points": [
+            "Earliest South Asian Neolithic (c. 7000 BCE): Excavations at Mehrgarh by Jarrige demonstrate the transition from hunting wild gazelle to domesticating humped cattle (Bos indicus), sheep, and cultivating six-row barley and einkorn wheat.",
+            "Technological Specialization: Multi-room mud-brick granaries, bone tools, ground-stone axes, and turquoise/steatite bead manufacture emerged, confirming permanent sedentism.",
+            "The Demographic Trade-off: Mehrgarh provided the economic surplus, demographic density, and craft specialization that made state formation and the subsequent urban flowering of the Indus Valley Civilization possible."
+          ]
+        }
+      ],
+      "conclusion": "While the Neolithic transition was an existential trap for the individual peasant, it was the non-negotiable springboard for human civilization. Without the agrarian surplus established at sites like Mehrgarh, complex societies, epigraphy, mathematics, philosophy, and cities could never have arisen.",
+      "diagramMapIdea": "Comparative Balance Sheet: Left Side 'Individual Costs' (Dietary Narrowing, Spinal Strain, Zoonotic Epidemics, Emergence of Inequality); Right Side 'Civilizational Gains' (Demographic Expansion, Permanent Granaries, Craft Specialization -> Indus Urbanization)."
+    }
+  },
+  {
+    "id": "mains-gan-001",
+    "question": "Distinguish between Mahatma Gandhi's concept of 'Satyagraha' and Western 'Passive Resistance'. How did Gandhi's constructive programme serve as the non-violent bedrock of moral nation-building?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "M.K. Gandhi, The Story of My Experiments with Truth; Bipan Chandra, Ch. 14; Pratik Nayak HFS9",
+    "framework": {
+      "intro": "In his autobiography 'The Story of My Experiments with Truth' and 'Satyagraha in South Africa', Mahatma Gandhi drew a fundamental, non-negotiable distinction between Western 'Passive Resistance' and his philosophy of 'Satyagraha' (Truth-Force). For Gandhi, political freedom (Swaraj) was meaningless without moral regeneration through the Constructive Programme.",
+      "body": [
+        {
+          "heading": "Philosophical Distinction: Satyagraha vs. Passive Resistance",
+          "points": [
+            "Moral Basis & Inner Motive: Passive resistance is a weapon of the weak that permits malice, internal hatred, and tactical violence if arms become available; Satyagraha is a weapon of the morally courageous based on absolute Ahimsa (non-violence) and love for the adversary.",
+            "Method of Conflict Resolution: Passive resistance aims to coerce or embarrass the opponent into surrender; Satyagraha aims to convert the conscience of the opponent through voluntary self-suffering (Tapasya).",
+            "Compromise and Truth: A Satyagrahi never compromises on truth or moral principles, yet is always ready for honorable dialogue, distinguishing between the evil system (which must be destroyed) and the evil-doer (who must be redeemed)."
+          ]
+        },
+        {
+          "heading": "The Constructive Programme: Bedrock of Mass Struggle",
+          "points": [
+            "Sustaining Energy During Truce Phases: In the 'Struggle-Truce-Struggle' (S-T-S) strategy of the Gandhian movement, mass civil disobedience could not continue indefinitely. The Constructive Programme mobilized millions during inactive phases.",
+            "Economic Decentralization (Khadi & Charkha): The spinning wheel was not merely cotton production, but economic independence from Manchester, self-reliance for impoverished rural households, and the physical symbol of national unity.",
+            "Social Reformation: Eradication of Untouchability (Harijan upliftment, temple entry) and Hindu-Muslim unity aimed to dismantle internal social hierarchies, preventing the colonial state from exploiting communal divisions.",
+            "Nai Talim (Basic Education): Promoted vocational, mother-tongue education rooted in rural handicrafts rather than colonial clerk-producing rote literacy."
+          ]
+        }
+      ],
+      "conclusion": "Satyagraha was not merely an anti-imperialist political tactic, but an ethical philosophy of living. The Constructive Programme ensured that while the national movement was fighting the British Raj outwardly, it was building an egalitarian, self-reliant, and spiritually resilient Indian nation inwardly.",
+      "diagramMapIdea": "Dual Pillar Diagram: Left Pillar 'Political Agitation' (Non-Cooperation, Civil Disobedience, Quit India); Right Pillar 'Constructive Programme' (Khadi, Removal of Untouchability, Communal Unity, Nai Talim); Both anchored on the Foundation of 'Satya & Ahimsa'."
+    }
+  },
+  {
+    "id": "mains-pn-008",
+    "question": "The Royal Indian Navy (RIN) Mutiny of February 1946 shattered the final military pillar of the British Raj. Evaluate its significance in the transfer of power.",
+    "marks": 10,
+    "wordLimit": 150,
+    "bookRef": "Pratik Nayak HFS12P1; B.L. Grover; Bipan Chandra, Ch. 36",
+    "framework": {
+      "intro": "On 18 February 1946, 1,100 naval ratings on HMIS Talwar in Bombay went on strike against racial discrimination, bad food, and the ongoing INA trials. Within 48 hours, the mutiny spread across 78 ships, 20 shore establishments, and 20,000 ratings in Bombay, Karachi, and Calcutta, signaling that the armed forces could no longer be relied upon to sustain colonial rule.",
+      "body": [
+        {
+          "heading": "Military & Popular Impact",
+          "points": [
+            "Communal & Cross-Service Solidarity: Ratings hoisted Congress tricolors, Muslim League crescents, and Red flags tied together on ship masts; strikes broke out among Royal Indian Air Force (RIAF) units and army signal corps.",
+            "Mass Working-Class Support: In Bombay, over 300,000 workers went on a general strike in solidarity; hundreds were shot by British troops on the barricades before Sardar Patel and Jinnah persuaded the naval strike committee to surrender on 23 February.",
+            "Demolition of Imperial Coercion: As Prime Minister Clement Attlee later acknowledged, when the Indian army, navy, and air force ceased to be obedient instruments of British repression, colonial rule became physically untenable."
+          ]
+        },
+        {
+          "heading": "Catalyst to Transfer of Power",
+          "points": [
+            "Dispatch of Cabinet Mission: The mutiny broke out on 18 February; on 19 February, Prime Minister Attlee announced the immediate dispatch of the Cabinet Mission to negotiate the transfer of power.",
+            "Advancing the Independence Timeline: Proved to the British Chiefs of Staff that holding India required massive British troop deployments that war-weary Britain could not afford."
+          ]
+        }
+      ],
+      "conclusion": "The RIN Mutiny was the final nail in the coffin of British imperial rule in India. It demonstrated that the sword of the Raj had broken in its own hands.",
+      "diagramMapIdea": "Impact Chain: HMIS Talwar Strike -> Multi-Fleet Spread -> Popular Working-Class Strikes -> Military Unreliability realized in Whitehall -> Cabinet Mission announcement (19 Feb 1946) -> Independence."
+    }
+  },
+  {
+    "id": "mains-pn-009",
+    "question": "Examine the role of parallel governments during the Quit India Movement of 1942, with special reference to Ballia, Tamluk, and Satara.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Pratik Nayak HFS11P1; Bipan Chandra, Ch. 35; Spectrum Modern India",
+    "framework": {
+      "intro": "The Quit India Movement of August 1942 reached its revolutionary peak in the establishment of 'Parallel Governments' (Prati Sarkar / Jatiya Sarkar) in rural strongholds where colonial authority was completely overthrown and popular sovereign institutions functioned for weeks and months.",
+      "body": [
+        {
+          "heading": "Ballia (Uttar Pradesh) — The Spontaneous Surge",
+          "points": [
+            "Chittu Pandey's Leadership: In August 1942, the populace overthrew British administration in Ballia, forced the District Magistrate to hand over authority, released all Congress prisoners, and proclaimed independent rule under Chittu Pandey ('Sher-e-Ballia') for a week before British troops reoccupied the town."
+          ]
+        },
+        {
+          "heading": "Tamluk (Midnapore, Bengal) — Jatiya Sarkar & Cyclone Relief",
+          "points": [
+            "Institutional Resilience: The Tamluk Jatiya Sarkar functioned from December 1942 to September 1944.",
+            "Vidyut Vahini & Martyrdom: Maintained an organized volunteer defense corps (Vidyut Vahini); 73-year-old Matangini Hazra was shot dead while holding the national flag high; ran people's arbitration courts and distributed grain during the catastrophic Bengal Famine of 1943."
+          ]
+        },
+        {
+          "heading": "Satara (Maharashtra) — Prati Sarkar & People's Courts",
+          "points": [
+            "Longest Lasting Parallel Government: Led by Nana Patil, Y.B. Chavan, and Kisan Veer, operating from mid-1943 to 1945.",
+            "Nyayadan Mandals: Set up village people's courts (Nyayadan Mandals) to resolve civil and criminal disputes without colonial police; penalized rapists and dacoits; organized grain banks and market price controls, gaining deep peasant loyalty."
+          ]
+        }
+      ],
+      "conclusion": "These parallel governments proved that ordinary Indian peasants were not merely capable of resisting foreign rule, but of organizing just, democratic, and welfare-oriented self-governance in the face of brutal state violence.",
+      "diagramMapIdea": "Comparative Regional Matrix: Ballia (Chittu Pandey - Spontaneous week-long seizure), Tamluk (Jatiya Sarkar - 2-year institutional governance, Vidyut Vahini, famine relief), Satara (Prati Sarkar - Nyayadan Mandals, Nana Patil, grain distribution)."
+    }
+  },
+  {
+    "id": "mains-wh-001",
+    "question": "The French Revolution dismantled the feudal structures of the Ancien Régime but unleashed unprecedented political terror. Discuss the transition from the Declaration of the Rights of Man to the Jacobin Dictatorship.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Pratik Nayak WH_Fr; Norman Lowe, Ch. 1; NCERT Class 9 World History",
+    "framework": {
+      "intro": "The French Revolution (1789) erupted with the universal promise of 'Liberty, Equality, Fraternity' encapsulated in the 1789 Declaration of the Rights of Man and of the Citizen. Yet within four years, revolutionary idealism descended into the draconian Jacobin Reign of Terror (1793–1794) under Maximilien Robespierre.",
+      "body": [
+        {
+          "heading": "The Idealistic Dawn: Abolition of Feudal Privileges",
+          "points": [
+            "August Decrees (1789): National Assembly dismantled feudalism, abolished tithes, and erased aristocratic tax exemptions.",
+            "Declaration of the Rights of Man (26 August 1789): Proclaimed inalienable rights to liberty, property, security, and resistance to oppression; declared that sovereignty resides essentially in the Nation."
+          ]
+        },
+        {
+          "heading": "Factors Fueling Radicalization and the Descent into Terror",
+          "points": [
+            "Foreign War & Counter-Revolution: The Declaration of Pillnitz and Austrian/Prussian invasion threatened the Revolution; King Louis XVI's treasonous Flight to Varennes destroyed monarchical credibility.",
+            "Internal Insurrection: Peasant royalist revolt in the Vendée and federalist uprisings in Lyon and Marseille threatened state collapse.",
+            "Economic Scarcity: Skyrocketing bread prices and depreciation of the Assignat currency radicalized the urban Sans-Culottes."
+          ]
+        },
+        {
+          "heading": "The Jacobin Dictatorship & Committee of Public Safety",
+          "points": [
+            "Maximilien Robespierre's 'Virtue and Terror': Instituted the Committee of Public Safety; passed the Law of Suspects (September 1793); over 40,000 people guillotined across France.",
+            "De-Christianization & Totalitarian Control: Established the Cult of the Supreme Being, revolutionary calendar, and fixed maximum grain prices (Law of the Maximum), alienating the peasantry.",
+            "Thermidorian Reaction: The Terror devoured its own children (Danton, Desmoulins), culminating in Robespierre's overthrow on 9 Thermidor (July 1794)."
+          ]
+        }
+      ],
+      "conclusion": "The French Revolution demonstrated the tragic peril of pursuing abstract virtue through tyrannical coercion. While the Terror perished with Robespierre, the foundational principles of 1789 survived to become the bedrock of modern global democracy.",
+      "diagramMapIdea": "Timeline Escalation Pipeline: Estates-General (May 1789) -> Bastille (July 1789) -> Rights of Man (Aug 1789) -> War & Flight to Varennes (1791-92) -> Execution of King (Jan 1793) -> Reign of Terror (1793-94) -> Thermidorian Reaction."
+    }
+  },
+  {
+    "id": "mains-wh-002",
+    "question": "Compare the constitutional provisions regarding executive governance and judicial review in the United States and India.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Pratik Nayak CmC_P1&2; Norman Lowe; Indian Polity by M. Laxmikanth",
+    "framework": {
+      "intro": "The United States and India represent the world's oldest and largest constitutional democracies. While India drew heavily from the American constitutional experience, its framers adapted key institutions to suit India's socio-cultural pluralism and historical imperatives.",
+      "body": [
+        {
+          "heading": "Executive Governance: Presidential vs. Parliamentary System",
+          "points": [
+            "United States (Presidential System): Strict Separation of Powers under Montesquieu's model; President is both Head of State and Head of Government, directly elected via Electoral College for a fixed 4-year term, and not accountable to Congress.",
+            "India (Parliamentary System): Fused executive and legislative branches; President is nominal/titular Head of State acting on the binding aid and advice of the Council of Ministers (Article 74) headed by the Prime Minister (real executive), who is collectively responsible to the Lok Sabha (Article 75)."
+          ]
+        },
+        {
+          "heading": "Judicial Review: Due Process vs. Procedure Established by Law",
+          "points": [
+            "American Model (Due Process of Law): Established in Marbury v. Madison (1803) and 5th/14th Amendments. Courts evaluate not only whether the legislature had procedural competence to pass a law, but whether the substantive content of the law is just, fair, and reasonable.",
+            "Indian Model (Procedure Established by Law -> Substantive Due Process): Originally drafted under Article 21 from the Japanese/British model ('Procedure Established by Law', A.K. Gopalan case 1950). However, through the landmark Maneka Gandhi case (1978), the Supreme Court integrated substantive Due Process, establishing that procedure must be 'right, just, and fair'."
+          ]
+        },
+        {
+          "heading": "Federal Structure Comparison",
+          "points": [
+            "US: An 'indestructible union of indestructible states'; states have their own constitutions, dual citizenship, and state boundaries cannot be altered without consent.",
+            "India: An 'indestructible union of destructible states' (Article 3 gives Parliament sole power to alter boundaries and create new states without state consent); single citizenship and unified integrated judiciary."
+          ]
+        }
+      ],
+      "conclusion": "The American Constitution prioritized individual liberty and strict separation of powers for a pioneer society, while the Indian Constitution prioritized responsible parliamentary governance and social transformation for a newly emerging republic.",
+      "diagramMapIdea": "Comparative 3-Column Table: Dimension (Executive, Judicial Review, Federal Nature), USA Model, and Indian Model."
+    }
+  },
+  {
+    "id": "mains-cult-001",
+    "question": "Trace the architectural and ideological evolution of rock-cut cave shrines in ancient India from the simple ascetic cells of Barabar to the elaborate multi-storeyed complexes of Ajanta and Ellora.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Ishani Pandya Compendium L1 & L2; A.L. Basham, Ch. 8; Upinder Singh, Ch. 7 & 9",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": true,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Indian rock-cut architecture represents a thousand-year journey of lithic mastery, evolving from the austere 3rd-century BCE Ajivika hermitages at Barabar into the grand Buddhist, Brahmanical, and Jain cavernous marvels of Ajanta and Ellora.",
+      "body": [
+        {
+          "heading": "Phase 1: Mauryan Origins & Wood-Imitative Lithic Architecture (3rd Century BCE)",
+          "points": [
+            "Barabar and Nagarjuni Caves (Bihar): Commissioned by Ashoka and Dasharatha for Ajivika ascetics; feature single rectangular chambers with circular domed sanctums (e.g., Sudama Cave).",
+            "Lomas Rishi Cave façade: Earliest imitation of timber vaulted architecture in stone, featuring an ogee Chaitya horseshoe arch and decorative elephant friezes with mirror-like Mauryan polish."
+          ]
+        },
+        {
+          "heading": "Phase 2: Early Hinayana Buddhist Shrines (2nd Century BCE – 2nd Century CE)",
+          "points": [
+            "Western Ghats (Bhaja, Karle, Bedse, early Ajanta): Monks adapted Western Deccan basalt cliffs along trade routes into Chaitya-grihas (pillared congregational halls with barrel vaults) and Viharas (residential cells surrounding a central court).",
+            "Aniconic symbolism: Central object of veneration was an unadorned rock-hewn Stupa symbolizing the Mahaparinirvana of Gautama Buddha."
+          ]
+        },
+        {
+          "heading": "Phase 3: Mahayana Transformation & Ajanta Murals (5th Century CE)",
+          "points": [
+            "Iconic shift: Under Vakataka patronage (Harishena), the Stupa integrated a colossal seated image of Buddha in the sanctum (e.g., Ajanta Cave 19 and 26).",
+            "Synthesis of Architecture and Painting: Caves became artistic showcases with Tempera murals depicting Jataka tales, Bodhisattvas (Padmapani, Vajrapani), and court life."
+          ]
+        },
+        {
+          "heading": "Phase 4: Climax of Multi-Religious Monoliths at Ellora (6th – 10th Century CE)",
+          "points": [
+            "Pluralistic ecumenism: 34 caves encompassing Buddhist (1–12), Hindu (13–29), and Jain (30–34) shrines carved side-by-side along the Charanandri hills.",
+            "Kailash Temple (Cave 16): Zenith of rock-cut architecture under Rashtrakuta Krishna I; a complete two-storeyed Dravidian temple carved vertically from top to bottom out of a single basalt cliff face."
+          ]
+        }
+      ],
+      "conclusion": "Rock-cut architecture transformed raw cliff faces into sacred civilizational landscapes, transitioning from imitating perishable timber prototypes to commanding monumental freestanding structural expression in living stone.",
+      "diagramMapIdea": "Evolutionary Flowchart: Barabar (Ascetic Cell) -> Karle (Hinayana Stupa Chaitya) -> Ajanta (Mahayana Buddha Icon + Murals) -> Ellora Kailash (Monolithic Dravida Temple)."
+    }
+  },
+  {
+    "id": "mains-cult-002",
+    "question": "Critically analyze the stylistic, ideological, and material distinctions among the Gandhara, Mathura, and Amaravati schools of sculpture. How did they reflect the regional cultural milieus of post-Mauryan India?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Ishani Pandya Compendium L1; Nitin Singhania, Ch. 2; Upinder Singh, Ch. 8",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": true,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "The post-Mauryan era (c. 2nd century BCE – 3rd century CE) witnessed an unprecedented sculptural renaissance, as Gandhara, Mathura, and Amaravati pioneered the visual anthropomorphic transition from aniconic symbols to magnificent divine iconographies.",
+      "body": [
+        {
+          "heading": "Materiality & Geographic Settings",
+          "points": [
+            "Gandhara (Peshawar, Taxila, Swat): Utilized grey-blue schist stone, green phyllite, and later stucco, situated at the crossroads of the Silk Route.",
+            "Mathura (Yamuna basin, UP): Sculpted purely from indigenous spotted red sandstone from Sikri.",
+            "Amaravati (Krishna-Godavari delta, AP): Used gleaming white crystalline limestone (Palnad marble) along fertile maritime trade arteries."
+          ]
+        },
+        {
+          "heading": "Aesthetic Style & Foreign Influences",
+          "points": [
+            "Gandhara (Greco-Roman Synthesis): Apollo-like facial idealism, heavy drapery folds resembling Roman togas, wavy curly hair, sharp facial contours, and anatomically precise musculature.",
+            "Mathura (Indigenous Sensibility): Earthy, robust masculinity, clinging transparent muslin drapery, round energetic face with smiling expression, raised right hand in Abhaya Mudra, and seated on a lion throne.",
+            "Amaravati (Dynamic Narrative Vitality): Emphasized narrative panels filled with lively crowd scenes, ecstatic postures, graceful Tribhanga curves, and deep psychological emotion rather than isolated iconic statues."
+          ]
+        },
+        {
+          "heading": "Religious Ideology & Patronage",
+          "points": [
+            "Gandhara: Exclusively Mahayana Buddhist, patronized primarily by Kushana rulers (Kanishka) and wealthy Silk Route merchants.",
+            "Mathura: Eclectic and pluralistic; pioneered images of the Buddha, Jinas (Ayagapatas), and Hindu deities (Vishnu, Shiva lingas, Surya, Kartikeya) under Kushana patronage.",
+            "Amaravati: Predominantly Hinayana and Mahayana Buddhist stupa reliefs, patronized by Satavahana and Ikshvaku rulers, royal ladies, and merchant guilds (Nigamas)."
+          ]
+        }
+      ],
+      "conclusion": "While Gandhara mirrored the cosmopolitan Indo-Greek frontier and Amaravati expressed the sensuous maritime ethos of the Deccan, Mathura served as the indigenous fountainhead that defined the pan-Indian classical aesthetic of the Gupta golden age.",
+      "diagramMapIdea": "Comparative 4-Column Table: Dimension, Gandhara School, Mathura School, Amaravati School."
+    }
+  },
+  {
+    "id": "mains-cult-003",
+    "question": "Examine the developmental trajectory of South Indian temple architecture from the rock-cut monolithic rathas of the Pallavas to the architectural grandeur of the Imperial Cholas and Vijayanagara rayagopurams.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Ishani Pandya Compendium L2; A.L. Basham, Ch. 8; Satish Chandra, Ch. 2",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": true,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Dravidian temple architecture embodies a spectacular thousand-year evolutionary continuity, progressing from early Pallava rock-cut experiments to the soaring imperial Vimanas of the Cholas and the colossal fortified urban temple complexes of Vijayanagara.",
+      "body": [
+        {
+          "heading": "The Pallava Foundation: Rock-cut to Structural Transition (600–900 CE)",
+          "points": [
+            "Mahendra Style: Excavated pillared rock-cut mandapas with simple dwarapala guardians.",
+            "Mamalla Style: Monolithic freestanding Pancha Pandava Rathas at Mahabalipuram, showcasing varied roof designs (Dharmaraja ratha's stepped pyramid, Bhima ratha's wagon vault).",
+            "Rajasimha Style: Birth of structural masonry temples, exemplified by the Shore Temple at Mahabalipuram and Kailasanathar Temple at Kanchipuram with nascent enclosure walls."
+          ]
+        },
+        {
+          "heading": "The Imperial Chola Zenith: The Monumental Vimana (900–1200 CE)",
+          "points": [
+            "Brihadisvara Temple, Thanjavur (1010 CE): Rajaraja I elevated the Dravida style to unprecedented heights with a 66-meter high pyramidal Vimana dominating the complex, crowned by an 80-tonne monolithic granite cupola.",
+            "Architectural features: Focus remained exclusively on the sanctum Vimana; entry gopurams were subordinate in height; temples functioned as multi-functional economic centers owning land, hiring artisans, and maintaining devadasis."
+          ]
+        },
+        {
+          "heading": "Pandya Shift to Gopurams (1150–1350 CE)",
+          "points": [
+            "Inversion of scale: As temples were repeatedly expanded with concentric enclosure walls (prakaras), the outer entrance gateways (Gopurams) grew taller than the interior Vimana."
+          ]
+        },
+        {
+          "heading": "Vijayanagara Imperial Grandeur (1336–1646 CE)",
+          "points": [
+            "Colossal Rayagopurams: Towering entrance gateways rising up to 11 storeys with terracotta stucco figures, visible across miles.",
+            "Kalyana Mandapa & Yali Pillars: Ornate marriage pavilions featuring monolithic granite pillars carved with rearing mythical hippogryphs (Yalis) and rider warriors (e.g., Vittala Temple at Hampi).",
+            "Unique shrines: Monolithic stone chariot shrines, sacred water tanks, and musical pillars."
+          ]
+        }
+      ],
+      "conclusion": "The evolution of Dravidian architecture mirrors the shift in political authority: the temple evolved from a quiet royal sanctuary under the Pallavas into a colossal cosmos of sacred civic authority under the Cholas and Vijayanagara emperors.",
+      "diagramMapIdea": "Schematic Section of Dravidian Temple Evolution: Pallava Ratha -> Chola High Vimana (Brihadisvara) -> Vijayanagara Towering Raya-Gopuram & Kalyana Mandapa."
+    }
+  },
+  {
+    "id": "mains-cult-004",
+    "question": "Analyze how Mughal miniature painting synthesized Persian artistic traditions with indigenous Indian sensibilities, and examine how its thematic focus shifted under Akbar, Jahangir, and Shah Jahan.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Ishani Pandya Compendium L3; Satish Chandra, Ch. 13; Nitin Singhania, Ch. 5",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": false,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Mughal miniature painting was not a mere provincial transplant of Persian art, but a vibrant cultural synthesis that harmonized Safavid Persian two-dimensional decorative refinement with the dynamic realism, rich palette, and emotional warmth of indigenous Indian traditions.",
+      "body": [
+        {
+          "heading": "The Indo-Persian Synthesis",
+          "points": [
+            "Humayun's initiative: Brought Persian masters Mir Sayyid Ali and Abdus Samad from Shah Tahmasp's Safavid court to Delhi.",
+            "Indianization in Akbar's Tasvir Khana: Over 80% of royal painters (Daswanth, Basawan, Kesu) were indigenous Hindus from Gujarat, Gwalior, and Kashmir. They infused Persian arabesque with Indian flora/fauna, dynamic movement, and realistic Indian skin tones.",
+            "Collaborative manuscript enterprise: Monumental projects like the Hamzanama (cloth folios) and Razmnama (Persian Mahabharata) synthesized epic narrative action with vibrant Indian ochres, lapis lazuli, and peacocks."
+          ]
+        },
+        {
+          "heading": "Shift Under Akbar (1556–1605): Epic Dynamism & Statecraft",
+          "points": [
+            "Multi-figured battle scenes, court pageantry, hunting expeditions, and historical chronicles (Akbarnama).",
+            "High physical energy, crowded compositions, and bird's-eye perspective depicting imperial vitality."
+          ]
+        },
+        {
+          "heading": "Shift Under Jahangir (1605–1627): Scientific Naturalism & Portraiture",
+          "points": [
+            "Dissolution of mass workshops in favor of individual master artists (Ustad Mansur, Abul Hasan, Bishandas).",
+            "Keen scientific observation: Detailed biological studies of exotic birds (Siberian crane, dodo) and flora.",
+            "Western contact: Introduction of European perspective, cherubs, and golden halos around the Emperor."
+          ]
+        },
+        {
+          "heading": "Shift Under Shah Jahan (1628–1658): Imperial Formalism & Grandeur",
+          "points": [
+            "Shift from emotional naturalism to static ceremonial grandeur and symmetrical court durbars.",
+            "Extensive use of burnished gold leaf, luminous lapis borders, and jewel-like refinement, mirroring the aesthetic of the Taj Mahal."
+          ]
+        }
+      ],
+      "conclusion": "Mughal painting served as a visual manifestation of composite culture (Ganga-Jamuni Tehzeeb), whose techniques subsequently cross-fertilized regional Rajasthani and Pahari schools across northern India.",
+      "diagramMapIdea": "Comparative Timeline: Akbar (Narrative Action & Hamzanama) -> Jahangir (Naturalism & Ustad Mansur) -> Shah Jahan (Imperial Durbar & Gold Burnish)."
+    }
+  },
+  {
+    "id": "mains-cult-005",
+    "question": "Indian puppetry is not merely an ancient theatrical art but a profound medium of oral historiography and community moral education. Elucidate the four primary puppetry traditions of India and discuss the modern threats to their survival.",
+    "marks": 10,
+    "wordLimit": 150,
+    "bookRef": "Ishani Pandya Compendium L3; Nitin Singhania, Ch. 8",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": false,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Mentioned in the Mahabharata and the 2nd-century CE Tamil epic Silappadikaram, puppetry (Kattabommalattam) is one of India's oldest performing arts, synthesizing storytelling, sculpture, music, and community philosophy.",
+      "body": [
+        {
+          "heading": "The Four Primary Typologies of Indian Puppetry",
+          "points": [
+            "String Puppets: Kathputli (Rajasthan) — legless wooden figures with pleated skirts and boli reeds; Kundhei (Odisha); Gombeyatta (Karnataka) mimicking Yakshagana costumes.",
+            "Shadow Puppets: Togalu Gombeyaatta (Karnataka); Tholu Bommalata (Andhra Pradesh) using large translucent leather figures; Ravanachhaya (Odisha) casting uncolored deer skin silhouettes.",
+            "Rod Puppets: Putul Nach (West Bengal) using jointed wooden arms operated by bamboo rods; Yampuri (Bihar) depicting Yama's court.",
+            "Glove Puppets: Pavakoothu (Kerala) featuring miniature Kathakali costumes and character types."
+          ]
+        },
+        {
+          "heading": "Contemporary Threats & Preservation Imperatives",
+          "points": [
+            "Digital diversion: Competition from digital television, cinema, and social media eroding rural audiences.",
+            "Economic precariousness: Traditional puppeteer families (like Rajasthan's Bhat community) facing loss of royal/temple patronage and acute livelihood distress.",
+            "Policy needs: National integration into school curricula, modern puppet festivals, and creative deployment in development communication (e.g., health awareness, literacy drives)."
+          ]
+        }
+      ],
+      "conclusion": "Safeguarding puppetry requires elevating it from endangered folklore to an active, remunerative performing art that bridges timeless civilizational wisdom with modern social communication.",
+      "diagramMapIdea": "Mind Map: Indian Puppetry Typologies (String, Shadow, Rod, Glove) with Regional Representatives."
+    }
+  },
+  {
+    "id": "mains-cult-006",
+    "question": "Discuss the spiritual and philosophical foundations of Indian Classical Dance as codified in Bharata's Natya Shastra. How do these traditions bridge the sacred and the secular in Indian artistic consciousness?",
+    "marks": 10,
+    "wordLimit": 150,
+    "bookRef": "Ishani Pandya Compendium L3; Nitin Singhania, Ch. 7",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": false,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Indian classical dance originated as 'Natya Veda' (the Fifth Veda), synthesized by Brahma from the Rigveda (words), Samaveda (music), Yajurveda (gestures/abhinaya), and Atharvaveda (rasa/emotions) to elevate human consciousness.",
+      "body": [
+        {
+          "heading": "Philosophical Foundations in the Natya Shastra",
+          "points": [
+            "Tandava and Lasya duality: Represents the cosmic dance of Shiva (vigorous masculine cosmic rhythm) and Parvati (graceful feminine lyrical beauty).",
+            "Tripartite Structure: Nritta (pure rhythmic abstract movement without narrative), Nritya (interpretative expressive dance using facial bhava and mudras), and Natya (dramatic storytelling).",
+            "Rasa Theory: Transmuting everyday human emotions (bhavas) into transcendent, universal aesthetic bliss (Rasa) across the Nine Rasas (Navarasas)."
+          ]
+        },
+        {
+          "heading": "Bridging Sacred Devotion and Secular Aesthetics",
+          "points": [
+            "Temple Sanctum (Sacred): Began as divine seva by Devadasis in Bharatanatyam (Tamil Nadu) and Maharis in Odissi, symbolizing the human soul's longing for union with the Paramatma (Madhura Bhakti).",
+            "Royal Court & Public Stage (Secular): Kathak in northern courts absorbed secular nazakat and technical jugalbandi with tabla, while modern adaptations address contemporary social issues like ecology and gender justice."
+          ]
+        }
+      ],
+      "conclusion": "Indian classical dance dissolves the dichotomy between the physical body and spiritual devotion, transforming somatic movement into a living prayer and an enduring symbol of cultural unity.",
+      "diagramMapIdea": "Triangular Diagram: Natya Veda components (Nritta, Nritya, Natya) culminating in Universal Rasa."
+    }
+  },
+  {
+    "id": "mains-cult-007",
+    "question": "Examine how Indian folk and tribal painting traditions (such as Warli, Madhubani, Pattachitra, and Kalamkari) encapsulate ecological harmony, sacred rituals, and community identity.",
+    "marks": 10,
+    "wordLimit": 150,
+    "bookRef": "Ishani Pandya Compendium L3; Nitin Singhania, Ch. 6",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": false,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Unlike court miniatures commissioned by monarchs, Indian folk and tribal paintings are living communal expressions rooted in agrarian cycles, ecological reverence, and sacred rites of passage.",
+      "body": [
+        {
+          "heading": "Ecological Reverence and Sacred Rituals",
+          "points": [
+            "Warli (Maharashtra): Uses basic geometric motifs (circles for sun/moon, triangles for sacred mountains/trees) on mud walls using rice paste; celebrates the Mother of Fertility (Palghat) and the communal Tarpa dance without hierarchical gods.",
+            "Madhubani (Bihar): Women paint fertility murals (Kohbar) and courtyards (Aripan) using bamboo twigs and plant pigments, portraying sacred lotus ponds, bamboo stalks, and birds as symbols of abundance."
+          ]
+        },
+        {
+          "heading": "Textile Storytelling & Sacred Transmission",
+          "points": [
+            "Pattachitra (Odisha): Sacred cloth scrolls prepared with tamarind seed glue and chalk, narrating the Dashavatara and Jagannath lore with fluid lines and mineral colors.",
+            "Kalamkari (Andhra Pradesh): Natural vegetable dyed storytelling cloths from Srikalahasti (temple hangings drawn with bamboo pens) and Machilipatnam (block prints) depicting epics."
+          ]
+        }
+      ],
+      "conclusion": "These folk traditions embody indigenous ecological wisdom and egalitarian community heritage, demonstrating that art in India has always been an organic dimension of everyday life.",
+      "diagramMapIdea": "Concept Matrix: Painting Tradition, Ecological Motif, Ritual Context, Geographic Core."
+    }
+  },
+  {
+    "id": "mains-cult-008",
+    "question": "Critically examine the colonial myth of the Indian village as an 'isolated, self-sufficient little republic' in light of Prof. S.C. Dube's sociological findings. How do caste, jajmani, and factionalism structure village social reality?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Prof. S.C. Dube, Indian Village (1955) & Indian Society; Sociology Dube",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": false,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Colonial administrators like Charles Metcalfe portrayed the Indian village as an unchanging, self-sufficient 'little republic.' Pioneering Indian sociologists, particularly Prof. S.C. Dube in his landmark study 'Indian Village' (1955), systematically deconstructed this romanticized fiction.",
+      "body": [
+        {
+          "heading": "Deconstructing the 'Little Republic' Myth",
+          "points": [
+            "Regional Interdependence: Shamirpet village (Dube's study) demonstrated that no village was economically, culturally, or politically self-sufficient.",
+            "Exogamous matrimonial networks: Village exogamy compelled families to forge marital and kinship alliances across dozens of surrounding settlements.",
+            "Economic and religious links: Periodic weekly markets (haats), pilgrimage circuits, revenue payments to state authorities, and regional caste councils (Jati Panchayats) continually tied the village into broader supra-local structures."
+          ]
+        },
+        {
+          "heading": "Internal Structural Axes of Village Reality",
+          "points": [
+            "Caste (Jati) Hierarchy: Social organization was sharply stratified based on purity and pollution, determining occupational specialization, residential segregation, and unequal land ownership.",
+            "Jajmani System of Reciprocity: An institutionalized network of reciprocal obligations where service and artisan castes (Kamins) served landowning patrons (Jajmans) for grain shares, combining functional interdependence with structural exploitation.",
+            "Dual Axis of Solidarity & Factionalism: The village exhibited both collective identity during crises/temple festivals and bitter factional rivalries (dharas) centered around dominant landowning lineage groups."
+          ]
+        },
+        {
+          "heading": "Post-Independence Transformations",
+          "points": [
+            "Impact of land reforms, the Green Revolution, and statutory Panchayati Raj weakened traditional Jajmani ties and monetized the rural economy.",
+            "Shift from ritual deference to active electoral political competition among intermediate backward classes and Dalits."
+          ]
+        }
+      ],
+      "conclusion": "Prof. S.C. Dube proved that the Indian village was never an isolated museum of the past, but an open, dynamic social system shaped by constant interactions between tradition, power, and state interventions.",
+      "diagramMapIdea": "S.C. Dube Village Model: Dual Axis Diagram showing Vertical Inter-caste Jajmani ties vs Horizontal Intra-caste Supra-village Kinship networks."
+    }
+  },
+  {
+    "id": "mains-cult-009",
+    "question": "Evaluate the ideological debate between 'Isolation', 'Assimilation', and 'Integration' regarding tribal communities in India (Verrier Elwin vs. G.S. Ghurye). How did the 'Tribal Panchsheel' seek to harmonize tribal autonomy with national development?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Prof. S.C. Dube, Indian Society; Verrier Elwin; G.S. Ghurye; Bipan Chandra",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": true,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "The tribal question in modern India revolves around a fundamental policy dilemma: how to bring socioeconomic advancement to indigenous communities (Adivasis) without obliterating their distinctive cultural heritage, customary institutions, and ecological autonomy.",
+      "body": [
+        {
+          "heading": "The Competing Ideological Paradigms",
+          "points": [
+            "The Isolationist Approach (Verrier Elwin's early thesis): Advocated establishing 'National Parks' for tribals, keeping them sheltered from predatory moneylenders, timber contractors, and Hindu caste society to prevent cultural demoralization.",
+            "The Assimilationist Approach (G.S. Ghurye): Termed tribals 'backward Hindus' and argued for their rapid assimilation into the mainstream socioeconomic hierarchy, viewing isolation as an imperialist divide-and-rule strategy."
+          ]
+        },
+        {
+          "heading": "Nehru-Elwin's 'Tribal Panchsheel' (1958) as the Integrational Golden Mean",
+          "points": [
+            "Development along own genius: Tribals should develop along lines of their own genius, avoiding the imposition of alien values or lifestyles.",
+            "Respect for Land & Forests: Absolute protection of tribal customary rights in ancestral land and forest resources.",
+            "Building Local Cadres: Train and build up a team of their own people to administer governance and development work.",
+            "Avoiding Over-Administration: Administer through their own traditional social and cultural institutions rather than overwhelming them with outside bureaucratic schemes.",
+            "Human Quality as Metric: Judge success not by money spent or statistical targets, but by the quality of human character and freedom evolved."
+          ]
+        },
+        {
+          "heading": "Contemporary Realities & Unfinished Agendas",
+          "points": [
+            "Developmental displacement: Mining, dams, and industrial projects have disproportionately displaced tribal populations.",
+            "Constitutional safeguards: Fifth and Sixth Schedules, PESA Act (1996), and Forest Rights Act (2006) provide legal instruments for self-governance, but effective implementation remains hindered by administrative apathy."
+          ]
+        }
+      ],
+      "conclusion": "The Tribal Panchsheel remains a visionary compass, proving that genuine national integration is achieved not by erasing diversity through forced assimilation, but by empowering tribal communities as equal partners in India's plural democracy.",
+      "diagramMapIdea": "Tribal Policy Trilemma Triangle: Isolation (Elwin 1930s) vs Assimilation (Ghurye) -> Integration via Tribal Panchsheel (Nehru-Elwin 1958)."
+    }
+  },
+  {
+    "id": "mains-cult-010",
+    "question": "Examine the socio-economic mechanisms of the traditional Jajmani system in rural India. What factors have led to its gradual breakdown in contemporary times?",
+    "marks": 10,
+    "wordLimit": 150,
+    "bookRef": "Prof. S.C. Dube, Indian Society; William Wiser",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": false,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "The Jajmani system was a hereditary institutional framework of reciprocal goods and service relationships between patron landowning families (Jajmans) and occupational service/artisan castes (Kamins).",
+      "body": [
+        {
+          "heading": "Socio-Economic Mechanisms",
+          "points": [
+            "Non-monetary reciprocity: Services (blacksmithing, carpentry, barbering, leatherwork) were compensated with grain shares at harvest, free housing sites, and customary gifts during weddings and rites of passage.",
+            "Power asymmetry: While functionalists emphasized mutual interdependence, critical sociologists highlighted that it institutionalized hereditary subordination and prevented upward mobility for lower castes."
+          ]
+        },
+        {
+          "heading": "Key Drivers of its Breakdown",
+          "points": [
+            "Monetization & Market Economy: Cash wages and commercial retail markets replaced customized hereditary barter arrangements.",
+            "Agricultural Mechanization: Tractors, combine harvesters, and factory-made tools rendered traditional artisans redundant.",
+            "Democratic Consciousness & Migration: Constitutional equality, education, reservations, and rural-urban migration provided alternative livelihoods, freeing Kamins from servitude."
+          ]
+        }
+      ],
+      "conclusion": "The erosion of the Jajmani system marks a fundamental transition in rural India from pre-modern feudal status relationships toward contractual, monetized, and democratic citizenship ties.",
+      "diagramMapIdea": "Flowchart: Jajmani Network -> Modern Forces (Monetization + Mechanization + Education) -> Contractual Agrarian Economy."
+    }
+  },
+  {
+    "id": "mains-cult-011",
+    "question": "'The civilization of India has not remained static; rather, its greatest virtue has been its immense power of synthesis.' Discuss this assertion of A.L. Basham with reference to India's cultural evolution across historical eras.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "A.L. Basham, The Wonder That Was India & A Cultural History of India",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": false,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "In his seminal works, British Indologist A.L. Basham highlighted that Indian civilization survived and flourished across millennia not through rigid isolation or dogmatic resistance, but through an extraordinary capacity for cultural assimilation, continuous synthesis, and harmonious pluralism.",
+      "body": [
+        {
+          "heading": "Ancient Synthesis: Vedic, Shramanic & Tribal Absorption",
+          "points": [
+            "Indo-Aryan and Indigenous Synthesis: Absorption of indigenous Harappan and non-Aryan deities (Pashupati/Shiva, Mother Goddess, sacred trees) into the evolving Vedic pantheon.",
+            "Shramana Dialogues: Buddhism and Jainism challenged sacrificial orthodoxy, yet their core values of Ahimsa (non-violence) and ethical self-discipline were absorbed directly into classical Hinduism.",
+            "Greco-Roman and Central Asian Incursions: Indo-Greeks, Sakas, and Kushanas were assimilated into Indian society through marriage and conversion (e.g., Heliodorus pillar at Vidisha, Menander's Milinda Panha)."
+          ]
+        },
+        {
+          "heading": "Medieval Synthesis: The Ganga-Jamuni Tehzeeb",
+          "points": [
+            "Bhakti and Sufi Convergence: Kabir, Guru Nanak, and Chaitanya rejected caste orthodoxies and dogmatism, emphasizing personal devotion to a formless supreme reality (Nirguna) alongside Sufi pirs.",
+            "Language and Literature: Emergence of Urdu and Hindustani as bridges between Persian, Arabic, and regional Prakrit/Bhasha idioms.",
+            "Artistic & Architectural Syncretism: Indo-Islamic architecture harmonized Persian domes and arches with Rajasthani jali lattices, chhatris, and lotus finials; Hindustani music absorbed Khayal and Qawwali through Amir Khusrau."
+          ]
+        },
+        {
+          "heading": "Modern Synthesis: Colonial Encounter to Democratic Republic",
+          "points": [
+            "Socio-Religious Reformers: Raja Ram Mohan Roy, Swami Vivekananda, and Rabindranath Tagore synthesized Western rational science and enlightenment humanism with timeless Vedantic universalism.",
+            "Constitutional Synthesis: The Indian Constitution integrated Westminster parliamentary democracy with American fundamental rights and indigenous panchayati traditions."
+          ]
+        }
+      ],
+      "conclusion": "As A.L. Basham observed, India's cultural continuity is not an inert relic, but a flowing river that renews itself by assimilating every tributary it encounters without ever losing its core civilizational direction.",
+      "diagramMapIdea": "Synthesis Flow Diagram: Ancient (Vedic + Shramanic) -> Medieval (Bhakti + Sufi) -> Modern (Universalist Reform + Constitution)."
+    }
+  },
+  {
+    "id": "mains-cult-012",
+    "question": "Assess the nature and legacy of Indian cultural and commercial diffusion across Southeast Asia ('Suvarnabhumi') during the ancient and early medieval periods. Why did historians term this phenomenon 'cultural transmission without colonization'?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "A.L. Basham, A Cultural History of India, Ch. 29; Upinder Singh, Ch. 10",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "isPyq": true,
+    "yearSource": "UPSC CSE Mains Pattern",
+    "framework": {
+      "intro": "Between the early centuries of the Common Era and the 13th century, South Asia and Southeast Asia were bound in an expansive cultural and commercial matrix, giving rise to what George Coedès termed the 'Indianized States of Southeast Asia.'",
+      "body": [
+        {
+          "heading": "Distinctive Modalities: Diffusion Without Military Conquest",
+          "points": [
+            "No Imperial Annexation: Unlike European colonial conquest or Roman imperialism, Indianization was completely peaceful and non-exploitative, driven by monsoon maritime trade networks.",
+            "Key Agents of Transmission: Indian merchant guilds (Manigramam, Nanadesi, Ayyavole), Buddhist monks, and Brahmin scholars invited by indigenous Southeast Asian rulers to legitimize royal statecraft.",
+            "Indigenous Agency: Local elites voluntarily adopted Sanskrit titles, epics, and cosmic statecraft (Devaraja concept) while retaining their own languages, customs, and matrilineal kinship structures."
+          ]
+        },
+        {
+          "heading": "Enduring Monumental & Epigraphic Legacies",
+          "points": [
+            "Epigraphy and Scripts: Sanskrit inscriptions using Pallava Grantha script found across Funan (Cambodia), Champa (Vietnam), and Java (Indonesia).",
+            "Architectural Wonders: Borobudur (Java, Indonesia) — the world's largest Mahayana Buddhist stupa mandala built by the Sailendra dynasty; Angkor Wat (Cambodia) — the colossal Vishnu temple built by Suryavarman II, depicting Mahabharata and Ramayana friezes.",
+            "Prambanan (Java): Dedicated to the Hindu Trimurti (Brahma, Vishnu, Shiva), representing the zenith of Indonesian temple sculpture."
+          ]
+        },
+        {
+          "heading": "Living Cultural Continuities",
+          "points": [
+            "Epic Traditions: The Ramayana remains a living performance tradition (e.g., Wayang Kulit shadow puppetry in Indonesia, Ramakien royal ballet in Thailand).",
+            "State Symbols: Garuda is the national emblem of Indonesia and Thailand; Sanskrit vocabulary heavily influences Bahasa Indonesia, Thai, and Khmer.",
+            "Chola Maritime Excursion: The only military naval expedition was Rajendra Chola I's raid on Srivijaya (1025 CE) to protect free trade routes, which established no territorial colony."
+          ]
+        }
+      ],
+      "conclusion": "The Indianization of Southeast Asia stands as one of world history's finest examples of cultural diffusion based on commerce, intellectual sharing, and artistic admiration rather than military coercion.",
+      "diagramMapIdea": "Maritime Map Concept: Coromandel & Kalinga Ports -> Bay of Bengal -> Malacca Strait -> Funan (Angkor), Champa, Srivijaya & Majapahit (Borobudur)."
+    }
+  },
+  {
+    "id": "mains-syl-001",
+    "category": "ancient",
+    "categoryLabel": "Ancient India",
+    "examTag": "upsc",
+    "examLabel": "UPSC CSE",
+    "question": "Assess the value of numismatics as a critical historical mirror reflecting the economic vitality, religious syncretism, and imperial ideology of Ancient India.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Upinder Singh, Ch. 1; R.S. Sharma (India's Ancient Past)",
+    "framework": {
+      "intro": "Numismatics constitutes one of the most reliable archaeological sources for reconstructing ancient Indian history, offering tangible empirical data on fiscal health, metallurgical prowess, trade networks, and royal propaganda.",
+      "body": [
+        {
+          "heading": "Economic Health & Monetary Circulation",
+          "points": [
+            "Punch-marked silver coins (Pana) of Mauryas reflect standardized state taxation and commercial monetization across Gangetic urban centers.",
+            "Kushana high-purity gold dinaras attest to flourishing Indo-Roman trade along the Silk Route and influx of Roman imperial aurei.",
+            "Gupta gold coinage transition: High purity under Samudragupta and Chandragupta II contrasts with progressive debasement and lead alloys under later rulers (Skandagupta, Narasimhagupta), corroborating the monetary contraction and urban decay thesis (R.S. Sharma)."
+          ]
+        },
+        {
+          "heading": "Religious Syncretism & Ideology",
+          "points": [
+            "Indo-Greek bilingual coins (Menander, Demetrius) portray Greek gods alongside Buddhist Dharmachakra and Indian Kharosthi scripts.",
+            "Kushana coins of Kanishka feature diverse pantheons: Iranian deities (Mithra, Nana), Greek gods (Helios), Vedic-Puranic deities (Oesho / Shiva with Nandi), and the Buddha (BODDO).",
+            "Gupta royal portraiture: Samudragupta's Lyrist type portrays the emperor playing the Veena, projecting the monarch as a scholar-poet and patron of classical arts."
+          ]
+        }
+      ],
+      "conclusion": "Coinage serves as an indelible primary record bridging epigraphic claims and economic realities, illuminating how ancient sovereigns projected divine legitimacy while managing commercial lifelines.",
+      "diagramMapIdea": "Chronological comparative flow-chart tracing metallic purity: Punch-marked Silver -> Kushana Pure Gold -> Gupta Classical Gold -> Post-Gupta Debased Coinage."
+    }
+  },
+  {
+    "id": "mains-syl-002",
+    "category": "ancient",
+    "categoryLabel": "Ancient India",
+    "examTag": "uppsc",
+    "examLabel": "UPPSC PCS",
+    "question": "Discuss the historical and archaeological significance of recent excavations at Sanauli (Baghpat district, Uttar Pradesh) in re-evaluating Bronze Age warfare and Vedic antecedents.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Archaeological Survey of India Excavation Reports (S.K. Manjul); Upinder Singh",
+    "framework": {
+      "intro": "The archaeological discoveries by the Archaeological Survey of India (ASI) at Sinauli in western Uttar Pradesh have yielded extraordinary insights into late second-millennium BCE northern Indian material culture, prompting fresh scholarly inquiry into warfare, burial customs, and societal complexity.",
+      "body": [
+        {
+          "heading": "Key Archaeological Discoveries",
+          "points": [
+            "Solid-Disk Wheeled Chariots: Discovery of copper-plated, two-wheeled wooden chariots driven by draught animals, challenging assumptions that wheeled carts were absent in indigenous Bronze Age contexts.",
+            "Royal Warrior Burials: Excavation of eight anthropomorphic wooden sarcophagi coffins adorned with copper inlays and horned headdresses, indicating institutionalized elite stratification.",
+            "Advanced Metallurgy: Hoards of copper swords with antennae hilts, daggers, copper helmets, and composite wooden shields, corroborating an organized warrior nobility."
+          ]
+        },
+        {
+          "heading": "Historiographical & Cultural Implications",
+          "points": [
+            "Bridges the gap between the Late Harappan Phase and the Copper Hoard Culture (OCP) of the Upper Doab.",
+            "Challenges the rigid colonial narrative of external Eurasian invasion, providing indigenous archaeological evidence of horse/draught animal harnessing and chariot engineering in Madhyadesha.",
+            "Reflects ritualized funerary traditions, pottery assemblages, and weapon manufacturing consistent with early Epic and Vedic socio-cultural descriptions."
+          ]
+        }
+      ],
+      "conclusion": "The Sinauli excavations substantiate a vibrant, highly organized indigenous Bronze Age warrior society in Uttar Pradesh, fundamentally enriching the continuum between Harappan decline and the Gangetic urbanization.",
+      "diagramMapIdea": "Schematic anatomical diagram of the Sinauli royal coffin, antennae-hilted copper sword, and two-wheeled solid-disk chariot."
+    }
+  },
+  {
+    "id": "mains-syl-003",
+    "category": "ancient",
+    "categoryLabel": "Ancient India",
+    "examTag": "upsc",
+    "examLabel": "UPSC CSE",
+    "question": "Examine the institutional mechanics of Chola local self-government as elucidated in the Uttaramerur inscriptions. How does it anticipate contemporary grassroots democratic governance?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Upinder Singh, Ch. 10; Nilakanta Sastri (The Cholas)",
+    "framework": {
+      "intro": "The two celebrated stone inscriptions of Chola monarch Parantaka I (919 and 921 CE) on the walls of the Vaikunta Perumal temple at Uttaramerur (Tamil Nadu) provide an unparalleled detailed blueprint of democratic village administration in medieval South India.",
+      "body": [
+        {
+          "heading": "Constitutional Structure of Uttaramerur Sabha",
+          "points": [
+            "Village Division: Uttaramerur was divided into 30 distinct residential wards (Kudumbus), each electing one representative to the village assembly (Sabha).",
+            "Rigorous Eligibility Criteria: Candidates had to own at least 1/4th Veli of taxable land, reside in their own house, be aged between 35 and 70 years, and possess mastery over Vedic mantras and Brahmana literature.",
+            "Disqualification & Clean Governance: Severe disqualifications for those who had failed to submit public accounts in preceding years, committed sins (Pancha Mahapatakas), stolen property, or engaged in corruption; family relatives of defaulters were equally debarred.",
+            "Kudavolai (Pot-Lottery) Procedure: Names of eligible contestants were written on palm-leaf tickets (Olais), bundled into a pot (Kuda), and drawn out by an innocent child in front of the entire assembly."
+          ]
+        },
+        {
+          "heading": "Executive Committees (Variyams) & Modern Parallels",
+          "points": [
+            "Administration through specialized executive committees: Samvatsara-variyam (Annual Board), Eri-variyam (Tank and Water Management Board), Thotta-variyam (Garden Board), and Pon-variyam (Gold and Currency Standards Board).",
+            "Direct democratic accountability, right to recall, and rotation of office anticipate modern 73rd Constitutional Amendment Panchayati Raj mechanisms."
+          ]
+        }
+      ],
+      "conclusion": "The Uttaramerur inscription stands as a testament to mature administrative decentralization in ancient India, proving that checks, balances, and grassroots participatory democracy thrived centuries before modern local self-government.",
+      "diagramMapIdea": "Organizational matrix showing Kudavolai selection flowing into 30 Wards -> 4 Executive Variyams -> Kudumbus."
+    }
+  },
+  {
+    "id": "mains-syl-004",
+    "category": "medieval",
+    "categoryLabel": "Medieval India",
+    "examTag": "upsc",
+    "examLabel": "UPSC CSE",
+    "question": "Critically evaluate the Indian Feudalism thesis in the context of the early medieval transition (c. 750–1200 CE). How do alternative historiographical models challenge this paradigm?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "R.S. Sharma (Indian Feudalism); B.D. Chattopadhyaya (The Making of Early Medieval India)",
+    "framework": {
+      "intro": "The socio-economic transition from classical antiquity to early medieval India has generated intense historiographical debate, centered around Professor R.S. Sharma's 'Indian Feudalism' model versus integrative and segmentary state paradigms.",
+      "body": [
+        {
+          "heading": "The Indian Feudalism Thesis (R.S. Sharma / D.N. Jha)",
+          "points": [
+            "Proliferation of Land Grants: State transfer of fiscal, judicial, and administrative rights through Agrahara and secular land grants to Brahmins and royal feudatories (Samantas).",
+            "Sub-infeudation & Peasant Servitude: Creation of intermediaries between the state and actual tillers, resulting in bonded labor (Vishti), immobility of peasants, and feudal extraction.",
+            "Urban Decay & De-monetization: Decline of long-distance external trade with Rome, atrophy of urban craft centers, and scarcity of metallic currency leading to localized self-sufficient village economies."
+          ]
+        },
+        {
+          "heading": "Counter-Perspectives & Alternative Models",
+          "points": [
+            "Integrative / Processual Model (B.D. Chattopadhyaya): Rejects decay; views the era as one of rural expansion, agrarian colonization, peasantization of tribes, and vibrant regional trade networks (Ayyavole 500, Manigramam).",
+            "Segmentary State Model (Burton Stein, applied to Cholas): Proposes ritual sovereignty at the imperial center with pyramidally replicating autonomous local segments (Nadus).",
+            "Monetary Continuum (John S. Deyell): Demonstrated through coin hoard analyses that metallic currency (Gadhaiya Paisa, bull-and-horseman coins) circulated extensively throughout northern and western India."
+          ]
+        }
+      ],
+      "conclusion": "Rather than a European-style feudal dark age, early medieval India is increasingly understood as a dynamic period of regional state formation, agrarian frontiers expansion, and institutional institutionalization.",
+      "diagramMapIdea": "Comparative conceptual chart: Feudal Model (Fragmentation & Atrophy) vs Integrative Model (Agrarian Colonization & State Formation)."
+    }
+  },
+  {
+    "id": "mains-syl-005",
+    "category": "medieval",
+    "categoryLabel": "Medieval India",
+    "examTag": "upsc",
+    "examLabel": "UPSC CSE",
+    "question": "Analyse the strategic, ideological, and institutional contours of Akbar's policy of Sulh-i-Kul. How did it facilitate the consolidation of a multi-confessional empire?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Satish Chandra (Part II); Iqtidar Alam Khan; NCERT Class 12 Themes Theme 2",
+    "framework": {
+      "intro": "Emperor Akbar's formulation of Sulh-i-Kul (Universal Peace and Absolute Toleration) transformed the Mughal state from an Islamic conquest sultanate into an inclusive, supra-religious imperial commonwealth capable of governing India's diverse mosaic.",
+      "body": [
+        {
+          "heading": "Evolution of Religious Policy",
+          "points": [
+            "Early Liberal Measures: Abolition of the pilgrim tax on Hindu sacred sites (1563) and total abolition of Jizya (1564).",
+            "Ibadat Khana Debates (1575): Established at Fatehpur Sikri; initially confined to Sunni theologians, but expanded in 1578 to Shias, Sufis, Hindus (Purushottam, Devi), Jains (Hira Vijaya Suri), Zoroastrians (Dastur Meherji Rana), and Jesuits (Aquaviva, Monserrate).",
+            "Mazhar Nama (1579): The Infallibility Decree drafted by Sheikh Mubarak, designating Akbar as Imam-i-Adil (Just Ruler) with paramount authority to choose between conflicting interpretations of Islamic law in public interest."
+          ]
+        },
+        {
+          "heading": "Institutional & Imperial Manifestations",
+          "points": [
+            "Sulh-i-Kul as State Ideology: Abul Fazl's formulation in Akbarnama positing the king as a divine shadow (Farr-i-Izadi) obligated to protect all subjects without sectarian discrimination.",
+            "Mansabdari Inclusivity: Broadened royal nobility to incorporate Rajput clans (Kachhwahas, Rathores) and Indian Muslims (Shaikhzadas) alongside Iranis and Turanis.",
+            "Cultural Synthesis: Established the Maktab Khana (translation bureau) rendering the Mahabharata (Razmnama), Ramayana, and Atharvaveda into elegant Persian."
+          ]
+        }
+      ],
+      "conclusion": "Sulh-i-Kul served as both an enlightened moral philosophy and an indispensable administrative imperative, laying the ideological bedrock for Mughal imperial longevity and composite Ganga-Jamuni ethos.",
+      "diagramMapIdea": "Circular schematic diagram of Sulh-i-Kul as the hub: connecting Mansabdari parity, Maktab Khana translation, Rajput matrimonial alliances, and revenue equity."
+    }
+  },
+  {
+    "id": "mains-syl-006",
+    "category": "medieval",
+    "categoryLabel": "Medieval India",
+    "examTag": "upsc",
+    "examLabel": "UPSC CSE",
+    "question": "Examine the socio-economic and military significance of the Nayankara system in the Vijayanagara Empire. How did hydraulic management sustain the metropolitan capital?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Burton Stein; Nilakanta Sastri; Noboru Karashima",
+    "framework": {
+      "intro": "The Vijayanagara Empire (1336–1646) established institutional resilience through the Nayankara administrative-military framework and an ingenious semi-arid hydraulic network centered on the Tungabhadra basin.",
+      "body": [
+        {
+          "heading": "The Nayankara System",
+          "points": [
+            "Military Tenures: Amara-Nayakas were military commanders assigned territories (Amara) with fiscal rights in exchange for maintaining chartered quotas of infantry, cavalry, and elephants.",
+            "Fiscal Accountability: Nayakas remitted annual tributes to the central treasury and performed ceremonial submission at the annual Mahanavami festival.",
+            "Agrarian Colonization: Encouraged reclamation of wastelands, temple endowments (Devadana), and localized tank construction across the dry Deccan interior."
+          ]
+        },
+        {
+          "heading": "Hydraulic Architecture & Agrarian Ecology",
+          "points": [
+            "Kamalapuram Tank: Built by Krishna Deva Raya, irrigating royal paddy fields and supplying fresh water to the metropolitan core.",
+            "Hiriya Canal: Tapped the Tungabhadra river via boulder anicuts, supplying water across the Sacred and Royal Enclosures.",
+            "Defensive and Microclimatic Function: Interconnected stone aqueducts and tanks mitigated prolonged sieges and regulated arid Deccan microclimates."
+          ]
+        }
+      ],
+      "conclusion": "The synergy between militarized Nayaka governance and sophisticated hydraulic engineering enabled Vijayanagara to flourish as South India's premier metropolitan citadel for over two centuries.",
+      "diagramMapIdea": "Schematic map linking the Tungabhadra anicuts -> Hiriya Canal -> Kamalapuram Tank -> Royal Enclosure aqueducts."
+    }
+  },
+  {
+    "id": "mains-syl-007",
+    "category": "modern",
+    "categoryLabel": "Modern India",
+    "examTag": "upsc",
+    "examLabel": "UPSC CSE",
+    "question": "Elucidate the economic critique of British colonialism pioneered by Dadabhai Naoroji and R.C. Dutt. How did the 'Drain of Wealth' thesis demystify the benevolent despotism narrative?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Bipan Chandra; Dadabhai Naoroji (Poverty and Un-British Rule in India); R.C. Dutt (Economic History of India)",
+    "framework": {
+      "intro": "The late 19th-century economic critique developed by early nationalist intellectuals exposed the systematic colonial exploitation of India, systematically dismantling the imperial myth of the 'civilizing mission' and benevolent governance.",
+      "body": [
+        {
+          "heading": "Mechanisms of the Drain of Wealth (Dadabhai Naoroji)",
+          "points": [
+            "Unrequited Surplus: The unilateral transfer of Indian financial wealth and export surpluses to Britain without any commercial, financial, or material equivalent return.",
+            "Home Charges: Indian revenues funneled to London to pay for the India Office salaries, guaranteed 5% interest on British railway capital investments, and military expenditures.",
+            "Pensions and Remittances: Remittances of British civil servants, military officers, and private business profits repatriated back to Britain."
+          ]
+        },
+        {
+          "heading": "De-industrialization and Agrarian Ruin (R.C. Dutt)",
+          "points": [
+            "One-Way Free Trade: Destruction of traditional Indian handicrafts and textile weaving through tariff manipulations favoring Lancashire cotton mills.",
+            "Over-Assessment of Land Revenue: Rigid Ryotwari and Zamindari tax assessments forcing peasants into commercial debt and chronic rural indebtedness.",
+            "Famine Creation: Recurrent catastrophic famines (1876-78, 1896-1900) resulting from export of foodgrains while peasants starved, proving famines were man-made institutional failures."
+          ]
+        }
+      ],
+      "conclusion": "By demonstrating that India was not merely poor but being systematically impoverished, the economic critique provided the foundational intellectual ammunition for the Indian National Movement.",
+      "diagramMapIdea": "Causal flowchart: High Land Revenue & Export Surplus -> Home Charges & Repatriations -> Capital Starvation in India -> Chronic De-industrialization & Famines."
+    }
+  },
+  {
+    "id": "mains-syl-008",
+    "category": "modern",
+    "categoryLabel": "Modern India",
+    "examTag": "uppsc",
+    "examLabel": "UPPSC PCS",
+    "question": "The Revolt of 1857 was neither purely a military mutiny nor a fully unified national war of independence, but a multi-layered anti-colonial upheaval. Critically examine with special reference to Uttar Pradesh.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Bipan Chandra; Eric Stokes (The Peasant and the Raj); Rudrangshu Mukherjee (Awadh in Revolt)",
+    "framework": {
+      "intro": "The Great Revolt of 1857 was a profound watershed in modern Indian history. In Uttar Pradesh, it evolved from an army insurrection into an intense agrarian and popular rebellion uniting taluqdars, sepoys, and peasants against company rule.",
+      "body": [
+        {
+          "heading": "The Spark & Popular Peasant Expansion",
+          "points": [
+            "Meerut to Delhi: Mutiny ignited on 10 May 1857 at Meerut, rapidly drawing in the peasantry across the Doab who destroyed moneylenders' account books, revenue records, and police posts.",
+            "Awadh Epicenter: Annexation of Awadh in 1856 on charges of 'maladministration' and the Summary Settlement of 1856 dispossessed hereditary taluqdars; over 75,000 Bengal Army sepoys were drawn from Awadh peasant families.",
+            "Begum Hazrat Mahal & Maulvi Ahmadullah Shah: Formed an inclusive front uniting Hindu and Muslim chieftains, offering stiff guerrilla resistance across Lucknow, Faizabad, and Rohilkhand."
+          ]
+        },
+        {
+          "heading": "Key Centers & Leadership in Uttar Pradesh",
+          "points": [
+            "Jhansi: Rani Lakshmibai rallied Bundela chieftains against Lord Dalhousie's Doctrine of Lapse.",
+            "Kanpur: Nana Saheb and Tatya Tope challenged British positions at Bibighar and Wheeler's entrenchment.",
+            "Allahabad & Varanasi: Maulvi Liaquat Ali coordinated mass rebellions, severely disrupting Grand Trunk Road communications."
+          ]
+        }
+      ],
+      "conclusion": "While fragmented along regional and feudal fault lines, the 1857 upheaval in Uttar Pradesh represented an unprecedented mass popular mobilization that shattered the East India Company's rule.",
+      "diagramMapIdea": "Geographical tactical map of 1857 UP nodes: Meerut -> Delhi -> Bareilly -> Lucknow -> Kanpur -> Jhansi -> Allahabad -> Varanasi."
+    }
+  },
+  {
+    "id": "mains-syl-009",
+    "category": "modern",
+    "categoryLabel": "Modern India",
+    "examTag": "upsc",
+    "examLabel": "UPSC CSE",
+    "question": "Trace the evolution of Gandhian mass mobilization from the Non-Cooperation Movement (1920-22) to the Quit India Movement (1942). How did the character of popular participation transform?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Bipan Chandra (India's Struggle for Independence); Sumit Sarkar (Modern India)",
+    "framework": {
+      "intro": "Mahatma Gandhi revolutionized the Indian national movement by transforming elite constitutional lobbying into mass anti-colonial mobilization governed by the dialectic of Satyagraha, non-violent struggle, and constructive work.",
+      "body": [
+        {
+          "heading": "Trajectory of Mass Movements",
+          "points": [
+            "Non-Cooperation Movement (1920-22): Boycott of titles, schools, courts, and foreign textiles combined with the Khilafat cause; unprecedented Hindu-Muslim unity; suspended after the Chauri Chaura incident due to Gandhian insistence on absolute non-violence.",
+            "Civil Disobedience Movement (1930-34): Opened with the symbolic Dandi Salt March (12 March 1930); direct defiance of salt monopoly law; widespread participation of women (Sarojini Naidu, Kamaladevi Chattopadhyay), picketing of liquor shops, and non-payment of Chaukidari taxes.",
+            "Quit India Movement (1942): Marked by the mantra 'Do or Die'; immediate arrest of entire leadership led to spontaneous leaderless mass upheaval; underground networks (Aruna Asaf Ali, Usha Mehta's secret radio) and establishment of parallel governments (Prati Sarkar in Satara, Jatiya Sarkar in Tamluk, Ballia under Chittu Pandey)."
+          ]
+        },
+        {
+          "heading": "Structural Transformation of Popular Agency",
+          "points": [
+            "Expansion of Social Base: Transition from urban middle classes to industrial workers, rural peasants, students, and marginalized communities.",
+            "Shift in Gandhian Tolerance: In 1942, Gandhi refused to condemn mass sabotage, viewing violence as an inevitable response to unprovoked state repression."
+          ]
+        }
+      ],
+      "conclusion": "Gandhian mobilization steadily elevated the self-confidence of ordinary citizens, making British governance of India politically untenable by the close of World War II.",
+      "diagramMapIdea": "Evolutionary comparative chart: NCM (Negative boycott) -> CDM (Active law defiance) -> Quit India (Unconditional demand for immediate sovereign transfer)."
+    }
+  },
+  {
+    "id": "mains-syl-010",
+    "category": "modern",
+    "categoryLabel": "Modern India",
+    "examTag": "upsc",
+    "examLabel": "UPSC CSE",
+    "question": "Critically analyze the failure of the Cabinet Mission Plan (1946) and the swift adoption of the Mountbatten Plan (1947). Was the partition of India historically inevitable?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Bipan Chandra; Sumit Sarkar; Jaswant Singh (Jinnah: India-Partition-Independence)",
+    "framework": {
+      "intro": "The closing phase of British rule in India witnessed frantic constitutional negotiations culminating in the breakdown of federal alternatives and the traumatic partition of the subcontinent.",
+      "body": [
+        {
+          "heading": "Cabinet Mission Plan (1946) & Its Breakdown",
+          "points": [
+            "Three-Tier Federal Scheme: Envisaged a weak Union controlling Defense, Foreign Affairs, and Communications, alongside three groups of provinces (Group A: Hindu majority; Groups B & C: Muslim majority in NW and East).",
+            "Contradictory Interpretations: The Congress (Nehru) interpreted grouping as optional for provinces; the Muslim League (Jinnah) insisted grouping was compulsory.",
+            "Direct Action Day (16 August 1946): Jinnah's call sparked communal riots in Calcutta ('Great Calcutta Killings'), spreading to Noakhali, Bihar, and Punjab, rendering federal power-sharing unworkable."
+          ]
+        },
+        {
+          "heading": "Mountbatten Plan (3 June 1947) & The Inevitability Debate",
+          "points": [
+            "June 3rd Plan: Replaced the federal scheme with immediate partition and transfer of power on Dominion Status basis by 15 August 1947.",
+            "Was Partition Inevitable?: While long-term imperial divide-and-rule and League communalism hardened separatist identities, timely constitutional consensus in 1946 could have preserved a confederation; however, acute communal polarization by 1947 made peaceful unity impossible."
+          ]
+        }
+      ],
+      "conclusion": "Partition emerged as the tragic resolution of irreconcilable political ambitions, imperial haste, and communal hysteria, exacting a harrowing human cost of mass displacement and violence.",
+      "diagramMapIdea": "Timeline decision tree: Cabinet Mission (1946) -> Grouping Dispute -> Direct Action -> Interim Govt Impasse -> Mountbatten Plan (June 1947) -> Radcliffe Line."
+    }
+  },
+  {
+    "id": "mains-syl-011",
+    "category": "post-independence",
+    "categoryLabel": "Post-Independence India",
+    "examTag": "upsc",
+    "examLabel": "UPSC CSE",
+    "question": "Evaluate the statesmanship of Sardar Vallabhbhai Patel and V.P. Menon in the political integration of over 560 princely states. How did the States Reorganisation Act (1956) address sub-national cultural aspirations?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Ramachandra Guha (India After Gandhi); V.P. Menon (Integration of the Indian States)",
+    "framework": {
+      "intro": "The birth of independent India was threatened by balkanization with 565 autonomous princely states possessing the legal option to secede under the Indian Independence Act. The statecraft of Sardar Patel averted disintegration.",
+      "body": [
+        {
+          "heading": "Integration Strategy (Carrot & Stick)",
+          "points": [
+            "Instrument of Accession: Convinced rulers to surrender Defense, External Affairs, and Communications, appealing to their national patriotism while offering Privy Purses and titles.",
+            "Resolution of Intractable States: Junagadh (plebiscite following Nawab's flight to Pakistan); Hyderabad (Operation Polo police action in September 1948 dismantling the Razakar militia); Kashmir (Instrument of Accession signed by Maharaja Hari Singh amidst tribal invasion).",
+            "Administrative Mergers: Consolidated disparate territories into viable administrative unions (e.g., PEPSU, Rajasthan, Saurashtra)."
+          ]
+        },
+        {
+          "heading": "Linguistic Reorganisation & SRC 1956",
+          "points": [
+            "Telugu Agitation: Potti Sreeramulu's 58-day fast unto death forced the creation of Andhra State (1953) on linguistic lines.",
+            "Fazal Ali Commission (SRC 1953-55): Recommended reorganizing states primarily on linguistic cohesion while rejecting 'one language, one state' dogma.",
+            "Democratic Stability: Rather than causing balkanization, linguistic reorganization anchored regional sub-nationalism firmly within Indian federal democracy."
+          ]
+        }
+      ],
+      "conclusion": "Patel's resolute integration coupled with the flexible democratic absorption of linguistic identities transformed a fractured subcontinent into an enduring constitutional union.",
+      "diagramMapIdea": "Dual-column matrix: Integration of Princely States (1947-49) juxtaposed against Linguistic Reorganisation (1953-56)."
+    }
+  },
+  {
+    "id": "mains-syl-012",
+    "category": "post-independence",
+    "categoryLabel": "Post-Independence India",
+    "examTag": "upsc",
+    "examLabel": "UPSC CSE",
+    "question": "Examine the socio-economic and ecological ramifications of the Green Revolution in India. To what extent has it exacerbated inter-regional disparities and environmental degradation?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Ramachandra Guha; Bipan Chandra (India Since Independence); M.S. Swaminathan Committee Reports",
+    "framework": {
+      "intro": "Initiated in the mid-1960s under the leadership of C. Subramaniam and Dr. M.S. Swaminathan, the Green Revolution transformed India from a 'ship-to-mouth' food-deficit state into a self-sufficient grain exporter, but at substantial ecological and regional costs.",
+      "body": [
+        {
+          "heading": "Achievements & Food Security",
+          "points": [
+            "High-Yielding Varieties (HYV): Introduction of dwarf Mexican wheat (Norman Borlaug) and IR-8 rice combined with chemical fertilizers and assured irrigation.",
+            "Overcoming Famine: Foodgrain production skyrocketed from 50 million tonnes in 1950 to over 100 million tonnes by 1970, ending dependency on US PL-480 wheat aid."
+          ]
+        },
+        {
+          "heading": "Socio-Economic & Ecological Liabilities",
+          "points": [
+            "Inter-Regional Disparities: Disproportionately enriched well-irrigated northwestern states (Punjab, Haryana, Western UP), while rain-fed central and eastern India lagged behind.",
+            "Agrarian Stratification: Large farmers with access to credit and tubewells profited immensely, while small and marginal tenant farmers suffered proletarianization and indebtedness.",
+            "Environmental Degradation: Depletion of subterranean groundwater tables through indiscriminate tubewell pumping; soil salinization, waterlogging, and micronutrient depletion from excessive urea; air pollution from seasonal stubble burning."
+          ]
+        }
+      ],
+      "conclusion": "Moving beyond the first Green Revolution, Indian agriculture urgently requires an 'Evergreen Revolution' centered on climate-resilient millets, organic soil rejuvenation, and rational water conservation.",
+      "diagramMapIdea": "Schematic impact diagram: Inputs (HYV seeds + Fertilisers + Tube wells) -> Dual Outcomes: Food Sovereignty vs (Groundwater Depletion + Soil Alkalinity + Regional Disparity)."
+    }
+  },
+  {
+    "id": "mains-syl-013",
+    "category": "world-history",
+    "categoryLabel": "World History",
+    "examTag": "upsc",
+    "examLabel": "UPSC CSE",
+    "question": "How did the Enlightenment philosophy of John Locke, Montesquieu, and Rousseau challenge the Ancien Régime and catalyze both the American and French Revolutions?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Norman Lowe (Mastering Modern World History); Arjun Dev (History of the World)",
+    "framework": {
+      "intro": "The 18th-century European Enlightenment marked a radical intellectual rupture, deploying rationalism, secularism, and humanism to challenge the divine right of kings, feudal privileges, and ecclesiastical authority.",
+      "body": [
+        {
+          "heading": "Philosophical Tenets of the Enlightenment",
+          "points": [
+            "John Locke (Two Treatises of Government): Natural rights to life, liberty, and property; government as a social contract deriving legitimacy from the consent of the governed.",
+            "Montesquieu (The Spirit of the Laws): Formulated the doctrine of Separation of Powers (Executive, Legislative, Judicial) to prevent autocratic despotism.",
+            "Jean-Jacques Rousseau (The Social Contract): Popular sovereignty based on the 'General Will'; equality before the law; asserted that 'Man is born free, and everywhere he is in chains'."
+          ]
+        },
+        {
+          "heading": "Revolutionary Manifestations",
+          "points": [
+            "American Revolution (1776): Thomas Jefferson directly incorporated Locke's natural rights into the Declaration of Independence; the US Constitution adopted Montesquieu's separation of powers.",
+            "French Revolution (1789): The Third Estate drew directly on Rousseau to draft the 'Declaration of the Rights of Man and of the Citizen' (Liberty, Equality, Fraternity), overthrowing the absolute monarchy of Louis XVI."
+          ]
+        }
+      ],
+      "conclusion": "Enlightenment thought provided the institutional and ideological grammar of modern democratic constitutionalism, permanently delegitimizing feudal privilege and absolute monarchs.",
+      "diagramMapIdea": "Triangular flowchart: Locke (Natural Rights) + Montesquieu (Separation of Powers) + Rousseau (General Will) -> American 1776 & French 1789 Revolutions."
+    }
+  },
+  {
+    "id": "mains-syl-014",
+    "category": "world-history",
+    "categoryLabel": "World History",
+    "examTag": "upsc",
+    "examLabel": "UPSC CSE",
+    "question": "Critically analyze the proposition that the punitive terms of the Treaty of Versailles (1919) contained the structural seeds of World War II.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Norman Lowe; E.H. Carr (The Twenty Years' Crisis); A.J.P. Taylor",
+    "framework": {
+      "intro": "The Treaty of Versailles, signed on 28 June 1919 in the Hall of Mirrors, concluded World War I. However, its punitive terms and revanchist framework alienated Germany, creating political fertile ground for totalitarian aggression.",
+      "body": [
+        {
+          "heading": "Punitive Clauses of the Treaty",
+          "points": [
+            "War Guilt Clause (Article 231): Assigned sole legal and moral responsibility for World War I to Germany and its allies.",
+            "Crushing Economic Reparations: Imposed an astronomical liability of 132 billion gold marks (6.6 billion pounds), crippling the Weimar economy and triggering the hyperinflation of 1923.",
+            "Territorial Amputations: Loss of Alsace-Lorraine to France, Eupen-Malmedy to Belgium, the Polish Corridor separating East Prussia, and surrender of all overseas colonial mandates.",
+            "Military Demilitarization: German army capped at 100,000 volunteers; total ban on submarines, tanks, and air forces; permanent demilitarization of the Rhineland."
+          ]
+        },
+        {
+          "heading": "Catalyst for World War II",
+          "points": [
+            "Weimar Delegitimization: Fostered the toxic 'Dolchstoßlegende' (stab-in-the-back myth) exploited by Adolf Hitler's Nazi party.",
+            "Failure of the League of Nations: Lacked an enforcement army and excluded the United States, leaving the post-war order vulnerable to fascist revanchism."
+          ]
+        }
+      ],
+      "conclusion": "Rather than establishing a durable peace, Versailles was, as French Marshal Ferdinand Foch presciently declared, 'not peace, but an armistice for twenty years'.",
+      "diagramMapIdea": "Causal pathway diagram: Article 231 & Reparations -> Hyperinflation & Weimar Fragility -> Rise of Hitler -> Rhineland & Sudetenland Remilitarization -> World War II."
+    }
+  },
+  {
+    "id": "mains-syl-015",
+    "category": "world-history",
+    "categoryLabel": "World History",
+    "examTag": "upsc",
+    "examLabel": "UPSC CSE",
+    "question": "Assess the relevance and evolution of the Non-Aligned Movement (NAM) in the post-Cold War multipolar world. How did India's leadership shape its non-bloc strategic orientation?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Norman Lowe; Ramachandra Guha; C. Raja Mohan",
+    "framework": {
+      "intro": "Born at the Belgrade Conference (1961) under the stewardship of Jawaharlal Nehru, Josip Broz Tito, and Gamal Abdel Nasser, the Non-Aligned Movement sought strategic autonomy for newly decolonized nations resisting Cold War superpower bipolarity.",
+      "body": [
+        {
+          "heading": "Genesis and Core Principles (Panchsheel)",
+          "points": [
+            "Rejection of Military Blocs: Refusal to join NATO or the Warsaw Pact, preserving independent foreign policy decision-making.",
+            "Panchsheel (1954): Mutual respect for sovereignty, non-aggression, non-interference, equality, and peaceful coexistence.",
+            "Anti-Colonial Solidarity: Championed global decolonization, anti-apartheid campaigns in South Africa, and nuclear disarmament."
+          ]
+        },
+        {
+          "heading": "Post-Cold War Relevance & Multipolarity",
+          "points": [
+            "Critique of Obsolescence: Dissolution of the USSR (1991) led critics to question the relevance of non-alignment in a unipolar/multipolar world.",
+            "Transition to Strategic Autonomy: NAM's normative core survives as 'strategic autonomy' and multi-alignment, allowing nations like India to engage Washington, Moscow, and Beijing concurrently based on national interest.",
+            "Global South Advocacy: Mobilizing developing nations on climate finance equity, debt distress, and democratization of global governance institutions (UNSC, IMF, WTO)."
+          ]
+        }
+      ],
+      "conclusion": "While rigid bloc confrontation has faded, the fundamental objective of non-alignment—preventing great-power hegemony and defending sovereign development—remains vital for the Global South.",
+      "diagramMapIdea": "Schematic matrix: Classical NAM (Cold War Bipolarity / Rejection of Blocs) vs Contemporary Strategic Autonomy (Multipolarity / Issue-based Issue-Coalitions)."
+    }
+  },
+  {
+    "id": "mains-syl-016",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "examTag": "upsc",
+    "examLabel": "UPSC CSE",
+    "question": "Compare and contrast the morphological, architectural, and sculptural features of Nagara, Dravida, and Vesara temple styles. How do their ground plans reflect canonical Vastu-shastra prescriptions?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Nitin Singhania, Ch. 1; Percy Brown (Indian Architecture); NCERT Class 11 An Introduction to Indian Art",
+    "framework": {
+      "intro": "Classical Indian temple architecture evolved distinct regional idioms rooted in common canonical texts (Vastu-shastra, Manasara), crystallizing into the Northern Nagara, Southern Dravida, and transitional Deccan Vesara orders.",
+      "body": [
+        {
+          "heading": "Comparative Morphological Features",
+          "points": [
+            "Nagara Style (North India): Characterized by curvilinear shikhara (Latina/Rekha-prasada, Phamsana, Valabhi); absence of elaborate boundary walls or monumental gateways; temples built on elevated stone platforms (Jagati); river goddesses Ganga and Yamuna at sanctum doorjambs.",
+            "Dravida Style (South India): Characterized by a pyramidal stepped tower (Vimana) crowned by an octagonal/circular Shikhara; monumental ornate gateway towers (Gopurams); fortified boundary walls (Prakara); enclosed sacred water tank (Kalyani/Pushkarini); Dvarapalas flanking the Garbhagriha.",
+            "Vesara Style (Deccan / Chalukyas & Hoysalas): Hybrid synthesis blending curvilinear Nagara verticality with stepped Dravida horizontal tiers; stellate (star-shaped) ground plans; soapstone carvings with high-relief friezes (e.g., Belur, Halebidu, Pattadakal)."
+          ]
+        },
+        {
+          "heading": "Ground Plans & Sacred Geometry",
+          "points": [
+            "Vastu Purusha Mandala: Both traditions design the Garbhagriha as the unmoving metaphysical center (Brahmasthana), with circumambulatory paths (Pradakshina Patha) transitioning devotees from the mundane to the transcendent."
+          ]
+        }
+      ],
+      "conclusion": "These three architectural orders embody the sophisticated convergence of structural engineering, canonical geometry, and spiritual symbolism in classical Indian civilization.",
+      "diagramMapIdea": "Comparative tri-panel diagram: Nagara (Curvilinear Shikhara + Amalaka + Kalasha) vs Dravida (Pyramidal Vimana + Gopuram + Pushkarini) vs Vesara (Stellate Plan + Soapstone Friezes)."
+    }
+  },
+  {
+    "id": "mains-syl-017",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "examTag": "upsc",
+    "examLabel": "UPSC CSE",
+    "question": "Examine the epistemological frameworks and metaphysical doctrines of the Shad-Darshana (Six Orthodox Schools of Indian Philosophy). How do they balance logic with transcendental liberation?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Nitin Singhania, Ch. 12; Surendranath Dasgupta (A History of Indian Philosophy); Radhakrishnan",
+    "framework": {
+      "intro": "The Shad-Darshana (Six Orthodox Schools) accept the authority of the Vedas (Astika), offering rigorous epistemological instruments (Pramanas) and metaphysical frameworks aimed at the cessation of human suffering (Moksha).",
+      "body": [
+        {
+          "heading": "Rational Logic & Atomic Pluralism (Nyaya & Vaisheshika)",
+          "points": [
+            "Nyaya (Gautama): Focuses on logic and rational epistemology; validates four sources of knowledge: Pratyaksha (perception), Anumana (inference), Upamana (comparison), and Shabda (testimony).",
+            "Vaisheshika (Kanada): Naturalistic atomic pluralism (Paramanuvada); analyzes reality into seven fundamental ontological categories (Padarthas: substance, quality, action, generality, particularity, inherence, non-existence)."
+          ]
+        },
+        {
+          "heading": "Consciousness, Praxis & Non-Dualism (Sankhya, Yoga, Mimamsa & Vedanta)",
+          "points": [
+            "Sankhya (Kapila): Dualistic metaphysics positing two uncreated eternal realities: Purusha (pure consciousness) and Prakriti (dynamic matter with three Gunas: Sattva, Rajas, Tamas).",
+            "Yoga (Patanjali): Practical psychological realization of Sankhya dualism through Ashtanga Yoga (eightfold limbs: Yama, Niyama, Asana, Pranayama, Pratyahara, Dharana, Dhyana, Samadhi).",
+            "Purva Mimamsa (Jaimini): Ritual exegesis of Vedic sacrifices; defends the eternal uncreated nature of Vedic sound (Shabda Nityata) for worldly prosperity (Dharma).",
+            "Uttara Mimamsa / Vedanta (Badarayana): Philosophical inquiry into the Upanishadic nature of Brahman, Atman, and cosmic illusion (Maya), developed further by Shankara (Advaita) and Ramanuja (Vishishtadvaita)."
+          ]
+        }
+      ],
+      "conclusion": "The Shad-Darshana represent a profound integration of rigorous analytical dialectics and spiritual praxis, demonstrating that Indian philosophy was intensely rational in its quest for absolute liberation.",
+      "diagramMapIdea": "Paired analytical matrix: Nyaya-Vaisheshika (Logic & Atomism) -> Sankhya-Yoga (Dualism & Mind control) -> Mimamsa-Vedanta (Ritualism & Non-dual Brahman)."
+    }
+  },
+  {
+    "id": "mains-syl-018",
+    "category": "up-special",
+    "categoryLabel": "UP Special History",
+    "examTag": "uppsc",
+    "examLabel": "UPPSC PCS",
+    "question": "Assess the revolutionary impact of the archaeological excavations at Lahuradewa (Sant Kabir Nagar, Uttar Pradesh) on the antiquity of rice domestication and early agrarian origins in South Asia.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Archaeological Survey of India Reports; Upinder Singh; R.K. Varma",
+    "framework": {
+      "intro": "The excavations conducted by the UP State Archaeology Department at Lahuradewa in the Middle Ganga plain have fundamentally revised the chronology of South Asian agriculture, demonstrating indigenous rice domestication centuries earlier than previously postulated.",
+      "body": [
+        {
+          "heading": "Empirical Findings at Lahuradewa",
+          "points": [
+            "Deep Radiocarbon Chronology: Calibrated AMS carbon dating of charred rice grains (Oryza sativa) and carbonized plant remains date human settlement back to c. 7000–6000 BCE (Period IA).",
+            "Microscopic Phytolith Analysis: Distinct domestic morphological phytoliths and diatoms establish deliberate wetland farming rather than wild gathering.",
+            "Cord-Impressed Ware (Pottery): Discovery of rudimentary handmade cord-impressed pottery with rice husk inclusions, confirming early sedentary ceramic technology contemporaneous with farming."
+          ]
+        },
+        {
+          "heading": "Historiographical & Archaeological Significance",
+          "points": [
+            "Challenges China-Centric Hegemony: Subverts the long-held thesis that rice cultivation diffused into India exclusively from China's Yangtze Valley; validates the Middle Ganga plain as an independent cradle of early rice cultivation.",
+            "Pre-Harappan Agrarian Continuum: Demonstrates that eastern Uttar Pradesh possessed thriving agrarian and proto-ceramic communities long before mature Bronze Age urbanization.",
+            "Bone Tools & Microliths: Associated assemblages of bone points, micro-lithic tools, and animal remains illustrate a smooth transition from foraging to specialized agricultural production."
+          ]
+        }
+      ],
+      "conclusion": "Lahuradewa firmly places Uttar Pradesh at the global epicenter of early agricultural revolutions, proving that the fertile Gangetic plain nurtured sedentary civilization contemporaneously with the Fertile Crescent.",
+      "diagramMapIdea": "Chronological stratigraphy diagram of Lahuradewa: Period IA (c. 7000 BCE Corded Ware & Rice) -> Period IB (c. 3000 BCE Copper/Early Ag) -> Period II (c. 1200 BCE Early Iron)."
+    }
+  },
+  {
+    "id": "mains-syl-019",
+    "category": "up-special",
+    "categoryLabel": "UP Special History",
+    "examTag": "uppsc",
+    "examLabel": "UPPSC PCS",
+    "question": "Analyse the architectural innovations and cultural synthesis embodied in the monuments of Awadh Nawabs in Lucknow. How does Nawabi architecture diverge from classical Mughal paradigms?",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "UP Tourism Cultural Archives; Percy Brown; Rosie Llewellyn-Jones (A Fatal Friendship)",
+    "framework": {
+      "intro": "Under the patronage of the Nawabs of Awadh (1722–1856), Lucknow emerged as the cultural and artistic successor to imperial Delhi, pioneering a distinct regional architectural and civic idiom that harmonized Indo-Islamic and European neo-classical influences.",
+      "body": [
+        {
+          "heading": "Architectural Innovations & Engineering Feats",
+          "points": [
+            "Bara Imambara & Bhulbhulaiya (Asaf-ud-Daula, 1784): Built as a famine-relief public works project; features the largest columnless vaulted central hall in the world, constructed without iron girders or timber pillars; intricate multi-layered acoustic labyrinth (Bhulbhulaiya).",
+            "Lakhori Brick Masonry & Stucco Art: In the absence of local stone quarries, Awadh architects perfected the use of fine, thin Lakhori bricks bonded with lime-urad-jaggery mortar (Surkhi), finished with lustrous stucco relief carving resembling white marble.",
+            "Rumi Darwaza: Majestic 60-foot gateway modeled after Constantinople's Bab-i-Humayun (Sublime Porte), featuring a grand semi-circular arch and chhatri kiosks."
+          ]
+        },
+        {
+          "heading": "Cultural Synthesis & Ganga-Jamuni Tehzeeb",
+          "points": [
+            "Secular & Religious Inclusivity: Imambaras, Karbalas, and Ghats accommodated Shia mourning rituals alongside Hindu festivities like Holi and Diwali.",
+            "Later European Hybridity: Chhatar Manzil and Kaiserbagh palace complexes assimilated Venetian baroque domes, Corinthian columns, and Greco-Roman pediments into traditional Nawabi layouts."
+          ]
+        }
+      ],
+      "conclusion": "Awadh architecture reflects the creative vitality of late 18th-century regional state-building, creating an indelible architectural expression of Lucknow's composite Ganga-Jamuni Tehzeeb.",
+      "diagramMapIdea": "Cross-sectional architectural diagram of the Bara Imambara vaulted central hall illustrating interlocking Lakhori brick interlocking cantilever mechanics without central pillar supports."
+    }
+  },
+  {
+    "id": "mains-syl-020",
+    "category": "art-culture",
+    "categoryLabel": "Art & Culture",
+    "examTag": "uppsc",
+    "examLabel": "UPPSC PCS",
+    "question": "Trace the historical evolution of Kathak dance from temple storytellers to the royal courts of Awadh. Differentiate between the technical nuances of the Lucknow and Banaras Gharanas.",
+    "marks": 15,
+    "wordLimit": 250,
+    "bookRef": "Nitin Singhania, Ch. 2; Sunil Kothari (Kathak: Indian Classical Dance Art); Kapila Vatsyayan",
+    "framework": {
+      "intro": "Kathak, the preeminent classical dance tradition of North India, derives its name from 'Katha' (story). Over centuries, it evolved from temple devotional narrations by Kathakars into an exquisite courtly classical art form in Uttar Pradesh.",
+      "body": [
+        {
+          "heading": "Historical Evolution & Royal Patronage",
+          "points": [
+            "Ancient Roots: Mentioned in Bharata's Natyashastra; originally performed by wandering bards recounting episodes from the Ramayana and Bhagavata Purana.",
+            "Mughal & Awadh Court Metamorphosis: Migrated to imperial courts, absorbing Persian elements such as the Angarkha dress, courtly salaams, fast-paced footwork (Tatkar), and rapid pirouettes (Chakkars).",
+            "Nawab Wajid Ali Shah: The ultimate patron at Lucknow who studied Kathak under Thakur Prasad, composed thumris under pen-name 'Akhtarpiya', and staged grand Rahas ballets."
+          ]
+        },
+        {
+          "heading": "Comparison: Lucknow vs Banaras Gharana",
+          "points": [
+            "Lucknow Gharana (Ishwari Prasad lineage): Renowned for 'Nazakat' (delicacy), subtle expressive gestures (Bhava), intricate Abhinaya on Thumri and Dadra verses, and graceful torso movements.",
+            "Banaras Gharana (Janki Prasad lineage): Characterized by vigorous and crisp footwork, exclusive use of pure Natwari bols rather than tabla/pakhawaj syllables, robust Tatkar executions, and deeply devotional Shiva/Krishna motifs."
+          ]
+        }
+      ],
+      "conclusion": "Kathak exemplifies the composite artistic synthesis of Uttar Pradesh, preserving ancient spiritual storytelling while dazzling with refined rhythmic virtuosity.",
+      "diagramMapIdea": "Comparative aesthetic table: Lucknow Gharana (Nazakat, Thumri Bhava, courtly grace) vs Banaras Gharana (Natwari bols, robust footwork, Shaivite devotion)."
+    }
   }
 ]

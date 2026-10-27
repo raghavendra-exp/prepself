@@ -14,6 +14,7 @@ const HistoryPractice = (() => {
   let activeSection = 'prelims'; // 'prelims' or 'mains'
   let activeCategory = 'all';
   let activeBook = 'all';
+  let activeExam = 'all';
   let pyqOnly = false;
   let searchQuery = '';
   let currentPage = 1;
@@ -33,7 +34,9 @@ const HistoryPractice = (() => {
     { id: 'modern', label: 'Modern India' },
     { id: 'art-culture', label: 'Art & Culture' },
     { id: 'world-history', label: 'World History' },
-    { id: 'up-history', label: 'UP Special' }
+    { id: 'up-history', label: 'UP Special' },
+    { id: 'ro-hindi', label: 'RO/ARO General Hindi' },
+    { id: 'science-tech', label: 'General Science & Tech' }
   ];
 
   // Load saved state
@@ -110,19 +113,59 @@ const HistoryPractice = (() => {
       case 'satish-chandra': return ref.includes('satish');
       case 'spectrum': return ref.includes('spectrum');
       case 'bipan-chandra': return ref.includes('bipan');
+      case 'bl-grover': return ref.includes('grover');
+      case 'james-tod': return ref.includes('tod') || ref.includes('rajasthan');
+      case 'harari': return ref.includes('harari') || ref.includes('sapiens');
+      case 'gandhi': return ref.includes('gandhi') || ref.includes('truth');
+      case 'pratik-nayak': return ref.includes('pratik') || ref.includes('nayak');
       case 'nitin-singhania': return ref.includes('singhania');
       case 'norman-lowe': return ref.includes('norman') || ref.includes('lowe');
+      case 'basham': return ref.includes('basham');
+      case 'dube': return ref.includes('dube');
+      case 'ishani-pandya': return ref.includes('ishani') || ref.includes('pandya');
+      case 'ghatna-chakra': return ref.includes('ghatna') || ref.includes('chakra');
+      case 'banking-awareness': return ref.includes('banking') || ref.includes('reserve bank') || ref.includes('rbi');
+      case 'rrb-kiran': return ref.includes('lucent') || ref.includes('rrb') || ref.includes('railway');
       default: return true;
+    }
+  }
+
+  function matchesExam(item, selectedExam) {
+    if (selectedExam === 'all') return true;
+    const tag = (item.examTag || '').toLowerCase();
+    const yr = ((item.yearRef || '') + ' ' + (item.source || '') + ' ' + (item.year || '')).toLowerCase();
+    
+    switch (selectedExam) {
+      case 'upsc':
+        return tag === 'upsc' || yr.includes('upsc') || yr.includes('cse') || (!tag && !yr.includes('uppsc') && !yr.includes('ro/aro') && !yr.includes('bank') && !yr.includes('rrb'));
+      case 'uppsc':
+        return tag === 'uppsc' || yr.includes('uppsc') || yr.includes('pcs');
+      case 'ro-aro':
+        return tag === 'ro-aro' || tag === 'roaro' || yr.includes('ro/aro') || yr.includes('ro-aro') || yr.includes('samiksha');
+      case 'bank':
+        return tag === 'bank' || yr.includes('bank') || yr.includes('ibps') || yr.includes('sbi') || yr.includes('rbi');
+      case 'rrb':
+        return tag === 'rrb' || yr.includes('rrb') || yr.includes('railway') || yr.includes('ntpc');
+      default:
+        return true;
     }
   }
 
   function getFilteredPrelims() {
     return prelimsData.filter(q => {
-      if (activeCategory !== 'all' && q.category !== activeCategory) return false;
+      if (activeCategory !== 'all') {
+        const cat = q.category || q.periodId || '';
+        if (cat !== activeCategory && 
+            !(activeCategory === 'up-history' && (cat === 'up-special' || cat === 'ro-hindi')) && 
+            !(activeCategory === 'world-history' && cat === 'world')) {
+          return false;
+        }
+      }
       if (pyqOnly && !q.isPyq) return false;
       if (!matchesBook(q.bookRef, activeBook)) return false;
+      if (!matchesExam(q, activeExam)) return false;
       if (searchQuery) {
-        const qText = (q.question + ' ' + (q.options ? q.options.join(' ') : '') + ' ' + (q.explanation || '') + ' ' + (q.trap || '') + ' ' + (q.topperTip || '') + ' ' + (q.bookRef || '')).toLowerCase();
+        const qText = (q.question + ' ' + (q.options ? q.options.join(' ') : '') + ' ' + (q.explanation || '') + ' ' + (q.trap || '') + ' ' + (q.topperTip || '') + ' ' + (q.bookRef || '') + ' ' + (q.examLabel || '')).toLowerCase();
         if (!qText.includes(searchQuery)) return false;
       }
       return true;
@@ -131,9 +174,17 @@ const HistoryPractice = (() => {
 
   function getFilteredMains() {
     return mainsData.filter(m => {
-      if (activeCategory !== 'all' && m.category !== activeCategory) return false;
+      if (activeCategory !== 'all') {
+        const cat = m.category || m.periodId || '';
+        if (cat !== activeCategory && 
+            !(activeCategory === 'up-history' && cat === 'up-special') && 
+            !(activeCategory === 'world-history' && cat === 'world')) {
+          return false;
+        }
+      }
       if (pyqOnly && !m.isPyq) return false;
       if (!matchesBook(m.bookRef, activeBook)) return false;
+      if (!matchesExam(m, activeExam)) return false;
       if (searchQuery) {
         const mText = (m.question + ' ' + (m.bookRef || '') + ' ' + (m.framework ? (m.framework.intro + ' ' + m.framework.conclusion) : '')).toLowerCase();
         if (!mText.includes(searchQuery)) return false;
@@ -256,8 +307,9 @@ const HistoryPractice = (() => {
         <div class="q-head">
           <div class="q-meta">
             <span class="badge badge-site badge-${q.category}">${q.categoryLabel || q.category}</span>
+            ${q.examLabel ? `<span class="badge" style="background:#0284c7; color:#f0f9ff; font-weight:700;">🏷️ ${q.examLabel}</span>` : ''}
             ${q.isPyq ? `<span class="badge" style="background:#854d0e; color:#fef08a; font-weight:700;">🏆 Authentic PYQ</span>` : ''}
-            <span class="q-year">${q.yearRef || 'UPSC CSE Pattern'}</span>
+            <span class="q-year">${q.source || q.yearRef || (q.year ? 'Year ' + q.year : 'Competitive Exam Pattern')}</span>
             ${q.bookRef ? `<span class="q-book">📚 ${q.bookRef}</span>` : ''}
           </div>
           <span class="q-id">#${q.id.toUpperCase()}</span>
@@ -614,6 +666,12 @@ const HistoryPractice = (() => {
     renderContent();
   }
 
+  function onExamChange(val) {
+    activeExam = val;
+    currentPage = 1;
+    renderContent();
+  }
+
   function togglePyqFilter() {
     pyqOnly = !pyqOnly;
     currentPage = 1;
@@ -625,16 +683,19 @@ const HistoryPractice = (() => {
   function clearFilters() {
     activeCategory = 'all';
     activeBook = 'all';
+    activeExam = 'all';
     pyqOnly = false;
     searchQuery = '';
     currentPage = 1;
 
     const sInput = document.getElementById('practiceSearch');
     const bSelect = document.getElementById('bookFilter');
+    const eSelect = document.getElementById('examFilter');
     const pBtn = document.getElementById('pyqFilterBtn');
 
     if (sInput) sInput.value = '';
     if (bSelect) bSelect.value = 'all';
+    if (eSelect) eSelect.value = 'all';
     if (pBtn) pBtn.classList.remove('active');
 
     renderCategoryChips();
@@ -742,6 +803,7 @@ const HistoryPractice = (() => {
     setCategory,
     onSearchChange,
     onBookChange,
+    onExamChange,
     togglePyqFilter,
     clearFilters,
     goToPage,
